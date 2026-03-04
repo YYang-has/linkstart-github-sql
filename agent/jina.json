@@ -1,0 +1,218 @@
+{
+  "slug": "jina",
+  "brandslug": "jina",
+  "namejsonb": {
+    "en": "Jina",
+    "zh": "Jina",
+    "ja": "Jina",
+    "ko": "Jina",
+    "es": "Jina"
+  },
+  "taglinejsonb": {
+    "en": "Search Foundation APIs for embeddings, reranking, and LLM-friendly web reading",
+    "zh": "面向开发者的搜索基础能力：Embedding、Rerank 与 LLM 友好网页读取",
+    "ja": "埋め込み・リランキング・LLM向けWeb読み取りのための検索基盤API",
+    "ko": "임베딩·리랭커·웹 리더를 묶은 검색 파운데이션 API",
+    "es": "APIs de base para búsqueda: embeddings, reranking y lectura web “LLM-friendly”"
+  },
+  "descriptionjsonb": {
+    "en": "> **Executive Summary:** Jina is a search foundation platform that provides APIs for embeddings, reranking, and an LLM-friendly web reader. It’s built for teams shipping RAG, enterprise search, and data extraction pipelines who need predictable rate limits and token-based scaling. If you want a modular “search layer” rather than a full app, Jina is a practical choice.\n\nJina groups multiple “Search Foundation” capabilities behind a single API-key workflow: embeddings for vectorization, rerankers for precision, and a Reader API that converts URLs into clean, model-ready text.\n\nQuantitative details you can plan around: new API keys include 1,000,000 free tokens (non-commercial) and token top-ups are available in larger bundles (e.g., 1B or 11B tokens), while rate limits are tiered (Free: 100 RPM, 100K TPM, 2 concurrent; Paid: 500 RPM, 2M TPM, 50 concurrent; Premium: 5,000 RPM, 50M TPM, 500 concurrent) plus an IP-based limit of 10,000 requests per 60 seconds.\n\nPricing: Jina offers a Free plan, with paid tiers starting at 1B tokens (top-up). It is about average for this category.\n\nWhere it fits best: RAG pipelines (retrieval + rerank), LLM web grounding (Reader as a preprocessor), and automation flows via <a href=\"https://www.linkstartai.com/en/agents/n8n\" target=\"_blank\">n8n</a>, <a href=\"https://www.linkstartai.com/en/agents/zapier\" target=\"_blank\">Zapier</a>, or developer stacks built with <a href=\"https://www.linkstartai.com/en/agents/langchain\" target=\"_blank\">LangChain</a>.",
+    "zh": "> **Executive Summary:** Jina 提供面向检索与“搜索层”的基础 API：Embedding、Rerank 与网页 Reader。它适合在做 RAG、企业搜索、网页内容抽取的团队，用 token 计费来弹性扩展，并用明确的 RPM/TPM/并发上限来做容量规划。如果你需要的是“可组合的检索组件”，而不是一体化应用，Jina 很实用。\n\nJina 把多种 Search Foundation 能力整合到同一套 API Key 与计费体系中：Embedding 负责向量化，Rerank 提升命中精度，Reader API 将 URL 转成更适合 LLM 消化的干净文本。\n\n可落地的量化信息：新 API Key 自带 1,000,000 免费 tokens（非商业），并支持按 token 包充值（例如 1B 或 11B tokens）；同时提供分层限流（Free：100 RPM、100K TPM、2 并发；Paid：500 RPM、2M TPM、50 并发；Premium：5,000 RPM、50M TPM、500 并发），并另有按 IP 的 10,000 次/60 秒上限。\n\n定价：Jina 提供 Free 方案，付费从 1B tokens（充值包）起步。就该类别而言，整体成本大致处于平均水平。\n\n集成落点：把 Reader 当作“网页预处理器”，再接 RAG；或通过 <a href=\"https://www.linkstartai.com/zh/agents/n8n\" target=\"_blank\">n8n</a> / <a href=\"https://www.linkstartai.com/zh/agents/zapier\" target=\"_blank\">Zapier</a> 做自动化；以及用 <a href=\"https://www.linkstartai.com/zh/agents/langchain\" target=\"_blank\">LangChain</a> 串起向量库与应用逻辑。",
+    "ja": "> **Executive Summary:** Jina は、埋め込み（Embeddings）・リランキング（Rerank）・LLM向けWeb Reader を API として提供する検索基盤です。RAG、社内検索、URL→クリーンテキスト変換のパイプラインを作る開発チーム向けで、トークン課金と明確なレート制限で運用設計がしやすいのが強みです。\n\nJina は 1 つの API Key で Search Foundation 機能を横断利用でき、Embeddings でベクトル化、Reranker で精度改善、Reader で URL をモデル入力に適したテキストへ整形できます。\n\n計画に使える数値：新しい API Key には 1,000,000 の無料トークン（非商用）が付与され、より大きなトークン束（例：1B / 11B トークン）でトップアップ可能です。さらに、Free（100 RPM / 100K TPM / 同時 2）、Paid（500 RPM / 2M TPM / 同時 50）、Premium（5,000 RPM / 50M TPM / 同時 500）という段階的な上限に加え、IP ベースで 60 秒あたり 10,000 リクエストの制限があります。\n\n料金：Jina は Free プランがあり、有料は 1B トークン（トップアップ）から開始します。このカテゴリでは平均的なコスト感です。\n\n活用パターン：Reader を前処理として使い RAG に接続、または <a href=\"https://www.linkstartai.com/ja/agents/n8n\" target=\"_blank\">n8n</a> / <a href=\"https://www.linkstartai.com/ja/agents/zapier\" target=\"_blank\">Zapier</a> で自動化、<a href=\"https://www.linkstartai.com/ja/agents/langchain\" target=\"_blank\">LangChain</a> でアプリ実装を高速化。",
+    "ko": "> **Executive Summary:** Jina는 임베딩, 리랭킹, 그리고 LLM 친화적인 웹 Reader를 API로 제공하는 ‘검색 파운데이션’ 플랫폼입니다. RAG, 엔터프라이즈 검색, URL 콘텐츠 정제 파이프라인을 운영하는 팀이 토큰 기반 과금과 명확한 레이트리밋으로 규모를 예측 가능하게 설계할 때 특히 유용합니다.\n\nJina는 하나의 API 키 흐름으로 Embeddings(벡터화)·Reranker(정확도 보정)·Reader(URL→클린 텍스트)를 묶어 “검색 레이어”를 구성할 수 있게 합니다.\n\n운영에 바로 쓰는 수치: 신규 API 키는 1,000,000 무료 토큰(비상업용)을 제공하며, 더 큰 토큰 번들(예: 1B/11B 토큰)로 충전할 수 있습니다. 또한 티어별 레이트리밋(Free: 100 RPM, 100K TPM, 동시 2 / Paid: 500 RPM, 2M TPM, 동시 50 / Premium: 5,000 RPM, 50M TPM, 동시 500)과 IP 기반 60초당 10,000 요청 제한이 있습니다.\n\n가격: Jina는 Free 플랜을 제공하며, 유료는 1B 토큰(충전)부터 시작합니다. 이 카테고리 평균 수준의 비용 구조입니다.\n\n워크플로우: Reader를 웹 전처리로 쓰고 RAG에 붙이거나, <a href=\"https://www.linkstartai.com/ko/agents/n8n\" target=\"_blank\">n8n</a> / <a href=\"https://www.linkstartai.com/ko/agents/zapier\" target=\"_blank\">Zapier</a>로 자동화하고, <a href=\"https://www.linkstartai.com/ko/agents/langchain\" target=\"_blank\">LangChain</a> 기반 앱에 쉽게 통합하는 방식이 잘 맞습니다.",
+    "es": "> **Executive Summary:** Jina es una plataforma “search foundation” que ofrece APIs de embeddings, reranking y un Reader web listo para LLM. Está pensada para equipos que construyen RAG, búsqueda interna y pipelines de extracción donde importan los límites (RPM/TPM/concurrencia) y un escalado predecible por tokens. Si necesitas una capa modular de búsqueda, Jina encaja muy bien.\n\nCon una sola clave de API, Jina te deja combinar embeddings (vectorización), rerankers (mejor precisión) y Reader (URL → texto limpio y usable por modelos) en el mismo flujo.\n\nNúmeros útiles para operar: las nuevas API keys incluyen 1.000.000 tokens gratis (uso no comercial) y puedes recargar con paquetes mayores (por ejemplo 1B u 11B tokens). Además, hay límites por tier (Free: 100 RPM, 100K TPM, 2 concurrentes; Paid: 500 RPM, 2M TPM, 50 concurrentes; Premium: 5.000 RPM, 50M TPM, 500 concurrentes) y un límite por IP de 10.000 requests por 60 segundos.\n\nPrecios: Jina ofrece un plan Free, con planes de pago que empiezan en 1B tokens (recarga). En esta categoría, su costo es aproximadamente promedio.\n\nIntegraciones: automatiza ingestion y “web grounding” con <a href=\"https://www.linkstartai.com/es/agents/n8n\" target=\"_blank\">n8n</a> o <a href=\"https://www.linkstartai.com/es/agents/zapier\" target=\"_blank\">Zapier</a>, y construye rápido con <a href=\"https://www.linkstartai.com/es/agents/langchain\" target=\"_blank\">LangChain</a>."
+  },
+  "categoryid": "9b22fd7d-48b6-4db3-a3f3-cfe4799581a8",
+  "solutioncategoryid": "693c2d0e-365d-4881-9554-fc5ab00694d1",
+  "websiteurl": "https://jina.ai/",
+  "logourl": "https://objectstorageapi.ap-northeast-1.clawcloudrun.com/ers584z3-nexminute-images/icon/jina.jpg",
+  "pricingmodel": "freemium",
+  "paidoptionsfrom": 0,
+  "billingfrequency": "usage",
+  "rating": 4.0,
+  "reviewcount": 0,
+  "supportedlanguages": ["en", "zh", "ja", "ko", "es"],
+  "tagsjsonb": {
+    "en": ["RAGRetrieval", "Reranking", "WebReader", "EmbeddingsAPI", "SearchInfrastructure", "TokenBilling"],
+    "zh": ["RAG检索", "重排序", "网页Reader", "EmbeddingAPI", "搜索基础设施", "Token计费"],
+    "ja": ["RAG検索", "リランキング", "WebReader", "埋め込みAPI", "検索基盤", "トークン課金"],
+    "ko": ["RAG검색", "리랭킹", "웹리더", "임베딩API", "검색인프라", "토큰과금"],
+    "es": ["RAG", "Reranking", "WebReader", "APIEmbeddings", "InfraBusqueda", "PagoPorTokens"]
+  },
+  "featuresjsonb": {
+    "en": ["Reader API: URL to clean, LLM-ready text", "Embeddings + rerankers under one API key", "Tiered rate limits (RPM/TPM/concurrency) for planning", "Token top-ups for usage-based scaling"],
+    "zh": ["Reader API：URL 转干净可用文本", "Embedding + Rerank 统一 API Key", "分层限流（RPM/TPM/并发）便于容量规划", "Token 充值包实现按量扩展"],
+    "ja": ["Reader API：URL→LLM向けクリーンテキスト", "Embeddings＋Rerank を 1 つのキーで利用", "段階的なレート制限（RPM/TPM/同時数）", "トークントップアップで従量拡張"],
+    "ko": ["Reader API: URL을 LLM 친화 텍스트로 변환", "임베딩+리랭커를 단일 API 키로 사용", "티어별 레이트리밋(RPM/TPM/동시성) 제공", "토큰 충전 기반의 사용량 스케일링"],
+    "es": ["Reader API: URL a texto limpio listo para LLM", "Embeddings + reranking con una sola API key", "Rate limits por tier (RPM/TPM/concurrencia) para planificar", "Recargas por tokens para escalar por uso"]
+  },
+  "videosjsonb": [
+    {
+      "type": "youtube",
+      "videoId": "SLv6tSEKYOg",
+      "title": "How to get your Jina AI API key with 1M free tokens and top it up",
+      "uploadDate": "2024-10-16T00:00:00Z",
+      "description": "Walkthrough: get API key, free tokens, and token top-ups.",
+      "duration": "PT1M59S"
+    }
+  ],
+  "verdictjsonb": {
+    "en": "Jina is the pragmatic choice for **developers and platform teams** who need **RAG retrieval + reranking + LLM-friendly web reading** with clear rate limits and token-based scaling. It shines when you want a modular search layer you can plug into n8n/Zapier pipelines. The trade-off is that pricing clarity may live inside the billing UI and you’ll still need solid prompt + evaluation discipline for end-to-end quality.",
+    "zh": "Jina 是面向 **开发者与平台团队** 的务实选择，适合需要 **RAG 检索 + 重排序 + LLM 友好网页读取** 且希望用明确限流与 token 计费做容量管理的场景。它在把“搜索层”模块化接入自动化流程（如 n8n/Zapier）时尤其顺手。代价是价格细节往往需要在计费页面里确认，而且最终效果仍依赖你的评测与提示工程体系。",
+    "ja": "Jina は **開発者・プラットフォームチーム** が **RAG の検索＋リランキング＋LLM向けWeb読み取り** を、明確な上限とトークン課金で運用したいときに堅実な選択肢です。n8n/Zapier に差し込める“検索レイヤー”として強みがあります。一方で、価格の細部は課金UI側での確認が必要になりやすく、品質は評価設計に左右されます。",
+    "ko": "Jina는 **개발자·플랫폼 팀**이 **RAG 검색+리랭킹+LLM 친화 웹 리딩**을 명확한 레이트리밋과 토큰 과금으로 운영하고 싶을 때 현실적인 선택입니다. n8n/Zapier 파이프라인에 ‘검색 레이어’로 꽂기 좋습니다. 다만 가격 세부는 빌링 UI에서 확인해야 할 수 있고, 최종 품질은 평가/프롬프트 체계에 따라 달라집니다.",
+    "es": "Jina es una opción muy sólida para **equipos de ingeniería y plataforma** que necesitan **retrieval RAG + reranking + lectura web lista para LLM** con límites claros y escalado por tokens. Destaca como “capa de búsqueda” modular que puedes enchufar a flujos n8n/Zapier. A cambio, el detalle fino del precio puede estar en el panel de billing y la calidad final depende de tu evaluación y prompting."
+  },
+  "expertquote": "LinkStart AI Lab note: 'Jina works best when you treat it as a composable search layer—Reader for normalization, embeddings for recall, rerank for precision—and you enforce offline evaluation to prevent silent quality regressions.'",
+  "pros": {
+    "en": ["Clear tiered limits (RPM/TPM/concurrency) for production planning", "Single-key access across multiple search primitives (reader/embeddings/rerank)", "Strong fit for RAG and web grounding workflows"],
+    "zh": ["限流指标清晰（RPM/TPM/并发），方便做生产容量规划", "同一套 Key 覆盖 Reader/Embedding/Rerank 等基础能力", "对 RAG 与网页 grounding 工作流契合度高"],
+    "ja": ["運用設計に必要な上限（RPM/TPM/同時数）が明確", "Reader/Embeddings/Rerank を 1 つのキーで統合利用", "RAG と Web グラウンディングの相性が良い"],
+    "ko": ["운영 설계에 필요한 티어별 한도(RPM/TPM/동시성)가 명확", "Reader/임베딩/리랭크를 단일 키로 묶어 사용", "RAG 및 웹 그라운딩 워크플로에 적합"],
+    "es": ["Límites por tier claros (RPM/TPM/concurrencia) para operar en producción", "Una sola API key para reader/embeddings/rerank", "Encaja muy bien en flujos RAG y web grounding"]
+  },
+  "cons": {
+    "en": ["Monetary pricing details can be harder to see without opening billing", "You still need evaluation harnesses; rerankers don’t fix bad queries automatically", "Self-hosting open-source components adds infra complexity"],
+    "zh": ["金额层面的价格细节可能需要进入计费页面才能看清", "仍需自建评测体系；Rerank 不能自动修复糟糕查询", "若自建开源组件，会带来额外运维与架构复杂度"],
+    "ja": ["金額の見通しは課金UIでの確認が必要になりがち", "評価基盤は必須。リランキングだけで品質は保証できない", "OSS 自前運用はインフラ負荷が増える"],
+    "ko": ["금액 기준 가격은 빌링 UI에서 확인해야 할 수 있음", "평가 하네스가 필요하며 리랭커가 만능은 아님", "오픈소스 셀프호스팅은 인프라 복잡도가 증가"],
+    "es": ["El detalle del precio en dinero puede requerir revisar el panel de billing", "Necesitas evaluación propia; el reranking no arregla consultas malas por sí solo", "Auto-hospedar OSS suma complejidad de infraestructura"]
+  },
+  "faqsjsonb": [
+    {
+      "question": {
+        "en": "Is Jina better than a DIY “scrape + LLM summarize” pipeline for web grounding?",
+        "zh": "做网页 grounding 时，Jina 比“自己爬网页 + 直接喂 LLM 总结”更好吗？",
+        "ja": "Webグラウンディングで、Jina は「自前スクレイプ＋LLM要約」より良い？",
+        "ko": "웹 그라운딩에서 Jina가 ‘직접 스크래핑+LLM 요약’보다 나은가요?",
+        "es": "¿Jina es mejor que un flujo casero “scrapear + LLM resumir” para grounding web?"
+      },
+      "answer": {
+        "en": "The core difference is reliability: Jina’s Reader is designed to normalize URLs into LLM-ready text with consistent limits, while DIY scraping often breaks on HTML edge cases and anti-bot friction. While DIY can be cheaper for tiny workloads, Jina gives you predictable rate limits (RPM/TPM/concurrency) that are easier to operate in production.",
+        "zh": "核心差异在稳定性：Jina 的 Reader 目标就是把 URL 规范化为 LLM 可用文本，并提供一致的限流与并发，而自建爬虫常在 HTML 边角与反爬上“随机炸”。小规模时自建可能更省，但上生产后，Jina 这种可预测的 RPM/TPM/并发更好管。",
+        "ja": "結論は運用の安定性です。Jina の Reader は URL を一貫した形で LLM 向けテキストに正規化する設計で、DIY は HTML 例外や反ボットで破綻しがちです。小規模なら DIY が安い場合もありますが、本番では Jina の明確な上限のほうが扱いやすいです。",
+        "ko": "핵심 차이는 안정성입니다. Jina Reader는 URL을 LLM 친화 텍스트로 정규화하는 데 초점이 있고, DIY 스크래핑은 HTML 엣지케이스/안티봇에서 쉽게 깨집니다. 작은 규모에서는 DIY가 더 저렴할 수 있지만, 프로덕션에서는 Jina의 예측 가능한 레이트리밋이 유리합니다.",
+        "es": "La diferencia clave es la fiabilidad operativa: el Reader de Jina está hecho para normalizar URLs a texto consistente, mientras que el scraping casero suele fallar con HTML raro y fricción anti-bot. En cargas pequeñas, DIY puede salir más barato, pero en producción Jina ofrece límites previsibles (RPM/TPM/concurrencia) más fáciles de gestionar."
+      }
+    },
+    {
+      "question": {
+        "en": "What are Jina’s free tier and rate limits in practice?",
+        "zh": "Jina 的免费额度与限流到底是什么？",
+        "ja": "Jina の無料枠とレート制限は？",
+        "ko": "Jina 무료 티어와 레이트리밋은 어떻게 되나요?",
+        "es": "¿Cómo son el plan gratis y los límites de Jina en la práctica?"
+      },
+      "answer": {
+        "en": "Jina’s onboarding includes 1,000,000 free tokens (not for commercial use) and tiered limits such as Free: 100 RPM, 100K TPM, 2 concurrent requests. Paid tiers increase limits (e.g., 500 RPM, 2M TPM, 50 concurrent) and Premium goes higher (e.g., 5,000 RPM, 50M TPM, 500 concurrent), plus an IP-based cap of 10,000 requests per 60 seconds across APIs.",
+        "zh": "Jina 新 Key 通常包含 1,000,000 免费 tokens（非商业），并给出明确的限流：Free（100 RPM、100K TPM、2 并发）。付费会提升到更高档（如 500 RPM、2M TPM、50 并发），Premium 更高（如 5,000 RPM、50M TPM、500 并发），并额外有按 IP 的 10,000 次/60 秒上限。",
+        "ja": "Jina は新規キーで 1,000,000 の無料トークン（非商用）を提供し、Free では 100 RPM / 100K TPM / 同時 2 などの上限があります。有料では 500 RPM / 2M TPM / 同時 50、Premium では 5,000 RPM / 50M TPM / 同時 500 と拡張され、API 横断で IP ベース 10,000 リクエスト/60 秒の制限もあります。",
+        "ko": "Jina는 신규 키에 1,000,000 무료 토큰(비상업용)을 제공하고, Free 티어는 100 RPM, 100K TPM, 동시 2 같은 한도가 있습니다. 유료는 500 RPM, 2M TPM, 동시 50 등으로 올라가고 Premium은 5,000 RPM, 50M TPM, 동시 500까지 확장되며, API 전체에 IP 기반 60초당 10,000 요청 제한도 있습니다.",
+        "es": "Jina incluye 1.000.000 tokens gratis (no comercial) y límites por tier como Free: 100 RPM, 100K TPM y 2 concurrentes. En pago sube (p.ej., 500 RPM, 2M TPM, 50 concurrentes) y Premium escala más (p.ej., 5.000 RPM, 50M TPM, 500 concurrentes), además de un límite por IP de 10.000 requests por 60 segundos."
+      }
+    },
+    {
+      "question": {
+        "en": "How should I combine embeddings and reranking in Jina for a RAG system?",
+        "zh": "在 RAG 中，Jina 的 Embedding 与 Rerank 应该怎么组合？",
+        "ja": "RAG で Jina の Embeddings と Rerank をどう組み合わせる？",
+        "ko": "RAG에서 Jina 임베딩과 리리킹을 어떻게 조합하나요?",
+        "es": "¿Cómo combinar embeddings y reranking de Jina en un sistema RAG?"
+      },
+      "answer": {
+        "en": "Use embeddings for recall (retrieve a wider top-K from your vector DB), then apply a reranker to re-score and shrink to a smaller set for the LLM. While embeddings optimize semantic similarity, rerankers usually improve precision on borderline matches; the practical workflow is “retrieve wide, rerank narrow” and then feed the final context to your generator.",
+        "zh": "做法是：Embedding 用于召回（从向量库先拿一个较大的 top-K），再用 Rerank 重新打分，把候选集收敛到更小的集合再喂给 LLM。Embedding 偏相似度召回，Rerank 更擅长提升边缘样本的精确度，所以实践上就是“先宽召回、再窄重排”。",
+        "ja": "埋め込みで広めに候補を取って（ベクトルDBで大きめの top-K）、その後リランキングで再スコアして LLM に渡す候補を絞るのが基本です。埋め込みは再現率、リランキングは精度に寄るため、「広く取って、狭く整える」が定石です。",
+        "ko": "임베딩으로 넓게 후보를 가져온 뒤(벡터 DB top-K 크게), 리랭커로 재점수화해 LLM에 넣을 컨텍스트를 줄이는 방식이 정석입니다. 임베딩은 리콜에 강하고 리랭킹은 프리시전을 올리기 좋아서, ‘넓게 가져오고 좁게 정리’가 실무적으로 잘 먹힙니다.",
+        "es": "Primero usa embeddings para recall (traer un top‑K amplio desde tu vector DB) y luego aplica un reranker para re‑puntuar y quedarte con un conjunto pequeño para el LLM. Los embeddings maximizan similitud semántica, mientras el reranking suele mejorar precisión; el patrón práctico es “recuperar amplio, reordenar estrecho”."
+      }
+    },
+    {
+      "question": {
+        "en": "What are the main community pain points with Jina?",
+        "zh": "社区对 Jina 的典型吐槽点有哪些？",
+        "ja": "コミュニティで言われがちな Jina の課題は？",
+        "ko": "커뮤니티에서 자주 나오는 Jina의 불만 포인트는?",
+        "es": "¿Cuáles son los puntos de dolor más comentados por la comunidad sobre Jina?"
+      },
+      "answer": {
+        "en": "The most common theme is “scope and complexity”: as an ecosystem (framework + cloud + multiple APIs), beginners can feel the docs and getting-started path are heavy, and contributors often call out the need for clearer onboarding and examples. The practical workaround is to start with one primitive (Reader or embeddings), ship one narrow workflow, and only then expand into reranking and deeper orchestration.",
+        "zh": "最常见的是“范围太大、上手成本偏高”：Jina 既有框架生态又有云/API，初学者容易觉得文档与入门路径偏重，社区也常提需要更清晰的 onboarding 与示例。应对方式是先从一个能力点切入（Reader 或 Embedding），先跑通一个窄场景，再逐步扩展到 Rerank 与更复杂编排。",
+        "ja": "よくあるのは「範囲が広く複雑」という点です。フレームワーク/クラウド/API が混在するため、入門者はドキュメントや導線が重く感じやすく、オンボーディングや例の充実を求める声が出がちです。対策は Reader か埋め込みのどちらか 1 つに絞って小さく成功させ、段階的に広げることです。",
+        "ko": "가장 흔한 포인트는 ‘범위/복잡도’입니다. 프레임워크·클라우드·여러 API가 함께 있어서 입문자는 문서/온보딩이 무겁다고 느끼기 쉽고, 예제 강화 요구가 자주 나옵니다. 해결책은 Reader 또는 임베딩 한 가지로 좁은 워크플로를 먼저 출시한 뒤 리랭킹/오케스트레이션을 단계적으로 확장하는 것입니다.",
+        "es": "Lo más repetido es “alcance y complejidad”: como ecosistema (framework + cloud + varias APIs), a principiantes se les puede hacer pesado el onboarding y la documentación, y suele pedirse más ejemplos. El workaround práctico es empezar con un solo bloque (Reader o embeddings), entregar un flujo estrecho, y luego escalar a reranking y orquestación."
+      }
+    },
+    {
+      "question": {
+        "en": "Does Jina work well with automation tools like n8n or Zapier?",
+        "zh": "Jina 适合接 n8n / Zapier 这类自动化工具吗？",
+        "ja": "Jina は n8n / Zapier のような自動化ツールと相性が良い？",
+        "ko": "Jina는 n8n이나 Zapier 같은 자동화 툴과 잘 맞나요?",
+        "es": "¿Jina funciona bien con herramientas de automatización como n8n o Zapier?"
+      },
+      "answer": {
+        "en": "Yes—because the core interfaces are API-first and token-metered, it fits naturally into event-driven flows (new URL → Reader → store → embeddings → retrieve → rerank). The key is to add budgeting guardrails (token caps, retry limits) so your workflow doesn’t silently burn tokens on flaky sources.",
+        "zh": "可以，因为它是典型的 API-first 与 token 计费形态，很适合事件驱动的自动化链路（新 URL → Reader → 入库 → Embedding → 检索 → Rerank）。关键是加预算护栏（token 上限、重试次数与失败熔断），避免不稳定来源导致 token “默默烧掉”。",
+        "ja": "はい。API ファーストでトークン計測のため、イベント駆動の自動化（新URL→Reader→保存→埋め込み→検索→リランキング）に素直に組み込めます。重要なのは、トークン上限やリトライ回数などの予算ガードレールを必ず入れることです。",
+        "ko": "네. API-first이고 토큰 기반이라 이벤트 드리븐 플로우(새 URL→Reader→저장→임베딩→리트리브→리랭크)에 자연스럽게 붙습니다. 다만 토큰 캡/재시도 제한 같은 예산 가드레일을 넣어야 불안정 소스에서 토큰이 새는 걸 막을 수 있습니다.",
+        "es": "Sí. Al ser API-first y con métricas por tokens, encaja perfecto en flujos event-driven (URL nueva → Reader → almacenar → embeddings → recuperar → rerank). La clave es poner guardarraíles de presupuesto (cap de tokens, límites de reintentos) para no quemar tokens con fuentes inestables."
+      }
+    },
+    {
+      "question": {
+        "en": "What’s a safe privacy posture when using Jina APIs?",
+        "zh": "使用 Jina API 时，隐私与安全应该怎么做更稳妥？",
+        "ja": "Jina API 利用時のプライバシーで安全な姿勢は？",
+        "ko": "Jina API를 쓸 때 안전한 프라이버시 운영 방식은?",
+        "es": "¿Cuál es una postura segura de privacidad al usar las APIs de Jina?"
+      },
+      "answer": {
+        "en": "Treat it like any third-party AI API: never send secrets, rotate keys, and scope data to the minimum needed for the task. For sensitive workloads, prefer data minimization (redaction) and consider self-hosting open-source components where feasible to keep traffic inside your VPC, while still using the hosted API only for non-sensitive parts.",
+        "zh": "把它当作第三方 AI API 来管理：不要传机密信息，定期轮换 key，并把输入数据最小化。对敏感场景，优先做脱敏/删减，并在可行时自建开源组件把流量留在内网/VPC，把托管 API 仅用于非敏感部分。",
+        "ja": "一般的な外部 AI API と同様に扱うのが安全です。秘密情報は送らない、キーをローテーションする、入力データを最小化する。機微データはマスキングを徹底し、可能なら OSS を自前運用して VPC 内に閉じる設計も検討してください。",
+        "ko": "서드파티 AI API처럼 운영하세요. 비밀 데이터는 보내지 말고, 키 로테이션/최소 데이터 원칙을 지키는 것이 기본입니다. 민감 워크로드는 마스킹·레닥션을 하고, 가능하면 오픈소스 구성요소를 셀프호스팅해 VPC 내부로 트래픽을 묶는 방식도 고려하세요.",
+        "es": "Trátalo como cualquier API externa de IA: no envíes secretos, rota claves y minimiza datos. Para cargas sensibles, aplica redacción/anonimización y considera auto‑hospedar componentes OSS cuando sea viable para mantener el tráfico en tu VPC, usando la API alojada solo en partes no sensibles."
+      }
+    },
+    {
+      "question": {
+        "en": "How do token bundles (1B / 11B) change architecture decisions?",
+        "zh": "1B/11B 这种 token 充值包会怎样影响架构决策？",
+        "ja": "1B / 11B のトークン束は設計判断にどう影響する？",
+        "ko": "1B/11B 토큰 번들은 아키텍처 결정에 어떤 영향을 주나요?",
+        "es": "¿Cómo afectan los paquetes de tokens (1B / 11B) a decisiones de arquitectura?"
+      },
+      "answer": {
+        "en": "They push you toward budgeting and caching: aggressively cache Reader outputs, deduplicate URLs, and avoid re-embedding unchanged content. While bigger bundles can reduce unit friction, the real win is designing idempotent pipelines (same input → same output) so retries don’t multiply token spend.",
+        "zh": "它会强迫你把“预算控制”做进架构：Reader 输出要缓存、URL 要去重、内容不变就别重复 embedding。更大包可能让单位成本更可控，但真正省钱的是把流水线做成幂等（同输入同输出），避免重试把 token 成倍烧掉。",
+        "ja": "予算設計とキャッシュが重要になります。Reader の結果は積極的にキャッシュし、URL の重複排除、更新されていないコンテンツの再埋め込みを避ける。大きな束で心理的摩擦は下がりますが、幂等なパイプライン設計でリトライによる消費増を防ぐのが本質です。",
+        "ko": "예산·캐싱 중심의 설계를 하게 됩니다. Reader 결과 캐시, URL 디듀프, 변경 없는 콘텐츠 재임베딩 방지가 핵심입니다. 큰 번들이 단가 부담을 낮출 수는 있지만, 진짜 효과는 파이프라인을 멱등하게 만들어 재시도로 토큰이 증폭되지 않게 하는 데 있습니다.",
+        "es": "Te obligan a pensar en presupuesto y caché: cachea salidas del Reader, deduplica URLs y evita re‑embeddings de contenido sin cambios. Aunque bundles grandes reducen fricción, la ganancia real es diseñar pipelines idempotentes para que los reintentos no multipliquen el gasto en tokens."
+      }
+    }
+  ],
+  "seotitlejsonb": {
+    "en": "Jina Review (2026): Pricing, Free Tokens, Rate Limits, Pros/Cons & RAG Alternatives",
+    "zh": "Jina 评测（2026）：定价/免费 Tokens/限流、优缺点与 RAG 替代方案",
+    "ja": "【Jina レビュー（2026）】料金・無料トークン・制限、メリット/デメリットとRAG代替",
+    "ko": "Jina 리뷰(2026): 가격, 무료 토큰, 레이트리밋, 장단점과 RAG 대안",
+    "es": "Opiniones de Jina (2026): Precio, tokens gratis, límites, ventajas/desventajas y alternativas RAG"
+  },
+  "seodescriptionjsonb": {
+    "en": "Hands-on style review of Jina’s embeddings, reranking, and Reader API. See free tokens, tiered RPM/TPM/concurrency limits, token top-ups (1B/11B), best RAG workflows, and honest trade-offs vs DIY pipelines.",
+    "zh": "偏实战的 Jina 评测：Embedding、Rerank 与 Reader API 怎么用？包含免费 tokens、RPM/TPM/并发限流、1B/11B 充值包，以及在 RAG 与网页 grounding 中的最佳用法与真实取舍。",
+    "ja": "Jina の Embeddings/Rerank/Reader API を実務目線で解説。無料トークン、RPM/TPM/同時数の上限、1B/11B トップアップ、RAG ワークフロー最適解と DIY との差分を整理。",
+    "ko": "Jina 임베딩·리랭킹·Reader API를 실무 관점에서 정리. 무료 토큰, RPM/TPM/동시성 한도, 1B/11B 토큰 충전, RAG 워크플로 추천과 DIY 대비 트레이드오프까지.",
+    "es": "Reseña práctica de Jina: embeddings, reranking y Reader API. Incluye tokens gratis, límites por tier (RPM/TPM/concurrencia), recargas 1B/11B, workflows RAG recomendados y trade-offs reales frente a DIY."
+  },
+  "citationsdump": [
+    "tool_citations: [web:8] [web:22] [web:7] [web:5] [web:26]",
+    "https://www.youtube.com/watch?v=SLv6tSEKYOg",
+    "https://jina.ai/contact-sales/",
+    "https://www.reddit.com/r/selfhosted/comments/nyd9i9/thanks_to_the_selfhosted_community_my_project/",
+    "https://www.reddit.com/r/LocalLLaMA/comments/1feiip0/jina_ai_releases_readerlm_05b_and_15b_for/",
+    "https://n8n.io/integrations/jina-ai/and/reddit/",
+    "https://jina.ai/"
+  ]
+}
