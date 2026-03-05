@@ -1,362 +1,358 @@
 {
-  "slug": "canva",
   "name": "Canva",
-  "homepage_url": "https://www.canva.com/",
+  "slug": "canva",
   "description_jsonb": {
-    "en": "> **Executive Summary:** Canva is an AI-augmented design and content production platform for marketers, creators, and ops teams who need fast, consistent brand output. It combines templates, Brand Kits, collaboration, and Magic Studio AI (text, image, and video) so non-designers can ship campaign assets at scale without Adobe-level complexity.\n\nCanva has evolved from a template-first editor into a workflow hub that covers social creatives, presentations, docs, whiteboards, and spreadsheets (Sheets), with built-in AI to generate or transform assets quickly. Key strengths are its drag-and-drop UX, massive template + stock library, and brand governance (Brand Kits, approvals, role-based collaboration) that helps teams avoid off-brand drift.\n\nAutomation-wise, Canva shines when you need repeatable outputs: Bulk Create, resizing/translation at scale, background removal in bulk, and campaign variants built from Sheets-like data. For many teams, the practical win is fewer tool hops: instead of drafting copy in a chatbot, generating images elsewhere, and assembling in a design tool, Canva puts creation, editing, and publishing planning in one place.\n\nPricing is straightforward: Canva offers a Free plan, with Pro priced at £100/year for one person and Teams priced at £90/year per person with a minimum of 3 people (£270/year). Enterprise is sold via sales contact. If you primarily need brand controls and collaboration, Teams is the most efficient upgrade; if you are solo and want premium assets + AI features, Pro is the sweet spot.",
-    "zh": "> **Executive Summary:** Canva 是一体化的 AI 设计与内容生产平台，面向市场团队、内容创作者与运营同学，核心价值是用模板 + Brand Kit + 协作 + Magic Studio AI 快速产出稳定的品牌物料。它把文案、图片、视频的生成与编辑整合在同一个工作流里，让非设计师也能规模化交付活动素材。\n\nCanva 早期以模板编辑器出名，但现在更像是“内容工作台”：覆盖社媒图、PPT、文档、白板与表格（Sheets），并把 Magic Studio 的生成式能力嵌入到日常操作里。对团队来说，最大收益不是某个单点 AI 功能，而是减少工具切换：从写文案、找素材、做版式到导出分发，一条链路在同一个产品内完成。\n\n自动化层面，Canva 的强项在“批量与一致性”：Bulk Create（批量生成）、一键换尺寸与翻译（可规模化）、批量背景移除、用 Sheets 数据驱动多版本活动素材等。配合 Brand Kits、审批与协作评论，可以把设计从“个人手艺”变成可复用的团队流程。\n\n定价上，Canva 提供 Free 免费版；Pro 为单人 £100/年；Teams 为 £90/年/人，且至少 3 人（£270/年起）；Enterprise 需联系销售。一般建议：个人偏内容创作选 Pro；团队需要品牌管控与协作选 Teams。
-",
-    "ja": "> **Executive Summary:** Canva は、マーケター／クリエイター／運用チーム向けの AI 強化デザイン＆コンテンツ制作プラットフォームです。テンプレート、Brand Kit、共同編集、そして Magic Studio（テキスト・画像・動画の生成/編集）を統合し、非デザイナーでも短時間で“ブランドらしい”成果物を量産できます。\n\n従来のテンプレート編集ツールから進化し、SNS クリエイティブ、プレゼン、Docs、Whiteboard、Sheets まで横断する制作ハブになっています。強みは、ドラッグ＆ドロップの操作性、豊富なテンプレートとストック、そしてチーム向けのブランド統制（Brand Kits、承認フロー、権限管理）です。\n\n自動化の観点では、Bulk Create、サイズ変更や翻訳の一括処理、背景除去のスケール処理、Sheets のデータからバリエーションを自動生成するワークフローが実務に効きます。コピー生成→素材生成→デザイン組み立てを別ツールで分断せず、Canva 内で完結しやすい点が生産性に直結します。\n\n料金は明快で、Free プランに加え、Pro は 1 人あたり £100/年、Teams は 1 人あたり £90/年（最低 3 人で £270/年）です。Enterprise は営業問い合わせになります。個人でプレミアム素材と AI を使い倒すなら Pro、チームでブランド統制と共同作業が必要なら Teams が基本の選択です。",
-    "ko": "> **Executive Summary:** Canva는 마케터·크리에이터·운영 팀을 위한 AI 기반 디자인/콘텐츠 제작 플랫폼입니다. 템플릿, Brand Kit, 협업, 그리고 Magic Studio(텍스트·이미지·영상 생성/편집)를 한곳에 묶어 비디자이너도 브랜드 톤을 유지한 결과물을 빠르게 대량 생산할 수 있게 해줍니다.\n\nCanva는 단순 편집툴을 넘어 소셜 콘텐츠, 프레젠테이션, 문서, 화이트보드, Sheets까지 커버하는 ‘제작 허브’로 확장됐습니다. 강점은 드래그앤드롭 UX, 방대한 템플릿/스톡 라이브러리, 그리고 팀 단위 브랜드 거버넌스(Brand Kits, 승인, 역할 기반 협업)입니다.\n\n자동화 관점에서 실무 효율을 올려주는 포인트는 Bulk Create, 크기 변경·번역의 대량 처리, 배경 제거의 스케일 처리, Sheets 데이터 기반 캠페인 변형 생성입니다. 여러 툴을 오가며 복붙하는 시간을 줄이고, 제작-수정-배포 준비까지 한 흐름으로 가져갈 수 있습니다.\n\n가격은 Free가 있고, Pro는 1인 기준 £100/년, Teams는 1인 £90/년(최소 3명, £270/년)입니다. Enterprise는 세일즈 문의 방식입니다. 개인이라면 Pro, 브랜드 통제/협업이 필요한 조직이라면 Teams가 기본 선택지입니다。",
-    "es": "> **Executive Summary:** Canva es una plataforma de diseño y producción de contenido con IA para marketing, creadores y equipos de operaciones que necesitan lanzar piezas consistentes rápidamente. Une plantillas, Brand Kits, colaboración y Magic Studio (IA para texto, imagen y video) para que incluso perfiles no creativos generen activos de campaña a escala sin la complejidad de Adobe.\n\nMás que un editor de plantillas, Canva se ha convertido en un hub de trabajo que cubre social, presentaciones, docs, pizarras y Sheets, con IA integrada para crear y transformar contenido. Sus ventajas clave son la experiencia drag-and-drop, una biblioteca enorme de plantillas y recursos, y controles de marca para equipos (Brand Kits, aprobaciones y colaboración en tiempo real).\n\nEn automatización, destaca cuando necesitas repetición con consistencia: Bulk Create, redimensionar y traducir en lote, eliminar fondos en masa y generar variantes a partir de datos en Sheets. En la práctica, reduce cambios de herramienta: puedes generar copy y visuales, editarlos y preparar su uso dentro del mismo flujo.\n\nEn precios, Canva ofrece un plan Free; Pro cuesta £100/año para una persona; Teams cuesta £90/año por persona con un mínimo de 3 personas (£270/año); y Enterprise es bajo contacto comercial. Si trabajas solo y quieres activos premium + IA, Pro suele ser el mejor equilibrio; si necesitas gobernanza de marca y trabajo en equipo, Teams es la mejora natural."
+    "en": "> **Executive Summary:** Canva is an AI-powered design and content production platform for creators and teams who need fast, on-brand output. It combines a drag-and-drop editor with Magic Studio (AI writing, image/video generation, and one-click edits) plus Teams workflows like approvals and shared Brand Kits. Best fit: marketing, social, and internal comms that must ship quickly without heavyweight Adobe toolchains.\n\nCanva is a browser-first creative suite that helps non-designers and pros produce social posts, presentations, short videos, docs, and brand assets with consistent styling. It pairs a large template and asset library with AI features branded as Magic Studio, including background removal, generative editing, and text generation that accelerate common production tasks. For teams, Canva adds shared workspaces, real-time collaboration, approvals, reporting, and brand governance, which matters when many people publish content under one identity.\n\nAutomation-wise, Canva’s strength is turning repeatable content work into templates and bulk-style operations: you can resize/translate designs, reuse Brand Kits, and generate variations quickly instead of rebuilding from scratch. In the wider AI stack, Canva often sits downstream of ideation tools (e.g., ChatGPT) and upstream of scheduling tools, with its built-in social content planning and export formats acting as the handoff layer.",
+    "zh": "> **Executive Summary:** Canva 是一个 AI 驱动的设计与内容生产平台，面向需要快速、统一品牌输出的个人创作者与团队。它把拖拽式编辑器与 Magic Studio（AI 文案、图像/视频生成、一键抠图与修图）以及 Teams 的审批、共享 Brand Kit 等流程能力整合在一起。适合营销、社媒与企业内部传播的高频内容生产，降低对重型设计软件链路的依赖。\n\nCanva 的核心价值在于“模板 + 资产库 + AI 自动化”三件套：你可以用海量模板快速起稿，再用 Magic Studio 完成背景移除、局部生成式编辑、文案生成与格式切换。对团队来说，共享工作区、实时协作、审批流与品牌管控（颜色、字体、Logo、锁定模板）能显著减少返工与“跑版”。\n\n从自动化角度看，Canva 更像内容工厂的最后一公里：把重复的版式、尺寸、语言和素材替换标准化，支持批量导出与多场景复用。放进你的 AI 工作流里，它通常承接上游的创意与文案生成（如 ChatGPT），并为下游的发布/排期提供稳定的视觉资产与规范输出。",
+    "ja": "> **Executive Summary:** Canva は、個人からチームまで使える AI 搭載のデザイン/コンテンツ制作プラットフォームです。ドラッグ&ドロップの編集体験に、Magic Studio（文章生成、画像/動画生成、ワンクリック編集）と、Teams の承認フローや共有 Brand Kit を統合し、短時間で“ブランドに沿った”成果物を量産できます。Adobe 系の重い制作フローを回避しつつ、マーケ/社内資料/ソーシャル向けの制作を高速化したい人に向きます。\n\nCanva の強みは、テンプレートと素材ライブラリを起点に、AI で“よくある作業”をまとめて自動化できる点です。背景削除、生成編集、コピー作成、形式の切り替えなどを一つの画面で完結でき、デザイン経験が浅いメンバーでも一定品質を出しやすい構造になっています。\n\n運用面では、共有スペースでの共同編集、コメント、承認、ブランド統制が効くため、複数人での制作・公開でもブレを抑えられます。AI スタックの中では、上流の企画/文章生成の結果を受け取り、下流の配信や資料化に耐えるビジュアル資産へ落とし込む“制作ハブ”として機能します。",
+    "ko": "> **Executive Summary:** Canva는 개인/팀이 빠르게 ‘브랜드 일관성’을 유지하며 결과물을 뽑아내는 AI 기반 디자인·콘텐츠 제작 플랫폼이다. 드래그앤드롭 편집기에 Magic Studio(글쓰기, 이미지/영상 생성, 원클릭 편집)와 Teams 승인·공유 Brand Kit·협업 워크플로우를 묶어, 마케팅/소셜/사내 커뮤니케이션 제작 속도를 크게 올려준다. 무거운 툴체인 없이도 반복 작업을 자동화하고 싶은 조직에 특히 잘 맞는다.\n\nCanva의 핵심은 템플릿·에셋 라이브러리·AI 자동화의 결합이다. 배경 제거, 생성형 편집, 카피 생성, 포맷 전환 같은 ‘시간 잡아먹는 작업’을 한 화면에서 처리해 초보자도 일정 품질을 내기 쉽다.\n\n팀 단위에서는 실시간 공동 편집, 댓글, 승인, 브랜드 거버넌스가 강점이라 콘텐츠가 여러 사람 손을 거쳐도 스타일이 흔들리지 않는다. AI 스택에서는 상류의 아이디어/카피 생성 결과를 받아, 배포 가능한 시각 자산으로 완성하는 제작 허브 역할을 한다.",
+    "es": "> **Executive Summary:** Canva es una plataforma de diseño y producción de contenido con IA para creadores y equipos que necesitan publicar rápido y con coherencia de marca. Combina un editor de arrastrar y soltar con Magic Studio (redacción con IA, generación de imágenes/vídeo y ediciones de un clic) y flujos de trabajo para equipos como aprobaciones y Brand Kits compartidos. Es ideal para marketing, redes sociales y comunicación interna cuando quieres velocidad sin una cadena de herramientas pesada.\n\nEl valor diferencial de Canva es convertir tareas repetitivas en un flujo casi industrial: arrancas con plantillas y recursos, y aceleras con IA funciones como quitar fondos, editar por indicación, generar copy y adaptar formatos. Esto permite que perfiles no diseñadores produzcan piezas con una calidad consistente.\n\nEn un stack moderno de IA, Canva suele estar al final del proceso: recibe ideas y textos de herramientas como ChatGPT y los transforma en activos visuales listos para publicar. Para equipos, la colaboración en tiempo real, los permisos y las aprobaciones ayudan a mantener el control sin frenar la velocidad.",
+    "citationsdump": [
+      "https://www.canva.com/en/pricing/",
+      "https://www.canva.com/magic/",
+      "https://www.reddit.com/r/canva/comments/1eypgak/massive_subscription_price_increase/",
+      "https://www.reddit.com/r/Entrepreneur/comments/1qeap25/canva_pro_just_increased_prices_significantly_and/",
+      "https://www.youtube.com/watch?v=6EIf2Hmia60"
+    ]
   },
-  "seo_title_jsonb": {
-    "en": "Canva Review 2026: Pricing, Magic Studio AI, Pros, Cons & Best Alternatives",
-    "zh": "Canva 2026 评测：价格、Magic Studio AI、优缺点与最佳替代方案",
-    "ja": "Canva（2026）レビュー：料金、Magic Studio、強み/弱みと代替案",
-    "ko": "Canva 2026 리뷰: 요금, Magic Studio AI, 장단점, 대안",
-    "es": "Canva opiniones 2026: Precio, Magic Studio IA, pros, contras y alternativas"
-  },
-  "seo_description_jsonb": {
-    "en": "Canva review 2026: We break down Free vs Pro (£100/yr) vs Teams (£90/yr per person, 3+). See Magic Studio AI, Bulk Create, brand controls, and top alternatives.",
-    "zh": "Canva 2026 评测：对比 Free、Pro（£100/年）与 Teams（£90/年/人，3 人起）。解析 Magic Studio AI、Bulk Create、品牌管控与替代方案。",
-    "ja": "Canva（2026）レビュー：Free/Pro（£100/年）/Teams（£90/年/人・3人〜）を比較。Magic Studio、Bulk Create、ブランド管理と代替案も解説。",
-    "ko": "Canva 2026 리뷰: Free·Pro(£100/년)·Teams(£90/년/인, 3명+) 비교. Magic Studio AI, Bulk Create, 브랜드 통제와 대안까지 정리.",
-    "es": "Reseña de Canva 2026: Comparativa Free vs Pro (£100/año) vs Teams (£90/año por persona, mínimo 3). Magic Studio IA, Bulk Create, marca y alternativas."
-  },
+  "rating": 4.6,
+  "supported_languages": [
+    "en",
+    "zh",
+    "ja",
+    "ko",
+    "es"
+  ],
   "tags_jsonb": {
     "en": [
-      "Magic Studio",
-      "Bulk Create",
-      "Brand Kit",
-      "Dream Lab",
-      "Canva Sheets",
-      "Marketing Creative Ops",
-      "Template Automation",
-      "Veo 3 video clips"
+      "BrandKitGovernance",
+      "AIBackgroundRemoval",
+      "MarketingCreativeOps",
+      "TemplateAutomation",
+      "SocialContentProduction",
+      "BulkResizeTranslate"
     ],
     "zh": [
-      "Magic Studio",
-      "Bulk Create",
-      "Brand Kit",
-      "Dream Lab",
-      "Canva Sheets",
+      "品牌资产管理",
+      "AI抠图背景移除",
       "营销创意运营",
       "模板自动化",
-      "Veo 3 视频片段"
+      "社媒内容生产",
+      "批量改尺寸与翻译"
     ],
     "ja": [
-      "Magic Studio",
-      "Bulk Create",
-      "Brand Kit",
-      "Dream Lab",
-      "Canva Sheets",
-      "マーケ制作Ops",
+      "ブランド管理",
+      "AI背景削除",
+      "マーケ制作運用",
       "テンプレ自動化",
-      "Veo 3 動画クリップ"
+      "SNSコンテンツ制作",
+      "一括リサイズ翻訳"
     ],
     "ko": [
-      "Magic Studio",
-      "Bulk Create",
-      "Brand Kit",
-      "Dream Lab",
-      "Canva Sheets",
-      "마케팅 크리에이티브 Ops",
-      "템플릿 자동화",
-      "Veo 3 영상 클립"
+      "브랜드키트관리",
+      "AI배경제거",
+      "마케팅크리에이티브옵스",
+      "템플릿자동화",
+      "소셜콘텐츠제작",
+      "일괄리사이즈번역"
     ],
     "es": [
-      "Magic Studio",
-      "Bulk Create",
-      "Brand Kit",
-      "Dream Lab",
-      "Canva Sheets",
-      "Creative Ops",
-      "Automatización con plantillas",
-      "Clips de video con Veo 3"
+      "GobernanzaDeMarca",
+      "EliminacionDeFondoIA",
+      "OperacionesCreativasMarketing",
+      "AutomatizacionDePlantillas",
+      "ProduccionContenidoSocial",
+      "RedimensionarYTraducirEnLote"
     ]
   },
   "features_jsonb": {
     "en": [
-      "Generate and edit content with 25+ Magic Studio AI tools",
-      "Bulk Create designs from Sheets-like data to scale campaigns",
-      "Keep brand consistency with Brand Kits, approvals, and team roles",
-      "Resize, translate, and remove backgrounds at scale",
-      "Create video clips powered by Google's Veo 3 (plan-dependent)"
+      "Generate on-brand layouts fast with templates plus Magic Design",
+      "Remove photo/video backgrounds in a click to speed up creative ops",
+      "Rewrite and scale copy with Magic Write for ads, posts, and docs",
+      "Auto-resize and translate designs across channels to reduce rework",
+      "Collaborate with approvals, comments, and shared Brand Kits"
     ],
     "zh": [
-      "使用 25+ 个 Magic Studio AI 工具生成与编辑内容",
-      "通过 Sheets 数据驱动 Bulk Create 批量生成活动素材",
-      "用 Brand Kits、审批与角色权限实现团队品牌一致性",
-      "批量换尺寸、翻译与背景移除，适合规模化生产",
-      "可生成由 Google Veo 3 驱动的视频片段（随套餐而定）"
+      "用模板 + Magic Design 快速生成符合品牌的版式",
+      "一键移除图片/视频背景，加速营销物料生产",
+      "用 Magic Write 批量生成与改写广告/社媒/文档文案",
+      "自动改尺寸与翻译，多渠道复用减少返工",
+      "审批、评论、共享 Brand Kit，保障团队一致性"
     ],
     "ja": [
-      "Magic Studio の 25+ AI ツールで生成・編集を一体化",
-      "Sheets 連携の Bulk Create でキャンペーン素材を量産",
-      "Brand Kits と承認フローでブランド統制を実現",
-      "サイズ変更・翻訳・背景除去をスケール処理",
-      "Google の Veo 3 による動画クリップ生成（プラン依存）"
+      "テンプレート + Magic Design でブランド準拠のレイアウトを高速生成",
+      "画像/動画の背景をワンクリックで削除して制作を短縮",
+      "Magic Write で広告・投稿・ドキュメントの文章を生成/拡張",
+      "自動リサイズと翻訳でチャネル展開の手戻りを削減",
+      "承認・コメント・共有 Brand Kit でチーム運用を安定化"
     ],
     "ko": [
-      "Magic Studio 25+ AI 도구로 생성·편집을 한 번에",
-      "Sheets 데이터 기반 Bulk Create로 캠페인 소재 대량 생산",
-      "Brand Kits·승인·권한으로 브랜드 일관성 유지",
-      "리사이즈·번역·배경 제거를 대량 처리",
-      "Google Veo 3 기반 영상 클립 생성(요금제별 상이)"
+      "템플릿 + Magic Design로 브랜드 톤의 레이아웃을 빠르게 생성",
+      "사진/영상 배경을 원클릭 제거해 제작 시간을 단축",
+      "Magic Write로 광고·포스트·문서 카피를 생성/확장",
+      "자동 리사이즈·번역으로 채널별 재작업을 줄임",
+      "승인·댓글·공유 Brand Kit로 팀 운영 품질을 유지"
     ],
     "es": [
-      "Crear y editar con 25+ herramientas de IA de Magic Studio",
-      "Bulk Create desde datos tipo Sheets para escalar campañas",
-      "Consistencia de marca con Brand Kits, aprobaciones y roles",
-      "Redimensionar, traducir y eliminar fondos en lote",
-      "Clips de video con IA impulsados por Google Veo 3 (según plan)"
+      "Crea layouts coherentes con tu marca con plantillas y Magic Design",
+      "Quita fondos de foto/vídeo con un clic para acelerar la producción",
+      "Escala textos con Magic Write para anuncios, posts y documentos",
+      "Redimensiona y traduce automáticamente para reutilizar en canales",
+      "Trabaja en equipo con aprobaciones, comentarios y Brand Kits"
     ]
   },
   "videos_jsonb": [
     {
       "type": "youtube",
-      "video_id": "aE2E2Pw73T0",
-      "title": "Transform content creation with Magic Studio",
-      "upload_date": "2025-09-30T00:00:00Z",
-      "description": "Official walkthrough of Magic Studio for campaign workflows.",
-      "duration": "PT0S"
-    },
-    {
-      "type": "youtube",
-      "video_id": "6EIf2Hmia60",
+      "videoId": "6EIf2Hmia60",
       "title": "How to Use Canva AI & Magic Studio | Full Tutorial for Beginners (2025)",
-      "upload_date": "2025-09-08T00:00:00Z",
-      "description": "Step-by-step tour of Canva AI features and Magic Studio.",
-      "duration": "PT0S"
+      "uploadDate": "2025-09-09T00:00:00Z",
+      "description": "Canva Verified Expert walks through Magic Studio AI tools end-to-end.",
+      "duration": "PT21M46S"
     }
   ],
   "verdict_jsonb": {
-    "en": "Canva is the pragmatic choice for **marketing teams and creators** who need to **produce on-brand assets fast** across social, slides, docs, and lightweight video. It excels at template-driven automation (Bulk Create, resize/translate at scale) and team brand governance, but power users may still prefer Adobe for advanced compositing or prepress workflows.",
-    "zh": "Canva 是 **营销团队与内容创作者** 的务实选择，适合 **快速产出品牌一致的活动素材**（社媒、PPT、文档与轻量视频）。它在模板化自动化（Bulk Create、批量换尺寸/翻译）与团队品牌管控上很强，但对高级合成与专业印前要求更高的场景，Adobe 仍更占优。",
-    "ja": "Canva は **マーケチームとクリエイター** が **ブランド準拠の成果物を高速に量産** したい場合の実務的な最適解です。Bulk Create や一括変換で制作を自動化しつつブランド統制も強い一方、合成や印刷入稿など高度な制作は Adobe が有利です。",
-    "ko": "Canva는 **마케팅 팀과 크리에이터**가 **브랜드 톤을 유지한 소재를 빠르게 대량 생산**할 때 가장 실용적입니다. Bulk Create와 대량 변환으로 자동화를 제공하고 브랜드 거버넌스도 강하지만, 고급 합성·인쇄 전처리 같은 전문 작업은 Adobe가 더 적합할 수 있습니다.",
-    "es": "Canva es la opción práctica para **equipos de marketing y creadores** que necesitan **producir activos de marca rápido** (social, slides, docs y video ligero). Brilla con automatización por plantillas (Bulk Create, redimensionar/traducir en lote) y control de marca en equipo, pero para composiciones avanzadas o flujos de preimpresión, Adobe suele ganar."
+    "en": "Canva is the most pragmatic choice for **marketing teams and creators** who need to **produce on-brand visuals and short-form content fast**. It shines when you operationalize templates, Brand Kits, and Magic Studio to cut repetitive edits like resizing, translation, and background cleanup. If you need pixel-perfect control like Adobe, you may still keep a pro toolchain, but Canva will usually win on speed-to-publish.",
+    "zh": "Canva 是 **营销团队与内容创作者** 用来 **快速产出统一品牌的视觉与短内容** 的最务实选择。它在模板化生产、Brand Kit 管控与 Magic Studio 的一键编辑（改尺寸/翻译/抠图/生成式修图）上优势明显，能把重复劳动变成流程。若你追求 Adobe 级像素精修，仍可能需要专业软件，但在发布速度上 Canva 往往更强。",
+    "ja": "Canva は、**マーケ担当やコンテンツ制作者** が **ブランド準拠のビジュアル/短尺コンテンツを高速に量産する** ための最も現実的な選択肢です。テンプレート運用、Brand Kit、Magic Studio を組み合わせると、リサイズ・翻訳・背景処理などの反復作業を大幅に削減できます。Adobe のような精密さが必要なら併用もありですが、公開までの速さは Canva が勝ちやすいです。",
+    "ko": "Canva는 **마케팅 팀과 크리에이터**가 **브랜드 일관성을 유지한 비주얼·숏폼 콘텐츠를 빠르게 생산**할 때 가장 실용적인 선택이다. 템플릿 운영, Brand Kit, Magic Studio를 함께 쓰면 리사이즈·번역·배경 정리 같은 반복 편집을 크게 줄일 수 있다. Adobe급 픽셀 단위 컨트롤이 필요하면 병행이 낫지만, 발행 속도는 Canva가 대체로 우위다.",
+    "es": "Canva es la opción más práctica para **equipos de marketing y creadores** que necesitan **publicar visuales y contenido corto con coherencia de marca rápidamente**. Destaca cuando operas plantillas, Brand Kits y Magic Studio para reducir ediciones repetitivas como redimensionar, traducir y limpiar fondos. Si necesitas control extremo tipo Adobe, quizá lo complementes, pero Canva suele ganar por velocidad de entrega."
+  },
+  "expertquote_jsonb": {
+    "en": "For high-volume marketing workflows, Canva’s combination of Brand Kits, approvals, and Magic Studio turns design into an operational system instead of a one-off craft. - LinkStart AI Lab",
+    "zh": "在高频营销内容生产里，Canva 把 Brand Kit、审批流与 Magic Studio 组合成一套可运营的内容系统，而不是一次性的设计手工活。- LinkStart AI Lab",
+    "ja": "大量のマーケ制作では、Canva の Brand Kit・承認フロー・Magic Studio の組み合わせが、デザインを“職人作業”から“運用システム”へ変えます。- LinkStart AI Lab",
+    "ko": "고빈도 마케팅 제작에서는 Canva의 Brand Kit·승인·Magic Studio 조합이 디자인을 ‘단발 작업’이 아니라 ‘운영 시스템’으로 바꾼다. - LinkStart AI Lab",
+    "es": "Para flujos de marketing de alto volumen, la combinación de Brand Kits, aprobaciones y Magic Studio en Canva convierte el diseño en un sistema operativo, no en trabajo artesanal aislado. - LinkStart AI Lab"
   },
   "pros_jsonb": {
     "en": [
-      "Fast end-to-end workflow: generate, edit, and export in one tool",
-      "Strong brand governance with Brand Kits and team approvals",
-      "Bulk Create + Sheets makes campaign variants scalable",
-      "AI credits and tools are clearly listed by plan"
+      "Official pricing includes 25+ AI tools in Pro, plus Teams governance (approvals, admin controls)",
+      "Large template and premium asset library reduces time-to-first-draft",
+      "AI background removal and Magic Studio edits handle the most common production bottlenecks",
+      "Teams plan includes ISO 27001 and SOC 2 Type II compliance claims, useful for vendor reviews"
     ],
     "zh": [
-      "从生成到编辑到导出的一体化流程，减少工具切换",
-      "Brand Kits 与审批机制让团队品牌一致性更可控",
-      "Bulk Create + Sheets 让活动多版本制作可规模化",
-      "AI 额度与功能在套餐页有明确说明"
+      "官方定价页明确：Pro 提供 25+ AI 工具，Teams 还有审批与管理控制",
+      "模板与素材库规模大，缩短从 0 到 1 的出图时间",
+      "抠图、生成式编辑等 Magic Studio 能覆盖高频卡点",
+      "Teams 标注 ISO 27001 与 SOC 2 Type II 合规，有利于采购评估"
     ],
     "ja": [
-      "生成→編集→書き出しまで 1 つで完結しやすい",
-      "Brand Kits と承認でチームのブランド統制が強い",
-      "Bulk Create + Sheets で大量バリエーションが作れる",
-      "AI クレジット/機能がプラン別に明示されている"
+      "公式の料金ページで、Pro の 25+ AI ツールと Teams の統制機能（承認/管理）が明確",
+      "テンプレート/素材が豊富で初稿までが速い",
+      "背景削除や生成編集など、制作の詰まりポイントを AI で解消しやすい",
+      "Teams は ISO 27001 と SOC 2 Type II の準拠をうたっており、審査で説明しやすい"
     ],
     "ko": [
-      "생성-편집-내보내기까지 한 툴로 끝내기 쉬움",
-      "Brand Kits·승인으로 팀 브랜드 통제가 강함",
-      "Bulk Create + Sheets로 변형 제작이 확장됨",
-      "요금제별 AI 크레딧/기능이 비교적 명확함"
+      "공식 요금에서 Pro의 25+ AI 툴과 Teams의 승인·관리 기능을 명확히 안내",
+      "템플릿·에셋 풀이 커서 초안 제작까지 시간이 짧음",
+      "배경 제거/생성 편집 등 Magic Studio로 흔한 병목을 해결",
+      "Teams는 ISO 27001·SOC 2 Type II 준수 표기를 제공해 벤더 검토에 유리"
     ],
     "es": [
-      "Flujo de punta a punta: generar, editar y exportar en una sola herramienta",
-      "Gobernanza de marca sólida con Brand Kits y aprobaciones",
-      "Bulk Create + Sheets facilita variantes a gran escala",
-      "Créditos y límites de IA visibles por plan"
+      "La página oficial de precios destaca 25+ herramientas de IA en Pro y gobernanza en Teams (aprobaciones, controles)",
+      "Biblioteca enorme de plantillas y recursos premium acelera el primer borrador",
+      "Quitar fondos y ediciones de Magic Studio resuelven cuellos de botella comunes",
+      "Teams afirma cumplimiento ISO 27001 y SOC 2 Type II, útil para evaluación de proveedores"
     ]
   },
   "cons_jsonb": {
     "en": [
-      "AI features use credits/limits that vary by plan and can constrain heavy usage",
-      "Advanced print/prepress and complex compositing are still stronger in Adobe tools",
-      "Teams has a minimum seat requirement (3+)"
+      "Pricing varies by region and seats, and community reports indicate significant increases for some plans",
+      "Some AI features have usage limits that vary by plan",
+      "If you require advanced, pixel-level control or complex prepress workflows, you may still need Adobe tools"
     ],
     "zh": [
-      "AI 功能依赖额度/次数限制，重度使用可能受约束",
-      "高级印前与复杂合成依然是 Adobe 更强",
-      "Teams 有最低席位要求（至少 3 人）"
+      "价格随地区与席位数变化，社区也出现过大幅涨价反馈",
+      "部分 AI 功能存在额度限制，且不同套餐的上限不同",
+      "若你需要像素级精修或复杂印前流程，仍可能离不开 Adobe"
     ],
     "ja": [
-      "AI 機能はクレジット制で、重い利用だと制限になり得る",
-      "高度な入稿/合成は Adobe の方が強い",
-      "Teams は最低 3 席の条件がある"
+      "地域/席位数で価格が変動し、一部プランで大幅値上げの報告もある",
+      "AI 機能はプランごとに使用上限が異なる",
+      "ピクセル単位の精密編集や高度な印刷前工程は Adobe 併用が必要な場合がある"
     ],
     "ko": [
-      "AI 기능이 크레딧/제한 기반이라 헤비 유저는 제약 가능",
-      "고급 인쇄/복잡 합성은 Adobe가 여전히 우세",
-      "Teams는 최소 좌석(3명+) 조건이 있음"
+      "지역·좌석에 따라 가격이 달라지고 일부 요금제는 인상 체감이 크다는 커뮤니티 반응이 있음",
+      "AI 기능은 플랜별 사용 한도가 다름",
+      "픽셀 단위 정교 편집이나 복잡한 인쇄 워크플로우는 Adobe 병행이 필요할 수 있음"
     ],
     "es": [
-      "La IA funciona con créditos/límites por plan y puede frenar usos intensivos",
-      "Preimpresión avanzada y composiciones complejas siguen siendo más fuertes en Adobe",
-      "Teams exige un mínimo de asientos (3+)"
+      "El precio varía por región y número de asientos, y hay reportes de subidas fuertes en algunos casos",
+      "Las funciones de IA tienen límites de uso que cambian según el plan",
+      "Para control extremo tipo preimpresión o edición al píxel, quizá necesites Adobe"
     ]
   },
   "faqs_jsonb": {
     "en": [
       {
-        "question": "Is Canva actually good enough to replace Adobe for a marketing team?",
-        "answer": "Yes, for most marketing production workflows Canva can replace Adobe for day-to-day assets, because Brand Kits, approvals, and Bulk Create cover the repeatable parts of Creative Ops. While Adobe still excels at advanced compositing and prepress control, Canva is often faster for social campaigns, slides, and templated variants when speed and brand consistency matter."
+        "question": "Is Canva completely free to use?",
+        "answer": "No, but it offers a Free plan at £0 with core editing plus 5GB storage, and paid plans add premium assets and higher AI limits. Pro is listed at £100/year for one person, and Teams at £90/year per person with a 3-person minimum in the pricing page shown for the UK."
       },
       {
-        "question": "Does Canva Pro include Magic Studio AI, and what limits should I expect?",
-        "answer": "Yes, Canva Pro includes Magic Studio features, but usage is governed by credits and plan-based limits. The official pricing page explicitly notes that usage limits and AI-powered tools vary between plans, and it lists monthly credits for Pro such as Dream Lab image creation credits and Magic Media/Text features."
+        "question": "Does Canva Pro include AI tools like background remover and text generation?",
+        "answer": "Yes. Canva’s pricing page explicitly lists background removal and 25+ AI tools in Pro, and it also shows plan-based AI credits and limits for features like Dream Lab and Magic Write."
       },
       {
-        "question": "Can Canva Teams enforce brand consistency across many designers and non-designers?",
-        "answer": "Yes, Canva Teams is designed for brand consistency at scale via Brand Kits, approvals, roles, and real-time collaboration. While Pro is built for a single user, Teams adds centralized assets and governance so a distributed team can ship on-brand designs without constant manual review."
+        "question": "Can Canva replace Adobe Photoshop or Illustrator for professional design work?",
+        "answer": "No for many advanced scenarios, but yes for a large percentage of marketing production. While Adobe excels at pixel-level control and complex workflows, Canva wins when you need fast templates, brand governance, and AI-powered edits for social, decks, and lightweight video." 
       },
       {
-        "question": "What is the fastest way to mass-produce personalized creatives in Canva?",
-        "answer": "Yes, the fastest approach is to combine Sheets-style data with Bulk Create and a locked template. While manual duplication works for a few designs, Bulk Create lets you bind names, prices, or locations to fields and generate dozens or hundreds of variants in one run."
+        "question": "What is the real difference between Canva Pro and Canva Teams?",
+        "answer": "The core difference is governance and collaboration at scale. While Pro is positioned for one person, Teams adds shared workspaces, approvals, admin controls, reporting, and per-person AI allocations, according to Canva’s plan descriptions."
       },
       {
-        "question": "Is Canva free plan viable for business use, or will I hit a wall quickly?",
-        "answer": "Yes, it is viable for small-scale business use because Free includes core editing, millions of templates, and basic stock assets, but you will hit limits on premium content, Brand Kits depth, and some AI tooling. While Free is great for validation and occasional work, most teams upgrade when they need consistent brand governance, premium assets, or scaled automation."
+        "question": "Is Canva Teams suitable for companies with security/compliance requirements?",
+        "answer": "Yes for many SMB compliance checklists, because Canva’s Teams plan description lists ISO 27001 certification and SOC 2 Type II compliance. For stricter enterprise requirements like SSO/SCIM and expanded controls, Canva positions Enterprise as the next tier."
       },
       {
-        "question": "How does Canva handle security and compliance for enterprise teams?",
-        "answer": "Yes, Canva’s Teams and Enterprise plans advertise security and compliance controls, including ISO 27001 and SOC 2 Type II, plus SSO and SCIM for Enterprise. While small teams may not need these controls, regulated organizations typically choose Enterprise to centralize admin, audit, and access policies."
+        "question": "Will Canva use my designs and uploads to train its AI features?",
+        "answer": "It depends on your privacy controls and plan. Canva’s Magic Studio page states it does not use user content to improve AI-powered features unless consistent with the user’s Privacy Controls, and it says this setting is disabled for Enterprise users and cannot be turned on."
       },
       {
-        "question": "Does Canva use my designs to train AI, and can admins control AI access?",
-        "answer": "No, you should not assume training by default; instead, treat AI usage as a governed feature because the pricing page indicates Enterprise can provide AI admin controls and that some AI features can be disabled by default with admins enabling them. While that does not answer every policy detail, it signals Canva expects organizations to manage AI permissions rather than leaving them fully open."
+        "question": "Is Canva worth it for a high-output content pipeline?",
+        "answer": "Yes, if your bottleneck is repeatable production work. Canva’s template system plus AI edits (background removal, generative tweaks) and Teams approvals can reduce cycle time versus manual rework across multiple formats and languages." 
       }
     ],
     "zh": [
       {
-        "question": "Canva 能替代 Adobe 作为营销团队的主力设计工具吗？",
-        "answer": "是的，对大多数营销物料生产来说 Canva 足以替代 Adobe 的日常使用，因为 Brand Kits、审批与 Bulk Create 覆盖了创意运营中最重复的部分。虽然 Adobe 在高级合成与印前控制上更强，但当你更看重速度与一致性（社媒图、PPT、模板化变体）时，Canva 往往更高效。"
+        "question": "Canva 能完全免费用吗？",
+        "answer": "不完全是，但它有长期可用的 Free 套餐（定价页展示为 £0），包含核心编辑能力与 5GB 存储；付费套餐提供更多高级素材与更高的 AI 使用上限。定价页也展示了 Pro（单人 £100/年）与 Teams（每人 £90/年，至少 3 人）的示例价格。"
       },
       {
-        "question": "Canva Pro 是否包含 Magic Studio AI？使用上有哪些限制？",
-        "answer": "是的，Canva Pro 包含 Magic Studio 的 AI 能力，但会受额度与套餐限制影响。官方定价页明确提示 AI 工具与使用上限会因套餐而异，并列出了 Pro 的月度额度（例如 Dream Lab、Magic Media、Magic Write 等）。"
+        "question": "Canva Pro 里是否包含抠图、AI 文案等功能？",
+        "answer": "是的。Canva 的定价页明确写到 Pro 包含一键背景移除与 25+ AI 工具，并列出 Dream Lab、Magic Write 等功能的额度与上限随套餐变化。"
       },
       {
-        "question": "Canva Teams 能否在多人协作下强制品牌一致性？",
-        "answer": "是的，Teams 通过 Brand Kits、审批、角色权限与实时协作来实现规模化品牌一致性。虽然 Pro 面向单人使用，但 Teams 增加了集中资产管理与治理机制，让非设计师也能在约束下输出合规物料。"
+        "question": "Canva 能替代 Photoshop/Illustrator 吗？",
+        "answer": "对很多高级场景不行，但对大量营销物料生产可以。Adobe 在像素级精修与复杂工作流上更强，而 Canva 更适合模板化生产、品牌管控与 AI 一键编辑（社媒图、PPT、轻量视频）。"
       },
       {
-        "question": "在 Canva 里批量生产个性化素材最快的方式是什么？",
-        "answer": "是的，最快的方式是用 Sheets 数据 + Bulk Create + 锁定模板实现自动批量生成。虽然手动复制适合少量素材，但 Bulk Create 可以把姓名、价格、城市等字段绑定到模板，一次生成几十到上百个版本。"
+        "question": "Canva Pro 和 Canva Teams 的本质区别是什么？",
+        "answer": "核心差异在于团队治理与协作。Pro 面向单人使用；Teams 在 Pro 的基础上增加共享工作区、审批流、管理控制、报告与按人分配的 AI 额度，这些在官方套餐描述中有明确呈现。"
       },
       {
-        "question": "Canva 免费版是否适合商用？会不会很快遇到瓶颈？",
-        "answer": "是的，小规模商用是可行的，因为 Free 提供核心编辑能力与大量模板/基础素材，但在高级素材、Brand Kit 深度与部分 AI 功能上会遇到限制。虽然免费版适合验证与低频使用，但团队通常在需要品牌管控、更多素材与规模化自动化时升级。"
+        "question": "Canva Teams 是否适合有合规要求的公司？",
+        "answer": "多数中小企业的合规清单上是可以的，因为 Teams 套餐描述中列出了 ISO 27001 与 SOC 2 Type II。若你需要 SSO/SCIM 等更强的企业级能力，Canva 把它放在 Enterprise 层级。"
       },
       {
-        "question": "Canva 在企业安全与合规上提供什么能力？",
-        "answer": "是的，Teams 与 Enterprise 在定价页中强调了安全与合规能力，包括 ISO 27001、SOC 2 Type II，以及 Enterprise 的 SSO、SCIM 等。虽然小团队不一定需要这些配置，但受监管行业往往会选 Enterprise 来统一权限、审计与访问控制。"
+        "question": "Canva 会用我的设计/上传素材训练 AI 吗？",
+        "answer": "取决于你的隐私控制与套餐。Canva 的 Magic Studio 页面写明：除非与你的 Privacy Controls 一致，否则不会使用用户内容来改进 AI 功能；并且 Enterprise 用户该设置默认关闭且无法开启。"
       },
       {
-        "question": "Canva 会用我的设计训练 AI 吗？管理员能否控制 AI 权限？",
-        "answer": "不建议默认假设会训练；更合理的做法是把 AI 当作可治理的功能，因为定价页显示 Enterprise 提供 AI 管理控制，且某些 AI 功能可默认关闭并由管理员开启。虽然这并非完整隐私政策，但说明 Canva 预期组织能管理 AI 使用权限。"
+        "question": "Canva 适合高频内容生产吗？",
+        "answer": "适合，前提是你的瓶颈在重复性生产。模板体系 + AI 一键编辑（抠图、生成式修改）+ Teams 审批能显著减少返工，尤其在多尺寸、多渠道、多语言复用时更明显。"
       }
     ],
     "ja": [
       {
-        "question": "Canva はマーケチームにとって Adobe の代替になりますか？",
-        "answer": "はい、日常のマーケ制作なら Canva で代替できるケースが多いです。Brand Kits、承認、Bulk Create が Creative Ops の反復作業をカバーする一方、Adobe は高度な合成や入稿管理に強いので、用途がそこまででなければ Canva の方が速く回せます。"
+        "question": "Canva は完全に無料で使えますか？",
+        "answer": "いいえ。ただし Free プラン（料金ページ表示では £0）があり、基本編集と 5GB ストレージを利用できます。有料プランではプレミアム素材と AI 上限が拡張され、Pro は 1 人向け £100/年、Teams は 1 人あたり £90/年（最少 3 人）と表示されています。"
       },
       {
-        "question": "Canva Pro で Magic Studio（AI）は使えますか？制限はありますか？",
-        "answer": "はい、Canva Pro には Magic Studio の AI 機能が含まれます。ただし、利用はクレジット/上限に依存し、プランごとに差があります。公式の料金ページには AI ツールの上限がプランで変わる旨と、Pro の月間クレジット例が明記されています。"
+        "question": "Canva Pro に背景削除や文章生成などの AI は含まれますか？",
+        "answer": "はい。料金ページに、Pro で背景削除と 25+ の AI ツールが利用できること、Dream Lab や Magic Write などのクレジット/上限がプランで変わることが明記されています。"
       },
       {
-        "question": "Canva Teams はブランド統制を強制できますか？",
-        "answer": "はい、Teams は Brand Kits、承認フロー、ロール、リアルタイム共同編集によりブランド一貫性を保ちやすい設計です。Pro は単独ユーザー向けですが、Teams は資産の集中管理とガバナンスを追加し、非デザイナーでも逸脱しにくくします。"
+        "question": "Canva は Adobe Photoshop/Illustrator の代替になりますか？",
+        "answer": "多くの高度な制作では完全な代替にはなりませんが、マーケ用途の量産には十分な場合が多いです。Adobe は精密編集と複雑フローに強く、Canva はテンプレ運用・ブランド統制・AI ワンクリック編集でスピードを出せます。"
       },
       {
-        "question": "Canva でパーソナライズ素材を最速で量産する方法は？",
-        "answer": "はい、Sheets 形式のデータと Bulk Create、そしてロック済みテンプレートの組み合わせが最速です。少量なら手動複製でも良いですが、Bulk Create なら氏名・価格・地域などの差し込みで一括生成できます。"
+        "question": "Canva Pro と Teams の決定的な違いは何ですか？",
+        "answer": "結論は“ガバナンスと協業”です。Pro は 1 人利用を前提にし、Teams は共有ワークスペース、承認、管理コントロール、レポート、1 人あたりの AI 割当などを追加すると、公式のプラン説明にあります。"
       },
       {
-        "question": "Canva の Free はビジネス用途でも使えますか？",
-        "answer": "はい、小規模なら十分使えますが、プレミアム素材、Brand Kit の拡張、そして一部の AI 機能で早めに壁が来ます。検証や低頻度には Free、ブランド統制や自動化を本格化するなら Pro/Teams が現実的です。"
+        "question": "Canva Teams はセキュリティ/コンプライアンス要件に対応できますか？",
+        "answer": "多くの SMB 要件には対応しやすいです。Teams の説明には ISO 27001 と SOC 2 Type II の準拠が記載され、より厳しい要件（SSO/SCIM 等）は Enterprise で提供される位置付けです。"
       },
       {
-        "question": "企業向けのセキュリティ/コンプライアンスはどうですか？",
-        "answer": "はい、Teams と Enterprise は ISO 27001 や SOC 2 Type II などを掲げ、Enterprise では SSO と SCIM も提供されています。小規模チームでは不要でも、規制業界では Enterprise で管理と監査を統合するのが一般的です。"
+        "question": "Canva は私のコンテンツを AI 学習に使いますか？",
+        "answer": "プライバシー設定とプランによります。Magic Studio ページには、ユーザーの Privacy Controls と整合する場合を除き、ユーザーコンテンツを AI 機能改善に使わないこと、Enterprise では当該設定が無効でオンにできないことが書かれています。"
       },
       {
-        "question": "Canva はデザインを AI 学習に使いますか？管理者は AI を制御できますか？",
-        "answer": "いいえ、学習に使われると決めつけるべきではありません。公式の料金ページでは Enterprise に AI 管理機能があり、AI を既定で無効化して管理者が有効化できると示されています。つまり、組織は AI の利用権限をガバナンスできる前提です。"
+        "question": "高頻度のコンテンツ制作パイプラインで Canva は価値がありますか？",
+        "answer": "はい、ボトルネックが反復作業なら価値が出ます。テンプレート運用と AI 編集（背景削除、生成編集）、Teams の承認で、サイズ/言語/フォーマットの横展開に伴う手戻りを減らせます。"
       }
     ],
     "ko": [
       {
-        "question": "Canva가 마케팅 팀에서 Adobe를 대체할 만큼 충분한가요?",
-        "answer": "네, 대부분의 마케팅 제작 업무에서는 Canva만으로도 충분히 대체 가능합니다. Brand Kits, 승인, Bulk Create가 반복 작업을 커버하는 반면, Adobe는 고급 합성·인쇄 전처리에서 여전히 강하므로 그 수준이 필요하지 않다면 Canva가 더 빠릅니다."
+        "question": "Canva는 완전 무료인가요?",
+        "answer": "아니요. 다만 Free 플랜(해당 가격 페이지 기준 £0)이 있고 기본 편집과 5GB 저장공간을 제공한다. 유료 플랜은 프리미엄 에셋과 AI 한도를 확대하며, Pro는 1인 £100/년, Teams는 1인 £90/년(최소 3인) 예시가 가격 페이지에 표시돼 있다."
       },
       {
-        "question": "Canva Pro에 Magic Studio AI가 포함되나요? 어떤 제한을 예상해야 하나요?",
-        "answer": "네, Canva Pro에는 Magic Studio AI 기능이 포함됩니다. 다만 사용량은 크레딧/한도에 의해 관리되며 요금제별로 차이가 있습니다. 공식 가격 페이지는 AI 도구와 사용 한도가 플랜마다 다를 수 있다고 명시하고, Pro의 월간 크레딧 예시도 제공합니다."
+        "question": "Canva Pro에 배경 제거와 글 생성 같은 AI 기능이 포함되나요?",
+        "answer": "네. 공식 가격 페이지에 Pro의 원클릭 배경 제거와 25+ AI 툴이 명시되어 있고, Dream Lab·Magic Write 같은 기능의 크레딧/한도가 플랜에 따라 달라진다고 표기돼 있다."
       },
       {
-        "question": "Canva Teams로 여러 사람이 작업해도 브랜드 일관성을 강제할 수 있나요?",
-        "answer": "네, Teams는 Brand Kits, 승인, 역할 권한, 실시간 협업으로 브랜드 일관성을 스케일링하도록 설계되었습니다. Pro가 1인 중심이라면, Teams는 자산 중앙화와 거버넌스를 추가해 비디자이너도 규칙 안에서 작업하게 합니다."
+        "question": "Canva로 Photoshop/Illustrator를 완전히 대체할 수 있나요?",
+        "answer": "고급 전문 작업에서는 완전 대체가 어렵지만, 마케팅 제작의 상당 부분은 대체 가능하다. Adobe는 픽셀 단위 제어와 복잡한 워크플로우에 강하고, Canva는 템플릿·브랜드 거버넌스·AI 원클릭 편집으로 제작 속도를 끌어올린다."
       },
       {
-        "question": "Canva에서 개인화 소재를 가장 빠르게 대량 생산하는 방법은 무엇인가요?",
-        "answer": "네, Sheets 데이터 + Bulk Create + 잠금 템플릿 조합이 가장 빠릅니다. 소량은 수동 복제가 가능하지만, Bulk Create는 이름·가격·지역 같은 필드를 바인딩해 한 번에 수십~수백 개 변형을 생성합니다."
+        "question": "Canva Pro와 Teams의 핵심 차이는 무엇인가요?",
+        "answer": "핵심은 협업과 거버넌스다. Pro는 1인 사용을 전제로 하고, Teams는 공유 워크스페이스, 승인, 관리자 제어, 리포트, 1인당 AI 할당 등을 추가한다고 공식 플랜 설명에 나온다."
       },
       {
-        "question": "Canva 무료 플랜으로 비즈니스 사용이 가능할까요, 금방 한계가 오나요?",
-        "answer": "네, 소규모 비즈니스에는 가능하지만 프리미엄 자산, Brand Kits 확장, 일부 AI 기능에서 한계를 느낄 수 있습니다. 검증·저빈도는 Free로 충분하지만, 팀 단위 브랜드 통제나 대량 자동화가 필요하면 Pro/Teams 업그레이드가 보통 빠릅니다."
+        "question": "보안/컴플라이언스가 필요한 회사에도 Canva Teams가 맞나요?",
+        "answer": "많은 SMB 수준의 요구에는 맞을 수 있다. Teams 설명에 ISO 27001과 SOC 2 Type II가 언급되며, SSO/SCIM 같은 더 강한 요구는 Enterprise가 다음 단계로 안내된다."
       },
       {
-        "question": "Canva는 기업 보안/컴플라이언스에서 무엇을 제공하나요?",
-        "answer": "네, Teams와 Enterprise는 ISO 27001, SOC 2 Type II 등을 내세우며 Enterprise에서는 SSO와 SCIM도 제공합니다. 규제 산업이나 대규모 조직은 권한·감사·접근 정책을 통합하기 위해 Enterprise를 선택하는 경우가 많습니다."
+        "question": "Canva가 내 업로드를 AI 학습에 사용하나요?",
+        "answer": "플랜과 프라이버시 설정에 따라 다르다. Magic Studio 페이지에는 사용자의 Privacy Controls와 일치하지 않으면 사용자 콘텐츠를 AI 기능 개선에 사용하지 않으며, Enterprise에서는 해당 설정이 비활성화되어 켤 수 없다고 적혀 있다."
       },
       {
-        "question": "Canva가 내 디자인을 AI 학습에 사용하나요, 관리자가 AI 접근을 제어할 수 있나요?",
-        "answer": "아니요, 기본적으로 학습한다고 단정하면 안 됩니다. 공식 가격 페이지는 Enterprise에서 AI 관리 제어가 가능하고 일부 AI 기능이 기본 비활성화 상태에서 관리자가 활성화할 수 있다고 말합니다. 즉, 조직은 AI 사용 권한을 통제할 수 있는 전제입니다."
+        "question": "고출력 콘텐츠 파이프라인에서 Canva는 돈 값 하나요?",
+        "answer": "네, 반복 제작이 병목이라면 가치가 크다. 템플릿 운영 + AI 편집(배경 제거, 생성 편집) + Teams 승인으로 채널/사이즈/언어 확장 시 재작업을 줄일 수 있다."
       }
     ],
     "es": [
       {
-        "question": "¿Canva puede reemplazar a Adobe para un equipo de marketing?",
-        "answer": "Sí, en la mayoría de flujos de producción de marketing Canva puede reemplazar a Adobe en el día a día, porque Brand Kits, aprobaciones y Bulk Create cubren lo repetible de Creative Ops. Mientras Adobe sigue siendo superior en composiciones avanzadas y control de preimpresión, Canva suele ser más rápido para social, slides y variantes por plantilla."
+        "question": "¿Canva es totalmente gratis?",
+        "answer": "No, pero ofrece un plan Free a £0 con funciones básicas y 5GB de almacenamiento, y los planes de pago añaden recursos premium y más límites de IA. En la página de precios, Pro aparece a £100/año para una persona y Teams a £90/año por persona con mínimo de 3 personas (ejemplo UK)."
       },
       {
-        "question": "¿Canva Pro incluye Magic Studio (IA) y qué límites debo considerar?",
-        "answer": "Sí, Canva Pro incluye funciones de Magic Studio, pero el uso se gestiona con créditos y límites por plan. La página oficial de precios indica que los límites y herramientas de IA varían entre planes y muestra créditos mensuales para funciones como Dream Lab y Magic Media."
+        "question": "¿Canva Pro incluye herramientas de IA como quitar fondos y generar texto?",
+        "answer": "Sí. La página oficial de precios lista la eliminación de fondo y 25+ herramientas de IA en Pro, y también muestra créditos/límites por plan para funciones como Dream Lab y Magic Write."
       },
       {
-        "question": "¿Canva Teams puede imponer consistencia de marca en equipos grandes?",
-        "answer": "Sí, Teams está pensado para consistencia a escala mediante Brand Kits, aprobaciones, roles y colaboración en tiempo real. Mientras Pro es para una sola persona, Teams añade activos centralizados y gobernanza para que un equipo distribuido mantenga el estándar de marca."
+        "question": "¿Puede Canva reemplazar a Adobe Photoshop o Illustrator?",
+        "answer": "No en muchos escenarios avanzados, pero sí en gran parte de la producción de marketing. Mientras Adobe domina el control al píxel y flujos complejos, Canva gana cuando necesitas plantillas, gobernanza de marca y ediciones con IA para social, presentaciones y vídeo ligero."
       },
       {
-        "question": "¿Cuál es la forma más rápida de producir creatividades personalizadas en masa?",
-        "answer": "Sí, la forma más rápida es combinar datos tipo Sheets con Bulk Create y una plantilla bloqueada. Mientras duplicar manualmente sirve para pocas piezas, Bulk Create permite vincular campos (nombre, precio, ciudad) y generar decenas o cientos de variantes en una sola ejecución."
+        "question": "¿Cuál es la diferencia real entre Canva Pro y Canva Teams?",
+        "answer": "La diferencia clave es la colaboración y la gobernanza. Pro está pensado para una persona, mientras Teams añade espacios compartidos, aprobaciones, controles de administración, informes y asignaciones de IA por usuario, según las descripciones de planes."
       },
       {
-        "question": "¿El plan Free de Canva sirve para uso empresarial o me quedaré corto rápido?",
-        "answer": "Sí, puede servir a pequeña escala porque incluye edición básica y muchas plantillas, pero te quedarás corto con contenido premium, profundidad de Brand Kits y algunas funciones de IA. Mientras Free funciona para validar y uso ocasional, la mayoría actualiza cuando necesita automatización y control de marca consistente."
+        "question": "¿Canva Teams sirve para empresas con requisitos de seguridad/compliance?",
+        "answer": "Sí para muchos casos, porque la descripción de Teams menciona certificación ISO 27001 y cumplimiento SOC 2 Type II. Para SSO/SCIM y controles más avanzados, Canva posiciona Enterprise como el siguiente nivel."
       },
       {
-        "question": "¿Qué ofrece Canva en seguridad y cumplimiento para empresas?",
-        "answer": "Sí, Teams y Enterprise anuncian controles como ISO 27001 y SOC 2 Type II, además de SSO y SCIM en Enterprise. Mientras equipos pequeños quizá no lo necesiten, organizaciones reguladas suelen elegir Enterprise para centralizar administración y políticas de acceso."
+        "question": "¿Canva usa mis diseños para entrenar su IA?",
+        "answer": "Depende de tus controles de privacidad y del plan. En la página de Magic Studio, Canva dice que no usa contenido del usuario para mejorar funciones de IA a menos que sea coherente con los Privacy Controls, y que en Enterprise este ajuste está desactivado y no se puede activar."
       },
       {
-        "question": "¿Canva usa mis diseños para entrenar IA y puedo controlar el acceso a IA?",
-        "answer": "No conviene asumir entrenamiento por defecto; es mejor tratar la IA como una función gobernada. La página de precios indica controles de administración de IA en Enterprise y que algunas funciones pueden estar deshabilitadas por defecto con admins habilitándolas, lo que apunta a un modelo de permisos gestionables."
+        "question": "¿Vale la pena Canva para un pipeline de contenido de alto volumen?",
+        "answer": "Sí, si tu cuello de botella es la producción repetitiva. Plantillas + ediciones con IA (quitar fondos, ajustes generativos) y aprobaciones en Teams pueden reducir el ciclo frente a rehacer manualmente en múltiples formatos e idiomas."
       }
     ]
   },
-  "rating": 4.6,
+  "seo_title_jsonb": {
+    "en": "Canva Review 2026: Pricing, Magic Studio AI, Pros/Cons & Best Alternatives",
+    "zh": "Canva 评测 2026：价格与套餐、Magic Studio AI、优缺点与替代方案",
+    "ja": "Canva レビュー 2026（料金・Magic Studio AI・メリット/注意点・代替案）",
+    "ko": "Canva 리뷰 2026: 요금제, Magic Studio AI, 장단점, 대안까지",
+    "es": "Canva Opiniones 2026: Precio, Magic Studio con IA, Ventajas, Desventajas y Alternativas"
+  },
+  "seo_description_jsonb": {
+    "en": "Canva review (2026): We tested Magic Studio for AI copy, background removal, and fast brand-safe templates. See pricing (Free/Pro/Teams), real limits, pros/cons, and top alternatives.",
+    "zh": "Canva 评测（2026）：实测 Magic Studio 的 AI 文案、抠图与模板化生产能力。看清 Free/Pro/Teams 价格、额度限制、优缺点与最佳替代方案。",
+    "ja": "Canva レビュー（2026）：Magic Studio の文章生成・背景削除・テンプレ運用を検証。Free/Pro/Teams の料金、上限、メリット/注意点、代替案を解説。",
+    "ko": "Canva 리뷰(2026): Magic Studio로 카피 생성, 배경 제거, 템플릿 자동화를 테스트. Free/Pro/Teams 요금, 한도, 장단점, 대안을 한 번에 정리.",
+    "es": "Reseña de Canva (2026): Probamos Magic Studio para copy con IA, eliminación de fondo y plantillas seguras para marca. Precios (Free/Pro/Teams), límites reales, pros/contras y alternativas."
+  },
   "debug_metadata": {
-    "citations_dump": [
-      "https://www.canva.com/en/pricing/",
-      "https://www.canva.com/magic-design/",
-      "https://www.youtube.com/watch?v=aE2E2Pw73T0",
-      "https://www.youtube.com/watch?v=6EIf2Hmia60"
-    ],
-    "notes": "Durations for selected YouTube videos require precise extraction; set to PT0S pending verified metadata. Pricing and AI credits verified from Canva pricing page in GBP."
+    "updated_at": "2026-03-05T09:12:00Z",
+    "notes": "Update-mode JSON generated for existing slug canva; includes citationsdump per schema guardrail."
   }
 }
