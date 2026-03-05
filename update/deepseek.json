@@ -1,0 +1,323 @@
+{
+  "slug": "deepseek",
+  "name": "DeepSeek",
+  "tagline": {
+    "en": "Open-source reasoning models (R1) + low-cost API for math, code, and agents",
+    "zh": "开源推理模型 R1 + 低成本 API：面向数学、代码与智能体工作流",
+    "ja": "オープンソース推論モデルR1と低コストAPI（数学・コード・エージェント向け）",
+    "ko": "오픈소스 추론 모델 R1 + 저비용 API (수학·코딩·에이전트)",
+    "es": "Modelos de razonamiento open-source (R1) y API de bajo coste para código, matemáticas y agentes"
+  },
+  "website_url": "https://deepseek.com",
+  "pricing_url": "https://platform.deepseek.com",
+  "docs_url": "https://api-docs.deepseek.com",
+  "github_url": "https://github.com/deepseek-ai/DeepSeek-R1",
+  "category": [
+    "large-language-models",
+    "ai-code-tools",
+    "ai-research-search",
+    "automation-tools"
+  ],
+  "rating": 4.6,
+  "tags_jsonb": {
+    "en": ["Reasoning LLM", "Open-source", "Coding", "Math", "API", "Distillation"],
+    "zh": ["推理大模型", "开源", "代码", "数学", "API", "蒸馏"],
+    "ja": ["推論LLM", "オープンソース", "コーディング", "数学", "API", "蒸留"],
+    "ko": ["추론 LLM", "오픈소스", "코딩", "수학", "API", "증류"],
+    "es": ["LLM de razonamiento", "Open-source", "Programación", "Matemáticas", "API", "Destilación"]
+  },
+  "seo_title_jsonb": {
+    "en": "DeepSeek Review 2026: Pricing, Pros & Cons, Alternatives",
+    "zh": "DeepSeek 怎么样？2026 最新评测：价格、优缺点与竞品对比",
+    "ja": "【徹底レビュー】DeepSeekの評判は？料金・強み弱み・代替案（2026）",
+    "ko": "DeepSeek 솔직 후기: 가격, 장단점 및 추천 대안 (2026 완벽 정리)",
+    "es": "Opiniones de DeepSeek (2026): Precio, Ventajas y Alternativas"
+  },
+  "seo_description_jsonb": {
+    "en": "DeepSeek Review 2026: MIT-licensed R1 reasoning + low-cost API pricing. See pros/cons, self-host tradeoffs, and top alternatives.",
+    "zh": "DeepSeek 2026 评测：R1 MIT 开源推理 + 低价 API Pricing。看优缺点、本地部署成本与替代方案。",
+    "ja": "DeepSeekレビュー(2026)：MITのR1推論と低価格API。長所短所、セルフホスト費用、代替案を整理。",
+    "ko": "DeepSeek 리뷰 2026: MIT 오픈소스 R1 추론과 저렴한 API Pricing. 장단점, 로컬 실행 비용, 대안을 정리.",
+    "es": "Review de DeepSeek 2026: R1 con licencia MIT y API de bajo coste. Pros/contras, coste de self-hosting y alternativas."
+  },
+  "description_jsonb": {
+    "en": "> **Executive Summary:** DeepSeek is an open-source reasoning-model stack (R1 family) with an OpenAI-compatible API aimed at developers who need strong math/coding reasoning at predictable cost. It’s best for agent workflows, code evaluation, and private deployments—if you can handle GPU hosting tradeoffs and model-operation tuning.\n\nDeepSeek’s flagship reasoning model, DeepSeek-R1, is released under the MIT License, and the project also provides multiple distilled checkpoints (1.5B–70B) for practical self-hosting and fine-tuning pipelines. The official API exposes a “deepseek-reasoner” model with token-based pricing, including separate input (cache hit/miss) and output rates.\n\nIf you already use <a href='https://www.linkstartai.com/en/agents/claude'>Claude</a> or <a href='https://www.linkstartai.com/en/agents/chatgpt'>ChatGPT</a> for reasoning, DeepSeek is attractive when you want transparent weights, reproducible evaluation, and lower marginal inference cost—while accepting that you’ll spend more engineering time on deployment, prompt hygiene, and guardrails.",
+    "zh": "> **Executive Summary:** DeepSeek 是一套面向开发者的开源推理模型（R1 系列）与 OpenAI 兼容 API，主打数学/代码推理能力与可控的推理成本。它尤其适合做智能体工作流、代码评测与私有化部署——前提是你愿意承担 GPU 自托管与模型调参的工程成本。\n\nDeepSeek-R1 以 MIT 协议开源，同时提供从 1.5B 到 70B 的蒸馏模型，便于本地运行、二次微调与知识蒸馏。官方平台提供 “deepseek-reasoner” API，按 Token 计费，并区分输入缓存命中/未命中以及输出费用。\n\n如果你目前用 <a href='https://www.linkstartai.com/zh/agents/claude'>Claude</a> 或 <a href='https://www.linkstartai.com/zh/agents/chatgpt'>ChatGPT</a> 做推理，DeepSeek 的优势在于权重与评测更透明、可复现实验、边际推理更省钱；代价是部署、提示词规范与安全护栏需要你自己更“重运营”。",
+    "ja": "> **Executive Summary:** DeepSeekは、開発者向けのオープンソース推論モデル（R1ファミリー）とOpenAI互換APIを提供し、数学・コーディング推論を低コストで回したいチームに向きます。エージェント実装やコード評価、プライベート運用に強い一方、GPU運用とチューニングの負担は増えます。\n\nDeepSeek-R1はMITライセンスで公開され、1.5B〜70Bまでの蒸留チェックポイントも用意されています。公式APIでは「deepseek-reasoner」を利用でき、入力（キャッシュヒット/ミス）と出力で単価が分かれるトークン課金です。\n\nすでに <a href='https://www.linkstartai.com/ja/agents/claude'>Claude</a> や <a href='https://www.linkstartai.com/ja/agents/chatgpt'>ChatGPT</a> を使っている場合、DeepSeekは重みの透明性と再現性、推論単価の面で魅力がありますが、デプロイ・プロンプト運用・ガードレール整備は自前で設計する必要があります。",
+    "ko": "> **Executive Summary:** DeepSeek는 개발자 중심의 오픈소스 추론 모델(R1 계열)과 OpenAI 호환 API를 제공해 수학·코딩 추론을 낮은 비용으로 돌리고 싶은 팀에 적합합니다. 에이전트 워크플로, 코드 평가, 프라이빗 배포에 강하지만 GPU 운영과 튜닝 부담은 커질 수 있습니다.\n\nDeepSeek-R1은 MIT 라이선스로 공개되었고, 1.5B~70B까지 증류 체크포인트도 제공되어 로컬 실행/미세조정/증류 파이프라인에 유리합니다. 공식 API는 “deepseek-reasoner” 모델을 제공하며 입력(캐시 히트/미스)과 출력 토큰 단가가 분리된 요금 구조입니다.\n\n이미 <a href='https://www.linkstartai.com/ko/agents/claude'>Claude</a> 또는 <a href='https://www.linkstartai.com/ko/agents/chatgpt'>ChatGPT</a>로 추론을 하고 있다면, DeepSeek는 가중치 공개와 재현성, 낮은 추론 단가가 장점입니다. 대신 배포, 프롬프트 운영, 안전 가드레일은 더 많은 엔지니어링이 필요합니다.",
+    "es": "> **Executive Summary:** DeepSeek es un stack de modelos de razonamiento open-source (familia R1) con una API compatible con OpenAI, pensado para equipos que necesitan buen razonamiento matemático y de programación con costes previsibles. Destaca en flujos de agentes, evaluación de código y despliegues privados, siempre que aceptes el trade-off de operar GPUs y ajustar el modelo.\n\nDeepSeek-R1 se publica con licencia MIT y además ofrece checkpoints destilados (1.5B–70B) útiles para self-hosting, fine-tuning y destilación. La plataforma oficial expone el modelo “deepseek-reasoner” con pricing por tokens, separando coste de entrada (cache hit/miss) y salida.\n\nSi ya usas <a href='https://www.linkstartai.com/es/agents/claude'>Claude</a> o <a href='https://www.linkstartai.com/es/agents/chatgpt'>ChatGPT</a> para razonamiento, DeepSeek resulta atractivo por pesos transparentes, evaluación reproducible y menor coste marginal, a cambio de más trabajo de despliegue, prompts y guardrails."
+  },
+  "features_jsonb": {
+    "en": [
+      "Run open-source reasoning models (R1) under MIT license",
+      "Use OpenAI-compatible API endpoints for drop-in integration",
+      "Deploy distilled checkpoints (1.5B–70B) for self-hosting",
+      "Tune generation stability via recommended temperature (0.5–0.7)",
+      "Benchmark-ready settings (long generation up to 32k tokens in eval)"
+    ],
+    "zh": [
+      "MIT 协议开源的推理模型 R1，可商用与二次开发",
+      "OpenAI 兼容 API，便于快速替换/接入",
+      "提供 1.5B–70B 蒸馏模型，适合本地部署",
+      "按官方建议温度 0.5–0.7 提升稳定性",
+      "面向评测/对齐的长输出配置（评测可到 32k tokens）"
+    ],
+    "ja": [
+      "MITライセンスの推論モデルR1をオープンソースで利用",
+      "OpenAI互換APIで既存実装に差し替えやすい",
+      "1.5B〜70Bの蒸留モデルでセルフホスト可能",
+      "温度0.5〜0.7推奨で出力の安定性を改善",
+      "評価向けの長文生成設定（評価で最大32kトークン）"
+    ],
+    "ko": [
+      "MIT 라이선스 기반 오픈소스 추론 모델 R1",
+      "OpenAI 호환 API로 손쉬운 교체/연동",
+      "1.5B~70B 증류 모델로 self-hosting 가능",
+      "권장 temperature 0.5~0.7로 출력 안정화",
+      "평가 기준 장문 생성 설정(평가 최대 32k 토큰)"
+    ],
+    "es": [
+      "Modelos de razonamiento R1 open-source con licencia MIT",
+      "API compatible con OpenAI para integración directa",
+      "Checkpoints destilados (1.5B–70B) para self-hosting",
+      "Estabilidad de generación con temperatura recomendada (0.5–0.7)",
+      "Ajustes listos para benchmarks (hasta 32k tokens en evaluación)"
+    ]
+  },
+  "pros_jsonb": {
+    "en": [
+      "MIT-licensed open-source reasoning model; friendly for commercial use",
+      "Strong reported performance on math/coding benchmarks in the R1 report",
+      "OpenAI-compatible API reduces integration friction",
+      "Distilled model lineup enables smaller, cheaper deployments"
+    ],
+    "zh": [
+      "MIT 协议开源，对商用、蒸馏、微调友好",
+      "R1 技术报告披露在数学/代码评测上表现强",
+      "OpenAI 兼容接口，接入成本更低",
+      "蒸馏模型覆盖多尺寸，便于控成本部署"
+    ],
+    "ja": [
+      "MITライセンスで商用利用や改変に向く",
+      "R1の技術報告で数学/コード系ベンチが強い",
+      "OpenAI互換APIで導入コストが下がる",
+      "蒸留モデルが揃い、軽量運用もしやすい"
+    ],
+    "ko": [
+      "MIT 오픈소스로 상용/개조/증류에 유리",
+      "R1 보고서 기준 수학·코딩 벤치 성능이 강함",
+      "OpenAI 호환 API로 연동 난이도 낮음",
+      "증류 모델 라인업으로 비용 최적화 가능"
+    ],
+    "es": [
+      "Licencia MIT: open-source y apto para uso comercial",
+      "Buen rendimiento reportado en benchmarks de matemáticas y código",
+      "API compatible con OpenAI facilita la integración",
+      "Modelos destilados permiten despliegues más económicos"
+    ]
+  },
+  "cons_jsonb": {
+    "en": [
+      "Self-hosting requires GPU ops and careful runtime tuning",
+      "Model behavior can degrade with system prompts; prompt discipline matters",
+      "Benchmarks and real-world reliability still require your own validation"
+    ],
+    "zh": [
+      "本地部署需要 GPU 运维与推理栈调优",
+      "官方建议避免系统提示词，提示词规范要求更高",
+      "评测强不等于生产稳，仍需自行压测与验证"
+    ],
+    "ja": [
+      "セルフホストはGPU運用と推論スタックの調整が必要",
+      "システムプロンプトで挙動が崩れる場合があり運用が重要",
+      "ベンチの強さ＝本番安定ではないため自前検証が必要"
+    ],
+    "ko": [
+      "로컬 배포는 GPU 운영과 런타임 튜닝이 필요",
+      "시스템 프롬프트 사용 시 성능 저하 가능, 프롬프트 규율 중요",
+      "벤치 성능과 실사용 안정성은 직접 검증이 필요"
+    ],
+    "es": [
+      "El self-hosting exige operación de GPUs y tuning del runtime",
+      "El comportamiento puede empeorar con system prompts; disciplina de prompting",
+      "Los benchmarks no sustituyen validación en producción"
+    ]
+  },
+  "verdict_jsonb": {
+    "en": "DeepSeek is a top pick in 2026 if you want an MIT-licensed reasoning model you can self-host, distill, and integrate via an OpenAI-compatible API. Pricing on the official platform is explicitly published (e.g., $0.14/M input tokens for cache hits and $2.19/M output tokens for R1), making cost planning straightforward, but you must invest in deployment and safety engineering.",
+    "zh": "如果你在 2026 需要可商用、可自托管、可蒸馏的开源推理模型，DeepSeek 是非常值得优先评估的选择。官方平台公开了 R1 的 Token 计费（例如输入缓存命中 $0.14/百万、输出 $2.19/百万），预算更好算；但你必须为部署、稳定性与安全护栏投入工程资源。",
+    "ja": "2026年に、MITライセンスの推論モデルをセルフホスト・蒸留・OpenAI互換APIで統合したいなら、DeepSeekは有力候補です。公式プラットフォームでR1のトークン単価（例：入力キャッシュヒット$0.14/100万、出力$2.19/100万）が明示されており費用見積もりはしやすい一方、運用と安全設計は自前で固める必要があります。",
+    "ko": "2026년에 MIT 오픈소스 추론 모델을 self-hosting/증류/연동(OpenAI 호환 API)까지 한 번에 가져가고 싶다면 DeepSeek는 최상위 후보입니다. 공식 플랫폼이 R1 토큰 단가(예: 입력 캐시 히트 $0.14/백만, 출력 $2.19/백만)를 공개해 비용 계획은 쉬우나, 배포·안정화·보안 가드레일은 엔지니어링 투자가 필요합니다.",
+    "es": "En 2026, DeepSeek destaca si buscas un modelo de razonamiento con licencia MIT para self-hosting, destilación e integración vía API compatible con OpenAI. La plataforma publica precios de R1 (p. ej., $0.14/M tokens de entrada con cache hit y $2.19/M tokens de salida), lo que facilita planificar costes, pero exige trabajo serio de despliegue y seguridad."
+  },
+  "faqs_jsonb": {
+    "en": [
+      {
+        "q": "Is DeepSeek-R1 really open-source and safe for commercial use?",
+        "a": "Yes—DeepSeek-R1 is released under the MIT License, which is permissive for commercial use, modification, and redistribution. The practical ‘safety’ part is on you: you still need policy prompts, content filters, and logging just like you would with <a href='https://www.linkstartai.com/en/agents/openai'>OpenAI</a> or <a href='https://www.linkstartai.com/en/agents/claude'>Claude</a> when deploying into production."
+      },
+      {
+        "q": "DeepSeek vs ChatGPT: which is better for coding and reasoning?",
+        "a": "It depends on your constraint. While <a href='https://www.linkstartai.com/en/agents/chatgpt'>ChatGPT</a> often wins on product polish (tools, UI, enterprise controls), DeepSeek can be the better engineering choice when you need MIT-licensed weights, reproducible evaluation, and lower marginal inference cost for coding-heavy workflows."
+      },
+      {
+        "q": "Does DeepSeek provide an OpenAI-compatible API, and what does it cost?",
+        "a": "Yes—DeepSeek provides an OpenAI-compatible API and exposes the reasoning model as “deepseek-reasoner”. Published pricing includes $0.14 per million input tokens (cache hit), $0.55 per million input tokens (cache miss), and $2.19 per million output tokens, which helps you model agent costs precisely."
+      },
+      {
+        "q": "What are the real costs of self-hosting DeepSeek-R1?",
+        "a": "Yes, you can self-host, but the main cost driver is GPU memory/bandwidth and inference stack complexity (e.g., vLLM or SGLang). In practice, many teams run distilled checkpoints (like 14B–70B) to balance latency, quality, and hardware footprint rather than deploying the full 671B MoE model."
+      },
+      {
+        "q": "Can I fine-tune or distill from DeepSeek-R1 outputs?",
+        "a": "Yes—DeepSeek states that the model and its outputs can be used for fine-tuning and distillation, and it also releases multiple distilled checkpoints based on Qwen and Llama families. You should still track lineage and licenses of base models (e.g., Qwen Apache 2.0, Llama license variants) when shipping a commercial derivative."
+      },
+      {
+        "q": "Any prompt or runtime settings that matter for stability?",
+        "a": "Yes—DeepSeek recommends temperature in the 0.5–0.7 range (0.6 suggested) and warns that adding a system prompt can hurt behavior; keep instructions in the user prompt. For evaluation, they also note long generation settings and recommend repeated tests and averaging, which is important if you compare against models like <a href='https://www.linkstartai.com/en/agents/gpt-4o'>GPT-4o</a>."
+      },
+      {
+        "q": "Will DeepSeek V4 matter if I’m already using R1 today?",
+        "a": "Yes—if V4 ships with stronger coding and multimodal capability, it could reduce tool fragmentation (text reasoning + image/video generation) in agent stacks. However, until weights, pricing, and independent evals are published, you should treat V4 as roadmap risk and keep production on the released R1 family."
+      }
+    ],
+    "zh": [
+      {
+        "q": "DeepSeek-R1 真的是开源并且可商用吗？",
+        "a": "Yes——DeepSeek-R1 以 MIT 协议发布，通常允许商用、修改与再分发。至于“安全”，你仍需要像部署 <a href='https://www.linkstartai.com/zh/agents/openai'>OpenAI</a> 或 <a href='https://www.linkstartai.com/zh/agents/claude'>Claude</a> 一样配置策略提示词、内容过滤、审计与日志。"
+      },
+      {
+        "q": "DeepSeek vs ChatGPT：写代码和推理哪个更强？",
+        "a": "It depends。While <a href='https://www.linkstartai.com/zh/agents/chatgpt'>ChatGPT</a> 更偏“产品化”（工具、界面、企业控制），DeepSeek 往往更适合工程团队：你可以拿到 MIT 权重做可复现实验、并以更低边际成本跑大量代码推理任务。"
+      },
+      {
+        "q": "DeepSeek 是否提供 OpenAI 兼容 API？价格如何？",
+        "a": "Yes——DeepSeek 提供 OpenAI 兼容 API，并以 “deepseek-reasoner” 暴露推理模型。公开定价包含：输入缓存命中 $0.14/百万 tokens、缓存未命中 $0.55/百万 tokens、输出 $2.19/百万 tokens，适合精确核算智能体成本。"
+      },
+      {
+        "q": "自托管 DeepSeek-R1 的真实成本是什么？",
+        "a": "Yes，但主要成本在 GPU 显存/带宽与推理栈复杂度（例如 vLLM 或 SGLang）。实践中很多团队会选择 14B–70B 的蒸馏模型在延迟、质量与硬件成本间折中，而不是直接上 671B MoE 全量模型。"
+      },
+      {
+        "q": "能用 DeepSeek-R1 的输出做微调或蒸馏吗？",
+        "a": "Yes——官方说明模型与 API 输出可用于微调与蒸馏，并发布了基于 Qwen/Llama 的多尺寸蒸馏权重。但商用落地时仍要关注上游基础模型的协议继承（例如 Qwen Apache 2.0、Llama 的不同许可）。"
+      },
+      {
+        "q": "有哪些提示词/运行参数会显著影响稳定性？",
+        "a": "Yes——官方建议温度 0.5–0.7（推荐 0.6），并提示“系统提示词”可能导致行为变差，尽量把指令放在用户提示词里。对比 <a href='https://www.linkstartai.com/zh/agents/gpt-4o'>GPT-4o</a> 等模型时，也要做多次测试并取平均，避免抽样波动误判。"
+      },
+      {
+        "q": "如果我现在用的是 R1，DeepSeek V4 还重要吗？",
+        "a": "Yes——如果 V4 真的补齐更强代码能力与多模态（图像/视频），可能让智能体栈更“少拼装”。但在官方发布权重、定价与独立评测之前，应把 V4 当作路线图不确定性，生产建议先稳用已发布的 R1 系列。"
+      }
+    ],
+    "ja": [
+      {
+        "q": "DeepSeek-R1は本当にオープンソースで商用利用できますか？",
+        "a": "Yes—DeepSeek-R1はMITライセンスで公開され、商用利用や改変、再配布に適した条件です。とはいえ“安全運用”は別問題で、<a href='https://www.linkstartai.com/ja/agents/openai'>OpenAI</a>や<a href='https://www.linkstartai.com/ja/agents/claude'>Claude</a>同様に、ポリシー、フィルタ、監査ログなどの設計が必要です。"
+      },
+      {
+        "q": "DeepSeekとChatGPTは、コーディング/推論ではどちらが優位？",
+        "a": "It depends。While <a href='https://www.linkstartai.com/ja/agents/chatgpt'>ChatGPT</a>は製品体験（ツール、UI、企業向け管理）に強い一方、DeepSeekはMITの重み、再現性の高い評価、コーディング中心の推論コスト最適化を重視するチームに向きます。"
+      },
+      {
+        "q": "OpenAI互換APIはありますか？料金は？",
+        "a": "Yes—OpenAI互換APIがあり、推論モデルは“deepseek-reasoner”として提供されます。公開されている価格は、入力（キャッシュヒット）$0.14/100万トークン、入力（キャッシュミス）$0.55/100万、出力$2.19/100万です。"
+      },
+      {
+        "q": "DeepSeek-R1をセルフホストする現実的なコストは？",
+        "a": "Yes、可能ですが、主なコストはGPUのメモリ/帯域と推論スタック（vLLMやSGLang等）の運用です。多くのチームは、品質とレイテンシのバランスのために14B〜70Bの蒸留モデルを選ぶことが多いです。"
+      },
+      {
+        "q": "DeepSeek-R1の出力で微調整や蒸留はできますか？",
+        "a": "Yes—DeepSeekは出力を微調整・蒸留に使える旨を明示し、Qwen/Llama系ベースの蒸留モデルも複数公開しています。商用では、ベースモデルのライセンス継承（Qwen Apache 2.0、Llama系の条件）を必ず確認してください。"
+      },
+      {
+        "q": "安定運用のために重要なプロンプト/パラメータは？",
+        "a": "Yes—温度0.5〜0.7（0.6推奨）を推奨し、システムプロンプトは挙動を悪化させる可能性があるため避けるよう注意があります。<a href='https://www.linkstartai.com/ja/agents/gpt-4o'>GPT-4o</a>などと比較するなら、複数回テストして平均化するのが安全です。"
+      },
+      {
+        "q": "R1を使っているなら、V4の登場は重要？",
+        "a": "Yes—V4がコーディング強化やマルチモーダル（画像/動画）を実装すれば、エージェント基盤の統合度が上がる可能性があります。ただし、重み・価格・第三者評価が揃うまでは、R1を本番の基準にしてロードマップ不確実性を吸収するのが無難です。"
+      }
+    ],
+    "ko": [
+      {
+        "q": "DeepSeek-R1은 정말 오픈소스이고 상용으로 안전하게 쓸 수 있나요?",
+        "a": "Yes—DeepSeek-R1은 MIT 라이선스로 공개되어 상용 사용/수정/재배포에 유리합니다. 다만 ‘안전’은 별개라서, <a href='https://www.linkstartai.com/ko/agents/openai'>OpenAI</a>나 <a href='https://www.linkstartai.com/ko/agents/claude'>Claude</a>처럼 정책 프롬프트, 필터링, 감사 로그를 직접 설계해야 합니다."
+      },
+      {
+        "q": "DeepSeek vs ChatGPT: 코딩·추론에서는 뭐가 더 낫나요?",
+        "a": "It depends。While <a href='https://www.linkstartai.com/ko/agents/chatgpt'>ChatGPT</a>는 제품 완성도(UI·도구·기업용 관리)에 강한 편이고, DeepSeek는 MIT 가중치, 재현 가능한 평가, 코딩 중심 워크플로에서 낮은 추론 단가를 원하는 팀에 더 잘 맞습니다."
+      },
+      {
+        "q": "OpenAI 호환 API가 있나요? 비용은 어떻게 되나요?",
+        "a": "Yes—OpenAI 호환 API를 제공하며 추론 모델은 “deepseek-reasoner”로 노출됩니다. 공개된 가격은 입력(캐시 히트) $0.14/백만, 입력(캐시 미스) $0.55/백만, 출력 $2.19/백만 토큰입니다."
+      },
+      {
+        "q": "DeepSeek-R1 self-hosting의 실제 비용 포인트는 무엇인가요?",
+        "a": "Yes, 가능하지만 핵심은 GPU 메모리/대역폭과 추론 스택(vLLM, SGLang 등) 운영 복잡도입니다. 실무에서는 671B MoE 전체 모델보다 14B~70B 증류 모델을 선택해 품질·지연·비용을 균형 잡는 경우가 많습니다."
+      },
+      {
+        "q": "DeepSeek-R1 출력으로 파인튜닝이나 증류가 가능한가요?",
+        "a": "Yes—DeepSeek는 모델과 API 출력이 파인튜닝·증류에 사용 가능하다고 밝히며, Qwen/Llama 기반 증류 체크포인트도 공개했습니다. 상용 배포 시에는 베이스 모델 라이선스(Qwen Apache 2.0, Llama 계열 조건)도 함께 검토해야 합니다."
+      },
+      {
+        "q": "안정성을 위해 중요한 프롬프트/런타임 설정이 있나요?",
+        "a": "Yes—권장 temperature는 0.5~0.7(0.6 추천)이며, 시스템 프롬프트를 추가하면 동작이 나빠질 수 있다고 안내합니다. <a href='https://www.linkstartai.com/ko/agents/gpt-4o'>GPT-4o</a> 같은 모델과 비교할 때는 여러 번 테스트해 평균을 내는 방식이 안전합니다."
+      },
+      {
+        "q": "이미 R1을 쓰고 있다면 V4는 얼마나 중요할까요?",
+        "a": "Yes—V4가 코딩 강화 및 멀티모달(이미지/영상)까지 제공하면 에이전트 스택의 분절을 줄일 수 있습니다. 다만 가중치·가격·독립 평가가 나오기 전까지는 V4를 로드맵 변수로 보고, 프로덕션은 R1 계열로 운영하는 편이 현실적입니다."
+      }
+    ],
+    "es": [
+      {
+        "q": "¿DeepSeek-R1 es realmente open-source y apto para uso comercial?",
+        "a": "Yes—DeepSeek-R1 se publica con licencia MIT, que permite uso comercial, modificación y redistribución. La parte de ‘seguridad’ la pones tú: en producción necesitas políticas, filtros y auditoría igual que con <a href='https://www.linkstartai.com/es/agents/openai'>OpenAI</a> o <a href='https://www.linkstartai.com/es/agents/claude'>Claude</a>."
+      },
+      {
+        "q": "DeepSeek vs ChatGPT: ¿cuál conviene para programación y razonamiento?",
+        "a": "It depends. While <a href='https://www.linkstartai.com/es/agents/chatgpt'>ChatGPT</a> suele ganar en experiencia de producto (herramientas, UI, controles enterprise), DeepSeek puede ser mejor elección de ingeniería si quieres pesos MIT, evaluación reproducible y menor coste marginal en flujos de código."
+      },
+      {
+        "q": "¿Hay API compatible con OpenAI y cuánto cuesta?",
+        "a": "Yes—la API es compatible con OpenAI y expone el modelo de razonamiento como “deepseek-reasoner”. El pricing publicado incluye $0.14/M tokens de entrada (cache hit), $0.55/M tokens de entrada (cache miss) y $2.19/M tokens de salida."
+      },
+      {
+        "q": "¿Cuáles son los costes reales de hacer self-hosting de DeepSeek-R1?",
+        "a": "Yes, se puede, pero el coste principal es GPU (memoria/ancho de banda) y operar el stack de inferencia (por ejemplo vLLM o SGLang). Muchas empresas usan modelos destilados (14B–70B) para equilibrar latencia, calidad y hardware en vez del MoE de 671B completo."
+      },
+      {
+        "q": "¿Puedo hacer fine-tuning o destilar a partir de salidas de DeepSeek-R1?",
+        "a": "Yes—DeepSeek indica que el modelo y sus salidas pueden usarse para fine-tuning y destilación, y publica checkpoints destilados basados en familias Qwen y Llama. Para un producto comercial, revisa la herencia de licencias (Qwen Apache 2.0 y variantes de licencia Llama)."
+      },
+      {
+        "q": "¿Qué ajustes de prompt/runtime importan para estabilidad?",
+        "a": "Yes—se recomienda temperatura 0.5–0.7 (0.6 sugerida) y advierten que un system prompt puede empeorar el comportamiento; pon instrucciones en el user prompt. Para comparar con <a href='https://www.linkstartai.com/es/agents/gpt-4o'>GPT-4o</a>, conviene promediar varias ejecuciones."
+      },
+      {
+        "q": "Si ya uso R1 hoy, ¿importa la llegada de V4?",
+        "a": "Yes—si V4 llega con mejor coding y capacidades multimodales, podría simplificar stacks de agentes (texto + imagen/vídeo). Pero hasta que haya pesos, pricing y evaluaciones independientes, trátalo como incertidumbre de roadmap y mantén producción en la familia R1 ya publicada."
+      }
+    ]
+  },
+  "videos_jsonb": [
+    {
+      "type": "youtube",
+      "videoId": "Or0ruWJybVI",
+      "title": "DeepSeek-R1: Open Source O1 Rival in 6 Minutes",
+      "uploadDate": "2025-01-19T00:00:00Z",
+      "description": "Short overview of DeepSeek-R1 positioning vs o1, licensing, and quick getting-started pointers.",
+      "duration": "PT6M0S"
+    }
+  ],
+  "integrations_jsonb": {
+    "en": ["vLLM", "SGLang", "Hugging Face (weights)"],
+    "zh": ["vLLM", "SGLang", "Hugging Face（权重）"],
+    "ja": ["vLLM", "SGLang", "Hugging Face（重み）"],
+    "ko": ["vLLM", "SGLang", "Hugging Face(가중치)"],
+    "es": ["vLLM", "SGLang", "Hugging Face (pesos)"]
+  },
+  "updated_at": "2026-03-05"
+}
