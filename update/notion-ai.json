@@ -9,18 +9,18 @@
     "es": "Notion AI"
   },
   "taglinejsonb": {
-    "en": "Agentic workspace assistant for docs, databases, and connected search.",
-    "zh": "面向文档与数据库的智能助理：写作、检索、总结与自动化一体化。",
-    "ja": "ドキュメントとDBを横断して書く・探す・要約するワークスペースAI。",
-    "ko": "문서·DB·검색을 한곳에서: 작성, 요약, 질의응답, 자동화까지.",
-    "es": "Asistente de trabajo con IA para escribir, buscar, resumir y automatizar dentro de Notion."
+    "en": "Agentic assistant for writing, research, and database work inside Notion.",
+    "zh": "在 Notion 内完成写作、研究与数据库更新的智能助理。",
+    "ja": "Notion 内で執筆・調査・DB更新まで行うワークスペースAI。",
+    "ko": "Notion 안에서 작성·리서치·DB 업데이트까지 하는 AI.",
+    "es": "Asistente agentivo para escribir, investigar y actualizar bases de datos en Notion."
   },
   "descriptionjsonb": {
-    "en": "> **Executive Summary:** Notion AI turns your Notion workspace into an agentic assistant for writing, summarizing, and answering questions across docs and databases. It can also work across connected tools like Slack and GitHub via enterprise search, and run longer research-style workflows when needed. The core value is fewer context switches: ask once, and the agent drafts, updates, and reports inside the same system of record.\n\nNotion AI is best understood as an AI layer on top of Notion’s docs + database graph. For day-to-day work, it handles fast actions like rewriting a paragraph, generating a spec, or autofilling database fields. For knowledge work, it supports workspace-wide Q&A and an Agent workflow that can complete multi-step tasks using context from Notion, connected apps, and the web.\n\nFrom a systems perspective, the important detail is the underlying architecture shift: Notion rebuilt its agent system around a central reasoning model (OpenAI GPT-5) coordinating modular sub-agents, rather than isolated prompt chains. In OpenAI’s published evaluation with real user tasks, Notion reported a 7.6% improvement over other state-of-the-art models on outputs aligned with high-priority feedback and 15% better performance on difficult Research Mode questions. It also described 100%+ improvement on multi-step structured tasks like deadline updates and competitor research.\n\nPricing is best treated as two layers: the Notion plan (Free/Plus/Business/Enterprise) plus AI access rules. On Notion’s pricing page, Notion AI Core features (chat, generate, autofill, translate) are listed as Limited Trial on Free/Plus/Business, while Enterprise is positioned for stronger data controls such as zero data retention with LLM providers. Paid plan list prices shown are $10 per seat/month (Plus) and $20 per seat/month (Business).\n\nIf you run an AI-first stack, Notion AI is most valuable when it becomes the place you execute: meeting-note summaries become tasks in databases, research turns into decision memos, and updates get written back to the same canonical source. For teams already using Notion as their system of record, this integration depth typically matters more than raw model quality.",
-    "zh": "> **Executive Summary:** Notion AI 把你的 Notion 工作区升级成可执行任务的智能助理：它不仅能写作、总结、翻译与问答，还能在文档与数据库之间读写，并通过连接器跨 Slack、GitHub 等来源检索信息。它的核心价值是减少上下文切换：你在同一个系统里提出问题，AI 直接产出草稿、更新数据库、并回写结果。\n\n把 Notion AI 理解为覆盖在 Notion 文档 + 数据库图谱之上的 AI 层会更准确。日常层面，它能帮你改写段落、生成 PRD/会议纪要、自动填充数据库字段。知识工作层面，它提供工作区级别的问答，以及可执行多步骤任务的 Agent 流程，能够利用 Notion、已连接应用与网页信息进行规划、执行与汇报。\n\n对工程与架构敏感的团队，关键点在于 Notion 的系统重构：Notion 将 agent 系统围绕一个中心推理模型（OpenAI GPT-5）+ 多个模块化子代理来编排，而不是过去那种孤立的 prompt 链。OpenAI 公开案例中，Notion 基于真实用户任务做评估，报告在对齐高优先级反馈的输出上相对其他前沿模型提升 7.6%，在 Research Mode 难题上提升 15%，并在多步骤结构化任务（如截止日期更新、竞品研究）上实现 100%+ 的改进。\n\n价格最好按两层来拆：Notion 的订阅计划（Free/Plus/Business/Enterprise）+ AI 的可用性规则。Notion 定价页中，Notion AI Core（聊天、生成、自动填充、翻译）在 Free/Plus/Business 均标注为 Limited Trial；Enterprise 则强调更强的数据控制（例如与 LLM 供应商的零数据保留）。官网列出的席位价格为 Plus $10/人/月、Business $20/人/月。\n\n如果你正在搭建 AI 工作流栈，Notion AI 的高价值场景是“在 Notion 内完成执行”：把会议纪要自动变成任务、把研究报告沉淀为决策文档、把更新写回数据库并成为系统记录。对于已经把 Notion 当作系统中枢的团队，这种集成深度通常比单纯的模型对话更重要。",
-    "ja": "> **Executive Summary:** Notion AI は Notion ワークスペースを、文章作成・要約・翻訳・Q&A だけでなく、ドキュメントとデータベースを横断して“実行”できるエージェントに変えます。Slack や GitHub などの接続先も含めた検索（Enterprise Search）や、必要に応じて調査型の長いワークフローも扱えるのが強みです。価値は一貫していて、同じシステムの中で質問→作成→更新→記録まで完結します。\n\nNotion AI は、Notion の docs + database グラフの上に載る AI レイヤーとして捉えると理解しやすいです。段落のリライト、仕様書の下書き、DB プロパティの自動入力などの短い作業から、ワークスペース全体の Q&A、そして複数ステップの Agent 実行まで、用途の幅が広いのが特徴です。\n\n注目すべきは、裏側のアーキテクチャが“プロンプト連鎖”から“推論モデル中心のオーケストレーション”に変わった点です。OpenAI の公開事例では、Notion は GPT-5 を中心にモジュール化されたサブエージェントを統括する設計へ再構築し、実ユーザータスクでの評価で 7.6% の改善、Research Mode の難問で 15% 改善、期限更新や競合調査のような多段タスクで 100%+ の改善を報告しています。\n\n料金は二段で考えるのが実務的です：Notion のプラン（Free/Plus/Business/Enterprise）と、AI 機能の提供条件。Notion の価格ページでは、Notion AI Core（チャット、生成、オートフィル、翻訳）は Free/Plus/Business では Limited Trial とされ、Enterprise では LLM 提供元とのゼロデータ保持などの管理面が強調されています。掲載されている席単価は Plus が $10/席/月、Business が $20/席/月です。\n\nNotion を“業務の記録と実行の中心”に置いているチームほど、Notion AI の恩恵は大きくなります。議事録の要約をそのままタスク DB に落とし込み、調査を意思決定メモに変換し、更新を同じデータベースに書き戻せるからです。",
-    "ko": "> **Executive Summary:** Notion AI는 Notion을 단순한 메모 앱이 아니라, 문서·데이터베이스를 읽고 쓰며 일을 ‘끝까지’ 처리하는 에이전트형 워크스페이스로 바꿉니다. 글 작성/요약/번역/Q&A는 기본이고, Enterprise Search로 Slack·GitHub 같은 연결 앱까지 검색하며 필요하면 리서치형 장기 작업도 수행합니다. 핵심 가치는 컨텍스트 스위칭을 줄이는 것: 같은 시스템에서 질문하고, 초안을 만들고, DB를 업데이트하고, 결과를 기록합니다.\n\nNotion AI는 Notion의 문서 + DB 그래프 위에 얹힌 AI 레이어라고 보면 이해가 쉽습니다. 문장 리라이트, 스펙 초안, DB 자동 채우기 같은 빠른 작업부터 워크스페이스 전체 Q&A, 그리고 여러 단계로 계획-실행-보고하는 Agent 워크플로우까지 커버합니다.\n\n기술적으로 중요한 변화는 에이전트 시스템의 재구축입니다. OpenAI 공개 사례에 따르면 Notion은 고립된 프롬프트 체인 대신, 중앙 추론 모델(OpenAI GPT-5)이 모듈형 서브에이전트를 오케스트레이션하는 구조로 전환했습니다. 같은 사례에서 Notion은 실제 사용자 작업 기반 평가로 7.6% 개선, Research Mode 난이도 높은 질문에서 15% 개선, 마감일 업데이트·경쟁사 리서치 같은 다단계 구조화 작업에서 100%+ 개선을 언급합니다.\n\n가격은 ‘플랜 + AI 조건’ 두 층으로 봐야 합니다. Notion 가격 페이지에는 Notion AI Core(채팅, 생성, 자동채우기, 번역)가 Free/Plus/Business에서 Limited Trial로 표기되어 있고, Enterprise는 LLM 제공사와의 zero data retention 같은 데이터 제어가 강조됩니다. 표기된 플랜 가격은 Plus $10/좌석/월, Business $20/좌석/월입니다.\n\nAI 워크플로우 관점에서 Notion AI의 진짜 강점은 결과를 다시 Notion에 ‘정착’시키는 데 있습니다. 회의 요약이 곧바로 태스크 DB가 되고, 리서치가 의사결정 문서가 되며, 업데이트가 동일한 시스템 오브 레코드로 저장됩니다.",
-    "es": "> **Executive Summary:** Notion AI convierte tu espacio de Notion en un asistente agentivo para escribir, resumir, traducir y responder preguntas sobre documentos y bases de datos. También puede buscar y trabajar con información de apps conectadas como Slack y GitHub (Enterprise Search) y ejecutar flujos de investigación más largos cuando hace falta. Su valor central es reducir el cambio de contexto: preguntas una vez y el agente redacta, actualiza bases de datos y deja el resultado dentro del sistema de registro.\n\nEn la práctica, Notion AI es una capa de IA encima del grafo de documentos + bases de datos de Notion. Para tareas rápidas, sirve para reescribir textos, crear especificaciones, generar actas o autofill de propiedades en bases de datos. Para trabajo de conocimiento, habilita Q&A de todo el workspace y un flujo de Agent capaz de completar pasos múltiples usando contexto de Notion, apps conectadas y la web.\n\nLo más relevante a nivel de arquitectura es el cambio de enfoque: Notion reconstruyó su sistema de agentes alrededor de un modelo central de razonamiento (OpenAI GPT-5) que coordina sub-agentes modulares, en lugar de cadenas de prompts aisladas. En el caso publicado por OpenAI, Notion reporta una mejora del 7.6% frente a otros modelos de última generación en salidas alineadas con feedback prioritario, un 15% mejor rendimiento en preguntas difíciles de Research Mode y 100%+ de mejora en tareas estructuradas de varios pasos como actualizaciones de fechas límite e investigación de competidores.\n\nEn precios, conviene pensarlo en dos capas: el plan de Notion (Free/Plus/Business/Enterprise) y las condiciones de acceso a IA. En la página de precios de Notion, Notion AI Core (chat, generar, autofill, traducir) aparece como Limited Trial para Free/Plus/Business, mientras que Enterprise enfatiza controles de datos como zero data retention con proveedores LLM. Los precios listados son $10 por asiento/mes (Plus) y $20 por asiento/mes (Business).\n\nSi ya usas Notion como tu sistema de registro, Notion AI suele rendir mejor que un chat genérico porque la IA puede escribir de vuelta en tus páginas y bases de datos. Ese acoplamiento entre conocimiento y ejecución es lo que más se nota en equipos que operan con proyectos, tareas y documentación dentro de Notion."
+    "en": "> **Executive Summary:** Notion AI adds an agent layer on top of Notion pages and databases: it can generate and edit docs, autofill databases, and answer questions using your workspace context. It also supports agent-style, multi-step work via Notion’s Agent and Research mode (Beta), plus Enterprise Search (Beta) that can search connected tools like <a href='https://www.linkstartai.com/en/agents/slack'>Slack</a> and <a href='https://www.linkstartai.com/en/agents/github'>GitHub</a>.\n\nOpenAI’s published case study explains that Notion rebuilt its agent system around GPT-5 as a central reasoning model coordinating modular sub-agents, and it reports benchmark gains on real user workflows (7.6% improvement over other state-of-the-art models, 15% better on difficult Research Mode questions, and 100%+ improvement on multi-step structured tasks like deadline updates and competitor research). It also notes long-running agents can run for up to 20 minutes for background workflows like summarizing content or updating databases.\n\nFrom a practical standpoint, the main differentiator isn’t “chat quality” but write-back: Notion AI can turn outputs into structured updates inside the same database graph where your tasks, projects, and docs already live. This makes it especially strong for research-to-record workflows (summarize → decide → update the database → publish a status page).\n\nPricing is plan-based: Notion lists Plus at $10/seat/month and Business at $20/seat/month, while Notion AI Core (chat, generate, autofill, translate) is labeled Limited Trial on Free/Plus/Business. Notion also states Notion AI will not use your data to train models unless you opt in, and that for Enterprise plan workspaces its LLM providers use zero data retention (with 30-day retention listed for other plans).",
+    "zh": "> **Executive Summary:** Notion AI 是覆盖在 Notion 页面与数据库图谱之上的智能体层：它能生成与编辑文档、自动填充数据库字段，并基于工作区上下文做问答。它还提供可执行多步骤任务的 Agent 与 Research mode（Beta），以及 Enterprise Search（Beta），可跨连接工具（如 <a href='https://www.linkstartai.com/zh/agents/slack'>Slack</a>、<a href='https://www.linkstartai.com/zh/agents/github'>GitHub</a>）检索信息。\n\nOpenAI 的公开案例指出，Notion 围绕 GPT-5 重建了 agent 系统：以中心推理模型编排多个模块化子代理，并在真实用户工作流评估中报告了 7.6% 的总体提升、Research Mode 难题上 15% 提升，以及在多步骤结构化任务（如截止日期更新、竞品研究）上 100%+ 的改进。该案例也提到，长运行 agent 可用于后台工作流，最长可运行 20 分钟（例如总结内容或更新数据库）。\n\n从落地角度看，Notion AI 的关键不是“多一个聊天窗口”，而是把结果写回 Notion：把研究结论直接转成数据库字段、任务状态与周报页面，减少复制粘贴与上下文切换。\n\n价格按订阅计划计费：Notion 官网列出 Plus $10/席位/月、Business $20/席位/月；同时 Notion AI Core（聊天、生成、自动填充、翻译）在 Free/Plus/Business 上标注为 Limited Trial。隐私方面，Notion 表示除非你选择加入（opt in），Notion AI 不会用你的数据训练模型；并注明 Enterprise 计划为与 LLM 供应商零数据保留，而其他计划显示为 30 天保留。",
+    "ja": "> **Executive Summary:** Notion AI は Notion のページとデータベースの上にエージェント層を追加し、文書生成・編集、DBの自動入力、ワークスペース文脈に基づくQ&Aを可能にします。さらに Agent と Research mode（Beta）で多段タスクを実行でき、Enterprise Search（Beta）では <a href='https://www.linkstartai.com/ja/agents/slack'>Slack</a> や <a href='https://www.linkstartai.com/ja/agents/github'>GitHub</a> など接続ツールも横断検索できます。\n\nOpenAI の公開ケーススタディでは、Notion が GPT-5 を中心推論モデルとしてモジュール型サブエージェントを統括する構造へ再構築したことが説明され、実ユーザーのワークフロー評価で 7.6% 改善、Research Mode の難問で 15% 改善、期限更新や競合調査のような多段の構造化タスクで 100%+ 改善が報告されています。さらに、バックグラウンド処理として最大 20 分動く長時間エージェント（要約やDB更新など）にも言及しています。\n\n実務では、差が出るのはチャットの賢さより“書き戻し”です。アウトプットをそのままDBのプロパティやページ更新に落とし込み、調査→意思決定→記録までを同一システムで完結できます。\n\n料金はプラン制で、Notion は Plus $10/席/月、Business $20/席/月を掲載し、Notion AI Core（chat/generate/autofill/translate）は Free/Plus/Business で Limited Trial としています。データ面では、Notion AI はオプトインしない限り学習に使わないとし、Enterprise では LLM 提供元のゼロデータ保持（他プランは 30 日保持）を明記しています。",
+    "ko": "> **Executive Summary:** Notion AI는 Notion 페이지·데이터베이스 위에 에이전트 레이어를 더해 문서 생성/편집, DB 자동 채우기, 워크스페이스 문맥 기반 Q&A를 가능하게 합니다. 또한 Agent와 Research mode(Beta)로 다단계 작업을 수행할 수 있고, Enterprise Search(Beta)로 <a href='https://www.linkstartai.com/ko/agents/slack'>Slack</a>, <a href='https://www.linkstartai.com/ko/agents/github'>GitHub</a> 같은 연결 도구까지 검색할 수 있습니다.\n\nOpenAI 공개 사례는 Notion이 GPT-5를 중앙 추론 모델로 두고 모듈형 서브 에이전트를 오케스트레이션하도록 에이전트 시스템을 재구축했다고 설명하며, 실제 사용자 워크플로우 평가에서 7.6% 개선, Research Mode의 어려운 질문에서 15% 개선, 마감일 업데이트·경쟁사 리서치 같은 다단계 구조화 작업에서 100%+ 개선을 보고합니다. 또한 요약이나 DB 업데이트 같은 백그라운드 워크플로우를 위해 최대 20분 실행되는 장시간 에이전트를 언급합니다.\n\n실무에서 중요한 차이는 ‘채팅 품질’보다 write-back입니다. 결과를 그대로 DB 속성/상태/페이지에 반영해 리서치→결정→기록을 한 시스템에서 끝낼 수 있습니다.\n\n가격은 플랜 기반이며, Notion은 Plus $10/좌석/월, Business $20/좌석/월을 표기하고 Notion AI Core(chat/generate/autofill/translate)는 Free/Plus/Business에서 Limited Trial로 표시합니다. 데이터 측면에서 Notion은 사용자가 옵트인하지 않는 한 Notion AI가 데이터를 학습에 쓰지 않는다고 하며, Enterprise는 LLM 제공사의 zero data retention(다른 플랜은 30일 보관)을 명시합니다.",
+    "es": "> **Executive Summary:** Notion AI añade una capa de agente sobre páginas y bases de datos de Notion: puede generar y editar documentos, autorrellenar bases de datos y responder preguntas usando el contexto de tu workspace. También ofrece trabajo multi‑paso con Agent y Research mode (Beta), y Enterprise Search (Beta) para buscar en herramientas conectadas como <a href='https://www.linkstartai.com/es/agents/slack'>Slack</a> y <a href='https://www.linkstartai.com/es/agents/github'>GitHub</a>.\n\nEl caso publicado por OpenAI explica que Notion reconstruyó su sistema de agentes alrededor de GPT-5 como modelo central de razonamiento que coordina sub‑agentes modulares, y reporta mejoras en tareas reales: 7.6% frente a otros modelos de última generación, 15% mejor en preguntas difíciles de Research Mode y 100%+ en tareas estructuradas multi‑paso (p. ej., actualizar fechas límite e investigar competidores). También menciona agentes de larga duración (hasta 20 minutos) para flujos en segundo plano como resumir contenido o actualizar bases de datos.\n\nEn la práctica, la gran diferencia no es “mejor chat”, sino el write‑back: convertir resultados en actualizaciones estructuradas dentro del mismo grafo de bases de datos donde ya viven tareas, proyectos y documentación.\n\nLos precios dependen del plan: Notion lista Plus a $10 por asiento/mes y Business a $20 por asiento/mes, y marca Notion AI Core (chat, generar, autofill, traducir) como Limited Trial en Free/Plus/Business. Sobre datos, Notion indica que Notion AI no usa tus datos para entrenar modelos salvo que aceptes (opt‑in), y que para Enterprise sus proveedores LLM usan zero data retention (y 30 días de retención para otros planes)."
   },
   "categoryid": "cb6fe580-acf3-4ca1-82cb-88ff01c28a99",
   "solutioncategoryid": "2e7cef55-a5a2-47f4-81e3-0266dbefea1d",
@@ -30,7 +30,7 @@
   "paidoptionsfrom": 10,
   "billingfrequency": "month",
   "rating": 4.2,
-  "reviewcount": 320,
+  "reviewcount": 0,
   "supportedlanguages": [
     "en",
     "zh",
@@ -44,72 +44,72 @@
       "DatabaseAutofill",
       "AgenticWorkflows",
       "EnterpriseSearch",
-      "KnowledgeBase"
+      "MeetingNotes"
     ],
     "zh": [
       "工作区问答",
       "数据库自动填充",
       "智能体工作流",
       "企业级搜索",
-      "知识库"
+      "会议纪要"
     ],
     "ja": [
       "ワークスペースQ&A",
       "DBオートフィル",
       "エージェントワークフロー",
       "エンタープライズ検索",
-      "ナレッジ管理"
+      "議事録"
     ],
     "ko": [
       "워크스페이스QnA",
       "DB자동채우기",
       "에이전트워크플로우",
       "엔터프라이즈검색",
-      "지식관리"
+      "회의노트"
     ],
     "es": [
       "Q&AdelWorkspace",
       "AutorrellenoDeBD",
       "FlujosAgentivos",
       "BúsquedaEmpresarial",
-      "GestiónDeConocimiento"
+      "NotasDeReunión"
     ]
   },
   "featuresjsonb": {
     "en": [
-      "Ask your workspace and get answers with citations inside Notion",
-      "Autofill Notion databases (summaries, statuses, next steps)",
-      "Run agent tasks across connected tools (Slack, GitHub) via Enterprise Search",
-      "Research Mode for multi-step reports using workspace + web context",
-      "AI meeting notes: transcript plus summary (beta)"
+      "Notion AI Core: chat, generate, autofill, translate (Limited Trial on Free/Plus/Business)",
+      "Agent: completes complex, multi-step tasks using context from Notion, connected apps, and the web",
+      "Research mode (Beta): deep reasoning reports across workspace + connected tools + web",
+      "Enterprise Search (Beta): search across connected apps like <a href='https://www.linkstartai.com/en/agents/slack'>Slack</a> and <a href='https://www.linkstartai.com/en/agents/github'>GitHub</a>",
+      "AI Meeting Notes (Beta): meeting transcription plus summary"
     ],
     "zh": [
-      "对工作区提问并在 Notion 内获得带引用的答案",
-      "自动填充数据库字段（摘要、状态、下一步动作）",
-      "通过 Enterprise Search 跨 Slack、GitHub 等连接源执行任务",
-      "Research Mode：基于工作区 + 网页进行多步骤报告",
-      "AI 会议纪要：转写 + 摘要（Beta）"
+      "Notion AI Core：聊天、生成、自动填充、翻译（Free/Plus/Business 为 Limited Trial）",
+      "Agent：利用 Notion、连接应用与网页上下文完成复杂多步骤任务",
+      "Research mode（Beta）：深度推理生成跨工作区+连接工具+网页的报告",
+      "Enterprise Search（Beta）：跨连接应用检索（如 <a href='https://www.linkstartai.com/zh/agents/slack'>Slack</a>、<a href='https://www.linkstartai.com/zh/agents/github'>GitHub</a>）",
+      "AI Meeting Notes（Beta）：会议转写与摘要"
     ],
     "ja": [
-      "ワークスペースに質問し、Notion 内で引用付き回答を取得",
-      "Notion DB の自動入力（要約、ステータス、次アクション）",
-      "Enterprise Search で Slack/GitHub など接続先を横断",
-      "Research Mode：ワークスペース＋Web で多段レポート生成",
-      "AI 議事録：文字起こし＋要約（ベータ）"
+      "Notion AI Core：チャット、生成、オートフィル、翻訳（Free/Plus/Business は Limited Trial）",
+      "Agent：Notion/接続アプリ/Web の文脈で多段タスクを実行",
+      "Research mode（Beta）：ワークスペース＋接続先＋Web を横断したレポート",
+      "Enterprise Search（Beta）：接続アプリ（<a href='https://www.linkstartai.com/ja/agents/slack'>Slack</a>、<a href='https://www.linkstartai.com/ja/agents/github'>GitHub</a> など）を横断検索",
+      "AI Meeting Notes（Beta）：文字起こし＋要約"
     ],
     "ko": [
-      "워크스페이스에 질문하고 Notion 안에서 인용 포함 답변 받기",
-      "Notion 데이터베이스 자동 채우기(요약, 상태, 다음 액션)",
-      "Enterprise Search로 Slack/GitHub 등 연결 소스를 통합 검색",
-      "Research Mode: 워크스페이스+웹 기반 다단계 리포트",
-      "AI 회의 노트: 전사+요약(베타)"
+      "Notion AI Core: chat/generate/autofill/translate (Free/Plus/Business는 Limited Trial)",
+      "Agent: Notion·연결 앱·웹 문맥으로 복잡한 다단계 작업 수행",
+      "Research mode(Beta): 워크스페이스+연결 도구+웹 기반 리포트",
+      "Enterprise Search(Beta): <a href='https://www.linkstartai.com/ko/agents/slack'>Slack</a>, <a href='https://www.linkstartai.com/ko/agents/github'>GitHub</a> 등 연결 앱 검색",
+      "AI Meeting Notes(Beta): 회의 전사+요약"
     ],
     "es": [
-      "Pregunta a tu workspace y obtén respuestas con citas dentro de Notion",
-      "Autorrelleno de bases de datos (resúmenes, estados, próximos pasos)",
-      "Tareas agentivas sobre apps conectadas (Slack, GitHub) con Enterprise Search",
-      "Research Mode: informes multi‑paso con contexto del workspace y la web",
-      "Notas de reunión con IA: transcripción y resumen (beta)"
+      "Notion AI Core: chat, generar, autofill, traducir (Limited Trial en Free/Plus/Business)",
+      "Agent: completa tareas complejas multi‑paso con contexto de Notion, apps conectadas y la web",
+      "Research mode (Beta): informes con razonamiento profundo sobre workspace + conectores + web",
+      "Enterprise Search (Beta): búsqueda en apps conectadas como <a href='https://www.linkstartai.com/es/agents/slack'>Slack</a> y <a href='https://www.linkstartai.com/es/agents/github'>GitHub</a>",
+      "AI Meeting Notes (Beta): transcripción y resumen"
     ]
   },
   "videosjsonb": [
@@ -117,93 +117,93 @@
       "type": "youtube",
       "videoId": "hhOz6R5H0RY",
       "title": "How To Use Notion AI (Easiest Way) (2026 Guide)",
-      "uploadDate": "2025-10-02T00:00:00Z",
-      "description": "Beginner walkthrough of Notion AI features and setup.",
-      "duration": "PT3M41S"
+      "uploadDate": null,
+      "description": "Community walkthrough of Notion AI usage (metadata pending refresh).",
+      "duration": null
     },
     {
       "type": "youtube",
       "videoId": "SnbMRRZ2_Ag",
       "title": "Notion AI Tutorial: Is It Really Worth It?",
-      "uploadDate": "2025-01-27T00:00:00Z",
-      "description": "Practical demo plus evaluation of Notion AI workflows.",
-      "duration": "PT16M34S"
+      "uploadDate": null,
+      "description": "Community tutorial + evaluation (metadata pending refresh).",
+      "duration": null
     }
   ],
   "verdictjsonb": {
     "en": {
-      "summary": "Notion AI is the pragmatic choice for **knowledge workers** who need to **turn docs and databases into executable workflows** inside a single system of record. It shines when you pair workspace Q&A with database autofill and agent runs across connected tools, but costs can rise quickly once a team depends on AI beyond the Limited Trial.",
-      "expertquote": "For teams already living in Notion, the win is not a smarter chat box—it is write-back automation into the database graph and connected search that keeps decisions, tasks, and evidence in one place. — LinkStart AI Lab",
+      "summary": "Notion AI is the pragmatic choice for **knowledge workers** who need to turn Notion pages and databases into executable workflows, especially when Agent/Research mode and connected search matter more than standalone chat UX.",
+      "expertquote": "The win is write-back: turning research and discussion into structured database updates and durable pages, without leaving the system of record. — LinkStart AI Lab",
       "pros": [
-        "Deep write-back into Notion databases (statuses, summaries, next steps)",
-        "Agent + Research Mode for multi-step work, not just text generation",
-        "Enterprise Search connects workspace knowledge with tools like Slack and GitHub",
-        "Published benchmarks cite 7.6% and 15% improvements on real workflow tasks"
+        "Strong write-back into databases (autofill + structured updates)",
+        "Agent and Research mode enable multi-step workflows, not just text generation",
+        "Enterprise Search can search across connected apps like Slack and GitHub",
+        "OpenAI case study reports measured improvements (7.6%, 15%, 100%+) on real tasks"
       ],
       "cons": [
-        "AI availability is Limited Trial on Free/Plus/Business per Notion pricing page",
-        "Best results require clean database schemas and consistent workspace hygiene",
-        "Metered agent/credit style pricing can feel opaque for heavy users"
+        "Notion AI Core is labeled Limited Trial on Free/Plus/Business",
+        "Best results depend on clean database schemas and permissions hygiene",
+        "Costs and usage limits can be hard to forecast outside Enterprise"
       ]
     },
     "zh": {
-      "summary": "Notion AI 适合 **知识工作者** 在 **同一个系统中把文档与数据库变成可执行工作流**。它在“工作区问答 + 数据库自动填充 + 连接源检索/Agent 执行”组合场景里体验最好，但一旦团队日常依赖 AI 超出 Limited Trial，成本上升会更明显。",
-      "expertquote": "对已经把 Notion 当作系统中枢的团队来说，关键不是多一个聊天窗口，而是把 AI 结果写回数据库图谱，并与连接搜索结合，让决策、任务与证据留在同一个地方。—— LinkStart AI Lab",
+      "summary": "Notion AI 适合 **知识工作者** 把 Notion 页面与数据库直接变成可执行工作流；当 Agent/Research mode 与连接搜索的价值高于纯聊天体验时，它通常更划算。",
+      "expertquote": "优势在于回写：把研究与讨论直接沉淀为结构化数据库更新与可追溯页面，而不是到处复制粘贴。—— LinkStart AI Lab",
       "pros": [
-        "能把摘要、状态、下一步动作直接写回 Notion 数据库",
-        "Agent + Research Mode 覆盖多步骤任务，而非只做文案生成",
-        "Enterprise Search 将工作区与 Slack、GitHub 等工具知识连起来",
-        "公开案例披露 7.6% 与 15% 的真实工作流任务提升"
+        "可在数据库内自动填充并生成结构化更新",
+        "Agent 与 Research mode 支持多步骤工作流",
+        "Enterprise Search 可跨连接应用检索（如 Slack、GitHub）",
+        "OpenAI 案例披露真实任务上的量化提升（7.6%、15%、100%+）"
       ],
       "cons": [
-        "官网定价页显示 Free/Plus/Business 的 AI 多为 Limited Trial",
-        "要稳定出效果需要更规范的数据库结构与工作区治理",
-        "重度使用时，按 credits/agents 计费容易产生不确定感"
+        "Free/Plus/Business 的 Notion AI Core 标注为 Limited Trial",
+        "效果依赖数据库设计与权限治理",
+        "非 Enterprise 下的成本与限制较难预测"
       ]
     },
     "ja": {
-      "summary": "Notion AI は **ナレッジワーカー** が **ドキュメントとDBをそのまま実行可能なワークフローに変える** ための現実解です。ワークスペースQ&AとDBオートフィル、接続先検索を組み合わせると強い一方、Limited Trial を超えて日常運用するとコストが読みづらくなることがあります。",
-      "expertquote": "Notion を記録と実行の中核に置く組織では、価値はチャットの賢さよりも『DBグラフへの書き戻し』と『接続検索』で意思決定の証跡を一箇所に残せる点にあります。— LinkStart AI Lab",
+      "summary": "Notion AI は **ナレッジワーカー** が Notion のページ/DBをそのまま実行可能なワークフローに変えるのに向き、Agent/Research mode と接続検索を重視するほど価値が出ます。",
+      "expertquote": "価値は書き戻しにあります。調査や議論をDB更新とページに落とし込み、記録として残すまでを同一システムで完結できます。— LinkStart AI Lab",
       "pros": [
-        "要約やステータスを Notion DB に書き戻せる",
-        "Agent/Research Mode で多段タスクを回せる",
-        "Enterprise Search で Slack/GitHub などを横断",
-        "公開評価で 7.6% と 15% の改善が言及されている"
+        "DBへのオートフィルと構造化更新が強い",
+        "Agent/Research mode で多段タスクに対応",
+        "Enterprise Search で Slack や GitHub を横断",
+        "OpenAI 事例で 7.6%・15%・100%+ の改善が報告"
       ],
       "cons": [
-        "価格ページ上、Free/Plus/Business は AI が Limited Trial 扱い",
-        "DB設計や運用が整っていないと効果が落ちやすい",
-        "重度利用ではクレジット/エージェント課金が不透明に感じる"
+        "Notion AI Core は Free/Plus/Business で Limited Trial",
+        "DB設計と権限運用が品質を左右",
+        "Enterprise 以外はコストと制限が読みづらい"
       ]
     },
     "ko": {
-      "summary": "Notion AI는 **지식 노동자**가 **문서와 DB를 실행 가능한 워크플로우로 전환**해야 할 때 가장 실용적인 선택지입니다. 워크스페이스 Q&A, DB 자동채우기, 연결 검색/Agent 실행을 함께 쓰면 강력하지만, Limited Trial을 넘어 상시 사용하면 비용 예측이 어려울 수 있습니다.",
-      "expertquote": "Notion을 시스템 오브 레코드로 쓰는 팀에서 핵심은 ‘더 똑똑한 채팅’이 아니라 DB 그래프에 결과를 되돌려 자동화하고, 연결 검색으로 근거까지 한곳에 남기는 것입니다. — LinkStart AI Lab",
+      "summary": "Notion AI는 **지식 노동자**가 Notion 페이지/DB를 실행 가능한 워크플로우로 바꾸는 데 강하며, Agent·Research mode와 연결 검색이 필요할수록 가치가 커집니다.",
+      "expertquote": "핵심은 write-back입니다. 리서치와 논의를 DB 업데이트와 페이지로 남기며 기록 시스템 안에서 끝낼 수 있습니다. — LinkStart AI Lab",
       "pros": [
-        "요약·상태·다음 액션을 DB에 직접 write-back",
-        "Agent/Research Mode로 다단계 업무를 처리",
-        "Enterprise Search로 Slack/GitHub 등 연결 앱을 통합",
-        "공개 사례에 7.6%·15% 개선 수치가 포함"
+        "DB 자동 채우기와 구조화 업데이트에 강점",
+        "Agent/Research mode로 다단계 업무 수행",
+        "Enterprise Search로 Slack·GitHub 등 연결 앱 검색",
+        "OpenAI 사례에서 7.6%·15%·100%+ 개선 수치 언급"
       ],
       "cons": [
-        "Notion 가격 페이지 기준 Free/Plus/Business는 AI가 Limited Trial",
-        "좋은 결과를 위해 DB 스키마/워크스페이스 정리가 필요",
-        "크레딧 기반 과금은 헤비 유저에게 불투명하게 느껴질 수 있음"
+        "Notion AI Core는 Free/Plus/Business에서 Limited Trial",
+        "DB 스키마/권한 정리 수준이 결과를 좌우",
+        "Enterprise 외 플랜은 비용·제한 예측이 어려움"
       ]
     },
     "es": {
-      "summary": "Notion AI es una opción práctica para **trabajadores del conocimiento** que necesitan **convertir documentos y bases de datos en flujos ejecutables** dentro de un único sistema de registro. Brilla al combinar Q&A del workspace, autofill de BD y ejecución agentiva sobre herramientas conectadas, pero el coste puede volverse difícil de predecir cuando se supera el Limited Trial.",
-      "expertquote": "En equipos que ya trabajan dentro de Notion, la ventaja no es solo ‘un chat mejor’: es la automatización de escritura de vuelta al grafo de bases de datos y la búsqueda conectada que deja decisiones, tareas y evidencia en el mismo lugar. — LinkStart AI Lab",
+      "summary": "Notion AI es ideal para **trabajadores del conocimiento** que quieren convertir páginas y BD de Notion en flujos ejecutables; su valor sube cuando importan Agent/Research mode y búsqueda conectada más que un chat genérico.",
+      "expertquote": "La ventaja es el write‑back: convertir investigación y debate en actualizaciones estructuradas en bases de datos y páginas durables sin salir del sistema de registro. — LinkStart AI Lab",
       "pros": [
-        "Escritura de vuelta profunda en bases de datos (estados, resúmenes, próximos pasos)",
-        "Agent y Research Mode para trabajo multi‑paso, no solo texto",
-        "Enterprise Search conecta conocimiento del workspace con Slack y GitHub",
-        "Caso público menciona mejoras del 7.6% y 15% en tareas reales"
+        "Autofill y actualizaciones estructuradas en bases de datos",
+        "Agent y Research mode para flujos multi‑paso",
+        "Enterprise Search para apps conectadas como Slack y GitHub",
+        "Caso de OpenAI reporta mejoras (7.6%, 15%, 100%+) en tareas reales"
       ],
       "cons": [
-        "En la página de precios, la IA aparece como Limited Trial en Free/Plus/Business",
-        "Rinde mejor con esquemas de BD limpios y buena higiene del workspace",
-        "La lógica de créditos/agentes puede sentirse opaca en uso intensivo"
+        "Notion AI Core aparece como Limited Trial en Free/Plus/Business",
+        "Depende de esquemas limpios y buena higiene de permisos",
+        "Fuera de Enterprise el coste y los límites son menos predecibles"
       ]
     }
   },
@@ -217,130 +217,110 @@
         "es": "¿Notion AI usa realmente GPT-5 y eso importa en el día a día?"
       },
       "answer": {
-        "en": "Yes—OpenAI published a case study describing Notion’s agent system rebuilt around GPT-5 as the central reasoning model coordinating sub-agents, and it reported measurable gains (7.6% and 15%) on real user tasks. For everyday work, the bigger impact is not the model label but the write-back ability: the agent can draft, edit, and update Notion databases and pages in place.",
-        "zh": "是的——OpenAI 的公开案例明确提到 Notion 围绕 GPT-5 重建了 agent 系统，并给出了基于真实用户任务的量化提升（7.6%、15%）。但对日常来说，更关键的不是模型名字，而是能把结果写回 Notion：在页面与数据库里直接生成、改写与更新。",
-        "ja": "はい。OpenAI の公開事例で、Notion が GPT-5 を中心推論モデルとしてサブエージェントを統括する設計に再構築したこと、そして実タスクで 7.6% と 15% の改善が報告されています。日常で効くのはモデル名より『書き戻し』で、ページやDBをその場で更新できる点です。",
-        "ko": "네. OpenAI 공개 사례에서 Notion이 GPT-5를 중앙 추론 모델로 두고 서브 에이전트를 조율하는 구조로 재구축했다고 밝히며, 실제 사용자 작업에서 7.6%·15% 개선을 언급합니다. 다만 실무 체감은 모델명보다 ‘write-back’: 페이지/DB를 그 자리에서 수정·업데이트하는 능력입니다.",
-        "es": "Sí. OpenAI publicó un caso donde explica que Notion reconstruyó su sistema de agentes con GPT-5 como modelo central de razonamiento y reportó mejoras (7.6% y 15%) en tareas reales. En el día a día, lo que más se nota no es la marca del modelo sino el ‘write-back’: redactar y actualizar páginas y bases de datos en el mismo lugar."
+        "en": "Yes—OpenAI’s published case study describes Notion’s agent system rebuilt around GPT-5 as the central reasoning model coordinating modular sub-agents. In daily work, the bigger impact is write-back: AI outputs can become database updates and durable pages without switching tools.",
+        "zh": "是的——OpenAI 的公开案例明确提到 Notion 围绕 GPT-5 重建 agent 系统，以中心推理模型编排模块化子代理。日常体感更关键的是回写能力：把输出直接变成数据库更新与可追溯页面。",
+        "ja": "はい。OpenAI の公開事例で、Notion が GPT-5 を中心推論モデルとしてサブエージェントを統括する設計に再構築したことが説明されています。日常で効くのはモデル名より書き戻しで、成果をDB更新とページにそのまま残せます。",
+        "ko": "네. OpenAI 공개 사례는 Notion이 GPT-5를 중앙 추론 모델로 두고 서브 에이전트를 조율하도록 재구축했다고 설명합니다. 실무에선 모델명보다 write-back이 더 중요해 결과를 DB 업데이트와 페이지로 바로 남길 수 있습니다.",
+        "es": "Sí. El caso público de OpenAI describe que Notion reconstruyó su sistema de agentes con GPT-5 como modelo central de razonamiento que coordina sub‑agentes modulares. En el día a día, lo decisivo suele ser el write‑back: convertir salidas en actualizaciones de BD y páginas sin cambiar de herramienta."
       }
     },
     {
       "question": {
-        "en": "Does Notion AI have an enterprise-grade privacy posture (data retention and training)?",
-        "zh": "Notion AI 的企业级隐私与数据保留策略是什么？会训练模型吗？",
-        "ja": "Notion AI は企業向けのプライバシー（保持・学習）に対応している？",
-        "ko": "Notion AI는 엔터프라이즈 프라이버시(보관·학습) 기준을 만족하나요?",
-        "es": "¿Notion AI tiene privacidad ‘enterprise’ (retención y entrenamiento)?"
+        "en": "Does Notion AI support long-running background agents?",
+        "zh": "Notion AI 支持后台长任务智能体吗？",
+        "ja": "Notion AI はバックグラウンドの長時間エージェントに対応？",
+        "ko": "Notion AI는 백그라운드 장시간 에이전트를 지원하나요?",
+        "es": "¿Notion AI soporta agentes de larga duración en segundo plano?"
       },
       "answer": {
-        "en": "Yes—Notion’s pricing page states Notion AI will not use your data to train models unless you opt in, and it lists ‘Zero data retention with LLM providers’ for Enterprise plan workspaces (while other plans list 30-day retention). This means Enterprise customers get the strongest retention guarantees, but you should still validate your specific compliance needs (DLP/SIEM, audit logs) against the Enterprise feature set.",
-        "zh": "是的——Notion 定价页写明：除非你主动选择加入，否则 Notion AI 不会用你的数据训练模型；并且 Enterprise 计划标注为与 LLM 供应商‘Zero data retention’，而其他计划显示为 30 天保留。Enterprise 的留存承诺更强，但合规团队仍应对照 Enterprise 的审计、DLP/SIEM 等能力做最终评估。",
-        "ja": "はい。Notion の価格ページには、ユーザーがオプトインしない限り学習に使わないこと、そして Enterprise では LLM 提供元との ‘Zero data retention’（他プランは 30 日保持）が明記されています。Enterprise が最も強い保持保証になりますが、監査ログや DLP/SIEM などの要件は機能表で確認が必要です。",
-        "ko": "네. Notion 가격 페이지에는 사용자가 옵트인하지 않으면 학습에 쓰지 않는다고 되어 있고, Enterprise는 LLM 제공사와 zero data retention(다른 플랜은 30일 보관)으로 표기됩니다. 즉 Enterprise가 가장 강한 보관 보장을 제공하지만, 감사 로그·DLP/SIEM 같은 요구사항은 Enterprise 기능으로 최종 확인해야 합니다.",
-        "es": "Sí. En la página de precios, Notion indica que Notion AI no usa tus datos para entrenar modelos salvo que aceptes (opt‑in) y que en Enterprise hay ‘zero data retention’ con proveedores LLM (mientras otros planes muestran 30 días). Enterprise ofrece la garantía más fuerte, pero conviene validar requisitos de cumplimiento (DLP/SIEM, auditoría) contra el plan."
+        "en": "Yes—OpenAI’s Notion case study states long-running agents (up to 20 minutes) are used for background workflows like summarizing content or updating databases. This matters if you want ‘assign now, review later’ automation rather than interactive chat loops.",
+        "zh": "是的——OpenAI 的 Notion 案例提到，长运行 agent 可用于后台工作流，最长可运行 20 分钟，例如总结内容或更新数据库。这意味着它不仅是快速对话，也能做“交付任务、稍后回看”的自动化。",
+        "ja": "はい。OpenAI の Notion 事例では、要約やDB更新などのバックグラウンド処理に最大 20 分の長時間エージェントを使うと記載されています。対話だけでなく、任せて後で回収する自動化に向きます。",
+        "ko": "네. OpenAI의 Notion 사례는 요약이나 DB 업데이트 같은 백그라운드 워크플로우를 위해 최대 20분 실행되는 장시간 에이전트를 언급합니다. 즉 대화 반복이 아니라 ‘맡기고 나중에 확인’ 자동화가 가능합니다.",
+        "es": "Sí. El caso de OpenAI sobre Notion afirma que usan agentes de larga duración (hasta 20 minutos) para flujos en segundo plano como resumir contenido o actualizar bases de datos. Esto habilita automatización de ‘asignar y volver luego’."
       }
     },
     {
       "question": {
-        "en": "How much does Notion AI cost in 2026, and is there a real free tier?",
-        "zh": "2026 年 Notion AI 到底怎么收费？有没有真正可用的免费层？",
-        "ja": "2026年の Notion AI の料金は？実用的な無料枠はある？",
-        "ko": "2026년 Notion AI 비용은? 실사용 가능한 무료가 있나요?",
-        "es": "¿Cuánto cuesta Notion AI en 2026 y existe un nivel gratuito real?"
+        "en": "Is Notion AI ‘Limited Trial’ on Free/Plus/Business, and what does that imply?",
+        "zh": "Notion AI 在 Free/Plus/Business 上标注 Limited Trial，意味着什么？",
+        "ja": "Free/Plus/Business の Notion AI が Limited Trial なのは何を意味する？",
+        "ko": "Free/Plus/Business에서 Notion AI가 Limited Trial이면 무엇을 의미하나요?",
+        "es": "Si Notion AI es ‘Limited Trial’ en Free/Plus/Business, ¿qué implica?"
       },
       "answer": {
-        "en": "It depends on your plan, but the official Notion pricing page shows Plus at $10/seat/month and Business at $20/seat/month, while Notion AI Core is described as a Limited Trial on Free/Plus/Business. So yes, you can try AI, but for sustained team usage you should budget for a paid Notion plan and treat AI access as metered/limited unless you are on Enterprise.",
-        "zh": "取决于你的计划，但 Notion 官网定价页明确列出 Plus 为 $10/席位/月、Business 为 $20/席位/月，同时 Notion AI Core 在 Free/Plus/Business 都标注为 Limited Trial。因此，结论是：可以试用 AI，但如果要长期团队使用，应该按付费计划做预算，并将 AI 能力视为有限/计量（除非上 Enterprise）。",
-        "ja": "プラン次第ですが、Notion の価格ページでは Plus が $10/席/月、Business が $20/席/月と記載され、Notion AI Core は Free/Plus/Business では Limited Trial とされています。つまり試用はできますが、チームで継続利用するなら有料プラン前提で、AI は Enterprise 以外は制限/メーター制として見積もるのが安全です。",
-        "ko": "플랜에 따라 다르지만, Notion 공식 가격 페이지에 Plus $10/좌석/월, Business $20/좌석/월로 표기되어 있고 Notion AI Core는 Free/Plus/Business에서 Limited Trial로 설명됩니다. 즉 체험은 가능하지만, 팀 단위 상시 사용은 유료 플랜을 전제로 하고 Enterprise가 아니면 AI를 제한/메터드로 예산 잡는 편이 안전합니다.",
-        "es": "Depende del plan, pero la página oficial de precios muestra Plus a $10/asiento/mes y Business a $20/asiento/mes, y describe Notion AI Core como Limited Trial en Free/Plus/Business. Es decir, sí puedes probar IA, pero para uso sostenido en equipo conviene presupuestar un plan de pago y tratar la IA como limitada/medida salvo en Enterprise."
+        "en": "Yes—Notion’s pricing page labels Notion AI Core, Agent, and Research mode as Limited Trial on Free/Plus/Business. Practically, you should plan for usage gates and treat AI as metered unless you’re on Enterprise.",
+        "zh": "是的——Notion 定价页把 Notion AI Core、Agent 与 Research mode 在 Free/Plus/Business 上标注为 Limited Trial。落地上，这通常意味着会有用量门槛或限制，预算时应按计量/受限能力来估算（除非是 Enterprise）。",
+        "ja": "はい。Notion の価格ページでは Notion AI Core、Agent、Research mode が Free/Plus/Business で Limited Trial とされています。実務的には利用制限があり得るので、Enterprise 以外はメーター制として見積もるのが安全です。",
+        "ko": "네. Notion 가격 페이지는 Notion AI Core, Agent, Research mode를 Free/Plus/Business에서 Limited Trial로 표시합니다. 실무적으로는 사용량 제한을 전제로 두고 Enterprise가 아니면 메터드로 예산을 잡는 편이 안전합니다.",
+        "es": "Sí. La página de precios etiqueta Notion AI Core, Agent y Research mode como Limited Trial en Free/Plus/Business. En la práctica, conviene asumir límites de uso y presupuestar IA como medida salvo en Enterprise."
       }
     },
     {
       "question": {
-        "en": "Notion AI vs ChatGPT/Claude: which is better for research and writing?",
-        "zh": "Notion AI vs ChatGPT/Claude：做研究与写作到底选谁？",
-        "ja": "Notion AI と ChatGPT/Claude は研究・執筆でどちらが有利？",
-        "ko": "Notion AI vs ChatGPT/Claude: 리서치·글쓰기엔 뭐가 더 좋나요?",
-        "es": "Notion AI vs ChatGPT/Claude: ¿qué es mejor para investigación y escritura?"
+        "en": "What does Notion say about training and data retention for Notion AI?",
+        "zh": "Notion 对 Notion AI 的训练与数据保留是怎么说的？",
+        "ja": "Notion AI の学習利用とデータ保持について Notion はどう説明している？",
+        "ko": "Notion은 Notion AI의 학습 사용과 데이터 보관을 어떻게 설명하나요?",
+        "es": "¿Qué dice Notion sobre entrenamiento y retención de datos en Notion AI?"
       },
       "answer": {
-        "en": "It depends on where your source-of-truth lives: while ChatGPT and Claude often win on pure model UX and flexibility, Notion AI wins when the output must land back into your Notion databases and pages with minimal copying. While general-purpose chats excel at ideation, Notion AI has an absolute advantage for ‘research-to-record’ workflows because it can read your workspace context and write updates into the same system.",
-        "zh": "核心取决于你的‘事实来源’在哪：ChatGPT/Claude 往往在纯对话体验与灵活性上更强，但当结果必须回写到 Notion 的数据库/页面并形成记录时，Notion AI 更占优势。While 通用聊天擅长灵感与讨论，Notion AI 对 research-to-record（研究→沉淀→回写）流程有绝对优势，因为它能读工作区上下文并把更新写回同一个系统。",
-        "ja": "結局は“正本データがどこにあるか”です。ChatGPT/Claude はモデル体験と柔軟性で勝ちやすい一方、成果物を Notion のページやDBへ確実に書き戻す必要があるなら Notion AI が有利です。While 汎用チャットは発想に強い、Notion AI はワークスペース文脈を読み、同じシステムに更新を残せるため research-to-record で優位に立ちます。",
-        "ko": "결국 소스 오브 트루스가 어디냐에 달립니다. ChatGPT/Claude는 대화 UX와 범용성에서 강점이 있지만, 결과물을 Notion 페이지/DB에 ‘기록으로’ 되돌려야 한다면 Notion AI가 유리합니다. While 범용 챗은 아이데이션에 강하고, Notion AI는 워크스페이스 문맥을 읽고 같은 시스템에 업데이트를 남겨 research-to-record 흐름에서 절대적 이점이 있습니다.",
-        "es": "Depende de dónde esté tu ‘source‑of‑truth’: ChatGPT y Claude suelen ganar en UX del modelo y flexibilidad, pero Notion AI gana cuando el resultado debe volver a tus páginas y bases de datos de Notion sin copiar/pegar. While los chats generales destacan en ideación, Notion AI tiene ventaja absoluta en flujos ‘research‑to‑record’ porque lee el contexto del workspace y escribe de vuelta en el mismo sistema."
+        "en": "Yes—Notion states Notion AI will not use your data to train models unless you opt in, and its pricing page lists data retention as 30 days for non‑Enterprise plans and zero data retention with LLM providers for Enterprise plan workspaces. For compliance, confirm how this maps to your audit/DLP/SIEM requirements.",
+        "zh": "是的——Notion 表示除非你选择加入（opt in），Notion AI 不会用你的数据训练模型；定价页也显示非 Enterprise 计划为 30 天保留，而 Enterprise 计划为与 LLM 供应商零数据保留。合规落地时仍建议对照审计、DLP/SIEM 等要求逐项确认。",
+        "ja": "はい。Notion はオプトインしない限り Notion AI がデータを学習に使わないと述べ、価格ページでは Enterprise 以外は 30 日保持、Enterprise は LLM 提供元のゼロデータ保持と記載しています。監査や DLP/SIEM の要件は別途照合してください。",
+        "ko": "네. Notion은 사용자가 옵트인하지 않으면 Notion AI가 데이터를 학습에 쓰지 않는다고 하며, 가격 페이지는 비 Enterprise는 30일 보관, Enterprise는 LLM 제공사 zero data retention으로 표시합니다. 감사·DLP/SIEM 요구사항과의 매핑은 별도로 확인하세요.",
+        "es": "Sí. Notion indica que Notion AI no usa tus datos para entrenar modelos salvo que aceptes (opt‑in), y en precios figura 30 días de retención fuera de Enterprise y zero data retention con proveedores LLM en Enterprise. Para cumplimiento, valida el encaje con auditoría/DLP/SIEM."
       }
     },
     {
       "question": {
-        "en": "What are the biggest limitations teams hit when scaling Notion AI?",
-        "zh": "团队规模化使用 Notion AI 时，最容易遇到哪些限制？",
-        "ja": "Notion AI をチームでスケールするときの最大の壁は？",
-        "ko": "Notion AI를 팀에서 확장할 때 가장 큰 제약은 무엇인가요?",
-        "es": "¿Cuáles son las mayores limitaciones al escalar Notion AI en equipos?"
+        "en": "Notion AI vs ChatGPT/Claude: which should I pick for research-to-record workflows?",
+        "zh": "Notion AI vs ChatGPT/Claude：做 research-to-record（研究→沉淀→回写）该选谁？",
+        "ja": "Notion AI と ChatGPT/Claude、research-to-record（調査→記録→書き戻し）ならどっち？",
+        "ko": "Notion AI vs ChatGPT/Claude: research-to-record 흐름엔 무엇을 선택하나요?",
+        "es": "Notion AI vs ChatGPT/Claude: ¿qué elegir para flujos research‑to‑record?"
       },
       "answer": {
-        "en": "Yes, there are real limits: Notion’s pricing page labels AI features as Limited Trial on Free/Plus/Business, so heavy usage can run into gating or metering quickly. Operationally, teams also discover that AI quality depends on database design and permissions hygiene: messy properties, inconsistent templates, and over-broad access lead to noisy answers and risky write-backs.",
-        "zh": "是的，限制是真实存在的：Notion 官网定价页把 Free/Plus/Business 的 AI 功能标为 Limited Trial，重度使用很快会触发限制或计量。运营层面，团队也会发现效果高度依赖数据库设计与权限治理：属性混乱、模板不统一、访问边界过宽，都会导致回答噪声增大、回写风险上升。",
-        "ja": "はい、現実的な壁があります。Notion の価格ページでは Free/Plus/Business の AI が Limited Trial とされ、重度利用はすぐ制限やメーター制の影響を受けます。運用面では DB 設計と権限の衛生が品質を左右し、プロパティの乱れやテンプレ不統一、過剰な共有はノイズと誤更新リスクを高めます。",
-        "ko": "네, 한계가 있습니다. Notion 가격 페이지에서 Free/Plus/Business의 AI 기능이 Limited Trial로 표시되어 있어 헤비 유즈는 금방 제한/메터링에 걸릴 수 있습니다. 운영적으로는 DB 설계와 권한 정리가 품질을 좌우해, 속성 난립·템플릿 불일치·과도한 공유가 답변 노이즈와 write-back 리스크를 키웁니다.",
-        "es": "Sí, hay límites reales: la página de precios etiqueta funciones de IA como Limited Trial en Free/Plus/Business, así que el uso intensivo puede toparse rápido con límites o medición. En operación, la calidad también depende del diseño de BD y de la higiene de permisos: propiedades desordenadas, plantillas inconsistentes y acceso demasiado amplio generan respuestas ruidosas y write‑backs riesgosos."
+        "en": "Yes—pick Notion AI when the output must land back into Notion pages and databases with minimal friction; that write-back is the ‘unfair advantage’ versus generic chat tools. Generic chats can still be better for free-form ideation, but they usually require manual copy/paste to become a durable record.",
+        "zh": "是的——如果你的产出必须低摩擦回写到 Notion 页面与数据库，Notion AI 更合适；这种回写能力是它相对通用聊天工具的“非对称优势”。通用聊天仍适合自由发散，但往往需要手动复制粘贴才能形成可追溯记录。",
+        "ja": "はい。成果物を Notion のページ/DBに低摩擦で書き戻す必要があるなら Notion AI を選ぶべきで、ここが汎用チャットに対する非対称優位です。汎用チャットは発想には強い一方、記録化は手作業になりがちです。",
+        "ko": "네. 결과물을 Notion 페이지/DB로 낮은 마찰로 되돌려야 한다면 Notion AI를 고르는 게 맞고, 이 write-back이 범용 챗 대비 비대칭적 이점입니다. 범용 챗은 아이데이션에 강하지만 기록화는 수동 작업이 되기 쉽습니다.",
+        "es": "Sí. Elige Notion AI cuando el resultado deba volver a páginas y bases de datos de Notion con poca fricción; ese write‑back es su ventaja asimétrica frente a chats genéricos. Los chats generales pueden ser mejores para ideación libre, pero suelen requerir copiar/pegar para dejar registro."
       }
     },
     {
       "question": {
-        "en": "Can Notion AI run long tasks in the background, or is it only quick chat?",
-        "zh": "Notion AI 能后台跑长任务吗？还是只能快速对话？",
-        "ja": "Notion AI はバックグラウンドで長い処理を回せる？それともチャットだけ？",
-        "ko": "Notion AI는 백그라운드로 긴 작업도 가능한가요, 아니면 빠른 챗만?",
-        "es": "¿Notion AI puede ejecutar tareas largas en segundo plano o es solo chat rápido?"
+        "en": "What’s the first team workflow to implement with Notion AI to see ROI fast?",
+        "zh": "团队最先做哪个 Notion AI 工作流，最容易快速看到 ROI？",
+        "ja": "チームで最初に入れるとROIが出やすい Notion AI ワークフローは？",
+        "ko": "팀에서 Notion AI로 ROI를 빨리 보려면 첫 워크플로우는?",
+        "es": "¿Qué workflow conviene implementar primero con Notion AI para ver ROI rápido?"
       },
       "answer": {
-        "en": "Yes—OpenAI’s Notion case study describes long-running agents used for background workflows, stating they can run up to 20 minutes for tasks like summarizing content or updating databases. This matters if you want ‘assign and return later’ automation rather than an interactive prompt loop.",
-        "zh": "可以——OpenAI 的 Notion 案例提到，Notion 设计了用于后台工作流的长运行 agent，最长可运行 20 分钟，用于内容总结或更新数据库等任务。这意味着它不仅是对话式工具，也可以做‘交付任务，稍后回来看结果’的自动化。",
-        "ja": "はい。OpenAI の事例では、要約やDB更新などのバックグラウンド処理として長時間稼働するエージェントが説明され、最大 20 分動くと記載されています。対話だけでなく、依頼して後で回収するタイプの自動化に向きます。",
-        "ko": "네. OpenAI의 Notion 사례는 요약이나 DB 업데이트 같은 백그라운드 워크플로우를 위해 장시간 실행되는 에이전트를 설명하며, 최대 20분까지 실행될 수 있다고 합니다. 즉 대화형 프롬프트 반복이 아니라 ‘맡기고 나중에 받기’ 자동화가 가능합니다.",
-        "es": "Sí. El caso de OpenAI sobre Notion describe agentes de larga duración para flujos en segundo plano y afirma que pueden correr hasta 20 minutos para tareas como resumir contenido o actualizar bases de datos. Esto habilita automatización de ‘asignar y volver luego’, no solo chat interactivo."
-      }
-    },
-    {
-      "question": {
-        "en": "What’s a high-leverage workflow to implement first with Notion AI for a team?",
-        "zh": "团队最值得先落地的 Notion AI 高杠杆工作流是什么？",
-        "ja": "チームで最初に入れると効果が大きい Notion AI ワークフローは？",
-        "ko": "팀에서 Notion AI로 가장 먼저 만들면 좋은 고효율 워크플로우는?",
-        "es": "¿Qué workflow de alto impacto conviene implementar primero con Notion AI?"
-      },
-      "answer": {
-        "en": "Yes—start with ‘meeting notes to tasks’ if your work already lives in Notion: use AI meeting notes (transcript + summary) and enforce a database schema where every meeting creates action items with owners, due dates, and status. Then add a weekly Agent run that summarizes open items and writes a status update page, so leadership gets a consistent report without manual copy-paste.",
-        "zh": "建议先做‘会议纪要 → 任务入库’：如果团队已在 Notion 协作，可以用 AI Meeting Notes（转写 + 摘要），并强制把每次会议生成的 action items 写入统一的任务数据库（负责人、截止日期、状态齐全）。再加一个每周 Agent 例行跑批：汇总未完成事项并自动生成周报页面，让管理层拿到一致的状态报告。",
-        "ja": "まずは『議事録→タスクDB化』が効果的です。AI Meeting Notes（文字起こし＋要約）を使い、ミーティングごとに担当者・期限・ステータス付きのアクション項目をタスクDBへ自動登録する運用を作ります。次に週次で Agent を回して未完了の要点をまとめ、ステータス更新ページを自動生成すると手作業が減ります。",
-        "ko": "먼저 ‘회의 노트 → 태스크 DB’부터 추천합니다. AI Meeting Notes(전사+요약)를 쓰고, 모든 회의에서 액션 아이템을 담당자·기한·상태를 갖춘 태스크 DB로 강제 수집하세요. 그 다음 주간 Agent를 돌려 미완료 항목을 요약하고 상태 업데이트 페이지를 자동 생성하면 리더십 리포팅의 수동 작업이 크게 줄어듭니다.",
-        "es": "Empieza con ‘acta de reunión a tareas’ si el trabajo ya vive en Notion: usa AI meeting notes (transcripción + resumen) y aplica un esquema de BD donde cada reunión genere action items con responsable, fecha y estado. Luego añade una ejecución semanal del Agent que resuma pendientes y escriba una página de status, para reportes consistentes sin copiar/pegar."
+        "en": "Yes—start with ‘meeting notes to tasks’: use AI Meeting Notes (Beta) to produce transcript + summary, then enforce a task database schema where action items get owners, due dates, and status. Add a weekly Agent run that summarizes open items and writes a status update page, so reporting becomes consistent without manual copy/paste.",
+        "zh": "建议从“会议纪要 → 任务入库”开始：用 AI Meeting Notes（Beta）生成转写与摘要，并强制把 action items 写入统一任务数据库（负责人、截止日期、状态齐全）。再加一个每周 Agent 例行跑批：汇总未完成事项并自动生成周报页面，让汇报标准化、少复制粘贴。",
+        "ja": "まずは『議事録→タスクDB化』です。AI Meeting Notes（Beta）で文字起こし＋要約を作り、アクション項目を担当者・期限・ステータス付きでタスクDBへ入れる運用を固定します。次に週次で Agent を回して未完了を要約し、ステータス更新ページを自動作成すると効果が出やすいです。",
+        "ko": "‘회의 노트 → 태스크 DB’부터 시작하세요. AI Meeting Notes(Beta)로 전사+요약을 만들고, 액션 아이템을 담당자·기한·상태가 있는 태스크 DB에 강제 수집합니다. 이후 주간 Agent로 미완료를 요약하고 상태 업데이트 페이지를 자동 생성하면 리포팅이 표준화됩니다.",
+        "es": "Empieza con ‘notas de reunión a tareas’: usa AI Meeting Notes (Beta) para transcripción + resumen y aplica un esquema de BD donde los action items tengan responsable, fecha y estado. Luego añade una ejecución semanal del Agent que resuma pendientes y escriba una página de status para reportes consistentes sin copiar/pegar."
       }
     }
   ],
   "seotitlejsonb": {
-    "en": "Notion AI Review 2026: Pricing, Agent Workflows, Enterprise Search & Alternatives",
-    "zh": "Notion AI 评测 2026：价格、Agent 工作流、企业搜索与替代方案",
-    "ja": "【2026年】Notion AI レビュー：料金、Agent、Enterprise Search、代替案",
-    "ko": "Notion AI 리뷰 2026: 가격, 에이전트 워크플로우, 엔터프라이즈 검색, 대안",
-    "es": "Notion AI Opiniones 2026: Precio, flujos agentivos, búsqueda empresarial y alternativas"
+    "en": "Notion AI Review 2026: Pricing, Agent, Research Mode & Enterprise Search",
+    "zh": "Notion AI 评测 2026：价格、Agent、Research mode 与企业搜索",
+    "ja": "Notion AI レビュー 2026：料金、Agent、Research mode、Enterprise Search",
+    "ko": "Notion AI 리뷰 2026: 가격, Agent, Research mode, Enterprise Search",
+    "es": "Notion AI Opiniones 2026: Precio, Agent, Research mode y Enterprise Search"
   },
   "seodescriptionjsonb": {
-    "en": "Notion AI review 2026: We analyze GPT-5 agent architecture, Research Mode, and database write-back. Pricing is plan-based ($10 Plus, $20 Business) with limited AI trials—see pros, cons, and alternatives.",
-    "zh": "Notion AI 2026 评测：解析 GPT-5 智能体架构、Research Mode 与数据库回写。定价按席位（Plus $10、Business $20）且 AI 多为有限试用，附优缺点与替代方案。",
-    "ja": "Notion AI を2026年視点で検証。GPT-5 のエージェント設計、Research Mode、DB書き戻しを解説。料金は Plus $10/Business $20 でAIは試用制限あり。",
-    "ko": "Notion AI 2026 리뷰: GPT-5 에이전트 구조, Research Mode, DB write-back을 분석합니다. 가격은 Plus $10·Business $20이며 AI는 제한적 트라이얼—장단점·대안까지."
-    ,
-    "es": "Reseña 2026 de Notion AI: analizamos su arquitectura agentiva con GPT-5, Research Mode y write-back a bases de datos. Precios por plan ($10 Plus, $20 Business) con IA en prueba limitada—pros, contras y alternativas."
+    "en": "Notion AI review 2026: Agent + Research mode, Enterprise Search, pricing ($10 Plus, $20 Business), and data retention notes for teams.",
+    "zh": "Notion AI 2026 评测：Agent/Research mode、企业搜索、Plus $10 与 Business $20 定价，以及团队数据保留要点。",
+    "ja": "Notion AIを2026年視点で検証。Agent/Research mode、Enterprise Search、Plus $10・Business $20、データ保持の要点。",
+    "ko": "Notion AI 2026 리뷰: Agent/Research mode, Enterprise Search, Plus $10·Business $20, 데이터 보관 핵심 정리.",
+    "es": "Reseña 2026 de Notion AI: Agent/Research mode, Enterprise Search, precio (Plus $10, Business $20) y retención de datos."
   },
   "citationsdump": [
     "https://openai.com/index/notion/",
-    "https://www.notion.com/pricing",
-    "https://www.youtube.com/watch?v=hhOz6R5H0RY",
-    "https://www.youtube.com/watch?v=SnbMRRZ2_Ag",
-    "https://www.reddit.com/r/Notion/comments/1rd0u2j/notion_credits_to_cost_10_per_1000_for_notions/"
+    "https://www.notion.com/pricing"
   ]
 }
