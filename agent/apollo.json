@@ -1,0 +1,194 @@
+{
+  "slug": "apollo",
+  "brand_slug": "apollo",
+  "name_jsonb": {
+    "en": "Apollo",
+    "zh": "Apollo",
+    "ja": "Apollo",
+    "ko": "Apollo",
+    "es": "Apollo"
+  },
+  "tagline_jsonb": {
+    "en": "A sales intelligence and outbound workflow platform for finding prospects, enriching data, and scaling go-to-market execution.",
+    "zh": "一个用于找客户、补全数据并放大销售执行的销售情报与外呼工作流平台。",
+    "ja": "見込み客発掘、データ補完、営業実行の拡張に使えるセールスインテリジェンス兼アウトバウンド基盤。",
+    "ko": "잠재 고객 발굴, 데이터 보강, 세일즈 실행 확장을 위한 세일즈 인텔리전스 및 아웃바운드 워크플로 플랫폼입니다.",
+    "es": "Una plataforma de inteligencia comercial y flujo outbound para encontrar prospectos, enriquecer datos y escalar la ejecución go-to-market."
+  },
+  "description_jsonb": {
+    "en": "> Apollo is a revenue and prospecting platform built for teams that want one place to identify leads, enrich company and contact data, and run outbound sales workflows at scale. It is best understood as GTM infrastructure rather than a standalone contact database.\n\nFor LinkStart AI readers, Apollo is relevant because modern sales software is increasingly becoming data-plus-automation infrastructure. Instead of only giving reps a directory, products like Apollo sit closer to workflow engines that combine search, lead qualification, sequencing, enrichment, and operational visibility. That makes Apollo useful for founders, SDR teams, agencies, and growth operators who need to move from targeting to outreach without stitching together too many separate tools. In an AI stack, Apollo belongs near go-to-market tooling, sales automation, and revenue operations rather than a pure general-purpose chatbot. The practical evaluation question is whether it improves list quality, outreach speed, and signal density without creating noise, duplication, or poor-fit automation.",
+    "zh": "> Apollo 是一个面向营收团队和客户开发团队的平台，帮助用户在一个系统里完成潜在客户识别、公司与联系人数据补全，以及规模化外呼执行。与其把它理解成单纯联系人数据库，不如把它看成 GTM 基础设施。\n\n对 LinkStart AI 读者来说，Apollo 的意义在于：现代销售软件已经越来越像“数据 + 自动化”的执行基础设施，而不是只提供一个名单目录。像 Apollo 这样的产品更接近工作流引擎，把搜索、线索筛选、序列触达、数据 enrichment 和运营可视化连在一起。这让它特别适合创始人、SDR 团队、代运营团队和增长负责人，用更少工具完成从目标锁定到外呼执行的闭环。在 AI 工具栈里，它更应该被放在 GTM tooling、sales automation 和 revenue ops 语境中评估，而不是当成通用聊天产品。真正的评估重点，是它能否提升名单质量、触达效率和销售信号密度，同时不引入过多噪音、重复数据和低质量自动化。",
+    "ja": "> Apollo は、見込み客の特定、企業・連絡先データの補完、そしてアウトバウンド営業の実行を 1 つの場所で進めたいチーム向けの収益・プロスペクティング基盤です。単なる連絡先データベースというより、GTM インフラとして捉える方が自然です。\n\nLinkStart AI の観点では、Apollo は現代の営業ソフトが単なる名簿ではなく、データと自動化を統合した実行基盤になっていることを示す代表例です。検索、リード選定、シーケンス、データ補完、運用可視化をまとめて扱えるため、創業者、SDR チーム、営業代行、グロース担当が複数ツールをつなぎ込まずにターゲティングからアプローチまで進めやすくなります。AI スタックでは、汎用チャットではなく GTM ツール、sales automation、revenue operations の文脈で評価すべきです。導入時は、リスト品質、接触速度、シグナル密度が本当に向上するか、そしてノイズや重複、自動化の質低下を招かないかを見る必要があります。",
+    "ko": "> Apollo는 잠재 고객 발굴, 회사·연락처 데이터 보강, 대규모 아웃바운드 실행을 한곳에서 처리하려는 팀을 위한 매출 및 프로스펙팅 플랫폼입니다. 단순 연락처 데이터베이스보다 GTM 인프라에 가깝게 보는 편이 맞습니다.\n\nLinkStart AI 관점에서 Apollo가 중요한 이유는 현대 세일즈 소프트웨어가 점점 데이터와 자동화가 결합된 실행 인프라로 바뀌고 있기 때문입니다. Apollo 같은 제품은 단순 디렉터리가 아니라 검색, 리드 선별, 시퀀싱, 데이터 보강, 운영 가시성을 연결하는 워크플로 엔진에 가깝습니다. 그래서 창업자, SDR 팀, 에이전시, 성장 운영 담당자가 너무 많은 툴을 이어붙이지 않고 타기팅부터 아웃리치까지 진행하는 데 유용합니다. AI 스택에서는 일반 챗봇보다 GTM 툴링, 세일즈 자동화, revenue ops 범주에서 평가하는 것이 적절합니다. 실제 도입 전에는 리스트 품질, 아웃리치 속도, 신호 밀도가 개선되는지와 동시에 노이즈, 중복, 저품질 자동화가 늘지 않는지를 확인해야 합니다.",
+    "es": "> Apollo es una plataforma de revenue y prospección pensada para equipos que quieren identificar leads, enriquecer datos de empresas y contactos, y ejecutar outbound a escala desde un solo lugar. Conviene entenderla más como infraestructura GTM que como una simple base de contactos.\n\nPara los lectores de LinkStart AI, Apollo importa porque el software comercial moderno se parece cada vez más a una capa de datos más automatización. En lugar de limitarse a dar un directorio, herramientas como Apollo funcionan como motores de workflow que combinan búsqueda, calificación de leads, secuencias, enrichment y visibilidad operativa. Eso la vuelve útil para founders, equipos SDR, agencias y operadores de growth que quieren pasar del targeting al outreach sin encadenar demasiadas herramientas. Dentro del stack de IA, Apollo encaja mejor en GTM tooling, sales automation y revenue operations que en la categoría de chatbot generalista. La evaluación práctica debe centrarse en si mejora la calidad de listas, la velocidad de outreach y la densidad de señal sin generar ruido, duplicados o automatización de mala calidad."
+  },
+  "categoryid": "fe18c1c0-a4c3-45c0-bb1e-085452fb97e5",
+  "solutioncategoryid": "cf8528ca-0b40-4fbe-9947-584e02526263",
+  "websiteurl": "https://www.apollo.io/",
+  "logourl": "https://objectstorageapi.ap-northeast-1.clawcloudrun.com/ers584z3-nexminute-images/icon/apollo.jpg",
+  "pricingmodel": "freemium",
+  "paidoptionsfrom": 0,
+  "billingfrequency": "monthly",
+  "rating": 4.4,
+  "reviewcount": 0,
+  "supportedlanguages": ["en", "zh", "ja", "ko", "es"],
+  "tags_jsonb": {
+    "en": ["Sales intelligence", "Lead generation", "Outbound workflow", "GTM ops", "Prospecting data"],
+    "zh": ["销售情报", "线索生成", "外呼工作流", "GTM 运营", "潜客数据"],
+    "ja": ["セールスインテリジェンス", "リード獲得", "アウトバウンド", "GTM 運用", "プロスペクトデータ"],
+    "ko": ["세일즈 인텔리전스", "리드 생성", "아웃바운드 워크플로", "GTM 운영", "프로스펙트 데이터"],
+    "es": ["Inteligencia comercial", "Generación de leads", "Flujo outbound", "Operaciones GTM", "Datos de prospección"]
+  },
+  "features_jsonb": {
+    "en": ["Search companies and contacts for outbound prospecting", "Enrich lead and account data for better targeting", "Support sequence-driven outreach workflows", "Reduce tool sprawl across prospecting and revenue ops", "Fit founders, SDRs, and growth teams running high-volume outreach"],
+    "zh": ["搜索公司和联系人用于外呼拓客", "补全线索和账户数据以提升定向质量", "支持基于序列的触达工作流", "减少拓客与营收运营中的工具割裂", "适合创始人、SDR 和高频外呼增长团队"],
+    "ja": ["企業・連絡先を検索してアウトバウンドに活用", "リードとアカウント情報を補完して精度向上", "シーケンス型の営業接触を支援", "プロスペクティングと revenue ops の分断を減らす", "創業者、SDR、成長チームの大量接触運用に向く"],
+    "ko": ["아웃바운드용 회사와 연락처 검색", "리드와 계정 데이터를 보강해 타기팅 개선", "시퀀스 기반 아웃리치 워크플로 지원", "프로스펙팅과 revenue ops의 툴 분산 감소", "창업자, SDR, 고빈도 아웃리치 성장팀에 적합"],
+    "es": ["Busca empresas y contactos para prospección outbound", "Enriquece datos de leads y cuentas para segmentar mejor", "Soporta flujos de outreach basados en secuencias", "Reduce la dispersión de herramientas entre prospección y revenue ops", "Encaja con founders, SDRs y equipos de growth con outreach intensivo"]
+  },
+  "videos_jsonb": [],
+  "verdict_jsonb": {
+    "en": {
+      "summary": "Apollo is most useful for **sales and GTM teams** that need to **move from lead discovery to outbound execution inside one operating layer**. Its value depends less on having more contacts and more on whether it improves targeting quality, workflow speed, and operational discipline.",
+      "expertquote": "LinkStart AI Lab: In modern GTM stacks, the winning tools are not the ones with the biggest database alone, but the ones that make execution faster without destroying signal quality.",
+      "pros": ["Strong fit for prospecting and outbound-heavy teams", "Combines data access with workflow execution", "Useful for reducing GTM tool fragmentation"],
+      "cons": ["Data quality and fit should be validated on your real target market", "Automation can create noise if sequencing discipline is weak", "Teams should compare overlap with CRM and enrichment tools before rollout"]
+    },
+    "zh": {
+      "summary": "Apollo 最适合 **销售与 GTM 团队**，帮助他们 **在同一执行层里完成从找线索到外呼落地**。它的价值不在于联系人越多越好，而在于是否真正提升定向质量、执行速度和运营纪律。",
+      "expertquote": "LinkStart AI Lab：现代 GTM 栈里，真正赢的工具不是数据库最大，而是能在不破坏信号质量的前提下加快执行。",
+      "pros": ["非常适合重度拓客和外呼团队", "把数据访问与执行工作流结合在一起", "有助于减少 GTM 工具碎片化"],
+      "cons": ["数据质量与匹配度应在真实目标市场中验证", "如果序列管理不好，自动化可能会制造噪音", "上线前应评估它与 CRM、enrichment 工具的重叠"]
+    },
+    "ja": {
+      "summary": "Apollo は **営業・GTM チーム** が **見込み客発見からアウトバウンド実行までを 1 つの運用層で進める** のに向きます。価値は件数の多さより、ターゲティング精度、実行速度、運用規律を高めるかにあります。",
+      "expertquote": "LinkStart AI Lab：現代の GTM スタックで強いのは、単にデータ量が多いツールではなく、シグナル品質を壊さず実行を速めるツールです。",
+      "pros": ["プロスペクティングとアウトバウンド中心チームに適合", "データ取得と実行フローを統合", "GTM ツール断片化の削減に有効"],
+      "cons": ["データ品質は対象市場で検証が必要", "運用が甘いと自動化がノイズになる", "CRM や enrichment ツールとの重複確認が必要"]
+    },
+    "ko": {
+      "summary": "Apollo는 **세일즈 및 GTM 팀** 이 **리드 탐색부터 아웃바운드 실행까지를 하나의 운영 레이어에서 처리** 하려 할 때 가장 유용합니다. 핵심 가치는 연락처 수보다 타기팅 품질, 실행 속도, 운영 규율 개선에 있습니다.",
+      "expertquote": "LinkStart AI Lab: 현대 GTM 스택에서 중요한 것은 가장 큰 데이터베이스가 아니라 신호 품질을 해치지 않으면서 실행 속도를 높이는 도구입니다.",
+      "pros": ["프로스펙팅과 아웃바운드 중심 팀에 적합", "데이터 접근과 실행 워크플로를 결합", "GTM 툴 파편화 완화에 도움"],
+      "cons": ["데이터 품질과 적합성은 실제 타깃 시장에서 검증 필요", "시퀀스 운영이 약하면 자동화가 노이즈를 만들 수 있음", "CRM 및 데이터 보강 도구와의 중복 비교 필요"]
+    },
+    "es": {
+      "summary": "Apollo resulta más útil para **equipos de ventas y GTM** que quieren **pasar del descubrimiento de leads a la ejecución outbound dentro de una sola capa operativa**. Su valor depende menos de tener más contactos y más de mejorar la calidad del targeting, la velocidad del flujo y la disciplina operativa.",
+      "expertquote": "LinkStart AI Lab: En los stacks GTM modernos, ganan las herramientas que aceleran la ejecución sin destruir la calidad de señal, no solo las que prometen la base más grande.",
+      "pros": ["Buen encaje para equipos centrados en prospección y outbound", "Combina acceso a datos con ejecución de workflow", "Ayuda a reducir la fragmentación de herramientas GTM"],
+      "cons": ["La calidad del dato debe validarse en tu mercado real", "La automatización puede meter ruido si falta disciplina en secuencias", "Conviene medir solapamiento con CRM y herramientas de enrichment"]
+    }
+  },
+  "faqs_jsonb": [
+    {
+      "question": {
+        "en": "What is Apollo mainly used for?",
+        "zh": "Apollo 主要是做什么的？",
+        "ja": "Apollo の主用途は何ですか。",
+        "ko": "Apollo는 주로 무엇에 쓰이나요?",
+        "es": "¿Para qué se usa principalmente Apollo?"
+      },
+      "answer": {
+        "en": "Apollo is mainly used for prospecting, lead enrichment, and outbound workflow execution. It helps teams move from finding targets to contacting them inside one sales operating layer.",
+        "zh": "Apollo 主要用于找潜客、补全线索数据和执行外呼工作流，帮助团队在一个销售执行层里完成从找目标到触达的闭环。",
+        "ja": "Apollo は主にプロスペクティング、リード補完、アウトバウンド実行に使われます。対象発見から接触までを 1 つの営業基盤で進めやすくします。",
+        "ko": "Apollo는 잠재 고객 발굴, 리드 데이터 보강, 아웃바운드 실행에 주로 사용됩니다. 타깃 탐색부터 접촉까지를 하나의 세일즈 운영 레이어에서 처리하게 돕습니다.",
+        "es": "Apollo se usa sobre todo para prospección, enrichment de leads y ejecución outbound. Ayuda a pasar de encontrar objetivos a contactarlos dentro de una misma capa de ventas."
+      }
+    },
+    {
+      "question": {
+        "en": "Who should evaluate Apollo first?",
+        "zh": "谁最应该优先评估 Apollo？",
+        "ja": "まず Apollo を評価すべきなのは誰ですか。",
+        "ko": "어떤 팀이 Apollo를 먼저 검토해야 하나요?",
+        "es": "¿Qué equipos deberían evaluar Apollo primero?"
+      },
+      "answer": {
+        "en": "Founders, SDR teams, growth operators, and revenue teams should evaluate it first when outbound and account targeting are important growth levers.",
+        "zh": "当外呼和账户定向是重要增长杠杆时，创始人、SDR 团队、增长运营和营收团队最值得优先评估。",
+        "ja": "アウトバウンドやアカウントターゲティングが重要なら、創業者、SDR チーム、グロース担当、収益チームが優先して検討すべきです。",
+        "ko": "아웃바운드와 계정 타기팅이 중요한 성장 레버라면 창업자, SDR 팀, 성장 운영, 매출 팀이 먼저 검토할 만합니다.",
+        "es": "Founders, equipos SDR, operadores de growth y revenue teams deberían mirarlo primero cuando outbound y targeting de cuentas son palancas clave."
+      }
+    },
+    {
+      "question": {
+        "en": "Why does Apollo matter in an AI and automation stack?",
+        "zh": "为什么 Apollo 在 AI 和自动化工具栈里值得关注？",
+        "ja": "なぜ Apollo は AI / 自動化スタックで重要なのですか。",
+        "ko": "왜 Apollo가 AI 및 자동화 스택에서 중요하나요?",
+        "es": "¿Por qué importa Apollo dentro de un stack de IA y automatización?"
+      },
+      "answer": {
+        "en": "Because go-to-market software is shifting from static data tools to execution systems. Apollo matters when teams want data, targeting, and outbound actions connected in one workflow.",
+        "zh": "因为 GTM 软件正在从静态数据工具，转向更强调执行的系统。Apollo 的价值就在于把数据、定向和外呼动作放进同一个工作流。",
+        "ja": "GTM ソフトが静的データツールから実行系システムへ移っているからです。Apollo はデータ、ターゲティング、接触アクションを 1 つの流れにまとめたい時に意味があります。",
+        "ko": "GTM 소프트웨어가 정적인 데이터 도구에서 실행 시스템으로 이동하고 있기 때문입니다. Apollo는 데이터, 타기팅, 아웃바운드 액션을 하나의 흐름으로 연결하려는 팀에 의미가 있습니다.",
+        "es": "Porque el software GTM está pasando de herramientas de datos estáticas a sistemas de ejecución. Apollo importa cuando el equipo quiere conectar datos, targeting y acciones outbound en un solo flujo."
+      }
+    },
+    {
+      "question": {
+        "en": "What should teams verify before rollout?",
+        "zh": "团队上线前应该重点验证什么？",
+        "ja": "導入前に何を確認すべきですか。",
+        "ko": "도입 전에 무엇을 확인해야 하나요?",
+        "es": "¿Qué deberían verificar antes del rollout?"
+      },
+      "answer": {
+        "en": "They should verify data quality, overlap with CRM and enrichment tools, and whether automation improves real outreach outcomes instead of just increasing volume.",
+        "zh": "应重点验证数据质量、与 CRM 和 enrichment 工具的重叠程度，以及自动化到底是提升真实结果还是只放大数量。",
+        "ja": "データ品質、CRM や enrichment ツールとの重複、そして自動化が量だけでなく実際の成果を改善するかを確認すべきです。",
+        "ko": "데이터 품질, CRM 및 보강 도구와의 중복, 자동화가 단순 물량 증가가 아니라 실제 성과 개선으로 이어지는지를 확인해야 합니다.",
+        "es": "Deben verificar calidad de dato, solapamiento con CRM y enrichment, y si la automatización mejora resultados reales en lugar de solo aumentar volumen."
+      }
+    },
+    {
+      "question": {
+        "en": "Is Apollo a good fit for small teams?",
+        "zh": "Apollo 适合小团队吗？",
+        "ja": "Apollo は小規模チームにも向いていますか。",
+        "ko": "Apollo는 작은 팀에도 잘 맞나요?",
+        "es": "¿Apollo encaja bien en equipos pequeños?"
+      },
+      "answer": {
+        "en": "Yes, especially when a small team needs leverage across prospecting and outreach without buying many separate GTM tools. The key is whether the workflow stays disciplined and targeted.",
+        "zh": "适合，尤其是当小团队希望在不购买太多单点 GTM 工具的情况下，同时覆盖找客和触达流程时更有价值。关键在于流程是否保持克制和精准。",
+        "ja": "はい。特に小規模チームが複数の単機能 GTM ツールを増やさず、発掘と接触を一体で回したい場合に向きます。重要なのは運用が精密であることです。",
+        "ko": "네, 특히 작은 팀이 많은 단일 GTM 도구를 따로 사지 않고 프로스펙팅과 아웃리치를 함께 다루고 싶을 때 유용합니다. 핵심은 운영이 정교하고 타깃 지향적이어야 한다는 점입니다.",
+        "es": "Sí, sobre todo cuando un equipo pequeño necesita apalancamiento en prospección y outreach sin comprar demasiadas herramientas GTM separadas. La clave es mantener un workflow disciplinado y bien segmentado."
+      }
+    },
+    {
+      "question": {
+        "en": "When is Apollo not the right choice?",
+        "zh": "什么情况下 Apollo 不太适合？",
+        "ja": "どんな場合に Apollo は適しませんか。",
+        "ko": "어떤 경우에는 Apollo가 적합하지 않나요?",
+        "es": "¿Cuándo no sería Apollo la mejor opción?"
+      },
+      "answer": {
+        "en": "It may not be the best fit if your growth model depends little on outbound sales or if your team already has strong CRM, enrichment, and sequencing systems with minimal workflow gaps.",
+        "zh": "如果你的增长模式几乎不依赖外呼销售，或者团队已经有成熟 CRM、enrichment 和序列工具且流程缺口很小，它就未必是最佳选择。",
+        "ja": "アウトバウンド依存が低い場合や、CRM・enrichment・シーケンス基盤が既に整っていて運用ギャップが小さい場合は、最適解ではないかもしれません。",
+        "ko": "성장 모델이 아웃바운드 세일즈에 크게 의존하지 않거나 CRM, 데이터 보강, 시퀀싱 체계가 이미 잘 갖춰져 있다면 최적의 선택이 아닐 수 있습니다.",
+        "es": "Puede no ser la mejor opción si tu modelo de crecimiento depende poco del outbound o si ya tienes CRM, enrichment y secuencias sólidas con pocas brechas de workflow."
+      }
+    }
+  ],
+  "seo_title_jsonb": {
+    "en": "Apollo Review 2026: Sales Intelligence, Prospecting Workflow, Pros, Cons, and GTM Automation Fit",
+    "zh": "Apollo 评测 2026：销售情报、拓客工作流、优缺点与 GTM 自动化适配",
+    "ja": "【Apollo レビュー 2026】セールスインテリジェンス、プロスペクティング活用、長所・短所・GTM 適合性",
+    "ko": "Apollo 리뷰 2026: 세일즈 인텔리전스, 프로스펙팅 워크플로, 장단점과 GTM 자동화 적합성",
+    "es": "Opiniones de Apollo 2026: inteligencia comercial, workflow de prospección, ventajas, límites y encaje en automatización GTM"
+  },
+  "seo_description_jsonb": {
+    "en": "Is Apollo worth using for outbound and sales automation? This review covers prospecting workflows, enrichment value, GTM execution fit, and the pros and cons for revenue teams.",
+    "zh": "Apollo 值得用于外呼和销售自动化吗？本文拆解它在潜客搜索、数据 enrichment、GTM 执行中的价值，以及营收团队最该关注的优缺点。",
+    "ja": "Apollo はアウトバウンドや営業自動化に有効か。プロスペクティング、データ補完、GTM 実行適合性、導入時の長所短所を整理します。",
+    "ko": "Apollo가 아웃바운드와 세일즈 자동화에 가치가 있는지 분석했습니다. 프로스펙팅 워크플로, 데이터 보강 가치, GTM 실행 적합성과 장단점을 다룹니다.",
+    "es": "¿Vale la pena usar Apollo para outbound y automatización comercial? Analizamos workflows de prospección, valor de enrichment, encaje GTM y los pros y contras para revenue teams."
+  }
+}
