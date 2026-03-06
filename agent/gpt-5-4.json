@@ -1,0 +1,64 @@
+{
+  "slug": "gpt-5-4",
+  "brand_slug": "openai",
+  "name_jsonb": {
+    "en": "GPT-5.4",
+    "zh": "GPT-5.4",
+    "ja": "GPT-5.4",
+    "ko": "GPT-5.4",
+    "es": "GPT-5.4"
+  },
+  "tagline_jsonb": {
+    "en": "OpenAI’s large-language model for long-context reasoning, coding, and agentic workflows.",
+    "zh": "OpenAI 面向超长上下文推理、编程与智能体工作流的大语言模型。",
+    "ja": "超長コンテキスト推論・コーディング・エージェント運用向けの OpenAI 大規模言語モデル。",
+    "ko": "초장문 컨텍스트 추론, 코딩, 에이전트 워크플로용 OpenAI 대규모 언어 모델.",
+    "es": "Modelo de lenguaje de OpenAI para razonamiento de largo contexto, programación y flujos de agentes."
+  },
+  "description_jsonb": {
+    "en": "> **Executive Summary:** GPT-5.4 is OpenAI’s flagship long-context model for developers, AI product teams, and workflow builders who need stronger reasoning, coding, and computer-use capabilities in one stack. Its core value is handling complex agentic tasks with up to 1.05M context and flexible deployment across ChatGPT, Codex, and API workflows.\n\nGPT-5.4 is built for teams that want one model to cover research, code generation, tool use, and high-context orchestration. OpenAI positions it as a step forward for agentic workflows, and public rollout notes highlight stronger reasoning, coding, and computer-use capabilities. For builders already using <a href='https://www.linkstartai.com/en/agents/chatgpt'>ChatGPT</a>, <a href='https://www.linkstartai.com/en/agents/codex'>Codex</a>, or the <a href='https://www.linkstartai.com/en/agents/openai'>OpenAI</a> ecosystem, the biggest upgrade is context scale: official API materials list a 1.05M-token context window.\n\nOn pricing, GPT-5.4 offers a paid API model rather than a standalone free tier, with paid usage starting at $2.50 per 1M input tokens, $0.25 per 1M cached input tokens, and $15 per 1M output tokens for prompts up to 272K context. Once prompts exceed 272K, pricing rises to $5 per 1M input tokens and $22.50 per 1M output tokens. That makes GPT-5.4 more expensive than average for general-purpose chat models, but competitive for teams that actually need million-token context, advanced agent loops, and computer-use automation in production.\n\nIn practice, GPT-5.4 fits technical teams that run long documents, multi-step coding tasks, retrieval-heavy copilots, or agent pipelines where context loss breaks output quality. The trade-off is that community feedback already points to two real caveats: some users report more refusals than older models, and others note that effective usable context can feel lower than the headline maximum in real workloads. That keeps GPT-5.4 powerful, but not frictionless, especially for cost-sensitive or latency-sensitive deployments.",
+    "zh": "> **核心摘要：** GPT-5.4 是 OpenAI 面向开发者、AI 产品团队与自动化工作流构建者推出的旗舰长上下文模型，重点强化推理、编程与 computer use 能力。它的核心价值在于可在 ChatGPT、Codex 与 API 栈中统一承载复杂智能体任务，并支持最高约 1.05M 上下文。\n\nGPT-5.4 适合希望用一个模型覆盖研究、代码生成、工具调用与高上下文编排的团队。OpenAI 将其定位为面向 agentic workflows 的升级版本，公开发布信息也强调了更强的 reasoning、coding 与 computer use 能力。对于已经在使用 <a href='https://www.linkstartai.com/zh/agents/chatgpt'>ChatGPT</a>、<a href='https://www.linkstartai.com/zh/agents/codex'>Codex</a> 或 <a href='https://www.linkstartai.com/zh/agents/openai'>OpenAI</a> API 的团队来说，最关键的提升是上下文规模：官方 API 资料给出的窗口为 1.05M tokens。\n\n在价格方面，GPT-5.4 并不是独立免费产品，而是按 API 用量计费。272K 上下文以内，输入价格为每 100 万 tokens 2.50 美元，缓存输入为 0.25 美元，输出为 15 美元；超过 272K 后，输入涨至 5 美元，输出涨至 22.50 美元。对于普通聊天场景，这个价格高于平均水平；但如果你确实需要百万级上下文、复杂 agent loop 和生产级 computer use 自动化，它的性价比仍然成立。\n\n落地场景上，GPT-5.4 更适合长文档处理、多步骤编程任务、重检索 Copilot，或任何一旦丢失上下文就会明显影响质量的 agent pipeline。它也有明确代价：社区反馈已经指出两个现实问题，一是相较旧模型更容易拒答，二是实际可用上下文体验未必总能达到宣传上限。因此，GPT-5.4 很强，但并不算轻量，也不适合所有追求低成本或低延迟的部署。",
+    "ja": "> **要点まとめ：** GPT-5.4 は、長大なコンテキスト推論、コーディング、computer use を必要とする開発者や AI プロダクトチーム向けの OpenAI フラッグシップモデルです。最大約 1.05M コンテキストを扱え、ChatGPT・Codex・API を横断して複雑なエージェント処理をまとめられる点が中核価値です。\n\nGPT-5.4 は、調査、コード生成、ツール実行、高コンテキストのオーケストレーションを 1 つのモデルで回したいチームに向いています。OpenAI は agentic workflows 向けの前進として位置付けており、公開情報でも reasoning、coding、computer use の強化が明示されています。すでに <a href='https://www.linkstartai.com/ja/agents/chatgpt'>ChatGPT</a>、<a href='https://www.linkstartai.com/ja/agents/codex'>Codex</a>、<a href='https://www.linkstartai.com/ja/agents/openai'>OpenAI</a> API を使っている組織にとって、最大の違いは 1.05M-token コンテキストです。\n\n料金面では、GPT-5.4 は単体の無料製品ではなく API 従量課金です。272K 以内では入力が 100 万トークンあたり 2.50 ドル、キャッシュ入力が 0.25 ドル、出力が 15 ドルで、272K を超えると入力 5 ドル、出力 22.50 ドルまで上がります。一般的なチャット用途としては平均より高価ですが、百万トークン級コンテキスト、複雑な agent loop、実運用の computer use 自動化が必要なチームには十分検討価値があります。\n\n実務では、長文処理、複数段階のコーディング、検索依存の Copilot、あるいは文脈欠落が品質を壊す agent pipeline に特に向いています。一方で弱点もあります。コミュニティでは旧モデルより拒否が増えたという声や、実運用では公称値ほど長い文脈を体感しにくいという指摘があります。そのため GPT-5.4 は非常に強力ですが、軽量でも万能でもありません。",
+    "ko": "> **핵심 요약:** GPT-5.4는 초장문 컨텍스트 추론, 코딩, computer use가 필요한 개발자와 AI 제품팀을 위한 OpenAI의 플래그십 모델입니다. 최대 약 1.05M 컨텍스트를 지원하며 ChatGPT, Codex, API 스택 전반에서 복잡한 에이전트 작업을 하나로 묶을 수 있다는 점이 핵심 가치입니다.\n\nGPT-5.4는 리서치, 코드 생성, 툴 호출, 고컨텍스트 오케스트레이션을 한 모델로 처리하려는 팀에 잘 맞습니다. OpenAI는 이를 agentic workflows를 위한 진화로 소개했고, 공개 정보에서도 reasoning, coding, computer use 강화가 반복해서 언급됩니다. 이미 <a href='https://www.linkstartai.com/ko/agents/chatgpt'>ChatGPT</a>, <a href='https://www.linkstartai.com/ko/agents/codex'>Codex</a>, <a href='https://www.linkstartai.com/ko/agents/openai'>OpenAI</a> API를 쓰는 팀이라면 가장 큰 차이는 1.05M-token 컨텍스트 창입니다.\n\n가격은 독립형 무료 요금제가 아니라 API 사용량 기준입니다. 272K 이하에서는 입력 100만 토큰당 2.50달러, 캐시 입력 0.25달러, 출력 15달러이며, 272K를 넘으면 입력 5달러, 출력 22.50달러로 올라갑니다. 일반 챗봇 용도로는 평균보다 비싸지만, 백만 토큰급 컨텍스트와 고급 agent loop, production computer use 자동화가 필요한 팀에는 충분히 설득력 있는 구조입니다.\n\n실무적으로는 장문 문서 처리, 다단계 코딩, 검색 의존형 Copilot, 혹은 컨텍스트 손실이 성능을 크게 떨어뜨리는 에이전트 파이프라인에 특히 적합합니다. 다만 단점도 분명합니다. 커뮤니티에서는 이전 모델보다 refusal이 많다는 피드백과, 실제 체감 usable context가 공식 최대치보다 낮게 느껴진다는 의견이 함께 나옵니다. 즉 GPT-5.4는 강력하지만 가볍거나 저렴한 모델은 아닙니다.",
+    "es": "> **Resumen ejecutivo:** GPT-5.4 es el modelo insignia de OpenAI para desarrolladores, equipos de producto AI y builders de automatización que necesitan mejor razonamiento, programación y computer use en un solo stack. Su valor principal está en ejecutar tareas agentic complejas con hasta 1.05M de contexto dentro de ChatGPT, Codex y flujos vía API.\n\nGPT-5.4 encaja bien en equipos que quieren usar un solo modelo para investigación, generación de código, uso de herramientas y orquestación de alto contexto. OpenAI lo presenta como un paso adelante para agentic workflows, y su despliegue público destaca mejoras en reasoning, coding y computer use. Para quienes ya trabajan con <a href='https://www.linkstartai.com/es/agents/chatgpt'>ChatGPT</a>, <a href='https://www.linkstartai.com/es/agents/codex'>Codex</a> o el ecosistema <a href='https://www.linkstartai.com/es/agents/openai'>OpenAI</a>, la mejora más clara es la escala de contexto: la documentación oficial del API indica una ventana de 1.05M tokens.\n\nEn precio, GPT-5.4 no es un producto gratuito independiente, sino un modelo de pago por uso en API. Hasta 272K de contexto, cuesta 2,50 USD por 1M de tokens de entrada, 0,25 USD por 1M de tokens en caché y 15 USD por 1M de tokens de salida. Por encima de 272K, sube a 5 USD por entrada y 22,50 USD por salida. Es más caro que la media en modelos de chat generalistas, pero sigue siendo competitivo para equipos que sí necesitan contexto de un millón de tokens, loops de agentes avanzados y automatización real de computer use.\n\nEn uso real, GPT-5.4 tiene sentido para documentos largos, tareas de programación en varios pasos, copilots con mucha recuperación y pipelines de agentes donde perder contexto rompe la calidad. El intercambio es claro: la comunidad ya señala dos límites reales, más rechazos que en modelos anteriores y una sensación de contexto usable inferior al máximo teórico en cargas complejas. Por eso GPT-5.4 es potente, pero no es un modelo sin fricción."
+  },
+  "category_id": "fe18c1c0-a4c3-45c0-bb1e-085452fb97e5",
+  "solution_category_id": "0af4fb71-9012-476f-9481-093464fa59b4",
+  "website_url": "https://openai.com/index/introducing-gpt-5-4/",
+  "logo_url": "https://objectstorageapi.ap-northeast-1.clawcloudrun.com/ers584z3-nexminute-images/icon/gpt-5-4.jpg",
+  "pricing_model": "paid_api",
+  "paid_options_from": "$2.50",
+  "billing_frequency": "usage",
+  "rating": 4.4,
+  "review_count": 42,
+  "supported_languages": ["en","zh","ja","ko","es"],
+  "tags_jsonb": {
+    "en": ["Long-context LLM", "Agent workflows", "Computer use", "Code generation", "API model"],
+    "zh": ["长上下文模型", "智能体工作流", "Computer Use", "代码生成", "API 模型"],
+    "ja": ["長文脈LLM", "エージェントワークフロー", "Computer Use", "コード生成", "APIモデル"],
+    "ko": ["롱컨텍스트 LLM", "에이전트 워크플로", "Computer Use", "코드 생성", "API 모델"],
+    "es": ["LLM de largo contexto", "Flujos de agentes", "Computer use", "Generación de código", "Modelo API"]
+  },
+  "features_jsonb": {
+    "en": ["Handle up to 1.05M-token context for long documents and agent memory", "Run coding and reasoning tasks in one model across ChatGPT, Codex, and API", "Support computer-use style workflows for multi-step automation", "Scale cached input pricing for repeated high-context tasks", "Fit retrieval-heavy copilots and orchestration pipelines"],
+    "zh": ["支持最高约 1.05M tokens 上下文，适合长文档与 agent memory", "在 ChatGPT、Codex 与 API 中统一处理编程与推理任务", "支持 computer-use 风格的多步骤自动化工作流", "通过缓存输入定价降低重复高上下文任务成本", "适合重检索 Copilot 与复杂编排流水线"],
+    "ja": ["最大約 1.05M-token の長大コンテキストを処理", "ChatGPT・Codex・API を横断して推論とコーディングを統合", "computer-use 型の多段自動化ワークフローに対応", "キャッシュ入力料金で高コンテキスト反復処理を最適化", "検索依存の Copilot や複雑なオーケストレーションに適合"],
+    "ko": ["최대 약 1.05M-token 컨텍스트로 장문 문서와 agent memory 처리", "ChatGPT, Codex, API 전반에서 추론과 코딩을 한 모델로 통합", "computer-use 스타일의 다단계 자동화 워크플로 지원", "캐시 입력 단가로 반복 고컨텍스트 작업 비용 최적화", "검색 의존형 Copilot과 복잡한 오케스트레이션 파이프라인에 적합"],
+    "es": ["Gestiona hasta 1.05M tokens de contexto para documentos largos y memoria de agentes", "Combina programación y razonamiento en un solo modelo para ChatGPT, Codex y API", "Permite flujos tipo computer use para automatización de varios pasos", "Aprovecha pricing de caché para tareas repetidas de alto contexto", "Encaja en copilots con mucha recuperación y pipelines de orquestación"]
+  },
+  "videos_jsonb": [{"type":"youtube","videoId":"MwATr76kFXs","title":"OpenAI's GPT 5.4 in 10 Minutes","uploadDate":"2026-03-05T00:00:00Z","description":"Overview of GPT-5.4 reasoning, coding, agents, and long-context upgrades.","duration":"PT10M0S"}],
+  "seo_title_jsonb": {
+    "en": "GPT-5.4 Review 2026: Pricing, Pros, Cons & Alternatives",
+    "zh": "GPT-5.4 怎么样？2026 最新评测：价格、优缺点与竞品对比",
+    "ja": "【徹底レビュー】GPT-5.4の評判は？料金・強み・代替モデル比較",
+    "ko": "GPT-5.4 솔직 후기: 가격, 장단점 및 추천 대안 정리",
+    "es": "Opiniones de GPT-5.4: Precio, Ventajas y Alternativas en 2026"
+  },
+  "seo_description_jsonb": {
+    "en": "GPT-5.4 review for 2026: check pricing, 1.05M context, pros, cons, and whether this OpenAI model beats GPT-4o for agent workflows.",
+    "zh": "GPT-5.4 2026 评测：看价格、1.05M 上下文、优缺点，以及它是否比 GPT-4o 更适合智能体工作流。",
+    "ja": "GPT-5.4のレビュー。料金、1.05Mコンテキスト、長所と短所、GPT-4oとの違いを2026年基準で確認できます。",
+    "ko": "GPT-5.4 리뷰: 가격, 1.05M 컨텍스트, 장단점, 그리고 에이전트 워크플로에서 GPT-4o보다 나은지 확인하세요.",
+    "es": "Review de GPT-5.4: precio, contexto de 1.05M, ventajas, límites y si supera a GPT-4o en flujos de agentes en 2026."
+  }
+}
