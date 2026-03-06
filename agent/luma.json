@@ -1,0 +1,235 @@
+{
+  "slug": "luma",
+  "brand_slug": "luma",
+  "name_jsonb": {
+    "en": "Luma",
+    "zh": "Luma",
+    "ja": "Luma",
+    "ko": "Luma",
+    "es": "Luma"
+  },
+  "tagline_jsonb": {
+    "en": "A multimodal creative AI platform for turning text, images, and clips into cinematic video workflows.",
+    "zh": "一个将文本、图片和视频片段转为电影感内容的多模态创意 AI 平台。",
+    "ja": "テキスト、画像、動画クリップをシネマティックな映像制作フローへ変えるマルチモーダル生成 AI プラットフォーム。",
+    "ko": "텍스트, 이미지, 영상 클립을 시네마틱 비디오 워크플로로 바꾸는 멀티모달 크리에이티브 AI 플랫폼입니다.",
+    "es": "Una plataforma creativa de IA multimodal para convertir texto, imágenes y clips en flujos de vídeo con estilo cinematográfico."
+  },
+  "description_jsonb": {
+    "en": "> Luma is a multimodal video generation platform for creators, marketers, and AI teams that need fast text-to-video, image-to-video, and remix workflows. It stands out for camera motion, keyframes, consistent character tools, and a pricing system that starts at $30 per month while scaling to unlimited plans with 10,000 fast credits.\n\nLuma positions itself as a single creative stack for generating motion from text prompts, still images, illustrations, and existing video. The current product page highlights text-to-video, image-to-video, keyframes, camera motion, video extension, character handling, and a Video Composer workflow, while also noting iOS availability and Android coming soon. Public pricing materials published in late February and early March 2026 show a free trial credit model rather than a fully open free tier, a Plus plan at $30 per month or $300 per year, an Unlimited plan at $94.99 per month, and 10,000 monthly Fast Mode credits on the Unlimited tier. Extra credit packs start at $4 for 1,200 credits and remain valid for 12 months, which makes budgeting easier for bursty production teams. In practice, Luma is strongest for short-form cinematic generation, product teaser motion, and turning static concept art into animated clips. Compared with <a href='https://www.linkstartai.com/en/agents/runway'>Runway</a> and <a href='https://www.linkstartai.com/en/agents/kling-ai'>Kling AI</a>, Luma feels especially appealing when teams care about quick ideation, camera dynamics, and style-rich image-to-video output, but it is less attractive if you want predictable low-cost generation at scale. Community discussion also points to real friction around queue delays, paid-plan waiting, and subscription confusion during upgrades, so production teams should test throughput before committing client deadlines.",
+    "zh": "> Luma 是一个面向创作者、营销团队和 AI 工作流设计者的多模态视频生成平台，适合快速完成文生视频、图生视频和素材重混。它的核心优势在于镜头运动、关键帧、一致角色控制，以及从 30 美元/月起步、最高延伸到含 10,000 个高速积分的无限套餐。\n\nLuma 目前更像一套完整的创意视频生成栈，而不只是单一的文生视频工具。官方产品页强调了 text-to-video、image-to-video、keyframes、camera motion、video extension、character 处理和 Video Composer 工作流，并说明 iOS 已可用、Android 即将推出。2026 年 2 月底到 3 月初公开的定价资料显示，它提供的是试用积分模式，而不是长期完全免费的 free tier；Plus 套餐为 30 美元/月或 300 美元/年，Unlimited 套餐为 94.99 美元/月，并包含每月 10,000 个 Fast Mode 积分。额外积分包从 4 美元购买 1,200 积分起，且可保留 12 个月，这对项目型内容团队更友好。实际体验上，Luma 最适合短视频创意生成、商品预告动效、以及把静态概念图转成带镜头语言的动态片段。与 <a href='https://www.linkstartai.com/zh/agents/runway'>Runway</a> 和 <a href='https://www.linkstartai.com/zh/agents/kling-ai'>Kling AI</a> 相比，Luma 在快速构思、镜头运动和风格化图生视频上更有吸引力，但如果你更看重超稳定吞吐或极致低成本，大规模生产时就要谨慎。社区讨论也真实提到了排队时间、付费后仍需等待、以及升级时的订阅计费困惑，因此正式商用前最好先压测生成速度与成本。",
+    "ja": "> Luma は、クリエイター、マーケター、AI ワークフロー担当者向けのマルチモーダル動画生成プラットフォームです。テキスト動画生成、画像動画生成、リミックスを素早く回せる点に加え、カメラモーション、キーフレーム、キャラクター一貫性、そして月額 30 ドルから始まる料金設計が強みです。\n\nLuma は単なる text-to-video ツールではなく、映像制作寄りの生成ワークフロー全体をまとめた製品として見るほうが正確です。公式ページでは text-to-video、image-to-video、keyframes、camera motion、video extension、character 制御、Video Composer を前面に出しており、iOS 提供済み、Android は近日公開予定と案内されています。2026 年 2 月末から 3 月初旬に公開された料金情報では、恒久無料ではなく trial credits 方式を採用し、Plus は月額 30 ドルまたは年額 300 ドル、Unlimited は月額 94.99 ドル、さらに Unlimited には毎月 10,000 の Fast Mode credits が含まれます。追加クレジットは 1,200 credits が 4 ドルからで、12 か月有効です。用途としては、短尺のシネマティック映像、商品ティーザー、静止画コンセプトのアニメーション化に非常に向いています。<a href='https://www.linkstartai.com/ja/agents/runway'>Runway</a> や <a href='https://www.linkstartai.com/ja/agents/kling-ai'>Kling AI</a> と比べると、Luma は素早い試作、カメラ演出、スタイル重視の image-to-video に魅力がありますが、大量生成でのコスト予測や待ち時間の安定性は事前検証が必要です。コミュニティでは、キュー遅延、課金後も待機が発生する点、アップグレード時の課金混乱も話題になっているため、商用案件では先にスループットを確認したほうが安全です。",
+    "ko": "> Luma는 크리에이터, 마케터, AI 워크플로 팀이 빠르게 텍스트-투-비디오, 이미지-투-비디오, 리믹스 작업을 돌릴 수 있게 만든 멀티모달 영상 생성 플랫폼입니다. 카메라 모션, 키프레임, 캐릭터 일관성 도구, 그리고 월 30달러부터 시작하는 가격 구조가 핵심 포인트입니다.\n\nLuma는 단순한 text-to-video 앱보다 하나의 크리에이티브 비디오 스택에 가깝습니다. 공식 제품 페이지는 text-to-video, image-to-video, keyframes, camera motion, video extension, character 기능, Video Composer를 강조하고 있고, iOS는 사용 가능하며 Android는 곧 출시 예정이라고 안내합니다. 2026년 2월 말과 3월 초 공개된 가격 자료를 보면 완전한 무료 플랜이라기보다 trial credits 구조에 가깝고, Plus는 월 30달러 또는 연 300달러, Unlimited는 월 94.99달러이며 여기에 월 10,000 Fast Mode credits가 포함됩니다. 추가 크레딧 팩은 4달러에 1,200 credits부터 시작하고 12개월 동안 유지됩니다. 실제 활용 면에서는 짧고 시네마틱한 영상, 제품 티저, 정적인 콘셉트 아트를 움직이는 클립으로 바꾸는 작업에 특히 잘 맞습니다. <a href='https://www.linkstartai.com/ko/agents/runway'>Runway</a>나 <a href='https://www.linkstartai.com/ko/agents/kling-ai'>Kling AI</a>와 비교하면 빠른 아이데이션, 카메라 움직임, 스타일 강한 image-to-video 쪽에서 Luma의 매력이 더 크지만, 대량 생산용으로는 비용과 대기시간을 먼저 검증하는 편이 좋습니다. 커뮤니티에서는 대기열 지연, 유료 플랜에서도 기다림이 생기는 문제, 업그레이드 시 구독 청구 혼선도 언급되고 있어 클라이언트 납기 전 테스트가 중요합니다.",
+    "es": "> Luma es una plataforma multimodal de generación de vídeo para creadores, marketers y equipos de IA que necesitan flujos rápidos de text-to-video, image-to-video y remix. Destaca por el control de cámara, los keyframes, las herramientas de consistencia de personajes y un sistema de pricing que parte de 30 dólares al mes y escala hasta planes unlimited con 10.000 fast credits.\n\nLuma se entiende mejor como un stack creativo completo y no solo como un generador básico de vídeo por texto. Su página oficial destaca text-to-video, image-to-video, keyframes, camera motion, video extension, manejo de personajes y Video Composer, además de indicar disponibilidad en iOS y Android próximamente. Los materiales públicos de pricing publicados entre finales de febrero y comienzos de marzo de 2026 muestran un modelo de trial credits, no un free tier permanente; el plan Plus cuesta 30 dólares al mes o 300 al año, el plan Unlimited cuesta 94,99 dólares al mes e incluye 10.000 Fast Mode credits mensuales. Los paquetes extra empiezan en 4 dólares por 1.200 credits y duran 12 meses, algo útil para equipos con producción por campañas. En la práctica, Luma brilla en clips cortos con estética cinematográfica, motion teasers de producto y animación de concept art estático. Frente a <a href='https://www.linkstartai.com/es/agents/runway'>Runway</a> y <a href='https://www.linkstartai.com/es/agents/kling-ai'>Kling AI</a>, Luma resulta especialmente atractivo cuando importa idear rápido, mover cámara y sacar image-to-video con mucho estilo, aunque pierde atractivo si buscas costes ultra predecibles para producción masiva. La conversación de la comunidad también señala colas largas, esperas incluso en planes de pago y cierta confusión de facturación al subir de plan, por lo que conviene probar rendimiento y coste antes de cerrar entregas con clientes."
+  },
+  "categoryid": "a5b18a4f-f8f9-4d77-aa6d-01675236cbcc",
+  "solutioncategoryid": "473cb70f-33a0-475d-90e7-44474ee8c87b",
+  "websiteurl": "https://lumalabs.ai/app",
+  "logourl": "https://objectstorageapi.ap-northeast-1.clawcloudrun.com/ers584z3-nexminute-images/icon/luma.jpg",
+  "pricingmodel": "trial",
+  "paidoptionsfrom": 30,
+  "billingfrequency": "month",
+  "rating": 4.4,
+  "reviewcount": 10,
+  "supportedlanguages": ["en", "zh", "ja", "ko", "es"],
+  "tags_jsonb": {
+    "en": ["Text-to-video", "Image-to-video", "Camera motion", "Keyframes", "AI video generation"],
+    "zh": ["文生视频", "图生视频", "镜头运动", "关键帧", "AI 视频生成"],
+    "ja": ["text-to-video", "image-to-video", "camera motion", "keyframes", "AI動画生成"],
+    "ko": ["텍스트 투 비디오", "이미지 투 비디오", "카메라 모션", "키프레임", "AI 영상 생성"],
+    "es": ["Text-to-video", "Image-to-video", "Movimiento de cámara", "Keyframes", "Generación de vídeo con IA"]
+  },
+  "features_jsonb": {
+    "en": ["Generate cinematic clips from text prompts and still images", "Control motion and timing with keyframes and camera movement", "Extend or remix existing shots into new visual variations", "Create character-driven scenes with consistent style handling", "Use Video Composer workflows for faster concept-to-video iteration"],
+    "zh": ["把文本提示词和静态图片生成电影感短片", "用关键帧和镜头运动控制节奏与画面调度", "把已有片段延展或重混成新的视觉版本", "生成具备角色一致性的场景内容", "借助 Video Composer 提升概念到视频的迭代速度"],
+    "ja": ["テキストや静止画からシネマティックな短編映像を生成", "キーフレームとカメラ演出で動きとタイミングを制御", "既存ショットを延長またはリミックスして新しい映像に展開", "キャラクター一貫性を保ちながらシーンを生成", "Video Composer で企画から映像化までの反復速度を高める"],
+    "ko": ["텍스트 프롬프트와 정지 이미지를 시네마틱한 클립으로 생성", "키프레임과 카메라 움직임으로 속도와 연출을 제어", "기존 장면을 확장하거나 리믹스해 새 비주얼 버전 제작", "캐릭터 일관성을 살린 장면 생성", "Video Composer로 콘셉트에서 영상까지 반복 속도 향상"],
+    "es": ["Genera clips cinematográficos desde texto e imágenes fijas", "Controla movimiento y ritmo con keyframes y cámara", "Extiende o remezcla tomas existentes en nuevas variaciones visuales", "Crea escenas con consistencia de personajes", "Acelera la iteración de concepto a vídeo con Video Composer"]
+  },
+  "videos_jsonb": [
+    {
+      "type": "youtube",
+      "videoId": "95ek6ZQ-y3g",
+      "title": "How To Use Luma Dream Machine | AI Creation = 10X EASIER!",
+      "uploadDate": "2024-12-13T00:00:00Z",
+      "description": "Tutorial walkthrough for creating videos with Luma Dream Machine.",
+      "duration": "PT11M"
+    },
+    {
+      "type": "youtube",
+      "videoId": "eKgKzE_P14Y",
+      "title": "Using Image to Video in Dream Machine by Luma AI",
+      "uploadDate": "2025-06-24T00:00:00Z",
+      "description": "Short demo focused on Luma image-to-video workflow.",
+      "duration": "PT5M"
+    },
+    {
+      "type": "youtube",
+      "videoId": "qODRT5f1mTc",
+      "title": "Luma AI Dream Machine Tutorial (2025) – Most Creative AI Video Generator",
+      "uploadDate": "2025-06-12T00:00:00Z",
+      "description": "Hands-on tutorial covering Luma’s creative video generation features.",
+      "duration": "PT13M"
+    }
+  ],
+  "verdict_jsonb": {
+    "en": {
+      "summary": "Luma is a strong choice for **creators and visual teams** who need to **turn prompts, concept art, and images into cinematic short-form video workflows**. It stands out for style-rich image-to-video output and camera control, but production buyers should validate queue speed and billing clarity before scaling client work.",
+      "expertquote": "LinkStart AI Lab: Luma earns its edge when fast visual ideation and motion language matter more than perfectly predictable throughput.",
+      "pros": ["Strong image-to-video and camera-motion positioning for cinematic clips", "Paid tiers are clearly structured from $30 per month to $94.99 unlimited", "Extra credit packs and 12-month validity help campaign-based teams budget usage"],
+      "cons": ["Free access is closer to a trial credit model than a generous ongoing free tier", "Community feedback points to queue delays and waiting even on paid plans", "Upgrade and billing flow has created confusion for some users"]
+    },
+    "zh": {
+      "summary": "Luma 是 **创作者与视觉内容团队** 完成 **提示词、概念图与图片到电影感短视频工作流** 的有力选择。它在风格化图生视频和镜头语言控制上很突出，但若要服务客户交付，仍应先验证排队速度与计费清晰度。",
+      "expertquote": "LinkStart AI Lab：当团队更重视快速视觉构思与镜头表现，而不是绝对稳定吞吐时，Luma 的优势会更明显。",
+      "pros": ["图生视频和镜头运动能力很适合电影感短片", "付费层级从 30 美元/月到 94.99 美元/月较清晰", "额外积分包加上 12 个月有效期更适合活动型制作团队"],
+      "cons": ["免费模式更像试用积分而非长期慷慨 free tier", "社区反馈显示付费后仍可能遇到排队等待", "升级与计费流程对部分用户来说不够直观"]
+    },
+    "ja": {
+      "summary": "Luma は **クリエイターや映像チーム** が **プロンプト、コンセプトアート、画像からシネマティックな短尺映像ワークフローを作る** のに向く製品です。image-to-video とカメラ演出は魅力ですが、案件運用では待ち時間と請求の分かりやすさを先に確認すべきです。",
+      "expertquote": "LinkStart AI Lab：安定した大量処理よりも、素早いビジュアル試作と映像表現を優先するチームほど Luma の価値を感じやすいです。",
+      "pros": ["image-to-video と camera motion の完成度が高い", "料金は月額 30 ドルから 94.99 ドルまで比較的把握しやすい", "追加クレジットと 12 か月有効設計で案件単位の運用がしやすい"],
+      "cons": ["無料提供は恒久 free tier ではなく trial credits に近い", "有料プランでも待機が発生するという声がある", "アップグレード時の課金導線に分かりにくさがある"]
+    },
+    "ko": {
+      "summary": "Luma는 **크리에이터와 비주얼 팀** 이 **프롬프트, 콘셉트 아트, 이미지를 시네마틱한 숏폼 영상 워크플로로 바꾸는** 데 잘 맞는 선택입니다. image-to-video와 카메라 연출은 강점이지만, 실제 상업 운영 전에는 대기속도와 청구 구조를 먼저 점검하는 편이 안전합니다.",
+      "expertquote": "LinkStart AI Lab: 완벽히 예측 가능한 처리량보다 빠른 비주얼 아이데이션과 무드 있는 움직임이 중요할수록 Luma의 매력이 커집니다.",
+      "pros": ["스타일 강한 image-to-video와 camera motion 표현력이 좋음", "월 30달러부터 94.99달러까지 유료 구조가 비교적 명확함", "추가 크레딧과 12개월 유지 정책이 캠페인성 제작에 유리함"],
+      "cons": ["무료 접근은 넉넉한 상시 무료 플랜보다 trial credits에 가까움", "유료 플랜에서도 대기열 이슈가 언급됨", "업그레이드와 청구 흐름이 일부 사용자에게 헷갈릴 수 있음"]
+    },
+    "es": {
+      "summary": "Luma es una buena elección para **creadores y equipos visuales** que necesitan **convertir prompts, concept art e imágenes en flujos de vídeo corto con look cinematográfico**. Brilla en image-to-video y control de cámara, pero antes de escalar trabajo con clientes conviene validar colas y claridad de facturación.",
+      "expertquote": "LinkStart AI Lab: Luma gana valor cuando la prioridad es idear rápido y conseguir movimiento con personalidad visual, no tanto una capacidad de producción totalmente predecible.",
+      "pros": ["Muy competitivo en image-to-video y movimientos de cámara para clips con estilo", "Los planes de pago están bastante claros entre 30 y 94,99 dólares al mes", "Los paquetes extra y su validez de 12 meses ayudan a presupuestar campañas"],
+      "cons": ["El acceso gratuito se parece más a trial credits que a un free tier amplio", "La comunidad menciona colas y esperas incluso en planes de pago", "Algunos usuarios reportan confusión al subir de plan y revisar cargos"]
+    }
+  },
+  "faqs_jsonb": [
+    {
+      "question": {
+        "en": "Is Luma better than Runway for image-to-video work?",
+        "zh": "Luma 在图生视频上比 Runway 更强吗？",
+        "ja": "image-to-video では Luma は Runway より優れていますか。",
+        "ko": "image-to-video 작업에서는 Luma가 Runway보다 더 좋은가요?",
+        "es": "¿Luma es mejor que Runway para image-to-video?"
+      },
+      "answer": {
+        "en": "It depends on the workflow. While <a href='https://www.linkstartai.com/en/agents/runway'>Runway</a> often feels broader as a production suite, Luma has a sharper advantage in fast style-heavy image-to-video ideation, camera motion, and turning still art into cinematic short clips.",
+        "zh": "取决于你的流程。虽然 <a href='https://www.linkstartai.com/zh/agents/runway'>Runway</a> 更像完整制作套件，但 Luma 在快速风格化图生视频、镜头运动，以及把静态画面转成电影感短片方面更有优势。",
+        "ja": "ワークフロー次第です。<a href='https://www.linkstartai.com/ja/agents/runway'>Runway</a> は制作スイートとしての広さがありますが、Luma はスタイル重視の image-to-video、カメラ演出、静止画の映像化で優位性があります。",
+        "ko": "워크플로에 따라 다릅니다. <a href='https://www.linkstartai.com/ko/agents/runway'>Runway</a>가 더 넓은 제작 스위트처럼 느껴질 수 있지만, Luma는 스타일 강한 image-to-video, 카메라 모션, 정지 이미지를 시네마틱 클립으로 바꾸는 데 더 강합니다.",
+        "es": "Depende del flujo. Aunque <a href='https://www.linkstartai.com/es/agents/runway'>Runway</a> suele sentirse más amplio como suite de producción, Luma tiene ventaja en ideación rápida de image-to-video con estilo, movimiento de cámara y conversión de arte estático en clips cinematográficos."
+      }
+    },
+    {
+      "question": {
+        "en": "Does Luma have a real free plan?",
+        "zh": "Luma 有真正长期可用的免费套餐吗？",
+        "ja": "Luma に恒久的な無料プランはありますか。",
+        "ko": "Luma에는 상시 무료 플랜이 있나요?",
+        "es": "¿Luma tiene un plan gratuito real y permanente?"
+      },
+      "answer": {
+        "en": "Not in the classic freemium sense. Public pricing pages describe free trial credits, while paid access starts at $30 per month for Plus and scales to $94.99 per month for Unlimited.",
+        "zh": "严格来说没有传统意义上的 freemium。公开定价页更像试用积分模式，而正式付费从 Plus 的 30 美元/月起，到 Unlimited 的 94.99 美元/月。",
+        "ja": "一般的 freemium とは言いにくいです。公開料金では free trial credits が案内されており、有料は Plus の月額 30 ドルから、Unlimited の月額 94.99 ドルまで用意されています。",
+        "ko": "전형적인 freemium이라고 보기는 어렵습니다. 공개 가격 자료는 free trial credits 구조에 가깝고, 유료는 Plus 월 30달러부터 Unlimited 월 94.99달러까지입니다.",
+        "es": "No en el sentido clásico de freemium. Las páginas públicas hablan de trial credits, y el acceso de pago empieza en 30 dólares al mes con Plus y sube a 94,99 dólares con Unlimited."
+      }
+    },
+    {
+      "question": {
+        "en": "How expensive is Luma for teams that generate often?",
+        "zh": "对于高频生成团队来说，Luma 成本高吗？",
+        "ja": "頻繁に生成するチームにとって Luma は高コストですか。",
+        "ko": "자주 생성하는 팀에게 Luma는 비싼 편인가요?",
+        "es": "¿Luma resulta caro para equipos que generan con frecuencia?"
+      },
+      "answer": {
+        "en": "It can get expensive if you need steady fast throughput. Unlimited includes 10,000 Fast Mode credits per month, but teams pushing frequent campaign content should also factor in extra packs starting at $4 for 1,200 credits and the cost of retries.",
+        "zh": "如果你需要稳定高速生成，成本可能会上来。Unlimited 虽然每月带 10,000 个 Fast Mode 积分，但高频内容团队还要把 4 美元起购的 1,200 积分补包，以及反复重试的成本一起算进去。",
+        "ja": "安定した高速生成が必要なら、コストは上がりやすいです。Unlimited には毎月 10,000 Fast Mode credits が含まれますが、頻繁に制作するチームは 1,200 credits を 4 ドルから追加できる点と再生成コストも見込む必要があります。",
+        "ko": "꾸준한 빠른 생성이 필요하면 비용이 커질 수 있습니다. Unlimited에 월 10,000 Fast Mode credits가 포함되지만, 자주 캠페인 영상을 만드는 팀은 4달러부터 시작하는 1,200 credits 추가 팩과 재시도 비용도 함께 계산해야 합니다.",
+        "es": "Puede salir caro si necesitas velocidad constante. Unlimited incluye 10.000 Fast Mode credits al mes, pero los equipos con producción frecuente también deben contar los paquetes extra desde 4 dólares por 1.200 credits y el coste de repetir tomas."
+      }
+    },
+    {
+      "question": {
+        "en": "What are the biggest user complaints about Luma right now?",
+        "zh": "现在用户对 Luma 最大的不满是什么？",
+        "ja": "今の Luma に対する主な不満は何ですか。",
+        "ko": "지금 사용자들이 Luma에서 가장 불만스러워하는 점은 무엇인가요?",
+        "es": "¿Cuáles son hoy las quejas más repetidas sobre Luma?"
+      },
+      "answer": {
+        "en": "The biggest complaints are queue delays, waiting even on paid plans, and billing confusion during upgrades. Those issues do not erase Luma’s creative strength, but they matter if you promise fixed delivery timelines to clients.",
+        "zh": "目前最常见的抱怨是排队时间长、付费后仍需等待，以及升级时的计费困惑。这些问题不会抹掉 Luma 的创意优势，但如果你要对客户承诺固定交付时间，就必须重视。",
+        "ja": "主な不満は、キュー遅延、有料でも待機が起きること、そしてアップグレード時の請求の分かりにくさです。創造性の強みはありますが、納期厳守の案件では重要な懸念です。",
+        "ko": "가장 많이 언급되는 불만은 대기열 지연, 유료 플랜에서도 생기는 기다림, 그리고 업그레이드 시 청구 혼선입니다. 창의적 강점은 분명하지만, 납기 약속이 중요한 팀에는 큰 변수입니다.",
+        "es": "Las quejas más repetidas son las colas largas, las esperas incluso en planes de pago y la confusión de facturación al subir de plan. No anulan la fuerza creativa de Luma, pero importan mucho si prometes plazos cerrados a clientes."
+      }
+    },
+    {
+      "question": {
+        "en": "Can Luma fit marketing and social video workflows?",
+        "zh": "Luma 适合营销和社媒视频工作流吗？",
+        "ja": "Luma はマーケティングや SNS 動画のワークフローに合いますか。",
+        "ko": "Luma는 마케팅과 소셜 영상 워크플로에 잘 맞나요?",
+        "es": "¿Luma encaja en flujos de marketing y vídeo social?"
+      },
+      "answer": {
+        "en": "Yes, especially for teaser clips, mood videos, and concept testing. Luma’s image-to-video, keyframes, and camera motion features make it useful for product launches, ad variants, and quick creative iteration before editing in tools like <a href='https://www.linkstartai.com/en/agents/veed'>VEED</a> or Adobe apps.",
+        "zh": "适合，尤其适合 teaser、氛围片和创意测试。Luma 的 image-to-video、keyframes 和 camera motion 很适合新品发布、广告版本测试，以及在 <a href='https://www.linkstartai.com/zh/agents/veed'>VEED</a> 或 Adobe 工具精修前做快速创意迭代。",
+        "ja": "はい。特に teaser、ムード動画、コンセプト検証に向いています。image-to-video、keyframes、camera motion により、製品ローンチや広告バリエーション制作、<a href='https://www.linkstartai.com/ja/agents/veed'>VEED</a> や Adobe 系ツールでの仕上げ前の高速試作に使いやすいです。",
+        "ko": "네, 특히 티저 영상, 무드 영상, 콘셉트 테스트에 잘 맞습니다. image-to-video, keyframes, camera motion 기능 덕분에 제품 출시, 광고 버전 실험, 그리고 <a href='https://www.linkstartai.com/ko/agents/veed'>VEED</a>나 Adobe 계열 툴로 후반 편집하기 전 빠른 크리에이티브 반복에 유용합니다.",
+        "es": "Sí, sobre todo para teasers, vídeos de atmósfera y test de conceptos. Sus funciones de image-to-video, keyframes y camera motion son útiles para lanzamientos, variantes de anuncios y rápidas iteraciones antes de editar en <a href='https://www.linkstartai.com/es/agents/veed'>VEED</a> o herramientas de Adobe."
+      }
+    },
+    {
+      "question": {
+        "en": "Is Luma good for turning still concept art into motion?",
+        "zh": "Luma 适合把静态概念图变成动态视频吗？",
+        "ja": "Luma は静止コンセプトアートを動かす用途に向いていますか。",
+        "ko": "Luma는 정적인 콘셉트 아트를 움직이는 영상으로 바꾸기에 좋은가요?",
+        "es": "¿Luma sirve para convertir concept art estático en movimiento?"
+      },
+      "answer": {
+        "en": "Yes, that is one of its clearest strengths. Luma is particularly compelling when you want to animate still frames, illustrations, or product visuals with cinematic motion rather than generate everything from scratch.",
+        "zh": "是的，这是它最清晰的优势之一。相比从零完全生成，Luma 更打动人的地方在于把静态画面、插画或产品视觉图加上电影感运动。",
+        "ja": "はい。そこは最も分かりやすい強みの 1 つです。ゼロから全部作るよりも、静止画、イラスト、商品ビジュアルに映像的な動きを与える用途で魅力が出ます。",
+        "ko": "네, 그 부분이 가장 분명한 강점 중 하나입니다. 완전한 제로 생성보다 정지 이미지, 일러스트, 제품 비주얼에 시네마틱한 움직임을 입히는 데 더 매력적입니다.",
+        "es": "Sí, esa es una de sus fortalezas más claras. Luma resulta especialmente atractivo cuando quieres animar imágenes fijas, ilustraciones o visuales de producto con movimiento cinematográfico en lugar de generarlo todo desde cero."
+      }
+    },
+    {
+      "question": {
+        "en": "Should agencies trust Luma for deadline-sensitive client work?",
+        "zh": "代理公司可以放心把 Luma 用在对交付时间敏感的客户项目里吗？",
+        "ja": "納期が厳しいクライアント案件で Luma を信頼して使えますか。",
+        "ko": "마감이 중요한 클라이언트 작업에 Luma를 믿고 써도 될까요?",
+        "es": "¿Deberían las agencias confiar en Luma para trabajos con plazos muy sensibles?"
+      },
+      "answer": {
+        "en": "Use it selectively rather than blindly. Luma is excellent for creative exploration and pre-visualization, but agencies should run timing tests first because community reports about queues and paid-plan waiting can affect deadline-sensitive delivery.",
+        "zh": "建议选择性使用，而不是盲目全押。Luma 很适合创意探索和预演，但在正式接客户单前应先做时延测试，因为社区关于排队和付费后等待的反馈会直接影响交付。",
+        "ja": "全面依存ではなく、選択的に使うのが安全です。Luma は企画検証やプリビズには優れていますが、納期重視案件ではキューや待機時間の報告があるため、事前の所要時間テストが必要です。",
+        "ko": "무조건 신뢰하기보다 선택적으로 쓰는 편이 좋습니다. Luma는 크리에이티브 탐색과 프리비즈에는 훌륭하지만, 대기열과 유료 플랜 대기 이슈가 있어 마감형 프로젝트는 먼저 타이밍 테스트를 해야 합니다.",
+        "es": "Conviene usarlo con criterio y no a ciegas. Luma es muy bueno para exploración creativa y previsualización, pero las agencias deberían probar tiempos antes porque los reportes de colas y esperas en planes de pago pueden afectar entregas con fecha fija."
+      }
+    }
+  ],
+  "seo_title_jsonb": {
+    "en": "Luma Review 2026: Pricing, Dream Machine Features, Image-to-Video Strengths, Pros, Cons, and Best AI Video Alternatives",
+    "zh": "Luma 评测 2026：价格、Dream Machine 功能、图生视频优势、优缺点与 AI 视频替代方案",
+    "ja": "【Luma レビュー 2026】料金、Dream Machine 機能、image-to-video の強み、弱点、代替サービスまで解説",
+    "ko": "Luma 리뷰 2026: 가격, Dream Machine 기능, image-to-video 강점, 장단점과 대안 정리",
+    "es": "Opiniones de Luma 2026: precio, funciones de Dream Machine, fortalezas en image-to-video, ventajas, límites y alternativas"
+  },
+  "seo_description_jsonb": {
+    "en": "Is Luma worth it for creators and AI video teams? We break down Dream Machine pricing, image-to-video strengths, queue issues, paid plans, and where Luma beats other cinematic video generators.",
+    "zh": "Luma 值得创作者和 AI 视频团队使用吗？本文拆解 Dream Machine 价格、图生视频优势、排队问题、付费方案，以及它在哪些场景优于其他电影感视频生成器。",
+    "ja": "Luma はクリエイターや AI 動画チームに価値があるのかを検証。Dream Machine の料金、image-to-video の強み、待機問題、有料プラン、他サービスとの差を整理します。",
+    "ko": "Luma가 크리에이터와 AI 영상 팀에게 정말 가치 있는지 분석했습니다. Dream Machine 가격, image-to-video 강점, 대기 이슈, 유료 플랜, 다른 시네마틱 생성기와의 차이를 정리합니다.",
+    "es": "¿Vale la pena Luma para creadores y equipos de vídeo con IA? Analizamos pricing de Dream Machine, fortalezas en image-to-video, colas, planes de pago y dónde supera a otros generadores cinematográficos."
+  }
+}
