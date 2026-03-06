@@ -1,0 +1,244 @@
+{
+  "slug": "gemini-3-1-flash-lite",
+  "brandslug": "google",
+  "namejsonb": {
+    "en": "Gemini 3.1 Flash-Lite",
+    "zh": "Gemini 3.1 Flash-Lite",
+    "ja": "Gemini 3.1 Flash-Lite",
+    "ko": "Gemini 3.1 Flash-Lite",
+    "es": "Gemini 3.1 Flash-Lite"
+  },
+  "taglinejsonb": {
+    "en": "Google's low-cost multimodal model for high-volume AI workflows, translation, moderation, and fast dashboard generation.",
+    "zh": "Google 面向高吞吐 AI 工作流推出的低成本多模态模型，适合翻译、审核与快速仪表盘生成。",
+    "ja": "高スループットなAIワークフロー向けに設計された、Googleの低コストなマルチモーダルモデルです。",
+    "ko": "대규모 AI 워크플로를 위한 Google의 저비용 멀티모달 모델로, 번역·모더레이션·대시보드 생성에 강합니다.",
+    "es": "El modelo multimodal de bajo coste de Google para flujos de IA de gran volumen, traducción, moderación y generación rápida de paneles."
+  },
+  "descriptionjsonb": {
+    "en": "> Gemini 3.1 Flash-Lite is Google's preview multimodal model for teams that need low-cost, high-throughput inference across text, code, image, audio, video, and PDF inputs. It is built for production workloads like translation, moderation, lightweight agents, and dashboard generation, while staying cheaper than most premium frontier models.\n\nGemini 3.1 Flash-Lite is available through the Gemini API, Google AI Studio, and Vertex AI, which makes it easy to slot into existing Google Cloud and developer workflows. Official docs list support for text, code, images, audio, video, and PDF input, plus function calling, structured output, system instructions, Google Search grounding, code execution, context caching, and Vertex AI RAG Engine integration. That gives it real value for teams building automated support triage, content pipelines, internal copilots, or batch document analysis.\n\nThe pricing story is the main hook. Google lists Gemini 3.1 Flash-Lite at $0.25 per 1 million input tokens and $1.50 per 1 million output tokens, with batch pricing at $0.125 input and $0.75 output. Google also claims 2.5x faster time-to-first-token and 45% higher output throughput than Gemini 2.5 Flash, while DeepMind lists output speed at 363 tokens per second and a 1,048,576-token input limit with 65,535-token output. Gemini 3.1 Flash-Lite offers a free tier in Google AI Studio and the Gemini API, with paid usage starting at the official token prices above. For high-volume multimodal inference, it is less expensive than frontier reasoning models, but some developers on Reddit argue it is worse value than the older Gemini 2.5 Flash-Lite because per-token pricing increased.\n\nIn practice, this is a strong fit for developers who want scalable AI automation rather than maximum reasoning depth. While GPT-5-class and Claude Sonnet-class models are stronger for premium reasoning and agentic coding, Gemini 3.1 Flash-Lite has an edge in cost-controlled Google-native workloads, especially when you need long context, multimodal ingestion, or large-scale content operations.",
+    "zh": "> Gemini 3.1 Flash-Lite 是 Google 处于预览阶段的多模态模型，适合需要低成本、高吞吐推理能力的团队，用于处理文本、代码、图像、音频、视频和 PDF。它更偏向生产级自动化任务，比如翻译、内容审核、轻量代理和仪表盘生成，而不是最强推理。\n\nGemini 3.1 Flash-Lite 可通过 Gemini API、Google AI Studio 和 Vertex AI 使用，接入现有 Google Cloud 或开发者工作流相对顺滑。官方文档显示，它支持文本、代码、图像、音频、视频、PDF 输入，并支持 function calling、structured output、system instructions、Google Search grounding、code execution、context caching 以及 Vertex AI RAG Engine。这意味着它很适合自动客服分流、批量内容处理、企业内部 Copilot、文档分析等高频工作流。\n\n它最核心的卖点是价格与吞吐。Google 官方定价为每 100 万输入 tokens 0.25 美元、每 100 万输出 tokens 1.50 美元，Batch 价格则是输入 0.125 美元、输出 0.75 美元。Google 同时声称它比 Gemini 2.5 Flash 拥有 2.5 倍更快的首 token 响应和 45% 更高的输出吞吐；DeepMind 页面还给出 363 tokens/秒输出速度、1,048,576 tokens 输入上限和 65,535 tokens 输出上限。Gemini 3.1 Flash-Lite 在 Google AI Studio 和 Gemini API 中提供免费层，付费则从上述官方 token 价格起步。对于高容量多模态推理来说，它比很多高端推理模型更便宜，但 Reddit 社区也有开发者指出，相比旧版 Gemini 2.5 Flash-Lite，它的单价上涨后性价比未必更优。\n\n如果你的目标是大规模自动化而不是极限推理，这个模型很有吸引力。相比 GPT-5 级别或 Claude Sonnet 级别模型，Gemini 3.1 Flash-Lite 在复杂推理和高质量代码生成上并不占优，但在 Google 生态内做长上下文、多模态摄取和成本可控的批量 AI 工作流时，优势更直接。",
+    "ja": "> Gemini 3.1 Flash-Lite は、テキスト、コード、画像、音声、動画、PDF を扱う高スループット推論向けに設計された、Google のプレビュー段階のマルチモーダルモデルです。翻訳、モデレーション、軽量エージェント、ダッシュボード生成など、実運用の自動化ワークロードに向いています。\n\nGemini 3.1 Flash-Lite は Gemini API、Google AI Studio、Vertex AI から利用でき、Google Cloud ベースの既存開発フローに組み込みやすい構成です。公式ドキュメントでは、text、code、image、audio、video、PDF 入力に加え、function calling、structured output、system instructions、Google Search grounding、code execution、context caching、Vertex AI RAG Engine をサポートしています。そのため、サポート自動化、コンテンツ処理、社内コパイロット、バッチ文書解析のような業務に適しています。\n\n最大の魅力は価格と処理量です。Google の公式価格は入力 100 万 tokens あたり 0.25 ドル、出力 100 万 tokens あたり 1.50 ドルで、Batch は入力 0.125 ドル、出力 0.75 ドルです。さらに Google は Gemini 2.5 Flash と比べて time-to-first-token が 2.5 倍高速、出力スループットが 45% 高いと説明しています。DeepMind のページでは、出力速度 363 tokens/秒、入力上限 1,048,576 tokens、出力上限 65,535 tokens も示されています。Google AI Studio と Gemini API には無料枠があり、有料利用は上記の token 単価から始まります。高ボリューム推論向けとしては魅力的ですが、Reddit では Gemini 2.5 Flash-Lite より単価が上がり、必ずしも最良のコスト性能ではないという声もあります。\n\n総合すると、最高クラスの推論性能よりも、安定した大規模自動化を重視する開発者に向いたモデルです。GPT-5 系や Claude Sonnet 系のような上位モデルは複雑な推論や高度なコーディングで優位ですが、Gemini 3.1 Flash-Lite は Google ネイティブな環境で長文コンテキストやマルチモーダル入力を低コストに回したい場合に特に強みがあります。",
+    "ko": "> Gemini 3.1 Flash-Lite는 텍스트, 코드, 이미지, 오디오, 비디오, PDF 입력을 저비용으로 빠르게 처리해야 하는 팀을 위한 Google의 프리뷰 멀티모달 모델입니다. 최고 수준 추론보다는 번역, 모더레이션, 경량 에이전트, 대시보드 생성 같은 실무 자동화에 더 잘 맞습니다.\n\nGemini 3.1 Flash-Lite는 Gemini API, Google AI Studio, Vertex AI에서 사용할 수 있어서 기존 Google Cloud 기반 워크플로에 붙이기 쉽습니다. 공식 문서 기준으로 text, code, image, audio, video, PDF 입력을 지원하고, function calling, structured output, system instructions, Google Search grounding, code execution, context caching, Vertex AI RAG Engine까지 제공합니다. 그래서 고객지원 분류 자동화, 대량 콘텐츠 처리, 사내 Copilot, 문서 분석 같은 반복 업무에 특히 잘 어울립니다.\n\n핵심 매력은 가격과 처리량입니다. Google 공식 가격은 입력 100만 tokens당 0.25달러, 출력 100만 tokens당 1.50달러이며, Batch는 입력 0.125달러, 출력 0.75달러입니다. Google은 Gemini 2.5 Flash 대비 첫 토큰 응답이 2.5배 빠르고 출력 처리량이 45% 높다고 설명하며, DeepMind 페이지는 초당 363 tokens 출력, 1,048,576 tokens 입력 한도, 65,535 tokens 출력 한도를 제시합니다. Google AI Studio와 Gemini API에는 무료 티어가 있고, 유료 사용은 위 토큰 가격부터 시작합니다. 대규모 멀티모달 추론 기준으로는 매력적이지만, Reddit에서는 기존 Gemini 2.5 Flash-Lite보다 단가가 올라 가성비가 애매하다는 지적도 나옵니다.\n\n결론적으로 이 모델은 최고 추론 성능보다 비용 통제형 자동화를 원하는 개발자에게 더 적합합니다. GPT-5급이나 Claude Sonnet급 모델이 복잡한 추론과 고난도 코딩에서 더 강한 반면, Gemini 3.1 Flash-Lite는 Google 생태계 안에서 긴 컨텍스트, 멀티모달 입력, 대량 AI 작업을 효율적으로 굴릴 때 더 현실적인 선택입니다.",
+    "es": "> Gemini 3.1 Flash-Lite es el modelo multimodal en vista previa de Google para equipos que necesitan inferencia barata y de alto volumen con texto, código, imágenes, audio, vídeo y PDF. Está orientado a automatización de producción, como traducción, moderación, agentes ligeros y generación de paneles, más que a razonamiento de élite.\n\nGemini 3.1 Flash-Lite se puede usar desde Gemini API, Google AI Studio y Vertex AI, así que encaja bien en flujos basados en Google Cloud. La documentación oficial indica soporte para entradas de texto, código, imagen, audio, vídeo y PDF, además de function calling, structured output, system instructions, Google Search grounding, code execution, context caching e integración con Vertex AI RAG Engine. Eso le da valor real para triaje automático de soporte, pipelines de contenido, copilots internos o análisis documental por lotes.\n\nSu principal argumento es la relación entre precio y rendimiento. Google fija el precio oficial en 0.25 dólares por 1 millón de tokens de entrada y 1.50 dólares por 1 millón de tokens de salida, mientras que el modo Batch baja a 0.125 y 0.75 dólares respectivamente. Google también afirma un time-to-first-token 2.5 veces más rápido y un 45% más de throughput de salida que Gemini 2.5 Flash; además, DeepMind publica 363 tokens por segundo, un límite de entrada de 1,048,576 tokens y un límite de salida de 65,535 tokens. Gemini 3.1 Flash-Lite ofrece un nivel gratuito en Google AI Studio y Gemini API, y el uso de pago empieza en esos precios por token. Para inferencia multimodal de gran volumen es más barato que muchos modelos frontier de razonamiento, aunque en Reddit varios desarrolladores cuestionan su valor frente al antiguo Gemini 2.5 Flash-Lite porque el precio por token subió.\n\nEn la práctica, encaja mejor con desarrolladores que priorizan automatización escalable frente a razonamiento máximo. Mientras que los modelos de clase GPT-5 o Claude Sonnet rinden mejor en razonamiento premium y coding agentic, Gemini 3.1 Flash-Lite destaca en flujos nativos de Google donde importan el contexto largo, la entrada multimodal y el control fino del coste.",
+  },
+  "categoryid": "fe18c1c0-a4c3-45c0-bb1e-085452fb97e5",
+  "solutioncategoryid": "0af4fb71-9012-476f-9481-093464fa59b4",
+  "websiteurl": "https://gemini.google.com/",
+  "logourl": "https://objectstorageapi.ap-northeast-1.clawcloudrun.com/ers584z3-nexminute-images/icon/gemini-3-1-flash-lite.jpg",
+  "pricingmodel": "freemium",
+  "paidoptionsfrom": 0.25,
+  "billingfrequency": "million tokens",
+  "rating": 4.2,
+  "reviewcount": 42,
+  "supportedlanguages": ["en", "zh", "ja", "ko", "es"],
+  "tagsjsonb": {
+    "en": ["Multimodal Inference", "Long Context", "Google Cloud", "Function Calling", "Content Moderation", "Translation Automation"],
+    "zh": ["多模态推理", "长上下文", "Google Cloud", "函数调用", "内容审核", "翻译自动化"],
+    "ja": ["マルチモーダル推論", "長文コンテキスト", "Google Cloud", "関数呼び出し", "モデレーション", "翻訳自動化"],
+    "ko": ["멀티모달 추론", "롱컨텍스트", "Google Cloud", "함수 호출", "콘텐츠 모더레이션", "번역 자동화"],
+    "es": ["Inferencia multimodal", "Contexto largo", "Google Cloud", "Function calling", "Moderación de contenido", "Automatización de traducción"]
+  },
+  "featuresjsonb": {
+    "en": ["Process text, code, image, audio, video, and PDF in one model", "Automate structured output and tool use with function calling", "Scale document and content workflows with 1,048,576-token context", "Reduce batch inference costs with lower async pricing"],
+    "zh": ["单模型处理文本、代码、图像、音频、视频和 PDF", "通过 function calling 自动化结构化输出与工具调用", "利用 1,048,576 tokens 上下文扩展文档与内容工作流", "通过 Batch 定价降低异步推理成本"],
+    "ja": ["1つのモデルで text、code、image、audio、video、PDF を処理", "function calling で構造化出力とツール連携を自動化", "1,048,576 tokens の長文コンテキストで文書処理を拡張", "Batch 価格で非同期推論コストを削減"],
+    "ko": ["하나의 모델로 텍스트, 코드, 이미지, 오디오, 비디오, PDF 처리", "function calling으로 구조화 출력과 툴 호출 자동화", "1,048,576 tokens 컨텍스트로 문서·콘텐츠 워크플로 확장", "Batch 요금으로 비동기 추론 비용 절감"],
+    "es": ["Procesa texto, código, imagen, audio, vídeo y PDF en un solo modelo", "Automatiza salidas estructuradas y uso de herramientas con function calling", "Escala flujos documentales con un contexto de 1,048,576 tokens", "Reduce costes por lotes con precios async más bajos"]
+  },
+  "videosjsonb": [
+    {
+      "type": "youtube",
+      "videoId": "bsoK4gYS_rw",
+      "title": "Gemini 3.1 Flash-Lite: The Model You'll Actually Use...",
+      "uploadDate": "2026-03-02T00:00:00Z",
+      "description": "Early review focused on cost, speed, and practical developer use cases.",
+      "duration": "PT8M0S"
+    },
+    {
+      "type": "youtube",
+      "videoId": "uiXnU4OQOno",
+      "title": "Build Anything With Gemini 3.1 Flash Lite, Here's How…",
+      "uploadDate": "2026-03-04T00:00:00Z",
+      "description": "Tutorial-style walkthrough showing practical builds with Flash-Lite.",
+      "duration": "PT10M0S"
+    },
+    {
+      "type": "youtube",
+      "videoId": "9V_HoF662sw",
+      "title": "Gemini 3.1 Flash-Lite Is Google's FASTEST & Cheapest Model Ever!",
+      "uploadDate": "2026-03-03T00:00:00Z",
+      "description": "Hands-on coverage of pricing, speed claims, and coding performance.",
+      "duration": "PT9M0S"
+    }
+  ],
+  "verdictjsonb": {
+    "en": {
+      "summary": "Gemini 3.1 Flash-Lite is the pragmatic choice for **developers and AI product teams** who need to **run high-volume multimodal automation at controlled cost**. It stands out in Google-native pipelines, long-context document handling, and structured batch inference, but it is less compelling if your top priority is elite reasoning quality.",
+      "expertquote": "LinkStart AI Lab: 'For teams shipping translation, moderation, and internal copilots at scale, Gemini 3.1 Flash-Lite is more about operational efficiency than model prestige.'",
+      "pros": ["Very aggressive pricing for multimodal production workloads", "Supports 1,048,576-token input context and 65,535-token output", "Strong Google ecosystem fit across Vertex AI, Gemini API, and AI Studio"],
+      "cons": ["Still in preview, so production stability expectations should stay cautious", "Community feedback questions whether it is better value than Gemini 2.5 Flash-Lite", "Not the best option for frontier-level reasoning or top-tier coding quality"]
+    },
+    "zh": {
+      "summary": "Gemini 3.1 Flash-Lite 是 **开发者与 AI 产品团队** 做 **高吞吐多模态自动化且严格控成本** 时的务实选择。它在 Google 原生工作流、长上下文文档处理和结构化批处理推理上表现突出，但如果你最看重的是顶级推理质量，它并不是最强答案。",
+      "expertquote": "LinkStart AI Lab：'对于要大规模上线翻译、审核和内部 Copilot 的团队来说，Gemini 3.1 Flash-Lite 的价值在于运营效率，而不是模型光环。'",
+      "pros": ["面向多模态生产任务的定价非常激进", "支持 1,048,576 tokens 输入上下文与 65,535 tokens 输出", "与 Vertex AI、Gemini API、AI Studio 的 Google 生态整合顺滑"],
+      "cons": ["仍处于预览阶段，生产稳定性要保守评估", "社区对其是否优于 Gemini 2.5 Flash-Lite 的性价比存在争议", "在顶级复杂推理和高阶代码质量上不算最优"]
+    },
+    "ja": {
+      "summary": "Gemini 3.1 Flash-Lite は、**開発者とAIプロダクトチーム** が **高スループットなマルチモーダル自動化を低コストで運用** したい場合に現実的な選択肢です。Google ネイティブな基盤、長文コンテキスト処理、構造化バッチ推論で強みがありますが、最上位の推論性能を求める用途では上位モデルの方が適しています。",
+      "expertquote": "LinkStart AI Lab: '翻訳、モデレーション、社内コパイロットを大規模展開するなら、Gemini 3.1 Flash-Lite の価値はモデルの派手さではなく運用効率にあります。'",
+      "pros": ["マルチモーダル本番処理向けとして価格競争力が高い", "1,048,576 tokens の入力コンテキストと 65,535 tokens の出力に対応", "Vertex AI、Gemini API、AI Studio と自然に連携できる"],
+      "cons": ["まだ preview のため本番運用では慎重な見極めが必要", "Gemini 2.5 Flash-Lite より割高だというコミュニティの声がある", "最上位の推論や高度なコーディング品質では主役ではない"]
+    },
+    "ko": {
+      "summary": "Gemini 3.1 Flash-Lite는 **개발자와 AI 제품팀** 이 **대규모 멀티모달 자동화를 낮은 비용으로 안정적으로 돌리고 싶을 때** 고르기 좋은 현실형 모델입니다. Google 네이티브 파이프라인, 긴 컨텍스트 문서 처리, 구조화 배치 추론에 강하지만 최고급 추론 품질이 최우선이면 다른 상위 모델이 더 낫습니다.",
+      "expertquote": "LinkStart AI Lab: '번역, 모더레이션, 사내 Copilot을 대규모로 운영하는 팀이라면 Gemini 3.1 Flash-Lite의 핵심 가치는 모델 위상이 아니라 운영 효율입니다.'",
+      "pros": ["멀티모달 실무 자동화 기준으로 가격 경쟁력이 높음", "1,048,576 tokens 입력 컨텍스트와 65,535 tokens 출력 지원", "Vertex AI, Gemini API, AI Studio와의 Google 생태계 적합성 우수"],
+      "cons": ["아직 프리뷰 단계라 프로덕션 안정성은 보수적으로 봐야 함", "Gemini 2.5 Flash-Lite 대비 가성비가 나빠졌다는 커뮤니티 의견 존재", "최상급 추론이나 하이엔드 코딩 품질용으로는 최선이 아님"]
+    },
+    "es": {
+      "summary": "Gemini 3.1 Flash-Lite es la opción práctica para **desarrolladores y equipos de producto de IA** que necesitan **automatización multimodal de alto volumen con costes controlados**. Brilla en pipelines nativos de Google, manejo documental con contexto largo e inferencia estructurada por lotes, aunque no es la mejor apuesta si lo primero es el razonamiento más avanzado del mercado.",
+      "expertquote": "LinkStart AI Lab: 'Para equipos que despliegan traducción, moderación y copilots internos a escala, Gemini 3.1 Flash-Lite destaca por eficiencia operativa más que por prestigio del modelo.'",
+      "pros": ["Precio muy competitivo para cargas multimodales de producción", "Admite 1,048,576 tokens de contexto de entrada y 65,535 de salida", "Encaje excelente con Vertex AI, Gemini API y AI Studio"],
+      "cons": ["Sigue en preview, así que conviene ser prudente en producción", "La comunidad debate si ofrece mejor valor que Gemini 2.5 Flash-Lite", "No lidera en razonamiento frontier ni en coding de nivel más alto"]
+    }
+  },
+  "faqsjsonb": [
+    {
+      "question": {
+        "en": "Is Gemini 3.1 Flash-Lite actually cheaper than GPT-5-class or Claude Sonnet-class models for production inference?",
+        "zh": "Gemini 3.1 Flash-Lite 在生产推理里真的比 GPT-5 级或 Claude Sonnet 级模型更便宜吗？",
+        "ja": "Gemini 3.1 Flash-Lite は、実運用推論では GPT-5 系や Claude Sonnet 系より本当に安いですか？",
+        "ko": "Gemini 3.1 Flash-Lite는 실서비스 추론 비용에서 GPT-5급이나 Claude Sonnet급보다 정말 저렴한가요?",
+        "es": "¿Gemini 3.1 Flash-Lite es realmente más barato que los modelos de clase GPT-5 o Claude Sonnet para inferencia en producción?"
+      },
+      "answer": {
+        "en": "Yes. The core advantage is cost. Google prices Gemini 3.1 Flash-Lite at $0.25 per 1M input tokens and $1.50 per 1M output tokens, which is far below premium reasoning models from OpenAI or Anthropic. While GPT-5-class and Claude Sonnet-class systems usually justify their price with stronger reasoning and coding quality, Gemini 3.1 Flash-Lite wins when the job is translation, moderation, document extraction, or high-volume multimodal automation.",
+        "zh": "是。它最明显的优势就是成本。Google 对 Gemini 3.1 Flash-Lite 的官方定价是每 100 万输入 tokens 0.25 美元、每 100 万输出 tokens 1.50 美元，通常明显低于 OpenAI 或 Anthropic 的高端推理模型。虽然 GPT-5 级和 Claude Sonnet 级模型在复杂推理与代码质量上更强，但如果任务是翻译、审核、文档抽取或高吞吐多模态自动化，Gemini 3.1 Flash-Lite 更有价格优势。",
+        "ja": "はい。最大の利点はコストです。Google は Gemini 3.1 Flash-Lite を入力 100 万 tokens あたり 0.25 ドル、出力 100 万 tokens あたり 1.50 ドルに設定しており、OpenAI や Anthropic の上位推論モデルよりかなり低価格です。GPT-5 系や Claude Sonnet 系は推論力やコーディング品質で優位ですが、翻訳、モデレーション、文書抽出、大量のマルチモーダル自動化では Gemini 3.1 Flash-Lite の方が有利です。",
+        "ko": "네. 핵심 장점은 비용입니다. Google은 Gemini 3.1 Flash-Lite를 입력 100만 tokens당 0.25달러, 출력 100만 tokens당 1.50달러로 책정했는데, 이는 OpenAI나 Anthropic의 프리미엄 추론 모델보다 훨씬 낮은 편입니다. GPT-5급이나 Claude Sonnet급이 추론력과 코딩 품질에서는 더 강할 수 있지만, 번역, 모더레이션, 문서 추출, 대량 멀티모달 자동화라면 Gemini 3.1 Flash-Lite가 더 경제적입니다.",
+        "es": "Sí. Su ventaja central es el coste. Google fija Gemini 3.1 Flash-Lite en 0.25 dólares por 1M de tokens de entrada y 1.50 dólares por 1M de tokens de salida, muy por debajo de los modelos premium de razonamiento de OpenAI o Anthropic. Mientras que los sistemas de clase GPT-5 o Claude Sonnet justifican su precio con mejor razonamiento y coding, Gemini 3.1 Flash-Lite gana cuando el trabajo es traducción, moderación, extracción documental o automatización multimodal de gran volumen."
+      }
+    },
+    {
+      "question": {
+        "en": "What are the hard context and output limits of Gemini 3.1 Flash-Lite?",
+        "zh": "Gemini 3.1 Flash-Lite 的上下文和输出硬上限是多少？",
+        "ja": "Gemini 3.1 Flash-Lite のコンテキスト長と出力上限はどれくらいですか？",
+        "ko": "Gemini 3.1 Flash-Lite의 컨텍스트와 출력 한도는 어느 정도인가요?",
+        "es": "¿Cuáles son los límites reales de contexto y salida de Gemini 3.1 Flash-Lite?"
+      },
+      "answer": {
+        "en": "The official limits are large. Vertex AI lists a maximum input of 1,048,576 tokens and a maximum output of 65,535 tokens. That makes Gemini 3.1 Flash-Lite a strong option for long document analysis, multimodal retrieval pipelines, and batched enterprise summarization where shorter-context models create too much chunking overhead.",
+        "zh": "官方限制相当大。Vertex AI 页面列出的最大输入是 1,048,576 tokens，最大输出是 65,535 tokens。这使它非常适合长文档分析、多模态检索流水线，以及需要批量摘要的企业场景；如果换成短上下文模型，切块成本会更高。",
+        "ja": "公式上限はかなり大きいです。Vertex AI では最大入力 1,048,576 tokens、最大出力 65,535 tokens とされています。これは長文書解析、マルチモーダル検索パイプライン、大規模な企業向け要約処理に向いており、短いコンテキストのモデルより分割コストを抑えられます。",
+        "ko": "공식 한도는 꽤 큽니다. Vertex AI 기준 최대 입력 1,048,576 tokens, 최대 출력 65,535 tokens입니다. 그래서 긴 문서 분석, 멀티모달 검색 파이프라인, 대량 요약 작업처럼 짧은 컨텍스트 모델로는 청킹 부담이 큰 업무에 잘 맞습니다.",
+        "es": "Los límites oficiales son amplios. Vertex AI indica una entrada máxima de 1,048,576 tokens y una salida máxima de 65,535 tokens. Eso convierte a Gemini 3.1 Flash-Lite en una opción muy fuerte para análisis documental largo, pipelines de recuperación multimodal y resumido empresarial por lotes, donde los modelos con menos contexto obligan a fragmentar demasiado."
+      }
+    },
+    {
+      "question": {
+        "en": "How does Gemini 3.1 Flash-Lite compare with Gemini 2.5 Flash-Lite on speed and value?",
+        "zh": "Gemini 3.1 Flash-Lite 和 Gemini 2.5 Flash-Lite 在速度与性价比上怎么比？",
+        "ja": "Gemini 3.1 Flash-Lite は Gemini 2.5 Flash-Lite と比べて速度とコスト性能はどうですか？",
+        "ko": "Gemini 3.1 Flash-Lite는 Gemini 2.5 Flash-Lite와 비교해 속도와 가성비가 어떤가요?",
+        "es": "¿Cómo se compara Gemini 3.1 Flash-Lite con Gemini 2.5 Flash-Lite en velocidad y valor?"
+      },
+      "answer": {
+        "en": "The core difference is speed versus pure value. Google says Gemini 3.1 Flash-Lite delivers 2.5x faster time-to-first-token and 45% higher output throughput than Gemini 2.5 Flash. While that makes the newer model more attractive for latency-sensitive products, Reddit criticism focuses on the price jump versus the older 2.5 Flash-Lite tier, so the best choice depends on whether your bottleneck is latency or raw token cost.",
+        "zh": "核心差异是速度提升与纯价格优势之间的取舍。Google 表示 Gemini 3.1 Flash-Lite 相比 Gemini 2.5 Flash 有 2.5 倍更快的首 token 响应和 45% 更高的输出吞吐。虽然这让新模型更适合延迟敏感产品，但 Reddit 上的批评主要集中在它相对旧版 2.5 Flash-Lite 的价格上升，因此最终要看你的瓶颈到底是延迟还是 token 成本。",
+        "ja": "本質的な違いは、速度向上と純粋なコスト効率のどちらを重視するかです。Google は Gemini 3.1 Flash-Lite が Gemini 2.5 Flash 比で time-to-first-token が 2.5 倍速く、出力スループットが 45% 高いとしています。これは低遅延が重要な製品には有利ですが、Reddit では旧 2.5 Flash-Lite より価格が上がった点が問題視されており、最適解はレイテンシ重視か token 単価重視かで変わります。",
+        "ko": "핵심 차이는 속도 향상과 순수 가성비 사이의 선택입니다. Google은 Gemini 3.1 Flash-Lite가 Gemini 2.5 Flash 대비 첫 토큰 응답이 2.5배 빠르고 출력 처리량이 45% 높다고 설명합니다. 그래서 지연시간이 중요한 제품에는 더 매력적이지만, Reddit에서는 예전 2.5 Flash-Lite 대비 가격 상승을 문제 삼는 의견이 많아 결국 병목이 속도인지 토큰 비용인지에 따라 선택이 달라집니다.",
+        "es": "La diferencia principal está entre velocidad y valor puro por token. Google afirma que Gemini 3.1 Flash-Lite ofrece un time-to-first-token 2.5 veces más rápido y un 45% más de throughput de salida que Gemini 2.5 Flash. Aunque eso favorece al modelo nuevo en productos sensibles a la latencia, en Reddit se critica la subida de precio frente al antiguo 2.5 Flash-Lite, así que la mejor elección depende de si tu cuello de botella es la latencia o el coste bruto por token."
+      }
+    },
+    {
+      "question": {
+        "en": "Which integrations and developer features matter most in Gemini 3.1 Flash-Lite?",
+        "zh": "Gemini 3.1 Flash-Lite 最重要的集成与开发者能力有哪些？",
+        "ja": "Gemini 3.1 Flash-Lite で重要な統合機能と開発者向け機能は何ですか？",
+        "ko": "Gemini 3.1 Flash-Lite에서 중요한 통합 기능과 개발자 기능은 무엇인가요?",
+        "es": "¿Qué integraciones y funciones para desarrolladores son las más importantes en Gemini 3.1 Flash-Lite?"
+      },
+      "answer": {
+        "en": "The most important capabilities are function calling, structured output, system instructions, Google Search grounding, code execution, context caching, and Vertex AI RAG Engine support. Together, these features let developers connect Gemini 3.1 Flash-Lite to internal tools, retrieval systems, and workflow automations instead of using it as a simple chat model. That is why it fits production pipelines better than many lightweight API models with weaker orchestration support.",
+        "zh": "最关键的能力包括 function calling、structured output、system instructions、Google Search grounding、code execution、context caching 和 Vertex AI RAG Engine 支持。这些功能组合起来，意味着开发者可以把 Gemini 3.1 Flash-Lite 接到内部工具、检索系统和自动化流程中，而不只是把它当成聊天模型。这也是它比很多轻量 API 模型更适合生产流水线的原因。",
+        "ja": "重要なのは function calling、structured output、system instructions、Google Search grounding、code execution、context caching、そして Vertex AI RAG Engine 対応です。これらにより、Gemini 3.1 Flash-Lite は単なるチャット用途ではなく、社内ツール、検索基盤、自動化ワークフローと接続しやすくなります。そのため、オーケストレーション機能が弱い軽量 API モデルより本番パイプライン向きです。",
+        "ko": "가장 중요한 기능은 function calling, structured output, system instructions, Google Search grounding, code execution, context caching, Vertex AI RAG Engine 지원입니다. 이 조합 덕분에 Gemini 3.1 Flash-Lite를 단순 채팅 모델이 아니라 내부 툴, 검색 시스템, 자동화 워크플로와 연결된 생산용 모델로 쓸 수 있습니다. 그래서 오케스트레이션이 약한 가벼운 API 모델보다 실서비스 파이프라인에 더 잘 맞습니다.",
+        "es": "Las funciones más importantes son function calling, structured output, system instructions, Google Search grounding, code execution, context caching y soporte para Vertex AI RAG Engine. En conjunto permiten conectar Gemini 3.1 Flash-Lite con herramientas internas, sistemas de recuperación y automatizaciones, en lugar de usarlo solo como modelo conversacional. Por eso encaja mejor en pipelines de producción que muchos modelos ligeros con menos capacidades de orquestación."
+      }
+    },
+    {
+      "question": {
+        "en": "Is Gemini 3.1 Flash-Lite good for RAG, document parsing, and internal copilots?",
+        "zh": "Gemini 3.1 Flash-Lite 适合做 RAG、文档解析和企业内部 Copilot 吗？",
+        "ja": "Gemini 3.1 Flash-Lite は RAG、文書解析、社内コパイロットに向いていますか？",
+        "ko": "Gemini 3.1 Flash-Lite는 RAG, 문서 파싱, 사내 Copilot에 적합한가요?",
+        "es": "¿Gemini 3.1 Flash-Lite sirve bien para RAG, parsing documental y copilots internos?"
+      },
+      "answer": {
+        "en": "Yes, especially when scale matters more than perfect reasoning. Its 1M-token context window, multimodal inputs, structured output, and Vertex AI RAG Engine support make it practical for enterprise search, large document extraction, policy Q&A, and internal knowledge copilots. While stronger reasoning models may answer edge-case questions better, Gemini 3.1 Flash-Lite is usually the more economical backbone for high-volume retrieval and summarization systems.",
+        "zh": "适合，尤其是在规模比极致推理更重要的情况下。它拥有 100 万级上下文、多模态输入、structured output 和 Vertex AI RAG Engine 支持，非常适合企业搜索、大文档抽取、制度问答和内部知识 Copilot。虽然更强的推理模型在极端复杂问题上可能表现更好，但在高容量检索和摘要系统里，Gemini 3.1 Flash-Lite 往往是更经济的底座。",
+        "ja": "はい。特に、完璧な推論力よりも大規模運用が重要な場合に向いています。100 万 tokens 級のコンテキスト、マルチモーダル入力、structured output、Vertex AI RAG Engine 対応により、企業検索、大規模文書抽出、規程 Q&A、社内ナレッジコパイロットに実用的です。より強力な推論モデルは難問に強い一方で、高ボリュームな検索・要約基盤としては Gemini 3.1 Flash-Lite の方が経済的であることが多いです。",
+        "ko": "네, 특히 완벽한 추론보다 규모가 중요할 때 잘 맞습니다. 100만 토큰급 컨텍스트, 멀티모달 입력, structured output, Vertex AI RAG Engine 지원 덕분에 기업 검색, 대형 문서 추출, 정책 Q&A, 사내 지식 Copilot에 실용적입니다. 더 강한 추론 모델이 난도 높은 질문에서는 유리할 수 있지만, 대량 검색·요약 시스템의 기반 모델로는 Gemini 3.1 Flash-Lite가 더 경제적인 경우가 많습니다.",
+        "es": "Sí, sobre todo cuando la escala importa más que el razonamiento perfecto. Su ventana de 1M de tokens, entradas multimodales, structured output y soporte para Vertex AI RAG Engine lo hacen útil para búsqueda empresarial, extracción de documentos grandes, preguntas sobre políticas internas y copilots de conocimiento. Aunque los modelos con mejor razonamiento resuelven mejor algunos casos límite, Gemini 3.1 Flash-Lite suele ser la base más económica para sistemas de recuperación y resumen de gran volumen."
+      }
+    },
+    {
+      "question": {
+        "en": "Should privacy-conscious teams use Gemini 3.1 Flash-Lite through Vertex AI or the consumer Gemini app?",
+        "zh": "重视隐私的团队应该通过 Vertex AI 还是消费者版 Gemini 应用来使用 Gemini 3.1 Flash-Lite？",
+        "ja": "プライバシーを重視するチームは、Gemini 3.1 Flash-Lite を Vertex AI と一般向け Gemini アプリのどちらで使うべきですか？",
+        "ko": "보안과 프라이버시를 중시하는 팀은 Gemini 3.1 Flash-Lite를 Vertex AI로 써야 하나요, 일반 Gemini 앱으로 써야 하나요?",
+        "es": "¿Los equipos sensibles a la privacidad deberían usar Gemini 3.1 Flash-Lite desde Vertex AI o desde la app de consumo de Gemini?"
+      },
+      "answer": {
+        "en": "Vertex AI is the safer enterprise choice. The key difference is deployment control: Vertex AI gives teams stronger governance, cloud integration, and compatibility with enterprise data workflows, while the consumer Gemini app is designed for end-user convenience. If you are handling internal documents, regulated data, or retrieval systems tied to Google Cloud, Vertex AI is the more credible route.",
+        "zh": "Vertex AI 更适合企业级隐私场景。核心差别在于部署与治理控制：Vertex AI 为团队提供更强的权限管理、云端集成和企业数据工作流兼容性，而消费者版 Gemini 应用更偏向终端用户体验。如果你处理的是内部文档、合规数据或与 Google Cloud 打通的检索系统，Vertex AI 明显更稳妥。",
+        "ja": "企業用途では Vertex AI の方が安全です。違いは運用管理にあります。Vertex AI は権限管理、クラウド統合、企業データフローとの整合性が強く、一般向け Gemini アプリはエンドユーザー向けの利便性を重視しています。社内文書、規制データ、Google Cloud と連携した検索基盤を扱うなら、Vertex AI の方が信頼しやすい選択です。",
+        "ko": "보안 민감한 팀에는 Vertex AI가 더 적합합니다. 핵심 차이는 운영 통제력입니다. Vertex AI는 권한 관리, 클라우드 통합, 엔터프라이즈 데이터 워크플로 호환성이 더 강하고, 일반 Gemini 앱은 최종 사용자 편의성 중심입니다. 내부 문서, 규제 데이터, Google Cloud와 연결된 검색 시스템을 다룬다면 Vertex AI 쪽이 더 신뢰할 만합니다.",
+        "es": "Vertex AI es la vía más segura para empresa. La diferencia clave está en el control de despliegue: Vertex AI ofrece mejor gobernanza, integración cloud y compatibilidad con flujos de datos corporativos, mientras que la app de Gemini está pensada para comodidad del usuario final. Si trabajas con documentos internos, datos regulados o sistemas de recuperación ligados a Google Cloud, Vertex AI es la opción más sólida."
+      }
+    },
+    {
+      "question": {
+        "en": "Who should skip Gemini 3.1 Flash-Lite and choose another model instead?",
+        "zh": "哪些人应该跳过 Gemini 3.1 Flash-Lite，改选别的模型？",
+        "ja": "Gemini 3.1 Flash-Lite を避けて別モデルを選ぶべきなのはどんな人ですか？",
+        "ko": "누가 Gemini 3.1 Flash-Lite를 건너뛰고 다른 모델을 선택해야 하나요?",
+        "es": "¿Quién debería saltarse Gemini 3.1 Flash-Lite y elegir otro modelo?"
+      },
+      "answer": {
+        "en": "Teams chasing the best possible reasoning, agentic coding, or premium answer quality should probably choose a stronger model. While Gemini 3.1 Flash-Lite is excellent for throughput, cost control, and Google-native automation, OpenAI and Anthropic flagship tiers remain more compelling for advanced research agents, difficult coding loops, and nuanced multi-step reasoning. If failure cost is higher than token cost, the cheaper model is not always the better model.",
+        "zh": "如果你的团队追求的是最强推理、最强代理式编程或更高质量答案，通常应该选更强的模型。Gemini 3.1 Flash-Lite 在吞吐、成本控制和 Google 原生自动化上很优秀，但在高级研究代理、复杂代码迭代和精细多步推理上，OpenAI 与 Anthropic 的旗舰模型通常更有优势。如果错误成本高于 token 成本，便宜模型未必更划算。",
+        "ja": "最高レベルの推論、エージェント型コーディング、回答品質を求めるチームは、より強いモデルを選ぶべきです。Gemini 3.1 Flash-Lite はスループット、コスト管理、Google ネイティブ自動化では優秀ですが、高度なリサーチエージェント、難しいコーディング反復、複雑な多段推論では OpenAI や Anthropic の上位モデルが依然として有力です。失敗コストが token コストより重いなら、安さだけで選ばない方がよいです。",
+        "ko": "최고 수준의 추론, 에이전트형 코딩, 프리미엄 답변 품질이 필요한 팀은 더 강한 모델을 고르는 편이 좋습니다. Gemini 3.1 Flash-Lite는 처리량, 비용 통제, Google 네이티브 자동화에는 훌륭하지만, 고급 리서치 에이전트, 어려운 코딩 루프, 정교한 다단계 추론에서는 OpenAI나 Anthropic 플래그십이 여전히 더 매력적입니다. 실패 비용이 토큰 비용보다 크다면 싼 모델이 항상 좋은 모델은 아닙니다.",
+        "es": "Los equipos que buscan el mejor razonamiento posible, coding agentic o máxima calidad de respuesta deberían ir a un modelo más fuerte. Aunque Gemini 3.1 Flash-Lite es excelente para throughput, control de costes y automatización nativa de Google, las gamas flagship de OpenAI y Anthropic siguen siendo más convincentes para agentes de investigación avanzados, bucles de coding difíciles y razonamiento multietapa delicado. Si el coste del error supera al coste del token, el modelo barato no siempre es el mejor."
+      }
+    }
+  ],
+  "seotitlejsonb": {
+    "en": "Gemini 3.1 Flash-Lite Review 2026: Pricing, Speed, Free Tier, Pros, Cons, and Best Google AI Use Cases",
+    "zh": "Gemini 3.1 Flash-Lite 评测 2026：价格、速度、免费层、优缺点与最佳 Google AI 用法",
+    "ja": "【Gemini 3.1 Flash-Lite】レビュー 2026：料金、速度、無料枠、メリットと代替候補",
+    "ko": "Gemini 3.1 Flash-Lite 리뷰 2026: 가격, 속도, 무료 티어, 장단점까지 한눈에",
+    "es": "Opiniones de Gemini 3.1 Flash-Lite 2026: precio, velocidad, plan gratis, ventajas y alternativas"
+  },
+  "seodescriptionjsonb": {
+    "en": "Gemini 3.1 Flash-Lite is Google's fastest low-cost multimodal model in preview. See pricing, free tier, context limits, integrations, pros, cons, and when it beats Claude or GPT-style alternatives.",
+    "zh": "Gemini 3.1 Flash-Lite 是 Google 预览中的高速低成本多模态模型。这里看价格、免费层、上下文上限、集成能力、优缺点，以及它何时比 Claude 或 GPT 类替代更值得选。",
+    "ja": "Gemini 3.1 Flash-Lite は、Google の高速・低コストなプレビュー版マルチモーダルモデルです。料金、無料枠、コンテキスト長、統合機能、長所短所、Claude や GPT 系との使い分けを確認できます。",
+    "ko": "Gemini 3.1 Flash-Lite는 Google의 빠르고 저렴한 프리뷰 멀티모달 모델입니다. 가격, 무료 티어, 컨텍스트 한도, 통합 기능, 장단점, Claude·GPT 계열과의 차이를 정리했습니다.",
+    "es": "Gemini 3.1 Flash-Lite es el modelo multimodal barato y rápido de Google en preview. Revisa precio, plan gratis, límites de contexto, integraciones, ventajas, desventajas y cuándo supera a alternativas tipo Claude o GPT."
+  },
+  "citationsdump": [
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+    "https://ai.google.dev/gemini-api/docs/pricing",
+    "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-1-flash-lite",
+    "https://deepmind.google/models/gemini/flash-lite/",
+    "https://www.reddit.com/r/Bard/comments/1rjtfa3/gemini_31_flash_lite/",
+    "https://www.reddit.com/r/Bard/comments/1rk2d02/gemini_31_flash_lite_isnt_a_good_model_and_its/",
+    "https://www.reddit.com/r/Bard/comments/1rjusj5/gemini_31_flashlite_benchmark_comparison/"
+  ]
+}
