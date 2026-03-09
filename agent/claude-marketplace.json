@@ -1,0 +1,165 @@
+{
+  "slug": "claude-marketplace",
+  "brand_slug": "claude",
+  "name_jsonb": {
+    "en": "Claude Marketplace",
+    "zh": "Claude Marketplace",
+    "ja": "Claude Marketplace",
+    "ko": "Claude Marketplace",
+    "es": "Claude Marketplace"
+  },
+  "tagline_jsonb": {
+    "en": "Enterprise marketplace for buying Claude-powered AI tools through existing Anthropic commitments.",
+    "zh": "面向企业的 Claude 生态采购市场，可用现有 Anthropic 预算购买 Claude 驱动的 AI 工具。",
+    "ja": "既存の Anthropic 契約を活用して Claude 搭載AIツールを調達できる企業向けマーケットプレイス。",
+    "ko": "기존 Anthropic 약정으로 Claude 기반 AI 도구를 구매할 수 있는 엔터프라이즈 마켓플레이스.",
+    "es": "Marketplace empresarial para adquirir herramientas de IA con Claude usando compromisos existentes con Anthropic."
+  },
+  "description_jsonb": {
+    "en": "> **Executive Summary:** Claude Marketplace is Anthropic's enterprise buying layer for Claude-powered partner tools. It is built for procurement, operations, and AI leaders who want faster vendor discovery, simpler purchasing, and tighter budget alignment by using an existing Anthropic commitment instead of opening a separate buying process.\\n\\nAnthropic introduced Claude Marketplace in March 2026 as a way for enterprises to simplify procurement of AI tools. The Product Hunt launch page states that companies can use an existing Anthropic commitment to pay for Claude-powered solutions from Anthropic customers, and that launch page showed 487 followers. Claude Marketplace offers a **custom enterprise** model, with paid access tied to an existing Anthropic commitment rather than a public self-serve plan. It is less transparent than average for this category.\\n\\nStrategically, Claude Marketplace sits above the tool layer and next to the broader Claude stack. Claude Code documentation published in March 2026 separately defines plugin marketplaces as catalogs for discovering and installing extensions such as skills, agents, hooks, and MCP servers, so buyers should treat Claude Marketplace as procurement infrastructure rather than a developer plugin directory.",
+    "zh": "> **核心摘要：** Claude Marketplace 是 Anthropic 面向企业推出的采购层，用来集中购买由 Claude 驱动的合作伙伴 AI 工具。它适合采购、运营和 AI 负责人，用现有 Anthropic 承诺额度完成更快的供应商发现、审批和预算归集，而不是再走一套新的采购流程。\\n\\nAnthropic 于 2026 年 3 月推出 Claude Marketplace，核心定位是帮助企业更轻松地采购 AI 工具。Product Hunt 上线页明确写到，企业可以直接使用现有 Anthropic commitment 为 Claude-powered solutions 付款；该页面上线时显示 487 位关注者。Claude Marketplace 采用**企业定制**计费模式，当前没有公开自助价，也没有明确的免费层，因此价格透明度低于同类 SaaS 目录产品。\\n\\n从架构位置看，Claude Marketplace 更像采购基础设施，而不是开发者插件目录。Claude Code 在 2026 年 3 月更新的文档把 plugin marketplaces 定义为用于发现和安装 skills、agents、hooks 与 MCP servers 的扩展目录，因此企业应把前者用于采购，把后者用于工作流扩展。",
+    "ja": "> **要点まとめ：** Claude Marketplace は、Claude を活用したパートナー製AIツールを企業が調達するための Anthropic の購買レイヤーです。調達部門、業務改善チーム、AI責任者が、既存の Anthropic 契約を使ってベンダー探索と購入手続きを短縮したい場合に向いています。\\n\\nAnthropic は 2026 年 3 月に Claude Marketplace を発表し、企業のAIツール調達を簡素化する仕組みとして位置づけました。Product Hunt の公開ページでは、既存の Anthropic commitment を使って Claude-powered solutions の支払いができると説明されており、公開時点でフォロワーは 487 でした。Claude Marketplace は**エンタープライズ向け個別契約**モデルで、公開セルフサーブ価格は見当たりません。この点は同カテゴリのサービスより価格透明性が低めです。\\n\\n機能面では、Claude Marketplace は開発拡張機能の配布場所というより購買基盤です。2026 年 3 月公開の Claude Code ドキュメントでは、plugin marketplaces は skills、agents、hooks、MCP servers を発見・導入するためのカタログと説明されており、用途は明確に分かれます。",
+    "ko": "> **핵심 요약:** Claude Marketplace는 Claude 기반 파트너 AI 도구를 기업이 더 쉽게 구매하도록 만든 Anthropic의 조달 레이어입니다. 조달팀, 운영팀, AI 리더가 기존 Anthropic 약정을 활용해 벤더 탐색과 구매 절차를 줄이고 싶을 때 특히 잘 맞습니다.\\n\\nAnthropic은 2026년 3월 Claude Marketplace를 공개하며 기업의 AI 도구 조달을 단순화하는 서비스라고 설명했습니다. Product Hunt 출시 페이지에는 기존 Anthropic commitment로 Claude-powered solutions 비용을 처리할 수 있다고 적혀 있었고, 공개 당시 팔로워 수는 487명이었습니다. Claude Marketplace는 **엔터프라이즈 맞춤형** 가격 구조로 보이며, 공개된 셀프서브 요금제나 무료 플랜은 확인되지 않습니다. 이 점은 같은 카테고리 대비 가격 투명성이 낮은 편입니다.\\n\\n포지셔닝도 중요합니다. Claude Marketplace는 개발자용 플러그인 디렉터리라기보다 구매 인프라에 가깝고, 2026년 3월의 Claude Code 문서는 plugin marketplaces를 skills, agents, hooks, MCP servers를 찾고 설치하는 카탈로그로 구분합니다. 즉 조달과 확장은 다른 레이어입니다.",
+    "es": "> **Resumen ejecutivo:** Claude Marketplace es la capa de compra empresarial de Anthropic para herramientas asociadas impulsadas por Claude. Está pensado para equipos de compras, operaciones y liderazgo de IA que quieren descubrir proveedores más rápido, simplificar adquisiciones y usar un compromiso existente con Anthropic en lugar de abrir un proceso de compra nuevo.\\n\\nAnthropic presentó Claude Marketplace en marzo de 2026 como una forma de simplificar la adquisición de herramientas de IA para empresas. La página de lanzamiento en Product Hunt indica que las compañías pueden usar un compromiso existente con Anthropic para pagar soluciones impulsadas por Claude de clientes de Anthropic, y esa página mostraba 487 seguidores. Claude Marketplace funciona con un modelo **empresarial personalizado**, sin precio público autoservicio visible. Eso lo hace menos transparente que la media en esta categoría.\\n\\nA nivel estratégico, Claude Marketplace se sitúa por encima de la capa de herramientas y junto al ecosistema Claude. La documentación de Claude Code publicada en marzo de 2026 define por separado los plugin marketplaces como catálogos para descubrir e instalar skills, agents, hooks y servidores MCP, así que conviene tratar Claude Marketplace como infraestructura de compra y no como directorio de plugins."
+  },
+  "category_id": "fe342038-344f-4b05-82b6-2246f28596e3",
+  "solution_category_id": "2e7cef55-a5a2-47f4-81e3-0266dbefea1d",
+  "website_url": "https://claude.com/platform/marketplace?ref=producthunt",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/claude.jpg",
+  "pricing_model": "custom",
+  "paid_options_from": "Anthropic commitment",
+  "billing_frequency": "custom",
+  "rating": 4.1,
+  "review_count": 0,
+  "supported_languages": [
+    "en",
+    "zh",
+    "ja",
+    "ko",
+    "es"
+  ],
+  "tags_jsonb": {
+    "en": [
+      "Claude procurement",
+      "Enterprise AI sourcing",
+      "Partner tool buying",
+      "Vendor consolidation",
+      "Anthropic budget routing"
+    ],
+    "zh": [
+      "Claude 采购",
+      "企业 AI 选型",
+      "合作伙伴工具购买",
+      "供应商整合",
+      "Anthropic 预算归集"
+    ],
+    "ja": [
+      "Claude調達",
+      "企業向けAI購買",
+      "パートナーツール導入",
+      "ベンダー統合",
+      "Anthropic予算活用"
+    ],
+    "ko": [
+      "Claude 조달",
+      "엔터프라이즈 AI 소싱",
+      "파트너 도구 구매",
+      "벤더 통합",
+      "Anthropic 예산 연계"
+    ],
+    "es": [
+      "Compras con Claude",
+      "Abastecimiento de IA empresarial",
+      "Compra de herramientas asociadas",
+      "Consolidación de proveedores",
+      "Uso de presupuesto Anthropic"
+    ]
+  },
+  "features_jsonb": {
+    "en": [
+      "Route partner-tool spend through existing Anthropic commitments",
+      "Centralize discovery for Claude-powered enterprise solutions",
+      "Separate procurement workflows from Claude Code plugin installation",
+      "Reduce vendor sprawl with a curated marketplace layer",
+      "Align AI purchasing with the broader Claude ecosystem"
+    ],
+    "zh": [
+      "将合作伙伴工具支出归入现有 Anthropic commitment",
+      "集中发现 Claude 驱动的企业级解决方案",
+      "把采购流程与 Claude Code 插件安装明确分层",
+      "通过精选市场降低供应商碎片化",
+      "让 AI 采购与整个 Claude 生态保持一致"
+    ],
+    "ja": [
+      "既存の Anthropic commitment にパートナーツール費用を集約",
+      "Claude 搭載の企業向けソリューション探索を一元化",
+      "購買フローと Claude Code プラグイン導入を明確に分離",
+      "キュレーション型マーケットプレイスでベンダー乱立を抑制",
+      "AI購買を Claude エコシステム全体と整合させる"
+    ],
+    "ko": [
+      "기존 Anthropic 약정으로 파트너 도구 비용을 집행",
+      "Claude 기반 엔터프라이즈 솔루션 탐색을 한곳에서 처리",
+      "구매 워크플로와 Claude Code 플러그인 설치를 분리",
+      "큐레이션된 마켓 레이어로 벤더 난립을 완화",
+      "AI 구매 전략을 Claude 생태계와 맞춰 운영"
+    ],
+    "es": [
+      "Canaliza el gasto en herramientas asociadas mediante compromisos existentes con Anthropic",
+      "Centraliza el descubrimiento de soluciones empresariales impulsadas por Claude",
+      "Separa la compra empresarial de la instalación de plugins en Claude Code",
+      "Reduce la dispersión de proveedores con una capa de marketplace curada",
+      "Alinea la compra de IA con el ecosistema más amplio de Claude"
+    ]
+  },
+  "videos_jsonb": [
+    {
+      "type": "youtube",
+      "videoId": "6EFOT6hjvAU",
+      "title": "Claude Plugins & Skills Tutorial (All Updates Combined)",
+      "uploadDate": "2026-02-26T00:00:00Z",
+      "description": "Walkthrough of connectors, skills, plugins, MCP, and automation use cases around Claude.",
+      "duration": "PT24M48S"
+    }
+  ],
+  "verdict_jsonb": {
+    "en": {
+      "summary": "<a href=\\\"https://www.linkstartai.com/en/agents/claude\\\" target=\\\"_blank\\\" rel=\\\"nofollow\\\">Claude</a> Marketplace is the pragmatic choice for **procurement teams** who need to **buy Claude-powered AI tools through an existing Anthropic budget path**. It stands out because it turns vendor sourcing into part of the Claude ecosystem instead of a separate enterprise software process. The downside is that the product launched in limited preview, so public pricing, partner depth, and governance detail are still thin.",
+      "expert_quote": "LinkStart AI Lab note: \\\"Anthropic is productizing AI procurement, not just model access. The opportunity is real, but buyers still need deeper visibility into partners, pricing, and governance before treating it like a mature software marketplace.\\\"",
+      "pros": [
+        "Useful for enterprise buying motions where finance teams want Claude-powered solutions billed against an existing Anthropic commitment.",
+        "Stronger signal-to-noise ratio than hunting random tools across Reddit, X, or scattered plugin lists.",
+        "Fits well beside Claude API and Claude Code when a company wants procurement, deployment, and workflow extension under one umbrella."
+      ],
+      "cons": [
+        "Limited preview means public catalog breadth and rollout coverage are still unclear.",
+        "No public self-serve pricing or free tier makes early budget benchmarking difficult.",
+        "Launch materials do not yet expose standardized partner-level security and training-use guarantees."
+      ]
+    },
+    "zh": {
+      "summary": "<a href=\\\"https://www.linkstartai.com/zh/agents/claude\\\" target=\\\"_blank\\\" rel=\\\"nofollow\\\">Claude</a> Marketplace 是 **采购团队** 用来 **通过现有 Anthropic 预算路径采购 Claude 驱动 AI 工具** 的务实选择。它的价值不在于多炫的功能，而在于把供应商选型和采购流程拉回到 Claude 生态里统一处理。缺点也很明显：目前仍是 limited preview，公开价格、合作伙伴覆盖和治理细节都偏少。",
+      "expert_quote": "LinkStart AI Lab 评语：\\\"Anthropic 正在把 AI 采购做成平台层，而不只是卖模型能力。方向很对，但企业要把它当成熟市场来用，仍需要更多关于伙伴、价格和合规的透明信息。\\\"",
+      "pros": [
+        "适合已有 Anthropic commitment 的企业，把 Claude-powered solutions 直接纳入现有预算口径。",
+        "相比在 Reddit、X 或零散插件列表里自己筛工具，官方市场的信噪比更高。",
+        "如果团队已经在用 Claude API 或 Claude Code，这类采购入口更容易形成统一治理。"
+      ],
+      "cons": [
+        "limited preview 阶段下，公开目录规模和可接入范围仍不清楚。",
+        "没有公开自助价或免费层，前期预算评估不够直观。",
+        "现有公开资料尚未给出统一的伙伴级数据训练与隔离承诺。"
+      ]
+    },
+    "ja": {
+      "summary": "<a href=\\\"https://www.linkstartai.com/ja/agents/claude\\\" target=\\\"_blank\\\" rel=\\\"nofollow\\\">Claude</a> Marketplace は、**調達部門** が **既存の Anthropic 予算枠で Claude 搭載AIツールを導入したい** ときに現実的な選択肢です。価値は派手な新機能よりも、ベンダー選定と購買を Claude エコシステム内に寄せられる点にあります。なお、limited preview のため、料金、提携先の厚み、統制情報はまだ十分に公開されていません。",
+      "expert_quote": "LinkStart AI Lab コメント：\\\"Anthropic はモデル提供だけでなく、AI調達そのものをプラットフォーム化し始めています。方向性は魅力的ですが、本格導入にはパートナー情報、価格、ガバナンスの透明性向上が必要です。\\\"",
+      "pros": [
+        "既存の Anthropic commitment を活用したい企業では、支出整理と社内稟議の簡素化に向きます。",
+        "Reddit や X、分散したプラグイン一覧を手作業で追うより、公式起点で候補を絞りやすいです。",
+        "Claude API や Claude Code を使っている組織なら、購買と運用の整合を取りやすくなります。"
+      ],
+      "cons": [
+        "limited preview のため、公開カタログの規模や提供範囲がまだ読みづらいです。",
+        "公開セルフサーブ価格や無料枠がなく、初期比較がしにくいです。",
+        "パートナーごとのデータ利用や学習方針が公開情報だけでは十分に
