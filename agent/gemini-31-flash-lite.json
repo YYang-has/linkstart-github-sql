@@ -1,0 +1,27 @@
+{
+  "slug": "gemini-31-flash-lite",
+  "brand_slug": "google-gemini",
+  "name_jsonb": {
+    "en": "Gemini 3.1 Flash-Lite",
+    "zh": "Gemini 3.1 Flash-Lite",
+    "ja": "Gemini 3.1 Flash-Lite",
+    "ko": "Gemini 3.1 Flash-Lite",
+    "es": "Gemini 3.1 Flash-Lite"
+  },
+  "tagline_jsonb": {
+    "en": "Fast and efficient AI model from Google",
+    "zh": "来自 Google 的快速高效 AI 模型",
+    "ja": "Google の高速で効率的な AI モデル",
+    "ko": "Google의 빠르고 효율적인 AI 모델",
+    "es": "Modelo de IA rápido y eficiente de Google"
+  },
+  "description_jsonb": {
+    "en": "Gemini 3.1 Flash-Lite is a lightweight and fast AI model designed for quick responses and efficient processing.",
+    "zh": "Gemini 3.1 Flash-Lite 是一个轻量级快速的 AI 模型，专为快速响应和高效处理而设计。",
+    "ja": "Gemini 3.1 Flash-Lite は、迅速な応答と効率的な処理のために設計された軽量で高速な AI モデルです。",
+    "ko": "Gemini 3.1 Flash-Lite는 빠른 응답과 효율적인 처리를 위해 설계된 경량 고속 AI 모델입니다.",
+    "es": "Gemini 3.1 Flash-Lite es un modelo de IA ligero y rápido diseñado para respuestas rápidas y procesamiento eficiente."
+  },
+  "website_url": "https://gemini.google.com/",
+  "logo_url": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg"
+}
