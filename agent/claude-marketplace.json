@@ -1,204 +1,292 @@
 {
-"slug": "claude-marketplace",
-"brand_slug": "anthropic",
-"name_jsonb": {
-"en": "Claude Marketplace",
-"zh": "Claude Marketplace",
-"ja": "Claude Marketplace",
-"ko": "Claude Marketplace",
-"es": "Claude Marketplace"
-},
-"tagline_jsonb": {
-"en": "The Enterprise-Grade Hub for Model Context Protocol (MCP) and Automated Workflows",
-"zh": "企业级 MCP 生态中心：连接数据源与 AI 自动化工作流",
-"ja": "Model Context Protocol（MCP）と自動化ワークフローのための企業向けハブ",
-"ko": "Model Context Protocol(MCP) 및 자동화된 워크플로우를 위한 기업용 허브",
-"es": "El centro de nivel empresarial para el protocolo de contexto de modelo (MCP) y flujos de trabajo automatizados"
-},
-"description_jsonb": {
-"en": "> Executive Summary: Claude Marketplace is the centralized ecosystem for extending <a href="[https://www.linkstartai.com/en/agents/claude-3-5-sonnet](https://www.google.com/search?q=https://www.linkstartai.com/en/agents/claude-3-5-sonnet)">Claude</a> via the Model Context Protocol (MCP). It allows professionals and enterprises to connect AI agents to local or remote data sources like GitHub, Google Drive, and Slack, transforming a chat interface into a fully integrated automation hub for complex engineering and business workflows.\n\nClaude Marketplace represents a fundamental shift from simple chat to agentic infrastructure. By leveraging the open-standard MCP, it provides access to over 100+ community-verified servers that enable sub-second data retrieval from disparate silos. Unlike closed ecosystems, this marketplace focuses on high-density data integration, allowing developers to build custom connectors that reduce context-switching time by an estimated 40% for technical teams. The platform is built on <a href="[https://www.anthropic.com](https://www.anthropic.com)" target="_blank" rel="nofollow">Anthropic</a>'s safety-first architecture, ensuring that even when Claude accesses external files or databases, the data remains within defined security boundaries. Claude Marketplace offers a Freemium plan for individuals, with paid tiers for teams starting at $25 per user/month. It is slightly more expensive than average for this category but offers superior data privacy and enterprise-level reliability.",
-"zh": "> 核心摘要：Claude Marketplace 是通过模型上下文协议 (MCP) 扩展 <a href="[https://www.linkstartai.com/zh/agents/claude-3-5-sonnet](https://www.google.com/search?q=https://www.linkstartai.com/zh/agents/claude-3-5-sonnet)">Claude</a> 能力的中心化生态系统。它允许专业人士和企业将 AI 智能体连接到 GitHub、Google Drive 和 Slack 等本地或远程数据源，将聊天界面转变为复杂工程和业务流程的全集成自动化枢纽。\n\nClaude Marketplace 标志着从简单对话到智能体基础设施的根本转变。通过利用开放标准的 MCP，它提供了超过 100 个社区验证的服务端，实现了跨异构系统的亚秒级数据检索。与封闭生态不同，该市场专注于高密度数据集成，允许开发者构建自定义连接器，据估算可为技术团队减少 40% 的语境切换时间。该平台基于 <a href="[https://www.anthropic.com](https://www.anthropic.com)" target="_blank" rel="nofollow">Anthropic</a> 的安全优先架构，确保即使 Claude 访问外部文件或数据库，数据也保持在定义的安全性边界内。Claude Marketplace 为个人提供免费方案，团队付费层级起售价为每月每用户 25 美元。虽然价格略高于同类平均水平，但它提供了卓越的数据隐私和企业级可靠性。",
-"ja": "> エグゼクティブサマリー：Claude Marketplaceは、Model Context Protocol (MCP) を通じて <a href="[https://www.linkstartai.com/ja/agents/claude-3-5-sonnet](https://www.google.com/search?q=https://www.linkstartai.com/ja/agents/claude-3-5-sonnet)">Claude</a> の機能を拡張するための集中型エコシステムです。プロフェッショナルや企業が、GitHub、Google Drive、SlackなどのローカルまたはリモートのデータソースにAIエージェントを接続することを可能にし、チャットインターフェースを複雑なエンジニアリングやビジネスワークフローのための完全に統合された自動化ハブへと変貌させます。\n\nClaude Marketplaceは、単純なチャットからエージェンティックなインフラへの根本的な転換を象徴しています。オープン標準のMCPを活用することで、100以上のコミュニティ検証済みサーバーへのアクセスを提供し、分散したサイロからの秒未満のデータ取得を可能にします。閉鎖的なエコシステムとは異なり、このマーケットプレイスは高密度のデータ統合に焦点を当てており、開発者がカスタムコネクタを構築することで、技術チームのコンテキスト切り替え時間を推定40%削減できます。このプラットフォームは <a href="[https://www.anthropic.com](https://www.anthropic.com)" target="_blank" rel="nofollow">Anthropic</a> のセーフティファースト・アーキテクチャに基づいて構築されており、Claudeが外部ファイルやデータベースにアクセスする場合でも、データが定義されたセキュリティ境界内に留まることを保証します。Claude Marketplaceは個人向けのフリーミアムプランを提供しており、チーム向けの有料プランはユーザーあたり月額25ドルからとなっています。このカテゴリの平均よりもわずかに高価ですが、優れたデータプライバシーとエンタープライズレベルの信頼性を提供します。",
-"ko": "> 핵심 요약: Claude Marketplace는 Model Context Protocol(MCP)을 통해 <a href="[https://www.linkstartai.com/ko/agents/claude-3-5-sonnet](https://www.google.com/search?q=https://www.linkstartai.com/ko/agents/claude-3-5-sonnet)">Claude</a>의 기능을 확장하기 위한 중앙 집중식 생태계입니다. 전문가와 기업이 GitHub, Google Drive, Slack과 같은 로컬 또는 원격 데이터 소스에 AI 에이전트를 연결할 수 있도록 하여, 채팅 인터페이스를 복잡한 엔지니어링 및 비즈니스 워크플로우를 위한 완전 통합형 자동화 허브로 전환합니다.\n\nClaude Marketplace는 단순한 채팅에서 에이전트 인프라로의 근본적인 변화를 나타냅니다. 개방형 표준 MCP를 활용하여 분산된 사일로에서 1초 미만의 데이터 검색을 가능하게 하는 100개 이상의 커뮤니티 검증 서버에 대한 액세스를 제공합니다. 폐쇄형 생태계와 달리 이 마켓플레이스는 고밀도 데이터 통합에 집중하여 개발자가 맞춤형 커넥터를 구축할 수 있도록 하며, 이를 통해 기술 팀의 컨텍스트 전환 시간을 약 40% 단축할 수 있습니다. 이 플랫폼은 <a href="[https://www.anthropic.com](https://www.anthropic.com)" target="_blank" rel="nofollow">Anthropic</a>의 안전 우선 아키텍처를 기반으로 구축되어 Claude가 외부 파일이나 데이터베이스에 액세스할 때도 데이터가 정의된 보안 경계 내에 유지되도록 보장합니다. Claude Marketplace는 개인을 위한 프리미엄(Freemium) 플랜을 제공하며, 팀을 위한 유료 계층은 사용자당 월 25달러부터 시작합니다. 이 카테고리의 평균보다 약간 더 비싸지만 우수한 데이터 프라이버시와 기업 수준의 신뢰성을 제공합니다.",
-"es": "> Resumen Ejecutivo: Claude Marketplace es el ecosistema centralizado para extender las capacidades de <a href="[https://www.linkstartai.com/es/agents/claude-3-5-sonnet](https://www.google.com/search?q=https://www.linkstartai.com/es/agents/claude-3-5-sonnet)">Claude</a> a través del Protocolo de Contexto de Modelo (MCP). Permite a profesionales y empresas conectar agentes de IA a fuentes de datos locales o remotas como GitHub, Google Drive y Slack, transformando una interfaz de chat en un centro de automatización totalmente integrado para flujos de trabajo de ingeniería y negocios complejos.\n\nClaude Marketplace representa un cambio fundamental del simple chat a la infraestructura de agentes. Al aprovechar el estándar abierto MCP, proporciona acceso a más de 100 servidores verificados por la comunidad que permiten la recuperación de datos en menos de un segundo desde silos dispares. A diferencia de los ecosistemas cerrados, este mercado se centra en la integración de datos de alta densidad, lo que permite a los desarrolladores crear conectores personalizados que reducen el tiempo de cambio de contexto en un 40% estimado para los equipos técnicos. La plataforma está construida sobre la arquitectura de seguridad de <a href="[https://www.anthropic.com](https://www.anthropic.com)" target="_blank" rel="nofollow">Anthropic</a>, lo que garantiza que incluso cuando Claude accede a archivos o bases de datos externos, los datos permanezcan dentro de los límites de seguridad definidos. Claude Marketplace ofrece un plan Freemium para individuos, con niveles pagos para equipos a partir de $25 por usuario/mes. Es un poco más caro que el promedio para esta categoría, pero ofrece una privacidad de datos superior y confiabilidad de nivel empresarial."
-},
-"category_id": "0af4fb71-9012-476f-9481-093464fa59b4",
-"solution_category_id": "2e7cef55-a5a2-47f4-81e3-0266dbefea1d",
-"website_url": "[https://claude.com/platform/marketplace](https://claude.com/platform/marketplace)",
-"logo_url": "[https://assets.linkstartai.com/icon/agents/claude-marketplace.jpg](https://assets.linkstartai.com/icon/agents/claude.jpg)",
-"pricing_model": "freemium",
-"paid_options_from": "$25",
-"billing_frequency": "month",
-"rating": 4.3,
-"review_count": 85,
-"supported_languages": ["en", "zh", "ja", "ko", "es"],
-"tags_jsonb": {
-"en": ["#MCP", "#AgentInfrastructure", "#EnterpriseAutomation", "#DataIntegration"],
-"zh": ["#MCP协议", "#智能体基础设施", "#企业自动化", "#数据集成"],
-"ja": ["#MCP", "#エージェントインフラ", "#エンタープライズ自動化", "#データ統合"],
-"ko": ["#MCP", "#에이전트인프라", "#기업자동화", "#데이터통합"],
-"es": ["#MCP", "#InfraestructuraDeAgentes", "#AutomatizaciónEmpresarial", "#IntegraciónDeDatos"]
-},
-"features_jsonb": {
-"en": ["Model Context Protocol Support", "Community-Driven Server Directory", "Local Data Source Sync", "Enterprise Permission Management", "Custom Connector Development"],
-"zh": ["支持模型上下文协议 (MCP)", "社区驱动的服务端目录", "本地数据源同步", "企业级权限管理", "自定义连接器开发"],
-"ja": ["MCPサポート", "コミュニティ主導のサーバーディレクトリ", "ローカルデータソース同期", "エンタープライズ権限管理", "カスタムコネクタ開発"],
-"ko": ["MCP 지원", "커뮤니티 중심 서버 디렉토리", "로컬 데이터 소스 동기화", "기업 권한 관리", "맞춤형 커넥터 개발"],
-"es": ["Soporte de protocolo MCP", "Directorio de servidores impulsado por la comunidad", "Sincronización de fuentes de datos locales", "Gestión de permisos empresariales", "Desarrollo de conectores personalizados"]
-},
-"videos_jsonb": [
-{
-"type": "youtube",
-"videoId": "O8p8uLpIeCc",
-"title": "Introducing the Model Context Protocol",
-"uploadDate": "2024-11-25T10:00:00Z",
-"description": "Official overview of MCP and how Claude Marketplace integrates external data.",
-"duration": "PT3M12S"
-}
-],
-"verdict_jsonb": {
-"en": {
-"summary": "Claude Marketplace is the **premier choice** for **developers and enterprise architects** who need to build complex, data-driven automation systems using <a href="[https://www.linkstartai.com/en/agents/claude-3-5-sonnet](https://www.google.com/search?q=https://www.linkstartai.com/en/agents/claude-3-5-sonnet)">Claude 3.5</a>.",
-"expert_quote": "LinkStart AI Lab note: "Claude Marketplace and MCP represent the first real attempt to standardize how LLMs interact with the private world's data, moving past brittle, custom-coded integrations."",
-"pros": ["Universal standard (MCP) for data connectivity", "High-security enterprise isolation", "Extensive library of open-source connectors"],
-"cons": ["Requires technical knowledge to deploy local MCP servers", "Higher cost barrier for small teams"]
-},
-"zh": {
-"summary": "对于需要使用 <a href="[https://www.linkstartai.com/zh/agents/claude-3-5-sonnet](https://www.google.com/search?q=https://www.linkstartai.com/zh/agents/claude-3-5-sonnet)">Claude 3.5</a> 构建复杂数据驱动自动化系统的 **开发者和企业架构师** 而言，Claude Marketplace 是 **首选方案**。",
-"expert_quote": "LinkStart AI Lab 评语："Claude Marketplace 和 MCP 代表了标准化大模型与私有数据交互的首次真正尝试，告别了脆弱的自定义编码集成。"",
-"pros": ["统一的 MCP 数据连接标准", "高安全性的企业级数据隔离", "丰富的开源连接器库"],
-"cons": ["部署本地 MCP 服务端需要一定的技术背景", "对小型团队而言成本门槛较高"]
-},
-"ja": {
-"summary": "<a href="[https://www.linkstartai.com/ja/agents/claude-3-5-sonnet](https://www.google.com/search?q=https://www.linkstartai.com/ja/agents/claude-3-5-sonnet)">Claude 3.5</a> を使用して、複雑なデータ駆動型の自動化システムを構築する必要がある **開発者やエンタープライズアーキテクト** にとって、Claude Marketplace は **最高の選択肢** です。",
-"expert_quote": "LinkStart AI Lab ノート：「Claude MarketplaceとMCPは、LLMがプライベートなデータと対話する方法を標準化する最初の真の試みであり、脆弱なカスタムコード統合からの脱却を意味します。」",
-"pros": ["データ接続のためのユニバーサル標準 (MCP)", "高セキュリティなエンタープライズ分離", "オープンソースコネクタの広範なライブラリ"],
-"cons": ["ローカルMCPサーバーのデプロイには技術的知識が必要", "小規模チームにはコストの壁がある"]
-},
-"ko": {
-"summary": "<a href="[https://www.linkstartai.com/ko/agents/claude-3-5-sonnet](https://www.google.com/search?q=https://www.linkstartai.com/ko/agents/claude-3-5-sonnet)">Claude 3.5</a>를 사용하여 복잡한 데이터 기반 자동화 시스템을 구축해야 하는 **개발자 및 엔터프라이즈 아키텍트**에게 Claude Marketplace는 **최고의 선택**입니다.",
-"expert_quote": "LinkStart AI Lab 노트: "Claude Marketplace와 MCP는 LLM이 개인 데이터와 상호 작용하는 방식을 표준화하려는 최초의 진정한 시도이며, 취약한 맞춤형 코드 통합을 뛰어넘었습니다."",
-"pros": ["데이터 연결을 위한 범용 표준(MCP)", "높은 보안의 기업용 격리 환경", "광범위한 오픈 소스 커넥터 라이브러리"],
-"cons": ["로컬 MCP 서버 배포를 위해 기술적 지식 필요", "소규모 팀에게는 상대적으로 높은 비용 부담"]
-},
-"es": {
-"summary": "Claude Marketplace es la **opción principal** para **desarrolladores y arquitectos empresariales** que necesitan crear sistemas de automatización complejos basados en datos utilizando <a href="[https://www.linkstartai.com/es/agents/claude-3-5-sonnet](https://www.google.com/search?q=https://www.linkstartai.com/es/agents/claude-3-5-sonnet)">Claude 3.5</a>.",
-"expert_quote": "Nota de LinkStart AI Lab: "Claude Marketplace y MCP representan el primer intento real de estandarizar cómo los LLM interactúan con los datos privados, superando las integraciones codificadas a medida."",
-"pros": ["Estándar universal (MCP) para conectividad de datos", "Aislamiento empresarial de alta seguridad", "Amplia biblioteca de conectores de código abierto"],
-"cons": ["Requiere conocimientos técnicos para desplegar servidores MCP locales", "Barrera de costo más alta para equipos pequeños"]
-}
-},
-"faqs_jsonb": [
-{
-"question": {
-"en": "Claude Marketplace vs. OpenAI GPT Store: Which is better for technical workflows?",
-"zh": "Claude Marketplace 对比 OpenAI GPT Store：哪个更适合技术工作流？",
-"ja": "Claude Marketplace vs. OpenAI GPT Store：技術的なワークフローにはどちらが適していますか？",
-"ko": "Claude Marketplace vs. OpenAI GPT Store: 기술 워크플로우에 어느 것이 더 좋습니까?",
-"es": "¿Claude Marketplace o OpenAI GPT Store? ¿Cuál es mejor para flujos de trabajo técnicos?"
-},
-"answer": {
-"en": "While the GPT Store excels at simplified, prompt-based bots, Claude Marketplace is superior for technical workflows due to the Model Context Protocol (MCP). MCP allows Claude to connect directly to local file systems, secure databases (Postgres), and engineering tools like GitHub with sub-second latency. The GPT Store relies primarily on 'Actions' which are web-based, making Claude Marketplace a more robust choice for local development and deep data integration.",
-"zh": "虽然 GPT Store 在简化的、基于提示词的机器人方面表现出色，但由于采用了模型上下文协议 (MCP)，Claude Marketplace 在技术工作流方面更胜一筹。MCP 允许 Claude 以亚秒级延迟直接连接到本地文件系统、安全数据库 (Postgres) 和 GitHub 等工程工具。GPT Store 主要依赖基于 Web 的 'Actions'，这使得 Claude Marketplace 成为本地开发和深度数据集成的更强大选择。",
-"ja": "GPT Storeはシンプルなプロンプトベースのボットに優れていますが、Claude MarketplaceはModel Context Protocol (MCP) により技術的なワークフローにおいて優れています。MCPにより、Claudeはローカルファイルシステム、安全なデータベース（Postgres）、GitHubのようなエンジニアリングツールに秒未満のレイテンシで直接接続できます。GPT Storeは主にウェブベースの「Actions」に依存しているため、ローカル開発や深いデータ統合にはClaude Marketplaceの方が堅牢な選択肢となります。",
-"ko": "GPT Store는 단순화된 프롬프트 기반 봇에 뛰어나지만, Claude Marketplace는 MCP(Model Context Protocol) 덕분에 기술 워크플로우에서 우위에 있습니다. MCP를 통해 Claude는 1초 미만의 지연 시간으로 로컬 파일 시스템, 보안 데이터베이스(Postgres), GitHub와 같은 엔지니어링 도구에 직접 연결할 수 있습니다. GPT Store는 주로 웹 기반의 'Actions'에 의존하므로 로컬 개발 및 심층 데이터 통합에는 Claude Marketplace가 더 강력한 선택입니다.",
-"es": "Si bien la GPT Store destaca en bots simplificados basados en prompts, Claude Marketplace es superior para flujos de trabajo técnicos debido al Protocolo de Contexto de Modelo (MCP). MCP permite que Claude se conecte directamente a sistemas de archivos locales, bases de datos seguras (Postgres) y herramientas de ingeniería como GitHub con una latencia de menos de un segundo. La GPT Store se basa principalmente en 'Actions' web, lo que convierte a Claude Marketplace en una opción más robusta para el desarrollo local y la integración profunda de datos."
-}
-},
-{
-"question": {
-"en": "What are the security risks of connecting local data via Claude Marketplace?",
-"zh": "通过 Claude Marketplace 连接本地数据有哪些安全风险？",
-"ja": "Claude Marketplace経由でローカルデータを接続する際のセキュリティリスクは何ですか？",
-"ko": "Claude Marketplace를 통해 로컬 데이터를 연결할 때의 보안 위험은 무엇입니까?",
-"es": "¿Cuáles son los riesgos de seguridad al conectar datos locales a través de Claude Marketplace?"
-},
-"answer": {
-"en": "The primary risk involves running untrusted community MCP servers. However, Anthropic mitigates this by allowing you to host MCP servers locally within your infrastructure. Unlike many cloud integrations, data stays on your machine and only the relevant context is sent to Claude via encrypted API calls. Users should strictly vet third-party servers on GitHub before granting them read/write access to sensitive directories.",
-"zh": "主要风险涉及运行不受信任的社区 MCP 服务端。然而，Anthropic 通过允许你在自己的基础设施内本地托管 MCP 服务端来缓解这一风险。与许多云集成不同，数据保留在你的机器上，只有相关的上下文通过加密的 API 调用发送给 Claude。用户在授予第三方服务端对敏感目录的读/写访问权限之前，应严格审查其在 GitHub 上的代码。",
-"ja": "主なリスクは、信頼されていないコミュニティMCPサーバーを実行することにあります。しかし、Anthropicは、インフラ内のローカルでMCPサーバーをホストできるようにすることで、このリスクを軽減しています。多くのクラウド統合とは異なり、データは手元のマシンに残り、関連するコンテキストのみが暗号化されたAPIコールを介してClaudeに送信されます。ユーザーは、機密ディレクトリへの読み取り/書き込みアクセスを許可する前に、GitHub上のサードパーティサーバーを厳密に調査する必要があります。",
-"ko": "주요 위험은 신뢰할 수 없는 커뮤니티 MCP 서버를 실행하는 것과 관련이 있습니다. 그러나 Anthropic은 사용자의 인프라 내에서 로컬로 MCP 서버를 호스팅할 수 있도록 하여 이 위험을 완화합니다. 많은 클라우드 통합과 달리 데이터는 사용자의 머신에 남아 있으며 관련 컨텍스트만 암호화된 API 호출을 통해 Claude로 전송됩니다. 사용자는 민감한 디렉토리에 대한 읽기/쓰기 권한을 부여하기 전에 GitHub의 타사 서버를 엄격하게 검토해야 합니다.",
-"es": "El riesgo principal consiste en ejecutar servidores MCP comunitarios no confiables. Sin embargo, Anthropic mitiga esto permitiéndole alojar servidores MCP localmente dentro de su infraestructura. A diferencia de muchas integraciones en la nube, los datos permanecen en su máquina y solo el contexto relevante se envía a Claude a través de llamadas API cifradas. Los usuarios deben examinar estrictamente los servidores de terceros en GitHub antes de otorgarles acceso de lectura/escritura a directorios sensibles."
-}
-},
-{
-"question": {
-"en": "Is there a free tier for using MCP tools in Claude Marketplace?",
-"zh": "在 Claude Marketplace 中使用 MCP 工具有免费层级吗？",
-"ja": "Claude MarketplaceでMCPツールを使用するための無料枠はありますか？",
-"ko": "Claude Marketplace에서 MCP 도구를 사용하기 위한 무료 계층이 있습니까?",
-"es": "¿Existe un nivel gratuito para usar herramientas MCP en Claude Marketplace?"
-},
-"answer": {
-"en": "Yes, Claude Marketplace is accessible to Free users, but there are strict limits on usage frequency and the number of active integrations. Paid tiers (Claude Pro at $20/mo or Team at $25/mo) offer significantly higher rate limits and the ability to share custom MCP servers across an organization. Note that self-hosting MCP servers may involve your own local compute costs.",
-"zh": "是的，免费用户可以访问 Claude Marketplace，但在使用频率和活动集成数量上有严格限制。付费层级（Claude Pro 每月 20 美元或 Team 每月 25 美元）提供更高的速率限制，并支持在组织内共享自定义 MCP 服务端。请注意，自行托管 MCP 服务端可能会涉及您自己的本地计算成本。",
-"ja": "はい、Claude Marketplaceは無料ユーザーも利用可能ですが、使用頻度やアクティブな統合数には厳しい制限があります。有料プラン（Claude Pro：月額20ドル、Team：月額25ドル）では、レート制限が大幅に緩和され、組織全体でカスタムMCPサーバーを共有する機能が提供されます。MCPサーバーをセルフホストする場合、ローカルのコンピューティングコストが発生する可能性があることに注意してください。",
-"ko": "예, 무료 사용자도 Claude Marketplace를 이용할 수 있지만 사용 빈도와 활성 통합 수에 엄격한 제한이 있습니다. 유료 계층(Claude Pro 월 20달러 또는 Team 월 25달러)은 훨씬 높은 속도 제한과 조직 전체에서 맞춤형 MCP 서버를 공유할 수 있는 기능을 제공합니다. MCP 서버를 자체 호스팅할 경우 로컬 컴퓨팅 비용이 발생할 수 있음에 유의하십시오.",
-"es": "Sí, Claude Marketplace es accesible para usuarios gratuitos, pero existen límites estrictos en la frecuencia de uso y la cantidad de integraciones activas. Los niveles pagos (Claude Pro a $20/mes o Team a $25/mes) ofrecen límites de velocidad significativamente más altos y la capacidad de compartir servidores MCP personalizados en toda una organización. Tenga en cuenta que el auto-alojamiento de servidores MCP puede implicar sus propios costos de cómputo local."
-}
-},
-{
-"question": {
-"en": "How does this integrate with the modern DevOps stack?",
-"zh": "这如何与现代 DevOps 技术栈集成？",
-"ja": "これは現代のDevOpsスタックとどのように統合されますか？",
-"ko": "이것이 현대 DevOps 스택과 어떻게 통합됩니까?",
-"es": "¿Cómo se integra esto con el stack de DevOps moderno?"
-},
-"answer": {
-"en": "It offers native connectors for GitHub, GitLab, and Sentry. A key workflow involves using the GitHub MCP server to allow Claude to read code, create pull requests, and analyze CI/CD logs directly. This replaces traditional RAG (Retrieval-Augmented Generation) setups with a direct, live data link, reducing sync errors and ensuring the model always works with the latest commit.",
-"zh": "它为 GitHub、GitLab 和 Sentry 提供原生连接器。一个关键工作流是使用 GitHub MCP 服务端，允许 Claude 直接读取代码、创建 PR 并分析 CI/CD 日志。这通过直接、实时的数据链接取代了传统的 RAG（检索增强生成）设置，减少了同步错误，并确保模型始终基于最新的 commit 进行工作。",
-"ja": "GitHub、GitLab、Sentry用のネイティブコネクタを提供しています。主要なワークフローとして、GitHub MCPサーバーを使用して、Claudeにコードを読み取らせ、プルリクエストを作成させ、CI/CDログを直接分析させることが挙げられます。これにより、従来のRAG（検索拡張生成）構成が直接的でライブなデータリンクに置き換わり、同期エラーが減少して、モデルが常に最新のコミットに基づいて動作することが保証されます。",
-"ko": "GitHub, GitLab 및 Sentry를 위한 기본 커넥터를 제공합니다. 주요 워크플로우에는 GitHub MCP 서버를 사용하여 Claude가 코드를 읽고, 풀 요청을 생성하며, CI/CD 로그를 직접 분석할 수 있도록 하는 것이 포함됩니다. 이는 기존의 RAG(검색 증강 생성) 설정을 직접적이고 실시간인 데이터 링크로 대체하여 동기화 오류를 줄이고 모델이 항상 최신 커밋으로 작업하도록 보장합니다.",
-"es": "Ofrece conectores nativos para GitHub, GitLab y Sentry. Un flujo de trabajo clave implica el uso del servidor MCP de GitHub para permitir que Claude lea código, cree solicitudes de extracción y analice registros de CI/CD directamente. Esto reemplaza las configuraciones tradicionales de RAG (Generación Aumentada por Recuperación) con un enlace de datos directo y en vivo, lo que reduce los errores de sincronización y garantiza que el modelo siempre trabaje con el último commit."
-}
-},
-{
-"question": {
-"en": "Can I use Claude Marketplace for private, local PostgreSQL databases?",
-"zh": "我可以使用 Claude Marketplace 连接私有的本地 PostgreSQL 数据库吗？",
-"ja": "プライベートなローカルのPostgreSQLデータベースにClaude Marketplaceを使用できますか？",
-"ko": "비공개 로컬 PostgreSQL 데이터베이스에 Claude Marketplace를 사용할 수 있습니까?",
-"es": "¿Puedo usar Claude Marketplace para bases de datos PostgreSQL locales y privadas?"
-},
-"answer": {
-"en": "Yes. By deploying a PostgreSQL MCP server locally, you can grant Claude read-only access to your database schema and records. The heavy lifting (query execution) happens on your server, and only the results are passed to Claude for analysis. This is a game-changer for internal data analysts who cannot upload sensitive DB dumps to third-party cloud tools.",
-"zh": "可以。通过在本地部署 PostgreSQL MCP 服务端，你可以授予 Claude 对数据库架构和记录的只读访问权限。重负载工作（查询执行）在你的服务器上进行，只有结果会传递给 Claude 进行分析。对于无法将敏感数据库转储上传到第三方云工具的内部数据分析师来说，这具有划时代意义。",
-"ja": "はい。PostgreSQL MCPサーバーをローカルにデプロイすることで、Claudeにデータベーススキーマとレコードへの読み取り専用アクセス権を付与できます。重い処理（クエリ実行）はサーバー上で行われ、結果のみが分析のためにClaudeに渡されます。これは、機密性の高いDBダンプをサードパーティのクラウドツールにアップロードできない内部データアナリストにとって、ゲームチェンジャーとなります。",
-"ko": "네. PostgreSQL MCP 서버를 로컬에 배포하여 Claude에게 데이터베이스 스키마 및 레코드에 대한 읽기 전용 액세스 권한을 부여할 수 있습니다. 무거운 작업(쿼리 실행)은 사용자의 서버에서 발생하며 결과만 분석을 위해 Claude에게 전달됩니다. 이는 민감한 DB 덤프를 타사 클라우드 도구에 업로드할 수 없는 내부 데이터 분석가들에게 혁신적인 변화입니다.",
-"es": "Sí. Al implementar un servidor MCP de PostgreSQL localmente, puede otorgar a Claude acceso de solo lectura a su esquema de base de datos y registros. El trabajo pesado (ejecución de consultas) ocurre en su servidor y solo los resultados se pasan a Claude para su análisis. Esto es un cambio radical para los analistas de datos internos que no pueden cargar volcados de bases de datos sensibles a herramientas de nube de terceros."
-}
-},
-{
-"question": {
-"en": "Will my data used through MCP servers be used for model training?",
-"zh": "通过 MCP 服务端使用的数据会被用于模型训练吗？",
-"ja": "MCPサーバー経由で使用されるデータは、モデルのトレーニングに使用されますか？",
-"ko": "MCP 서버를 통해 사용되는 데이터가 모델 학습에 사용됩니까?",
-"es": "¿Se utilizarán mis datos usados a través de servidores MCP para el entrenamiento del modelo?"
-},
-"answer": {
-"en": "No. Under Anthropic's standard terms for Enterprise and Team plans, data accessed through MCP integrations is not used to train their generative models. For individual Pro users, the same data privacy standard applies to data retrieved via MCP servers, ensuring that your local file paths and database contents remain private.",
-"zh": "不会。根据 Anthropic 对企业版和团队版方案的标准条款，通过 MCP 集成访问的数据不会用于训练其生成式模型。对于个人 Pro 用户，通过 MCP 服务端检索的数据同样适用该数据隐私标准，确保您的本地文件路径和数据库内容保持私密。",
-"ja": "いいえ。Anthropicのエンタープライズおよびチームプランの標準規約では、MCP統合を介してアクセスされたデータが生成モデルのトレーニングに使用されることはありません。個人のProユーザーについても、MCPサーバー経由で取得されたデータには同じデータプライバシー基準が適用され、ローカルファイルパスやデータベースの内容の機密性が保たれます。",
-"ko": "아니요. Anthropic의 Enterprise 및 Team 플랜 표준 약관에 따라 MCP 통합을 통해 액세스된 데이터는 생성형 모델을 학습시키는 데 사용되지 않습니다. 개인 Pro 사용자의 경우에도 MCP 서버를 통해 검색된 데이터에 동일한 데이터 프라이버시 표준이 적용되어 로컬 파일 경로와 데이터베이스 콘텐츠가 비공개로 유지됩니다.",
-"es": "No. Según los términos estándar de Anthropic para los planes Enterprise y Team, los datos a los que se accede a través de las integraciones de MCP no se utilizan para entrenar sus modelos generativos. Para los usuarios Pro individuales, se aplica el mismo estándar de privacidad de datos a los datos recuperados a través de servidores MCP, lo que garantiza que las rutas de sus archivos locales y el contenido de la base de datos sigan siendo privados."
-}
-}
-],
-"seo_title_jsonb": {
-"en": "Claude Marketplace Review 2026: Pricing, MCP Features & Enterprise Pros.",
-"zh": "Claude Marketplace 怎么样？2026 最新评测：MCP 协议、价格与企业自动化应用",
-"ja": "【徹底レビュー】Claude Marketplaceの評判は？MCPの料金・使い方・代替ソフト",
-"ko": "Claude Marketplace 솔직 후기: MCP 서버 가격, 장단점 및 기업용 활용법 (완벽 정리)",
-"es": "Opiniones de Claude Marketplace: Precio, Ventajas de MCP y Alternativas en 2026."
-},
-"seo_description_jsonb": {
-"en": "Explore Claude Marketplace: the ultimate hub for MCP integrations. Connect Claude to GitHub, Drive, and SQL. Reviewing pricing, security, and automation power.",
-"zh": "探索 Claude Marketplace：MCP 集成的终极中心。连接 Claude 到 GitHub、网盘和 SQL。评测价格、安全性和自动化能力。",
-"ja": "Claude Marketplaceを徹底解説。GitHubやSQLとのMCP連携から料金、セキュリティ、自動化の威力まで。最新のAIインフラレビュー。",
-"ko": "Claude Marketplace를 탐색하세요: MCP 통합을 위한 최고의 허브. GitHub, Drive, SQL 연결 지원. 가격, 보안 및 자동화 성능 리뷰.",
-"es": "Explora Claude Marketplace: el centro definitivo para integraciones MCP. Conecta Claude a GitHub, Drive y SQL. Revisamos precios, seguridad y automatización."
-},
-"_citations_dump": []
+  "slug": "claude-marketplace",
+  "brand_slug": "anthropic",
+  "name_jsonb": {
+    "en": "Claude Marketplace",
+    "zh": "Claude Marketplace",
+    "ja": "Claude Marketplace",
+    "ko": "Claude Marketplace",
+    "es": "Claude Marketplace"
+  },
+  "tagline_jsonb": {
+    "en": "The enterprise AI procurement hub for Claude-powered tools.",
+    "zh": "专为 Claude 生态打造的企业级 AI 采购中心。",
+    "ja": "Claude搭載ツールのためのエンタープライズAI調達ハブ。",
+    "ko": "Claude 기반 툴을 위한 엔터프라이즈 AI 조달 허브.",
+    "es": "El centro de adquisiciones de IA empresarial para herramientas impulsadas por Claude."
+  },
+  "description_jsonb": {
+    "en": "> **Executive Summary:** Claude Marketplace is an enterprise app store by <a href=\"https://www.anthropic.com\" target=\"_blank\" rel=\"nofollow\">Anthropic</a> that allows organizations to buy third-party, <a href=\"https://www.linkstartai.com/en/agents/claude\">Claude</a>-powered tools using their existing spending commitments. Designed for CIOs and procurement teams, it eliminates months of vendor onboarding by consolidating AI spend into a single invoice, accelerating the deployment of enterprise software.\n\nClaude Marketplace fundamentally changes how large organizations adopt generative AI. Historically, adopting a new AI tool required separate security reviews, legal vetting, and procurement approvals—a process that could delay deployment by months. By routing purchases through an existing Anthropic contract, the marketplace compresses this operational friction into a single renewal conversation. \n\nAt launch, the platform features exactly 6 enterprise-grade partners, including <a href=\"https://www.snowflake.com\" target=\"_blank\" rel=\"nofollow\">Snowflake</a>, <a href=\"https://about.gitlab.com\" target=\"_blank\" rel=\"nofollow\">GitLab</a>, Harvey AI, and <a href=\"https://www.linkstartai.com/en/agents/replit\">Replit</a>. Crucially, Anthropic charges a 0% commission fee on these transactions. Instead of acting as a toll booth, the marketplace functions as a distribution engine to drive underlying token consumption. Claude Marketplace offers a **free** access model for existing enterprise clients, with paid tool options drawing directly from pre-committed budgets. It is significantly more cost-efficient than average for this category, as it eliminates redundant administrative overhead.",
+    "zh": "> **核心摘要：** Claude Marketplace 是由 <a href=\"https://www.anthropic.com\" target=\"_blank\" rel=\"nofollow\">Anthropic</a> 推出的企业级应用商店，允许组织使用现有的支出承诺来购买由 <a href=\"https://www.linkstartai.com/zh/agents/claude\">Claude</a> 驱动的第三方工具。专为 CIO 和采购团队设计，它通过将 AI 支出整合到单一账单中，消除了长达数月的供应商入驻流程，加速了企业软件的部署。\n\nClaude Marketplace 彻底改变了大型组织采用生成式 AI 的方式。过去，采用新的 AI 工具需要单独的安全审查、法律合规和采购审批——这一过程可能会将部署延迟数月。通过将采购路由到现有的 Anthropic 合同中，该市场将这种运营摩擦压缩为单一的续约对话。\n\n在发布时，该平台包含正好 6 个企业级合作伙伴，包括 <a href=\"https://www.snowflake.com\" target=\"_blank\" rel=\"nofollow\">Snowflake</a>、<a href=\"https://about.gitlab.com\" target=\"_blank\" rel=\"nofollow\">GitLab</a>、Harvey AI 和 <a href=\"https://www.linkstartai.com/zh/agents/replit\">Replit</a>。至关重要的是，Anthropic 对这些交易收取 0% 的佣金。该市场并未充当收费站，而是作为分发引擎来推动底层 Token 的消耗。Claude Marketplace 为现有企业客户提供**免费**的访问模式，付费工具选项直接从预先承诺的预算中扣除。由于它消除了多余的行政开销，因此在同类产品中具有极高的成本效益。",
+    "ja": "> **エグゼクティブサマリー：** Claude Marketplaceは、<a href=\"https://www.anthropic.com\" target=\"_blank\" rel=\"nofollow\">Anthropic</a>によるエンタープライズ向けアプリストアであり、企業が既存の支出コミットメントを使用して、<a href=\"https://www.linkstartai.com/ja/agents/claude\">Claude</a>搭載のサードパーティツールを購入できるようにします。CIOや調達チーム向けに設計されており、AI支出を単一の請求書に統合することで、数ヶ月かかるベンダーのオンボーディングを排除し、エンタープライズソフトウェアの導入を加速させます。\n\nClaude Marketplaceは、大規模組織が生成AIを導入する方法を根本的に変えます。これまで、新しいAIツールを導入するには、個別のセキュリティ審査、法務確認、調達承認が必要であり、導入が数ヶ月遅れる可能性がありました。購入を既存のAnthropic契約にルーティングすることで、この市場は運用上の摩擦を単一の更新プロセスに圧縮します。\n\n立ち上げ時、このプラットフォームには<a href=\"https://www.snowflake.com\" target=\"_blank\" rel=\"nofollow\">Snowflake</a>、<a href=\"https://about.gitlab.com\" target=\"_blank\" rel=\"nofollow\">GitLab</a>、Harvey AI、<a href=\"https://www.linkstartai.com/ja/agents/replit\">Replit</a>を含む正確に6つのエンタープライズグレードのパートナーが参加しています。重要なのは、Anthropicがこれらの取引に対して0%の販売手数料を請求することです。料金所として機能するのではなく、基盤となるトークン消費を促進する配信エンジンとして機能します。Claude Marketplaceは、既存のエンタープライズ顧客に**無料**のアクセスモデルを提供し、有料ツールのオプションは事前にコミットされた予算から直接引き落とされます。冗長な管理オーバーヘッドを排除するため、このカテゴリの平均よりも大幅に費用対効果が高くなります。",
+    "ko": "> **핵심 요약:** Claude Marketplace는 조직이 기존 지출 약정을 사용하여 <a href=\"https://www.linkstartai.com/ko/agents/claude\">Claude</a> 기반 타사 도구를 구매할 수 있도록 하는 <a href=\"https://www.anthropic.com\" target=\"_blank\" rel=\"nofollow\">Anthropic</a>의 엔터프라이즈 앱 스토어입니다. CIO 및 조달 팀을 위해 설계된 이 플랫폼은 AI 지출을 단일 청구서로 통합하여 수개월이 걸리는 공급업체 온보딩을 제거하고 엔터프라이즈 소프트웨어 배포를 가속화합니다。\n\nClaude Marketplace는 대규모 조직이 생성형 AI를 채택하는 방식을 근본적으로 바꿉니다. 역사적으로 새로운 AI 도구를 채택하려면 별도의 보안 검토, 법적 조사 및 조달 승인이 필요했으며 이로 인해 배포가 수개월 지연될 수 있었습니다. 구매를 기존 Anthropic 계약으로 라우팅함으로써 마켓플레이스는 이러한 운영 마찰을 단일 갱신 대화로 압축합니다.\n\n출시 당시 이 플랫폼에는 <a href=\"https://www.snowflake.com\" target=\"_blank\" rel=\"nofollow\">Snowflake</a>, <a href=\"https://about.gitlab.com\" target=\"_blank\" rel=\"nofollow\">GitLab</a>, Harvey AI 및 <a href=\"https://www.linkstartai.com/ko/agents/replit\">Replit</a>을 포함하여 정확히 6개의 엔터프라이즈급 파트너가 있습니다. 결정적으로 Anthropic은 이러한 거래에 대해 0%의 수수료를 청구합니다. 요금소 역할을 하는 대신 마켓플레이스는 기본 토큰 소비를 촉진하는 배포 엔진 역할을 합니다. Claude Marketplace는 기존 엔터프라이즈 고객에게 **무료** 액세스 모델을 제공하며 유료 도구 옵션은 사전 약정된 예산에서 직접 가져옵니다. 중복되는 관리 오버헤드를 제거하므로 이 범주의 평균보다 비용 효율성이 훨씬 높습니다.",
+    "es": "> **Resumen Ejecutivo:** Claude Marketplace es una tienda de aplicaciones empresariales de <a href=\"https://www.anthropic.com\" target=\"_blank\" rel=\"nofollow\">Anthropic</a> que permite a las organizaciones comprar herramientas de terceros impulsadas por <a href=\"https://www.linkstartai.com/es/agents/claude\">Claude</a> utilizando sus compromisos de gasto existentes. Diseñado para CIOs y equipos de adquisiciones, elimina meses de incorporación de proveedores al consolidar el gasto en IA en una sola factura, acelerando el despliegue de software empresarial.\n\nClaude Marketplace cambia fundamentalmente la forma en que las grandes organizaciones adoptan la IA generativa. Históricamente, la adopción de una nueva herramienta de IA requería revisiones de seguridad separadas, escrutinio legal y aprobaciones de adquisiciones, un proceso que podía retrasar el despliegue por meses. Al enrutar las compras a través de un contrato existente de Anthropic, el mercado comprime esta fricción operativa en una sola conversación de renovación.\n\nEn su lanzamiento, la plataforma cuenta con exactamente 6 socios de nivel empresarial, incluidos <a href=\"https://www.snowflake.com\" target=\"_blank\" rel=\"nofollow\">Snowflake</a>, <a href=\"https://about.gitlab.com\" target=\"_blank\" rel=\"nofollow\">GitLab</a>, Harvey AI y <a href=\"https://www.linkstartai.com/es/agents/replit\">Replit</a>. Crucialmente, Anthropic cobra una comisión del 0% en estas transacciones. En lugar de actuar como un peaje, el mercado funciona como un motor de distribución para impulsar el consumo de tokens subyacente. Claude Marketplace ofrece un modelo de acceso **gratuito** para clientes empresariales existentes, con opciones de herramientas de pago que se extraen directamente de los presupuestos precomprometidos. Es significativamente más rentable que el promedio de esta categoría, ya que elimina los gastos administrativos redundantes."
+  },
+  "category_id": "fe342038-344f-4b05-82b6-2246f28596e3",
+  "solution_category_id": "2e7cef55-a5a2-47f4-81e3-0266dbefea1d",
+  "website_url": "https://claude.com/platform/marketplace",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/claude-marketplace.jpg",
+  "pricing_model": "free",
+  "paid_options_from": "$0",
+  "billing_frequency": "annual",
+  "rating": 4.6,
+  "review_count": 120,
+  "supported_languages":[
+    "en",
+    "zh",
+    "ja",
+    "ko",
+    "es"
+  ],
+  "tags_jsonb": {
+    "en":[
+      "#AIProcurement",
+      "#EnterpriseAI",
+      "#ClaudeEcosystem",
+      "#VendorManagement"
+    ],
+    "zh":[
+      "#AI采购",
+      "#企业级AI",
+      "#Claude生态",
+      "#供应商管理"
+    ],
+    "ja":[
+      "#AI調達",
+      "#エンタープライズAI",
+      "#Claudeエコシステム",
+      "#ベンダー管理"
+    ],
+    "ko":[
+      "#AI조달",
+      "#엔터프라이즈AI",
+      "#Claude생태계",
+      "#공급업체관리"
+    ],
+    "es":[
+      "#AdquisiciónDeIA",
+      "#IAEmpresarial",
+      "#EcosistemaClaude",
+      "#GestiónDeProveedores"
+    ]
+  },
+  "features_jsonb": {
+    "en":[
+      "Consolidated Billing",
+      "Zero-Commission Store",
+      "Enterprise Governance",
+      "Single-Contract Procurement"
+    ],
+    "zh":[
+      "统一账单",
+      "零佣金商店",
+      "企业级治理",
+      "单合同采购"
+    ],
+    "ja":[
+      "統合請求",
+      "販売手数料ゼロのストア",
+      "エンタープライズガバナンス",
+      "単一契約調達"
+    ],
+    "ko":[
+      "통합 청구",
+      "수수료 제로 스토어",
+      "엔터프라이즈 거버넌스",
+      "단일 계약 조달"
+    ],
+    "es":[
+      "Facturación Consolidada",
+      "Tienda Sin Comisiones",
+      "Gobernanza Empresarial",
+      "Adquisición de Contrato Único"
+    ]
+  },
+  "videos_jsonb":[],
+  "verdict_jsonb": {
+    "en": {
+      "summary": "`Claude Marketplace` is the **definitive** choice for **enterprise IT buyers** who need to **streamline AI tool procurement and consolidate billing**.",
+      "expert_quote": "LinkStart AI Lab note: 'Anthropic's zero-commission marketplace is a masterstroke in platform lock-in, turning Claude from a mere model into the core AI commitment layer for the enterprise.'",
+      "pros":[
+        "Eliminates separate vendor contracts and invoices",
+        "Zero commission fees maximize budget efficiency",
+        "Features top-tier partners like Snowflake and GitLab"
+      ],
+      "cons":[
+        "Requires an existing Anthropic enterprise spend commitment",
+        "Currently limited to a small number of launch partners"
+      ]
+    },
+    "zh": {
+      "summary": "`Claude Marketplace` 是**企业 IT 采购人员**实现 **AI 工具采购与账单整合**的**绝对**首选。",
+      "expert_quote": "LinkStart AI Lab 评语：'Anthropic 的零佣金市场是平台生态锁定的神来之笔，将 Claude 从单纯的模型转变为企业的核心 AI 基础设施层。'",
+      "pros":[
+        "消除独立的供应商合同和发票",
+        "零佣金最大化预算效率",
+        "包含 Snowflake 和 GitLab 等顶级合作伙伴"
+      ],
+      "cons":[
+        "需要现有的 Anthropic 企业支出承诺",
+        "目前仅限于少数首发合作伙伴"
+      ]
+    },
+    "ja": {
+      "summary": "`Claude Marketplace` は、**AIツールの調達と請求の統合**を必要とする**エンタープライズITバイヤー**にとって**最適**な選択肢です。",
+      "expert_quote": "LinkStart AI Labのコメント：「Anthropicの販売手数料ゼロの市場は、プラットフォームのロックインにおける見事な戦略であり、Claudeを単なるモデルから企業のコアAIコミットメント層に変えます。」",
+      "pros":[
+        "個別のベンダー契約と請求書を排除",
+        "販売手数料ゼロで予算効率を最大化",
+        "SnowflakeやGitLabなどのトップティアパートナーを特集"
+      ],
+      "cons":[
+        "既存のAnthropicエンタープライズ支出コミットメントが必要",
+        "現在は少数のローンチパートナーに限定されている"
+      ]
+    },
+    "ko": {
+      "summary": "`Claude Marketplace`는 **AI 도구 조달 및 청구 통합**이 필요한 **엔터프라이즈 IT 구매자**를 위한 **탁월한** 선택입니다.",
+      "expert_quote": "LinkStart AI Lab 노트: 'Anthropic의 수수료 제로 마켓플레이스는 플랫폼 록인의 신의 한 수이며, Claude를 단순한 모델에서 기업의 핵심 AI 인프라 계층으로 탈바꿈시킵니다.'",
+      "pros":[
+        "별도의 공급업체 계약 및 청구서 제거",
+        "수수료 제로로 예산 효율성 극대화",
+        "Snowflake 및 GitLab과 같은 최고 수준의 파트너 제공"
+      ],
+      "cons":[
+        "기존 Anthropic 엔터프라이즈 지출 약정 필요",
+        "현재 소수의 출시 파트너로 제한됨"
+      ]
+    },
+    "es": {
+      "summary": "`Claude Marketplace` es la opción **definitiva** para los **compradores de TI empresariales** que necesitan **optimizar la adquisición de herramientas de IA y consolidar la facturación**.",
+      "expert_quote": "Nota de LinkStart AI Lab: 'El mercado sin comisiones de Anthropic es un golpe maestro en el bloqueo de la plataforma, convirtiendo a Claude de un mero modelo en la capa central de compromiso de IA para la empresa.'",
+      "pros":[
+        "Elimina contratos y facturas de proveedores separados",
+        "Las tarifas de comisión cero maximizan la eficiencia del presupuesto",
+        "Cuenta con socios de primer nivel como Snowflake y GitLab"
+      ],
+      "cons":[
+        "Requiere un compromiso de gasto empresarial existente de Anthropic",
+        "Actualmente limitado a un pequeño número de socios de lanzamiento"
+      ]
+    }
+  },
+  "faqs_jsonb":[
+    {
+      "question": {
+        "en": "Claude Marketplace vs. OpenAI GPT Store: Which is better for enterprises?",
+        "zh": "Claude Marketplace 与 OpenAI GPT Store 相比，哪个更适合企业？",
+        "ja": "Claude MarketplaceとOpenAI GPT Store：企業向けにはどちらが優れていますか？",
+        "ko": "Claude Marketplace 대 OpenAI GPT Store: 기업에 더 나은 것은 무엇입니까?",
+        "es": "Claude Marketplace vs. OpenAI GPT Store: ¿Cuál es mejor para las empresas?"
+      },
+      "answer": {
+        "en": "While the <a href=\"https://www.linkstartai.com/en/agents/openai\">OpenAI</a> GPT Store excels at consumer-level custom agents, Claude Marketplace has an absolute advantage in B2B procurement. It is strictly a commercial channel for enterprise software like Snowflake and GitLab, using consolidated billing rather than individual subscriptions.",
+        "zh": "虽然 <a href=\"https://www.linkstartai.com/zh/agents/openai\">OpenAI</a> GPT Store 在消费者级别的自定义智能体方面表现出色，但 Claude Marketplace 在 B2B 采购方面具有绝对优势。它严格来说是 Snowflake 和 GitLab 等企业软件的商业渠道，使用统一账单而不是个人订阅。",
+        "ja": "<a href=\"https://www.linkstartai.com/ja/agents/openai\">OpenAI</a> GPT Storeは消費者レベルのカスタムエージェントに優れていますが、Claude MarketplaceはB2B調達において絶対的な優位性を持っています。これは厳密にはSnowflakeやGitLabなどのエンタープライズソフトウェア向けの商業チャネルであり、個別サブスクリプションではなく統合請求を使用します。",
+        "ko": "<a href=\"https://www.linkstartai.com/ko/agents/openai\">OpenAI</a> GPT Store는 소비자 수준의 맞춤형 에이전트에서 탁월하지만 Claude Marketplace는 B2B 조달에서 절대적인 이점을 가지고 있습니다. 개별 구독이 아닌 통합 청구를 사용하는 Snowflake 및 GitLab과 같은 엔터프라이즈 소프트웨어를 위한 엄격한 상용 채널입니다.",
+        "es": "Mientras que la tienda GPT de <a href=\"https://www.linkstartai.com/es/agents/openai\">OpenAI</a> sobresale en agentes personalizados a nivel de consumidor, Claude Marketplace tiene una ventaja absoluta en la adquisición B2B. Es estrictamente un canal comercial para software empresarial como Snowflake y GitLab, utilizando facturación consolidada en lugar de suscripciones individuales."
+      }
+    },
+    {
+      "question": {
+        "en": "Does Anthropic take a cut of the sales?",
+        "zh": "Anthropic 会从销售额中抽成吗？",
+        "ja": "Anthropicは売上から手数料を取りますか？",
+        "ko": "Anthropic은 판매 수익의 일부를 가져가나요?",
+        "es": "¿Anthropic se lleva una parte de las ventas?"
+      },
+      "answer": {
+        "en": "No. Anthropic charges a 0% commission on marketplace transactions. The platform functions as a distribution engine to drive Claude token consumption rather than a direct revenue center.",
+        "zh": "不会。Anthropic 对市场交易收取 0% 的佣金。该平台作为分发引擎来推动 Claude Token 的消耗，而不是直接的收入中心。",
+        "ja": "いいえ。Anthropicは市場取引に対して0%の手数料を請求します。このプラットフォームは、直接的な収益センターとしてではなく、Claudeトークンの消費を促進する配信エンジンとして機能します。",
+        "ko": "아니요. Anthropic은 마켓플레이스 거래에 대해 0%의 수수료를 청구합니다. 이 플랫폼은 직접적인 수익 센터가 아니라 Claude 토큰 소비를 촉진하는 배포 엔진 역할을 합니다.",
+        "es": "No. Anthropic cobra una comisión del 0% en las transacciones del mercado. La plataforma funciona como un motor de distribución para impulsar el consumo de tokens de Claude en lugar de un centro de ingresos directos."
+      }
+    },
+    {
+      "question": {
+        "en": "How does the billing actually work?",
+        "zh": "账单实际上是如何运作的？",
+        "ja": "請求は実際にどのように機能しますか？",
+        "ko": "청구는 실제로 어떻게 작동합니까?",
+        "es": "¿Cómo funciona realmente la facturación?"
+      },
+      "answer": {
+        "en": "Purchases are charged against an enterprise's existing committed spend on Claude. This means one contract and one invoice, bypassing the need to onboard new vendors or process separate payments.",
+        "zh": "购买费用将从企业现有的 Claude 承诺支出中扣除。这意味着只需一份合同和一张发票，无需引入新供应商或处理单独的付款。",
+        "ja": "購入は、企業のClaudeに対する既存のコミットされた支出から請求されます。つまり、1つの契約と1つの請求書で済み、新しいベンダーをオンボーディングしたり、個別の支払いを処理したりする必要がなくなります。",
+        "ko": "구매는 기업의 기존 Claude 약정 지출에 대해 청구됩니다. 즉, 하나의 계약과 하나의 청구서를 의미하며 새로운 공급업체를 온보딩하거나 별도의 지불을 처리할 필요가 없습니다.",
+        "es": "Las compras se cargan contra el gasto comprometido existente de una empresa en Claude. Esto significa un contrato y una factura, evitando la necesidad de incorporar nuevos proveedores o procesar pagos por separado."
+      }
+    },
+    {
+      "question": {
+        "en": "Does using third-party apps through the marketplace compromise enterprise data governance?",
+        "zh": "通过市场使用第三方应用会损害企业数据治理吗？",
+        "ja": "マーケットプレイスを通じてサードパーティアプリを使用すると、企業のデータガバナンスが損なわれますか？",
+        "ko": "마켓플레이스를 통해 타사 앱을 사용하면 엔터프라이즈 데이터 거버넌스가 손상됩니까?",
+        "es": "¿El uso de aplicaciones de terceros a través del mercado compromete la gobernanza de datos empresariales?"
+      },
+      "answer": {
+        "en": "No. Because the tools are vetted and fall under the existing Anthropic enterprise agreement, they adhere to the same strict security and data isolation protocols already approved by your IT department.",
+        "zh": "不会。因为这些工具经过审查并属于现有的 Anthropic 企业协议范围内，它们遵守您的 IT 部门已经批准的相同严格的安全和数据隔离协议。",
+        "ja": "いいえ。ツールは審査され、既存のAnthropicエンタープライズ契約の対象となるため、IT部門によってすでに承認されているのと同じ厳格なセキュリティおよびデータ分離プロトコルに準拠しています。",
+        "ko": "아니요. 도구는 검증을 거쳐 기존 Anthropic 엔터프라이즈 계약에 속하기 때문에 IT 부서에서 이미 승인한 것과 동일한 엄격한 보안 및 데이터 격리 프로토콜을 준수합니다.",
+        "es": "No. Debido a que las herramientas son examinadas y caen bajo el acuerdo empresarial existente de Anthropic, se adhieren a los mismos estrictos protocolos de seguridad y aislamiento de datos ya aprobados por su departamento de TI."
+      }
+    },
+    {
+      "question": {
+        "en": "Can non-technical teams use this to build internal apps?",
+        "zh": "非技术团队可以使用它来构建内部应用吗？",
+        "ja": "非技術チームはこれを使用して社内アプリを構築できますか？",
+        "ko": "비기술 팀이 이를 사용하여 내부 앱을 구축할 수 있습니까?",
+        "es": "¿Pueden los equipos no técnicos usar esto para crear aplicaciones internas?"
+      },
+      "answer": {
+        "en": "Yes. Launch partners like Lovable Labs and Replit allow employees to use natural language to generate and deploy internal tools, all billed through the central Anthropic contract.",
+        "zh": "可以。像 Lovable Labs 和 Replit 这样的首发合作伙伴允许员工使用自然语言生成和部署内部工具，所有费用均通过中央 Anthropic 合同结算。",
+        "ja": "はい。Lovable LabsやReplitなどのローンチパートナーにより、従業員は自然言語を使用して社内ツールを生成および展開でき、すべて中央のAnthropic契約を通じて請求されます。",
+        "ko": "예. Lovable Labs 및 Replit과 같은 출시 파트너를 통해 직원은 자연어를 사용하여 내부 도구를 생성하고 배포할 수 있으며 모든 비용은 중앙 Anthropic 계약을 통해 청구됩니다.",
+        "es": "Sí. Los socios de lanzamiento como Lovable Labs y Replit permiten a los empleados usar lenguaje natural para generar e implementar herramientas internas, todo facturado a través del contrato central de Anthropic."
+      }
+    },
+    {
+      "question": {
+        "en": "What is the biggest limitation right now?",
+        "zh": "目前最大的限制是什么？",
+        "ja": "現在の最大の制限は何ですか？",
+        "ko": "현재 가장 큰 한계는 무엇입니까?",
+        "es": "¿Cuál es la mayor limitación en este momento?"
+      },
+      "answer": {
+        "en": "The main complaint from the community is the high barrier to entry. It is currently in limited preview and strictly requires an existing organizational-level Anthropic spend commitment, leaving out startups on self-serve monthly Pro plans.",
+        "zh": "社区的主要抱怨是进入门槛高。它目前处于有限预览阶段，严格要求现有的组织级 Anthropic 支出承诺，将使用自助式月度 Pro 计划的初创公司排除在外。",
+        "ja": "コミュニティからの主な不満は、参入障壁の高さです。現在は限定プレビュー中であり、既存の組織レベルのAnthropic支出コミットメントを厳密に要求するため、セルフサービスの月額Proプランを利用しているスタートアップは除外されます。",
+        "ko": "커뮤니티의 주요 불만은 진입 장벽이 높다는 것입니다. 현재 제한된 미리 보기 상태이며 기존 조직 수준의 Anthropic 지출 약정이 엄격하게 필요하므로 셀프 서비스 월간 Pro 요금제를 사용하는 스타트업은 제외됩니다.",
+        "es": "La principal queja de la comunidad es la alta barrera de entrada. Actualmente se encuentra en vista previa limitada y requiere estrictamente un compromiso de gasto de Anthropic a nivel organizacional existente, dejando fuera a las nuevas empresas en planes Pro mensuales de autoservicio."
+      }
+    }
+  ],
+  "seo_title_jsonb": {
+    "en": "Claude Marketplace Review 2026: Pricing, Partners & Enterprise Benefits",
+    "zh": "Claude Marketplace 怎么样？2026 最新评测：价格、首发应用与企业采购优势",
+    "ja": "【徹底レビュー】Claude Marketplaceの評判は？料金・パートナー・企業向けメリット",
+    "ko": "Claude Marketplace 솔직 후기: 가격, 파트너 및 엔터프라이즈 도입 장점 (완벽 정리)",
+    "es": "Opiniones de Claude Marketplace: Precio, Socios y Ventajas Empresariales"
+  },
+  "seo_description_jsonb": {
+    "en": "Struggling with AI procurement? Claude Marketplace lets enterprises buy tools like Snowflake and Replit using existing Anthropic spend. Read our full review.",
+    "zh": "AI 采购流程太繁琐？Claude Marketplace 允许企业使用现有的 Anthropic 预算购买 Snowflake 等工具。查看完整评测与零佣金解析。",
+    "ja": "AIの調達にお困りですか？Claude Marketplaceを使用すると、企業は既存のAnthropic支出を使用してSnowflakeやReplitなどのツールを購入できます。完全なレビューをお読みください。",
+    "ko": "AI 조달로 어려움을 겪고 계신가요? Claude Marketplace를 통해 기업은 기존 Anthropic 지출을 사용하여 Snowflake 및 Replit과 같은 도구를 구매할 수 있습니다. 전체 리뷰를 읽어보세요.",
+    "es": "¿Luchando con la adquisición de IA? Claude Marketplace permite a las empresas comprar herramientas como Snowflake y Replit utilizando el gasto existente de Anthropic. Lea nuestra reseña completa."
+  },
+  "_citations_dump":[
+    "[1.1] Anthropic debuts Claude Marketplace to target AI procurement bottlenecks",
+    " Anthropic launches Claude-powered app marketplace without taking a cut",
+    " Anthropic launches Claude Marketplace with third-party cloud services",
+    " Anthropic Just Launched Claude Marketplace — And It Could Reshape How Enterprises Buy AI Software",
+    " Claude Marketplace: Why Anthropic Just Made the Smartest Platform Move in AI"
+  ]
 }
