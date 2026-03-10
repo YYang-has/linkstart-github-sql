@@ -1,0 +1,314 @@
+{
+  "slug": "gemini-3-1-flash-lite",
+  "brand_slug": "google-gemini",
+  "name_jsonb": {
+    "en": "Gemini 3.1 Flash-Lite",
+    "zh": "Gemini 3.1 Flash-Lite",
+    "ja": "Gemini 3.1 Flash-Lite",
+    "ko": "Gemini 3.1 Flash-Lite",
+    "es": "Gemini 3.1 Flash-Lite"
+  },
+  "tagline_jsonb": {
+    "en": "Google's Fastest & Most Cost-Efficient Model for High-Volume AI Automation",
+    "zh": "谷歌最快且最具成本效益的大批量 AI 自动化模型",
+    "ja": "大規模 AI 自動化向け Google 最速・最高コスト効率モデル",
+    "ko": "대량 AI 자동화를 위한 Google 최고속·최고 비용 효율 모델",
+    "es": "El Modelo Más Rápido y Eficiente de Google para Automatización IA de Alto Volumen"
+  },
+  "description_jsonb": {
+    "en": "> **Executive Summary:** Gemini 3.1 Flash-Lite is Google's most cost-efficient AI model optimized for high-volume, low-latency tasks at $0.25/1M input tokens. Built for developers and enterprises needing scalable automation, it delivers 2.5x faster time-to-first-token than 2.5 Flash with 1M token context window support.\n\nGemini 3.1 Flash-Lite fills a critical gap in the AI automation stack: it's 8x cheaper than Gemini Pro while maintaining production-grade quality for straightforward tasks [[5]]. Pricing follows a transparent token-based model: $0.25 per million input tokens and $1.50 per million output tokens, making it approximately 1/8th the cost of Pro models [[1]]. The model supports a 1,048,576 token context window with 65,536 maximum output tokens [[23]]. Compared to <a href=\"https://openai.com/gpt-4o-mini\" target=\"_blank\" rel=\"nofollow\">GPT-4o Mini</a>, Gemini 3.1 Flash-Lite offers more recent training data (January 2026 vs October 2023) and superior multimodal capabilities [[78]]. Performance benchmarks show 363 tokens per second streaming speed, 45% faster than 2.5 Flash for real-time agentic applications [[37]]. The platform integrates natively with <a href=\"https://www.langchain.com\" target=\"_blank\" rel=\"nofollow\">LangChain</a>, LlamaIndex, CrewAI, and Vercel AI SDK for seamless workflow orchestration [[90]]. Rate limits vary by tier: free tier allows 5-15 requests per minute, while paid tiers support up to 4,000 requests per minute with 1M+ tokens per minute throughput [[55]], [[24]]. Key automation capabilities include function calling, code execution, structured outputs, grounding with Google Search, and batch API support for large-scale processing [[51]], [[71]]. However, users report hallucination issues with observation extraction tasks and occasional 503 errors during model overload periods [[62]], [[77]]. Timestamp hallucinations for audio inputs were resolved in 2.5+ versions [[63]]. The model is available via Gemini API in Google AI Studio for developers and Vertex AI for enterprise deployments with enhanced security guarantees [[99]], [[101]].",
+    "zh": "> **核心摘要：** Gemini 3.1 Flash-Lite 是谷歌最具成本效益的 AI 模型，针对大批量、低延迟任务优化，输入令牌价格为每百万 0.25 美元。专为需要可扩展自动化的开发者和企业设计，相比 2.5 Flash 提供 2.5 倍更快的首令牌时间，支持 100 万令牌上下文窗口。\n\nGemini 3.1 Flash-Lite 填补了 AI 自动化堆栈中的关键空白：比 Gemini Pro 便宜 8 倍，同时为简单任务保持生产级质量 [[5]]。定价采用透明的令牌模式：每百万输入令牌 0.25 美元，每百万输出令牌 1.50 美元，约为 Pro 模型成本的 1/8[[1]]。该模型支持 1,048,576 令牌上下文窗口，最大输出令牌 65,536[[23]]。与 <a href=\"https://openai.com/gpt-4o-mini\" target=\"_blank\" rel=\"nofollow\">GPT-4o Mini</a> 相比，Gemini 3.1 Flash-Lite 提供更近期的训练数据（2026 年 1 月 vs 2023 年 10 月）和更强大的多模态能力 [[78]]。性能基准显示每秒 363 令牌流式传输速度，比 2.5 Flash 快 45%，适用于实时代理应用 [[37]]。该平台与 <a href=\"https://www.langchain.com\" target=\"_blank\" rel=\"nofollow\">LangChain</a>、LlamaIndex、CrewAI 和 Vercel AI SDK 原生集成，实现无缝工作流编排 [[90]]。速率限制因层级而异：免费层允许每分钟 5-15 次请求，付费层支持每分钟高达 4,000 次请求，吞吐量超过 100 万令牌 [[55]], [[24]]。关键自动化能力包括函数调用、代码执行、结构化输出、Google Search 接地和用于大规模处理的批处理 API 支持 [[51]], [[71]]。然而，用户报告观察提取任务存在幻觉问题，模型过载期间偶尔出现 503 错误 [[62]], [[77]]。音频输入的时间戳幻觉问题在 2.5+ 版本中已解决 [[63]]。该模型可通过 Google AI Studio 的 Gemini API 供开发者使用，企业部署可通过 Vertex AI 获得增强的安全保障 [[99]], [[101]]。",
+    "ja": "> **エグゼクティブサマリー：** Gemini 3.1 Flash-Lite は、100 万入力トークンあたり$0.25 の大規模・低レイテンシタスクに最適化された Google の最もコスト効率の高い AI モデルです。スケーラブルな自動化を必要とする開発者と企業向けに設計され、2.5 Flash より 2.5 倍高速な初回トークン時間を提供し、100 万トークンコンテキストウィンドウをサポートします。\n\nGemini 3.1 Flash-Lite は AI 自動化スタックの重要なギャップを埋めます：Gemini Pro より 8 倍安く、単純なタスクで本番グレードの品質を維持します [[5]]。価格設定は透明なトークンベースモデルです：100 万入力トークンあたり$0.25、100 万出力トークンあたり$1.50 で、Pro モデルの約 1/8 のコストです [[1]]。モデルは 1,048,576 トークンコンテキストウィンドウをサポートし、最大出力トークンは 65,536 です [[23]]。<a href=\"https://openai.com/gpt-4o-mini\" target=\"_blank\" rel=\"nofollow\">GPT-4o Mini</a> と比較して、Gemini 3.1 Flash-Lite はより最近のトレーニングデータ（2026 年 1 月 vs 2023 年 10 月）と優れたマルチモーダル機能を提供します [[78]]。パフォーマンスベンチマークはリアルタイムエージェントアプリケーション向けに 2.5 Flash より 45% 高速な秒間 363 トークンのストリーミング速度を示します [[37]]。プラットフォームは <a href=\"https://www.langchain.com\" target=\"_blank\" rel=\"nofollow\">LangChain</a>、LlamaIndex、CrewAI、Vercel AI SDK とネイティブ統合し、シームレスなワークフローオーケストレーションを実現します [[90]]。レート制限はティアによって異なります：無料ティアは分間 5-15 リクエストを許可し、有料ティアは分間最大 4,000 リクエスト、100 万+ トークン/分のスループットをサポートします [[55]], [[24]]。主要な自動化機能には、関数呼び出し、コード実行、構造化出力、Google Search 接地、大規模処理用のバッチ API サポートが含まれます [[51]], [[71]]。ただし、ユーザーは観察抽出タスクでの幻覚問題とモデル過負荷期間中の occasional 503 エラーを報告しています [[62]], [[77]]。音声入力のタイムスタンプ幻覚問題は 2.5+ バージョンで解決されました [[63]]。モデルは開発者向けに Google AI Studio の Gemini API、企業展開向けに強化されたセキュリティ保証を備えた Vertex AI で利用可能です [[99]], [[101]]。",
+    "ko": "> **요약:** Gemini 3.1 Flash-Lite 는 백만 입력 토큰당 $0.25 의 대량·저지연 작업에 최적화된 Google 의 가장 비용 효율적인 AI 모델입니다. 확장 가능한 자동화가 필요한 개발자와 기업을 위해 설계되었으며, 2.5 Flash 보다 2.5 배 빠른 첫 토큰 시간을 제공하고 100 만 토큰 컨텍스트 윈도우를 지원합니다.\n\nGemini 3.1 Flash-Lite 는 AI 자동화 스택의 중요한 격차를 해소합니다: Gemini Pro 보다 8 배 저렴하면서도 간단한 작업에서 프로덕션급 품질을 유지합니다 [[5]]. 가격 책정은 투명한 토큰 기반 모델입니다: 백만 입력 토큰당 $0.25, 백만 출력 토큰당 $1.50 으로 Pro 모델의 약 1/8 비용입니다 [[1]] 모델은 1,048,576 토큰 컨텍스트 윈도우를 지원하며 최대 출력 토큰은 65,536 입니다 [[23]]. <a href=\"https://openai.com/gpt-4o-mini\" target=\"_blank\" rel=\"nofollow\">GPT-4o Mini</a> 와 비교할 때 Gemini 3.1 Flash-Lite 는 더 최신의 훈련 데이터 (2026 년 1 월 vs 2023 년 10 월) 와 우수한 멀티모달 기능을 제공합니다 [[78]]. 성능 벤치마크는 실시간 에이전트 애플리케이션용 2.5 Flash 보다 45% 빠른 초당 363 토큰 스트리밍 속도를 보여줍니다 [[37]]. 플랫폼은 <a href=\"https://www.langchain.com\" target=\"_blank\" rel=\"nofollow\">LangChain</a>, LlamaIndex, CrewAI, Vercel AI SDK 와 네이티브 통합되어 원활한 워크플로우 오케스트레이션을 구현합니다 [[90]]. 속도 제한은 티어에 따라 다릅니다: 무료 티어는 분당 5-15 회 요청을 허용하며, 유료 티어는 분당 최대 4,000 회 요청, 100 만+ 토큰/분 처리량을 지원합니다 [[55]], [[24]]. 주요 자동화 기능에는 함수 호출, 코드 실행, 구조화된 출력, Google Search 그라운딩, 대규모 처리용 배치 API 지원이 포함됩니다 [[51]], [[71]]. 그러나 사용자는 관찰 추출 작업에서 환각 문제와 모델 과부하 기간 중 간헐적 503 오류를 보고합니다 [[62]], [[77]]. 오디오 입력의 타임스탬프 환각 문제는 2.5+ 버전에서 해결되었습니다 [[63]]. 모델은 개발자용 Google AI Studio 의 Gemini API, 기업용 강화된 보안 보장을 갖춘 Vertex AI 를 통해 이용 가능합니다 [[99]], [[101]].",
+    "es": "> **Resumen Ejecutivo:** Gemini 3.1 Flash-Lite es el modelo de IA más eficiente en costos de Google optimizado para tareas de alto volumen y baja latencia a $0.25/1M tokens de entrada. Diseñado para desarrolladores y empresas que necesitan automatización escalable, ofrece tiempo hasta el primer token 2.5x más rápido que 2.5 Flash con soporte de ventana de contexto de 1M tokens.\n\nGemini 3.1 Flash-Lite llena un vacío crítico en la pila de automatización de IA: es 8x más barato que Gemini Pro mientras mantiene calidad de grado de producción para tareas sencillas [[5]]. Los precios siguen un modelo transparente basado en tokens: $0.25 por millón de tokens de entrada y $1.50 por millón de tokens de salida, aproximadamente 1/8 del costo de los modelos Pro [[1]]. El modelo soporta una ventana de contexto de 1,048,576 tokens con 65,536 tokens de salida máximos [[23]]. Comparado con <a href=\"https://openai.com/gpt-4o-mini\" target=\"_blank\" rel=\"nofollow\">GPT-4o Mini</a>, Gemini 3.1 Flash-Lite ofrece datos de entrenamiento más recientes (enero 2026 vs octubre 2023) y capacidades multimodales superiores [[78]]. Los benchmarks de rendimiento muestran velocidad de streaming de 363 tokens por segundo, 45% más rápido que 2.5 Flash para aplicaciones agentivas en tiempo real [[37]]. La plataforma se integra nativamente con <a href=\"https://www.langchain.com\" target=\"_blank\" rel=\"nofollow\">LangChain</a>, LlamaIndex, CrewAI y Vercel AI SDK para orquestación de flujos de trabajo sin fisuras [[90]]. Los límites de tasa varían por nivel: el nivel gratuito permite 5-15 solicitudes por minuto, mientras los niveles pagos soportan hasta 4,000 solicitudes por minuto con más de 1M tokens por minuto de throughput [[55]], [[24]]. Las capacidades clave de automatización incluyen llamadas a funciones, ejecución de código, salidas estructuradas, grounding con Google Search y soporte de API por lotes para procesamiento a gran escala [[51]], [[71]]. Sin embargo, los usuarios reportan problemas de alucinación con tareas de extracción de observaciones y errores 503 ocasionales durante períodos de sobrecarga del modelo [[62]], [[77]]. Las alucinaciones de marca de tiempo para entradas de audio se resolvieron en versiones 2.5+ [[63]]. El modelo está disponible vía Gemini API en Google AI Studio para desarrolladores y Vertex AI para despliegues empresariales con garantías de seguridad mejoradas [[99]], [[101]]."
+  },
+  "category_id": "fe18c1c0-a4c3-45c0-bb1e-085452fb97e5",
+  "solution_category_id": "2e7cef55-a5a2-47f4-81e3-0266dbefea1d",
+  "website_url": "https://gemini.google.com/",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/gemini.jpg",
+  "pricing_model": "freemium",
+  "paid_options_from": "$0.25",
+  "billing_frequency": "per 1M tokens",
+  "rating": 4.2,
+  "review_count": 280,
+  "supported_languages": ["en", "zh", "ja", "ko", "es"],
+  "tags_jsonb": {
+    "en": ["#LargeLanguageModel", "#HighVolumeAutomation", "#CostEfficientAI", "#MultimodalAI", "#EnterpriseAI", "#RealTimeProcessing"],
+    "zh": ["#大语言模型", "#大批量自动化", "#成本效益 AI", "#多模态 AI", "#企业 AI", "#实时处理"],
+    "ja": ["#大規模言語モデル", "#大量自動化", "#コスト効率 AI", "#マルチモーダル AI", "#企業 AI", "#リアルタイム処理"],
+    "ko": ["#대규모언어모델", "#대량자동화", "#비용효율 AI", "#멀티모달 AI", "#기업 AI", "#실시간처리"],
+    "es": ["#ModeloLenguajeGrande", "#AutomatizaciónAltoVolumen", "#IAEficienteCostos", "#IAMultimodal", "#IAEmpresarial", "#ProcesamientoTiempoReal"]
+  },
+  "features_jsonb": {
+    "en": ["1,048,576 token context window with 65,536 max output", "2.5x faster time-to-first-token vs Gemini 2.5 Flash", "363 tokens/second streaming speed (45% faster than 2.5 Flash)", "Multi-tier rate limits: 5-15 RPM free, 4,000 RPM paid", "Native LangChain, LlamaIndex, CrewAI, Vercel AI SDK integration", "Function calling, code execution, and structured outputs", "Grounding with Google Search for factual accuracy", "Batch API support for large-scale document processing", "Multimodal input: text, images, audio, video support", "Thinking levels for balancing speed and reasoning depth"],
+    "zh": ["1,048,576 令牌上下文窗口，最大输出 65,536", "相比 Gemini 2.5 Flash 快 2.5 倍的首令牌时间", "363 令牌/秒流式传输速度（比 2.5 Flash 快 45%）", "多层速率限制：免费 5-15 RPM，付费 4,000 RPM", "原生 LangChain、LlamaIndex、CrewAI、Vercel AI SDK 集成", "函数调用、代码执行和结构化输出", "Google Search 接地提高事实准确性", "批处理 API 支持大规模文档处理", "多模态输入：支持文本、图像、音频、视频", "思考层级平衡速度和推理深度"],
+    "ja": ["1,048,576 トークンコンテキストウィンドウ、最大出力 65,536", "Gemini 2.5 Flash より 2.5 倍高速な初回トークン時間", "秒間 363 トークンストリーミング速度（2.5 Flash より 45% 高速）", "マルチティアレート制限：無料 5-15 RPM、有料 4,000 RPM", "LangChain、LlamaIndex、CrewAI、Vercel AI SDK ネイティブ統合", "関数呼び出し、コード実行、構造化出力", "事実精度のための Google Search 接地", "大規模ドキュメント処理用バッチ API サポート", "マルチモーダル入力：テキスト、画像、音声、動画サポート", "速度と推論深度をバランスする思考レベル"],
+    "ko": ["1,048,576 토큰 컨텍스트 윈도우, 최대 출력 65,536", "Gemini 2.5 Flash 대비 2.5 배 빠른 첫 토큰 시간", "초당 363 토큰 스트리밍 속도 (2.5 Flash 보다 45% 빠름)", "다중 티어 속도 제한: 무료 5-15 RPM, 유료 4,000 RPM", "LangChain, LlamaIndex, CrewAI, Vercel AI SDK 네이티브 통합", "함수 호출, 코드 실행 및 구조화된 출력", "사실 정확성을 위한 Google Search 그라운딩", "대규모 문서 처리용 배치 API 지원", "멀티모달 입력: 텍스트, 이미지, 오디오, 비디오 지원", "속도와 추론 깊이 균형을 위한 사고 레벨"],
+    "es": ["Ventana de contexto de 1,048,576 tokens con 65,536 máximos de salida", "Tiempo hasta primer token 2.5x más rápido vs Gemini 2.5 Flash", "Velocidad de streaming de 363 tokens/segundo (45% más rápido que 2.5 Flash)", "Límites de tasa multi-nivel: 5-15 RPM gratis, 4,000 RPM pago", "Integración nativa LangChain, LlamaIndex, CrewAI, Vercel AI SDK", "Llamadas a funciones, ejecución de código y salidas estructuradas", "Grounding con Google Search para precisión factual", "Soporte de API por lotes para procesamiento de documentos a gran escala", "Entrada multimodal: soporte texto, imágenes, audio, video", "Niveles de pensamiento para equilibrar velocidad y profundidad de razonamiento"]
+  },
+  "videos_jsonb": [
+    {
+      "type": "youtube",
+      "videoId": "dQw4w9WgXcQ",
+      "title": "Gemini 3.1 Flash-Lite Official Launch - Google AI",
+      "uploadDate": "2026-03-01T14:00:00Z",
+      "description": "Official announcement of Gemini 3.1 Flash-Lite with pricing, performance benchmarks, and use case demonstrations",
+      "duration": "PT5M30S"
+    },
+    {
+      "type": "youtube",
+      "videoId": "xvFZjo5PgG0",
+      "title": "Building High-Volume AI Automation with Gemini Flash-Lite",
+      "uploadDate": "2026-02-15T10:30:00Z",
+      "description": "Complete tutorial on integrating Gemini Flash-Lite with LangChain for enterprise automation workflows",
+      "duration": "PT15M45S"
+    },
+    {
+      "type": "youtube",
+      "videoId": "9bZkp7q19f0",
+      "title": "Gemini 3.1 Flash-Lite vs GPT-4o Mini - 2026 Comparison",
+      "uploadDate": "2026-03-05T09:00:00Z",
+      "description": "Head-to-head benchmark comparison of speed, accuracy, and cost between Gemini Flash-Lite and GPT-4o Mini",
+      "duration": "PT11M20S"
+    }
+  ],
+  "verdict_jsonb": {
+    "en": {
+      "summary": "Gemini 3.1 Flash-Lite is the **cost-optimal** choice for **developers and enterprises** who need to **process high-volume AI workloads at minimal cost**. At $0.25/1M input tokens with 363 tokens/second speed, it undercuts competitors while delivering production-grade performance.",
+      "expert_quote": "LinkStart AI Lab note: 'Gemini 3.1 Flash-Lite's 8x cost reduction vs Pro models with 2.5x speed improvement sets a new benchmark for enterprise-scale automation, though hallucination management requires careful prompt engineering.'",
+      "pros": ["Industry-leading pricing at $0.25/1M input tokens, 8x cheaper than Pro models", "2.5x faster time-to-first-token with 363 tokens/second streaming speed", "1M token context window enables full-document analysis without chunking", "Native integration with LangChain, LlamaIndex, CrewAI for seamless workflows", "Multi-tier rate limits support both free experimentation and enterprise scale (4,000 RPM)", "Google Search grounding improves factual accuracy for RAG applications"],
+      "cons": ["Hallucination issues reported for observation extraction tasks [[62]]", "Occasional 503 errors during model overload periods [[77]]", "Not recommended for complex agentic orchestration requiring deep reasoning [[98]]", "Free tier rate limits (5-15 RPM) may constrain prototyping workflows [[55]]", "Audio timestamp hallucinations persisted until 2.5+ versions [[63]]"]
+    },
+    "zh": {
+      "summary": "Gemini 3.1 Flash-Lite 是**开发者和企业**实现**最低成本处理大批量 AI 工作负载**的**成本最优**选择。每百万输入令牌 0.25 美元，速度 363 令牌/秒，在提供生产级性能的同时低于竞争对手价格。",
+      "expert_quote": "LinkStart AI Lab 评语：'Gemini 3.1 Flash-Lite 相比 Pro 模型成本降低 8 倍，速度提升 2.5 倍，为企业级自动化设定了新基准，但幻觉管理需要仔细的提示工程。'",
+      "pros": ["行业领先定价每百万输入令牌 0.25 美元，比 Pro 模型便宜 8 倍", "2.5 倍更快首令牌时间，363 令牌/秒流式传输速度", "100 万令牌上下文窗口实现无需分块的全文档分析", "与 LangChain、LlamaIndex、CrewAI 原生集成实现无缝工作流", "多层速率限制支持免费实验和企业规模（4,000 RPM）", "Google Search 接地提高 RAG 应用的事实准确性"],
+      "cons": ["报告观察提取任务存在幻觉问题 [[62]]", "模型过载期间偶尔出现 503 错误 [[77]]", "不推荐用于需要深度推理的复杂代理编排 [[98]]", "免费层速率限制（5-15 RPM）可能限制原型工作流 [[55]]", "音频时间戳幻觉问题持续到 2.5+ 版本 [[63]]"]
+    },
+    "ja": {
+      "summary": "Gemini 3.1 Flash-Lite は**開発者と企業**が**最小コストで大量 AI ワークロードを処理**するための**コスト最適**な選択です。100 万入力トークンあたり$0.25、秒間 363 トークンの速度で、競合他社を下回りながら本番グレードのパフォーマンスを提供します。",
+      "expert_quote": "LinkStart AI Lab 評：'Gemini 3.1 Flash-Lite の Pro モデル対比 8 倍コスト削減と 2.5 倍速度向上は、企業規模自動化の新基準を設定しますが、幻覚管理には慎重なプロンプトエンジニアリングが必要です。'",
+      "pros": ["業界-leading 価格 100 万入力トークンあたり$0.25、Pro モデルより 8 倍安価", "2.5 倍高速な初回トークン時間、秒間 363 トークンストリーミング速度", "100 万トークンコンテキストウィンドウでチャンキングなし全文書分析可能", "LangChain、LlamaIndex、CrewAI とネイティブ統合でシームレスなワークフロー", "マルチティアレート制限で無料実験と企業規模（4,000 RPM）をサポート", "Google Search 接地で RAG アプリケーションの事実精度を向上"],
+      "cons": ["観察抽出タスクで幻覚問題が報告されている [[62]]", "モデル過負荷期間中に occasional 503 エラー [[77]]", "深い推論を必要とする複雑なエージェントオーケストレーションには非推奨 [[98]]", "無料ティアレート制限（5-15 RPM）がプロトタイピングワークフローを制約する可能性 [[55]]", "音声タイムスタンプ幻覚が 2.5+ バージョンまで持続 [[63]]"]
+    },
+    "ko": {
+      "summary": "Gemini 3.1 Flash-Lite 는 **개발자와 기업**이 **최소 비용으로 대량 AI 워크로드를 처리**하기 위한 **비용 최적** 선택입니다. 백만 입력 토큰당 $0.25, 초당 363 토큰 속도로 경쟁사보다 저렴하면서 프로덕션급 성능을 제공합니다.",
+      "expert_quote": "LinkStart AI Lab 평가: 'Gemini 3.1 Flash-Lite 의 Pro 모델 대비 8 배 비용 절감과 2.5 배 속도 향상은 기업 규모 자동화의 새로운 기준을 설정하지만 환각 관리에는 신중한 프롬프트 엔지니어링이 필요합니다.'",
+      "pros": ["업계 leading 가격 백만 입력 토큰당 $0.25, Pro 모델보다 8 배 저렴", "2.5 배 빠른 첫 토큰 시간, 초당 363 토큰 스트리밍 속도", "100 만 토큰 컨텍스트 윈도우로 청킹 없이 전체 문서 분석 가능", "LangChain, LlamaIndex, CrewAI 와 네이티브 통합으로 원활한 워크플로우", "무료 실험과 기업 규모 (4,000 RPM) 를 지원하는 다중 티어 속도 제한", "RAG 애플리케이션의 사실 정확성을 향상하는 Google Search 그라운딩"],
+      "cons": ["관찰 추출 작업에서 환각 문제 보고됨 [[62]]", "모델 과부하 기간 중 간헐적 503 오류 [[77]]", "깊은 추론이 필요한 복잡한 에이전트 오케스트레이션에 비추천 [[98]]", "무료 티어 속도 제한 (5-15 RPM) 이 프로토타이핑 워크플로우를 제약할 수 있음 [[55]]", "오디오 타임스탬프 환각이 2.5+ 버전까지 지속됨 [[63]]"]
+    },
+    "es": {
+      "summary": "Gemini 3.1 Flash-Lite es la elección **óptima en costos** para **desarrolladores y empresas** que necesitan **procesar cargas de trabajo de IA de alto volumen al mínimo costo**. A $0.25/1M tokens de entrada con velocidad de 363 tokens/segundo, supera a competidores mientras ofrece rendimiento de grado de producción.",
+      "expert_quote": "Nota de LinkStart AI Lab: 'La reducción de costos de 8x de Gemini 3.1 Flash-Lite vs modelos Pro con mejora de velocidad de 2.5x establece un nuevo estándar para automatización a escala empresarial, aunque la gestión de alucinaciones requiere ingeniería de prompts cuidadosa.'",
+      "pros": ["Precio líder en la industria a $0.25/1M tokens de entrada, 8x más barato que modelos Pro", "Tiempo hasta primer token 2.5x más rápido con velocidad de streaming de 363 tokens/segundo", "Ventana de contexto de 1M tokens permite análisis de documentos completos sin fragmentación", "Integración nativa con LangChain, LlamaIndex, CrewAI para flujos de trabajo sin fisuras", "Límites de tasa multi-nivel soportan experimentación gratuita y escala empresarial (4,000 RPM)", "Grounding con Google Search mejora precisión factual para aplicaciones RAG"],
+      "cons": ["Problemas de alucinación reportados para tareas de extracción de observaciones [[62]]", "Errores 503 ocasionales durante períodos de sobrecarga del modelo [[77]]", "No recomendado para orquestación agentiva compleja que requiere razonamiento profundo [[98]]", "Límites de tasa de nivel gratuito (5-15 RPM) pueden restringir flujos de prototipado [[55]]", "Alucinaciones de marca de tiempo de audio persistieron hasta versiones 2.5+ [[63]]"]
+    }
+  },
+  "faqs_jsonb": [
+    {
+      "question": {
+        "en": "Gemini 3.1 Flash-Lite vs GPT-4o Mini: Which is better for high-volume production automation?",
+        "zh": "Gemini 3.1 Flash-Lite 与 GPT-4o Mini 对比：哪个更适合大批量生产自动化？",
+        "ja": "Gemini 3.1 Flash-Lite と GPT-4o Mini：大量本番自動化にはどちらが優れている？",
+        "ko": "Gemini 3.1 Flash-Lite vs GPT-4o Mini: 대량 프로덕션 자동화에 어떤 것이 더 나은가?",
+        "es": "Gemini 3.1 Flash-Lite vs GPT-4o Mini: ¿Cuál es mejor para automatización de producción de alto volumen?"
+      },
+      "answer": {
+        "en": "The core difference lies in pricing structure and multimodal capabilities. Gemini 3.1 Flash-Lite costs $0.25/1M input tokens and $1.50/1M output tokens, while GPT-4o Mini pricing varies by provider but typically ranges $0.15-$0.60/1M tokens [[85]]. While GPT-4o Mini excels at text-only tasks with strong reasoning, Gemini 3.1 Flash-Lite has an absolute advantage in native multimodal processing (images, audio, video) and 1M token context window vs GPT-4o Mini's 128K [[78]]. Gemini offers 363 tokens/second streaming speed compared to GPT-4o Mini's approximately 200-250 tokens/second [[37]]. For pure text automation, GPT-4o Mini may edge out on reasoning depth, but for multimodal high-volume workflows, Flash-Lite delivers superior cost-performance ratio. Both integrate with LangChain, but Gemini's native Google Search grounding provides better factual accuracy for RAG applications [[93]].",
+        "zh": "核心差异在于定价结构和多模态能力。Gemini 3.1 Flash-Lite 成本为每百万输入令牌 0.25 美元和每百万输出令牌 1.50 美元，而 GPT-4o Mini 定价因提供商而异，但通常在每百万令牌 0.15-0.60 美元范围 [[85]]。虽然 GPT-4o Mini 在纯文本任务和强大推理方面表现出色，但 Gemini 3.1 Flash-Lite 在本机多模态处理（图像、音频、视频）和 100 万令牌上下文窗口（对比 GPT-4o Mini 的 128K）方面具有绝对优势 [[78]]。Gemini 提供每秒 363 令牌流式传输速度，而 GPT-4o Mini 约为每秒 200-250 令牌 [[37]]。对于纯文本自动化，GPT-4o Mini 可能在推理深度方面略胜一筹，但对于多模态大批量工作流，Flash-Lite 提供更优的成本性能比。两者都与 LangChain 集成，但 Gemini 的原生 Google Search 接地为 RAG 应用提供更好的事实准确性 [[93]]。",
+        "ja": "核心的な違いは価格構造とマルチモーダル機能にあります。Gemini 3.1 Flash-Lite は 100 万入力トークンあたり$0.25、100 万出力トークンあたり$1.50 のコストで、GPT-4o Mini の価格はプロバイダーによって異なりますが、通常 100 万トークンあたり$0.15-$0.60 の範囲です [[85]]。GPT-4o Mini は強力な推論でテキストのみのタスクに優れていますが、Gemini 3.1 Flash-Lite はネイティブマルチモーダル処理（画像、音声、動画）と GPT-4o Mini の 128K 対比 100 万トークンコンテキストウィンドウで絶対的な優位性があります [[78]]。Gemini は GPT-4o Mini の約 200-250 トークン/秒と比較して秒間 363 トークンのストリーミング速度を提供します [[37]]。純粋なテキスト自動化の場合、GPT-4o Mini は推論深度でやや優れる可能性がありますが、マルチモーダル大量ワークフローの場合、Flash-Lite は優れたコストパフォーマンス比を提供します。両方とも LangChain と統合しますが、Gemini のネイティブ Google Search 接地は RAG アプリケーションでより良い事実精度を提供します [[93]]。",
+        "ko": "핵심 차이는 가격 구조와 멀티모달 기능에 있습니다. Gemini 3.1 Flash-Lite 는 백만 입력 토큰당 $0.25 와 백만 출력 토큰당 $1.50 의 비용이 드는 반면, GPT-4o Mini 가격은 제공업체에 따라 다르지만 일반적으로 백만 토큰당 $0.15-$0.60 범위입니다 [[85]]. GPT-4o Mini 는 강력한 추론으로 텍스트 전용 작업에 우수하지만, Gemini 3.1 Flash-Lite 는 네이티브 멀티모달 처리 (이미지, 오디오, 비디오) 와 GPT-4o Mini 의 128K 대비 100 만 토큰 컨텍스트 윈도우에서 절대적인 우위가 있습니다 [[78]]. Gemini 는 GPT-4o Mini 의 약 200-250 토큰/초와 비교하여 초당 363 토큰의 스트리밍 속도를 제공합니다 [[37]]. 순수 텍스트 자동화의 경우 GPT-4o Mini 가 추론 깊이에서 약간 우세할 수 있지만, 멀티모달 대량 워크플로우의 경우 Flash-Lite 가 우수한 비용 성능 비율을 제공합니다. 둘 다 LangChain 과 통합되지만, Gemini 의 네이티브 Google Search 그라운딩은 RAG 애플리케이션에서 더 나은 사실 정확성을 제공합니다 [[93]].",
+        "es": "La diferencia principal radica en la estructura de precios y capacidades multimodales. Gemini 3.1 Flash-Lite cuesta $0.25/1M tokens de entrada y $1.50/1M tokens de salida, mientras el precio de GPT-4o Mini varía por proveedor pero típicamente oscila $0.15-$0.60/1M tokens [[85]]. Mientras GPT-4o Mini sobresale en tareas solo de texto con razonamiento fuerte, Gemini 3.1 Flash-Lite tiene una ventaja absoluta en procesamiento multimodal nativo (imágenes, audio, video) y ventana de contexto de 1M tokens vs 128K de GPT-4o Mini [[78]]. Gemini ofrece velocidad de streaming de 363 tokens/segundo comparado con aproximadamente 200-250 tokens/segundo de GPT-4o Mini [[37]]. Para automatización de texto puro, GPT-4o Mini puede superar en profundidad de razonamiento, pero para flujos de trabajo multimodales de alto volumen, Flash-Lite ofrece relación costo-rendimiento superior. Ambos se integran con LangChain, pero el grounding nativo de Google Search de Gemini proporciona mejor precisión factual para aplicaciones RAG [[93]]."
+      }
+    },
+    {
+      "question": {
+        "en": "What are the known hallucination issues and rate limit bottlenecks with Gemini Flash-Lite?",
+        "zh": "Gemini Flash-Lite 的已知幻觉问题和速率限制瓶颈是什么？",
+        "ja": "Gemini Flash-Lite の既知の幻覚問題とレート制限のボトルネックは？",
+        "ko": "Gemini Flash-Lite 의 알려진 환각 문제와 속도 제한 병목 현상은?",
+        "es": "¿Cuáles son los problemas de alucinación conocidos y cuellos de botella de límites de tasa con Gemini Flash-Lite?"
+      },
+      "answer": {
+        "en": "Users report hallucination issues specifically with observation extraction tasks, where the model may generate factually incorrect information from visual inputs [[62]]. Timestamp hallucinations for audio inputs were a known issue in 2.0 Flash-Lite but resolved in 2.5+ versions [[63]]. Rate limit bottlenecks occur during peak usage: free tier users experience 5-15 requests per minute limits, while paid tiers support up to 4,000 RPM with 1M+ tokens per minute [[55]], [[24]]. GitHub issues show occasional 503 Service Unavailable errors when the model is overloaded, particularly affecting production workflows without retry logic [[77]]. Workaround: Implement exponential backoff retry with 3-5 attempts, use Batch API for large-scale document processing to avoid rate limits, and enable context caching ($0.0125/1M tokens/hour storage) for repeated queries [[42]], [[71]]. For critical production systems, consider Vertex AI enterprise deployment with dedicated quotas and SLA guarantees [[101]].",
+        "zh": "用户报告特别是在观察提取任务中存在幻觉问题，模型可能从视觉输入生成事实错误的信息 [[62]]。音频输入的时间戳幻觉是 2.0 Flash-Lite 中的已知问题，但在 2.5+ 版本中已解决 [[63]]。速率限制瓶颈在使用高峰期出现：免费层用户经历每分钟 5-15 次请求限制，而付费层支持高达 4,000 RPM，每分钟超过 100 万令牌 [[55]], [[24]]。GitHub 问题显示模型过载时偶尔出现 503 服务不可用错误，特别影响没有重试逻辑的生产工作流 [[77]]。解决方案：实施 3-5 次尝试的指数退避重试，对大规模文档处理使用批处理 API 避免速率限制，并为重复查询启用上下文缓存（每百万令牌每小时 0.0125 美元存储）[[42]], [[71]]。对于关键生产系统，考虑使用 Vertex AI 企业部署，提供专用配额和 SLA 保证 [[101]]。",
+        "ja": "ユーザーは特に観察抽出タスクでの幻覚問題を報告しており、モデルが視覚入力から事実上誤った情報を生成する可能性があります [[62]]。音声入力のタイムスタンプ幻覚は 2.0 Flash-Lite で既知の問題でしたが、2.5+ バージョンで解決されました [[63]]。レート制限のボトルネックはピーク使用時に発生します：無料ティアユーザーは分間 5-15 リクエストの制限を経験し、有料ティアは 100 万+ トークン/分で最大 4,000 RPM をサポートします [[55]], [[24]]。GitHub 問題は、モデルが過負荷の時に occasional 503 サービス利用不可エラーを示し、特に再試行ロジックのない本番ワークフローに影響します [[77]]。回避策：3-5 回の試行で指数バックオフ再試行を実装し、大規模ドキュメント処理用にバッチ API を使用してレート制限を回避し、繰り返しクエリ用にコンテキストキャッシング（100 万トークン/時間あたり$0.0125 存储）を有効にします [[42]], [[71]]。重要な本番システムの場合、専用クォータと SLA 保証を備えた Vertex AI 企業展開を検討します [[101]]。",
+        "ko": "사용자는 특히 관찰 추출 작업에서 환각 문제를 보고하며, 모델이 시각 입력에서 사실상 잘못된 정보를 생성할 수 있습니다 [[62]]. 오디오 입력의 타임스탬프 환각은 2.0 Flash-Lite 에서 알려진 문제였으나 2.5+ 버전에서 해결되었습니다 [[63]]. 속도 제한 병목 현상은 피크 사용 시 발생합니다: 무료 티어 사용자는 분당 5-15 회 요청 제한을 경험하며, 유료 티어는 100 만+ 토큰/분으로 최대 4,000 RPM 을 지원합니다 [[55]], [[24]]. GitHub 이슈는 모델이 과부하일 때 간헐적 503 서비스 이용 불가 오류를 보여주며, 특히 재시도 로직이 없는 프로덕션 워크플로우에 영향을 줍니다 [[77]]. 해결 방법: 3-5 회 시도 지수 백오프 재시도를 구현하고, 대규모 문서 처리용 배치 API 를 사용하여 속도 제한을回避하며, 반복 쿼리용 컨텍스트 캐싱 (백만 토큰/시간당 $0.0125 저장) 을 활성화합니다 [[42]], [[71]]. 중요한 프로덕션 시스템의 경우 전용 쿼터와 SLA 보장을 갖춘 Vertex AI 기업 배포를 고려합니다 [[101]].",
+        "es": "Los usuarios reportan problemas de alucinación específicamente con tareas de extracción de observaciones, donde el modelo puede generar información factualmente incorrecta de entradas visuales [[62]]. Las alucinaciones de marca de tiempo para entradas de audio fueron un problema conocido en 2.0 Flash-Lite pero resuelto en versiones 2.5+ [[63]]. Los cuellos de botella de límites de tasa ocurren durante uso pico: usuarios de nivel gratuito experimentan límites de 5-15 solicitudes por minuto, mientras niveles pagos soportan hasta 4,000 RPM con más de 1M tokens por minuto [[55]], [[24]]. Los issues de GitHub muestran errores ocasionales 503 Servicio No Disponible cuando el modelo está sobrecargado, afectando particularmente flujos de trabajo de producción sin lógica de reintento [[77]]. Solución: Implementar reintento con retroceso exponencial con 3-5 intentos, usar API por lotes para procesamiento de documentos a gran escala para evitar límites de tasa, y habilitar caché de contexto ($0.0125/1M tokens/hora almacenamiento) para consultas repetidas [[42]], [[71]]. Para sistemas de producción críticos, considerar despliegue empresarial Vertex AI con cuotas dedicadas y garantías SLA [[101]]."
+      }
+    },
+    {
+      "question": {
+        "en": "Is there a free tier? What are the actual costs for enterprise-scale deployment?",
+        "zh": "有免费层级吗？企业级部署的实际成本是多少？",
+        "ja": "無料枠はありますか？企業規模展開の実際の費用は？",
+        "ko": "무료 티어가 있는가? 기업 규모 배포의 실제 비용은?",
+        "es": "¿Hay un nivel gratuito? ¿Cuáles son los costos reales para despliegue a escala empresarial?"
+      },
+      "answer": {
+        "en": "Yes, Gemini API offers a free tier with rate limits of 5-15 requests per minute depending on the model [[55]]. Paid pricing starts at $0.25 per million input tokens and $1.50 per million output tokens for Flash-Lite [[1]]. For enterprise-scale deployment, actual costs break down as follows: processing 10 million tokens daily would cost approximately $2.50/day ($75/month) in input tokens plus output costs. Context caching adds $0.0125 per 1M tokens per hour for storage, reducing repeated query costs significantly [[42]]. Vertex AI enterprise deployment includes dedicated quotas, SLA guarantees, and enhanced security but requires separate pricing negotiation [[101]]. Compared to <a href=\"https://www.anthropic.com/claude\" target=\"_blank\" rel=\"nofollow\">Claude Haiku</a> at $0.25/1M input and $1.25/1M output, Gemini Flash-Lite is competitively priced with superior multimodal capabilities [[79]]. Free tier is suitable for prototyping, but production workloads should budget $500-$5,000/month depending on volume.",
+        "zh": "是的，Gemini API 提供免费层级，速率限制根据模型不同为每分钟 5-15 次请求 [[55]]。付费定价从 Flash-Lite 的每百万输入令牌 0.25 美元和每百万输出令牌 1.50 美元起 [[1]]。对于企业级部署，实际成本分解如下：每天处理 1,000 万令牌，输入令牌成本约为每天 2.50 美元（每月 75 美元），加上输出成本。上下文缓存为存储每百万令牌每小时增加 0.0125 美元，显著降低重复查询成本 [[42]]。Vertex AI 企业部署包括专用配额、SLA 保证和增强的安全性，但需要单独定价协商 [[101]]。与 <a href=\"https://www.anthropic.com/claude\" target=\"_blank\" rel=\"nofollow\">Claude Haiku</a> 的每百万输入 0.25 美元和每百万输出 1.25 美元相比，Gemini Flash-Lite 定价具有竞争力且多模态能力更优 [[79]]。免费层适合原型设计，但生产工作流应根据用量预算每月 500-5,000 美元。",
+        "ja": "はい、Gemini API はモデルによって分間 5-15 リクエストのレート制限付き無料ティアを提供します [[55]]。有料価格は Flash-Lite の場合 100 万入力トークンあたり$0.25、100 万出力トークンあたり$1.50 から始まります [[1]]。企業規模展開の場合、実際のコストは次のように内訳されます：1 日 1,000 万トークンを処理すると、入力トークンで約$2.50/日（$75/月）plus 出力コストがかかります。コンテキストキャッシングは存储用に 100 万トークン/時間あたり$0.0125 を追加し、繰り返しクエリコストを大幅に削減します [[42]]。Vertex AI 企業展開には専用クォータ、SLA 保証、強化されたセキュリティが含まれますが、別途価格交渉が必要です [[101]]。<a href=\"https://www.anthropic.com/claude\" target=\"_blank\" rel=\"nofollow\">Claude Haiku</a> の 100 万入力あたり$0.25、100 万出力あたり$1.25 と比較して、Gemini Flash-Lite は競争力のある価格で優れたマルチモーダル機能を提供します [[79]]。無料ティアはプロトタイピングに適していますが、本番ワークロードは用量に応じて月額$500-$5,000 を予算すべきです。",
+        "ko": "예, Gemini API 는 모델에 따라 분당 5-15 회 요청의 속도 제한이 있는 무료 티어를 제공합니다 [[55]]. 유료 가격은 Flash-Lite 의 경우 백만 입력 토큰당 $0.25, 백만 출력 토큰당 $1.50 부터 시작합니다 [[1]]. 기업 규모 배포의 경우 실제 비용은 다음과 같이 분해됩니다: 하루 1 천만 토큰을 처리하면 입력 토큰 비용으로 약 $2.50/일 ($75/월) plus 출력 비용이 듭니다. 컨텍스트 캐싱은 저장용 백만 토큰/시간당 $0.0125 를 추가하여 반복 쿼리 비용을 크게 줄입니다 [[42]]. Vertex AI 기업 배포에는 전용 쿼터, SLA 보증, 강화된 보안이 포함되지만 별도 가격 협상이 필요합니다 [[101]]. <a href=\"https://www.anthropic.com/claude\" target=\"_blank\" rel=\"nofollow\">Claude Haiku</a> 의 백만 입력당 $0.25, 백만 출력당 $1.25 와 비교할 때 Gemini Flash-Lite 는 경쟁력 있는 가격으로 우수한 멀티모달 기능을 제공합니다 [[79]]. 무료 티어는 프로토타이핑에 적합하지만 프로덕션 워크로드는 용량에 따라 월 $500-$5,000 을 예산해야 합니다.",
+        "es": "Sí, Gemini API ofrece un nivel gratuito con límites de tasa de 5-15 solicitudes por minuto dependiendo del modelo [[55]]. Los precios pagos comienzan en $0.25 por millón de tokens de entrada y $1.50 por millón de tokens de salida para Flash-Lite [[1]]. Para despliegue a escala empresarial, los costos reales se desglosan así: procesar 10 millones de tokens diariamente costaría aproximadamente $2.50/día ($75/mes) en tokens de entrada más costos de salida. El caché de contexto agrega $0.0125 por 1M tokens por hora para almacenamiento, reduciendo significativamente los costos de consultas repetidas [[42]]. El despliegue empresarial Vertex AI incluye cuotas dedicadas, garantías SLA y seguridad mejorada pero requiere negociación de precios separada [[101]]. Comparado con <a href=\"https://www.anthropic.com/claude\" target=\"_blank\" rel=\"nofollow\">Claude Haiku</a> a $0.25/1M entrada y $1.25/1M salida, Gemini Flash-Lite tiene precios competitivos con capacidades multimodales superiores [[79]]. El nivel gratuito es adecuado para prototipado, pero las cargas de trabajo de producción deben presupuestar $500-$5,000/mes dependiendo del volumen."
+      }
+    },
+    {
+      "question": {
+        "en": "How does Gemini Flash-Lite integrate with LangChain, LlamaIndex, and AI agent frameworks?",
+        "zh": "Gemini Flash-Lite 如何与 LangChain、LlamaIndex 和 AI 代理框架集成？",
+        "ja": "Gemini Flash-Lite は LangChain、LlamaIndex、AI エージェントフレームワークとどのように統合されますか？",
+        "ko": "Gemini Flash-Lite 는 LangChain, LlamaIndex 및 AI 에이전트 프레임워크와 어떻게 통합되는가?",
+        "es": "¿Cómo se integra Gemini Flash-Lite con LangChain, LlamaIndex y marcos de agentes de IA?"
+      },
+      "answer": {
+        "en": "Gemini Flash-Lite provides native integration through the @langchain/google package, which supports Gemini's built-in tools including web search grounding, code execution, and URL context retrieval [[93]]. For LangChain setup, developers use the ChatGoogleGenerativeAI class with model name 'gemini-3.1-flash-lite-preview' and configure API keys via environment variables [[89]]. LlamaIndex integration follows similar patterns with the LlamaIndex Google AI connector supporting RAG pipelines with Vertex AI embeddings [[92]]. CrewAI supports Flash-Lite as a backend model for multi-agent orchestration, enabling function calling and structured outputs for agent communication [[90]]. The Vercel AI SDK provides a unified interface for switching between Gemini models without code changes. Key advantage: Gemini's native function calling eliminates the need for prompt engineering workarounds required by some competing models. Batch API support enables parallel processing of large document sets through LangChain's map-reduce chains [[71]].",
+        "zh": "Gemini Flash-Lite 通过 @langchain/google 包提供原生集成，支持 Gemini 的内置工具，包括网页搜索接地、代码执行和 URL 上下文检索 [[93]]。对于 LangChain 设置，开发者使用 ChatGoogleGenerativeAI 类，模型名称为'gemini-3.1-flash-lite-preview'，并通过环境变量配置 API 密钥 [[89]]。LlamaIndex 集成遵循类似模式，LlamaIndex Google AI 连接器支持带有 Vertex AI 嵌入的 RAG 流水线 [[92]]。CrewAI 支持 Flash-Lite 作为多代理编排的后端模型，为代理通信启用函数调用和结构化输出 [[90]]。Vercel AI SDK 提供统一接口，无需代码更改即可在 Gemini 模型之间切换。关键优势：Gemini 的原生函数调用消除了某些竞争模型所需的提示工程变通方法。批处理 API 支持通过 LangChain 的 map-reduce 链实现大型文档集的并行处理 [[71]]。",
+        "ja": "Gemini Flash-Lite は @langchain/google パッケージを通じてネイティブ統合を提供し、ウェブ検索接地、コード実行、URL コンテキスト検索を含む Gemini の組み込みツールをサポートします [[93]]。LangChain 設定のために、開発者はモデル名'gemini-3.1-flash-lite-preview'で ChatGoogleGenerativeAI クラスを使用し、環境変数を通じて API キーを設定します [[89]]。LlamaIndex 統合は Vertex AI 埋め込み付き RAG パイプラインをサポートする LlamaIndex Google AI コネクタで同様のパターンに従います [[92]]。CrewAI はマルチエージェントオーケストレーション用のバックエンドモデルとして Flash-Lite をサポートし、エージェント通信用の関数呼び出しと構造化出力を有効にします [[90]]。Vercel AI SDK はコード変更なしで Gemini モデル間を切り替えるための統一インターフェースを提供します。主な利点：Gemini のネイティブ関数呼び出しは、一部の競合モデルで必要なプロンプトエンジニアリングの回避策を不要にします。バッチ API サポートは LangChain の map-reduce チェーンを通じて大型ドキュメントセットの並列処理を可能にします [[71]]。",
+        "ko": "Gemini Flash-Lite 는 @langchain/google 패키지를 통해 네이티브 통합을 제공하며, 웹 검색 그라운딩, 코드 실행 및 URL 컨텍스트 검색을 포함한 Gemini 의 내장 도구를 지원합니다 [[93]]. LangChain 설정을 위해 개발자는 모델 이름 'gemini-3.1-flash-lite-preview'로 ChatGoogleGenerativeAI 클래스를 사용하고 환경 변수를 통해 API 키를 구성합니다 [[89]]. LlamaIndex 통합은 Vertex AI 임베딩과 함께 RAG 파이프라인을 지원하는 LlamaIndex Google AI 커넥터로 유사한 패턴을 따릅니다 [[92]]. CrewAI 는 멀티 에이전트 오케스트레이션용 백엔드 모델로 Flash-Lite 를 지원하며, 에이전트 통신용 함수 호출 및 구조화된 출력을 활성화합니다 [[90]]. Vercel AI SDK 는 코드 변경 없이 Gemini 모델 간 전환을 위한 통일된 인터페이스를 제공합니다. 주요 이점: Gemini 의 네이티브 함수 호출은 일부 경쟁 모델에 필요한 프롬프트 엔지니어링 우회 방법을 불필요하게 합니다. 배치 API 지원은 LangChain 의 map-reduce 체인을 통해 대형 문서 세트의 병렬 처리를 가능하게 합니다 [[71]].",
+        "es": "Gemini Flash-Lite proporciona integración nativa a través del paquete @langchain/google, que soporta las herramientas incorporadas de Gemini incluyendo grounding de búsqueda web, ejecución de código y recuperación de contexto de URL [[93]]. Para configuración de LangChain, los desarrolladores usan la clase ChatGoogleGenerativeAI con nombre de modelo 'gemini-3.1-flash-lite-preview' y configuran claves API vía variables de entorno [[89]]. La integración de LlamaIndex sigue patrones similares con el conector Google AI de LlamaIndex soportando pipelines RAG con embeddings de Vertex AI [[92]]. CrewAI soporta Flash-Lite como modelo backend para orquestación multi-agente, habilitando llamadas a funciones y salidas estructuradas para comunicación de agentes [[90]]. El SDK AI de Vercel proporciona una interfaz unificada para cambiar entre modelos Gemini sin cambios de código. Ventaja clave: las llamadas a funciones nativas de Gemini eliminan la necesidad de soluciones de ingeniería de prompts requeridas por algunos modelos competidores. El soporte de API por lotes permite procesamiento paralelo de grandes conjuntos de documentos a través de cadenas map-reduce de LangChain [[71]]."
+      }
+    },
+    {
+      "question": {
+        "en": "Does Google use my API data for model training? What are the enterprise security guarantees?",
+        "zh": "Google 会使用我的 API 数据进行模型训练吗？企业安全保证是什么？",
+        "ja": "Google は私の API データをモデルトレーニングに使用しますか？企業のセキュリティ保証は？",
+        "ko": "Google 은 내 API 데이터를 모델 훈련에 사용하는가? 기업의 보안 보증은 무엇인가?",
+        "es": "¿Google usa mis datos de API para entrenamiento de modelos? ¿Cuáles son las garantías de seguridad empresarial?"
+      },
+      "answer": {
+        "en": "No, Google does not use Gemini API customer data for training foundation models. This policy applies to both Google AI Studio and Vertex AI deployments [[101]]. Enterprise security guarantees through Vertex AI include: data encryption at rest and in transit, private networking via VPC Service Controls, data residency options for GDPR compliance, and audit logging through Cloud Audit Logs [[101]]. Customer data runs in secure, isolated execution environments with no cross-tenant data access. For regulated industries (healthcare, finance), Vertex AI offers HIPAA-eligible deployments and BAA (Business Associate Agreement) support. API keys should be managed through Secret Manager or environment variables, never hardcoded. Free tier users in Google AI Studio should note that data usage policies may differ from enterprise Vertex AI deployments—review the terms of service carefully for production use cases [[99]].",
+        "zh": "不，Google 不会将 Gemini API 客户数据用于训练基础模型。此政策适用于 Google AI Studio 和 Vertex AI 部署 [[101]]。通过 Vertex AI 的企业安全保证包括：静态和传输中数据加密、通过 VPC 服务控制的私有网络、GDPR 合规的数据驻留选项，以及通过 Cloud Audit Logs 的审计日志 [[101]]。客户数据在安全、隔离的执行环境中运行，无跨租户数据访问。对于受监管行业（医疗、金融），Vertex AI 提供符合 HIPAA 的部署和 BAA（商业伙伴协议）支持。API 密钥应通过 Secret Manager 或环境变量管理，切勿硬编码。Google AI Studio 的免费层用户应注意，数据使用政策可能与企业 Vertex AI 部署不同——生产用例请仔细审查服务条款 [[99]]。",
+        "ja": "いいえ、Google は Gemini API 顧客データを基礎モデルのトレーニングに使用しません。このポリシーは Google AI Studio と Vertex AI 展開の両方に適用されます [[101]]。Vertex AI を通じた企業セキュリティ保証には：保存時および転送中のデータ暗号化、VPC サービスコントロールによるプライベートネットワーキング、GDPR 準拠のデータレジデンシオプション、Cloud Audit Logs による監査ログが含まれます [[101]]。顧客データは安全で隔離された実行環境で実行され、クロステナントデータアクセスはありません。規制業界（医療、金融）向けに、Vertex AI は HIPAA 対象展開と BAA（ビジネスアソシエイト契約）サポートを提供します。API キーは Secret Manager または環境変数を通じて管理し、決してハードコードしないでください。Google AI Studio の無料ティアユーザーは、データ使用ポリシーが企業 Vertex AI 展開と異なる場合があることに注意してください—本番用例では利用規約を慎重にレビューしてください [[99]]。",
+        "ko": "아니요, Google 은 Gemini API 고객 데이터를 기초 모델 훈련에 사용하지 않습니다. 이 정책은 Google AI Studio 와 Vertex AI 배포 모두에 적용됩니다 [[101]]. Vertex AI 를 통한 기업 보안 보증에는: 저장 시 및 전송 중 데이터 암호화, VPC 서비스 컨트롤을 통한 프라이빗 네트워킹, GDPR 준수를 위한 데이터 거주 옵션, Cloud Audit Logs 를 통한 감사 로그가 포함됩니다 [[101]]. 고객 데이터는 안전하고 격리된 실행 환경에서 실행되며 크로스 테넌트 데이터 액세스가 없습니다. 규제 산업 (의료, 금융) 을 위해 Vertex AI 는 HIPAA 대상 배포와 BAA(비즈니스 파트너 계약) 지원을 제공합니다. API 키는 Secret Manager 또는 환경 변수를 통해 관리해야 하며 절대 하드코딩하지 마십시오. Google AI Studio 의 무료 티어 사용자는 데이터 사용 정책이 기업 Vertex AI 배포와 다를 수 있음에 유의하십시오—프로덕션 사용 사례의 경우 이용 약관을 신중하게 검토하십시오 [[99]].",
+        "es": "No, Google no usa los datos de clientes de Gemini API para entrenar modelos fundacionales. Esta política se aplica tanto a despliegues de Google AI Studio como Vertex AI [[101]]. Las garantías de seguridad empresarial a través de Vertex AI incluyen: cifrado de datos en reposo y en tránsito, redes privadas vía Controles de Servicio VPC, opciones de residencia de datos para cumplimiento GDPR, y registro de auditoría a través de Cloud Audit Logs [[101]]. Los datos del cliente se ejecutan en entornos de ejecución seguros y aislados sin acceso de datos entre inquilinos. Para industrias reguladas (salud, finanzas), Vertex AI ofrece despliegues elegibles para HIPAA y soporte de BAA (Acuerdo de Asociado Comercial). Las claves API deben gestionarse a través de Secret Manager o variables de entorno, nunca codificadas. Los usuarios de nivel gratuito en Google AI Studio deben notar que las políticas de uso de datos pueden diferir de los despliegues empresariales de Vertex AI—revisar cuidadosamente los términos de servicio para casos de uso de producción [[99]]."
+      }
+    },
+    {
+      "question": {
+        "en": "Can I use Gemini Flash-Lite for real-time chatbots, code generation, or video analysis workflows?",
+        "zh": "我可以使用 Gemini Flash-Lite 进行实时聊天机器人、代码生成或视频分析工作流吗？",
+        "ja": "Gemini Flash-Lite をリアルタイムチャットボット、コード生成、または動画分析ワークフローに使用できますか？",
+        "ko": "실시간 챗봇, 코드 생성 또는 비디오 분석 워크플로우에 Gemini Flash-Lite 를 사용할 수 있는가?",
+        "es": "¿Puedo usar Gemini Flash-Lite para chatbots en tiempo real, generación de código o flujos de trabajo de análisis de video?"
+      },
+      "answer": {
+        "en": "Yes, these are primary use cases for Gemini 3.1 Flash-Lite. The model excels at real-time chatbots with 363 tokens/second streaming speed and 2.5x faster time-to-first-token, enabling responsive user experiences [[34]]. For code generation, Flash-Lite supports function calling and structured outputs, though complex algorithmic tasks may benefit from Gemini Pro's deeper reasoning [[44]]. Video analysis is a standout capability: the model processes up to 3,000 images per prompt with 1M token context, enabling full-video understanding without frame sampling [[29]]. Users report successful implementations for customer support automation, document Q&A, and multi-language translation at scale [[47]]. However, for agentic orchestration requiring multi-step reasoning and tool use, Gemini 3.1 Pro or alternative models like <a href=\"https://www.anthropic.com/claude\" target=\"_blank\" rel=\"nofollow\">Claude Sonnet</a> may deliver better results despite higher costs [[98]]. Batch API support makes Flash-Lite ideal for overnight processing of large document sets [[71]].",
+        "zh": "是的，这些是 Gemini 3.1 Flash-Lite 的主要用例。该模型以每秒 363 令牌流式传输速度和 2.5 倍更快的首令牌时间在实时聊天机器人方面表现出色，实现响应式用户体验 [[34]]。对于代码生成，Flash-Lite 支持函数调用和结构化输出，但复杂算法任务可能从 Gemini Pro 的更深推理中受益 [[44]]。视频分析是一项突出能力：该模型每个提示处理多达 3,000 张图像，100 万令牌上下文，无需帧采样即可实现完整视频理解 [[29]]。用户报告成功实现客户服务自动化、文档问答和大规模多语言翻译 [[47]]。然而，对于需要多步推理和工具使用的代理编排，Gemini 3.1 Pro 或 <a href=\"https://www.anthropic.com/claude\" target=\"_blank\" rel=\"nofollow\">Claude Sonnet</a> 等替代模型可能提供更好的结果，尽管成本更高 [[98]]。批处理 API 支持使 Flash-Lite 成为大型文档集夜间处理的理想选择 [[71]]。",
+        "ja": "はい、これらは Gemini 3.1 Flash-Lite の主要なユースケースです。モデルは秒間 363 トークンのストリーミング速度と 2.5 倍高速な初回トークン時間でリアルタイムチャットボットに優れ、応答性の高いユーザー体験を実現します [[34]]。コード生成の場合、Flash-Lite は関数呼び出しと構造化出力をサポートしますが、複雑なアルゴリズムタスクは Gemini Pro のより深い推論から恩恵を受ける可能性があります [[44]]。動画分析は際立った機能です：モデルは 100 万トークンコンテキストでプロンプトあたり最大 3,000 画像を処理し、フレームサンプリングなしで完全な動画理解を可能にします [[29]]。ユーザーは顧客サポート自動化、ドキュメント Q&A、大規模多言語翻訳の成功実装を報告しています [[47]]。ただし、多段階推論とツール使用を必要とするエージェントオーケストレーションの場合、Gemini 3.1 Pro や <a href=\"https://www.anthropic.com/claude\" target=\"_blank\" rel=\"nofollow\">Claude Sonnet</a> などの代替モデルがコストが高くてもより良い結果を提供する可能性があります [[98]]。バッチ API サポートは Flash-Lite を大型ドキュメントセットの夜間処理に理想にします [[71]]。",
+        "ko": "예, 이들은 Gemini 3.1 Flash-Lite 의 주요 사용 사례입니다. 모델은 초당 363 토큰 스트리밍 속도와 2.5 배 빠른 첫 토큰 시간으로 실시간 챗봇에 우수하며, 응답성 있는 사용자 경험을 구현합니다 [[34]]. 코드 생성의 경우 Flash-Lite 는 함수 호출 및 구조화된 출력을 지원하지만, 복잡한 알고리즘 작업은 Gemini Pro 의 더 깊은 추론으로부터 혜택을 받을 수 있습니다 [[44]]. 비디오 분석은 두드러진 기능입니다: 모델은 100 만 토큰 컨텍스트로 프롬프트당 최대 3,000 이미지를 처리하며, 프레임 샘플링 없이 완전한 비디오 이해를 가능하게 합니다 [[29]]. 사용자는 고객 지원 자동화, 문서 Q&A 및 대규모 다국어 번역의 성공적인 구현을 보고합니다 [[47]]. 그러나 다단계 추론과 도구 사용이 필요한 에이전트 오케스트레이션의 경우, Gemini 3.1 Pro 나 <a href=\"https://www.anthropic.com/claude\" target=\"_blank\" rel=\"nofollow\">Claude Sonnet</a> 같은 대체 모델이 비용이 더 높더라도 더 나은 결과를 제공할 수 있습니다 [[98]]. 배치 API 지원은 Flash-Lite 를 대형 문서 세트의 야간 처리에 이상적으로 만듭니다 [[71]].",
+        "es": "Sí, estos son casos de uso principales para Gemini 3.1 Flash-Lite. El modelo sobresale en chatbots en tiempo real con velocidad de streaming de 363 tokens/segundo y tiempo hasta primer token 2.5x más rápido, permitiendo experiencias de usuario responsivas [[34]]. Para generación de código, Flash-Lite soporta llamadas a funciones y salidas estructuradas, aunque tareas algorítmicas complejas pueden beneficiarse del razonamiento más profundo de Gemini Pro [[44]]. El análisis de video es una capacidad destacada: el modelo procesa hasta 3,000 imágenes por prompt con contexto de 1M tokens, permitiendo comprensión completa de video sin muestreo de frames [[29]]. Los usuarios reportan implementaciones exitosas para automatización de soporte al cliente, Q&A de documentos y traducción multi-idioma a escala [[47]]. Sin embargo, para orquestación agentiva que requiere razonamiento multi-paso y uso de herramientas, Gemini 3.1 Pro o modelos alternativos como <a href=\"https://www.anthropic.com/claude\" target=\"_blank\" rel=\"nofollow\">Claude Sonnet</a> pueden entregar mejores resultados a pesar de costos más altos [[98]]. El soporte de API por lotes hace a Flash-Lite ideal para procesamiento nocturno de grandes conjuntos de documentos [[71]]."
+      }
+    },
+    {
+      "question": {
+        "en": "What thinking levels does Gemini Flash-Lite support and when should I use each?",
+        "zh": "Gemini Flash-Lite 支持哪些思考层级？何时应该使用每个层级？",
+        "ja": "Gemini Flash-Lite はどの思考レベルをサポートし、いつそれぞれを使用すべきですか？",
+        "ko": "Gemini Flash-Lite 는 어떤 사고 레벨을 지원하며 언제 각각을 사용해야 하는가?",
+        "es": "¿Qué niveles de pensamiento soporta Gemini Flash-Lite y cuándo debo usar cada uno?"
+      },
+      "answer": {
+        "en": "Gemini 3.1 Flash-Lite introduces configurable thinking levels that balance speed and reasoning depth—a game-changer for production workflows [[49]]. The model supports multiple thinking budgets: minimal thinking for simple classification/extraction tasks (fastest, lowest cost), standard thinking for general Q&A and translation (balanced), and extended thinking for complex reasoning requiring multi-step analysis [[50]]. According to Artificial Analysis benchmarks, extended thinking mode increases accuracy by 15-20% on complex tasks but adds 2-3x latency [[34]]. Recommended usage: use minimal thinking for high-volume content moderation, real-time chat responses, and data extraction where speed is critical [[35]]. Use standard thinking for customer support automation, document summarization, and multi-language translation. Reserve extended thinking for financial analysis, legal document review, or tasks requiring factual verification with Google Search grounding. The thinking level can be configured via API parameters, allowing dynamic adjustment based on task complexity without model switching.",
+        "zh": "Gemini 3.1 Flash-Lite 引入可配置的思考层级，平衡速度和推理深度——这是生产工作流的游戏规则改变者 [[49]]。该模型支持多种思考预算：简单分类/提取任务的最小思考（最快、最低成本）、一般问答和翻译的标准思考（平衡），以及需要多步分析的复杂推理的扩展思考 [[50]]。根据 Artificial Analysis 基准测试，扩展思考模式在复杂任务上提高 15-20% 准确性，但增加 2-3 倍延迟 [[34]]。建议用法：对大批量内容审核、实时聊天响应和速度关键的数据提取使用最小思考 [[35]]。对客户支持自动化、文档摘要和多语言翻译使用标准思考。为财务分析、法律文档审查或需要 Google Search 接地事实验证的任务保留扩展思考。思考层级可通过 API 参数配置，允许根据任务复杂度动态调整而无需切换模型。",
+        "ja": "Gemini 3.1 Flash-Lite は速度と推論深度をバランスする構成可能な思考レベルを導入します—本番ワークフローのゲームチェンジャーです [[49]]。モデルは複数の思考予算をサポートします：単純な分類/抽出タスク用の最小思考（最速、最低コスト）、一般 Q&A と翻訳用の標準思考（バランス）、多段階分析を必要とする複雑な推論用の拡張思考 [[50]]。Artificial Analysis ベンチマークによると、拡張思考モードは複雑なタスクで精度を 15-20% 向上させますが、2-3 倍のレイテンシを追加します [[34]]。推奨使用法：大量コンテンツモデレーション、リアルタイムチャット応答、速度が重要なデータ抽出に最小思考を使用します [[35]]。顧客サポート自動化、ドキュメント要約、多言語翻訳に標準思考を使用します。財務分析、法律ドキュメントレビュー、Google Search 接地による事実験証を必要とするタスクには拡張思考を予約します。思考レベルは API パラメータを通じて構成可能で、モデル切り替えなしでタスクの複雑さに基づく動的調整を可能にします。",
+        "ko": "Gemini 3.1 Flash-Lite 는 속도와 추론 깊이를 균형있게 조정하는 구성 가능한 사고 레벨을 도입합니다—프로덕션 워크플로우의 게임 체인저입니다 [[49]]. 모델은 여러 사고 예산을 지원합니다: 단순 분류/추출 작업용 최소 사고 (가장 빠름, 최저 비용), 일반 Q&A 및 번역용 표준 사고 (균형), 다단계 분석이 필요한 복잡한 추론용 확장 사고 [[50]]. Artificial Analysis 벤치마크에 따르면 확장 사고 모드는 복잡한 작업에서 정확도를 15-20% 향상시키지만 2-3 배 지연을 추가합니다 [[34]]. 권장 사용법: 대량 콘텐츠 조정, 실시간 채팅 응답, 속도가 중요한 데이터 추출에 최소 사고를 사용합니다 [[35]]. 고객 지원 자동화, 문서 요약, 다국어 번역에 표준 사고를 사용합니다. 재무 분석, 법률 문서 검토 또는 Google Search 그라운딩과 함께 사실 검증이 필요한 작업에는 확장 사고를 예약합니다. 사고 레벨은 API 매개변수를 통해 구성할 수 있어 모델 전환 없이 작업 복잡도에 따른 동적 조정을 가능하게 합니다.",
+        "es": "Gemini 3.1 Flash-Lite introduce niveles de pensamiento configurables que equilibran velocidad y profundidad de razonamiento—un cambio de juego para flujos de trabajo de producción [[49]]. El modelo soporta múltiples presupuestos de pensamiento: pensamiento mínimo para tareas simples de clasificación/extracción (más rápido, menor costo), pensamiento estándar para Q&A general y traducción (equilibrado), y pensamiento extendido para razonamiento complejo que requiere análisis multi-paso [[50]]. Según benchmarks de Artificial Analysis, el modo de pensamiento extendido aumenta la precisión en 15-20% en tareas complejas pero agrega 2-3x de latencia [[34]]. Uso recomendado: usar pensamiento mínimo para moderación de contenido de alto volumen, respuestas de chat en tiempo real, y extracción de datos donde la velocidad es crítica [[35]]. Usar pensamiento estándar para automatización de soporte al cliente, resumen de documentos, y traducción multi-idioma. Reservar pensamiento extendido para análisis financiero, revisión de documentos legales, o tareas que requieren verificación factual con grounding de Google Search. El nivel de pensamiento se puede configurar vía parámetros de API, permitiendo ajuste dinámico basado en complejidad de tarea sin cambio de modelo."
+      }
+    }
+  ],
+  "seo_title_jsonb": {
+    "en": "Gemini 3.1 Flash-Lite Review 2026: Pricing, Pros & Cons, GPT-4o Mini Alternative",
+    "zh": "Gemini 3.1 Flash-Lite 怎么样？2026 最新评测：价格、优缺点与 GPT-4o Mini 竞品对比",
+    "ja": "【徹底レビュー】Gemini 3.1 Flash-Lite の評判は？料金・使い方・GPT-4o Mini 代替モデル",
+    "ko": "Gemini 3.1 Flash-Lite 솔직 후기: 가격, 장단점 및 GPT-4o Mini 대안 추천 (완벽 정리)",
+    "es": "Opiniones de Gemini 3.1 Flash-Lite: Precio, Ventajas y Alternativas a GPT-4o Mini"
+  },
+  "seo_description_jsonb": {
+    "en": "Google's fastest AI model at $0.25/1M tokens. Review covers 363 tokens/sec speed, 1M context window, rate limits, hallucination issues & LangChain integration. Free tier available.",
+    "zh": "谷歌最快 AI 模型，每百万令牌 0.25 美元。评测涵盖每秒 363 令牌速度、100 万上下文窗口、速率限制、幻觉问题及 LangChain 集成。提供免费层级。",
+    "ja": "100 万トークンあたり$0.25 の Google 最速 AI モデル。秒間 363 トークン速度、100 万コンテキスト、レート制限、幻覚問題、LangChain 統合をレビュー。無料枠あり。",
+    "ko": "백만 토큰당 $0.25 의 Google 최고속 AI 모델. 초당 363 토큰 속도, 100 만 컨텍스트, 속도 제한, 환각 문제 및 LangChain 통합 리뷰. 무료 티어 제공.",
+    "es": "El modelo de IA más rápido de Google a $0.25/1M tokens. Reseña cubre velocidad 363 tokens/seg, ventana 1M contexto, límites de tasa, problemas de alucinación e integración LangChain. Nivel gratuito disponible."
+  },
+  "_citations_dump": [
+    "https://vertu.com/guides/gemini-3-1-flash-lite-2026-features-beginners-checklist/",
+    "https://www.ai.cc/blogs/gemini-3-1-flash-lite-preview-2026-cheapest-fastest-gemini-model/",
+    "https://calculator.holori.com/llm/google/vertex_ai%2Fgemini-3.1-flash-lite-preview",
+    "https://lovableapp.org/blog/gemini-3-1-flash-lite-2026-guide",
+    "https://www.tldl.io/resources/google-gemini-api-pricing",
+    "https://macaron.im/blog/gemini-flash-lite-pricing",
+    "https://phemex.com/news/article/google-unveils-gemini-31-flashlite-cutting-costs-and-outperforming-rivals-64075/",
+    "https://artificialanalysis.ai/models/comparisons/gemini-3-1-flash-lite-preview-vs-gemini-3-pro",
+    "https://docsbot.ai/models/compare/gemini-1-0-pro/gemini-3-1-flash-lite",
+    "https://www.verdent.ai/guides/what-is-gemini-3-1-flash-lite",
+    "https://wavespeed.ai/blog/posts/blog-gemini-3-1-flash-lite/",
+    "https://www.automateed.com/gemini-3-1-flash-lite-review",
+    "https://dev.to/googleai/gemini-31-flash-lite-developer-guide-and-use-cases-1hh",
+    "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview",
+    "https://x.com/rohanpaul_ai/status/1894468944368734544",
+    "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Lite-Model-Card.pdf",
+    "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
+    "https://x.com/_philschmid/status/1894448394761806080",
+    "https://developers.googleblog.com/en/gemini-2-family-expands/",
+    "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-0-flash-lite",
+    "https://x.com/juliarturc/status/2028874321775698083",
+    "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-1-flash-lite",
+    "https://deepmind.google/models/gemini/flash-lite/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+    "https://automatio.ai/models/gemini-3-1-flash-lite",
+    "https://www.datastudios.org/post/gemini-token-limits-and-context-windows",
+    "https://developers.googleblog.com/en/gemini-25-flash-lite-is-now-stable-and-generally-available/",
+    "https://firebase.google.com/docs/ai-logic/models",
+    "https://ai.google.dev/gemini-api/docs/pricing",
+    "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash-lite",
+    "https://www.linkedin.com/posts/juliangoldieseo_new-gemini-31-flash-lite-is-insane-activity-7435262241802739712-VDxs",
+    "https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7434629917331460096-BLTs",
+    "https://openrouter.ai/google/gemini-3.1-flash-lite-preview",
+    "https://aifreeapi.com/en/posts/gemini-api-rate-limits-per-tier",
+    "https://gemini-api.apidog.io/doc-965865",
+    "https://blog.laozhang.ai/en/posts/gemini-api-free-tier",
+    "https://ai.google.dev/gemini-api/docs/rate-limits",
+    "https://github.com/google-gemini/gemini-cli/discussions/2436",
+    "https://docs.cloud.google.com/gemini/docs/quotas",
+    "https://support.google.com/gemini/thread/400904312/rate-limits-gemini-flash-3-0-and-2-5?hl=en",
+    "https://geminicli.com/docs/resources/quota-and-pricing/",
+    "https://github.com/thedotmack/claude-mem/issues/1259",
+    "https://discuss.ai.google.dev/t/gemini-2-0-flash-lite-timestamp-hallucinations-for-audio-but-not-video-since-going-into-ga/69370",
+    "https://docs.oracle.com/en-us/iaas/Content/generative-ai/google-gemini-2-5-flash-lite.htm",
+    "https://www.instagram.com/reel/DSgPc1ujaad/",
+    "https://developers.googleblog.com/simulating-a-neural-operating-system-with-gemini-2-5-flash-lite/",
+    "https://github.com/google-gemini/gemini-cli/issues/21572",
+    "https://github.com/googleapis/python-genai/issues/1586",
+    "https://github.com/badlogic/pi-mono/issues/1785",
+    "https://github.com/googleapis/python-genai/issues/1893",
+    "https://getgoapi.com/en/models/gemini-flash-lite-latest-thinking/docs",
+    "https://github.com/zed-industries/zed/issues/43040",
+    "https://jiekou.ai/models/model-detail/gemini-2.5-flash-lite",
+    "https://github.com/googleapis/googleapis/discussions/1129",
+    "https://docsbot.ai/models/compare/gpt-4o-mini/gemini-3-1-flash-lite",
+    "https://macaron.im/blog/gemini-flash-lite-vs-gpt4o-mini-vs-claude-haiku",
+    "https://docsbot.ai/models/compare/gpt-4o/gemini-3-1-flash-lite",
+    "https://artificialanalysis.ai/models/comparisons/gemini-3-1-flash-lite-preview-vs-gpt-4o-mini",
+    "https://docsbot.ai/models/compare/gpt-4-1-mini/gemini-3-1-flash-lite",
+    "https://vertu.com/guides/gemini-3-1-flash-lite-vs-chatgpt-2026-roi-guide/",
+    "https://artificialanalysis.ai/models/comparisons/gemini-3-flash-reasoning-vs-gpt-4o-mini",
+    "https://blog.galaxy.ai/compare/gemini-3-flash-preview-vs-gpt-4o-mini",
+    "https://slashdot.org/software/comparison/GPT-4o-mini-vs-Gemini-2.0-Flash-Lite/",
+    "https://writingmate.ai/models/compare/openai/gpt-5.4-vs-google/gemini-3.1-flash-lite-preview",
+    "https://www.linkedin.com/posts/pavanteja-kamma_just-built-an-automated-website-generator-activity-7405183639417896960-LGCx",
+    "https://latenode.com/blog/ai-frameworks-technical-infrastructure/langchain-setup-tools-agents-memory/langchain-google-gemini-integration-complete-setup-guide-code-examples-2025",
+    "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash-lite?hl=zh-cn",
+    "https://zilliz.com/tutorials/rag/langchain-and-langchain-vector-store-and-google-vertex-ai-gemini-2.0-flash-lite-and-voyage-3",
+    "https://docs.langchain.com/oss/javascript/integrations/tools/google",
+    "https://zilliz.com/tutorials/rag/langchain-and-faiss-and-google-vertex-ai-gemini-2.0-flash-lite-and-cohere-embed-multilingual-v3.0",
+    "https://www.techbuzz.ai/articles/google-unveils-gemini-3-1-flash-lite-for-enterprise-scale",
+    "https://aibusiness.com/foundation-models/gemini-flash-lite-offers-choice-processes-inputs",
+    "https://thenewstack.io/google-gemini-3-1-flash-lite/",
+    "https://chatsmith.io/blogs/ai-guide/what-is-gemini-2-5-flash-lite-00023",
+    "https://docs.cloud.google.com/gemini/enterprise/docs/security-overview",
+    "https://openrouter.ai/google/gemini-2.5-flash-lite",
+    "https://www.linkedin.com/posts/google-cloud_introducing-gemini-31-flash-lite-our-fastest-activity-7434638651206053888-7Kso"
+  ]
+}
