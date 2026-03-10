@@ -46,32 +46,6 @@
     "ko": ["1,048,576 토큰 컨텍스트 윈도우, 최대 출력 65,536", "Gemini 2.5 Flash 대비 2.5 배 빠른 첫 토큰 시간", "초당 363 토큰 스트리밍 속도 (2.5 Flash 보다 45% 빠름)", "다중 티어 속도 제한: 무료 5-15 RPM, 유료 4,000 RPM", "LangChain, LlamaIndex, CrewAI, Vercel AI SDK 네이티브 통합", "함수 호출, 코드 실행 및 구조화된 출력", "사실 정확성을 위한 Google Search 그라운딩", "대규모 문서 처리용 배치 API 지원", "멀티모달 입력: 텍스트, 이미지, 오디오, 비디오 지원", "속도와 추론 깊이 균형을 위한 사고 레벨"],
     "es": ["Ventana de contexto de 1,048,576 tokens con 65,536 máximos de salida", "Tiempo hasta primer token 2.5x más rápido vs Gemini 2.5 Flash", "Velocidad de streaming de 363 tokens/segundo (45% más rápido que 2.5 Flash)", "Límites de tasa multi-nivel: 5-15 RPM gratis, 4,000 RPM pago", "Integración nativa LangChain, LlamaIndex, CrewAI, Vercel AI SDK", "Llamadas a funciones, ejecución de código y salidas estructuradas", "Grounding con Google Search para precisión factual", "Soporte de API por lotes para procesamiento de documentos a gran escala", "Entrada multimodal: soporte texto, imágenes, audio, video", "Niveles de pensamiento para equilibrar velocidad y profundidad de razonamiento"]
   },
-  "videos_jsonb": [
-    {
-      "type": "youtube",
-      "videoId": "dQw4w9WgXcQ",
-      "title": "Gemini 3.1 Flash-Lite Official Launch - Google AI",
-      "uploadDate": "2026-03-01T14:00:00Z",
-      "description": "Official announcement of Gemini 3.1 Flash-Lite with pricing, performance benchmarks, and use case demonstrations",
-      "duration": "PT5M30S"
-    },
-    {
-      "type": "youtube",
-      "videoId": "xvFZjo5PgG0",
-      "title": "Building High-Volume AI Automation with Gemini Flash-Lite",
-      "uploadDate": "2026-02-15T10:30:00Z",
-      "description": "Complete tutorial on integrating Gemini Flash-Lite with LangChain for enterprise automation workflows",
-      "duration": "PT15M45S"
-    },
-    {
-      "type": "youtube",
-      "videoId": "9bZkp7q19f0",
-      "title": "Gemini 3.1 Flash-Lite vs GPT-4o Mini - 2026 Comparison",
-      "uploadDate": "2026-03-05T09:00:00Z",
-      "description": "Head-to-head benchmark comparison of speed, accuracy, and cost between Gemini Flash-Lite and GPT-4o Mini",
-      "duration": "PT11M20S"
-    }
-  ],
   "verdict_jsonb": {
     "en": {
       "summary": "Gemini 3.1 Flash-Lite is the **cost-optimal** choice for **developers and enterprises** who need to **process high-volume AI workloads at minimal cost**. At $0.25/1M input tokens with 363 tokens/second speed, it undercuts competitors while delivering production-grade performance.",
