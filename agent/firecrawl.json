@@ -1,0 +1,349 @@
+
+
+
+{
+  "slug": "firecrawl",
+  "brand_slug": "firecrawl",
+  "name_jsonb": {
+    "en": "Firecrawl",
+    "zh": "Firecrawl",
+    "ja": "Firecrawl",
+    "ko": "Firecrawl",
+    "es": "Firecrawl"
+  },
+  "tagline_jsonb": {
+    "en": "The web crawling and scraping API that turns entire websites into LLM-ready markdown.",
+    "zh": "专为 AI 打造的网页爬取与抓取 API，将整个网站转化为 LLM 就绪的 Markdown。",
+    "ja": "Webサイト全体をLLM対応のMarkdownに変換する、AIのためのWebクローリング＆スクレイピングAPI。",
+    "ko": "전체 웹사이트를 LLM용 마크다운으로 변환하는 AI를 위한 웹 크롤링 및 스크래핑 API.",
+    "es": "La API de rastreo y extracción web que convierte sitios web enteros en markdown listo para LLM."
+  },
+  "description_jsonb": {
+    "en": "> **Executive Summary:** Firecrawl is an AI-powered web scraping and crawling API by Mendable.ai that transforms messy websites into clean, structured Markdown or JSON. Designed for developers building Large Language Models (LLMs), RAG systems, and AI agents, it automates the heavy lifting of JavaScript rendering, proxy rotation, and anti-bot bypass.\n\nFirecrawl fundamentally changes how developers acquire web data for AI. Historically, scraping required building custom pipelines with Puppeteer or Scrapy, managing proxy pools, and writing brittle CSS selectors. Firecrawl abstracts this into a single API call. With endpoints like `/scrape`, `/crawl`, `/map`, and `/extract`, it can navigate entire domains, bypass basic anti-bot protections, and use AI to pull specific data points via natural language prompts. It boasts native integrations with <a href=\"https://www.linkstartai.com/en/agents/langchain\">LangChain</a>, LlamaIndex, and CrewAI, making it a plug-and-play solution for AI workflows.\n\nFirecrawl offers a **Freemium** plan with 500 free credits per month, with paid tiers starting at **$16**. It is more expensive than average for this category, primarily due to its credit-based pricing model where advanced features (like stealth mode or JSON extraction) consume multiple credits per request. Despite the cost, its ability to deliver perfectly formatted Markdown saves countless hours of data cleaning.",
+    "zh": "> **核心摘要：** Firecrawl 是由 Mendable.ai 开发的 AI 驱动的网页抓取和爬虫 API，能够将混乱的网页转化为干净、结构化的 Markdown 或 JSON。它专为构建大语言模型 (LLM)、RAG 系统和 AI 智能体的开发者设计，自动处理 JavaScript 渲染、代理轮换和反爬虫绕过等繁重工作。\n\nFirecrawl 彻底改变了开发者为 AI 获取网络数据的方式。过去，抓取数据需要使用 Puppeteer 或 Scrapy 构建自定义流水线，管理代理池，并编写脆弱的 CSS 选择器。Firecrawl 将这一切抽象为一个简单的 API 调用。通过 `/scrape`、`/crawl`、`/map` 和 `/extract` 等端点，它可以遍历整个域名，绕过基础的反爬虫保护，并使用 AI 通过自然语言提示提取特定数据点。它原生集成了 <a href=\"https://www.linkstartai.com/zh/agents/langchain\">LangChain</a>、LlamaIndex 和 CrewAI，使其成为 AI 工作流的即插即用解决方案。\n\nFirecrawl 提供**免费增值**计划，每月包含 500 个免费积分，付费版本起价为 **$16**。由于其基于积分的定价模型（高级功能如隐身模式或 JSON 提取每次请求会消耗多个积分），它在同类产品中属于价格较高的选择。尽管成本较高，但其提供完美格式化 Markdown 的能力节省了无数的数据清洗时间。",
+    "ja": "> **エグゼクティブサマリー：** Firecrawlは、Mendable.aiによるAI搭載のWebスクレイピングおよびクローリングAPIであり、乱雑なWebサイトをクリーンで構造化されたMarkdownまたはJSONに変換します。大規模言語モデル（LLM）、RAGシステム、AIエージェントを構築する開発者向けに設計されており、JavaScriptのレンダリング、プロキシのローテーション、ボット対策のバイパスなどの面倒な作業を自動化します。\n\nFirecrawlは、開発者がAI用のWebデータを取得する方法を根本的に変えます。これまで、スクレイピングにはPuppeteerやScrapyを使用したカスタムパイプラインの構築、プロキシプールの管理、壊れやすいCSSセレクターの記述が必要でした。Firecrawlはこれを単一のAPI呼び出しに抽象化します。`/scrape`、`/crawl`、`/map`、`/extract`などのエンドポイントを使用すると、ドメイン全体をナビゲートし、基本的なボット対策をバイパスし、自然言語プロンプトを介してAIを使用して特定のデータポイントを抽出できます。<a href=\"https://www.linkstartai.com/ja/agents/langchain\">LangChain</a>、LlamaIndex、CrewAIとのネイティブ統合を誇り、AIワークフローのプラグアンドプレイソリューションとなっています。\n\nFirecrawlは、月額500の無料クレジットを含む**フリーミアム**プランを提供しており、有料枠は**$16**から始まります。高度な機能（ステルスモードやJSON抽出など）はリクエストごとに複数のクレジットを消費するクレジットベースの価格設定モデルのため、このカテゴリの平均よりも高価です。コストはかかりますが、完全にフォーマットされたMarkdownを提供する機能により、データクリーニングの時間を無数に節約できます。",
+    "ko": "> **핵심 요약:** Firecrawl은 Mendable.ai에서 개발한 AI 기반 웹 스크래핑 및 크롤링 API로, 지저분한 웹사이트를 깔끔하고 구조화된 마크다운 또는 JSON으로 변환합니다. 대규모 언어 모델(LLM), RAG 시스템 및 AI 에이전트를 구축하는 개발자를 위해 설계되었으며 JavaScript 렌더링, 프록시 순환 및 봇 방지 우회와 같은 까다로운 작업을 자동화합니다。\n\nFirecrawl은 개발자가 AI용 웹 데이터를 수집하는 방식을 근본적으로 바꿉니다. 역사적으로 스크래핑에는 Puppeteer 또는 Scrapy를 사용하여 사용자 지정 파이프라인을 구축하고, 프록시 풀을 관리하고, 깨지기 쉬운 CSS 선택기를 작성해야 했습니다. Firecrawl은 이를 단일 API 호출로 추상화합니다. `/scrape`, `/crawl`, `/map` 및 `/extract`와 같은 엔드포인트를 사용하여 전체 도메인을 탐색하고, 기본적인 봇 방지 보호를 우회하고, 자연어 프롬프트를 통해 AI를 사용하여 특정 데이터 포인트를 추출할 수 있습니다. <a href=\"https://www.linkstartai.com/ko/agents/langchain\">LangChain</a>, LlamaIndex 및 CrewAI와의 기본 통합을 자랑하므로 AI 워크플로를 위한 플러그 앤 플레이 솔루션입니다.\n\nFirecrawl은 월 500개의 무료 크레딧이 포함된 **프리미엄(Freemium)** 요금제를 제공하며 유료 등급은 **$16**부터 시작합니다. 고급 기능(예: 스텔스 모드 또는 JSON 추출)이 요청당 여러 크레딧을 소비하는 크레딧 기반 가격 책정 모델로 인해 이 범주의 평균보다 비쌉니다. 비용에도 불구하고 완벽하게 형식화된 마크다운을 제공하는 기능은 데이터 정리 시간을 무수히 절약해 줍니다.",
+    "es": "> **Resumen Ejecutivo:** Firecrawl es una API de rastreo y extracción web impulsada por IA de Mendable.ai que transforma sitios web desordenados en Markdown o JSON limpio y estructurado. Diseñado para desarrolladores que construyen Modelos de Lenguaje Grande (LLM), sistemas RAG y agentes de IA, automatiza el trabajo pesado de renderizado de JavaScript, rotación de proxies y evasión de anti-bots.\n\nFirecrawl cambia fundamentalmente la forma en que los desarrolladores adquieren datos web para la IA. Históricamente, el scraping requería construir canales personalizados con Puppeteer o Scrapy, administrar grupos de proxies y escribir selectores CSS frágiles. Firecrawl abstrae esto en una sola llamada a la API. Con puntos finales como `/scrape`, `/crawl`, `/map` y `/extract`, puede navegar por dominios enteros, eludir protecciones anti-bot básicas y usar IA para extraer puntos de datos específicos a través de indicaciones en lenguaje natural. Cuenta con integraciones nativas con <a href=\"https://www.linkstartai.com/es/agents/langchain\">LangChain</a>, LlamaIndex y CrewAI, lo que lo convierte en una solución plug-and-play para flujos de trabajo de IA.\n\nFirecrawl ofrece un plan **Freemium** con 500 créditos gratuitos por mes, con niveles pagos a partir de **$16**. Es más caro que el promedio para esta categoría, principalmente debido a su modelo de precios basado en créditos donde las funciones avanzadas (como el modo sigiloso o la extracción JSON) consumen múltiples créditos por solicitud. A pesar del costo, su capacidad para entregar Markdown perfectamente formateado ahorra innumerables horas de limpieza de datos."
+  },
+  "category_id": "8fe2e40c-8466-4a36-9337-6ddae9dc247e",
+  "solution_category_id": "0af4fb71-9012-476f-9481-093464fa59b4",
+  "website_url": "https://www.firecrawl.dev/",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/firecrawl.jpg",
+  "pricing_model": "freemium",
+  "paid_options_from": "$16",
+  "billing_frequency": "month",
+  "rating": 4.1,
+  "review_count": 185,
+  "supported_languages":[
+    "en",
+    "zh",
+    "ja",
+    "ko",
+    "es"
+  ],
+  "tags_jsonb": {
+    "en":[
+      "#WebScraping",
+      "#DataExtraction",
+      "#LLMReady",
+      "#RAG",
+      "#APITools"
+    ],
+    "zh":[
+      "#网页抓取",
+      "#数据提取",
+      "#LLM就绪",
+      "#RAG",
+      "#API工具"
+    ],
+    "ja":[
+      "#Webスクレイピング",
+      "#データ抽出",
+      "#LLM対応",
+      "#RAG",
+      "#APIツール"
+    ],
+    "ko":[
+      "#웹스크래핑",
+      "#데이터추출",
+      "#LLM준비",
+      "#RAG",
+      "#API도구"
+    ],
+    "es":[
+      "#WebScraping",
+      "#ExtracciónDeDatos",
+      "#ListoParaLLM",
+      "#RAG",
+      "#HerramientasAPI"
+    ]
+  },
+  "features_jsonb": {
+    "en":[
+      "LLM-ready Markdown",
+      "JS Rendering",
+      "Anti-bot Bypass",
+      "AI Extraction"
+    ],
+    "zh":[
+      "LLM就绪Markdown",
+      "JS渲染",
+      "反爬虫绕过",
+      "AI提取"
+    ],
+    "ja":[
+      "LLM対応Markdown",
+      "JSレンダリング",
+      "ボット対策バイパス",
+      "AI抽出"
+    ],
+    "ko":[
+      "LLM용 마크다운",
+      "JS 렌더링",
+      "봇 방지 우회",
+      "AI 추출"
+    ],
+    "es":[
+      "Markdown listo para LLM",
+      "Renderizado JS",
+      "Evasión Anti-bot",
+      "Extracción con IA"
+    ]
+  },
+  "videos_jsonb":[],
+  "verdict_jsonb": {
+    "en": {
+      "summary": "`Firecrawl` is the **definitive** choice for **AI developers** who need to **automate web data extraction for RAG pipelines**.",
+      "expert_quote": "LinkStart AI Lab note: \"Firecrawl bridges the gap between the unstructured web and LLMs, though its credit-based pricing requires careful budget management at scale.\"",
+      "pros":[
+        "Outputs clean LLM-ready Markdown and JSON",
+        "Handles JS-heavy sites and basic anti-bot measures automatically",
+        "Excellent SDKs and native LangChain/CrewAI integrations"
+      ],
+      "cons":[
+        "Credit system makes costs unpredictable at scale",
+        "Struggles with heavily protected sites (e.g., Cloudflare) compared to enterprise scrapers",
+        "Cloud-only advanced features"
+      ]
+    },
+    "zh": {
+      "summary": "`Firecrawl` 是**AI 开发者**为 **RAG 流水线实现网页数据提取自动化**的**绝对**首选。",
+      "expert_quote": "LinkStart AI Lab 评语：“Firecrawl 弥合了非结构化网络与 LLM 之间的鸿沟，尽管其基于积分的定价在规模化应用时需要仔细的预算管理。”",
+      "pros":[
+        "输出干净的、LLM 就绪的 Markdown 和 JSON",
+        "自动处理重度 JS 网站和基础反爬措施",
+        "出色的 SDK 和原生的 LangChain/CrewAI 集成"
+      ],
+      "cons":[
+        "积分系统导致规模化成本不可预测",
+        "在面对强力保护的网站（如 Cloudflare）时表现不如企业级抓取工具",
+        "高级功能仅限云端版本"
+      ]
+    },
+    "ja": {
+      "summary": "`Firecrawl` は、**RAGパイプラインのWebデータ抽出を自動化**する必要がある**AI開発者**にとって**決定的**な選択肢です。",
+      "expert_quote": "LinkStart AI Labのコメント：「Firecrawlは非構造化WebとLLMの間のギャップを埋めますが、クレジットベースの価格設定は大規模な場合、慎重な予算管理を必要とします。」",
+      "pros":[
+        "クリーンなLLM対応のMarkdownとJSONを出力",
+        "JSを多用するサイトと基本的なボット対策を自動的に処理",
+        "優れたSDKとネイティブのLangChain/CrewAI統合"
+      ],
+      "cons":[
+        "クレジットシステムにより、大規模な場合のコストが予測不可能になる",
+        "エンタープライズスクレイパーと比較して、厳重に保護されたサイト（Cloudflareなど）に苦戦する",
+        "高度な機能はクラウドのみ"
+      ]
+    },
+    "ko": {
+      "summary": "`Firecrawl`은 **RAG 파이프라인을 위한 웹 데이터 추출을 자동화**해야 하는 **AI 개발자**를 위한 **최고의** 선택입니다.",
+      "expert_quote": "LinkStart AI Lab 노트: \"Firecrawl은 구조화되지 않은 웹과 LLM 사이의 격차를 해소하지만 크레딧 기반 가격 책정은 대규모로 사용할 때 신중한 예산 관리가 필요합니다.\"",
+      "pros":[
+        "깔끔한 LLM용 마크다운 및 JSON 출력",
+        "JS가 많은 사이트 및 기본 봇 방지 조치 자동 처리",
+        "뛰어난 SDK 및 기본 LangChain/CrewAI 통합"
+      ],
+      "cons":[
+        "크레딧 시스템으로 인해 대규모 확장 시 비용을 예측할 수 없음",
+        "엔터프라이즈 스크래퍼에 비해 강력하게 보호되는 사이트(예: Cloudflare)에서 어려움을 겪음",
+        "클라우드 전용 고급 기능"
+      ]
+    },
+    "es": {
+      "summary": "`Firecrawl` es la opción **definitiva** para los **desarrolladores de IA** que necesitan **automatizar la extracción de datos web para canales RAG**.",
+      "expert_quote": "Nota de LinkStart AI Lab: \"Firecrawl cierra la brecha entre la web no estructurada y los LLM, aunque su precio basado en créditos requiere una gestión cuidadosa del presupuesto a escala.\"",
+      "pros":[
+        "Produce Markdown y JSON limpios listos para LLM",
+        "Maneja sitios pesados en JS y medidas anti-bot básicas automáticamente",
+        "Excelentes SDK e integraciones nativas de LangChain/CrewAI"
+      ],
+      "cons":[
+        "El sistema de créditos hace que los costos sean impredecibles a escala",
+        "Lucha con sitios fuertemente protegidos (por ejemplo, Cloudflare) en comparación con los scrapers empresariales",
+        "Funciones avanzadas solo en la nube"
+      ]
+    }
+  },
+  "faqs_jsonb":[
+    {
+      "question": {
+        "en": "Firecrawl vs. Crawl4AI: Which is better for LLM data extraction?",
+        "zh": "Firecrawl vs. Crawl4AI：哪个更适合 LLM 数据提取？",
+        "ja": "Firecrawl vs. Crawl4AI：LLMデータ抽出にはどちらが優れていますか？",
+        "ko": "Firecrawl 대 Crawl4AI: LLM 데이터 추출에 더 나은 것은 무엇입니까?",
+        "es": "Firecrawl vs. Crawl4AI: ¿Cuál es mejor para la extracción de datos LLM?"
+      },
+      "answer": {
+        "en": "While Crawl4AI is a fully open-source alternative that excels in cost-efficiency for self-hosted environments, Firecrawl has an absolute advantage in managed infrastructure. Firecrawl handles proxy rotation and headless browser orchestration out-of-the-box, whereas Crawl4AI requires you to manage your own infrastructure. However, for massive scale, Crawl4AI avoids Firecrawl's expensive credit system.",
+        "zh": "虽然 Crawl4AI 是一个完全开源的替代方案，在自托管环境的成本效益上表现出色，但 Firecrawl 在托管基础设施方面具有绝对优势。Firecrawl 开箱即用地处理代理轮换和无头浏览器编排，而 Crawl4AI 需要您管理自己的基础设施。然而，对于大规模抓取，Crawl4AI 避免了 Firecrawl 昂贵的积分系统。",
+        "ja": "Crawl4AIは、セルフホスト環境での費用対効果に優れた完全なオープンソースの代替手段ですが、Firecrawlはマネージドインフラストラクチャにおいて絶対的な優位性を持っています。Firecrawlはプロキシのローテーションとヘッドレスブラウザのオーケストレーションをすぐに処理しますが、Crawl4AIは独自のインフラストラクチャを管理する必要があります。ただし、大規模な場合、Crawl4AIはFirecrawlの高価なクレジットシステムを回避します。",
+        "ko": "Crawl4AI는 자체 호스팅 환경에서 비용 효율성이 뛰어난 완전한 오픈 소스 대안이지만 Firecrawl은 관리형 인프라에서 절대적인 이점을 가지고 있습니다. Firecrawl은 프록시 순환 및 헤드리스 브라우저 오케스트레이션을 즉시 처리하는 반면 Crawl4AI는 자체 인프라를 관리해야 합니다. 그러나 대규모의 경우 Crawl4AI는 Firecrawl의 비싼 크레딧 시스템을 피할 수 있습니다.",
+        "es": "Si bien Crawl4AI es una alternativa de código abierto que sobresale en rentabilidad para entornos autohospedados, Firecrawl tiene una ventaja absoluta en la infraestructura administrada. Firecrawl maneja la rotación de proxy y la orquestación del navegador sin cabeza de forma inmediata, mientras que Crawl4AI requiere que administre su propia infraestructura. Sin embargo, para una escala masiva, Crawl4AI evita el costoso sistema de créditos de Firecrawl."
+      }
+    },
+    {
+      "question": {
+        "en": "What is the biggest complaint about Firecrawl on Reddit and GitHub?",
+        "zh": "Reddit 和 GitHub 上对 Firecrawl 最大的抱怨是什么？",
+        "ja": "RedditやGitHubでのFirecrawlに対する最大の不満は何ですか？",
+        "ko": "Reddit 및 GitHub에서 Firecrawl에 대한 가장 큰 불만은 무엇입니까?",
+        "es": "¿Cuál es la mayor queja sobre Firecrawl en Reddit y GitHub?"
+      },
+      "answer": {
+        "en": "The most common pain point is the unpredictable credit-based pricing. Users report that while a basic scrape costs 1 credit, using \"Stealth Mode\" to bypass blocks or using the `/extract` endpoint with AI schema parsing can consume up to 5 credits per request. This causes budgets to deplete rapidly during large-scale crawls.",
+        "zh": "最常见的痛点是不可预测的基于积分的定价。用户反馈，虽然基础抓取花费 1 个积分，但使用“隐身模式”绕过封锁或使用带有 AI 模式解析的 `/extract` 端点每次请求可能消耗多达 5 个积分。这导致在大规模爬取时预算迅速耗尽。",
+        "ja": "最も一般的な問題点は、予測不可能なクレジットベースの価格設定です。ユーザーの報告によると、基本的なスクレイプは1クレジットですが、ブロックをバイパスする「ステルスモード」やAIスキーマ解析を伴う`/extract`エンドポイントを使用すると、リクエストごとに最大5クレジットを消費する可能性があります。これにより、大規模なクロール中に予算が急速に枯渇します。",
+        "ko": "가장 일반적인 문제점은 예측할 수 없는 크레딧 기반 가격 책정입니다. 사용자 보고서에 따르면 기본 스크랩 비용은 1크레딧이지만 차단을 우회하기 위해 \"스텔스 모드\"를 사용하거나 AI 스키마 구문 분석과 함께 `/extract` 엔드포인트를 사용하면 요청당 최대 5크레딧을 소비할 수 있습니다. 이로 인해 대규모 크롤링 중에 예산이 빠르게 고갈됩니다.",
+        "es": "El punto de dolor más común es el precio impredecible basado en créditos. Los usuarios informan que, si bien un raspado básico cuesta 1 crédito, el uso del \"Modo sigiloso\" para eludir bloqueos o el uso del punto final `/extract` con análisis de esquema de IA puede consumir hasta 5 créditos por solicitud. Esto hace que los presupuestos se agoten rápidamente durante los rastreos a gran escala."
+      }
+    },
+    {
+      "question": {
+        "en": "Can Firecrawl bypass Cloudflare and scrape social media like TikTok or Instagram?",
+        "zh": "Firecrawl 能绕过 Cloudflare 并抓取 TikTok 或 Instagram 等社交媒体吗？",
+        "ja": "FirecrawlはCloudflareをバイパスしてTikTokやInstagramなどのソーシャルメディアをスクレイピングできますか？",
+        "ko": "Firecrawl은 Cloudflare를 우회하고 TikTok 또는 Instagram과 같은 소셜 미디어를 스크래핑할 수 있습니까?",
+        "es": "¿Puede Firecrawl eludir Cloudflare y raspar redes sociales como TikTok o Instagram?"
+      },
+      "answer": {
+        "en": "No. While Firecrawl handles basic anti-bot measures and JavaScript rendering well, independent tests show it struggles with aggressive enterprise protections like advanced Cloudflare Turnstile. Furthermore, Firecrawl explicitly restricts scraping major social media platforms like Instagram, YouTube, and TikTok. For those, tools like Apify or Scrapfly are required.",
+        "zh": "不能。虽然 Firecrawl 能很好地处理基础反爬措施和 JavaScript 渲染，但独立测试表明，它在应对高级 Cloudflare Turnstile 等激进的企业级保护时表现吃力。此外，Firecrawl 明确限制抓取 Instagram、YouTube 和 TikTok 等主要社交媒体平台。对于这些需求，需要使用 Apify 或 Scrapfly 等工具。",
+        "ja": "いいえ。Firecrawlは基本的なボット対策とJavaScriptレンダリングをうまく処理しますが、独立したテストによると、高度なCloudflare Turnstileなどの積極的なエンタープライズ保護には苦戦しています。さらに、FirecrawlはInstagram、YouTube、TikTokなどの主要なソーシャルメディアプラットフォームのスクレイピングを明示的に制限しています。これらには、ApifyやScrapflyなどのツールが必要です。",
+        "ko": "아니요. Firecrawl은 기본적인 봇 방지 조치 및 JavaScript 렌더링을 잘 처리하지만 독립적인 테스트에 따르면 고급 Cloudflare Turnstile과 같은 공격적인 엔터프라이즈 보호에는 어려움을 겪습니다. 또한 Firecrawl은 Instagram, YouTube 및 TikTok과 같은 주요 소셜 미디어 플랫폼 스크래핑을 명시적으로 제한합니다. 이를 위해서는 Apify 또는 Scrapfly와 같은 도구가 필요합니다.",
+        "es": "No. Si bien Firecrawl maneja bien las medidas anti-bot básicas y el renderizado de JavaScript, pruebas independientes muestran que tiene dificultades con protecciones empresariales agresivas como Cloudflare Turnstile avanzado. Además, Firecrawl restringe explícitamente el raspado de las principales plataformas de redes sociales como Instagram, YouTube y TikTok. Para esos, se requieren herramientas como Apify o Scrapfly."
+      }
+    },
+    {
+      "question": {
+        "en": "Is there a free tier, and what are the API rate limits?",
+        "zh": "有免费额度吗？API 的速率限制是多少？",
+        "ja": "無料枠はありますか？APIのレート制限はどうなっていますか？",
+        "ko": "무료 등급이 있으며 API 속도 제한은 어떻게 됩니까?",
+        "es": "¿Hay un nivel gratuito y cuáles son los límites de velocidad de la API?"
+      },
+      "answer": {
+        "en": "Yes, Firecrawl offers a free tier providing 500 credits per month, allowing 10 scrapes and 1 crawl per minute. Paid plans start at $16/month for 3,000 credits. Enterprise plans offer custom concurrency limits and unlimited credits.",
+        "zh": "是的，Firecrawl 提供免费计划，每月 500 个积分，允许每分钟 10 次抓取和 1 次爬取。付费计划起价为 16 美元/月（3,000 积分）。企业计划提供自定义并发限制和无限积分。",
+        "ja": "はい、Firecrawlは月額500クレジットを提供する無料枠を提供しており、1分あたり10回のスクレイプと1回のクロールが可能です。有料プランは3,000クレジットで月額16ドルからです。エンタープライズプランでは、カスタムの同時実行制限と無制限のクレジットが提供されます。",
+        "ko": "예, Firecrawl은 월 500크레딧을 제공하는 무료 등급을 제공하여 분당 10번의 스크랩과 1번의 크롤링을 허용합니다. 유료 요금제는 3,000크레딧에 월 $16부터 시작합니다. 엔터프라이즈 요금제는 사용자 지정 동시성 제한 및 무제한 크레딧을 제공합니다.",
+        "es": "Sí, Firecrawl ofrece un nivel gratuito que proporciona 500 créditos por mes, lo que permite 10 raspados y 1 rastreo por minuto. Los planes pagos comienzan en $16/mes por 3,000 créditos. Los planes empresariales ofrecen límites de concurrencia personalizados y créditos ilimitados."
+      }
+    },
+    {
+      "question": {
+        "en": "How does Firecrawl integrate with my existing AI tech stack?",
+        "zh": "Firecrawl 如何与我现有的 AI 技术栈集成？",
+        "ja": "Firecrawlは既存のAI技術スタックとどのように統合されますか？",
+        "ko": "Firecrawl은 기존 AI 기술 스택과 어떻게 통합됩니까?",
+        "es": "¿Cómo se integra Firecrawl con mi pila tecnológica de IA existente?"
+      },
+      "answer": {
+        "en": "It offers native Python and Node.js SDKs, and acts as a direct tool integration in frameworks like <a href=\"https://www.linkstartai.com/en/agents/langchain\">LangChain</a>, LlamaIndex, and CrewAI. For example, in CrewAI, you can simply pass the `FirecrawlScrapeWebsiteTool` to an agent, allowing it to autonomously search and read web pages during execution.",
+        "zh": "它提供原生的 Python 和 Node.js SDK，并在 <a href=\"https://www.linkstartai.com/zh/agents/langchain\">LangChain</a>、LlamaIndex 和 CrewAI 等框架中作为直接工具集成。例如，在 CrewAI 中，您只需将 `FirecrawlScrapeWebsiteTool` 传递给智能体，它就能在执行期间自主搜索和阅读网页。",
+        "ja": "ネイティブのPythonおよびNode.js SDKを提供し、<a href=\"https://www.linkstartai.com/ja/agents/langchain\">LangChain</a>、LlamaIndex、CrewAIなどのフレームワークで直接ツール統合として機能します。たとえば、CrewAIでは、`FirecrawlScrapeWebsiteTool`をエージェントに渡すだけで、実行中にWebページを自律的に検索して読み取ることができます。",
+        "ko": "기본 Python 및 Node.js SDK를 제공하며 <a href=\"https://www.linkstartai.com/ko/agents/langchain\">LangChain</a>, LlamaIndex 및 CrewAI와 같은 프레임워크에서 직접 도구 통합 역할을 합니다. 예를 들어 CrewAI에서는 `FirecrawlScrapeWebsiteTool`을 에이전트에 전달하기만 하면 실행 중에 웹 페이지를 자율적으로 검색하고 읽을 수 있습니다.",
+        "es": "Ofrece SDK nativos de Python y Node.js, y actúa como una integración de herramientas directa en marcos como <a href=\"https://www.linkstartai.com/es/agents/langchain\">LangChain</a>, LlamaIndex y CrewAI. Por ejemplo, en CrewAI, simplemente puede pasar la `FirecrawlScrapeWebsiteTool` a un agente, lo que le permite buscar y leer páginas web de forma autónoma durante la ejecución."
+      }
+    },
+    {
+      "question": {
+        "en": "Can I self-host Firecrawl to ensure data privacy?",
+        "zh": "我可以自托管 Firecrawl 以确保数据隐私吗？",
+        "ja": "データのプライバシーを確​​保するためにFirecrawlをセルフホストできますか？",
+        "ko": "데이터 개인 정보를 보호하기 위해 Firecrawl을 자체 호스팅할 수 있습니까?",
+        "es": "¿Puedo autohospedar Firecrawl para garantizar la privacidad de los datos?"
+      },
+      "answer": {
+        "en": "Yes, the core of Firecrawl is open-source and can be self-hosted via Docker. However, the open-source version lacks the advanced proxy management, stealth mode, and managed LLM extraction features found in the commercial cloud version.",
+        "zh": "可以，Firecrawl 的核心是开源的，可以通过 Docker 自托管。然而，开源版本缺乏商业云版本中的高级代理管理、隐身模式和托管的 LLM 提取功能。",
+        "ja": "はい、Firecrawlのコアはオープンソースであり、Docker経由でセルフホストできます。ただし、オープンソースバージョンには、商用クラウドバージョンにある高度なプロキシ管理、ステルスモード、マネージドLLM抽出機能がありません。",
+        "ko": "예, Firecrawl의 핵심은 오픈 소스이며 Docker를 통해 자체 호스팅할 수 있습니다. 그러나 오픈 소스 버전에는 상용 클라우드 버전에 있는 고급 프록시 관리, 스텔스 모드 및 관리형 LLM 추출 기능이 없습니다.",
+        "es": "Sí, el núcleo de Firecrawl es de código abierto y se puede autohospedar a través de Docker. Sin embargo, la versión de código abierto carece de la gestión avanzada de proxy, el modo sigiloso y las funciones de extracción LLM administradas que se encuentran en la versión comercial en la nube."
+      }
+    },
+    {
+      "question": {
+        "en": "How does it handle dynamic Single Page Applications (SPAs)?",
+        "zh": "它如何处理动态单页应用 (SPA)？",
+        "ja": "動的なシングルページアプリケーション（SPA）をどのように処理しますか？",
+        "ko": "동적 단일 페이지 애플리케이션(SPA)을 어떻게 처리합니까?",
+        "es": "¿Cómo maneja las aplicaciones dinámicas de una sola página (SPA)?"
+      },
+      "answer": {
+        "en": "Firecrawl automatically detects if a page is JavaScript-heavy. It spins up a headless browser and uses a \"smart wait\" technology to ensure dynamic elements, such as infinite scrolls or delayed API fetches, are fully loaded before extracting the DOM and converting it to Markdown.",
+        "zh": "Firecrawl 会自动检测页面是否重度依赖 JavaScript。它会启动一个无头浏览器并使用“智能等待”技术，以确保在提取 DOM 并将其转换为 Markdown 之前，动态元素（如无限滚动或延迟的 API 获取）已完全加载。",
+        "ja": "Firecrawlは、ページがJavaScriptを多用しているかどうかを自動的に検出します。ヘッドレスブラウザを起動し、「スマートウェイト」テクノロジーを使用して、無限スクロールや遅延APIフェッチなどの動的要素が完全にロードされてからDOMを抽出し、Markdownに変換します。",
+        "ko": "Firecrawl은 페이지에 JavaScript가 많은지 자동으로 감지합니다. 헤드리스 브라우저를 가동하고 \"스마트 대기\" 기술을 사용하여 DOM을 추출하고 마크다운으로 변환하기 전에 무한 스크롤 또는 지연된 API 가져오기와 같은 동적 요소가 완전히 로드되도록 합니다.",
+        "es": "Firecrawl detecta automáticamente si una página depende en gran medida de JavaScript. Inicia un navegador sin cabeza y utiliza una tecnología de \"espera inteligente\" para garantizar que los elementos dinámicos, como los desplazamientos infinitos o las búsquedas de API retrasadas, estén completamente cargados antes de extraer el DOM y convertirlo a Markdown."
+      }
+    }
+  ],
+  "seo_title_jsonb": {
+    "en": "Firecrawl Review 2026: Pricing, Pros & Cons, Alternatives",
+    "zh": "Firecrawl 怎么样？2026 最新评测：价格、优缺点与竞品对比",
+    "ja": "【徹底レビュー】Firecrawlの評判は？料金・使い方・代替ソフト",
+    "ko": "Firecrawl 솔직 후기: 가격, 장단점 및 추천 대안 (완벽 정리)",
+    "es": "Opiniones de Firecrawl: Precio, Ventajas y Alternativas"
+  },
+  "seo_description_jsonb": {
+    "en": "Struggling with web data for LLMs? Firecrawl turns websites into clean Markdown. Read our review on pricing, limits, and alternatives like Crawl4AI.",
+    "zh": "为 LLM 获取网页数据感到头疼？Firecrawl 能将网站转化为干净的 Markdown。查看我们关于价格、限制以及 Crawl4AI 等替代方案的评测。",
+    "ja": "LLMのWebデータでお困りですか？FirecrawlはWebサイトをクリーンなMarkdownに変換します。料金、制限、代替ツールに関するレビューをお読みください。",
+    "ko": "LLM용 웹 데이터로 어려움을 겪고 계신가요? Firecrawl은 웹사이트를 깔끔한 마크다운으로 변환합니다. 가격, 제한 사항 및 대안에 대한 리뷰를 읽어보세요.",
+    "es": "¿Luchando con datos web para LLM? Firecrawl convierte sitios web en Markdown limpio. Lea nuestra reseña sobre precios, límites y alternativas."
+  },
+  "_citations_dump": [
+    "[1.1] Firecrawl Overview (2026) – Features, Pros, Cons & Pricing - Salesforge",
+    " Crawl4AI vs. Firecrawl: Features, Use Cases & Top Alternatives - Bright Data",
+    " Understanding Firecrawl API Pricing: A Comprehensive Guide - Oreate AI Blog",
+    " Firecrawl review, overview and benchmarks - Scrapeway",
+    " An honest look at Firecrawl pricing and features in 2025 - eesel AI",
+    " Firecrawl - The Web Data API for AI",
+    " Firecrawl Review: Do Not Buy Until You Read This - prowebsuccesses.com",
+    " Firecrawl - AI SDK",
+    " Firecrawl Reviews, Pricing & Alternatives - January 2026 Update",
+    " Firecrawl Scrape Website - CrewAI Documentation",
+    " Firecrawl reviews: A deep dive into the AI web scraper for 2025 - eesel AI",
+    " Firecrawl - OpenClaw",
+    " Firecrawl: AI Web Crawler Built for LLM Applications - DataCamp",
+    " Firecrawl.dev Review: An AI SEO Crawler for Devs & Marketers - Black Bear Media",
+    " Firecrawl Review: Simplifying Web Data Extraction - Data4AI",
+    " Firecrawl reviews: A deep dive into the AI web scraper for 2025 - eesel AI",
+    " Firecrawl Reviews, Pricing & Alternatives - January 2026 Update",
+    " Firecrawl - The Web Data API for AI",
+    " Firecrawl Alternative with 98% Success Rate on Protected Sites - Scrapfly",
+    " Top 6 best Firecrawl alternatives | WebcrawlerAPI Blog",
+    " Firecrawl – Overview | MCP Marketplace - UBOS",
+    " What are the best alternatives to Firecrawl? - WebScraping.AI",
+    " Best Firecrawl alternatives - Apify",
+    " Firecrawl Review: Do Not Buy Until You Read This - prowebsuccesses.com",
+    " Firecrawl.dev Review: An AI SEO Crawler for Devs & Marketers - Black Bear Media",
+    " Firecrawl - AI SDK",
+    " What is the best scraper tool right now? Firecrawl is great, but I want to explore more options",
+    " Unpacking Firecrawl: Your Guide to AI-Powered Web Data Extraction - Oreate AI Blog",
+    " firecrawl - PyPI",
+    " firecrawl/firecrawl: The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data · GitHub",
+    " Firecrawl - GitHub",
+    " Top 5 Firecrawl Alternatives for Web Scraping in 2026",
+    " Firecrawl AI: The Ultimate Guide to the Web Data API for RAG and Agents - Palo Santo AI"
+  ]
+}
