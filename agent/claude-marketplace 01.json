@@ -1,0 +1,302 @@
+
+
+
+{
+  "slug": "claude-marketplace",
+  "brand_slug": "anthropic",
+  "name_jsonb": {
+    "en": "Claude Marketplace",
+    "zh": "Claude Marketplace",
+    "ja": "Claude Marketplace",
+    "ko": "Claude Marketplace",
+    "es": "Claude Marketplace"
+  },
+  "tagline_jsonb": {
+    "en": "The zero-commission enterprise AI procurement hub.",
+    "zh": "零抽成的企业级 AI 采购与集成中心。",
+    "ja": "手数料ゼロのエンタープライズAI調達ハブ。",
+    "ko": "수수료 없는 엔터프라이즈 AI 조달 허브.",
+    "es": "El centro de adquisiciones de IA empresarial sin comisiones."
+  },
+  "description_jsonb": {
+    "en": "> **Executive Summary:** Claude Marketplace is an enterprise procurement platform that allows organizations to purchase third-party, Claude-powered software using their existing Anthropic spend commitments. It eliminates vendor sprawl and accelerates AI adoption with a disruptive 0% commission model.\n\nLaunched in March 2026, Claude Marketplace fundamentally changes how businesses buy AI tools. By consolidating billing, enterprises can deploy solutions from launch partners like <a href=\"https://www.snowflake.com\" target=\"_blank\" rel=\"nofollow\">Snowflake</a>, <a href=\"https://about.gitlab.com\" target=\"_blank\" rel=\"nofollow\">GitLab</a>, Harvey AI, Replit, Rogo, and Lovable Labs without navigating months of procurement friction. The platform operates on a zero-commission structure, meaning Anthropic takes no cut from partner sales. Instead, it drives token consumption and ecosystem lock-in. For IT leaders, this means one contract, one invoice, and seamless governance across diverse AI workflows, from legal automation to vibe-coding. It offers a **Free** procurement layer, with paid third-party tiers starting at **$0** (billed against existing commitments). It is significantly less expensive than average cloud marketplaces that charge up to 20% fees.",
+    "zh": "> **核心摘要：** Claude Marketplace 是一个企业级采购平台，允许组织利用现有的 Anthropic 支出承诺来购买由 Claude 驱动的第三方软件。它通过颠覆性的 0% 抽成模式消除了供应商蔓延问题，并加速了 AI 的落地应用。\n\nClaude Marketplace 于 2026 年 3 月推出，从根本上改变了企业购买 AI 工具的方式。通过整合账单，企业可以部署来自 <a href=\"https://www.snowflake.com\" target=\"_blank\" rel=\"nofollow\">Snowflake</a>、<a href=\"https://about.gitlab.com\" target=\"_blank\" rel=\"nofollow\">GitLab</a>、Harvey AI、Replit、Rogo 和 Lovable Labs 等首批合作伙伴的解决方案，而无需经历长达数月的采购摩擦。该平台采用零抽成结构，这意味着 Anthropic 不会从合作伙伴的销售中抽取任何分成，而是通过这种方式推动 Token 消耗和生态系统锁定。对于 IT 领导者而言，这意味着一份合同、一张发票，以及跨越从法律自动化到自然语言编程等各种 AI 工作流的无缝治理。它提供了一个**免费**的采购层，第三方付费选项起价为 **$0**（直接从现有承诺额度中扣除）。与收取高达 20% 费用的平均云市场相比，它的成本要低得多。",
+    "ja": "> **エグゼクティブサマリー：** Claude Marketplaceは、企業が既存のAnthropicへの支出コミットメントを利用して、Claude搭載のサードパーティ製ソフトウェアを購入できるエンタープライズ調達プラットフォームです。革新的な手数料0%モデルにより、ベンダーの乱立を防ぎ、AIの導入を加速させます。\n\n2026年3月に立ち上げられたClaude Marketplaceは、企業のAIツールの購入方法を根本から変えます。請求を統合することで、企業は数ヶ月に及ぶ調達の摩擦を乗り越えることなく、<a href=\"https://www.snowflake.com\" target=\"_blank\" rel=\"nofollow\">Snowflake</a>、<a href=\"https://about.gitlab.com\" target=\"_blank\" rel=\"nofollow\">GitLab</a>、Harvey AI、Replit、Rogo、Lovable Labsなどのローンチパートナーのソリューションを展開できます。このプラットフォームは手数料ゼロの構造で運営されており、Anthropicはパートナーの売上から一切の利益を差し引きません。その代わり、トークンの消費とエコシステムのロックインを促進します。ITリーダーにとって、これは1つの契約、1つの請求書、そして法務の自動化からVibeコーディングに至るまで、多様なAIワークフローにわたるシームレスなガバナンスを意味します。**無料**の調達レイヤーを提供し、サードパーティの有料オプションは**$0**から始まります（既存のコミットメントから請求）。最大20%の手数料を徴収する一般的なクラウドマーケットプレイスよりもはるかに安価です。",
+    "ko": "> **핵심 요약:** Claude Marketplace는 기업이 기존 Anthropic 지출 약정을 사용하여 Claude 기반의 타사 소프트웨어를 구매할 수 있도록 지원하는 엔터프라이즈 조달 플랫폼입니다. 파격적인 0% 수수료 모델을 통해 벤더 난립을 없애고 AI 도입을 가속화합니다.\n\n2026년 3월에 출시된 Claude Marketplace는 기업이 AI 도구를 구매하는 방식을 근본적으로 바꿉니다. 청구를 통합함으로써 기업은 수개월에 걸친 조달 마찰 없이 <a href=\"https://www.snowflake.com\" target=\"_blank\" rel=\"nofollow\">Snowflake</a>, <a href=\"https://about.gitlab.com\" target=\"_blank\" rel=\"nofollow\">GitLab</a>, Harvey AI, Replit, Rogo, Lovable Labs와 같은 출시 파트너의 솔루션을 배포할 수 있습니다. 이 플랫폼은 수수료 제로 구조로 운영되므로 Anthropic은 파트너 판매에서 수수료를 떼지 않습니다. 대신 토큰 소비와 생태계 락인(Lock-in)을 유도합니다. IT 리더에게 이는 단일 계약, 단일 청구서, 그리고 법률 자동화에서 자연어 코딩에 이르는 다양한 AI 워크플로우 전반에 걸친 원활한 거버넌스를 의미합니다. **무료** 조달 계층을 제공하며, 타사 유료 옵션은 **$0**부터 시작합니다(기존 약정에서 차감). 최대 20%의 수수료를 부과하는 일반적인 클라우드 마켓플레이스보다 훨씬 저렴합니다.",
+    "es": "> **Resumen Ejecutivo:** Claude Marketplace es una plataforma de adquisiciones empresariales que permite a las organizaciones comprar software de terceros impulsado por Claude utilizando sus compromisos de gasto existentes con Anthropic. Elimina la proliferación de proveedores y acelera la adopción de IA con un modelo disruptivo de 0% de comisión.\n\nLanzado en marzo de 2026, Claude Marketplace cambia fundamentalmente la forma en que las empresas compran herramientas de IA. Al consolidar la facturación, las empresas pueden implementar soluciones de socios de lanzamiento como <a href=\"https://www.snowflake.com\" target=\"_blank\" rel=\"nofollow\">Snowflake</a>, <a href=\"https://about.gitlab.com\" target=\"_blank\" rel=\"nofollow\">GitLab</a>, Harvey AI, Replit, Rogo y Lovable Labs sin tener que navegar por meses de fricción en las adquisiciones. La plataforma opera con una estructura de cero comisiones, lo que significa que Anthropic no se lleva ninguna parte de las ventas de los socios. En cambio, impulsa el consumo de tokens y la dependencia del ecosistema. Para los líderes de TI, esto significa un contrato, una factura y una gobernanza perfecta en diversos flujos de trabajo de IA, desde la automatización legal hasta la programación en lenguaje natural. Ofrece una capa de adquisición **Gratuita**, con opciones de pago de terceros a partir de **$0** (facturadas contra los compromisos existentes). Es significativamente menos costoso que los mercados en la nube promedio que cobran hasta un 20% en tarifas."
+  },
+  "category_id": "fe342038-344f-4b05-82b6-2246f28596e3",
+  "solution_category_id": "2e7cef55-a5a2-47f4-81e3-0266dbefea1d",
+  "website_url": "https://claude.com/platform/marketplace",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/claude.jpg",
+  "pricing_model": "free",
+  "paid_options_from": "$0",
+  "billing_frequency": "month",
+  "rating": 4.8,
+  "review_count": 342,
+  "supported_languages":[
+    "en",
+    "zh",
+    "ja",
+    "ko",
+    "es"
+  ],
+  "tags_jsonb": {
+    "en":[
+      "#EnterpriseAI",
+      "#AIPurchasing",
+      "#VendorConsolidation",
+      "#ZeroCommission"
+    ],
+    "zh":[
+      "#企业级AI",
+      "#AI采购",
+      "#供应商整合",
+      "#零抽成"
+    ],
+    "ja":[
+      "#エンタープライズAI",
+      "#AI調達",
+      "#ベンダー統合",
+      "#手数料ゼロ"
+    ],
+    "ko":[
+      "#엔터프라이즈AI",
+      "#AI조달",
+      "#벤더통합",
+      "#수수료제로"
+    ],
+    "es":[
+      "#IAEmpresarial",
+      "#ComprasDeIA",
+      "#ConsolidaciónDeProveedores",
+      "#CeroComisiones"
+    ]
+  },
+  "features_jsonb": {
+    "en":[
+      "0% Commission Structure",
+      "Consolidated Enterprise Billing",
+      "Existing Spend Commitment Integration",
+      "Centralized AI Governance"
+    ],
+    "zh":[
+      "0% 抽成结构",
+      "企业账单整合",
+      "现有支出承诺集成",
+      "集中式 AI 治理"
+    ],
+    "ja":[
+      "手数料0%の構造",
+      "統合されたエンタープライズ請求",
+      "既存の支出コミットメントの統合",
+      "集中型AIガバナンス"
+    ],
+    "ko":[
+      "0% 수수료 구조",
+      "통합 엔터프라이즈 청구",
+      "기존 지출 약정 통합",
+      "중앙 집중식 AI 거버넌스"
+    ],
+    "es":[
+      "Estructura de 0% de comisión",
+      "Facturación empresarial consolidada",
+      "Integración de compromisos de gasto existentes",
+      "Gobernanza de IA centralizada"
+    ]
+  },
+  "videos_jsonb":[
+    {
+      "type": "youtube",
+      "videoId": "Q_hQ_9n_0_8",
+      "title": "Introducing Claude Marketplace for Enterprise",
+      "uploadDate": "2026-03-06T14:00:00Z",
+      "description": "Discover how Claude Marketplace simplifies AI procurement and consolidates billing for enterprise teams.",
+      "duration": "PT2M45S"
+    }
+  ],
+  "verdict_jsonb": {
+    "en": {
+      "summary": "Claude Marketplace is the **strategic** choice for **enterprise IT leaders** who need to **consolidate AI procurement and governance**.",
+      "expert_quote": "LinkStart AI Lab note: \"Anthropic's 0% commission model isn't just a marketplace—it's a masterclass in ecosystem lock-in that bypasses traditional procurement bottlenecks.\"",
+      "pros":[
+        "Zero-commission structure maximizes budget efficiency",
+        "Consolidated billing using existing Anthropic commitments",
+        "High-tier launch partners including Snowflake and GitLab"
+      ],
+      "cons":[
+        "Strictly exclusive to Claude-powered applications",
+        "Creates deep vendor dependency on Anthropic's ecosystem",
+        "Currently limited to enterprises with large existing commitments"
+      ]
+    },
+    "zh": {
+      "summary": "Claude Marketplace 是**企业 IT 领导者**实现 **AI 采购与治理整合**的**战略性**选择。",
+      "expert_quote": "LinkStart AI Lab 评语：“Anthropic 的 0% 抽成模式不仅仅是一个市场——它是绕过传统采购瓶颈、实现生态系统深度锁定的教科书级操作。”",
+      "pros":[
+        "零抽成结构最大化预算效率",
+        "利用现有的 Anthropic 承诺额度整合账单",
+        "包含 Snowflake 和 GitLab 等顶级首批合作伙伴"
+      ],
+      "cons":[
+        "严格排他，仅限由 Claude 驱动的应用程序",
+        "对 Anthropic 生态系统产生深度的供应商依赖",
+        "目前仅限于拥有大量现有承诺额度的企业"
+      ]
+    },
+    "ja": {
+      "summary": "Claude Marketplaceは、**AIの調達とガバナンスを統合**する必要がある**エンタープライズITリーダー**にとって**戦略的**な選択肢です。",
+      "expert_quote": "LinkStart AI Labのコメント：「Anthropicの0%手数料モデルは単なるマーケットプレイスではなく、従来の調達のボトルネックを回避するエコシステム・ロックインの傑作です。」",
+      "pros":[
+        "予算効率を最大化する手数料ゼロの構造",
+        "既存のAnthropicコミットメントを使用した統合請求",
+        "SnowflakeやGitLabを含むトップティアのローンチパートナー"
+      ],
+      "cons":[
+        "Claude搭載アプリケーションに完全に限定",
+        "Anthropicのエコシステムに対する深いベンダー依存を生み出す",
+        "現在、大規模な既存コミットメントを持つ企業に限定されている"
+      ]
+    },
+    "ko": {
+      "summary": "Claude Marketplace는 **AI 조달 및 거버넌스를 통합**해야 하는 **엔터프라이즈 IT 리더**를 위한 **전략적**인 선택입니다.",
+      "expert_quote": "LinkStart AI Lab 평가: \"Anthropic의 0% 수수료 모델은 단순한 마켓플레이스가 아닙니다. 이는 전통적인 조달 병목 현상을 우회하는 생태계 락인(Lock-in)의 마스터클래스입니다.\"",
+      "pros":[
+        "예산 효율성을 극대화하는 수수료 제로 구조",
+        "기존 Anthropic 약정을 사용한 통합 청구",
+        "Snowflake 및 GitLab을 포함한 최고 수준의 출시 파트너"
+      ],
+      "cons":[
+        "Claude 기반 애플리케이션에만 엄격하게 독점됨",
+        "Anthropic 생태계에 대한 깊은 벤더 종속성 생성",
+        "현재 대규모 기존 약정이 있는 기업으로 제한됨"
+      ]
+    },
+    "es": {
+      "summary": "Claude Marketplace es la elección **estratégica** para los **líderes de TI empresariales** que necesitan **consolidar la adquisición y gobernanza de IA**.",
+      "expert_quote": "Nota de LinkStart AI Lab: \"El modelo de 0% de comisión de Anthropic no es solo un mercado: es una clase magistral sobre la dependencia del ecosistema que elude los cuellos de botella tradicionales de adquisiciones.\"",
+      "pros":[
+        "La estructura de cero comisiones maximiza la eficiencia del presupuesto",
+        "Facturación consolidada utilizando los compromisos existentes de Anthropic",
+        "Socios de lanzamiento de primer nivel, incluidos Snowflake y GitLab"
+      ],
+      "cons":[
+        "Estrictamente exclusivo para aplicaciones impulsadas por Claude",
+        "Crea una profunda dependencia del proveedor en el ecosistema de Anthropic",
+        "Actualmente limitado a empresas con grandes compromisos existentes"
+      ]
+    }
+  },
+  "faqs_jsonb":[
+    {
+      "question": {
+        "en": "Claude Marketplace vs AWS/Azure Marketplaces: What is the core difference?",
+        "zh": "Claude Marketplace 与 AWS/Azure 市场：核心区别是什么？",
+        "ja": "Claude MarketplaceとAWS/Azure Marketplace：決定的な違いは何ですか？",
+        "ko": "Claude Marketplace 대 AWS/Azure 마켓플레이스: 핵심적인 차이는 무엇입니까?",
+        "es": "Claude Marketplace vs AWS/Azure Marketplaces: ¿Cuál es la diferencia principal?"
+      },
+      "answer": {
+        "en": "The core difference is the fee structure. While AWS and Azure typically charge a 3% to 20% commission on third-party sales, Claude Marketplace operates on a strict 0% commission model. This incentivizes developers to build exclusively on Claude while allowing enterprises to use their existing Anthropic spend commitments directly.",
+        "zh": "核心区别在于费用结构。虽然 AWS 和 Azure 通常对第三方销售收取 3% 到 20% 的佣金，但 Claude Marketplace 实行严格的 0% 抽成模式。这激励了开发者专门基于 Claude 进行构建，同时允许企业直接使用其现有的 Anthropic 支出承诺。",
+        "ja": "決定的な違いは料金体系です。AWSやAzureは通常、サードパーティの売上に対して3%から20%の手数料を徴収しますが、Claude Marketplaceは厳格な手数料0%モデルで運営されています。これにより、開発者はClaude専用の構築を行うインセンティブを得ると同時に、企業は既存のAnthropicへの支出コミットメントを直接利用できるようになります。",
+        "ko": "핵심적인 차이는 수수료 구조입니다. AWS와 Azure는 일반적으로 타사 판매에 대해 3%에서 20%의 수수료를 부과하지만, Claude Marketplace는 엄격한 0% 수수료 모델로 운영됩니다. 이는 개발자가 Claude를 기반으로 독점적으로 구축하도록 장려하는 동시에 기업이 기존 Anthropic 지출 약정을 직접 사용할 수 있도록 합니다.",
+        "es": "La diferencia principal es la estructura de tarifas. Mientras que AWS y Azure suelen cobrar una comisión del 3% al 20% en las ventas de terceros, Claude Marketplace opera con un estricto modelo de 0% de comisión. Esto incentiva a los desarrolladores a construir exclusivamente en Claude, al tiempo que permite a las empresas utilizar directamente sus compromisos de gasto existentes con Anthropic."
+      }
+    },
+    {
+      "question": {
+        "en": "How does the pricing and billing actually work?",
+        "zh": "定价和计费实际上是如何运作的？",
+        "ja": "価格設定と請求は実際にはどのように機能しますか？",
+        "ko": "가격 책정 및 청구는 실제로 어떻게 작동합니까?",
+        "es": "¿Cómo funcionan realmente los precios y la facturación?"
+      },
+      "answer": {
+        "en": "Purchases are deducted directly from your existing Anthropic enterprise spend commitment. You do not need to sign separate contracts or process new invoices for third-party tools like Harvey AI or Replit; everything is consolidated into your primary Anthropic bill.",
+        "zh": "购买金额直接从您现有的 Anthropic 企业支出承诺中扣除。您无需为 Harvey AI 或 Replit 等第三方工具签署单独的合同或处理新的发票；一切都整合在您的主 Anthropic 账单中。",
+        "ja": "購入金額は、既存のAnthropicエンタープライズ支出コミットメントから直接差し引かれます。Harvey AIやReplitなどのサードパーティツール用に個別の契約を結んだり、新しい請求書を処理したりする必要はありません。すべてがメインのAnthropicの請求書に統合されます。",
+        "ko": "구매 금액은 기존 Anthropic 엔터프라이즈 지출 약정에서 직접 차감됩니다. Harvey AI 또는 Replit과 같은 타사 도구에 대해 별도의 계약을 체결하거나 새로운 청구서를 처리할 필요가 없습니다. 모든 것이 기본 Anthropic 청구서에 통합됩니다.",
+        "es": "Las compras se deducen directamente de su compromiso de gasto empresarial existente con Anthropic. No es necesario firmar contratos separados ni procesar nuevas facturas para herramientas de terceros como Harvey AI o Replit; todo se consolida en su factura principal de Anthropic."
+      }
+    },
+    {
+      "question": {
+        "en": "What are the known concerns regarding vendor lock-in?",
+        "zh": "关于供应商锁定有哪些已知的担忧？",
+        "ja": "ベンダーロックインに関する既知の懸念事項は何ですか？",
+        "ko": "벤더 종속성(Lock-in)과 관련하여 알려진 우려 사항은 무엇입니까?",
+        "es": "¿Cuáles son las preocupaciones conocidas con respecto a la dependencia del proveedor?"
+      },
+      "answer": {
+        "en": "A major discussion point in the enterprise community is ecosystem dependency. By routing all third-party AI tools (like GitLab and Snowflake integrations) through a single Anthropic contract, companies face high switching costs if they later decide to migrate to OpenAI or Google Gemini models.",
+        "zh": "企业界讨论的一个主要焦点是生态系统依赖性。通过将所有第三方 AI 工具（如 GitLab 和 Snowflake 集成）路由到单一的 Anthropic 合同中，如果公司后来决定迁移到 OpenAI 或 Google Gemini 模型，将面临高昂的转换成本。",
+        "ja": "エンタープライズコミュニティにおける主要な議論のポイントは、エコシステムへの依存です。すべてのサードパーティAIツール（GitLabやSnowflakeの統合など）を単一のAnthropic契約経由でルーティングすることにより、企業は後でOpenAIやGoogle Geminiモデルへの移行を決定した場合、高い切り替えコストに直面することになります。",
+        "ko": "엔터프라이즈 커뮤니티의 주요 논의 사항은 생태계 종속성입니다. 모든 타사 AI 도구(예: GitLab 및 Snowflake 통합)를 단일 Anthropic 계약을 통해 라우팅함으로써 기업은 나중에 OpenAI 또는 Google Gemini 모델로 마이그레이션하기로 결정할 경우 높은 전환 비용에 직면하게 됩니다.",
+        "es": "Un punto de discusión importante en la comunidad empresarial es la dependencia del ecosistema. Al enrutar todas las herramientas de IA de terceros (como las integraciones de GitLab y Snowflake) a través de un solo contrato de Anthropic, las empresas enfrentan altos costos de cambio si luego deciden migrar a los modelos OpenAI o Google Gemini."
+      }
+    },
+    {
+      "question": {
+        "en": "Can I purchase tools that use GPT-4 or Gemini through this marketplace?",
+        "zh": "我可以通过这个市场购买使用 GPT-4 或 Gemini 的工具吗？",
+        "ja": "このマーケットプレイスを通じてGPT-4やGeminiを使用するツールを購入できますか？",
+        "ko": "이 마켓플레이스를 통해 GPT-4 또는 Gemini를 사용하는 도구를 구매할 수 있습니까?",
+        "es": "¿Puedo comprar herramientas que usen GPT-4 o Gemini a través de este mercado?"
+      },
+      "answer": {
+        "en": "No. The marketplace is strictly exclusive to software and agents powered by Anthropic's Claude models. This is a strategic move to drive Claude token consumption across the enterprise stack.",
+        "zh": "不可以。该市场严格排他，仅限由 Anthropic 的 Claude 模型驱动的软件和代理。这是一项旨在推动整个企业技术栈中 Claude Token 消耗的战略举措。",
+        "ja": "いいえ。このマーケットプレイスは、AnthropicのClaudeモデルを搭載したソフトウェアとエージェントに完全に限定されています。これは、エンタープライズスタック全体でClaudeトークンの消費を促進するための戦略的な動きです。",
+        "ko": "아니요. 이 마켓플레이스는 Anthropic의 Claude 모델로 구동되는 소프트웨어 및 에이전트에만 엄격하게 독점됩니다. 이는 엔터프라이즈 스택 전반에서 Claude 토큰 소비를 촉진하기 위한 전략적 움직임입니다.",
+        "es": "No. El mercado es estrictamente exclusivo para software y agentes impulsados por los modelos Claude de Anthropic. Este es un movimiento estratégico para impulsar el consumo de tokens de Claude en toda la pila empresarial."
+      }
+    },
+    {
+      "question": {
+        "en": "How does this impact enterprise data security and governance?",
+        "zh": "这如何影响企业数据安全和治理？",
+        "ja": "これはエンタープライズデータのセキュリティとガバナンスにどのような影響を与えますか？",
+        "ko": "이것이 엔터프라이즈 데이터 보안 및 거버넌스에 어떤 영향을 미칩니까?",
+        "es": "¿Cómo afecta esto a la seguridad y gobernanza de los datos empresariales?"
+      },
+      "answer": {
+        "en": "It centralizes governance. Because all tools are vetted partners (e.g., Lovable Labs, Rogo) running on Claude's infrastructure, IT teams can manage API access, data retention policies, and security audits through a single Anthropic administrative layer rather than auditing dozens of disparate AI vendors.",
+        "zh": "它集中了治理。因为所有工具都是在 Claude 基础设施上运行的经过审查的合作伙伴（例如 Lovable Labs、Rogo），IT 团队可以通过单一的 Anthropic 管理层来管理 API 访问、数据保留策略和安全审计，而不是审计数十个不同的 AI 供应商。",
+        "ja": "ガバナンスを集中化します。すべてのツールはClaudeのインフラストラクチャ上で実行される審査済みのパートナー（Lovable Labs、Rogoなど）であるため、ITチームは数十の異なるAIベンダーを監査するのではなく、単一のAnthropic管理レイヤーを通じてAPIアクセス、データ保持ポリシー、およびセキュリティ監査を管理できます。",
+        "ko": "거버넌스를 중앙 집중화합니다. 모든 도구는 Claude의 인프라에서 실행되는 검증된 파트너(예: Lovable Labs, Rogo)이므로 IT 팀은 수십 개의 서로 다른 AI 벤더를 감사하는 대신 단일 Anthropic 관리 계층을 통해 API 액세스, 데이터 보존 정책 및 보안 감사를 관리할 수 있습니다.",
+        "es": "Centraliza la gobernanza. Debido a que todas las herramientas son socios examinados (por ejemplo, Lovable Labs, Rogo) que se ejecutan en la infraestructura de Claude, los equipos de TI pueden administrar el acceso a la API, las políticas de retención de datos y las auditorías de seguridad a través de una única capa administrativa de Anthropic en lugar de auditar a docenas de proveedores de IA dispares."
+      }
+    },
+    {
+      "question": {
+        "en": "Is this available for individual developers or small teams?",
+        "zh": "这适用于个人开发者或小型团队吗？",
+        "ja": "これは個人の開発者や小規模チームでも利用できますか？",
+        "ko": "이것은 개인 개발자나 소규모 팀에서 사용할 수 있습니까?",
+        "es": "¿Está disponible para desarrolladores individuales o equipos pequeños?"
+      },
+      "answer": {
+        "en": "Currently, Claude Marketplace is in a limited preview focused strictly on enterprise customers who have an existing, large-scale annual spend commitment with Anthropic.",
+        "zh": "目前，Claude Marketplace 处于有限预览阶段，严格专注于与 Anthropic 拥有现有大规模年度支出承诺的企业客户。",
+        "ja": "現在、Claude Marketplaceは限定プレビュー段階にあり、Anthropicと既存の大規模な年間支出コミットメントを結んでいるエンタープライズ顧客に厳格に焦点を当てています。",
+        "ko": "현재 Claude Marketplace는 Anthropic과 기존의 대규모 연간 지출 약정을 맺은 엔터프라이즈 고객에게만 엄격하게 초점을 맞춘 제한된 미리 보기 상태입니다.",
+        "es": "Actualmente, Claude Marketplace se encuentra en una vista previa limitada enfocada estrictamente en clientes empresariales que tienen un compromiso de gasto anual a gran escala existente con Anthropic."
+      }
+    }
+  ],
+  "seo_title_jsonb": {
+    "en": "Claude Marketplace Review 2026: Pricing, Partners & Enterprise AI Procurement",
+    "zh": "Claude Marketplace 怎么样？2026 最新评测：零抽成定价、合作伙伴与企业 AI 采购",
+    "ja": "【徹底レビュー】Claude Marketplaceの評判は？料金・パートナー・エンタープライズAI調達",
+    "ko": "Claude Marketplace 솔직 후기: 가격, 파트너 및 엔터프라이즈 AI 조달 (완벽 정리)",
+    "es": "Opiniones de Claude Marketplace: Precio, Socios y Adquisición de IA Empresarial"
+  },
+  "seo_description_jsonb": {
+    "en": "Struggling with AI vendor sprawl? Claude Marketplace lets enterprises buy third-party AI tools using existing Anthropic spend with 0% commission. Read our full review.",
+    "zh": "受困于 AI 供应商蔓延？Claude Marketplace 允许企业利用现有的 Anthropic 支出以 0% 抽成购买第三方 AI 工具。阅读我们的完整评测。",
+    "ja": "AIベンダーの乱立にお悩みですか？Claude Marketplaceを使用すると、企業は既存のAnthropic支出を利用して、手数料0%でサードパーティのAIツールを購入できます。詳細なレビューをご覧ください。",
+    "ko": "AI 벤더 난립으로 어려움을 겪고 계신가요? Claude Marketplace를 통해 기업은 기존 Anthropic 지출을 사용하여 수수료 0%로 타사 AI 도구를 구매할 수 있습니다. 전체 리뷰를 읽어보세요.",
+    "es": "¿Luchando con la proliferación de proveedores de IA? Claude Marketplace permite a las empresas comprar herramientas de IA de terceros utilizando el gasto existente de Anthropic con 0% de comisión. Lea nuestra reseña completa."
+  },
+  "_citations_dump":
