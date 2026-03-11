@@ -1,0 +1,642 @@
+{
+  "slug": "visual-translate-by-vozo",
+  "data": {
+	"en": {
+	  "tagline": "Detect and rebuild on-screen text in videos without recreating visuals.",
+	  "description": "> Visual Translate by Vozo is the missing layer in video localization: it detects, translates, and rebuilds on-screen text inside your videos, preserving layout, style, and motion. Built for slide-based and explainer videos, it connects directly into Vozo’s dubbing and lip-sync pipeline so you can ship fully localized content in one end-to-end workflow.\n\n**Automation:** Replace manual graphic redrawing with a three-step Detect → Translate → Rebuild engine. Visual Translate identifies on-screen text (titles, charts, callouts), applies context-aware translations, and erases the original text before re-rendering in the target language while keeping your animations intact.【turn3fetch0】【turn7fetch0】\n\n**Intelligence:** High-accuracy text detection with side-by-side comparison and text-level editing. You can tweak translations, adjust fonts/sizes/colors, and fine-tune timing and animations scene-by-scene, making it easier to maintain brand consistency across languages.【turn3fetch0】\n\n**Integration:** Visual Translate is designed as the first layer in Vozo’s localization stack. After translating on-screen text, you can continue in the same workspace to add subtitles, AI dubbing with VoiceREAL™ cloning, and LipREAL™ sync without exporting and re-importing across tools.【turn3fetch0】【turn3fetch0】\n\n**Price-to-Value:** Visual Translate by Vozo offers a **Free** plan, with paid tiers starting at **$29/month**. It is **More** expensive than average for this category.【turn5fetch0】",
+	  "features": [
+		"Detect and rebuild on-screen text while preserving layout and animations",
+		"Side-by-side editor to compare and refine translated visuals",
+		"Continue to subtitles, dubbing, and lip sync in the same workflow",
+		"Support 44 source and 68 target languages for visual text",
+		"Apply glossaries for consistent brand and product terminology",
+		"Adjust fonts, sizes, colors, and layout to match your brand",
+		"Control timing and animations for every text element",
+		"Accept MP4, MOV, WEBM, AVI, WMV inputs up to 4K; output up to 1080p",
+		"Manage team workspaces and admin controls for larger teams",
+		"Enterprise-ready security with SOC 2 controls and GDPR-aligned data handling"
+	  ],
+	  "seo_title": "Visual Translate by Vozo Review 2026: On-Screen Text Translation Without Recreation",
+	  "seo_description": "Visual Translate by Vozo detects and translates on-screen video text in 44 languages. Free tier: 2 min. Creator: $29/mo for ~15 min. 5-min file limit, 1080p output. 2026 review.",
+	  "comparison": {
+		"reason": "Rask AI is strong in end-to-end voice dubbing across 130+ languages, but Visual Translate by Vozo excels at detecting and rebuilding on-screen text in video frames without needing source design files. It’s ideal when slides, charts, and callouts carry the key message, while Rask AI is better when audio dubbing breadth is the priority.",
+		"caption": "Visual Translate by Vozo vs Rask AI: Core Differentiators",
+		"columns": [
+		  "Dimension",
+		  "Visual Translate by Vozo",
+		  "Rask AI"
+		],
+		"rows": [
+		  [
+			"Primary focus",
+			"Detect and rebuild on-screen text in videos while preserving layout and style",
+			"End-to-end AI dubbing and subtitles across 130+ languages"
+		  ],
+		  [
+			"On-screen text handling",
+			"Specialized: detects, erases, and re-renders visual text with editor controls",
+			"Focused on audio/subtitles; limited visual text editing"
+		  ],
+		  [
+			"Best fit",
+			"Slide-based and explainer videos where on-screen text is critical",
+			"Voice-first localization with strong multilingual dubbing"
+		  ],
+		  [
+			"Workflow integration",
+			"Connects natively to Vozo subtitles, dubbing, and LipREAL™ sync",
+			"Dubbing-centric workflow with export to editors"
+		  ],
+		  [
+			"Constraints to note",
+			"5-minute file limit and 1080p output for Visual Translate",
+			"Pricing and quotas scale with dubbing minutes more than visual text"
+		  ]
+		],
+		"tldr": "If your videos rely on on-screen text (slides, diagrams, UI labels), Visual Translate by Vozo offers a targeted advantage. If you mainly need multilingual voice dubbing and subtitles, Rask AI remains the broader option."
+	  },
+	  "verdict_jsonb": {
+		"summary": "Visual Translate by Vozo is the specialized choice for content creators and localization teams who need to translate on-screen text in videos without recreating visuals. It delivers accurate visual text detection and rebuilding across 44 source languages while integrating seamlessly with Vozo’s dubbing and lip-sync pipeline.",
+		"expert_quote": "\"Visual Translate solves the last-mile problem in video localization: translating text embedded in frames. Its context-aware layout engine and side-by-side editor enable production-grade workflows, though the 5-minute file limit and 1080p output cap create constraints for enterprise-scale deployments.\"",
+		"pros": [
+		  "Detects and rebuilds on-screen text while preserving original layout, style, and animations without requiring source project files",
+		  "Side-by-side editing interface allows direct comparison of original vs. translated visuals with real-time preview and revision",
+		  "Seamless workflow integration with Vozo’s dubbing, subtitles, and LipREAL™ sync for end-to-end video localization",
+		  "98.7%+ translation accuracy claimed across supported languages with glossary support for terminology consistency",
+		  "Enterprise-ready security with SOC 2 Type II controls (audit in progress) and GDPR-aligned data handling",
+		  "Flexible point-based pricing with free tier offering 2 visual translate minutes and Creator plan at $29/mo for ~15 minutes"
+		],
+		"cons": [
+		  "5-minute maximum duration per file for Visual Translate across all pricing tiers, limiting use for longer tutorials or courses",
+		  "Output resolution capped at 1080p even when uploading 4K source videos, affecting premium content creators",
+		  "API access restricted to Business/Enterprise plans, blocking developer integrations for smaller teams",
+		  "Limited support for continuously moving text like scrolling overlays or dynamic UI elements per Product Hunt feedback",
+		  "No version history for visual edits, making multi-round team review workflows more challenging",
+		  "Points deplete quickly: Visual Translate costs 10 points/minute, so Creator plan’s 150 points yield only ~15 minutes of processing"
+		],
+		"verdict": "Visual Translate by Vozo shines when on-screen text is part of the story—slides, charts, labels, and callouts are automatically detected, translated, and rebuilt while keeping your visuals intact. The side-by-side editor and deep integration with dubbing and lip sync make it a compelling end-to-end localization layer for creators and teams. The main caveats are the 5-minute file limit, 1080p output ceiling, and API being gated behind higher-tier plans. If your videos are short to mid-length, slide-based or explainer-style, and you need multilingual visuals alongside dubbed audio, Visual Translate is a strong, focused addition to your stack."
+	  },
+	  "faqs_jsonb": [
+		{
+		  "question": "Visual Translate by Vozo vs Rask AI – which handles on-screen text better?",
+		  "answer": "While Rask AI excels at end-to-end voice dubbing across 130+ languages, Visual Translate by Vozo has an absolute advantage in detecting and rebuilding visual text within video frames without requiring original design files. Vozo’s side-by-side editor and layout-aware rendering make it stronger for slide-based and explainer videos where on-screen text carries critical information."
+		},
+		{
+		  "question": "What are the known technical limitations of Visual Translate?",
+		  "answer": "The tool currently struggles with continuously moving or scrolling text like webpage recordings or kinetic typography animations. Additionally, translated text that expands significantly in length (e.g., Chinese to English) may require manual layout adjustments despite automatic font scaling. Users report occasional export stalls on complex multi-layer compositions."
+		},
+		{
+		  "question": "How does Vozo’s pricing work for Visual Translate specifically?",
+		  "answer": "Visual Translate consumes 10 AI points per minute of uploaded video duration. The free tier includes ~2 minutes, Creator ($29/mo) provides ~15 minutes, and Studio ($99/mo) offers ~60 minutes monthly. Points roll over for 2 months on monthly plans, but unused points expire if subscription lapses."
+		},
+		{
+		  "question": "Does Visual Translate support API access for automation workflows?",
+		  "answer": "API access is exclusively available to Business Plan subscribers and above. The free, Creator, and Studio tiers do not include API endpoints, requiring manual uploads through the web interface. Enterprise customers can contact sales for custom integration support and SLA guarantees."
+		},
+		{
+		  "question": "What languages does Visual Translate support for on-screen text?",
+		  "answer": "Visual Translate supports 44 source languages and 68 target languages for on-screen text detection and translation, which is narrower than Vozo’s full 110+ language support for audio dubbing. Major European, Asian, and Latin American languages are covered, but niche regional dialects may fall outside scope."
+		},
+		{
+		  "question": "Can I combine Visual Translate with dubbing and lip-sync in one workflow?",
+		  "answer": "Yes. Visual Translate is designed as the first layer in Vozo’s localization pipeline. After translating on-screen text, you can proceed to add subtitles, AI dubbing with VoiceREAL™ cloning, and LipREAL™ synchronization to produce a fully localized video deliverable without switching tools."
+		},
+		{
+		  "question": "What video formats and resolutions does Visual Translate accept?",
+		  "answer": "Visual Translate accepts MP4, MOV, WEBM, AVI, and WMV formats with input resolution up to 4K. However, output is rendered at maximum 1080p regardless of source quality. File size limits align with plan tiers: 20 min max for free tier, 60 min for Creator, and 120 min for Studio plans."
+		},
+		{
+		  "question": "How does Vozo handle brand terminology and glossary management?",
+		  "answer": "Studio and Enterprise plans include glossary functionality to define and enforce consistent translation of brand names, product terms, and industry jargon across all visual text elements. This prevents automatic mistranslation of protected terms and maintains brand voice consistency in localized outputs."
+		}
+	  ],
+	  "videos_jsonb": [
+		{
+		  "videoId": "Y_GHjQolOl8",
+		  "title": "Translate What You See in Videos, Not Just What You Hear | Vozo Visual Translate",
+		  "uploadDate": "2026-03-07",
+		  "description": "See how Vozo Visual Translate detects and rebuilds on-screen text for fully localized videos.",
+		  "duration": "PT1M57S"
+		},
+		{
+		  "videoId": "sAzO23KcWHI",
+		  "title": "How to Translate On-Screen Text in Videos with 1 Click | Vozo Visual Translate Tutorial",
+		  "uploadDate": "2026-03-10",
+		  "description": "Step-by-step tutorial: translate on-screen text in videos with one click using Vozo Visual Translate.",
+		  "duration": "PT3M6S"
+		}
+	  ]
+	},
+	"zh": {
+	  "tagline": "检测并重建视频中的画面文字，无需重做视觉素材。",
+	  "description": "> Visual Translate by Vozo 是视频本地化的“最后一块拼图”：它可以检测、翻译并重建视频中的画面文字，同时保留版式、风格和动效。专为幻灯片和讲解类视频打造，能够直接接入 Vozo 的配音与口型同步管线，让你在一个端到端工作流中输出完全本地化的视频内容。\n\n**自动化：** 用三步“检测 → 翻译 → 重建”的流程替代手工重绘。Visual Translate 会识别画面中的文字（标题、图表、标注），应用带语境的翻译，擦除原文后按目标语言重新渲染，并保持原有动画不被破坏。【turn3fetch0】【turn7fetch0】\n\n**智能化：** 高精度画面文字识别，并支持并排对比与逐段编辑。你可以修正译文、调整字体/大小/颜色，逐场景微调时间和动画，更容易在多语言之间保持品牌一致。【turn3fetch0】\n\n**集成性：** Visual Translate 被设计为 Vozo 本地化栈的首道工序。在完成画面文字翻译后，无需跨工具导出与重导，直接在同一工作区继续添加字幕、使用 VoiceREAL™ 克隆配音以及 LipREAL™ 口型同步。【turn3fetch0】【turn3fetch0】\n\n**价格与价值：** Visual Translate by Vozo 提供**免费**方案，付费方案起价为 **29 美元/月**。在该类别中属于**高于平均**价位。【turn5fetch0】",
+	  "features": [
+		"检测并重建画面文字，保留版式与动效",
+		"提供并排编辑器，对比与精修翻译后的画面效果",
+		"可在同一工作流中继续完成字幕、配音与口型同步",
+		"支持 44 种源语言与 68 种目标语言进行画面文字翻译",
+		"支持术语表，保持品牌与产品术语翻译一致",
+		"支持调整字体、大小、颜色与版式以匹配品牌",
+		"支持对每个文本元素的时间与动画进行精细控制",
+		"接受 MP4、MOV、WEBM、AVI、WMV 等格式，最高 4K 输入；输出最高 1080p",
+		"为大型团队提供团队工作区和管理控制",
+		"企业级安全：SOC 2 控制措施与符合 GDPR 的数据处理"
+	  ],
+	  "seo_title": "Visual Translate by Vozo 怎么样？2026 最新评测：价格、优缺点与竞品对比",
+	  "seo_description": "Visual Translate by Vozo 支持 44 种语言，自动检测并翻译视频画面文字。免费约 2 分钟；创作者方案 29 美元/月约 15 分钟。单文件 5 分钟上限，1080p 输出。2026 最新评测。",
+	  "comparison": {
+		"reason": "Rask AI 在 130+ 种语言的端到端配音方面表现突出，但 Visual Translate by Vozo 在检测与重建视频画面中的文字方面具有明显优势，且无需原始设计文件。当幻灯片、图表和标注承载关键信息时，它更合适；而当你主要需求是多语言配音与字幕时，Rask AI 仍是更宽泛的选择。",
+		"caption": "Visual Translate by Vozo 与 Rask AI 核心差异对比",
+		"columns": [
+		  "对比维度",
+		  "Visual Translate by Vozo",
+		  "Rask AI"
+		],
+		"rows": [
+		  [
+			"核心定位",
+			"检测并重建视频中的画面文字，保持版式与风格",
+			"面向 130+ 种语言的端到端 AI 配音与字幕"
+		  ],
+		  [
+			"画面文字处理能力",
+			"专用能力：检测、擦除并重绘画面文字，提供编辑控制",
+			"以音频/字幕为主，画面文字编辑能力有限"
+		  ],
+		  [
+			"最佳适用场景",
+			"画面文字承载关键信息的幻灯片与讲解类视频",
+			"以语音为主的本地化，需要丰富的多语种配音"
+		  ],
+		  [
+			"工作流集成",
+			"原生连接 Vozo 的字幕、配音与 LipREAL™ 同步",
+			"以配音为中心的工作流，导出至剪辑工具继续处理"
+		  ],
+		  [
+			"需要注意的限制",
+			"Visual Translate 单文件上限 5 分钟，输出上限 1080p",
+			"配额与价格更多围绕配音时长，而非画面文字"
+		  ]
+		],
+		"tldr": "如果你的视频高度依赖画面文字（幻灯片、图表、界面文案），Visual Translate by Vozo 在这一环节具备明显优势。如果你主要需要多语种配音与字幕，Rask AI 依然是覆盖面更广的选择。"
+	  },
+	  "verdict_jsonb": {
+		"summary": "Visual Translate by Vozo 是为内容创作者和本地化团队打造的专用方案，专门用于在不重建视觉素材的情况下翻译视频中的画面文字。它支持 44 种源语言的画面文字检测与重建，并与 Vozo 的配音和口型同步管线深度集成。",
+		"expert_quote": "“Visual Translate 解决了视频本地化的‘最后一公里’问题——帧内文字的翻译。其具备语境感知的版式引擎与并排编辑器，可支撑生产级工作流，不过 5 分钟的单文件时长限制和 1080p 的输出上限，对企业级规模化部署构成约束。”",
+		"pros": [
+		  "无需原始工程文件即可检测并重建画面文字，并保留原版式、风格与动效",
+		  "并排编辑界面可直接对照并实时预览与修改原文与译文画面",
+		  "与 Vozo 的配音、字幕和 LipREAL™ 深度集成，实现端到端视频本地化",
+		  "声称在支持语言中具有 98.7% 以上的翻译准确率，并提供术语表功能",
+		  "企业级安全：SOC 2 Type II 控制（审计中）与符合 GDPR 的数据处理",
+		  "基于点数的灵活计费，免费约 2 分钟，创作者方案 29 美元/月约 15 分钟"
+		],
+		"cons": [
+		  "Visual Translate 所有套餐均为单文件上限 5 分钟，较长教程或课程使用受限",
+		  "即使上传 4K 源视频，输出仍以 1080p 为上限，对高品质内容创作者不利",
+		  "API 仅面向企业及以上方案开放，小团队难以自行集成",
+		  "对连续滚动或快速移动的文字（如网页录制、动态 UI）支持有限",
+		  "画面编辑无版本历史，多轮团队审阅工作流更难管理",
+		  "点数消耗较快：Visual Translate 为 10 点/分钟，创作者方案 150 点仅约 15 分钟处理时长"
+		],
+		"verdict": "当画面文字是叙事的一部分——幻灯片、图表、标签和提示——Visual Translate by Vozo 能自动检测、翻译并重建，同时保持视觉不变。并排编辑器以及与配音和口型同步的深度集成，使其成为创作者和团队在端到端本地化中一个强有力的“补完层”。主要约束在于 5 分钟单文件上限、1080p 输出上限，以及 API 仅在高阶套餐开放。如果你的视频偏短到中等时长、以幻灯片或讲解为主，并需要在多语种配音之外同步本地化画面文字，Visual Translate 是一个专注而有力的工具。"
+	  },
+	  "faqs_jsonb": [
+		{
+		  "question": "Visual Translate by Vozo 与 Rask AI 相比，谁在处理画面文字上更强？",
+		  "answer": "Rask AI 在 130+ 种语言的端到端配音方面表现出色，但 Visual Translate by Vozo 在检测与重建视频帧内画面文字方面拥有绝对优势，而且无需原始设计文件。Vozo 的并排编辑器与版式感知渲染，使其在以画面文字为关键信息载体的幻灯片与讲解类视频中更具竞争力。"
+		},
+		{
+		  "question": "Visual Translate 目前有哪些已知技术限制？",
+		  "answer": "目前工具在连续滚动或快速移动的文字（例如网页录制、动态排版动画）上表现不佳。另外，当译文明显长于原文（例如中文到英文）时，即便有自动字体缩放，也可能需要手动调整版式。部分用户反馈在复杂多层合成导出时偶发卡顿。"
+		},
+		{
+		  "question": "Visual Translate 的计费规则是怎样的？",
+		  "answer": "Visual Translate 按上传视频时长消耗点数，费率为 10 点/分钟。免费方案大约可处理 2 分钟，创作者（29 美元/月）约 15 分钟，Studio（99 美元/月）约 60 分钟。月付套餐下点数可滚动 2 个月，若订阅失效则未使用点数过期。"
+		},
+		{
+		  "question": "Visual Translate 是否支持 API 以用于自动化工作流？",
+		  "answer": "API 访问仅对企业及以上套餐开放。免费、创作者和 Studio 方案不包含 API 接入，需通过网页端手动上传。企业客户可联系销售获取定制集成支持与 SLA 保障。"
+		},
+		{
+		  "question": "Visual Translate 对画面文字支持哪些语言？",
+		  "answer": "Visual Translate 支持从 44 种源语言翻译到 68 种目标语言，覆盖主要欧洲、亚洲与拉美语言，但范围窄于 Vozo 音频配音所支持的 110+ 种语言。部分小众地区方言可能不在覆盖范围内。"
+		},
+		{
+		  "question": "能否在一个工作流中同时使用 Visual Translate、配音和口型同步？",
+		  "answer": "可以。Visual Translate 被设计为 Vozo 本地化管线中的首道工序。完成画面文字翻译后，你可以继续在同一项目中添加字幕、使用 VoiceREAL™ 进行 AI 配音克隆以及 LipREAL™ 口型同步，从而无需切换工具即可交付完全本地化的视频。"
+		},
+		{
+		  "question": "Visual Translate 支持哪些视频格式与分辨率？",
+		  "answer": "Visual Translate 支持 MP4、MOV、WEBM、AVI、WMV 等格式，输入分辨率最高 4K。但无论源画质如何，输出均最高渲染为 1080p。文件时长限制与套餐一致：免费约 20 分钟、创作者 60 分钟、Studio 120 分钟。"
+		},
+		{
+		  "question": "Vozo 如何处理品牌术语与术语表管理？",
+		  "answer": "Studio 和企业套餐提供术语表功能，用于定义并强制品牌名称、产品术语与行业术语在所有画面文字元素中的一致翻译。这有助于避免受保护词汇的误译，并在多语言输出中保持品牌语调一致。"
+		}
+	  ],
+	  "videos_jsonb": [
+		{
+		  "videoId": "Y_GHjQolOl8",
+		  "title": "Translate What You See in Videos, Not Just What You Hear | Vozo Visual Translate",
+		  "uploadDate": "2026-03-07",
+		  "description": "了解 Vozo Visual Translate 如何检测并重建画面文字，实现完全本地化的视频体验。",
+		  "duration": "PT1M57S"
+		},
+		{
+		  "videoId": "sAzO23KcWHI",
+		  "title": "How to Translate On-Screen Text in Videos with 1 Click | Vozo Visual Translate Tutorial",
+		  "uploadDate": "2026-03-10",
+		  "description": "分步教程：使用 Vozo Visual Translate 一键翻译视频中的画面文字。",
+		  "duration": "PT3M6S"
+		}
+	  ]
+	},
+	"ja": {
+	  "tagline": "動画内のテキストを検出し、再作成なしで翻訳・再構築。",
+	  "description": "> Visual Translate by Vozoは、動画ローカライゼーションの「最後のピース」です。映像内に埋め込まれたテキストを検出・翻訳し、レイアウトやスタイル、アニメーションを保ったまま再構築します。スライドベースや解説動画に最適化されており、Vozoの吹き替え・リップシンク・パイプラインと直結できるため、ひとつのエンドツーエンドのワークフローで完全にローカライズされた動画を届けられます。\n\n**Automation（自動化）:** 手作業での再デザインを、3ステップの「検出→翻訳→再構築」エンジンに置き換えます。Visual Translateは画面内のテキスト（タイトル、チャート、注釈）を識別し、文脈を考慮した翻訳を適用して、原文を消去したうえでターゲット言語で再レンダリングし、アニメーションを維持します。【turn3fetch0】【turn7fetch0】\n\n**Intelligence（知能）:** 高精度なテキスト検出に加え、並列比較とテキストレベルの編集が可能です。翻訳を微調整したり、フォント・サイズ・色を変更したり、シーンごとにタイミングやアニメーションを調整したりして、言語間でブランドの一貫性を保ちやすくなります。【turn3fetch0】\n\n**Integration（連携）:** Visual TranslateはVozoのローカライゼーションスタックの「最初のレイヤー」として設計されています。画面テキストの翻訳が終わったら、同じワークスペースで字幕、VoiceREAL™ クローニングによるAI吹き替え、LipREAL™ リップシンクへと継続でき、ツール間でのエクスポート／インポートを最小限に抑えられます。【turn3fetch0】【turn3fetch0】\n\n**Price-to-Value:** Visual Translate by Vozoは**Free**プランを提供しており、有料プランは**$29/月**から始まります。このカテゴリでは平均より**高価格**な部類に入ります。【turn5fetch0】",
+	  "features": [
+		"画面内テキストを検出して再構築し、レイアウトやアニメーションを保持",
+		"オリジナルと翻訳済みの映像を並べて比較・編集できるサイドバイサイドエディタ",
+		"同一ワークフローで、字幕・吹き替え・リップシンクへ継続可能",
+		"44のソース言語・68のターゲット言語で画面テキスト翻訳をサポート",
+		"用語集を使ってブランド名・製品用語の一貫性を維持",
+		"フォント、サイズ、色、レイアウトを調整してブランドに合わせられる",
+		"テキスト要素ごとにタイミングやアニメーションを細かく制御",
+		"MP4・MOV・WEBM・AVI・WMV入力に対応（最大4K）、出力は最大1080p",
+		"チームワークスペースと管理機能で大規模チームにも対応",
+		"SOC 2コントロール（監査中）やGDPR準拠のデータ処理などエンタープライズ向けセキュリティ"
+	  ],
+	  "seo_title": "【徹底レビュー】Visual Translate by Vozoの評判は？2026年最新料金・使い方・代替ソフト",
+	  "seo_description": "Visual Translate by Vozoは44言語で動画内のテキストを検出・翻訳。無料約2分、Creatorプラン$29/月で約15分。ファイル長5分制限、出力1080p。2026年レビュー。",
+	  "comparison": {
+		"reason": "Rask AIは130以上の言語に対応するエンドツーエンドの吹き替えに強みがありますが、Visual Translate by Vozoは映像内に埋め込まれたテキストを検出して再構築する点で圧倒的に優位です。スライドや解説動画のように「見えるテキスト」が重要な場合はVozo、音声ローカライゼーションの幅を重視する場合はRask AIが適しています。",
+		"caption": "Visual Translate by Vozo と Rask AI のコアな違い",
+		"columns": [
+		  "比較項目",
+		  "Visual Translate by Vozo",
+		  "Rask AI"
+		],
+		"rows": [
+		  [
+			"主な焦点",
+			"動画内のテキストを検出し、レイアウトやスタイルを保って再構築",
+			"130以上の言語に対応するエンドツーエンドのAI吹き替え・字幕"
+		  ],
+		  [
+			"画面内テキストの扱い",
+			"専用機能：テキストを検出・消去・再描画し、エディタで制御",
+			"音声・字幕がメインで、テキスト編集機能は限定的"
+		  ],
+		  [
+			"最適なユースケース",
+			"スライドや解説動画など、画面テキストが重要なコンテンツ",
+			"多言語吹き替えを中心としたローカライゼーション"
+		  ],
+		  [
+			"ワークフロー統合",
+			"Vozoの字幕・吹き替え・LipREAL™ とネイティブ連携",
+			"吹き替え中心のワークフローで、編集ツールへエクスポート"
+		  ],
+		  [
+			"注意すべき制約",
+			"Visual Translateはファイル長5分・出力1080pの制限あり",
+			"クォータと価格は主に吹き替え分に基づき、テキスト重視ではない"
+		  ]
+		],
+		"tldr": "スライドや図表、UIラベルなど「見えるテキスト」が重要な動画では、Visual Translate by Vozoが明確な優位性を持ちます。主に多言語吹き替えと字幕が必要な場合は、Rask AIの方が広いカバー力を持つ選択肢です。"
+	  },
+	  "verdict_jsonb": {
+		"summary": "Visual Translate by Vozoは、コンテンツクリエイターやローカライゼーションチームのための特化ツールです。動画内のテキストを再作成なしで翻訳でき、44のソース言語で高精度に検出・再構築しながら、Vozoの吹き替え・リップシンク機能とシームレスに統合されます。",
+		"expert_quote": "「Visual Translateは動画ローカライゼーションの『ラストマイル』を解決するツールです。フレーム内のテキストを翻訳し、文脈を理解したレイアウトエンジンとサイドバイサイドエディタで制作現場に対応可能にします。一方で、ファイル長5分の制限や1080p出力の上限があり、エンタープライズ規模の展開には制約があります。」",
+		"pros": [
+		  "元プロジェクトファイルなしで、画面内テキストを検出し再構築。レイアウト・スタイル・アニメーションを維持",
+		  "オリジナルと翻訳後の映像を並べて比較・プレビュー・修正できるサイドバイサイド編集インターフェース",
+		  "Vozoの吹き替え・字幕・LipREAL™ と統合され、エンドツーエンドの動画ローカライゼーションが可能",
+		  "対応言語で98.7%以上の翻訳精度を主張し、用語集で用語の一貫性を確保",
+		  "SOC 2 Type IIコントロール（監査中）やGDPR準拠のデータ処理などエンタープライズ向けセキュリティ",
+		  "ポイントベースの柔軟な価格設定。無料で約2分、Creatorプラン$29/月で約15分を提供"
+		],
+		"cons": [
+		  "Visual Translateはすべてのプランでファイル長5分の制限があり、長編チュートリアルや講義には不向き",
+		  "4Kソースをアップロードしても出力は1080pが上限で、ハイエンドクリエイターには物足りない",
+		  "APIアクセスはBusiness/Enterprise以上に限定され、小規模チームでは自動化が難しい",
+		  "スクロールするオーバーレイや動的UIなど、連続して動くテキストのサポートは限定的",
+		  "ビジュアル編集にバージョン履歴がなく、チームでの複数回レビューワークフローがしづらい",
+		  "ポイント消費が早い：Visual Translateは10ポイント/分で、Creatorプランの150ポイントは約15分分しかない"
+		],
+		"verdict": "スライド、チャート、ラベル、キャプションなど「見えるテキスト」がストーリーの一部である動画において、Visual Translate by Vozoはテキストを自動検出・翻訳・再構築し、ビジュアルを保ったままローカライズします。サイドバイサイドエディタと吹き替え・リップシンクとの統合は、クリエイターやチームにとって魅力的な「レイヤー」です。ただし、5分のファイル長制限、1080p出力上限、APIが上位プランのみという点は考慮が必要です。短〜中尺で、スライドや解説中心、かつ多言語吹き替えだけでなく画面テキストもローカライズしたい場合、Visual Translateは強力でフォーカスされた選択肢になります。"
+	  },
+	  "faqs_jsonb": [
+		{
+		  "question": "Visual Translate by VozoとRask AIはどちらが画面内テキストの扱いに優れていますか？",
+		  "answer": "Rask AIは130以上の言語でエンドツーエンドの吹き替えを行う点に強みがありますが、Visual Translate by Vozoは動画フレーム内のテキストを検出・再構築する点で圧倒的に優れており、元デザインファイルも不要です。Vozoのサイドバイサイドエディタとレイアウト認識レンダリングにより、スライドや解説動画など「見えるテキスト」が重要なコンテンツに特に適しています。"
+		},
+		{
+		  "question": "Visual Translateの主な技術的な制限は何ですか？",
+		  "answer": "現在、スクロールや激しく動くテキスト（Webページ録画やキネティックタイポグラフィなど）の扱いは苦手です。また、翻訳後にテキスト長が大幅に伸びる言語ペア（中国語→英語など）では、自動フォントスケーリングがあるとはいえ手動でレイアウト調整が必要になることがあります。複雑なマルチレイヤー構成でのエクスポートがまれに停止するという報告もあります。"
+		},
+		{
+		  "question": "Visual Translateの料金体系はどうなっていますか？",
+		  "answer": "Visual Translateはアップロード動画の長さに応じてポイントを消費します。料金は10ポイント/分です。無料プランは約2分、Creator（$29/月）は約15分、Studio（$99/月）は約60分です。月額プランではポイントが2ヶ月間繰り越されますが、サブスクリプションが切れると未使用ポイントは失効します。"
+		},
+		{
+		  "question": "Visual TranslateはAPI経由での自動化に対応していますか？",
+		  "answer": "APIアクセスはBusinessプラン以上に限定されています。無料・Creator・StudioプランにはAPIエンドポイントが含まれず、Webインターフェースからの手動アップロードが必要です。エンタープライズ契約では、カスタム連携やSLAについて営業担当者に相談可能です。"
+		},
+		{
+		  "question": "Visual Translateは画面テキストに対してどの言語をサポートしていますか？",
+		  "answer": "Visual Translateは44のソース言語と68のターゲット言語をサポートしており、主要な欧州・アジア・ラテンアメリカ言語をカバーしています。ただし、Vozoの音声吹き替えがサポートする110以上の言語よりも範囲は狭く、ニッチな地域方言は含まれない可能性があります。"
+		},
+		{
+		  "question": "吹き替えやリップシンクと同じワークフローでVisual Translateを併用できますか？",
+		  "answer": "はい。Visual TranslateはVozoのローカライゼーションパイプラインの「最初のレイヤー」として設計されています。画面テキストの翻訳が完了したら、同じワークスペースで字幕、VoiceREAL™によるAI吹き替え、LipREAL™リップシンクへと進み、ツールを切り替えることなく完全ローカライズされた動画を仕上げることができます。"
+		},
+		{
+		  "question": "Visual Translateが対応する動画フォーマットと解像度を教えてください。",
+		  "answer": "MP4、MOV、WEBM、AVI、WMV形式に対応し、入力は最大4Kまで受け付けます。ただし、出力はソースの画質に関わらず最大1080pです。ファイル長の制限はプランに応じて異なり、無料は約20分、Creatorは60分、Studioは120分までです。"
+		},
+		{
+		  "question": "ブランド用語や用語集はどのように管理されていますか？",
+		  "answer": "Studioおよびエンタープライズプランには用語集機能があり、ブランド名・製品用語・業界用語の翻訳を定義・強制できます。これにより、保護された用語の誤翻訳を防ぎ、ローカライズされた出力でブランドトーンの一貫性を保つことができます。"
+		}
+	  ],
+	  "videos_jsonb": [
+		{
+		  "videoId": "Y_GHjQolOl8",
+		  "title": "Translate What You See in Videos, Not Just What You Hear | Vozo Visual Translate",
+		  "uploadDate": "2026-03-07",
+		  "description": "Vozo Visual Translateがいかにして画面内テキストを検出・再構築し、完全ローカライズされた動画を実現しているかを紹介します。",
+		  "duration": "PT1M57S"
+		},
+		{
+		  "videoId": "sAzO23KcWHI",
+		  "title": "How to Translate On-Screen Text in Videos with 1 Click | Vozo Visual Translate Tutorial",
+		  "uploadDate": "2026-03-10",
+		  "description": "Vozo Visual Translateを使って、ワンクリックで動画内のテキストを翻訳するステップバイステップのチュートリアル。",
+		  "duration": "PT3M6S"
+		}
+	  ]
+	},
+	"ko": {
+	  "tagline": "영상 속 텍스트를 감지하고, 비주얼을 새로 만들지 않고 번역·재구축.",
+	  "description": "> Visual Translate by Vozo는 비디오 로컬라이제이션의 ‘마지막 퍼즐’입니다. 영상 안에 들어있는 텍스트를 감지하고, 번역한 뒤 레이아웃·스타일·애니메이션을 유지한 채로 다시 그려줍니다. 슬라이드 기반 영상이나 설명형 영상에 최적화되어 있으며, Vozo의 더빙·립싱크 파이프라인과 바로 이어지기 때문에 하나의 워크플로우에서 완전히 로컬라이즈된 영상을 만들 수 있습니다.\n\n**Automation(자동화):** 수동으로 다시 디자인할 필요 없이, ‘감지→번역→재구축’ 3단계로 처리합니다. Visual Translate는 화면 속 텍스트(제목, 차트, 캡션 등)를 인식하고, 문맥을 반영한 번역을 적용한 뒤 원문을 지우고 타겟 언어로 다시 렌더링하면서 애니메이션까지 유지합니다.【turn3fetch0】【turn7fetch0】\n\n**Intelligence(지능):** 높은 정확도의 텍스트 인식에 더해, 원본과 번역본을 나란히 비교하는 에디터와 텍스트 단위 편집을 지원합니다. 번역을 수정하거나 폰트·크기·색을 조정하고, 장면별로 타이밍과 애니메이션을 세밀하게 조정해 언어 간 브랜드 일관성을 지키기 쉽습니다.【turn3fetch0】\n\n**Integration(연동):** Visual Translate는 Vozo 로컬라이제이션 스택의 ‘첫 번째 레이어’로 설계되었습니다. 화면 텍스트 번역을 마친 뒤 같은 워크스페이스에서 자막, VoiceREAL™ 클로닝 기반 AI 더빙, LipREAL™ 립싱크로 이어질 수 있어, 도구를 오갈 필요가 없습니다.【turn3fetch0】【turn3fetch0】\n\n**Price-to-Value:** Visual Translate by Vozo는 **무료** 플랜을 제공하며, 유료 플랜은 **$29/월**부터 시작합니다. 이 카테고리에서는 평균보다 **비싼 편**입니다.【turn5fetch0】",
+	  "features": [
+		"화면 속 텍스트를 감지하고 레이아웃과 애니메이션을 유지한 채 재구축",
+		"원본/번역본을 나란히 보며 비교·수정할 수 있는 사이드바이사이드 에디터",
+		"같은 워크플로우 안에서 자막·더빙·립싱크로 이어질 수 있음",
+		"44개 소스 언어, 68개 타겟 언어 지원",
+		"용어집 기능으로 브랜드/제품 용어 번역 일관성 유지",
+		"폰트·크기·색상·레이아웃을 조정해 브랜드 스타일 맞춤",
+		"텍스트 요소별로 타이밍과 애니메이션을 세밀하게 제어",
+		"MP4·MOV·WEBM·AVI·WMV 지원, 최대 4K 입력/1080p 출력",
+		"팀 워크스페이스 및 관리 기능으로 대규모 팀 지원",
+		"SOC 2 컨트롤(감사 중) 및 GDPR 준수 데이터 처리 등 엔터프라이즈 보안"
+	  ],
+	  "seo_title": "Visual Translate by Vozo 솔직 후기(2026 최신):: 가격, 장단점 및 추천 대안 (완벽 정리)",
+	  "seo_description": "Visual Translate by Vozo는 44개 언어로 영상 속 텍스트를 감지·번역. 무료 약 2분, Creator $29/월로 약 15분. 파일당 5분 제한, 1080p 출력. 2026년 최신 리뷰.",
+	  "comparison": {
+		"reason": "Rask AI는 130개 이상의 언어를 지원하는 엔드투엔드 더빙에 강점이 있지만, Visual Translate by Vozo는 영상 프레임 안의 텍스트를 감지해 다시 그리는 데에서 압도적인 우위를 가집니다. 슬라이드나 설명형 영상처럼 ‘보이는 텍스트’가 핵심인 경우엔 Vozo가, 음성 로컬라이제이션 폭이 중요하다면 Rask AI가 더 적합합니다.",
+		"caption": "Visual Translate by Vozo vs Rask AI 핵심 차이",
+		"columns": [
+		  "비교 항목",
+		  "Visual Translate by Vozo",
+		  "Rask AI"
+		],
+		"rows": [
+		  [
+			"주 포커스",
+			"영상 속 텍스트를 감지하고 레이아웃·스타일을 유지하며 재구축",
+			"130개 이상 언어의 엔드투엔드 AI 더빙·자막"
+		  ],
+		  [
+			"화면 텍스트 처리",
+			"전문 기능: 텍스트를 감지·지우고 다시 그리며 에디터로 제어",
+			"오디오·자막 중심, 텍스트 편집 기능은 제한적"
+		  ],
+		  [
+			"최적 용도",
+			"화면 텍스트가 중요한 슬라이드/설명 영상",
+			"다국어 더빙 위주의 로컬라이제이션"
+		  ],
+		  [
+			"워크플로우 통합",
+			"Vozo의 자막·더빙·LipREAL™와 네이티브 연동",
+			"더빙 중심 워크플로우, 에디터로 내보내기 후 후작업"
+		  ],
+		  [
+			"고려할 제약",
+			"Visual Translate는 파일당 5분·출력 1080p 제한",
+			"할당량과 가격은 주로 더빙 분 기준, 텍스트 중심 아님"
+		  ]
+		],
+		"tldr": "슬라이드, 차트, UI 라벨처럼 ‘보이는 텍스트’가 중요한 영상에서는 Visual Translate by Vozo가 명확한 이점을 가집니다. 주로 다국어 더빙과 자막이 필요한 경우엔 Rask AI가 더 폭넓은 선택지가 될 수 있습니다."
+	  },
+	  "verdict_jsonb": {
+		"summary": "Visual Translate by Vozo는 콘텐츠 크리에이터와 로컬라이제이션 팀을 위한 특화 솔루션입니다. 영상 속 텍스트를 비주얼을 새로 만들지 않고 번역할 수 있으며, 44개 소스 언어에서 텍스트를 감지해 재구축하면서 Vozo의 더빙·립싱크 기능과 매끄럽게 통합됩니다.",
+		"expert_quote": "“Visual Translate는 영상 로컬라이제이션의 ‘라스트 마일’을 해결합니다. 프레임 안의 텍스트를 번역하고, 문맥을 이해하는 레이아웃 엔진과 사이드바이사이드 에디터로 실무급 워크플로우를 지원합니다. 반면 파일당 5분 제한과 1080p 출력 한계는 엔터프라이즈 규모 도입 시 제약이 될 수 있습니다.”",
+		"pros": [
+		  "원본 프로젝트 파일 없이도 화면 속 텍스트를 감지하고 레이아웃·스타일·애니메이션을 유지하며 재구축",
+		  "원본/번역본을 나란히 비교하며 실시간 프리뷰와 수정이 가능한 에디터",
+		  "Vozo의 더빙·자막·LipREAL™와 통합돼 엔드투엔드 영상 로컬라이제이션 가능",
+		  "지원 언어에서 98.7% 이상의 번역 정확도를 주장하며, 용어집으로 용어 일관성 확보",
+		  "SOC 2 Type II 컨트롤(감사 중) 및 GDPR 준수 데이터 처리 등 엔터프라이즈 보안",
+		  "포인트 기반의 유연한 요금제. 무료 약 2분, Creator $29/월로 약 15분 제공"
+		],
+		"cons": [
+		  "모든 플랜에서 파일당 5분 제한이 있어 긴 강의나 튜토리얼엔 부적합",
+		  "4K 소스를 업로드해도 출력은 1080p로 한정돼 고해상도 크리에이터에겐 아쉬움",
+		  "API는 Business/Enterprise 이상만 제공되어 소규모 팀에선 자동화가 어려움",
+		  "스크롤 오버레이나 동적 UI처럼 계속 움직이는 텍스트는 지원이 제한적",
+		  "비주얼 편집에 버전 히스토리가 없어 여러 차례 팀 리뷰가 어려움",
+		  "포인트 소모가 빠름: Visual Translate는 10포인트/분이라 Creator 플랜의 150포인트는 약 15분 분량"
+		],
+		"verdict": "슬라이드, 차트, 라벨, 캡션처럼 ‘보이는 텍스트’가 스토리의 일부인 영상에서, Visual Translate by Vozo는 텍스트를 자동으로 감지·번역·재구축하면서 비주얼을 그대로 살립니다. 사이드바이사이드 에디터와 더빙·립싱크와의 통합은 크리에이터와 팀에게 매력적인 ‘레이어’입니다. 다만 파일당 5분 제한, 1080p 출력 상한, API가 상위 플랜에만 있다는 점은 고려해야 합니다. 중·단편 슬라이드/설명 영상 위주이고, 다국어 더빙뿐만 아니라 화면 텍스트까지 로컬라이즈해야 한다면 Visual Translate는 강력하고 집중된 선택지가 됩니다."
+	  },
+	  "faqs_jsonb": [
+		{
+		  "question": "Visual Translate by Vozo와 Rask AI 중 화면 텍스트 처리를 더 잘하는 건 어느 쪽인가요?",
+		  "answer": "Rask AI는 130개 이상 언어의 엔드투엔드 더빙에 강점이 있지만, Visual Translate by Vozo는 영상 프레임 안의 텍스트를 감지해 다시 그리는 데 압도적인 우위를 가지며, 원본 디자인 파일도 필요하지 않습니다. Vozo의 사이드바이사이드 에디터와 레이아웃 인지 렌더링 덕분에, 슬라이드/설명 영상처럼 화면 텍스트가 핵심인 콘텐츠에 특히 유리합니다."
+		},
+		{
+		  "question": "Visual Translate의 주요 기술적 한계는 무엇인가요?",
+		  "answer": "현재 스크롤되거나 계속 움직이는 텍스트(웹페이지 녹화, 키네틱 타이포그래피 등)는 다소 까다롭습니다. 또한 번역 후 텍스트 길이가 크게 늘어나는 언어 쌍(예: 중국어→영어)에서는 자동 폰트 스케일링이 있어도 수동으로 레이아웃을 조정해야 할 수 있습니다. 복잡한 멀티 레이어 구성에서 내보내기가 가끔 멈춘다는 보고도 있습니다."
+		},
+		{
+		  "question": "Visual Translate의 가격 정책은 어떻게 되어 있나요?",
+		  "answer": "Visual Translate는 업로드된 영상 길이를 기준으로 포인트를 소모하며, 요금은 10포인트/분입니다. 무료 플랜은 약 2분, Creator($29/월)는 약 15분, Studio($99/월)는 약 60분입니다. 월간 구독 시 포인트는 2개월까지 이월되지만, 구독이 만료되면 미사용 포인트는 소멸됩니다."
+		},
+		{
+		  "question": "Visual Translate는 API를 통한 자동화 워크플로우를 지원하나요?",
+		  "answer": "API 접근은 Business 플랜 이상에서만 제공됩니다. 무료·Creator·Studio 플랜에는 API 엔드포인트가 포함되지 않아 웹 인터페이스에서 수동으로 업로드해야 합니다. 엔터프라이즈 계약 시 영업팀과 맞춤형 연동 및 SLA를 논의할 수 있습니다."
+		},
+		{
+		  "question": "Visual Translate는 화면 텍스트에 대해 어떤 언어를 지원하나요?",
+		  "answer": "Visual Translate는 44개 소스 언어와 68개 타겟 언어를 지원하며, 주요 유럽·아시아·라틴 아메리카 언어를 커버합니다. 다만 Vozo의 음성 더빙이 지원하는 110개 이상 언어보다는 범위가 좁고, 일부 지역 방언은 포함되지 않을 수 있습니다."
+		},
+		{
+		  "question": "더빙이나 립싱크와 같은 워크플로우에서 Visual Translate를 함께 쓸 수 있나요?",
+		  "answer": "네. Visual Translate는 Vozo 로컬라이제이션 파이프라인의 ‘첫 번째 레이어’로 설계됐습니다. 화면 텍스트 번역을 마친 뒤 같은 워크스페이스에서 자막, VoiceREAL™ 기반 AI 더빙, LipREAL™ 립싱크로 이어져, 도구를 바꾸지 않고도 완전히 로컬라이즈된 영상을 만들 수 있습니다."
+		},
+		{
+		  "question": "Visual Translate가 지원하는 영상 포맷과 해상도는 어떻게 되나요?",
+		  "answer": "MP4, MOV, WEBM, AVI, WMV 형식을 지원하며, 입력은 최대 4K까지 가능합니다. 다만 출력은 소스 품질과 상관없이 최대 1080p입니다. 파일 길이 제한은 플랜에 따라 다르며, 무료 약 20분, Creator 60분, Studio 120분까지입니다."
+		},
+		{
+		  "question": "브랜드 용어나 용어집은 어떻게 관리되나요?",
+		  "answer": "Studio 및 엔터프라이즈 플랜에는 용어집 기능이 있어, 브랜드명·제품 용어·업계 용어의 번역을 정의하고 일관되게 적용할 수 있습니다. 이를 통해 보호 용어의 오역을 방지하고, 로컬라이즈된 출력에서 브랜드 톤의 일관성을 유지할 수 있습니다."
+		}
+	  ],
+	  "videos_jsonb": [
+		{
+		  "videoId": "Y_GHjQolOl8",
+		  "title": "Translate What You See in Videos, Not Just What You Hear | Vozo Visual Translate",
+		  "uploadDate": "2026-03-07",
+		  "description": "Vozo Visual Translate가 화면 텍스트를 어떻게 감지하고 재구축해, 완전히 로컬라이즈된 영상을 만드는지 보여줍니다.",
+		  "duration": "PT1M57S"
+		},
+		{
+		  "videoId": "sAzO23KcWHI",
+		  "title": "How to Translate On-Screen Text in Videos with 1 Click | Vozo Visual Translate Tutorial",
+		  "uploadDate": "2026-03-10",
+		  "description": "Vozo Visual Translate를 사용해 원클릭으로 영상 속 텍스트를 번역하는 단계별 튜토리얼입니다.",
+		  "duration": "PT3M6S"
+		}
+	  ]
+	},
+	"es": {
+	  "tagline": "Detecta y reconstruye el texto en pantalla sin recrear los visuales.",
+	  "description": "> Visual Translate by Vozo es la capa que faltaba en la localización de vídeos: detecta, traduce y reconstruye el texto que aparece dentro del cuadro, manteniendo el diseño, el estilo y el movimiento. Pensado para vídeos basados en diapositivas y explicativos, se conecta directamente con el flujo de doblaje y sincronización labial de Vozo para que puedas entregar contenidos completamente localizados de extremo a extremo.\n\n**Automatización:** Sustituye el rediseño manual gráfico con un motor de tres pasos: Detectar → Traducir → Reconstruir. Visual Translate identifica el texto en pantalla (títulos, gráficos, llamadas), aplica traducciones con contexto y borra el texto original antes de volver a renderizarlo en el idioma de destino, conservando las animaciones.【turn3fetch0】【turn7fetch0】\n\n**Inteligencia:** Detección de texto de alta precisión con edición paralela y control a nivel de texto. Puedes ajustar las traducciones, modificar fuentes, tamaños y colores, y afinar la sincronización y las animaciones escena a escena, lo que facilita mantener la coherencia de marca entre idiomas.【turn3fetch0】\n\n**Integración:** Visual Translate está diseñado como la primera capa del stack de localización de Vozo. Después de traducir el texto en pantalla, puedes seguir en el mismo espacio de trabajo para añadir subtítulos, doblaje con VoiceREAL™ y LipREAL™ sin exportar ni volver a importar entre herramientas.【turn3fetch0】【turn3fetch0】\n\n**Price-to-Value:** Visual Translate by Vozo ofrece un plan **Gratuito**, con planes de pago que empiezan desde **29 $/mes**. Es **Más** cara que la media en esta categoría.【turn5fetch0】",
+	  "features": [
+		"Detecta y reconstruye el texto en pantalla manteniendo el diseño y las animaciones",
+		"Editor en paralelo para comparar y perfeccionar los visuales traducidos",
+		"Continúa en el mismo flujo de trabajo con subtítulos, doblaje y sincronización labial",
+		"Soporta 44 idiomas de origen y 68 de destino para el texto en pantalla",
+		"Aplica glosarios para mantener la coherencia de la marca y la terminología",
+		"Ajusta fuentes, tamaños, colores y el diseño para adaptarlos a tu marca",
+		"Controla la temporización y las animaciones de cada elemento de texto",
+		"Acepta MP4, MOV, WEBM, AVI, WMV hasta 4K; salida hasta 1080p",
+		"Espacios de trabajo de equipo y controles de administración para equipos grandes",
+		"Seguridad de nivel empresarial con controles SOC 2 y tratamiento de datos alineado con GDPR"
+	  ],
+	  "seo_title": "Opiniones de Visual Translate by Vozo en 2026:: Precio, Ventajas y Alternativas",
+	  "seo_description": "Visual Translate by Vozo detecta y traduce texto en vídeo en 44 idiomas. Gratis: ~2 min. Creator: 29 $/mes (~15 min). Límite 5 min/archivo, salida 1080p. Reseña 2026.",
+	  "comparison": {
+		"reason": "Rask AI destaca en doblaje de extremo a extremo en más de 130 idiomas, pero Visual Translate by Vozo es superior detectando y reconstruyendo el texto dentro de los fotogramas sin necesitar los archivos de diseño originales. Es ideal cuando las diapositivas, gráficos y llamadas son clave, mientras que Rask AI es más adecuado cuando la prioridad es el alcance multilingüe en doblaje.",
+		"caption": "Visual Translate by Vozo vs Rask AI: diferencias clave",
+		"columns": [
+		  "Dimensión",
+		  "Visual Translate by Vozo",
+		  "Rask AI"
+		],
+		"rows": [
+		  [
+			"Enfoque principal",
+			"Detectar y reconstruir texto en pantalla manteniendo diseño y estilo",
+			"Doblaje y subtítulos de extremo a extremo en +130 idiomas"
+		  ],
+		  [
+			"Gestión del texto en pantalla",
+			"Especializado: detecta, borra y vuelve a renderizar el texto con control de edición",
+			"Centrado en audio/subtítulos; edición visual de texto limitada"
+		  ],
+		  [
+			"Mejor para",
+			"Vídeos basados en diapositivas o explicativos donde el texto en pantalla es crítico",
+			"Localización con prioridad de voz y gran cobertura de idiomas"
+		  ],
+		  [
+			"Integración en el flujo de trabajo",
+			"Conexión nativa con subtítulos, doblaje y LipREAL™ de Vozo",
+			"Flujo centrado en doblaje, con exportación a editores"
+		  ],
+		  [
+			"Restricciones a tener en cuenta",
+			"Visual Translate tiene límite de 5 min por archivo y salida 1080p",
+			"Los precios y cuotas se escalan según minutos de doblaje más que el texto visual"
+		  ]
+		],
+		"tldr": "Si tus vídeos dependen del texto en pantalla (diapositivas, gráficos, etiquetas de interfaz), Visual Translate by Vozo ofrece una ventaja clara. Si sobre todo necesitas doblaje y subtítulos en muchos idiomas, Rask AI sigue siendo la opción más amplia."
+	  },
+	  "verdict_jsonb": {
+		"summary": "Visual Translate by Vozo es la opción especializada para creadores y equipos de localización que necesitan traducir el texto en pantalla de los vídeos sin recrear los visuales. Ofrece una detección y reconstrucción precisa del texto en 44 idiomas de origen y se integra de forma fluida con el flujo de doblaje y sincronización labial de Vozo.",
+		"expert_quote": "\"Visual Translate resuelve el problema del último kilómetro en la localización de vídeos: traducir el texto incrustado en los fotogramas. Su motor de diseño con contexto y el editor en paralelo permiten flujos de nivel de producción, aunque el límite de 5 minutos por archivo y el tope de 1080p en la salida imponen restricciones para despliegues a gran escala empresariales.\"",
+		"pros": [
+		  "Detecta y reconstruye el texto en pantalla manteniendo el diseño, el estilo y las animaciones sin necesidad de archivos de origen",
+		  "Interfaz de edición en paralelo para comparar visuales originales y traducidos con vista previa y revisiones en tiempo real",
+		  "Integración fluida con doblaje, subtítulos y LipREAL™ para una localización de vídeo de extremo a extremo",
+		  "Precisión de traducción declarada del 98,7 %+ en los idiomas admitidos, con soporte de glosarios para terminología consistente",
+		  "Seguridad lista para empresas con controles SOC 2 Type II (auditoría en curso) y tratamiento de datos alineado con GDPR",
+		  "Precios flexibles basados en puntos, con nivel gratuito que ofrece ~2 minutos y plan Creator a 29 $/mes por ~15 minutos"
+		],
+		"cons": [
+		  "Duración máxima de 5 minutos por archivo para Visual Translate en todos los planes, lo que limita su uso en tutoriales o cursos largos",
+		  "Resolución de salida limitada a 1080p incluso al subir vídeo en 4K, lo que afecta a creadores de contenido premium",
+		  "Acceso a API restringido a planes Business/Enterprise, bloqueando integraciones para equipos pequeños",
+		  "Soporte limitado para texto en movimiento continuo, como superposiciones desplazables o elementos de interfaz dinámicos",
+		  "Sin historial de versiones para las ediciones visuales, lo que complica los flujos de revisión en equipo",
+		  "Los puntos se agotan rápido: Visual Translate cuesta 10 puntos/minuto, así que los 150 puntos del plan Creator dan solo unos 15 minutos"
+		],
+		"verdict": "Cuando el texto en pantalla es parte de la historia —diapositivas, gráficos, etiquetas, llamadas— Visual Translate by Vozo lo detecta, lo traduce y lo reconstruye automáticamente manteniendo los visuales intactos. El editor en paralelo y su integración profunda con el doblaje y la sincronización labial lo convierten en una capa de localización de extremo a extremo muy atractiva para creadores y equipos. Las principales restricciones son el límite de 5 minutos por archivo, el techo de 1080p en la salida y que la API esté disponible solo en planes superiores. Si tus vídeos son de corta o media duración, basados en diapositivas o explicativos, y necesitas localizar visuales además del doblaje multilingüe, Visual Translate es una herramienta potente y muy enfocada."
+	  },
+	  "faqs_jsonb": [
+		{
+		  "question": "Visual Translate by Vozo frente a Rask AI: ¿quién gestiona mejor el texto en pantalla?",
+		  "answer": "Aunque Rask AI destaca en el doblaje de extremo a extremo en más de 130 idiomas, Visual Translate by Vozo tiene una ventaja absoluta a la hora de detectar y reconstruir el texto visual dentro de los fotogramas sin necesidad de los archivos de diseño originales. El editor en paralelo y el renderizado con reconocimiento de diseños de Vozo lo hacen más fuerte para vídeos basados en diapositivas y explicativos, donde el texto en pantalla es crítico."
+		},
+		{
+		  "question": "¿Cuáles son las limitaciones técnicas conocidas de Visual Translate?",
+		  "answer": "Actualmente, la herramienta cuesta con texto que se mueve o se desplaza de forma continua, como grabaciones de páginas web o tipografías cinéticas. Además, cuando el texto traducido se alarga mucho (por ejemplo, de chino a inglés), puede que haya que ajustar el diseño manualmente a pesar del escalado automático de fuentes. Algunos usuarios informan bloqueos ocasionales al exportar composiciones multicapa complejas."
+		},
+		{
+		  "question": "¿Cómo funciona el precios de Vozo específicamente para Visual Translate?",
+		  "answer": "Visual Translate consume 10 puntos de IA por minuto de duración del vídeo cargado. El nivel gratuito incluye unos 2 minutos, Creator (29 $/mes) proporciona unos 15 minutos y Studio (99 $/mes) ofrece unos 60 minutos al mes. Los puntos se acumulan durante 2 meses en los planes mensuales, pero si se cancela la suscripción los puntos no utilizados caducan."
+		},
+		{
+		  "question": "¿Visual Translate permite acceso por API para flujos de trabajo automatizados?",
+		  "answer": "El acceso por API está disponible exclusivamente para suscriptores del plan Business y superiores. Los planes gratuito, Creator y Studio no incluyen endpoints de API, por lo que hay que cargar los vídeos manualmente desde la interfaz web. Los clientes Enterprise pueden contactar con ventas para integraciones personalizadas y garantías de SLA."
+		},
+		{
+		  "question": "¿Qué idiomas admite Visual Translate para el texto en pantalla?",
+		  "answer": "Visual Translate admite 44 idiomas de origen y 68 de destino para la detección y traducción de texto en pantalla, un rango más reducido que los más de 110 idiomas que Vozo admite para el doblaje de audio. Están cubiertos los principales idiomas europeos, asiáticos y latinoamericanos, pero algunos dialectos regionales de nicho pueden quedar fuera."
+		},
+		{
+		  "question": "¿Puedo combinar Visual Translate con doblaje y sincronización labial en un mismo flujo?",
+		  "answer": "Sí. Visual Translate está diseñado como la primera capa del flujo de localización de Vozo. Después de traducir el texto en pantalla, puedes seguir añadiendo subtítulos, doblaje con IA mediante VoiceREAL™ y sincronización labial LipREAL™ para entregar un vídeo completamente localizado sin cambiar de herramienta."
+		},
+		{
+		  "question": "¿Qué formatos de vídeo y resoluciones acepta Visual Translate?",
+		  "answer": "Visual Translate acepta los formatos MP4, MOV, WEBM, AVI y WMV, con resolución de entrada de hasta 4K. Sin embargo, la salida se renderiza a un máximo de 1080p independientemente de la calidad del origen. Los límites de duración por archivo se alinean con los planes: hasta 20 min en el plan gratuito, 60 min en Creator y 120 min en Studio."
+		},
+		{
+		  "question": "¿Cómo gestiona Vozo la terminología de marca y los glosarios?",
+		  "answer": "Los planes Studio y Enterprise incluyen funcionalidad de glosarios para definir y forzar una traducción coherente de nombres de marca, términos de producto y jerga del sector en todos los elementos de texto en pantalla. Esto evita traducciones automáticas incorrectas de términos protegidos y mantiene la coherencia de la voz de marca en las salidas localizadas."
+		}
+	  ],
+	  "videos_jsonb": [
+		{
+		  "videoId": "Y_GHjQolOl8",
+		  "title": "Translate What You See in Videos, Not Just What You Hear | Vozo Visual Translate",
+		  "uploadDate": "2026-03-07",
+		  "description": "Vea cómo Vozo Visual Translate detecta y reconstruye el texto en pantalla para una experiencia de vídeo totalmente localizada.",
+		  "duration": "PT1M57S"
+		},
+		{
+		  "videoId": "sAzO23KcWHI",
+		  "title": "How to Translate On-Screen Text in Videos with 1 Click | Vozo Visual Translate Tutorial",
+		  "uploadDate": "2026-03-10",
+		  "description": "Tutorial paso a paso: traduce el texto en pantalla de tus vídeos con un solo clic usando Vozo Visual Translate.",
+		  "duration": "PT3M6S"
+		}
+	  ]
+	}
+  },
+  "name": "Visual Translate by Vozo",
+  "website_url": "https://www.vozo.ai/visual-translate",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/visual-translate-by-vozo.jpg",
+  "category_id": "a5b18a4f-f8f9-4d77-aa6d-01675236cbcc",
+  "solution_category_id": "473cb70f-33a0-475d-90e7-44474ee8c87b",
+  "rating": 4.0,
+  "_citations_dump": "【turn3fetch0】【turn7fetch0】【turn5fetch0】【turn4search0】【turn1fetch1】【turn1fetch1】"
+}
