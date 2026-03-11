@@ -1,190 +1,250 @@
 {
   "slug": "fish-audio-s2",
-  "data": {
+  "comparison_table_jsonb": {
     "en": {
-      "reason": "**Fish Audio S2** and **ElevenLabs** represent two fundamentally different approaches to the TTS market: Fish Audio champions open-source accessibility with self-hosting options, while ElevenLabs leads the premium SaaS segment with enterprise-grade features. This comparison targets developers and content creators evaluating cost-efficiency versus feature completeness.",
-      "caption": "Comparison: Fish Audio S2 vs ElevenLabs",
+      "reason": "**Fish Audio S2** is a developer-centric TTS model optimized for low-latency voice cloning, competing directly with **ElevenLabs** (the industry benchmark for realism) and **Play.ht** (a leader in long-form content generation).",
+      "caption": "Comparison: Fish Audio S2 vs Top TTS Competitors",
       "columns": [
         "Dimension",
         "[Fish Audio S2](https://www.linkstartai.com/en/agents/fish-audio-s2)",
-        "[ElevenLabs](https://www.linkstartai.com/en/agents/elevenlabs)"
+        "[ElevenLabs](https://www.linkstartai.com/en/agents/elevenlabs)",
+        "[Play.ht](https://www.linkstartai.com/en/agents/play_ht)"
       ],
       "rows": [
         [
-          "Core Use Case",
-          "**Budget-conscious developers** needing multilingual TTS with voice cloning at scale. Ideal for startups, indie creators, and teams with GPU infrastructure who prioritize API cost efficiency over premium support.",
-          "**Enterprise teams and agencies** demanding studio-grade voice synthesis with zero infrastructure overhead. Perfect for media production, audiobook publishing, and customer-facing applications where quality justifies premium pricing."
+          "Core Scenario",
+          "**Real-time Interaction** & Rapid Cloning",
+          "Professional Dubbing & High-Fidelity Content",
+          "**Long-form Articles** & Podcasts"
         ],
         [
-          "Differentiation & Killer Feature",
-          "**70% lower API costs** at $15 per million UTF-8 bytes with **10-30 second voice cloning**—industry-leading for instant cloning workflows. Open-source model enables full self-hosting for data sovereignty requirements.",
-          "**Professional Voice Cloning (PVC)** requiring 10+ minutes of reference audio for near-perfect replication. Offers **32+ languages** with emotion control, speech-to-speech conversion, and native integrations with major DAWs and video editors."
+          "Differentiation",
+          "**Zero-shot Cloning** with only 10s audio",
+          "Massive **Voice Library** & Voice Design",
+          "**Parrot Model** for ultra-realism"
         ],
         [
-          "Performance & Limitations",
-          "Achieves **sub-500ms end-to-end latency** with 100ms time-to-first-audio on H200 GPUs. Removed LoRA finetune support in S2—limited to inference-only customization. Self-hosting requires **12-24GB GPU VRAM** minimum.",
-          "**~75ms latency** on Flash models—industry-leading for real-time applications. Higher-tier plans unlock PVC with uncanny accuracy. Professional cloning requires subscription tiers starting at $22/month; API costs scale quickly for high-volume workloads."
+          "Performance",
+          "**Ultra-low latency** (~200ms streaming)",
+          "**Flash v2.5** (~75ms optimized)",
+          "High quality but **slower processing**"
         ],
         [
-          "Ecosystem & Learning Curve",
-          "Official SDKs for TypeScript, JavaScript, Node.js, Deno, and Bun. Requires technical proficiency for self-hosting deployment. **200 minutes free tier** with full API access enables risk-free prototyping.",
-          "Intuitive web studio with zero-code voice design. Native plugins for Adobe Premiere, DaVinci Resolve, and Unity. **10k free credits monthly** on free tier; commercial use requires paid subscription from $5/month."
+          "Ecosystem",
+          "Open-source roots, **API-first**",
+          "Polished UI, Projects feature",
+          "Advanced editor, integrations"
         ],
         [
-          "ROI & Pricing Verdict",
-          "**Unbeatable value for API-heavy workloads**—pay-as-you-go pricing with no subscription lock-in. Free tier supports production testing. Self-hosting eliminates per-character costs entirely for teams with existing GPU infrastructure.",
-          "**Premium pricing for premium quality**—$5/month Starter to $22/month Creator tier. API at $0.12 per 1k characters adds up fast. Best ROI for teams prioritizing output quality and workflow integration over raw cost savings."
+          "Cost Model",
+          "**Pay-as-you-go** (High Flexibility)",
+          "Subscription + Credit Limits",
+          "Subscription + Word Quotas"
+        ],
+        [
+          "Best For",
+          "Devs needing **speed & custom voices**",
+          "Creators needing **studio-grade** output",
+          "Publishers needing **bulk narration**"
         ]
       ],
-      "tldr": "If your priority is **API cost efficiency and self-hosting control**, Fish Audio S2 delivers **70% savings** with comparable quality. If you need **studio-grade voice cloning** with professional integrations and can justify the premium, ElevenLabs remains the industry benchmark."
+      "tldr": "Choose **Fish Audio S2** for **low-latency applications** and cost-effective cloning; choose **ElevenLabs** for the highest quality pre-made voices; select **Play.ht** for specialized long-form content creation."
     },
     "zh": {
-      "reason": "**Fish Audio S2** 与 **ElevenLabs** 代表了 TTS 市场两种截然不同的产品哲学：Fish Audio 主打开源自托管与成本透明，ElevenLabs 则以企业级 SaaS 服务的完整功能生态取胜。本对比聚焦开发者和内容创作者在成本与功能完整性之间的权衡。",
+      "reason": "**Fish Audio S2** 是一款面向开发者的 TTS 模型，专注于低延迟语音克隆，主要竞品为行业标杆 **ElevenLabs** 和长文本生成专家 **Play.ht**。",
       "caption": "目标产品与核心竞品参数对比",
       "columns": [
         "对比维度",
         "[Fish Audio S2](https://www.linkstartai.com/zh/agents/fish-audio-s2)",
-        "[ElevenLabs](https://www.linkstartai.com/zh/agents/elevenlabs)"
+        "[ElevenLabs](https://www.linkstartai.com/zh/agents/elevenlabs)",
+        "[Play.ht](https://www.linkstartai.com/zh/agents/play_ht)"
       ],
       "rows": [
         [
           "核心痛点场景",
-          "面向**成本敏感的开发者**和拥有 GPU 基础设施的团队，需要大规模多语言 TTS 与语音克隆。特别适合初创公司、独立创作者以及追求数据主权的自托管需求。",
-          "面向**企业团队和媒体机构**，对音质有极致要求且不愿承担基础设施运维成本。适用于有声书制作、商业广告配音、客户服务系统等质量优先的场景。"
+          "**实时交互**与快速克隆",
+          "专业配音与高保真内容",
+          "**长文档朗读**与播客"
         ],
         [
           "差异化杀手锏",
-          "**API 成本比竞品低 70%**，每百万 UTF-8 字节仅 $15；**10-30 秒即可完成语音克隆**——即时克隆效率业界领先。开源模型支持完整自托管，满足金融、医疗等行业的数据隔离合规要求。",
-          "**专业级语音克隆 (PVC)** 需 10 分钟以上参考音频，实现近乎完美的音色复刻。支持 **32+ 种语言**，提供情绪控制、语音转语音、以及与主流 DAW 和视频剪辑软件的原生集成。"
+          "**零样本克隆**仅需 10 秒音频",
+          "海量**音色库**与声音设计",
+          "**Parrot 模型**极致拟真"
         ],
         [
-          "性能表现与限制",
-          "在 H200 GPU 上实现 **500ms 以内端到端延迟**，首音频时间约 100ms。S2 版本移除了 LoRA 微调支持，定制能力受限。自托管最低需要 **12-24GB GPU 显存**，对小型团队构成硬件门槛。",
-          "Flash 模型延迟仅 **~75ms**——业界领先的实时交互体验。高级套餐解锁 PVC 功能，克隆精度近乎原声。专业级克隆需 $22/月以上订阅；高用量场景下 API 成本快速累积。"
+          "性能表现",
+          "**超低延迟** (~200ms 流式)",
+          "**Flash v2.5** (~75ms 优化)",
+          "高质量但**处理较慢**"
         ],
         [
-          "生态与上手门槛",
-          "提供 TypeScript、JavaScript、Node.js、Deno、Bun 官方 SDK。自托管部署需要一定技术能力。**200 分钟免费额度**支持全功能 API 测试，降低试错成本。",
-          "零代码 Web Studio 界面友好，非技术人员可快速上手。原生支持 Adobe Premiere、DaVinci Resolve、Unity 等主流工具。免费版每月 10k 字符；商业使用需 $5/月起付费订阅。"
+          "生态与门槛",
+          "开源底座，**API 优先**",
+          "精美 UI，项目管理完善",
+          "编辑器强大，集成丰富"
         ],
         [
-          "综合投入产出比",
-          "API 密集型场景的**性价比首选**——按量付费无订阅绑定，免费套餐可直接用于生产验证。已有 GPU 资源的团队可通过自托管完全消除按字符计费成本。",
-          "**溢价换取品质**——Starter $5/月、Creator $22/月的订阅门槛。API 每 1k 字符 $0.12，高用量场景成本攀升明显。适合对输出质量和工作流集成有硬性要求的团队。"
+          "综合 ROI",
+          "**按量付费** (灵活性高)",
+          "订阅制 + 积分限制",
+          "订阅制 + 字数配额"
+        ],
+        [
+          "选型建议",
+          "追求**速度与自定义**的开发者",
+          "追求**录音棚级**效果的创作者",
+          "需要**批量旁白**的出版商"
         ]
       ],
-      "tldr": "如果您的核心诉求是**API 成本效率与自托管控制权**，Fish Audio S2 能节省 **70% 成本**且品质相当。如果您需要**录音棚级语音克隆**和完善的生态集成，且预算充足，ElevenLabs 仍是行业标杆。"
+      "tldr": "追求**API 低延迟**和**高性价比克隆**请选 **Fish Audio S2**；追求**顶级音质**和现成音色选 **ElevenLabs**；专注**长内容制作**选 **Play.ht**。"
     },
     "ja": {
-      "reason": "**Fish Audio S2**と**ElevenLabs**は、TTS市場において全く異なるアプローチを代表しています：Fish Audioはオープンソースとセルフホスティングによるコスト効率を追求し、ElevenLabsはエンタープライズ向けSaaSのプレミアム機能で市場をリードしています。本比較は開発者とコンテンツクリエイターがコストと機能の完全性をどう評価するかに焦点を当てます。",
-      "caption": "Fish Audio S2とElevenLabsの詳細比較",
+      "reason": "**Fish Audio S2**は、低遅延の音声クローニングに特化した開発者向けTTSモデルであり、業界標準の**ElevenLabs**や長文コンテンツに強い**Play.ht**と競合します。",
+      "caption": "主要TTS製品の比較表",
       "columns": [
         "比較項目",
         "[Fish Audio S2](https://www.linkstartai.com/ja/agents/fish-audio-s2)",
-        "[ElevenLabs](https://www.linkstartai.com/ja/agents/elevenlabs)"
+        "[ElevenLabs](https://www.linkstartai.com/ja/agents/elevenlabs)",
+        "[Play.ht](https://www.linkstartai.com/ja/agents/play_ht)"
       ],
       "rows": [
         [
-          "核心となる活用シーン",
-          "**コスト重視の開発者**やGPUインフラを持つチーム向け。大規模な多言語TTSと音声クローニングが必要なスタートアップ、インディークリエイター、データ主権を重視する組織に最適。",
-          "**エンタープライズチームや代理店**向け。スタジオ品質の音声合成をインフラ管理なしで利用可能。メディア制作、オーディオブック出版、顧客向けアプリケーションなど品質優先の用途に最適。"
+          "核心シナリオ",
+          "**リアルタイム対話**と迅速なクローン",
+          "プロ向け吹き替えと高忠実度コンテンツ",
+          "**長文記事**とポッドキャスト"
         ],
         [
-          "差別化の決め手",
-          "**APIコストが70%低く**、100万UTF-8バイトあたりわずか$15。**10〜30秒で音声クローニング**が可能—即時クローニングワークフローで業界トップクラス。オープンソースモデルは完全なセルフホスティングを可能にし、データ主権要件に対応。",
-          "**プロフェッショナルボイスクローニング（PVC）**は10分以上の参照音声で、ほぼ完璧な音色再現を実現。**32以上の言語**をサポートし、感情コントロール、音声対音声変換、主要DAWや動画編集ソフトとのネイティブ統合を提供。"
+          "差別化要因",
+          "**10秒の音声**でゼロショットクローン",
+          "豊富な**音声ライブラリ**と設計機能",
+          "超リアルな**Parrotモデル**"
         ],
         [
-          "パフォーマンスと制限",
-          "H200 GPUで**500ミリ秒未満のエンドツーエンドレイテンシ**を達成、最初の音声まで約100ミリ秒。S2バージョンはLoRAファインチューニングサポートを削除—カスタマイズは推論のみに制限。セルフホスティングには最低**12〜24GBのGPU VRAM**が必要。",
-          "Flashモデルで**〜75ミリ秒のレイテンシ**—リアルタイムアプリケーションで業界トップクラス。上位プランでPVC機能をアンロック、驚くほど正確なクローニングを実現。プロフェッショナルクローニングは$22/月以上のサブスクリプションが必要。"
+          "パフォーマンス",
+          "**超低遅延** (~200ms ストリーミング)",
+          "**Flash v2.5** (~75ms 最適化)",
+          "高品質だが**処理は遅い**"
         ],
         [
-          "エコシステムと学習コスト",
-          "TypeScript、JavaScript、Node.js、Deno、Bun向け公式SDK。セルフホスティングには技術力が必要。**月間200分の無料枠**で全API機能にアクセス可能、リスクフリーのプロトタイピングを実現。",
-          "直感的なWebスタジオでノーコードでの音声デザインが可能。Adobe Premiere、DaVinci Resolve、Unity向けネイティブプラグイン。無料版は月間10k文字；商用利用には$5/月からの有料サブスクリプションが必要。"
+          "エコシステム",
+          "オープンソースベース、**API優先**",
+          "洗練されたUI、プロジェクト機能",
+          "高度なエディタ、統合機能"
         ],
         [
-          "ROIと価格判断",
-          "API多用ワークロードで**圧倒的なコストパフォーマンス**—従量課金制でサブスクリプション縛りなし。無料枠で本番テストが可能。既存GPUインフラを持つチームはセルフホスティングで文字単位のコストを完全に削減可能。",
-          "**プレミアム価格でプレミアム品質**—Starter $5/月からCreator $22/月。APIは1k文字あたり$0.12で、高ボリュームワークロードではコストが急速に積み上がる。出力品質とワークフロー統合を優先するチームに最適。"
+          "費用対効果",
+          "**従量課金** (柔軟性が高い)",
+          "サブスクリプション + クレジット制",
+          "サブスクリプション + 文字数制限"
+        ],
+        [
+          "推奨ユーザー",
+          "**速度とカスタム**重視の開発者",
+          "**スタジオ級**の品質を求めるクリエイター",
+          "**大量ナレーション**が必要な出版社"
         ]
       ],
-      "tldr": "**APIコスト効率とセルフホスティング制御**を優先するなら、Fish Audio S2は**70%のコスト削減**と同等品質を提供します。**スタジオ品質の音声クローニング**とプロフェッショナルな統合が必要でプレミアム価格を受け入れられるなら、ElevenLabsが引き続き業界ベンチマークです。"
+      "tldr": "**API速度**と**コスト効率**重視なら **Fish Audio S2** を、**最高品質の既存音声**なら **ElevenLabs** を、**長文コンテンツ**には **Play.ht** を選択してください。"
     },
     "ko": {
-      "reason": "**Fish Audio S2**와 **ElevenLabs**는 TTS 시장에서 근본적으로 다른 두 가지 접근 방식을 대표합니다: Fish Audio는 오픈소스와 셀프 호스팅을 통한 비용 효율성을 추구하고, ElevenLabs는 엔터프라이즈급 SaaS의 프리미엄 기능으로 시장을 선도합니다. 이 비교는 개발자와 콘텐츠 크리에이터가 비용과 기능 완전성 사이에서 어떻게 평가하는지에 초점을 맞춥니다.",
-      "caption": "Fish Audio S2 vs ElevenLabs 상세 비교",
+      "reason": "**Fish Audio S2**는 저지연 음성 클로닝에 최적화된 개발자 중심 TTS 모델로, 업계 표준인 **ElevenLabs** 및 장문 콘텐츠 전문 **Play.ht**와 경쟁합니다.",
+      "caption": "주요 TTS 제품 비교표",
       "columns": [
         "비교 항목",
         "[Fish Audio S2](https://www.linkstartai.com/ko/agents/fish-audio-s2)",
-        "[ElevenLabs](https://www.linkstartai.com/ko/agents/elevenlabs)"
+        "[ElevenLabs](https://www.linkstartai.com/ko/agents/elevenlabs)",
+        "[Play.ht](https://www.linkstartai.com/ko/agents/play_ht)"
       ],
       "rows": [
         [
-          "핵심 활용 시나리오",
-          "**비용 중심의 개발자**와 GPU 인프라를 보유한 팀을 위한 대규모 다국어 TTS 및 음성 클로닝. 스타트업, 인디 크리에이터, 데이터 주권이 중요한 조직에 이상적.",
-          "**엔터프라이즈 팀과 에이전시**를 위한 스튜디오급 음성 합성. 인프라 관리 없이 고품질 필요. 미디어 제작, 오디오북 출판, 고객 대면 애플리케이션에 적합."
+          "핵심 시나리오",
+          "**실시간 상호작용** 및 빠른 클로닝",
+          "전문 더빙 및 고해상도 콘텐츠",
+          "**장문 기사** 및 팟캐스트"
         ],
         [
-          "차별화 핵심 기능",
-          "**API 비용 70% 절감**, 100만 UTF-8 바이트당 단 $15. **10-30초 만에 음성 클로닝**—즉각적 클로닝 워크플로에서 업계 최고 수준. 오픈소스 모델로 완전한 셀프 호스팅 가능, 데이터 주권 요구사항 충족.",
-          "**프로페셔널 보이스 클로닝(PVC)**은 10분 이상의 참조 오디오로 거의 완벽한 음색 재현. **32개 이상 언어** 지원, 감정 제어, 음성 대 음성 변환, 주요 DAW 및 동영상 편집 소프트웨어와 네이티브 통합 제공."
+          "차별화 포인트",
+          "**10초 오디오**로 제로샷 클로닝",
+          "방대한 **음성 라이브러리** 및 디자인",
+          "초현실적 **Parrot 모델**"
         ],
         [
-          "성능 및 제한사항",
-          "H200 GPU에서 **500ms 미만의 엔드투엔드 지연 시간** 달성, 첫 오디오까지 약 100ms. S2 버전은 LoRA 파인튜닝 지원 제거—커스터마이제이션은 추론 전용으로 제한. 셀프 호스팅은 최소 **12-24GB GPU VRAM** 필요.",
-          "Flash 모델에서 **~75ms 지연 시간**—실시간 애플리케이션에서 업계 최고 수준. 상위 플랜에서 PVC 기능 잠금 해제, 놀라울 정도로 정확한 클로닝. 프로페셔널 클로닝은 $22/월 이상 구독 필요."
+          "성능",
+          "**초저지연** (~200ms 스트리밍)",
+          "**Flash v2.5** (~75ms 최적화)",
+          "고품질이지만 **처리 속도 느림**"
         ],
         [
-          "생태계 및 진입 장벽",
-          "TypeScript, JavaScript, Node.js, Deno, Bun 공식 SDK. 셀프 호스팅에는 기술적 역량 필요. **월 200분 무료 티어**로 전체 API 기능 액세스, 리스크 없는 프로토타이핑 가능.",
-          "직관적인 웹 스튜디오로 노코드 음성 디자인 가능. Adobe Premiere, DaVinci Resolve, Unity 네이티브 플러그인. 무료 버전은 월 10k 문자; 상업적 사용은 $5/월부터 유료 구독 필요."
+          "생태계",
+          "오픈소스 기반, **API 우선**",
+          "세련된 UI, 프로젝트 기능",
+          "고급 에디터, 통합 기능"
         ],
         [
-          "ROI 및 가격 평가",
-          "API 집약적 워크로드에서 **압도적인 가성비**—종량제 요금제로 구독 묶음 없음. 무료 티어로 프로덕션 테스트 가능. 기존 GPU 인프라를 보유한 팀은 셀프 호스팅으로 문자당 비용 완전 제거 가능.",
-          "**프리미엄 가격의 프리미엄 품질**—Starter $5/월, Creator $22/월. API는 1k 문자당 $0.12로 대용량 워크로드에서 비용이 빠르게 누적. 출력 품질과 워크플로 통합을 우선시하는 팀에 최적."
+          "비용 효율성",
+          "**종량제** (높은 유연성)",
+          "구독제 + 크레딧 제한",
+          "구독제 + 단어 할당량"
+        ],
+        [
+          "추천 대상",
+          "**속도와 커스텀**이 필요한 개발자",
+          "**스튜디오급** 품질을 원하는 크리에이터",
+          "**대량 내레이션**이 필요한 퍼블리셔"
         ]
       ],
-      "tldr": "**API 비용 효율성과 셀프 호스팅 제어**가 우선이라면, Fish Audio S2는 **70% 비용 절감**과 동등한 품질을 제공합니다. **스튜디오급 음성 클로닝**과 전문가급 통합이 필요하고 프리미엄 가격이 수용 가능하다면, ElevenLabs가 여전히 업계 벤치마크입니다."
+      "tldr": "**빠른 API 속도**와 **비용 효율성**이 중요하다면 **Fish Audio S2**를, **최고 품질의 기성 음성**이 필요하다면 **ElevenLabs**를, **장문 콘텐츠**에는 **Play.ht**를 선택하세요."
     },
     "es": {
-      "reason": "**Fish Audio S2** y **ElevenLabs** representan dos enfoques fundamentalmente diferentes del mercado TTS: Fish Audio defiende la accesibilidad de código abierto con opciones de autoalojamiento, mientras que ElevenLabs lidera el segmento SaaS premium con características de nivel empresarial. Esta comparación se dirige a desarrolladores y creadores de contenido que evalúan eficiencia de costos versus completitud de funciones.",
-      "caption": "Comparación: Fish Audio S2 vs ElevenLabs",
+      "reason": "**Fish Audio S2** es un modelo TTS centrado en el desarrollador, optimizado para clonación de voz de baja latencia, compitiendo con el estándar de la industria **ElevenLabs** y el especialista en contenido largo **Play.ht**.",
+      "caption": "Tabla comparativa de productos TTS",
       "columns": [
         "Dimensión",
         "[Fish Audio S2](https://www.linkstartai.com/es/agents/fish-audio-s2)",
-        "[ElevenLabs](https://www.linkstartai.com/es/agents/elevenlabs)"
+        "[ElevenLabs](https://www.linkstartai.com/es/agents/elevenlabs)",
+        "[Play.ht](https://www.linkstartai.com/es/agents/play_ht)"
       ],
       "rows": [
         [
-          "Caso de Uso Principal",
-          "**Desarrolladores conscientes del presupuesto** que necesitan TTS multilingüe con clonación de voz a escala. Ideal para startups, creadores independientes y equipos con infraestructura GPU que priorizan eficiencia de costos API sobre soporte premium.",
-          "**Equipos empresariales y agencias** que demandan síntesis de voz de calidad de estudio sin sobrecarga de infraestructura. Perfecto para producción de medios, publicación de audiolibros y aplicaciones de atención al cliente donde la calidad justifica precios premium."
+          "Escenario Clave",
+          "**Interacción en tiempo real** y clonación rápida",
+          "Doblaje profesional y contenido de alta fidelidad",
+          "**Artículos largos** y podcasts"
         ],
         [
-          "Diferenciación y Característica Clave",
-          "**70% menos de costos API** a $15 por millón de bytes UTF-8 con **clonación de voz de 10-30 segundos**—líder en la industria para flujos de trabajo de clonación instantánea. El modelo de código abierto permite autoalojamiento completo para requisitos de soberanía de datos.",
-          "**Clonación de Voz Profesional (PVC)** que requiere más de 10 minutos de audio de referencia para replicación casi perfecta. Ofrece **más de 32 idiomas** con control de emociones, conversión de voz a voz, e integraciones nativas con los principales DAWs y editores de video."
+          "Diferenciador",
+          "**Clonación Zero-shot** con solo 10s de audio",
+          "Enorme **biblioteca de voces** y diseño",
+          "Modelo **Parrot** ultra realista"
         ],
         [
-          "Rendimiento y Limitaciones",
-          "Logra **latencia de extremo a extremo inferior a 500ms** con tiempo hasta el primer audio de 100ms en GPUs H200. Eliminó el soporte de ajuste fino LoRA en S2—limitado a personalización solo de inferencia. El autoalojamiento requiere mínimo **12-24GB de VRAM GPU**.",
-          "**Latencia de ~75ms** en modelos Flash—líder en la industria para aplicaciones en tiempo real. Los planes de nivel superior desbloquean PVC con precisión inquietante. La clonación profesional requiere suscripciones desde $22/mes; los costos API escalan rápidamente para cargas de trabajo de alto volumen."
+          "Rendimiento",
+          "**Latencia ultra baja** (~200ms streaming)",
+          "**Flash v2.5** (~75ms optimizado)",
+          "Alta calidad pero **procesamiento lento**"
         ],
         [
-          "Ecosistema y Curva de Aprendizaje",
-          "SDKs oficiales para TypeScript, JavaScript, Node.js, Deno y Bun. Requiere competencia técnica para despliegue de autoalojamiento. **Nivel gratuito de 200 minutos** con acceso completo a la API permite prototipado sin riesgo.",
-          "Estudio web intuitivo con diseño de voz sin código. Plugins nativos para Adobe Premiere, DaVinci Resolve y Unity. **10k créditos gratuitos mensuales** en el nivel gratuito; el uso comercial requiere suscripción de pago desde $5/mes."
+          "Ecosistema",
+          "Base open-source, **API-first**",
+          "UI pulida, función de proyectos",
+          "Editor avanzado, integraciones"
         ],
         [
-          "ROI y Veredicto de Precios",
-          "**Valor inigualable para cargas de trabajo intensivas en API**—precios de pago por uso sin bloqueo de suscripción. El nivel gratuito soporta pruebas de producción. El autoalojamiento elimina completamente los costos por carácter para equipos con infraestructura GPU existente.",
-          "**Precios premium para calidad premium**—nivel Starter de $5/mes a Creator de $22/mes. API a $0.12 por 1k caracteres se acumula rápidamente. Mejor ROI para equipos que priorizan calidad de salida e integración de flujo de trabajo sobre ahorros de costos puros."
+          "ROI",
+          "**Pago por uso** (Alta flexibilidad)",
+          "Suscripción + Límites de créditos",
+          "Suscripción + Cuotas de palabras"
+        ],
+        [
+          "Mejor Para",
+          "Devs que necesitan **velocidad y voces personalizadas**",
+          "Creadores que buscan salida de **estudio**",
+          "Editores que necesitan **narración masiva**"
         ]
       ],
-      "tldr": "Si su prioridad es **eficiencia de costos API y control de autoalojamiento**, Fish Audio S2 ofrece **70% de ahorro** con calidad comparable. Si necesita **clonación de voz de calidad de estudio** con integraciones profesionales y puede justificar el premium, ElevenLabs sigue siendo el referente de la industria."
+      "tldr": "Elige **Fish Audio S2** para **aplicaciones de baja latencia** y clonación eficiente; elige **ElevenLabs** para las mejores voces prediseñadas; selecciona **Play.ht** para la creación de contenido extenso."
     }
   }
 }
