@@ -1,0 +1,311 @@
+{
+  "slug": "cardboard",
+  "brand_slug": "cardboard",
+  "name_jsonb": {
+	"en": "Cardboard",
+	"zh": "Cardboard",
+	"ja": "Cardboard",
+	"ko": "Cardboard",
+	"es": "Cardboard"
+  },
+  "tagline_jsonb": {
+	"en": "Browser-based agentic video editor for creating, cutting, captioning, and exporting collaborative AI-assisted video projects.",
+	"zh": "基于浏览器的 agentic 视频编辑器，可协作完成 AI 辅助的视频创建、剪辑、字幕和导出。",
+	"ja": "ブラウザ上で動くエージェント型AI動画編集ツールで、作成、カット、字幕、共同編集、書き出しを行えます。",
+	"ko": "브라우저에서 작동하는 에이전트형 AI 비디오 편집기로, 생성·컷 편집·자막·협업·내보내기를 지원합니다.",
+	"es": "Editor de video agentic en navegador para crear, cortar, subtitular y exportar proyectos colaborativos con ayuda de IA."
+  },
+  "description_jsonb": {
+	"en": "> Cardboard is a browser-based AI video editor for creators and teams that want to edit faster with natural language and collaborative cloud workflows instead of heavyweight desktop software. It is best for social content, interview edits, podcast clips, fast-turnaround marketing videos, and teams that want AI assistance without giving up timeline-based editing.\n\nCardboard positions itself as an “agentic video editor,” which is a meaningful distinction from generic AI clip tools. It does not just auto-generate shorts or captions in isolation; it combines browser-based timeline editing, natural-language commands, AI-powered editing features, collaboration, and exports to established professional workflows like Adobe Premiere Pro and DaVinci Resolve. That makes it relevant not only for solo creators, but also for production teams who want AI acceleration inside a real editing environment.\n\nCardboard does not advertise a free tier on its public pricing page. Paid plans start at **$60/month** for Creator, billed annually at $720, and **$150/month** for Pro, billed annually at $1,800. The Creator plan includes full AI-powered editing, 5 active projects per month, natural-language commands, 2.5 GB maximum file size, 100 GB cloud storage, automated captions, unlimited exports up to 4K 60fps, and export to Premiere Pro and DaVinci Resolve. Pro removes the project cap, raises upload size to 10 GB, expands storage to 1 TB, and adds priority AI processing, 24/7 support, and early model access.\n\nFrom an automation angle, Cardboard is interesting because it puts AI inside the editing loop instead of before it. Cardboard’s public materials describe natural-language direction, AI-assisted captions, search, suggestions, collaboration and sharing, plus cloud-based upload, storage, playback, export, and publishing tools. Their guidance page explicitly says users should “talk to Cardboard” like a human editor, which suggests the product is optimized for conversational edit control rather than just preset templates. This makes it a strong fit for AI-first content teams that need to iterate quickly while keeping human review on the timeline.\n\nThe main caveat is cost and maturity. Cardboard is clearly aimed above the casual hobby tier, and the annual billing requirement raises the real commitment level for individual creators. Public documentation also emphasizes fast editing and collaboration, but still leaves open questions around deeper enterprise controls, media governance, review workflows, and long-form production scale. Teams should validate how well the browser workflow performs with their file sizes, codecs, and collaboration patterns before moving major production pipelines.",
+	"zh": "> Cardboard 是一款基于浏览器的 AI 视频编辑器，适合希望通过自然语言和云端协作更快完成剪辑，而不是继续依赖笨重桌面软件的创作者与团队。它特别适合社媒内容、访谈剪辑、播客切条、快节奏营销视频，以及希望获得 AI 辅助但又不放弃时间轴编辑能力的团队。\n\nCardboard 把自己定义为 “agentic video editor”，这和一般 AI 短视频工具不太一样。它不是只会自动生成短片或单独做字幕，而是把浏览器内时间轴编辑、自然语言指令、AI-powered editing、协作，以及导出到 Adobe Premiere Pro 和 DaVinci Resolve 这些真实制作链路结合在一起。这意味着它不仅面向个人创作者，也适合想在正式剪辑环境里引入 AI 加速的内容团队。\n\nCardboard 在公开定价页上没有展示免费层。付费方案从 **$60/月** 的 Creator 开始，按年计费为 $720；Pro 为 **$150/月**，按年计费为 $1,800。Creator 包含 full AI-powered editing、每月 5 个 active projects、natural-language commands、2.5 GB 单文件上限、100 GB 云存储、automated captions、无限次最高 4K 60fps 导出，以及导出到 Premiere Pro 和 DaVinci Resolve。Pro 则取消项目数限制，把单文件上限提高到 10 GB，存储提高到 1 TB，并增加 priority AI processing、24/7 support 和 early access to new models。\n\n从自动化角度看，Cardboard 的价值在于它把 AI 放进了编辑循环中，而不只是放在编辑之前。公开材料提到 natural-language direction、AI-assisted captions、search、suggestions、collaboration、sharing，以及云端上传、存储、回放、导出和发布工具；它的学习页还明确建议用户“像指挥真人剪辑师一样和 Cardboard 对话”。这说明它更强调对话式剪辑控制，而不是模板式一键出片。对需要快速迭代、但又保留人工审片与时间轴控制的 AI 内容团队来说，这种方式很有吸引力。\n\n它的主要问题是价格和成熟度。Cardboard 显然不是面向轻度 hobby 用户的产品，而年付机制也提高了个人创作者的真实投入门槛。公开文档虽然强调速度与协作，但对于更深层的企业权限控制、素材治理、审片工作流和长视频生产能力，披露仍不充分。团队在正式迁移主生产链路前，最好先验证浏览器工作流对自己文件大小、编码格式和协作方式的适配度。",
+	"ja": "> Cardboardは、重いデスクトップ編集ソフトではなく、自然言語とクラウド共同編集で素早く動画制作したい制作者やチーム向けのブラウザ型AI動画編集ツールです。SNS向け動画、インタビュー編集、ポッドキャスト切り抜き、スピード重視のマーケティング動画に向いています。\n\nCardboardが“agentic video editor”を名乗る点は重要です。単に短尺動画を自動生成したり字幕を付けたりするだけではなく、ブラウザ上のタイムライン編集、自然言語指示、AI編集支援、共同作業、Premiere ProやDaVinci Resolve向けの書き出しまで含んでいます。つまり、単発のAIクリップ作成ツールではなく、実際の編集工程をAIで加速する方向の製品です。\n\n公開価格ページには無料プランは見当たりません。有料は **$60/月** のCreatorからで、年額 **$720** の請求です。Proは **$150/月**、年額 **$1,800** です。Creatorには、AI編集、月5件のactive projects、自然言語コマンド、2.5GBの最大ファイルサイズ、100GBクラウド保存、自動字幕、最大4K 60fpsの無制限書き出し、Premiere Pro / DaVinci Resolve書き出しが含まれます。Proではproject上限がなくなり、ファイル上限が10GB、保存が1TBになり、優先AI処理、24時間サポート、新モデル先行利用も加わります。\n\n自動化の観点では、AIを編集前段ではなく編集ループの中に入れている点が面白いです。公開資料では、自然言語での指示、AI字幕、検索、提案、共同編集、共有、クラウド保存と公開機能が紹介されており、学習ページでは“人間の編集者に話すように使う”ことが推奨されています。これはテンプレート型ではなく、会話しながら編集を進めるワークフローを前提にしていることを示しています。\n\n注意点は価格と成熟度です。Cardboardは趣味用途向けというより、ある程度本気の制作向けに見えますし、年払いは個人には負担になりえます。さらに、公開情報では高速編集と共同作業は強調される一方で、企業統制、素材管理、レビュー工程、長尺制作への適性はまだ十分に見えません。主要制作ラインへ載せる前に、自社のファイルサイズやコーデック、共同作業スタイルで試すべきです。",
+	"ko": "> Cardboard는 무거운 데스크톱 소프트웨어 대신 자연어와 클라우드 협업으로 더 빠르게 편집하고 싶은 크리에이터와 팀을 위한 브라우저 기반 AI 비디오 편집기입니다. 소셜 콘텐츠, 인터뷰 편집, 팟캐스트 클립, 빠른 마케팅 영상, 그리고 타임라인 편집을 유지하면서 AI 보조를 받고 싶은 팀에 특히 적합합니다.\n\nCardboard가 자신을 “agentic video editor”라고 부르는 점은 의미가 큽니다. 단순히 숏폼을 자동 생성하거나 자막만 넣는 도구가 아니라, 브라우저 기반 타임라인 편집, 자연어 명령, AI 편집 기능, 협업, 그리고 Premiere Pro와 DaVinci Resolve로의 내보내기를 함께 제공합니다. 즉 단순 AI 클립 툴이 아니라 실제 편집 환경 안에 AI 가속을 넣으려는 제품입니다.\n\n공개 가격 페이지에는 무료 플랜이 보이지 않습니다. 유료는 Creator가 **월 $60**부터 시작하며 연간 **$720** 청구이고, Pro는 **월 $150**, 연간 **$1,800**입니다. Creator에는 full AI-powered editing, 월 5개 active projects, natural-language commands, 최대 2.5GB 파일 크기, 100GB 클라우드 스토리지, automated captions, 최대 4K 60fps 무제한 내보내기, Premiere Pro 및 DaVinci Resolve 내보내기가 포함됩니다. Pro는 프로젝트 제한이 사라지고, 최대 파일 10GB, 스토리지 1TB, priority AI processing, 24/7 support, early access to new models가 추가됩니다.\n\n자동화 관점에서 Cardboard는 AI를 편집 전 단계가 아니라 편집 루프 안에 넣는다는 점이 흥미롭습니다. 공개 자료는 자연어 지시, AI 자막, 검색, 제안, 협업, 공유, 클라우드 업로드·저장·재생·내보내기·퍼블리싱 도구를 설명하고, 학습 페이지는 사용자가 실제 편집자에게 말하듯 Cardboard에 지시하라고 권합니다. 이는 템플릿 중심보다 대화형 편집 제어를 중심으로 설계되었음을 보여줍니다. 빠른 반복이 필요하지만 인간의 타임라인 검토를 유지하고 싶은 AI 콘텐츠 팀에 잘 맞습니다.\n\n단점은 가격과 성숙도입니다. Cardboard는 가벼운 취미용보다 한 단계 위의 사용자를 겨냥하며, 연간 과금 구조는 개인 창작자에게 진입 부담이 될 수 있습니다. 또한 공개 문서는 빠른 편집과 협업을 강조하지만, 더 깊은 엔터프라이즈 제어, 미디어 거버넌스, 리뷰 워크플로, 장편 제작 확장성은 아직 충분히 드러나지 않습니다. 주요 제작 파이프라인에 넣기 전에는 브라우저 워크플로가 실제 파일 크기, 코덱, 협업 방식에 잘 맞는지 먼저 검증해야 합니다.",
+	"es": "> Cardboard es un editor de video con IA en navegador para creadores y equipos que quieren editar más rápido con lenguaje natural y flujos cloud colaborativos en lugar de depender de software de escritorio pesado. Encaja especialmente bien en contenido social, entrevistas, clips de podcast, videos de marketing de respuesta rápida y equipos que quieren ayuda de IA sin perder el control del timeline.\n\nQue Cardboard se defina como “agentic video editor” es una diferencia importante frente a herramientas de clips AI más genéricas. No se limita a generar shorts o subtítulos por separado; combina edición con timeline en navegador, comandos en lenguaje natural, funciones de edición con IA, colaboración y exportaciones hacia flujos profesionales como Adobe Premiere Pro y DaVinci Resolve. Eso lo hace útil no solo para creadores individuales, sino también para equipos de producción que quieren acelerar edición dentro de un entorno real.\n\nCardboard no muestra un plan gratuito en su pricing público. Los planes de pago empiezan en **$60/mes** para Creator, facturados como **$720/año**, y **$150/mes** para Pro, facturados como **$1.800/año**. Creator incluye edición AI completa, 5 proyectos activos al mes, comandos en lenguaje natural, tamaño máximo de archivo de 2,5 GB, 100 GB de almacenamiento cloud, subtítulos automáticos, exportaciones ilimitadas hasta 4K 60fps y exportación a Premiere Pro y DaVinci Resolve. Pro elimina el límite de proyectos, sube el máximo de archivo a 10 GB, amplía storage a 1 TB y añade procesamiento AI prioritario, soporte 24/7 y acceso temprano a nuevos modelos.\n\nDesde la automatización, Cardboard resulta interesante porque mete la IA dentro del bucle de edición, no solo antes. Sus materiales públicos hablan de dirección en lenguaje natural, subtítulos asistidos, search, suggestions, colaboración, sharing y herramientas cloud de subida, almacenamiento, reproducción, exportación y publicación. Su guía de uso incluso dice que lo mejor es hablarle como a un editor humano. Eso sugiere que está optimizado para control conversacional del montaje más que para plantillas cerradas. Para equipos AI-first que quieren iterar rápido sin perder revisión humana sobre el timeline, esa propuesta tiene mucho sentido.\n\nLa principal desventaja es el coste y la madurez. Cardboard está claramente por encima del nivel hobby casual, y el requisito de facturación anual eleva el compromiso real para creadores individuales. Además, aunque la documentación pública enfatiza rapidez y colaboración, todavía deja preguntas sobre controles enterprise, gobernanza de medios, workflows de revisión y escalabilidad en producciones largas. Antes de mover pipelines importantes, conviene validar cómo rinde el flujo en navegador con tus tamaños de archivo, códecs y patrones de colaboración."
+  },
+  "category_id": "2cee8452-7ecf-49e0-8ea5-4466d94a4bcf",
+  "solution_category_id": "d4b81976-1a57-4c6e-8c8a-b8e6b8f63f9b",
+  "website_url": "https://www.usecardboard.com/",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/cardboard.jpg",
+  "pricing_model": "subscription",
+  "paid_options_from": "$60",
+  "billing_frequency": "month",
+  "rating": 4.3,
+  "review_count": 17,
+  "supported_languages": [
+	"en",
+	"zh",
+	"ja",
+	"ko",
+	"es"
+  ],
+  "tags_jsonb": {
+	"en": [
+	  "AIVideoEditing",
+	  "BrowserVideoEditor",
+	  "NaturalLanguageEditing",
+	  "CollaborativePostProduction",
+	  "PremiereExport",
+	  "DaVinciExport"
+	],
+	"zh": [
+	  "AI视频编辑",
+	  "浏览器剪辑",
+	  "自然语言剪辑",
+	  "协作后期制作",
+	  "Premiere导出",
+	  "DaVinci导出"
+	],
+	"ja": [
+	  "AI動画編集",
+	  "ブラウザ編集",
+	  "自然言語編集",
+	  "共同ポストプロダクション",
+	  "Premiere書き出し",
+	  "DaVinci書き出し"
+	],
+	"ko": [
+	  "AI비디오편집",
+	  "브라우저편집기",
+	  "자연어편집",
+	  "협업후반작업",
+	  "프리미어내보내기",
+	  "다빈치내보내기"
+	],
+	"es": [
+	  "EdicionDeVideoConIA",
+	  "EditorDeVideoEnNavegador",
+	  "EdicionConLenguajeNatural",
+	  "PostproduccionColaborativa",
+	  "ExportacionAPremiere",
+	  "ExportacionADaVinci"
+	]
+  },
+  "features_jsonb": {
+	"en": [
+	  "Edit video in the browser with AI-assisted timeline workflows and natural-language commands",
+	  "Create automated captions, search footage, and receive AI suggestions inside the editing environment",
+	  "Collaborate in the cloud with shared media upload, storage, playback, review, and export workflows",
+	  "Export unlimited videos up to 4K 60fps and hand off projects to Premiere Pro or DaVinci Resolve",
+	  "Handle Creator-tier files up to 2.5 GB or Pro-tier files up to 10 GB with cloud-based processing",
+	  "Use conversational direction patterns that treat Cardboard like an always-available editing assistant"
+	],
+	"zh": [
+	  "在浏览器里通过 AI 辅助时间轴与自然语言命令完成视频编辑",
+	  "在编辑环境中自动生成字幕、搜索素材并获取 AI 建议",
+	  "通过云端共享上传、存储、回放、审阅和导出流程进行协作",
+	  "无限导出最高 4K 60fps 视频，并可交接到 Premiere Pro 或 DaVinci Resolve",
+	  "支持 Creator 档最高 2.5 GB 文件或 Pro 档最高 10 GB 文件的云端处理",
+	  "采用对话式指令模式，把 Cardboard 当作随时待命的剪辑助理来使用"
+	],
+	"ja": [
+	  "ブラウザ上でAI補助タイムライン編集と自然言語コマンドを使って編集可能",
+	  "編集画面内で自動字幕、素材検索、AI提案を利用可能",
+	  "アップロード、保存、再生、レビュー、書き出しをクラウド上で共同作業",
+	  "最大4K 60fpsで無制限書き出しし、Premiere ProやDaVinci Resolveへ受け渡し可能",
+	  "Creatorでは2.5GB、Proでは10GBまでのファイルをクラウド処理",
+	  "いつでも使える編集アシスタントのように会話で指示できる"
+	],
+	"ko": [
+	  "브라우저에서 AI 보조 타임라인 워크플로와 자연어 명령으로 비디오 편집",
+	  "편집 환경 안에서 자동 자막, 푸티지 검색, AI 제안 활용",
+	  "업로드, 저장, 재생, 리뷰, 내보내기를 포함한 클라우드 협업 지원",
+	  "최대 4K 60fps 무제한 내보내기와 Premiere Pro·DaVinci Resolve 핸드오프 지원",
+	  "Creator는 최대 2.5GB, Pro는 최대 10GB 파일의 클라우드 처리 지원",
+	  "Cardboard를 항상 대기 중인 편집 어시스턴트처럼 대화형으로 지시 가능"
+	],
+	"es": [
+	  "Edita video en navegador con flujos timeline asistidos por IA y comandos en lenguaje natural",
+	  "Genera subtítulos automáticos, busca material y recibe sugerencias AI dentro del entorno de edición",
+	  "Colabora en la nube con subida, storage, reproducción, revisión y exportación compartidas",
+	  "Exporta videos ilimitados hasta 4K 60fps y entrega proyectos a Premiere Pro o DaVinci Resolve",
+	  "Gestiona archivos de hasta 2,5 GB en Creator o 10 GB en Pro con procesamiento cloud",
+	  "Usa patrones conversacionales que tratan a Cardboard como un asistente de edición siempre disponible"
+	]
+  },
+  "videos_jsonb": [
+	{
+	  "type": "youtube",
+	  "videoId": "none-found-1",
+	  "title": "Cardboard agentic video editor overview",
+	  "uploadDate": "2026-03-13T00:00:00Z",
+	  "description": "Public web materials emphasize browser-based editing, natural language direction, captions, collaboration, and exports to pro tools more than third-party tutorials.",
+	  "duration": "PT2M00S"
+	}
+  ],
+  "verdict_jsonb": {
+	"en": {
+	  "summary": "Cardboard is the **AI-first video team** choice for **browser-based collaborative editing with natural-language control and professional export workflows**. It stands out by putting AI inside a real editing timeline instead of limiting it to clip generation or captions. The biggest drawback is pricing, especially because entry plans are annual and there is no clearly advertised free tier.",
+	  "expert_quote": "LinkStart AI Lab note: \"Cardboard is most compelling when you want AI to speed up an editor, not replace one. The browser timeline plus conversational control is the real differentiator.\"",
+	  "pros": [
+		"Strong fit for collaborative editing teams that want natural-language commands, captions, search, suggestions, and browser-based workflow in one place",
+		"Professional handoff support with unlimited exports up to 4K 60fps plus export to Premiere Pro and DaVinci Resolve",
+		"Cloud-native setup avoids desktop installs and supports real shared media and project workflows"
+	  ],
+	  "cons": [
+		"Pricing starts relatively high at $60/month billed annually, with no publicly visible free tier",
+		"Creator plan limits users to 5 active projects per month and 2.5 GB max file size",
+		"Public information is still lighter on enterprise governance, review controls, and long-form production depth than mature desktop ecosystems"
+	  ]
+	},
+	"zh": {
+	  "summary": "Cardboard 是 **AI-first 视频团队** 用来 **在浏览器里通过自然语言和协作工作流完成专业剪辑** 的优秀选择。它最大的特点是把 AI 放进真实时间轴编辑里，而不是只做片段生成或字幕。最大缺点是价格偏高，且入门档采用年付，并没有明显公开的免费层。",
+	  "expert_quote": "LinkStart AI Lab 评语：\"Cardboard 最吸引人的地方，是它想让 AI 去加速剪辑师，而不是替代剪辑师。浏览器时间轴加对话式控制，才是它真正的差异点。\"",
+	  "pros": [
+		"非常适合需要自然语言命令、字幕、搜索、建议和浏览器协作的一体化视频团队",
+		"支持专业交接流程，可无限导出最高 4K 60fps，并导出到 Premiere Pro 与 DaVinci Resolve",
+		"云原生模式避免桌面安装，适合共享素材与项目协作"
+	  ],
+	  "cons": [
+		"定价起步较高，$60/月且按年付费，公开页面上没有明确免费层",
+		"Creator 计划限制为每月 5 个活跃项目，单文件上限 2.5 GB",
+		"公开资料在企业治理、审片控制和长视频深度能力上仍不如成熟桌面生态详细"
+	  ]
+	},
+	"ja": {
+	  "summary": "Cardboardは、**AIファーストな動画チーム**が**ブラウザ上で自然言語と共同編集を使って本格的な動画制作を進める**ための有力な選択肢です。AIを字幕や短尺生成だけでなく、実際のタイムライン編集に組み込んでいる点が特徴です。最大の難点は価格で、年払い前提かつ無料プランが明確ではありません。",
+	  "expert_quote": "LinkStart AI Lab所見: \"Cardboardの魅力は、編集者を置き換えるのではなく加速する点です。ブラウザタイムラインと会話型操作が本質的な差別化です。\"",
+	  "pros": [
+		"自然言語操作、字幕、検索、提案、共同編集を1つの環境で行いたい動画チームに向く",
+		"4K 60fps無制限書き出しやPremiere / DaVinci連携で、実制作への受け渡しがしやすい",
+		"クラウドネイティブで、インストール不要の共有制作が可能"
+	  ],
+	  "cons": [
+		"料金は$60/月からで年払い前提、無料枠も公には見えない",
+		"Creatorでは月5件のactive projectsと2.5GBのファイル上限がある",
+		"企業統制、レビュー工程、長尺制作の深さはデスクトップ成熟製品ほど明確ではない"
+	  ]
+	},
+	"ko": {
+	  "summary": "Cardboard는 **AI-first 비디오 팀**이 **브라우저에서 자연어와 협업 워크플로로 전문 편집을 수행**할 때 좋은 선택입니다. AI를 단순 클립 생성이나 자막이 아니라 실제 타임라인 편집 안에 넣는 점이 가장 큰 특징입니다. 가장 큰 단점은 가격이며, 입문 플랜도 연간 과금이고 명확한 무료 플랜이 없습니다.",
+	  "expert_quote": "LinkStart AI Lab 코멘트: \"Cardboard의 진짜 매력은 편집자를 대체하는 것이 아니라 가속하는 데 있다. 브라우저 타임라인과 대화형 제어가 핵심 차별점이다.\"",
+	  "pros": [
+		"자연어 명령, 자막, 검색, 제안, 브라우저 협업을 한곳에서 원하는 비디오 팀에 적합함",
+		"최대 4K 60fps 무제한 내보내기와 Premiere Pro·DaVinci Resolve 핸드오프로 전문 제작 흐름 지원",
+		"클라우드 네이티브라 설치 부담이 없고 공유 미디어·프로젝트 협업에 유리함"
+	  ],
+	  "cons": [
+		"가격이 월 $60부터로 비교적 높고 연간 청구이며, 공개 무료 플랜이 없음",
+		"Creator 플랜은 월 5개 활성 프로젝트와 최대 2.5GB 파일 크기로 제한됨",
+		"엔터프라이즈 거버넌스, 리뷰 제어, 장편 제작 깊이에 대한 공개 정보는 성숙한 데스크톱 생태계보다 적음"
+	  ]
+	},
+	"es": {
+	  "summary": "Cardboard es una gran opción para **equipos de video AI-first** que necesitan **edición colaborativa en navegador con control por lenguaje natural y exportación profesional**. Destaca porque mete la IA dentro de un timeline real de edición en lugar de dejarla solo en clips o captions. Su mayor limitación es el precio, sobre todo porque los planes de entrada son anuales y no se ve un free tier claro.",
+	  "expert_quote": "Nota de LinkStart AI Lab: \"Cardboard resulta más potente cuando quieres que la IA acelere a un editor, no cuando intentas reemplazarlo. El timeline en navegador y el control conversacional son su diferencia real.\"",
+	  "pros": [
+		"Muy buen encaje para equipos que quieren comandos en lenguaje natural, captions, search, sugerencias y colaboración browser-first en una sola herramienta",
+		"Buen soporte de handoff profesional con exportaciones ilimitadas hasta 4K 60fps y export a Premiere Pro y DaVinci Resolve",
+		"Configuración cloud-native sin instalaciones pesadas y con workflows compartidos de media y proyectos"
+	  ],
+	  "cons": [
+		"El pricing arranca relativamente alto en $60/mes con facturación anual y sin free tier público visible",
+		"El plan Creator limita a 5 proyectos activos por mes y 2,5 GB por archivo",
+		"La información pública todavía es más ligera en gobernanza enterprise, controles de revisión y producción larga que en ecosistemas desktop maduros"
+	  ]
+	}
+  },
+  "faqs_jsonb": [
+	{
+	  "question": {
+		"en": "Cardboard vs Descript or CapCut: what is actually different?",
+		"zh": "Cardboard 和 Descript 或 CapCut 相比，真正不同的地方是什么？",
+		"ja": "CardboardとDescriptやCapCutでは、実際に何が違いますか？",
+		"ko": "Cardboard와 Descript 또는 CapCut은 실제로 무엇이 다른가요?",
+		"es": "Cardboard vs Descript o CapCut: ¿qué cambia realmente?"
+	  },
+	  "answer": {
+		"en": "The direct answer is that Cardboard is trying to be a browser-native, agentic editing workspace rather than just a caption-first editor or a consumer clip app. Its public positioning combines timeline-based editing, natural-language commands, AI suggestions, collaboration, and export to Premiere Pro and DaVinci Resolve, which puts it closer to an AI-assisted post-production environment than a simple social-video tool. If your workflow needs real editor handoff and shared cloud projects, Cardboard is aiming higher than lightweight AI clip tools.",
+		"zh": "直接结论是，Cardboard 想做的是一个浏览器原生的 agentic editing workspace，而不是单纯的字幕型编辑器或消费级剪片工具。它公开定位把 timeline editing、natural-language commands、AI suggestions、collaboration，以及导出到 Premiere Pro 和 DaVinci Resolve 组合到一起，所以它更接近 AI 辅助后期环境，而不是简单社媒短视频工具。如果你的流程需要真正的剪辑交接和共享云项目，Cardboard 的目标层级明显更高。",
+		"ja": "結論として、Cardboardは字幕中心エディタや消費者向け短尺アプリではなく、ブラウザネイティブなagentic編集ワークスペースを目指しています。タイムライン編集、自然言語操作、AI提案、共同作業、Premiere / DaVinci書き出しを組み合わせているため、単なるSNS編集ツールより、AI支援のポストプロダクション環境に近いです。編集引き継ぎや共有プロジェクトが必要なら、Cardboardの方が上位の用途を狙っています。",
+		"ko": "직접 답하면 Cardboard는 단순 자막 중심 편집기나 소비자용 클립 앱이 아니라 브라우저 네이티브의 agentic 편집 워크스페이스를 지향합니다. 공개 포지셔닝은 타임라인 편집, 자연어 명령, AI 제안, 협업, Premiere Pro·DaVinci Resolve 내보내기를 묶고 있어 단순 소셜 비디오 툴보다 AI 보조 후반 작업 환경에 더 가깝습니다. 실제 편집자 핸드오프와 공유 클라우드 프로젝트가 필요하다면 Cardboard가 더 높은 수준을 겨냥합니다.",
+		"es": "La respuesta directa es que Cardboard intenta ser un workspace de edición agentic en navegador, no solo un editor centrado en captions o una app de clips para consumo masivo. Su posicionamiento público mezcla timeline editing, comandos en lenguaje natural, sugerencias AI, colaboración y exportación a Premiere Pro y DaVinci Resolve, lo que lo acerca más a un entorno de postproducción asistido por IA que a una simple herramienta social. Si necesitas handoff real entre editores y proyectos compartidos en la nube, Cardboard apunta más alto."
+	  }
+	},
+	{
+	  "question": {
+		"en": "What are the biggest practical limitations of Cardboard right now?",
+		"zh": "Cardboard 现在最现实的限制是什么？",
+		"ja": "Cardboardの現時点での実用上の制約は何ですか？",
+		"ko": "Cardboard의 현재 가장 현실적인 한계는 무엇인가요?",
+		"es": "¿Cuáles son hoy las limitaciones más prácticas de Cardboard?"
+	  },
+	  "answer": {
+		"en": "The biggest practical limitations are pricing, file constraints, and unknown depth at scale. The Creator plan starts at $60/month billed annually, limits users to 5 active projects and 2.5 GB file sizes, and public materials still say relatively little about enterprise governance, review pipelines, or long-form production complexity. The practical workaround is to treat Cardboard first as a fast-turn content tool for short-to-mid-form collaborative editing rather than assuming it already replaces a full desktop post-production stack.",
+		"zh": "最大的现实限制是价格、文件限制和规模化深度仍不明确。Creator 套餐从年付折算 $60/月起，只允许每月 5 个 active projects 和 2.5 GB 文件大小，而且公开资料对企业治理、审片流程和长视频复杂制作的描述还不多。更稳妥的用法是先把 Cardboard 当成一个适合短中视频快速协作的内容工具，而不是默认它已经能完全替代桌面后期栈。",
+		"ja": "最大の制約は価格、ファイル制限、大規模制作での深さがまだ読みにくい点です。Creatorは年払いで$60/月からで、月5件のactive projectsと2.5GB上限があります。また、企業統制、レビュー工程、長尺制作への対応は公開情報がまだ少ないです。まずは短〜中尺の高速共同編集用途として使うのが現実的です。",
+		"ko": "가장 현실적인 한계는 가격, 파일 제한, 그리고 대규모 제작에서의 깊이가 아직 불명확하다는 점입니다. Creator는 연간 청구 기준 월 $60부터 시작하고 월 5개 활성 프로젝트와 2.5GB 파일 제한이 있으며, 공개 자료도 엔터프라이즈 거버넌스, 리뷰 파이프라인, 장편 제작 복잡성에 대해 많이 말하지 않습니다. 실무적으로는 완전한 데스크톱 후반 작업 대체재로 보기보다 짧거나 중간 길이의 협업 콘텐츠 툴로 먼저 쓰는 편이 좋습니다.",
+		"es": "Las limitaciones más prácticas son el precio, las restricciones de archivo y la falta de claridad sobre profundidad a escala. Creator empieza en $60/mes con facturación anual, limita a 5 proyectos activos y 2,5 GB por archivo, y los materiales públicos todavía dicen poco sobre gobernanza enterprise, pipelines de revisión o producción larga. Lo más sensato es tratarlo primero como herramienta rápida para contenido corto o medio colaborativo, no como sustituto total de una suite desktop."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Is Cardboard expensive, and who is it actually priced for?",
+		"zh": "Cardboard 贵吗？它到底是给谁定价的？",
+		"ja": "Cardboardの価格は高いですか？誰向けの価格設定ですか？",
+		"ko": "Cardboard는 비싼 편인가요? 실제로 누구를 겨냥한 가격인가요?",
+		"es": "¿Cardboard es caro y para quién está pensado realmente su pricing?"
+	  },
+	  "answer": {
+		"en": "Yes, it is priced above casual creator tools. Public pricing starts at $60/month billed annually for Creator and $150/month billed annually for Pro, with no clearly visible free tier on the main pricing page, which signals that Cardboard is targeting serious creators, agencies, and production teams rather than hobby users. The pricing makes more sense if AI-assisted collaboration and professional export workflows save real editing time across a team.",
+		"zh": "算贵，至少高于轻量创作者工具。公开价格从 Creator 的 $60/月（按年付）和 Pro 的 $150/月（按年付）起，而且主定价页上没有清晰可见的免费层，这说明 Cardboard 的目标用户更像是认真做内容的创作者、机构和制作团队，而不是 hobby 用户。只有当 AI 协作和专业导出流程确实能替团队节省大量剪辑时间时，这个价格才更合理。",
+		"ja": "はい、カジュアルな制作ツールより高めです。公開価格はCreatorが年払いで$60/月、Proが年払いで$150/月からで、無料枠も明確ではありません。つまり、趣味用途よりも、本格的な制作者、制作会社、チーム向けの価格です。AI共同編集と実務的な書き出しで時間短縮できるなら、価格の意味は出てきます。",
+		"ko": "네, 가벼운 크리에이터 툴보다 비싼 편입니다. 공개 가격은 Creator가 연간 청구 기준 월 $60, Pro가 월 $150부터이고 메인 가격 페이지에 명확한 무료 플랜도 없어, 취미 유저보다 진지한 크리에이터, 에이전시, 제작 팀을 겨냥한 가격 구조로 보입니다. 팀 단위에서 AI 협업과 전문 내보내기로 실제 편집 시간을 절약할 수 있을 때 가격이 정당화됩니다.",
+		"es": "Sí, está por encima del nivel de herramientas casuales para creadores. El pricing público empieza en $60/mes anualizado para Creator y $150/mes anualizado para Pro, sin un free tier claramente visible en la página principal, lo que sugiere que apunta a creadores serios, agencias y equipos de producción, no a usuarios hobby. Tiene más sentido si la colaboración con IA y las exportaciones profesionales ahorran tiempo real de edición."
+	  }
+	},
+	{
+	  "question": {
+		"en": "How does Cardboard fit into a modern AI content workflow with captions, clips, and editor handoff?",
+		"zh": "Cardboard 如何接入现代 AI 内容工作流，比如字幕、切条和剪辑交接？",
+		"ja": "Cardboardは、字幕、切り抜き、編集引き継ぎを含む現代的なAIコンテンツ制作にどう組み込めますか？",
+		"ko": "Cardboard는 자막, 클립, 편집자 핸드오프가 포함된 현대적 AI 콘텐츠 워크플로에 어떻게 들어가나요?",
+		"es": "¿Cómo encaja Cardboard en un workflow moderno de contenido AI con captions, clips y handoff entre editores?"
+	  },
+	  "answer": {
+		"en": "Cardboard fits as the collaborative editing layer after raw media ingestion. Teams can upload media to the cloud, use AI for captions, search, and suggestions, direct the edit with natural-language commands, refine on a browser timeline, and then export either final videos or handoff files to Premiere Pro and DaVinci Resolve. That makes it useful in workflows where AI helps assemble and accelerate edits, but human editors still make the final creative decisions.",
+		"zh": "Cardboard 最适合作为原始素材进入系统后的协作编辑层。团队先把素材上传到云端，再利用 AI 做字幕、搜索和建议，通过自然语言指挥编辑，在浏览器时间轴上精修，最后导出成成片，或把项目交接到 Premiere Pro 和 DaVinci Resolve。对那些希望 AI 先帮助组织和加速剪辑、但最终仍由人工完成创意决策的流程来说，这非常合适。",
+		"ja": "Cardboardは、素材取り込み後の共同編集レイヤーとして組み込みやすいです。メディアをクラウドに上げ、AIで字幕、検索、提案を使い、自然言語で編集方針を指示し、ブラウザタイムラインで仕上げ、最終動画またはPremiere / DaVinci向けデータを書き出せます。AIで編集を加速しつつ、最終判断は人間が行う制作フローに向いています。",
+		"ko": "Cardboard는 원본 미디어 수집 이후의 협업 편집 레이어로 가장 잘 맞습니다. 팀은 미디어를 클라우드에 업로드하고 AI로 자막, 검색, 제안을 활용하며, 자연어 명령으로 편집 방향을 지시하고 브라우저 타임라인에서 다듬은 뒤 완성본이나 Premiere Pro·DaVinci Resolve용 핸드오프 파일을 내보낼 수 있습니다. AI가 편집을 조직하고 가속하지만 최종 창의적 결정은 사람이 내리는 워크플로에 잘 맞습니다.",
+		"es": "Cardboard encaja como capa de edición colaborativa después de ingerir media cruda. El equipo puede subir archivos a la nube, usar IA para captions, search y sugerencias, dirigir el montaje con lenguaje natural, refinarlo en un timeline browser y luego exportar el video final o archivos de handoff para Premiere Pro y DaVinci Resolve. Eso tiene mucho sentido en workflows donde la IA acelera el proceso pero las decisiones creativas finales siguen siendo humanas."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Can Cardboard work for agency teams, podcast repurposing, or social video operations?",
+		"zh": "Cardboard 能不能用于 agency 团队、播客切条或社媒视频运营？",
+		"ja": "Cardboardは、制作会社チーム、ポッドキャスト切り抜き、SNS動画運用にも向いていますか？",
+		"ko": "Cardboard는 에이전시 팀, 팟캐스트 재가공, 소셜 비디오 운영에도 쓸 수 있나요?",
+		"es": "¿Puede Cardboard servir para agencias, reutilización de podcasts o social video ops?"
+	  },
+	  "answer": {
+		"en": "Yes, and those look like some of its best current use cases. Cardboard’s public positioning emphasizes browser collaboration, AI-assisted editing, captions, search, suggestions, and professional exports, which align closely with agency workflows, podcast clipping, marketing content, and social video teams moving quickly across many edits. The practical advice is to pilot it on repetitive, high-turnaround video work first, where its natural-language and cloud workflow advantages are easiest to measure.",
+		"zh": "可以，而且这些看起来正是它当前最适合的落地场景。Cardboard 的公开定位重点就是浏览器协作、AI 辅助剪辑、字幕、搜索、建议和专业导出，这和 agency 工作流、播客切条、营销内容和社媒视频团队的高频快节奏生产非常贴合。更实用的策略是先拿它去跑重复度高、交付节奏快的视频任务，因为这样最容易量化自然语言和云协作工作流的收益。",
+		"ja": "はい。むしろそのあたりが現時点で最も相性の良い用途に見えます。Cardboardはブラウザ共同編集、AI字幕、検索、提案、実務向け書き出しを強調しており、制作会社、ポッドキャスト切り抜き、マーケ動画、SNS運用に合っています。まずは回転の速い反復的な動画業務で試すのが最も効果を測りやすいです。",
+		"ko": "네, 그리고 오히려 그런 용도가 현재 가장 잘 맞는 시나리오로 보입니다. Cardboard는 브라우저 협업, AI 편집, 자막, 검색, 제안, 전문 내보내기를 강조하고 있어 에이전시 워크플로, 팟캐스트 클립, 마케팅 콘텐츠, 소셜 비디오 팀과 잘 맞습니다. 실무적으로는 반복적이고 빠른 납기가 필요한 영상 작업부터 파일럿하는 것이 장점을 측정하기 가장 쉽습니다.",
+		"es": "Sí, y de hecho parecen algunos de sus mejores encajes actuales. El posicionamiento público de Cardboard enfatiza colaboración en navegador, edición asistida por IA, captions, search, sugerencias y exportación profesional, algo que encaja muy bien con agencias, clipping de podcasts, marketing de contenido y equipos de social video que trabajan con mucha velocidad. Lo más práctico es pilotarlo primero en trabajo repetitivo y de turnaround rápido, donde sus ventajas cloud y conversacionales se notan mejor."
+	  }
+	}
+  ],
+  "seo_title_jsonb": {
+	"en": "Cardboard Review 2026: Pricing, Pros & Cons, Alternatives",
+	"zh": "Cardboard 怎么样？2026 最新评测：价格、优缺点与竞品对比",
+	"ja": "【徹底レビュー】Cardboardの評判は？料金・使い方・代替ツール",
+	"ko": "Cardboard 솔직 후기: 가격, 장단점 및 추천 대안 (완벽 정리)",
+	"es": "Opiniones de Cardboard: Precio, Ventajas y Alternativas"
+  },
+  "seo_description_jsonb": {
+	"en": "Need an AI video editor in the browser? Our Cardboard Review covers pricing, collaboration, exports, pros, cons, and whether it fits serious content teams.",
+	"zh": "想找浏览器里的 AI 视频编辑器？这篇 Cardboard Review 解析 pricing、协作、导出、优缺点，以及它是否适合专业内容团队。",
+	"ja": "ブラウザ型AI動画編集を探す方向けに、Cardboard Reviewで料金、共同編集、書き出し、長所、短所を整理しました。",
+	"ko": "브라우저 AI 비디오 편집기를 찾는다면 Cardboard Review에서 가격, 협업, 내보내기, 장단점을 확인하세요.",
+	"es": "¿Buscas un editor de video con IA en navegador? Esta Review de Cardboard analiza pricing, colaboración, exports, ventajas, límites y su encaje real."
+  },
+  "_citations_dump": [
+	"", [usecardboard](https://www.usecardboard.com/$)
+	"", [usecardboard](https://www.usecardboard.com/pricing)
+	"", [usecardboard](https://www.usecardboard.com/terms)
+	"", [learn.usecardboard](https://learn.usecardboard.com/learn/talk)
+	"", [usecardboard](https://www.usecardboard.com/privacy)
+	"" [learn.usecardboard](https://learn.usecardboard.com/account/manage-your-account)
+  ]
+}

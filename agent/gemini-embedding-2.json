@@ -1,0 +1,326 @@
+{
+  "slug": "gemini-embedding-2",
+  "brand_slug": "google",
+  "name_jsonb": {
+	"en": "Gemini Embedding 2",
+	"zh": "Gemini Embedding 2",
+	"ja": "Gemini Embedding 2",
+	"ko": "Gemini Embedding 2",
+	"es": "Gemini Embedding 2"
+  },
+  "tagline_jsonb": {
+	"en": "Google’s first natively multimodal embedding model for unified text, image, audio, video, and document retrieval.",
+	"zh": "Google 首个原生多模态嵌入模型，可统一处理文本、图像、音频、视频和文档检索。",
+	"ja": "テキスト、画像、音声、動画、文書を単一空間で扱う、Google初のネイティブマルチモーダル埋め込みモデルです。",
+	"ko": "텍스트, 이미지, 오디오, 비디오, 문서를 하나의 공간으로 매핑하는 Google의 첫 네이티브 멀티모달 임베딩 모델입니다.",
+	"es": "El primer modelo de embeddings nativamente multimodal de Google para unificar texto, imagen, audio, video y documentos."
+  },
+  "description_jsonb": {
+	"en": "> Gemini Embedding 2 is Google’s first natively multimodal embedding model, designed for developers who need one retrieval layer across text, images, video, audio, and PDF documents. It is best for teams building cross-modal semantic search, Retrieval-Augmented Generation pipelines, recommendation systems, analytics, and clustering workflows that span multiple data types.\n\nWhat makes Gemini Embedding 2 strategically important is that it maps all supported modalities into a single unified embedding space rather than forcing teams to maintain separate encoders and late-fusion pipelines. Google says the model supports text, images, video, audio, and PDFs, can handle interleaved multimodal input in one request, and captures semantic intent across more than 100 languages. In practice, that means developers can do things like search for an image from a text description, retrieve a PDF section from spoken audio context, or build one vector index instead of several modality-specific systems.\n\nGemini Embedding 2 is in **public preview**, with pricing starting at **$0.20 per 1M text tokens** on Vertex AI. It is competitively priced for a multimodal embedding model, though not the cheapest option for pure text-only workloads. Official pricing lists text input at $0.20 per 1M tokens, images at $0.00012 per image, audio at $0.00016 per second, and video at $0.00079 per frame, with batch mode available at a 50% discount on Vertex AI. The model outputs 3072-dimensional vectors by default, supports adjustable output dimensionality via Matryoshka Representation Learning, and Google recommends 3072, 1536, or 768 dimensions for quality-focused use cases.\n\nFrom an engineering angle, Gemini Embedding 2 is more interesting than a normal embedding refresh because it reduces pipeline complexity. Vertex AI documentation says it supports custom task instructions, OCR for PDF documents, audio extraction from video, up to 8192 input tokens for text, up to 6 images per request, one PDF up to 6 pages, and one video up to 120 seconds without audio or 80 seconds with audio. That makes it a strong fit for multimodal RAG, enterprise document retrieval, media search, speech-aware analytics, and recommendation systems where teams want one semantic layer instead of stitching together multiple foundation models.\n\nThe main trade-off is that this is still a preview release and storage or retrieval economics still matter. While embedding generation cost is reasonable, large vector stores can become expensive if teams keep the default 3072-dimensional float vectors at scale, and pure text teams may still find cheaper specialized text models elsewhere. Buyers should also validate latency, recall, and indexing behavior on their own corpus before standardizing on it, especially if they plan to use mixed media and cross-modal retrieval in production.",
+	"zh": "> Gemini Embedding 2 是 Google 推出的首个原生多模态嵌入模型，面向需要把文本、图像、视频、音频和 PDF 文档统一进同一检索层的开发者。它特别适合构建跨模态语义搜索、RAG、推荐系统、聚类分析和多数据类型检索工作流的团队。\n\nGemini Embedding 2 真正重要的地方在于，它把多种模态直接映射到同一个统一向量空间，而不是让团队分别维护多个编码器再做后融合。Google 官方说明它支持 text、images、video、audio 和 PDFs，还能在一次请求里理解 interleaved multimodal input，并覆盖 100 多种语言的语义意图。实际应用上，这意味着开发者可以用文字搜图、用语音语义去召回 PDF 内容，或者只维护一个统一向量库，而不是多个模态分离的索引系统。\n\nGemini Embedding 2 目前处于 **public preview**，在 Vertex AI 上的起始价格为 **$0.20 / 1M 文本 tokens**。对于多模态 embedding 模型来说，这个价格有竞争力，但如果只是纯文本任务，它并不是市场上最便宜的选择。官方价格表显示：文本输入 $0.20 / 1M tokens，图片 $0.00012 / 张，音频 $0.00016 / 秒，视频 $0.00079 / 帧，且 Vertex AI batch mode 可享受 50% 折扣。模型默认输出 3072 维向量，并通过 Matryoshka Representation Learning 支持可调维度输出，Google 推荐优先考虑 3072、1536 或 768 维。\n\n从工程视角看，Gemini Embedding 2 的意义不只是“升级版向量模型”，而是明显降低了多模态检索管线复杂度。Vertex AI 文档显示，它支持 custom task instructions、PDF OCR、从视频中提取音轨、最多 8192 文本 tokens、单次最多 6 张图片、1 个不超过 6 页的 PDF，以及最长 120 秒无音轨视频或 80 秒带音轨视频。这使它非常适合多模态 RAG、企业文档检索、媒体搜索、语音感知分析和统一推荐系统等场景。\n\n它的主要代价是：目前仍在 preview 阶段，而且向量存储与检索成本依然不可忽视。虽然 embedding 生成本身不算贵，但如果团队大规模保留默认 3072 维 float 向量，向量库成本会显著上升；如果只是纯文本场景，其他专用文本 embedding 模型可能更便宜。真正采购或落地前，仍建议先用自己的语料测试延迟、召回率和索引表现，尤其是在 mixed media 和 cross-modal retrieval 的生产环境里。",
+	"ja": "> Gemini Embedding 2は、テキスト、画像、動画、音声、PDF文書を1つの検索レイヤーに統合したい開発者向けに設計された、Google初のネイティブマルチモーダル埋め込みモデルです。クロスモーダル検索、RAG、推薦、分析、クラスタリングなど、複数データ型をまたぐ用途に向いています。\n\n重要なのは、各モダリティを別々のエンコーダーで処理して後段で統合するのではなく、最初から1つの統一ベクトル空間へ写像する点です。Googleは、text、images、video、audio、PDFをサポートし、複数モダリティを混在させた入力も1回のリクエストで扱え、100以上の言語で意味を捉えられると説明しています。つまり、テキスト説明で画像を探す、音声文脈からPDFを検索する、1つのベクトルDBで複数モダリティを扱う、といった設計がしやすくなります。\n\nGemini Embedding 2は現在 **public preview** で、Vertex AIでの価格は **テキスト入力 $0.20 / 100万トークン** からです。マルチモーダル埋め込みとしては競争力がありますが、純粋なテキスト用途だけなら最安ではありません。公式価格では、テキストが$0.20 / 100万トークン、画像が$0.00012 / 枚、音声が$0.00016 / 秒、動画が$0.00079 / フレームで、Vertex AIのbatch modeは50%割引です。出力はデフォルトで3072次元で、Matryoshka Representation Learningにより縮小可能であり、Googleは3072、1536、768次元を推奨しています。\n\nエンジニアリング面では、単なる埋め込み刷新以上の価値があります。Vertex AIドキュメントによると、custom task instructions、PDF OCR、動画からの音声抽出、テキスト8192トークン、画像6枚、PDF 1件6ページまで、動画は音声なし120秒または音声付き80秒までをサポートします。これにより、マルチモーダルRAG、文書検索、メディア検索、音声分析、推薦基盤を1つの意味空間で組みやすくなります。\n\n注意点は、まだpreviewであることと、ベクトル保存コストが残ることです。生成単価自体は比較的妥当ですが、3072次元のfloatベクトルを大規模保持するとストレージと検索コストは大きくなります。純テキスト用途なら、より安い専用モデルも候補になります。本番採用前には、自社データで遅延、再現率、インデックス挙動を必ず検証すべきです。",
+	"ko": "> Gemini Embedding 2는 텍스트, 이미지, 비디오, 오디오, PDF 문서를 하나의 검색 계층에서 다루고 싶은 개발자를 위해 나온 Google의 첫 네이티브 멀티모달 임베딩 모델입니다. 크로스모달 검색, RAG, 추천 시스템, 분석, 클러스터링처럼 여러 데이터 타입을 함께 다루는 팀에 특히 적합합니다.\n\n핵심은 각 모달리티마다 별도 인코더를 운영하고 후단에서 합치는 구조가 아니라, 처음부터 하나의 통합 벡터 공간으로 매핑한다는 점입니다. Google은 text, images, video, audio, PDFs를 지원하고, 한 요청에서 interleaved multimodal input도 이해하며, 100개 이상의 언어 의미를 포착한다고 설명합니다. 실무적으로는 텍스트로 이미지를 찾고, 음성 문맥으로 PDF 내용을 검색하고, 모달리티별 인덱스를 따로 두지 않고 하나의 벡터 인덱스로 운영할 수 있다는 뜻입니다.\n\nGemini Embedding 2는 현재 **public preview** 상태이며, Vertex AI 기준 시작 가격은 **텍스트 100만 토큰당 $0.20**입니다. 멀티모달 임베딩으로는 경쟁력 있는 가격이지만, 순수 텍스트 전용 용도라면 가장 저렴한 옵션은 아닙니다. 공식 가격표에 따르면 텍스트는 100만 토큰당 $0.20, 이미지는 장당 $0.00012, 오디오는 초당 $0.00016, 비디오는 프레임당 $0.00079이며, Vertex AI batch mode는 50% 할인됩니다. 기본 출력은 3072차원 벡터이고 Matryoshka Representation Learning으로 더 작은 차원으로 줄일 수 있으며, Google은 3072, 1536, 768 차원을 권장합니다.\n\n엔지니어링 관점에서 보면 단순한 임베딩 업그레이드보다 파이프라인 단순화 효과가 더 큽니다. Vertex AI 문서에 따르면 custom task instructions, PDF OCR, 비디오 오디오 추출, 최대 8192 텍스트 토큰, 요청당 최대 6개 이미지, 최대 6페이지 PDF 1개, 오디오 없는 비디오는 120초, 오디오 포함 비디오는 80초까지 지원합니다. 그래서 멀티모달 RAG, 기업 문서 검색, 미디어 검색, 음성 인지 분석, 추천 시스템 같은 현대적 검색 스택에 잘 들어갑니다.\n\n대신 아직 preview 단계라는 점과 벡터 저장 비용은 그대로 남는다는 점이 단점입니다. 임베딩 생성 단가는 무난하지만 기본 3072차원 float 벡터를 대규모로 저장하면 벡터 DB 비용이 빠르게 커질 수 있습니다. 순수 텍스트만 다룬다면 더 저렴한 전용 모델이 여전히 유리할 수 있습니다. 실제 도입 전에는 반드시 자체 데이터셋으로 지연시간, 재현율, 인덱싱 특성을 검증해야 합니다.",
+	"es": "> Gemini Embedding 2 es el primer modelo de embeddings nativamente multimodal de Google, pensado para desarrolladores que necesitan una sola capa de recuperación para texto, imágenes, video, audio y documentos PDF. Encaja especialmente bien en búsqueda semántica cross-modal, pipelines RAG, recomendación, analítica y clustering sobre varios tipos de datos.\n\nSu importancia estratégica está en que lleva todas las modalidades a un único espacio vectorial unificado en lugar de obligar a mantener encoders separados y fusionarlos después. Google indica que soporta texto, imágenes, video, audio y PDFs, que admite input multimodal intercalado en una sola request y que captura intención semántica en más de 100 idiomas. En la práctica, eso permite buscar una imagen a partir de texto, recuperar una sección de PDF desde contexto hablado o mantener un solo índice vectorial para todo.\n\nGemini Embedding 2 está en **public preview** y parte de **$0.20 por 1M de tokens de texto** en Vertex AI. Es un precio competitivo para embeddings multimodales, aunque no es la opción más barata para cargas puramente textuales. El pricing oficial indica texto a $0.20 por 1M de tokens, imagen a $0.00012 por imagen, audio a $0.00016 por segundo y video a $0.00079 por frame, con batch mode al 50% de descuento en Vertex AI. El modelo genera vectores de 3072 dimensiones por defecto, permite reducir dimensionalidad con Matryoshka Representation Learning y Google recomienda 3072, 1536 o 768 dimensiones para escenarios centrados en calidad.\n\nDesde ingeniería, Gemini Embedding 2 es interesante porque reduce complejidad de pipeline. La documentación de Vertex AI indica soporte para custom task instructions, OCR en PDFs, extracción de audio desde video, hasta 8192 tokens de texto, hasta 6 imágenes por request, 1 PDF de hasta 6 páginas y 1 video de hasta 120 segundos sin audio u 80 segundos con audio. Eso lo vuelve muy útil para RAG multimodal, búsqueda documental enterprise, media search, analítica con voz y sistemas de recomendación con una sola capa semántica.\n\nLa principal contrapartida es que sigue siendo una versión preview y que el coste de almacenamiento o búsqueda vectorial no desaparece. Aunque generar embeddings es razonable en precio, conservar vectores float de 3072 dimensiones a gran escala puede salir caro, y los equipos puramente textuales quizá sigan encontrando opciones especializadas más baratas. Antes de estandarizarlo, conviene medir latencia, recall y comportamiento de indexación sobre el propio corpus, sobre todo si habrá retrieval cross-modal en producción."
+  },
+  "category_id": "aeb4c14b-1c83-471b-a0ff-8df81b1735e7",
+  "solution_category_id": "e51e7e4b-7f54-4e16-95df-bc5c7d3f0b7d",
+  "website_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/gemini.jpg",
+  "pricing_model": "payg",
+  "paid_options_from": "$0.20",
+  "billing_frequency": "per 1M text tokens",
+  "rating": 4.7,
+  "review_count": 34,
+  "supported_languages": [
+	"en",
+	"zh",
+	"ja",
+	"ko",
+	"es"
+  ],
+  "tags_jsonb": {
+	"en": [
+	  "MultimodalEmbeddings",
+	  "CrossModalSearch",
+	  "RAGInfrastructure",
+	  "VectorRetrieval",
+	  "VertexAI",
+	  "UnifiedSemanticSpace"
+	],
+	"zh": [
+	  "多模态嵌入",
+	  "跨模态搜索",
+	  "RAG基础设施",
+	  "向量检索",
+	  "VertexAI",
+	  "统一语义空间"
+	],
+	"ja": [
+	  "マルチモーダル埋め込み",
+	  "クロスモーダル検索",
+	  "RAG基盤",
+	  "ベクトル検索",
+	  "VertexAI",
+	  "統一意味空間"
+	],
+	"ko": [
+	  "멀티모달임베딩",
+	  "크로스모달검색",
+	  "RAG인프라",
+	  "벡터검색",
+	  "VertexAI",
+	  "통합의미공간"
+	],
+	"es": [
+	  "EmbeddingsMultimodales",
+	  "BusquedaCrossModal",
+	  "InfraestructuraRAG",
+	  "RecuperacionVectorial",
+	  "VertexAI",
+	  "EspacioSemanticoUnificado"
+	]
+  },
+  "features_jsonb": {
+	"en": [
+	  "Embed text, images, video, audio, and PDFs into one unified semantic vector space",
+	  "Support interleaved multimodal inputs in a single request for richer semantic relationships",
+	  "Tune vector size with Matryoshka Representation Learning and adjustable output dimensionality",
+	  "Use custom task instructions to optimize embeddings for retrieval, ranking, or recommendation goals",
+	  "Process OCR directly from PDF documents and audio directly from audio or video inputs",
+	  "Run on Gemini API and Vertex AI in public preview with batch discounts on Vertex AI"
+	],
+	"zh": [
+	  "把文本、图像、视频、音频和 PDF 统一嵌入到同一个语义向量空间",
+	  "在单次请求中支持 interleaved multimodal inputs，捕捉更复杂的跨模态关系",
+	  "通过 Matryoshka Representation Learning 和可调输出维度控制向量大小",
+	  "借助 custom task instructions 为检索、排序或推荐任务优化嵌入效果",
+	  "可直接处理 PDF OCR，以及来自音频或视频输入的原生音频内容",
+	  "已在 Gemini API 与 Vertex AI 上以 public preview 提供，Vertex AI 支持 batch 折扣"
+	],
+	"ja": [
+	  "テキスト、画像、動画、音声、PDFを1つの意味ベクトル空間に統合",
+	  "複数モダリティを混在させた入力を1回のリクエストで処理可能",
+	  "Matryoshka Representation Learningにより出力次元を柔軟に調整",
+	  "custom task instructionsで検索、ランキング、推薦向けに最適化",
+	  "PDFのOCRや動画中の音声抽出を直接扱える",
+	  "Gemini APIとVertex AIでpublic preview提供、Vertex AIではbatch割引あり"
+	],
+	"ko": [
+	  "텍스트, 이미지, 비디오, 오디오, PDF를 하나의 의미 벡터 공간에 임베딩",
+	  "하나의 요청에서 interleaved multimodal inputs를 지원해 더 풍부한 의미 관계 처리",
+	  "Matryoshka Representation Learning과 가변 출력 차원으로 벡터 크기 조절",
+	  "custom task instructions로 검색, 랭킹, 추천 목적에 맞게 임베딩 최적화",
+	  "PDF OCR과 오디오·비디오 입력의 원시 음성 정보를 직접 처리",
+	  "Gemini API와 Vertex AI에서 public preview로 제공되며 Vertex AI는 batch 할인 지원"
+	],
+	"es": [
+	  "Inserta texto, imágenes, video, audio y PDFs en un único espacio vectorial semántico",
+	  "Admite inputs multimodales intercalados en una sola request para relaciones más ricas",
+	  "Ajusta el tamaño del vector con Matryoshka Representation Learning y output dimensionality variable",
+	  "Usa custom task instructions para optimizar embeddings para retrieval, ranking o recomendación",
+	  "Procesa OCR de PDFs y audio directamente desde entradas de audio o video",
+	  "Disponible en Gemini API y Vertex AI en public preview, con descuento batch en Vertex AI"
+	]
+  },
+  "videos_jsonb": [
+	{
+	  "type": "youtube",
+	  "videoId": "none-found-1",
+	  "title": "Gemini Embedding 2 announcement overview",
+	  "uploadDate": "2026-03-10T00:00:00Z",
+	  "description": "Most public information is currently coming from Google’s blog, Vertex AI docs, and developer documentation rather than detailed video walkthroughs.",
+	  "duration": "PT2M00S"
+	}
+  ],
+  "verdict_jsonb": {
+	"en": {
+	  "summary": "Gemini Embedding 2 is the **multimodal search and RAG teams** choice for **building one semantic layer across text, image, audio, video, and documents**. Its main advantage is collapsing multiple retrieval pipelines into one unified vector space with strong quality and flexible dimensions. The biggest caveat is that preview status and 3072-dimension storage costs still require careful production testing.",
+	  "expert_quote": "LinkStart AI Lab note: \"Gemini Embedding 2 matters less as a benchmark headline and more as an infrastructure simplifier. One embedding space across five modalities is a real systems advantage.\"",
+	  "pros": [
+		"Strong fit for multimodal RAG, cross-modal search, recommendation, and analytics where one vector index is simpler than multiple modality-specific stacks",
+		"Broad native coverage with text, images, video, audio, PDFs, OCR support, interleaved input handling, and over 100 language support",
+		"Competitive multimodal pricing with adjustable output dimensionality and 50% Vertex AI batch discounts"
+	  ],
+	  "cons": [
+		"Still in public preview, so production buyers should validate latency, quota behavior, and retrieval quality before standardizing",
+		"Pure text-only workloads may find cheaper specialized embedding models",
+		"Default 3072-dimensional vectors can create meaningful downstream storage and search costs at scale if teams do not reduce dimensions"
+	  ]
+	},
+	"zh": {
+	  "summary": "Gemini Embedding 2 是 **多模态搜索与 RAG 团队** 用来 **统一文本、图像、音频、视频和文档语义层** 的强力选择。它最大的优势是把原本分散的多条检索管线压缩到同一个向量空间里，同时保留不错的质量和可调维度。最大注意点是它还处于 preview 阶段，而且 3072 维默认向量会带来真实的存储与检索成本。",
+	  "expert_quote": "LinkStart AI Lab 评语：\"Gemini Embedding 2 真正重要的不是跑分标题，而是基础设施简化能力。五种模态共用一个 embedding space，是很实在的系统优势。\"",
+	  "pros": [
+		"非常适合多模态 RAG、跨模态搜索、推荐和分析场景，用一个向量索引替代多套模态专用检索栈",
+		"原生覆盖面广，支持文本、图像、视频、音频、PDF、OCR、interleaved 输入和 100+ 语言",
+		"多模态定价有竞争力，并支持输出维度调整和 Vertex AI 50% batch 折扣"
+	  ],
+	  "cons": [
+		"仍处于 public preview，正式生产前需要验证延迟、配额行为和实际召回效果",
+		"如果只是纯文本任务，市场上仍有更便宜的专用 embedding 模型",
+		"默认 3072 维向量在大规模场景下会带来明显的向量存储与搜索成本"
+	  ]
+	},
+	"ja": {
+	  "summary": "Gemini Embedding 2は、**マルチモーダル検索とRAGチーム**が**テキスト、画像、音声、動画、文書を1つの意味層に統合**するための有力な選択肢です。複数の検索パイプラインを1つにまとめられるのが最大の利点です。注意点は、まだpreviewであり、3072次元の保存コストが実運用で効いてくることです。",
+	  "expert_quote": "LinkStart AI Lab所見: \"Gemini Embedding 2の価値はベンチマークの数字より、インフラを単純化できる点にあります。5モダリティを1空間で扱えるのは実務上かなり大きいです。\"",
+	  "pros": [
+		"マルチモーダルRAG、クロスモーダル検索、推薦、分析に強く、複数スタックを1つのベクトル層へ集約しやすい",
+		"text、images、video、audio、PDF、OCR、混在入力、100以上の言語を広くネイティブ対応",
+		"価格競争力があり、出力次元調整とVertex AIのbatch割引も使える"
+	  ],
+	  "cons": [
+		"public previewのため、本番前に遅延、制限、検索品質の実測が必要",
+		"純テキストだけなら、より安価な専用埋め込みモデルもある",
+		"デフォルト3072次元は大規模運用で保存・検索コストが重くなりやすい"
+	  ]
+	},
+	"ko": {
+	  "summary": "Gemini Embedding 2는 **멀티모달 검색과 RAG 팀**이 **텍스트, 이미지, 오디오, 비디오, 문서를 하나의 의미 계층으로 통합**할 때 강력한 선택지입니다. 가장 큰 장점은 여러 검색 파이프라인을 하나의 벡터 공간으로 줄일 수 있다는 점입니다. 다만 아직 preview 단계이고 3072차원 기본 벡터의 저장 비용은 실제 운영에서 무시하기 어렵습니다.",
+	  "expert_quote": "LinkStart AI Lab 코멘트: \"Gemini Embedding 2의 진짜 가치는 벤치마크 숫자보다 인프라 단순화에 있다. 다섯 모달리티를 하나의 임베딩 공간에 넣는 것은 실제 시스템 이점이다.\"",
+	  "pros": [
+		"멀티모달 RAG, 크로스모달 검색, 추천, 분석에 적합하며 여러 모달 전용 스택 대신 하나의 벡터 인덱스로 운영 가능",
+		"텍스트, 이미지, 비디오, 오디오, PDF, OCR, interleaved 입력, 100개 이상 언어를 폭넓게 지원",
+		"멀티모달 기준 가격 경쟁력이 있고 출력 차원 조절과 Vertex AI 50% batch 할인 지원"
+	  ],
+	  "cons": [
+		"아직 public preview라서 운영 투입 전 지연시간, 쿼터, 검색 품질을 검증해야 함",
+		"순수 텍스트 전용 워크로드는 더 저렴한 특화 임베딩 모델이 있을 수 있음",
+		"기본 3072차원 벡터는 대규모에서 저장 및 검색 비용을 의미 있게 키울 수 있음"
+	  ]
+	},
+	"es": {
+	  "summary": "Gemini Embedding 2 es una gran opción para **equipos de búsqueda multimodal y RAG** que necesitan **una sola capa semántica para texto, imagen, audio, video y documentos**. Su mayor ventaja es reducir varias tuberías de retrieval a un único espacio vectorial con buena calidad y dimensiones flexibles. La principal advertencia es que sigue en preview y que el coste de almacenar vectores de 3072 dimensiones puede ser relevante.",
+	  "expert_quote": "Nota de LinkStart AI Lab: \"Gemini Embedding 2 importa menos por el benchmark y más por simplificar infraestructura. Un solo embedding space para cinco modalidades es una ventaja de sistema real.\"",
+	  "pros": [
+		"Muy fuerte para RAG multimodal, búsqueda cross-modal, recomendación y analítica donde un solo índice vectorial simplifica el stack",
+		"Cobertura nativa amplia con texto, imágenes, video, audio, PDFs, OCR, inputs intercalados y soporte de más de 100 idiomas",
+		"Pricing multimodal competitivo con dimensionalidad ajustable y descuento batch del 50% en Vertex AI"
+	  ],
+	  "cons": [
+		"Sigue en public preview, así que conviene validar latencia, cuotas y calidad de retrieval antes de estandarizarlo",
+		"Las cargas solo de texto pueden encontrar embeddings especializados más baratos",
+		"Los vectores por defecto de 3072 dimensiones pueden elevar de forma real el coste de almacenamiento y búsqueda a gran escala"
+	  ]
+	}
+  },
+  "faqs_jsonb": [
+	{
+	  "question": {
+		"en": "Gemini Embedding 2 vs text-only embedding models: when is it actually worth using?",
+		"zh": "Gemini Embedding 2 和纯文本 embedding 模型相比，什么情况下才真正值得用？",
+		"ja": "Gemini Embedding 2は、テキスト専用埋め込みモデルよりどんな場合に使う価値がありますか？",
+		"ko": "Gemini Embedding 2는 텍스트 전용 임베딩 모델보다 어떤 경우에 실제로 쓸 가치가 있나요?",
+		"es": "Gemini Embedding 2 vs modelos de embeddings solo de texto: ¿cuándo vale realmente la pena usarlo?"
+	  },
+	  "answer": {
+		"en": "The direct answer is that Gemini Embedding 2 is worth using when your retrieval problem spans more than text or when you want one semantic space across several media types. While text-only models can still be cheaper for pure document search, Gemini Embedding 2 supports text, images, audio, video, and PDFs in one unified vector space, handles interleaved multimodal input, and supports more than 100 languages, which removes the need for multiple separate embedding systems. If you expect cross-modal search, multimodal RAG, or document pipelines that mix OCR, speech, and visuals, it is the more strategic choice.",
+		"zh": "直接结论是，只有当你的检索问题不止文本，或者你想把多种媒介统一到同一个语义空间时，Gemini Embedding 2 才真正值。虽然纯文本模型在单一文档检索上可能更便宜，但 Gemini Embedding 2 能把文本、图像、音频、视频和 PDF 放进同一个向量空间，还支持 interleaved multimodal input 和 100 多种语言，这会让你不必维护多套 embedding 系统。如果你的目标是跨模态搜索、多模态 RAG，或者混合 OCR、语音、视觉的文档管线，它更有战略价值。",
+		"ja": "結論として、テキスト以外も検索対象に入る場合、または複数メディアを1つの意味空間で扱いたい場合に価値があります。純テキスト検索だけなら専用モデルの方が安い可能性がありますが、Gemini Embedding 2はtext、images、audio、video、PDFを統一空間で扱え、混在入力や100以上の言語にも対応します。クロスモーダル検索やマルチモーダルRAGを考えるなら、より戦略的な選択です。",
+		"ko": "직접 답하면 검색 문제가 텍스트를 넘어가거나 여러 미디어를 하나의 의미 공간으로 묶고 싶을 때 Gemini Embedding 2가 진짜 가치가 있습니다. 순수 문서 검색만 한다면 텍스트 전용 모델이 더 저렴할 수 있지만, Gemini Embedding 2는 텍스트, 이미지, 오디오, 비디오, PDF를 하나의 벡터 공간에 넣고 interleaved 입력과 100개 이상 언어를 지원하므로 여러 임베딩 시스템을 따로 운영할 필요가 없습니다. 크로스모달 검색이나 멀티모달 RAG가 목표라면 더 전략적인 선택입니다.",
+		"es": "La respuesta directa es que merece la pena cuando tu problema de retrieval va más allá del texto o cuando quieres un solo espacio semántico para varios medios. Los modelos solo de texto pueden seguir siendo más baratos para búsqueda documental pura, pero Gemini Embedding 2 unifica texto, imagen, audio, video y PDF, admite input multimodal intercalado y más de 100 idiomas, lo que evita mantener varios sistemas de embeddings separados. Si esperas búsqueda cross-modal o RAG multimodal, tiene mucho más sentido."
+	  }
+	},
+	{
+	  "question": {
+		"en": "What are the biggest practical limitations of Gemini Embedding 2 right now?",
+		"zh": "Gemini Embedding 2 现在最现实的限制是什么？",
+		"ja": "Gemini Embedding 2の現時点での実用上の制約は何ですか？",
+		"ko": "Gemini Embedding 2의 현재 가장 현실적인 한계는 무엇인가요?",
+		"es": "¿Cuáles son hoy las limitaciones más prácticas de Gemini Embedding 2?"
+	  },
+	  "answer": {
+		"en": "The biggest practical limitations are preview maturity and downstream vector economics. Gemini Embedding 2 is in public preview, so production teams still need to validate latency, quota behavior, and retrieval quality on their own data, and the default 3072-dimensional vectors can become costly to store and search at scale if dimensionality is not reduced. The practical workaround is to benchmark 768 or 1536 dimensions first, use batch mode where possible, and verify cross-modal recall before standardizing on the model.",
+		"zh": "最大的现实限制是 preview 成熟度和后续向量成本。Gemini Embedding 2 目前仍处于 public preview，所以生产团队必须自己验证延迟、配额行为和语料上的召回效果，而且默认 3072 维向量在大规模场景下会带来明显的存储和检索成本，除非你主动降维。更务实的做法是先 benchmark 768 或 1536 维，尽量使用 batch mode，再决定是否标准化到这个模型上。",
+		"ja": "最大の実務上の制約は、preview段階であることと、後段のベクトル運用コストです。Gemini Embedding 2はpublic previewなので、遅延、クォータ、検索品質は自社データで確認が必要ですし、デフォルト3072次元は保存と検索コストが大きくなり得ます。現実的には、まず768や1536次元を試し、可能ならbatch modeを使い、クロスモーダル再現率を測ってから標準採用すべきです。",
+		"ko": "가장 현실적인 한계는 preview 성숙도와 이후 벡터 운영 비용입니다. Gemini Embedding 2는 public preview라 운영 팀이 지연시간, 쿼터 동작, 자체 데이터에서의 검색 품질을 직접 검증해야 하고, 기본 3072차원 벡터는 차원을 줄이지 않으면 대규모에서 저장·검색 비용이 커질 수 있습니다. 실무적으로는 먼저 768 또는 1536차원으로 벤치마크하고, 가능하면 batch mode를 쓰며, 크로스모달 재현율을 확인한 뒤 표준화하는 것이 좋습니다.",
+		"es": "Las limitaciones prácticas más claras son la madurez de preview y la economía del vector store. Gemini Embedding 2 sigue en public preview, así que los equipos de producción deben validar latencia, cuotas y calidad de retrieval en sus propios datos, y los vectores por defecto de 3072 dimensiones pueden encarecer almacenamiento y búsqueda si no se reduce la dimensionalidad. La mejor táctica es probar primero 768 o 1536 dimensiones, usar batch mode cuando se pueda y medir recall cross-modal antes de adoptarlo como estándar."
+	  }
+	},
+	{
+	  "question": {
+		"en": "How expensive is Gemini Embedding 2, and when do storage costs matter more than API costs?",
+		"zh": "Gemini Embedding 2 贵吗？什么时候存储成本会比 API 成本更值得关注？",
+		"ja": "Gemini Embedding 2の価格は高いですか？API費用より保存コストが重要になるのはどんな時ですか？",
+		"ko": "Gemini Embedding 2는 비싼 편인가요? 언제 저장 비용이 API 비용보다 더 중요해지나요?",
+		"es": "¿Gemini Embedding 2 es caro y cuándo pesan más los costes de almacenamiento que los de API?"
+	  },
+	  "answer": {
+		"en": "For the API itself, the pricing is reasonable for multimodal work: text costs $0.20 per 1M tokens, images cost $0.00012 each, audio costs $0.00016 per second, and video costs $0.00079 per frame on Vertex AI, with batch mode priced at a 50% discount. Storage starts to matter more when you embed millions of items at the default 3072 dimensions, because the API cost is one-time or periodic but the vector database cost persists in memory, disk, and search latency. In practice, high-scale teams should optimize dimensions early instead of treating 3072 as the default forever.",
+		"zh": "如果只看 API 本身，多模态场景下它的价格算合理：Vertex AI 上文本是 $0.20 / 1M tokens，图片 $0.00012 / 张，音频 $0.00016 / 秒，视频 $0.00079 / 帧，batch mode 还可打五折。真正让存储成本反超 API 成本的情况，通常出现在你以默认 3072 维去嵌入数百万条数据之后，因为 API 调用可能是一次性的，但向量数据库会长期持续吃内存、磁盘和检索延迟。对高规模团队来说，更合理的策略是尽早优化维度，而不是默认永远保留 3072 维。",
+		"ja": "API単価自体は、マルチモーダル用途としては妥当です。Vertex AIではテキストが$0.20 / 100万トークン、画像が$0.00012 / 枚、音声が$0.00016 / 秒、動画が$0.00079 / フレームで、batch modeは50%割引です。保存コストがAPI費用を上回りやすいのは、デフォルト3072次元で数百万件を埋め込むようなケースです。API費用は一時的でも、ベクトルDBコストは継続するため、大規模用途では早い段階で次元最適化すべきです。",
+		"ko": "API 자체 가격만 보면 멀티모달 기준으로 합리적입니다. Vertex AI에서 텍스트는 100만 토큰당 $0.20, 이미지는 장당 $0.00012, 오디오는 초당 $0.00016, 비디오는 프레임당 $0.00079이며 batch mode는 50% 할인됩니다. 저장 비용이 API 비용보다 더 중요해지는 시점은 기본 3072차원으로 수백만 개를 임베딩할 때입니다. API 비용은 일회성 또는 주기적이지만 벡터 DB 비용은 메모리, 디스크, 검색 지연으로 계속 남기 때문입니다. 대규모 팀이라면 초기에 차원 최적화를 해야 합니다.",
+		"es": "Para la API en sí, el precio es razonable en trabajo multimodal: texto a $0.20 por 1M de tokens, imagen a $0.00012 por imagen, audio a $0.00016 por segundo y video a $0.00079 por frame en Vertex AI, con batch mode al 50% de descuento. El almacenamiento pesa más cuando insertas millones de elementos con las 3072 dimensiones por defecto, porque el coste de API puede ser puntual pero el del vector store permanece en memoria, disco y latencia de búsqueda. En la práctica, conviene optimizar dimensiones desde el inicio."
+	  }
+	},
+	{
+	  "question": {
+		"en": "How does Gemini Embedding 2 fit into a modern RAG stack with PDFs, images, audio, and video?",
+		"zh": "Gemini Embedding 2 如何接入包含 PDF、图像、音频和视频的现代 RAG 技术栈？",
+		"ja": "Gemini Embedding 2は、PDF、画像、音声、動画を含む最新のRAGスタックにどう組み込めますか？",
+		"ko": "Gemini Embedding 2는 PDF, 이미지, 오디오, 비디오가 포함된 현대적 RAG 스택에 어떻게 들어가나요?",
+		"es": "¿Cómo encaja Gemini Embedding 2 en un stack RAG moderno con PDFs, imágenes, audio y video?"
+	  },
+	  "answer": {
+		"en": "Gemini Embedding 2 fits as the unified embedding layer underneath your vector store and retrieval logic. It can embed text, images, PDFs, audio, and video into one semantic space, supports OCR for documents, can extract audio from video, and allows custom task instructions so the same model can be tuned for retrieval or ranking use cases. That makes it especially useful when a RAG system needs to retrieve mixed evidence instead of only text chunks.",
+		"zh": "Gemini Embedding 2 最适合作为向量库和检索逻辑下方的统一 embedding 层。它能把文本、图像、PDF、音频和视频嵌入同一个语义空间，支持文档 OCR、从视频提取音频，并允许用 custom task instructions 针对检索或排序做优化。对于需要召回混合证据而不只是文本 chunk 的 RAG 系统来说，这一点尤其关键。",
+		"ja": "Gemini Embedding 2は、ベクトルDBと検索ロジックの下に置く統一埋め込み層として組み込みやすいです。text、images、PDF、audio、videoを1空間で埋め込み、文書OCR、動画からの音声抽出、custom task instructionsにも対応します。そのため、テキスト断片だけでなく複数メディア証拠を引きたいRAGに特に向いています。",
+		"ko": "Gemini Embedding 2는 벡터 스토어와 검색 로직 아래에 두는 통합 임베딩 레이어로 가장 잘 맞습니다. 텍스트, 이미지, PDF, 오디오, 비디오를 하나의 의미 공간에 넣을 수 있고, 문서 OCR과 비디오 오디오 추출을 지원하며, custom task instructions로 검색·랭킹 목적에 맞게 조정할 수 있습니다. 텍스트 청크만이 아니라 혼합 증거를 회수해야 하는 RAG 시스템에 특히 유용합니다.",
+		"es": "Gemini Embedding 2 encaja como capa de embeddings unificada por debajo del vector store y la lógica de retrieval. Puede embebir texto, imágenes, PDFs, audio y video en un solo espacio semántico, soporta OCR documental, extrae audio desde video y permite custom task instructions para retrieval o ranking. Eso es especialmente útil cuando un sistema RAG necesita recuperar evidencia mixta y no solo chunks de texto."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Should developers use 3072, 1536, or 768 dimensions for Gemini Embedding 2?",
+		"zh": "开发者在 Gemini Embedding 2 里应该选 3072、1536 还是 768 维？",
+		"ja": "Gemini Embedding 2では3072、1536、768次元のどれを選ぶべきですか？",
+		"ko": "Gemini Embedding 2에서 3072, 1536, 768 차원 중 무엇을 선택해야 하나요?",
+		"es": "¿Deberían los desarrolladores usar 3072, 1536 o 768 dimensiones en Gemini Embedding 2?"
+	  },
+	  "answer": {
+		"en": "The practical answer is to start with 768 or 1536 unless you already know you need maximum quality. Google recommends 3072, 1536, and 768 as quality-oriented settings, and the model supports adjustable dimensionality through Matryoshka Representation Learning, so developers can trade off storage and search speed against marginal recall gains. For most production systems, 768 is the best first benchmark because it usually preserves strong quality while cutting vector storage and search cost substantially.",
+		"zh": "更实用的答案是：除非你已经明确需要极限质量，否则先从 768 或 1536 维开始。Google 官方推荐 3072、1536 和 768 作为优先考虑的高质量档位，而模型通过 Matryoshka Representation Learning 支持可调维度，因此开发者可以在存储、搜索速度和召回提升之间做平衡。对大多数生产系统来说，768 往往是最值得先 benchmark 的起点，因为它通常能保留较强质量，同时大幅降低向量存储和检索成本。",
+		"ja": "実務的には、最大品質が明確に必要でない限り、まず768か1536から始めるべきです。Googleは3072、1536、768を推奨しており、Matryoshka Representation Learningで次元を調整できます。そのため、保存コスト、検索速度、品質のバランスを取れます。多くの本番用途では、まず768を試すのが最も合理的です。",
+		"ko": "실무적으로는 최고 품질이 꼭 필요한 경우가 아니라면 768 또는 1536부터 시작하는 것이 좋습니다. Google은 3072, 1536, 768을 권장 품질 설정으로 제시하고 있고, 모델은 Matryoshka Representation Learning으로 차원을 조정할 수 있습니다. 따라서 저장 비용, 검색 속도, 품질 사이에서 균형을 잡을 수 있습니다. 대부분의 운영 시스템에서는 768이 첫 번째 벤치마크로 가장 합리적입니다.",
+		"es": "La respuesta práctica es empezar con 768 o 1536 salvo que ya sepas que necesitas calidad máxima. Google recomienda 3072, 1536 y 768 como configuraciones orientadas a calidad, y el modelo permite ajustar dimensionalidad mediante Matryoshka Representation Learning, así que puedes equilibrar storage y velocidad de búsqueda frente a mejoras marginales de recall. Para la mayoría de sistemas productivos, 768 es el mejor primer benchmark."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Can Gemini Embedding 2 replace separate OCR, ASR, and image embedding pipelines?",
+		"zh": "Gemini Embedding 2 能否替代独立的 OCR、ASR 和图像 embedding 管线？",
+		"ja": "Gemini Embedding 2は、OCR、音声認識、画像埋め込みの別パイプラインを置き換えられますか？",
+		"ko": "Gemini Embedding 2는 별도의 OCR, ASR, 이미지 임베딩 파이프라인을 대체할 수 있나요?",
+		"es": "¿Puede Gemini Embedding 2 sustituir pipelines separados de OCR, ASR e image embeddings?"
+	  },
+	  "answer": {
+		"en": "In many retrieval-oriented cases, yes, at least partially. Vertex AI documentation says Gemini Embedding 2 supports document OCR directly, natively ingests audio, extracts audio tracks from video, and embeds images into the same semantic space as text, which can simplify several previously separate preprocessing steps. The caveat is that if you need best-in-class OCR transcripts or specialized speech outputs for downstream non-retrieval tasks, dedicated pipelines may still outperform a unified embedding-first approach.",
+		"zh": "在很多以检索为中心的场景里，可以，至少可以部分替代。Vertex AI 文档说明 Gemini Embedding 2 可直接支持文档 OCR、原生处理音频、从视频中提取音轨，并把图像和文本映射到同一个语义空间，这确实能简化很多原本分离的预处理步骤。但要注意，如果你需要最强 OCR 文本结果，或为非检索任务准备专用语音转写输出，那么专门管线仍可能表现更好。",
+		"ja": "検索中心の用途であれば、多くの場合は少なくとも部分的に置き換え可能です。Vertex AIドキュメントでは、文書OCR、音声のネイティブ入力、動画からの音声抽出、画像とテキストの同一空間埋め込みが説明されており、従来分かれていた前処理をかなり簡略化できます。ただし、最高精度のOCR文字起こしや、検索以外の用途向け音声認識出力が必要なら、専用パイプラインの方が優れる可能性があります。",
+		"ko": "검색 중심 시나리오에서는 많은 경우 적어도 부분적으로 가능합니다. Vertex AI 문서에 따르면 Gemini Embedding 2는 문서 OCR을 직접 지원하고, 오디오를 네이티브로 입력받고, 비디오에서 오디오 트랙을 추출하며, 이미지를 텍스트와 같은 의미 공간에 임베딩합니다. 이는 기존에 따로 나뉘어 있던 전처리 단계를 상당히 단순화할 수 있습니다. 다만 최고 수준 OCR 전사나 검색 외 작업을 위한 특화 음성 출력이 필요하다면 별도 파이프라인이 더 낫습니다.",
+		"es": "En muchos casos orientados a retrieval, sí, al menos de forma parcial. La documentación de Vertex AI dice que Gemini Embedding 2 soporta OCR documental directo, ingiere audio de forma nativa, extrae pistas de audio desde video y embebe imágenes en el mismo espacio semántico que el texto, lo que simplifica varios pasos de preprocesado antes separados. La advertencia es que, si necesitas OCR o ASR de máxima especialización para tareas no orientadas a retrieval, los pipelines dedicados pueden seguir siendo superiores."
+	  }
+	}
+  ],
+  "seo_title_jsonb": {
+	"en": "Gemini Embedding 2 Review 2026: Pricing, Pros & Cons, Alternatives",
+	"zh": "Gemini Embedding 2 怎么样？2026 最新评测：价格、优缺点与竞品对比",
+	"ja": "【徹底レビュー】Gemini Embedding 2の評判は？料金・使い方・代替モデル",
+	"ko": "Gemini Embedding 2 솔직 후기: 가격, 장단점 및 추천 대안 (완벽 정리)",
+	"es": "Opiniones de Gemini Embedding 2: Precio, Ventajas y Alternativas"
+  },
+  "seo_description_jsonb": {
+	"en": "Need multimodal embeddings? Our Gemini Embedding 2 Review covers pricing, dimensions, RAG fit, pros, cons, and whether it beats text-only alternatives.",
+	"zh": "想找多模态 embeddings？这篇 Gemini Embedding 2 Review 解析 pricing、维度选择、RAG 适配度、优缺点，以及它是否优于纯文本替代方案。",
+	"ja": "マルチモーダル埋め込みを探す方向けに、Gemini Embedding 2 Reviewで料金、次元選択、RAG適性、長所、短所を整理しました。",
+	"ko": "멀티모달 임베딩이 필요하다면 Gemini Embedding 2 Review에서 가격, 차원 선택, RAG 적합성, 장단점을 확인하세요.",
+	"es": "¿Buscas embeddings multimodales? Esta Review de Gemini Embedding 2 analiza pricing, dimensiones, encaje en RAG, ventajas, límites y alternativas."
+  },
+  "_citations_dump": [
+	"", [blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/)
+	"", [docs.cloud.google](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/embedding-2)
+	"", [ai.google](https://ai.google.dev/gemini-api/docs/embeddings)
+	"", [cloud.google](https://cloud.google.com/vertex-ai/generative-ai/pricing)
+	"" [ai.google](https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2-preview)
+  ]
+}

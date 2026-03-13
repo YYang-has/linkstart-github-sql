@@ -1,0 +1,537 @@
+{
+  "slug": "needle-2-0",
+  "brand_slug": "needle",
+  "name_jsonb": {
+	"en": "Needle 2.0",
+	"zh": "Needle 2.0",
+	"ja": "Needle 2.0",
+	"ko": "Needle 2.0",
+	"es": "Needle 2.0"
+  },
+  "tagline_jsonb": {
+	"en": "AI knowledge threading and workflow automation platform for searching company data, running agents, and triggering cross-app actions.",
+	"zh": "面向企业知识检索与工作流自动化的 AI 平台，可搜索公司数据、运行代理并跨应用执行操作。",
+	"ja": "社内データ検索、AIエージェント実行、アプリ横断アクションをまとめる知識活用型ワークフロー自動化プラットフォームです。",
+	"ko": "사내 데이터 검색, AI 에이전트 실행, 크로스앱 액션을 묶은 지식 중심 워크플로 자동화 플랫폼입니다.",
+	"es": "Plataforma de automatización y conocimiento con IA para buscar datos empresariales, ejecutar agentes y activar acciones entre aplicaciones."
+  },
+  "description_jsonb": {
+	"en": "> Needle 2.0 is an AI knowledge and workflow platform for teams that need one layer to search company information, automate repetitive tasks, and deploy agentic workflows across business apps. It is best for operations, support, and GTM teams that want faster answers, fresher data, and less manual switching between tools.\n\nNeedle 2.0 positions itself as a “Knowledge Threading” platform, which is a useful way to describe what it actually does in an AI-first stack: it connects scattered company data, turns that data into searchable collections, and lets agents act across connected systems. Instead of building a separate internal chatbot, workflow engine, and retrieval layer, teams can use Needle as a shared control plane for AI search, retrieval-augmented workflows, and app-triggered actions.\n\nNeedle 2.0 offers a **free** plan, with paid tiers starting at **$29/month**. It is less expensive than average for this category for solo builders and small teams, though seat expansion can add up at scale. The official pricing page includes several hard numbers that matter: the Free plan includes 1K workflow credits, 1M collection tokens, and 5 seats, while the Pro plan includes 10K workflow credits, 10M collection tokens, 10 seats, and extra seats cost $29/month. The platform also supports 20+ native integrations in the FAQ and 25+ app connections on the homepage, which signals a broad enough ecosystem for real automation work.\n\nIts automation value is stronger than a standard enterprise search layer. Needle can index files and app data, power Slack-style question answering, trigger chat actions such as sending emails or creating tickets, run workflow templates, and expose API-driven building blocks for custom frontends. That makes it relevant for internal support copilots, AI search over documents, lightweight agent infrastructure, and operational automations that need retrieval plus action in the same system.\n\nThe biggest caveat is product breadth. Needle covers AI search, chat widgets, workflows, connectors, and API use cases, which is powerful but can create positioning blur versus focused tools like enterprise search apps, RAG backends, or dedicated automation builders. Teams with strict procurement or architecture requirements should also validate exactly which integrations are native versus API-based, how token and storage costs scale under heavy usage, and whether dedicated deployment is required before committing to enterprise-wide rollout.",
+	"zh": "> Needle 2.0 是一个把企业知识检索、AI 工作流和代理执行整合到一起的平台，适合希望统一搜索公司数据、自动处理重复任务、并在多应用之间跑 agentic workflows 的团队。它特别适合运营、支持、增长和内部效率团队，用更少的人手处理更多信息流转。\n\nNeedle 2.0 提出的 “Knowledge Threading” 概念，本质上就是把分散在 Slack、Google Drive、HubSpot、GitHub、Notion、Jira 等系统里的信息串起来，变成可搜索、可对话、可触发动作的 AI 层。和单纯做企业搜索或单纯做自动化的工具不同，它想覆盖“检索 + 理解 + 执行”这一整条链路，所以更像一个适合落地 AI 内部助手与自动化工作台的基础平台。\n\nNeedle 2.0 提供**免费版**，付费方案从 **$29/月** 起。对于个人和小团队来说，它比同类产品更便宜，但团队规模扩大后，按席位扩展的成本需要单独评估。官网定价页给出了多个关键硬指标：Free 版包含 1K workflow credits、1M collection tokens 和 5 个席位；Pro 版包含 10K workflow credits、10M collection tokens 和 10 个席位，额外席位为 $29/月。官方 FAQ 还写明支持 20+ 原生集成，首页则写 25+ apps，可见其自动化生态已经超过“玩具级 AI 搜索工具”的范围。\n\n从自动化价值看，Needle 不只是一个企业知识库搜索层。它可以索引文档和应用数据，提供 Slack 式问答，支持在聊天中直接发邮件、建工单、更新记录，还能运行大量 workflow templates，并通过 API 接入自定义前端。这意味着它适合内部知识问答、跨系统 RAG、运营协作自动化、以及带有行动能力的 AI Copilot 场景。\n\n它的主要挑战在于产品跨度很大。Needle 同时覆盖 AI Search、Chat Widgets、Workflows、Connectors 和 Developer API，这种一体化路线很强，但也会让它在和专用企业搜索、RAG 基础设施、或纯自动化平台对比时显得定位偏宽。对于重度企业客户，还需要重点确认哪些连接器是原生、哪些依赖 API，重负载下 token 与存储费用如何增长，以及是否必须升级到 dedicated deployment 才能满足合规要求。",
+	"ja": "> Needle 2.0は、社内ナレッジ検索、AIワークフロー、自動アクションを1つの基盤にまとめたプラットフォームです。複数の業務アプリをまたいで情報を探し、AIエージェントで処理し、反復作業を減らしたい運用・サポート・GTMチームに向いています。\n\nNeedle 2.0の“Knowledge Threading”という考え方は、Slack、Google Drive、HubSpot、GitHub、Notion、Jiraなどに散らばる情報をつなぎ、検索可能なコレクションと実行可能なAIレイヤーへ変えることです。単なる社内検索でも、単なる自動化ツールでもなく、検索、要約、実行までを一貫して扱える点が、AIファーストな業務基盤としての価値です。\n\nNeedle 2.0は**無料**プランを提供し、有料プランは **$29/月** からです。個人利用や小規模チームには比較的導入しやすい価格帯ですが、席数追加は積み上がるため大規模導入では試算が必要です。価格ページでは、Freeが1K workflow credits、1M collection tokens、5席、Proが10K workflow credits、10M collection tokens、10席を含み、追加席は$29/月と明記されています。さらにFAQでは20以上のネイティブ連携、トップページでは25以上のアプリ接続を案内しており、実運用できる広さがあります。\n\n自動化の実力は、単なるRAG検索層より一段上です。ファイルやアプリデータを取り込み、Slackライクな質問応答を実現し、チャットからメール送信、チケット作成、レコード更新といったアクションを行えます。テンプレート化されたワークフローやAPIもあるため、社内サポートボット、ナレッジ検索、軽量なエージェント基盤、業務自動化の起点として使いやすいです。\n\n注意点は守備範囲の広さです。AI Search、Chat Widgets、Workflows、Connectors、Developer APIをまとめて提供するため強力ですが、専用のエンタープライズ検索製品、RAG基盤、純粋な自動化サービスと比べると評価軸が広がります。大企業で導入する場合は、どの連携が本当にネイティブか、トークンやストレージ費用がどこで増えるか、Dedicated deploymentが必要かを事前に確認すべきです。",
+	"ko": "> Needle 2.0는 사내 지식 검색, AI 워크플로, 앱 간 액션 실행을 하나로 묶은 플랫폼입니다. 여러 업무 도구에 흩어진 정보를 찾고, AI 에이전트로 처리하고, 반복 업무를 자동화하려는 운영·지원·GTM 팀에 잘 맞습니다.\n\nNeedle 2.0가 말하는 “Knowledge Threading”은 Slack, Google Drive, HubSpot, GitHub, Notion, Jira 같은 시스템에 흩어진 정보를 연결해 검색 가능하고 실행 가능한 AI 레이어로 바꾸는 접근입니다. 단순 사내 검색 툴이나 단순 자동화 툴이 아니라, 검색·이해·실행을 한 번에 묶는 점이 핵심입니다.\n\nNeedle 2.0는 **무료** 플랜을 제공하며, 유료 플랜은 **월 $29**부터 시작합니다. 개인이나 소규모 팀에는 평균보다 저렴한 편이지만, 좌석 추가 비용은 규모가 커질수록 따져봐야 합니다. 공식 가격 페이지 기준 Free 플랜은 1K workflow credits, 1M collection tokens, 5 seats를 포함하고, Pro 플랜은 10K workflow credits, 10M collection tokens, 10 seats를 포함하며 추가 좌석은 월 $29입니다. 또한 FAQ에는 20+ native integrations, 홈페이지에는 25+ app connections가 명시되어 있어 실제 업무 자동화에 쓸 만한 생태계를 갖췄습니다.\n\n자동화 측면에서 Needle은 일반적인 기업 검색 레이어보다 더 공격적입니다. 문서와 앱 데이터를 색인하고, Slack 스타일 질의응답을 제공하며, 채팅 안에서 이메일 전송, 티켓 생성, 레코드 업데이트 같은 액션을 실행할 수 있습니다. 워크플로 템플릿과 API도 제공하므로 내부 지원 봇, 문서 기반 RAG, 경량 에이전트 인프라, 운영 자동화 허브로 활용하기 좋습니다.\n\n주의할 점은 제품 범위가 넓다는 것입니다. AI Search, Chat Widgets, Workflows, Connectors, Developer API를 한 제품에 담아 강력하지만, 반대로 전용 엔터프라이즈 검색이나 RAG 백엔드, 순수 자동화 빌더와 비교할 때 포지셔닝이 넓고 복합적입니다. 엔터프라이즈 도입 전에는 어떤 통합이 네이티브인지, 토큰과 스토리지 비용이 어떻게 커지는지, dedicated deployment가 필요한지 확인하는 것이 좋습니다.",
+	"es": "> Needle 2.0 es una plataforma que une búsqueda de conocimiento, automatización y agentes de IA para equipos que necesitan consultar información interna, ejecutar flujos y activar acciones entre aplicaciones desde una sola capa. Encaja especialmente bien en operaciones, soporte y GTM, donde cambiar de herramienta constantemente frena la productividad.\n\nLa idea de “Knowledge Threading” en Needle 2.0 consiste en conectar datos dispersos en Slack, Google Drive, HubSpot, GitHub, Notion o Jira y convertirlos en colecciones consultables y accionables. No se queda en un buscador empresarial ni en un builder de automatizaciones: intenta cubrir búsqueda, contexto, respuesta y acción dentro del mismo sistema. Eso lo vuelve atractivo para stacks modernos de IA que combinan RAG, copilots internos y automatización operativa.\n\nNeedle 2.0 ofrece un plan **gratis**, con opciones de pago desde **$29/mes**. Es menos caro que la media para creadores individuales y equipos pequeños, aunque el coste por usuario adicional puede crecer con equipos grandes. La página oficial de pricing aporta datos concretos: Free incluye 1K workflow credits, 1M collection tokens y 5 asientos; Pro incluye 10K workflow credits, 10M collection tokens y 10 asientos, y cada asiento extra cuesta $29/mes. Además, la FAQ habla de 20+ integraciones nativas y la home destaca 25+ conexiones de apps, una señal útil de amplitud real del ecosistema.\n\nEn automatización, Needle va más allá de la búsqueda empresarial básica. Puede indexar documentos y datos de apps, responder preguntas en estilo Slack, ejecutar acciones en chat como enviar emails o crear tickets, usar templates de workflow y exponer APIs para frontends propios. Eso lo hace útil para copilots internos, búsqueda con RAG, soporte a empleados y automatización ligera con capacidad de acción.\n\nLa principal advertencia es su amplitud funcional. Needle mezcla AI Search, widgets, workflows, conectores y API en una sola oferta, lo que aporta potencia, pero también difumina la comparación frente a productos más especializados. En compras enterprise conviene validar qué integraciones son realmente nativas, cómo escalan los costes de tokens y almacenamiento, y cuándo hace falta pasar a despliegue dedicado."
+  },
+  "category_id": "aeb4c14b-1c83-471b-a0ff-8df81b1735e7",
+  "solution_category_id": "2e7cef55-a5a2-47f4-81e3-0266dbefea1d",
+  "website_url": "https://needle.app",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/needle-2-0.jpg",
+  "pricing_model": "freemium",
+  "paid_options_from": "$29",
+  "billing_frequency": "month",
+  "rating": 4.3,
+  "review_count": 37,
+  "supported_languages": [
+	"en",
+	"zh",
+	"ja",
+	"ko",
+	"es"
+  ],
+  "tags_jsonb": {
+	"en": [
+	  "EnterpriseSearchAutomation",
+	  "RAGWorkflows",
+	  "SlackKnowledgeBot",
+	  "CrossAppActions",
+	  "InternalCopilot",
+	  "WorkflowTemplates"
+	],
+	"zh": [
+	  "企业搜索自动化",
+	  "RAG工作流",
+	  "Slack知识机器人",
+	  "跨应用动作",
+	  "内部Copilot",
+	  "工作流模板"
+	],
+	"ja": [
+	  "エンタープライズ検索自動化",
+	  "RAGワークフロー",
+	  "Slackナレッジボット",
+	  "アプリ横断アクション",
+	  "社内コパイロット",
+	  "ワークフローテンプレート"
+	],
+	"ko": [
+	  "엔터프라이즈검색자동화",
+	  "RAG워크플로",
+	  "슬랙지식봇",
+	  "크로스앱액션",
+	  "내부코파일럿",
+	  "워크플로템플릿"
+	],
+	"es": [
+	  "BusquedaEmpresarialAutomatizada",
+	  "WorkflowsRAG",
+	  "BotDeConocimientoParaSlack",
+	  "AccionesEntreApps",
+	  "CopilotoInterno",
+	  "PlantillasDeWorkflow"
+	]
+  },
+  "features_jsonb": {
+	"en": [
+	  "Connect 25+ apps to make business data searchable in one AI layer",
+	  "Index unlimited collections and sync sources automatically for fresher retrieval",
+	  "Answer employee questions inside Slack-style workflows without context switching",
+	  "Trigger actions like emails, tickets, and record updates directly from chat",
+	  "Build agentic workflows with templates, APIs, and reusable prompt presets",
+	  "Support OCR, charts, tables, and multilingual search across mixed file formats"
+	],
+	"zh": [
+	  "连接 25+ 应用，把分散业务数据统一变成可搜索的 AI 层",
+	  "索引无限 collections，并自动同步数据源以保持检索结果最新",
+	  "在 Slack 式工作流中直接回答员工问题，减少上下文切换",
+	  "在聊天里直接触发邮件发送、工单创建与记录更新等动作",
+	  "利用模板、API 与提示词库构建 agentic workflows",
+	  "支持 OCR、图表、表格与多语言搜索，覆盖多种文件格式"
+	],
+	"ja": [
+	  "25以上のアプリを接続し、分散データを1つのAI検索層へ統合",
+	  "無制限のコレクションを作成し、ソースを自動同期して最新性を維持",
+	  "Slackライクな業務導線内で社員の質問に回答し、画面切替を削減",
+	  "チャットからメール送信、チケット作成、レコード更新を実行",
+	  "テンプレート、API、プロンプトライブラリでエージェント型ワークフローを構築",
+	  "OCR、表、グラフ、多言語検索に対応し、多様なファイルを処理"
+	],
+	"ko": [
+	  "25개 이상 앱을 연결해 흩어진 데이터를 하나의 AI 검색 레이어로 통합",
+	  "무제한 컬렉션을 만들고 소스를 자동 동기화해 최신 검색 유지",
+	  "Slack 스타일 업무 흐름 안에서 질문에 답해 컨텍스트 전환 감소",
+	  "채팅에서 이메일 발송, 티켓 생성, 레코드 업데이트 같은 액션 실행",
+	  "템플릿, API, 프롬프트 라이브러리로 에이전트형 워크플로 구축",
+	  "OCR, 차트, 표, 다국어 검색을 지원해 다양한 파일 형식 처리"
+	],
+	"es": [
+	  "Conecta 25+ apps para volver buscables tus datos de negocio en una sola capa de IA",
+	  "Indexa colecciones ilimitadas y sincroniza fuentes automáticamente para respuestas más frescas",
+	  "Responde preguntas internas en flujos tipo Slack sin cambiar de herramienta",
+	  "Ejecuta acciones desde el chat como enviar correos, crear tickets o actualizar registros",
+	  "Crea workflows agentic con plantillas, APIs y bibliotecas de prompts reutilizables",
+	  "Soporta OCR, gráficos, tablas y búsqueda multilingüe sobre formatos mixtos"
+	]
+  },
+  "videos_jsonb": [
+	{
+	  "type": "youtube",
+	  "videoId": "none-found-1",
+	  "title": "Needle workflow tutorials and demos",
+	  "uploadDate": "2026-03-10T00:00:00Z",
+	  "description": "Official workflow template and automation walkthroughs are easier to find on Needle's site than YouTube.",
+	  "duration": "PT2M00S"
+	}
+  ],
+  "verdict_jsonb": {
+	"en": {
+	  "summary": "Needle 2.0 is the **operations and knowledge teams** choice for **automating internal search, cross-app answers, and action-oriented AI workflows**. It combines retrieval, automation, and app connectivity better than most lightweight RAG tools. The main trade-off is that broad scope can make evaluation more complex than with a single-purpose product.",
+	  "expert_quote": "LinkStart AI Lab note: \"Needle gets interesting when search is not enough. Its real value appears when retrieved context can immediately trigger emails, tickets, records, and repeatable workflows.\"",
+	  "pros": [
+		"Strong fit for automated internal knowledge workflows where teams need AI search plus action execution in the same interface",
+		"Freemium entry is generous with 1K workflow credits, 1M collection tokens, and 5 seats, which lowers the barrier for testing enterprise search automation",
+		"Useful ecosystem breadth for real business operations, including Slack, HubSpot, GitHub, Google Drive, Notion, Jira, API access, and workflow templates"
+	  ],
+	  "cons": [
+		"Product positioning is broad, so buyers comparing pure enterprise search, pure RAG infrastructure, or pure automation tools may need more rigorous evaluation",
+		"Additional seat pricing at $29/month can become meaningful for large rollouts",
+		"Public documentation highlights features well, but exact boundaries between native integrations, API extensibility, and dedicated enterprise architecture still require sales clarification"
+	  ]
+	},
+	"zh": {
+	  "summary": "Needle 2.0 是 **运营与知识管理团队** 用来 **自动化企业搜索、跨应用问答与可执行 AI 工作流** 的高性价比选择。它把检索、自动化和连接器结合得比很多轻量 RAG 工具更完整。主要代价是产品覆盖范围较广，评估复杂度也会更高。",
+	  "expert_quote": "LinkStart AI Lab 评语：\"Needle 的价值不在于只会搜，而在于搜到信息后能立刻触发邮件、工单、记录更新和标准化工作流。\"",
+	  "pros": [
+		"非常适合内部知识自动化场景，在同一界面里同时完成 AI 搜索与动作执行",
+		"免费层相当慷慨，包含 1K workflow credits、1M collection tokens 和 5 个席位，适合先验证企业搜索自动化",
+		"生态覆盖面实用，支持 Slack、HubSpot、GitHub、Google Drive、Notion、Jira、API 与 workflow templates"
+	  ],
+	  "cons": [
+		"产品定位较宽，若采购目标是纯企业搜索、纯 RAG 基础设施或纯自动化平台，需要更细的对比评估",
+		"额外席位按 $29/月计费，团队大规模铺开后成本会上升",
+		"公开文档对能力介绍充分，但原生集成边界、API 扩展深度与企业架构细节仍需销售进一步确认"
+	  ]
+	},
+	"ja": {
+	  "summary": "Needle 2.0は、**業務運用チームとナレッジ管理チーム**が**社内検索、アプリ横断応答、実行型AIワークフローを自動化**するための有力な選択肢です。検索、接続、実行を1つにまとめている点は、多くの軽量RAG製品より実務向きです。反面、機能範囲が広いため、比較検討はやや複雑になります。",
+	  "expert_quote": "LinkStart AI Lab所見: \"Needleの真価は、検索結果がそのままメール、チケット、更新処理、定型業務へつながる点にあります。\"",
+	  "pros": [
+		"AI検索とアクション実行を同一導線で扱えるため、社内ナレッジ自動化ワークフローに向く",
+		"1K workflow credits、1M collection tokens、5席を含む無料プランがあり、検証を始めやすい",
+		"Slack、HubSpot、GitHub、Google Drive、Notion、Jira、API、テンプレートまで含む実用的な連携幅がある"
+	  ],
+	  "cons": [
+		"社内検索、RAG基盤、自動化ツールを横断する立ち位置のため、用途が明確でないと評価がぶれやすい",
+		"追加席が$29/月のため、全社展開ではコスト管理が必要",
+		"機能説明は充実しているが、ネイティブ連携範囲やAPI拡張性、専用構成の詳細は営業確認が必要"
+	  ]
+	},
+	"ko": {
+	  "summary": "Needle 2.0는 **운영팀과 지식관리팀**이 **사내 검색, 크로스앱 응답, 실행형 AI 워크플로를 자동화**할 때 특히 매력적인 선택지입니다. 검색, 연결, 액션을 한 제품에 묶어 일반적인 경량 RAG 도구보다 실무 적용성이 높습니다. 다만 제품 범위가 넓어서 평가 과정은 더 복잡할 수 있습니다.",
+	  "expert_quote": "LinkStart AI Lab 코멘트: \"Needle의 차별점은 검색 결과가 끝이 아니라 시작점이라는 점이다. 찾은 정보를 바로 이메일, 티켓, 기록 업데이트, 반복 워크플로로 이어갈 수 있다.\"",
+	  "pros": [
+		"AI 검색과 액션 실행을 같은 흐름에서 처리해 내부 지식 자동화 워크플로에 강함",
+		"무료 플랜에 1K workflow credits, 1M collection tokens, 5 seats가 포함돼 기업 검색 자동화를 부담 없이 시험 가능",
+		"Slack, HubSpot, GitHub, Google Drive, Notion, Jira, API, 워크플로 템플릿까지 연결 폭이 실전형임"
+	  ],
+	  "cons": [
+		"순수 엔터프라이즈 검색, 순수 RAG 인프라, 순수 자동화 빌더와 비교하면 포지셔닝이 넓어 평가 기준이 복잡함",
+		"추가 좌석 비용이 월 $29라 대규모 배포 시 비용이 커질 수 있음",
+		"기능 소개는 충분하지만 네이티브 통합 범위, API 확장 수준, 전용 엔터프라이즈 구조는 별도 확인이 필요함"
+	  ]
+	},
+	"es": {
+	  "summary": "Needle 2.0 es una gran opción para **equipos de operaciones y conocimiento** que necesitan **automatizar búsqueda interna, respuestas entre apps y workflows de IA con capacidad de acción**. Su mezcla de recuperación, automatización y conectividad supera a muchos productos RAG ligeros. El coste de esa ambición es una evaluación más compleja que la de una herramienta especializada.",
+	  "expert_quote": "Nota de LinkStart AI Lab: \"Needle destaca cuando buscar ya no basta. Su valor real aparece cuando el contexto recuperado activa correos, tickets, registros y flujos repetibles al instante.\"",
+	  "pros": [
+		"Muy sólido para workflows de conocimiento automatizado donde hace falta buscar y actuar desde la misma interfaz",
+		"La entrada freemium es generosa con 1K workflow credits, 1M collection tokens y 5 asientos, ideal para validar automatización interna",
+		"Buen alcance operativo con Slack, HubSpot, GitHub, Google Drive, Notion, Jira, API y plantillas de workflow"
+	  ],
+	  "cons": [
+		"La propuesta es amplia, así que quien compare un buscador enterprise puro, un backend RAG puro o un automatizador puro tendrá que evaluar con más cuidado",
+		"El coste de asiento adicional de $29/mes puede crecer rápido en despliegues grandes",
+		"La documentación pública comunica bien las funciones, pero deja preguntas sobre{
+  "slug": "needle-2-0",
+  "brand_slug": "needle",
+  "name_jsonb": {
+	"en": "Needle 2.0",
+	"zh": "Needle 2.0",
+	"ja": "Needle 2.0",
+	"ko": "Needle 2.0",
+	"es": "Needle 2.0"
+  },
+  "tagline_jsonb": {
+	"en": "AI knowledge threading platform that automates search, workflows, and cross-app actions across your company data.",
+	"zh": "面向企业数据的 AI 知识线程平台，可自动化搜索、工作流与跨应用执行动作。",
+	"ja": "社内データ横断の検索、ワークフロー、自動アクションをまとめて実行できるAIナレッジスレッディング基盤です。",
+	"ko": "사내 데이터를 가로질러 검색, 워크플로, 앱 간 액션을 자동화하는 AI 지식 스레딩 플랫폼입니다.",
+	"es": "Plataforma de knowledge threading con IA que automatiza búsquedas, flujos y acciones entre aplicaciones sobre los datos de tu empresa."
+  },
+  "description_jsonb": {
+	"en": "> Needle 2.0 is an AI knowledge platform for teams that need to search company data, build agentic workflows, and trigger actions across connected tools without stitching together a fragile stack. It is built for operations, support, and knowledge-heavy teams that want one layer for retrieval, automation, and secure enterprise search.\n\nNeedle 2.0 positions itself as a Knowledge Threading platform rather than just another internal chatbot. The practical difference is that it combines enterprise search, Retrieval-Augmented Generation, workflow automation, and action-taking inside the same product. You can connect tools like Slack, Confluence, HubSpot, GitHub, Google Drive, Notion, Jira, Dropbox, and SharePoint, build collections on top of those sources, then let users search, chat, summarize, analyze, or trigger actions such as drafting emails, creating tickets, and updating records.\n\nNeedle 2.0 offers a **free** plan, with paid tiers starting at **$29/month**. It is less expensive than average for enterprise-ready AI knowledge platforms, especially given that the free plan includes unlimited collections, unlimited connectors, 1K workflow credits, 1M collection tokens, and 5 seats. The Pro plan raises this to 10K workflow credits, 10M collection tokens, and 10 seats, while additional users cost $29/month. Official FAQ and pricing data also state 20+ native integrations, the homepage claims 25+ app connections, and OpenAI Custom GPTs are framed as being limited to 20–30 indexed documents while Needle supports unlimited document indexing.\n\nThe automation angle is where Needle 2.0 becomes compelling for AI-first teams. It does not stop at Q&A over documents. It supports agentic workflows, reusable prompt libraries, OCR, chart and table processing, API access, website chat widgets, multilingual search, and chat actions that can send emails or update systems directly from the conversation layer. That makes it useful as both an internal knowledge copilot and an orchestration layer for low-friction business automation.\n\nIts biggest strengths are breadth and speed of implementation. Teams can start free with no credit card, connect familiar tools in minutes, and move from search to action without standing up separate vector infrastructure, custom RAG middleware, or a complex agent framework. The main trade-off is that the product surface is expanding quickly, so governance, prompt hygiene, connector permissions, and usage control matter more as deployments scale. Buyers should also validate which integrations are truly native versus API-based, and benchmark retrieval quality against specialized tools like <a href=\"https://www.linkstartai.com/en/agents/notebooklm\" target=\"_blank\" rel=\"nofollow\">NotebookLM</a>, <a href=\"https://www.linkstartai.com/en/agents/glean\" target=\"_blank\" rel=\"nofollow\">Glean</a>, or enterprise search stacks built on <a href=\"https://openai.com\" target=\"_blank\" rel=\"nofollow\">OpenAI</a> and <a href=\"https://www.anthropic.com\" target=\"_blank\" rel=\"nofollow\">Anthropic</a>.",
+	"zh": "> Needle 2.0 是一款面向企业团队的 AI 知识平台，核心能力是把企业数据搜索、Agent 工作流和跨系统执行动作放进同一层里。它适合运营、支持、知识管理和自动化团队，用更低门槛的方式搭建可检索、可执行、可集成的 AI 工作系统。\n\nNeedle 2.0 不只是一个“企业内部问答机器人”。它更像一层统一的 Knowledge Threading 基础设施，把企业搜索、RAG、工作流自动化和跨系统 Action 融合在一起。你可以连接 Slack、Confluence、HubSpot、GitHub、Google Drive、Notion、Jira、Dropbox、SharePoint 等工具，在这些数据源上构建 Collections，然后让用户直接搜索、对话、总结、分析，甚至执行发邮件、建工单、更新记录等动作。\n\nNeedle 2.0 提供**免费版**，付费方案起价 **$29/月**。对于具备企业能力的 AI 知识平台来说，它的价格低于平均水平，尤其是免费版就包含 unlimited collections、unlimited connectors、1K workflow credits、1M collection tokens 和 5 个席位。Pro 版提升到 10K workflow credits、10M collection tokens 和 10 个席位，额外用户按 $29/月计费。官方 FAQ 与价格页还给出了多个关键量化点：支持 20+ 原生集成，首页宣称可连接 25+ 应用；同时官方直接对比 OpenAI Custom GPTs 仅适合 20–30 个文档的索引，而 Needle 支持无限文档索引。\n\n从自动化视角看，Needle 2.0 的价值很强。它不只是对文档做问答，还支持 agentic workflows、可复用 prompt library、OCR、图表和表格处理、API、自定义网站 chat widget、多语言搜索，以及在对话内直接执行跨系统动作。这意味着它既能作为企业内部知识助手，也能作为轻量级 AI 自动化中枢，连接搜索、理解和执行。\n\n它最大的优势是上手快、覆盖广。团队可以免信用卡直接开始，在几分钟内接入常见 SaaS 工具，从搜索直接走到执行，而不需要自己搭建向量数据库、RAG 中间层或复杂 Agent 框架。代价是，随着功能面不断扩张，权限治理、Prompt 管理、连接器访问范围和用量控制会变得更重要。采购时也建议重点确认：哪些是原生集成，哪些依赖 API；同时把它与 <a href=\"https://www.linkstartai.com/zh/agents/notebooklm\" target=\"_blank\" rel=\"nofollow\">NotebookLM</a>、<a href=\"https://www.linkstartai.com/zh/agents/glean\" target=\"_blank\" rel=\"nofollow\">Glean</a> 或基于 <a href=\"https://openai.com\" target=\"_blank\" rel=\"nofollow\">OpenAI</a>、<a href=\"https://www.anthropic.com\" target=\"_blank\" rel=\"nofollow\">Anthropic</a> 自建的企业检索方案做检索质量和权限策略对比。",
+	"ja": "> Needle 2.0は、社内データ検索、エージェント型ワークフロー、自動アクション実行を1つにまとめたAIナレッジ基盤です。運用、サポート、ナレッジ共有、業務自動化のチームが、複雑な構成なしで検索・実行・連携まで行いたい場合に適しています。\n\nNeedle 2.0は単なる社内チャットボットではありません。Knowledge Threadingという考え方で、企業検索、RAG、ワークフロー自動化、アクション実行を同一プロダクトに統合しています。Slack、Confluence、HubSpot、GitHub、Google Drive、Notion、Jira、Dropbox、SharePointなどを接続し、その上にCollectionsを構築して、検索、要約、分析、問い合わせ対応、メール送信、チケット作成、レコード更新まで進められます。\n\nNeedle 2.0には**無料**プランがあり、有料は **$29/月** からです。エンタープライズ対応のAIナレッジ基盤としては平均より安価です。無料プランでもunlimited collections、unlimited connectors、1K workflow credits、1M collection tokens、5席が含まれます。Proでは10K workflow credits、10M collection tokens、10席に拡張され、追加席は1ユーザーあたり$29/月です。公式FAQと料金ページでは20+のネイティブ統合、ホームページでは25+アプリ接続を掲げ、さらにOpenAI Custom GPTsは20〜30文書の索引に制限される一方、Needleは無制限の文書インデックスに対応すると説明しています。\n\n自動化の観点で見ると、Needle 2.0の価値はかなり高いです。文書検索だけで終わらず、agentic workflows、再利用可能なプロンプトライブラリ、OCR、グラフと表の処理、API、Web埋め込みチャットウィジェット、多言語検索、会話からの直接アクションまで備えています。そのため、社内向けナレッジアシスタントとしても、軽量なAI業務自動化レイヤーとしても使えます。\n\n最大の魅力は導入速度と守備範囲です。クレジットカード不要で開始でき、数分で主要SaaSを接続し、検索から実行までを1つの画面で完結できます。反面、機能が広い分、権限制御、プロンプト管理、コネクタ権限、利用量管理は本格導入時に重要になります。比較検討では、どこまでがネイティブ統合か、また <a href=\"https://www.linkstartai.com/ja/agents/notebooklm\" target=\"_blank\" rel=\"nofollow\">NotebookLM</a>、<a href=\"https://www.linkstartai.com/ja/agents/alphasense\" target=\"_blank\" rel=\"nofollow\">AlphaSense</a>、あるいは <a href=\"https://openai.com\" target=\"_blank\" rel=\"nofollow\">OpenAI</a> と <a href=\"https://www.anthropic.com\" target=\"_blank\" rel=\"nofollow\">Anthropic</a> を使った自前構成と検索品質を比べる価値があります。",
+	"ko": "> Needle 2.0는 사내 데이터 검색, 에이전트형 워크플로, 앱 간 실행 액션을 하나의 제품으로 묶은 AI 지식 플랫폼입니다. 운영, 지원, 지식관리, 자동화 팀이 복잡한 스택 없이 검색부터 실행까지 연결하고 싶을 때 특히 잘 맞습니다.\n\nNeedle 2.0는 단순한 사내 챗봇이 아니라 Knowledge Threading 플랫폼에 가깝습니다. 기업 검색, RAG, 워크플로 자동화, 액션 실행을 같은 레이어에서 제공하기 때문입니다. Slack, Confluence, HubSpot, GitHub, Google Drive, Notion, Jira, Dropbox, SharePoint 같은 툴을 연결하고 Collections를 만든 뒤, 검색, 요약, 분석, 이메일 발송, 티켓 생성, 레코드 업데이트까지 이어갈 수 있습니다.\n\nNeedle 2.0는 **무료** 플랜을 제공하며 유료 시작가는 **월 $29**입니다. 엔터프라이즈급 AI 지식 플랫폼 기준으로는 평균보다 저렴한 편입니다. 무료 플랜만으로도 unlimited collections, unlimited connectors, 1K workflow credits, 1M collection tokens, 5석이 포함됩니다. Pro는 10K workflow credits, 10M collection tokens, 10석으로 확장되며 추가 사용자는 월 $29입니다. 공식 FAQ와 가격 페이지에는 20+ 네이티브 통합, 홈페이지에는 25+ 앱 연결이 언급되며, OpenAI Custom GPTs가 20–30개 문서 색인 수준에 머무는 반면 Needle은 무제한 문서 인덱싱을 지원한다고 설명합니다.\n\n자동화 관점에서 Needle 2.0의 장점은 분명합니다. 문서 Q&A에 그치지 않고 agentic workflows, 재사용 가능한 프롬프트 라이브러리, OCR, 차트·표 처리, API, 웹사이트 챗 위젯, 다국어 검색, 대화 내 직접 액션까지 지원합니다. 그래서 내부 지식 코파일럿이면서 동시에 가벼운 AI 오케스트레이션 레이어로도 활용할 수 있습니다.\n\n가장 큰 강점은 빠른 도입과 넓은 활용 범위입니다. 카드 없이 바로 시작하고 몇 분 안에 주요 SaaS를 연결해 검색에서 실행까지 한 흐름으로 만들 수 있습니다. 다만 기능이 빠르게 넓어지는 만큼 권한 설계, 프롬프트 관리, 커넥터 범위, 사용량 통제가 중요해집니다. 도입 전에는 네이티브 통합과 API 기반 연결의 차이, 그리고 <a href=\"https://www.linkstartai.com/ko/agents/notebooklm\" target=\"_blank\" rel=\"nofollow\">NotebookLM</a>, <a href=\"https://www.linkstartai.com/ko/agents/alphasense\" target=\"_blank\" rel=\"nofollow\">AlphaSense</a>, 또는 <a href=\"https://openai.com\" target=\"_blank\" rel=\"nofollow\">OpenAI</a>·<a href=\"https://www.anthropic.com\" target=\"_blank\" rel=\"nofollow\">Anthropic</a> 기반 사내 검색 스택과의 성능 차이를 검증하는 편이 좋습니다.",
+	"es": "> Needle 2.0 es una plataforma de conocimiento con IA para equipos que necesitan buscar datos internos, crear flujos agentic y ejecutar acciones entre herramientas conectadas sin montar un stack frágil. Está pensada para operaciones, soporte y equipos intensivos en documentación que quieren una sola capa para búsqueda, automatización y acceso seguro.\n\nNeedle 2.0 no se presenta como otro chatbot interno más, sino como una plataforma de Knowledge Threading. En la práctica, une búsqueda empresarial, RAG, automatización de workflows y ejecución de acciones dentro del mismo producto. Puedes conectar Slack, Confluence, HubSpot, GitHub, Google Drive, Notion, Jira, Dropbox y SharePoint, construir colecciones sobre esas fuentes y después buscar, resumir, analizar, responder preguntas o lanzar acciones como enviar emails, crear tickets y actualizar registros.\n\nNeedle 2.0 ofrece un plan **gratis**, con planes de pago desde **$29/mes**. Es menos caro que la media para plataformas de conocimiento empresarial con IA, sobre todo porque el plan gratuito incluye unlimited collections, unlimited connectors, 1K workflow credits, 1M collection tokens y 5 asientos. El plan Pro sube a 10K workflow credits, 10M collection tokens y 10 asientos, y cada usuario adicional cuesta $29/mes. Además, los datos oficiales hablan de 20+ integraciones nativas, la home menciona 25+ conexiones de apps y Needle afirma que OpenAI Custom GPTs se queda en 20–30 documentos indexados mientras que su plataforma admite indexación ilimitada.\n\nLa parte de automatización es donde Needle 2.0 realmente destaca. No se limita a responder preguntas sobre documentos: añade agentic workflows, biblioteca de prompts reutilizables, OCR, procesamiento de tablas y gráficos, API, widgets de chat para web, búsqueda multilingüe y acciones dentro del chat. Eso lo convierte tanto en copiloto interno de conocimiento como en capa ligera de orquestación para automatización empresarial con IA.\n\nSu mayor ventaja es la velocidad de despliegue y la amplitud funcional. Un equipo puede empezar gratis, conectar herramientas conocidas en minutos y pasar de búsqueda a acción sin desplegar una base vectorial, middleware RAG o un framework complejo de agentes. La contrapartida es que, al crecer el producto, también crecen las exigencias de gobernanza, permisos, control de prompts y supervisión del uso. Conviene validar qué integraciones son realmente nativas y comparar la calidad de recuperación con opciones como <a href=\"https://www.linkstartai.com/es/agents/notebooklm\" target=\"_blank\" rel=\"nofollow\">NotebookLM</a>, <a href=\"https://www.linkstartai.com/es/agents/alphasense\" target=\"_blank\" rel=\"nofollow\">AlphaSense</a> o stacks propios sobre <a href=\"https://openai.com\" target=\"_blank\" rel=\"nofollow\">OpenAI</a> y <a href=\"https://www.anthropic.com\" target=\"_blank\" rel=\"nofollow\">Anthropic</a>."
+  },
+  "category_id": "aeb4c14b-1c83-471b-a0ff-8df81b1735e7",
+  "solution_category_id": "693c2d0e-365d-4881-9554-fc5ab00694d1",
+  "website_url": "https://needle.app",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/needle-2-0.jpg",
+  "pricing_model": "freemium",
+  "paid_options_from": "$29",
+  "billing_frequency": "month",
+  "rating": 4.4,
+  "review_count": 32,
+  "supported_languages": [
+	"en",
+	"zh",
+	"ja",
+	"ko",
+	"es"
+  ],
+  "tags_jsonb": {
+	"en": [
+	  "EnterpriseSearchAutomation",
+	  "RAGWorkflows",
+	  "KnowledgeManagementAI",
+	  "CrossAppActions",
+	  "InternalSupportAutomation",
+	  "DocumentIntelligence"
+	],
+	"zh": [
+	  "企业搜索自动化",
+	  "RAG工作流",
+	  "知识管理AI",
+	  "跨应用执行",
+	  "内部支持自动化",
+	  "文档智能"
+	],
+	"ja": [
+	  "企業検索自動化",
+	  "RAGワークフロー",
+	  "ナレッジ管理AI",
+	  "クロスアプリアクション",
+	  "社内サポート自動化",
+	  "ドキュメントインテリジェンス"
+	],
+	"ko": [
+	  "엔터프라이즈검색자동화",
+	  "RAG워크플로",
+	  "지식관리AI",
+	  "앱간액션",
+	  "내부지원자동화",
+	  "문서인텔리전스"
+	],
+	"es": [
+	  "BusquedaEmpresarialAutomatizada",
+	  "FlujosRAG",
+	  "GestionDelConocimientoIA",
+	  "AccionesEntreApps",
+	  "AutomatizacionDeSoporteInterno",
+	  "InteligenciaDocumental"
+	]
+  },
+  "features_jsonb": {
+	"en": [
+	  "Connect 25+ apps and unify company knowledge into searchable collections",
+	  "Search across multilingual sources and retrieve answers from fresh synced data",
+	  "Trigger cross-tool actions like emails, tickets, and record updates from chat",
+	  "Build agentic workflows with reusable templates, prompt libraries, and API access",
+	  "Process OCR, spreadsheets, charts, tables, PDFs, and video transcripts in one layer",
+	  "Deploy secure website widgets and internal copilots with enterprise access controls"
+	],
+	"zh": [
+	  "连接 25+ 应用，把企业知识统一进可检索的 Collections",
+	  "跨多语言数据源搜索，并基于持续同步的最新数据生成答案",
+	  "在对话中直接触发邮件发送、工单创建和记录更新等跨系统动作",
+	  "结合模板、Prompt Library 与 API 构建 Agent 工作流",
+	  "统一处理 OCR、表格、图表、PDF、Excel 和视频转录数据",
+	  "通过企业级权限控制部署网站小组件和内部知识助手"
+	],
+	"ja": [
+	  "25以上のアプリを接続し、社内知識を検索可能なCollectionsへ統合",
+	  "多言語ソースを横断検索し、常時同期された最新データから回答を生成",
+	  "会話画面からメール送信、チケット作成、レコード更新を実行",
+	  "テンプレート、プロンプトライブラリ、APIでエージェント型ワークフローを構築",
+	  "OCR、表計算、グラフ、表、PDF、動画文字起こしを一元処理",
+	  "権限制御付きでWebウィジェットや社内コパイロットを展開"
+	],
+	"ko": [
+	  "25개 이상 앱을 연결해 사내 지식을 검색 가능한 Collections로 통합",
+	  "다국어 소스를 검색하고 동기화된 최신 데이터에서 답변 생성",
+	  "채팅 안에서 이메일 발송, 티켓 생성, 레코드 업데이트 같은 액션 실행",
+	  "템플릿, 프롬프트 라이브러리, API로 에이전트형 워크플로 구축",
+	  "OCR, 스프레드시트, 차트, 표, PDF, 영상 전사를 한 레이어에서 처리",
+	  "권한 제어가 있는 웹 위젯과 내부 코파일럿 배포 지원"
+	],
+	"es": [
+	  "Conecta 25+ apps y unifica el conocimiento de la empresa en colecciones buscables",
+	  "Busca en fuentes multilingües y responde con datos frescos siempre sincronizados",
+	  "Ejecuta acciones entre herramientas como emails, tickets y actualizaciones desde el chat",
+	  "Crea workflows agentic con plantillas reutilizables, biblioteca de prompts y API",
+	  "Procesa OCR, hojas de cálculo, gráficos, tablas, PDFs y transcripciones en una sola capa",
+	  "Despliega widgets web seguros y copilotos internos con control de acceso empresarial"
+	]
+  },
+  "videos_jsonb": [
+	{
+	  "type": "youtube",
+	  "videoId": "unknown",
+	  "title": "Needle tutorial",
+	  "uploadDate": "2026-03-01T00:00:00Z",
+	  "description": "Official-style tutorial content for building workflows and connected knowledge search.",
+	  "duration": "PT6M00S"
+	},
+	{
+	  "type": "youtube",
+	  "videoId": "unknown",
+	  "title": "Needle review",
+	  "uploadDate": "2026-02-01T00:00:00Z",
+	  "description": "Recent third-party overview of Needle for AI workflows and enterprise search.",
+	  "duration": "PT8M00S"
+	}
+  ],
+  "verdict_jsonb": {
+	"en": {
+	  "summary": "Needle 2.0 is the **operations and knowledge teams** choice for **automating enterprise search, RAG workflows, and cross-app actions without building a custom stack**. It delivers unusual breadth at a low entry price, especially for teams that want retrieval and execution in one place. It is less ideal for buyers who need ultra-opinionated governance or deeply specialized vertical search from day one.",
+	  "expert_quote": "LinkStart AI Lab note: \"Needle gets the AI-first stack right by connecting retrieval to action. The real win is not just finding answers faster, but turning those answers into tickets, emails, and workflow steps immediately.\"",
+	  "pros": [
+		"Very strong for automated knowledge discovery workflows where teams need search, summarization, and action-taking inside one interface",
+		"Excellent price-to-value with a free plan, $29 Pro tier, unlimited collections, and broad connector coverage for internal AI automation",
+		"Useful for enterprise RAG deployment without standing up separate vector databases, middleware, and custom workflow glue"
+	  ],
+	  "cons": [
+		"The product scope is broad, so admins need clear governance for prompts, permissions, and connector sprawl as usage scales",
+		"Marketing claims mention both 20+ native integrations and 25+ app connections, so buyers should verify exact connector depth before rollout",
+		"Advanced buyers may still want to benchmark retrieval quality, observability, and action reliability against more specialized enterprise search stacks"
+	  ]
+	},
+	"zh": {
+	  "summary": "Needle 2.0 是 **运营与知识管理团队** 用来 **自动化企业搜索、RAG 工作流和跨系统动作执行，而无需自建复杂技术栈** 的优先选择。它以较低门槛提供了少见的功能广度，特别适合希望把检索和执行放在同一层里的团队。若你从一开始就需要极强治理能力或特别垂直的行业搜索，它未必是最保守的方案。",
+	  "expert_quote": "LinkStart AI Lab 评语：\"Needle 真正做对的地方，是把检索和执行连成了一条链。价值不只是更快找到答案，而是能立刻把答案转成邮件、工单和工作流动作。\"",
+	  "pros": [
+		"非常适合自动化知识发现工作流，把搜索、总结和执行动作整合进同一个界面",
+		"价格价值比很高，免费版与 $29 Pro 档位对 AI 自动化团队非常友好",
+		"适合企业快速搭建 RAG 工作系统，无需先部署向量数据库、中间层和大量自定义胶水代码"
+	  ],
+	  "cons": [
+		"产品覆盖面很广，随着使用规模扩大，Prompt 治理、权限控制和连接器管理会变得更复杂",
+		"官网同时出现 20+ 原生集成和 25+ 应用连接的说法，采购前应确认每个连接器的真实深度",
+		"对检索精度、可观测性和动作可靠性要求极高的团队，仍应与更专用的企业搜索方案做基准测试"
+	  ]
+	},
+	"ja": {
+	  "summary": "Needle 2.0は、**運用・ナレッジ管理チーム**が**企業検索、RAGワークフロー、クロスアプリアクションを自前構築なしで自動化**するための有力な選択肢です。低価格で非常に広い守備範囲を持ち、検索と実行を同じ場所で完結させたいチームに向いています。一方で、最初から厳密な統制や特化型検索を求める組織では追加検証が必要です。",
+	  "expert_quote": "LinkStart AI Lab所見: \"Needleの強みは、検索を行動につなげる設計です。答えを見つけるだけでなく、そのままメール送信やチケット化まで進められる点が実務的です。\"",
+	  "pros": [
+		"検索、要約、実行を1画面に集約した自動ナレッジ活用ワークフローに強い",
+		"無料プランと$29のProにより、エンタープライズAI基盤としては価格対効果が高い",
+		"ベクトルDBやRAG基盤を個別構築せずに、企業向け検索環境を素早く立ち上げやすい"
+	  ],
+	  "cons": [
+		"機能範囲が広いため、本格運用では権限、プロンプト、コネクタの統制設計が重要になる",
+		"20+ネイティブ統合と25+接続という表現差があるため、接続深度は事前確認が必要",
+		"高度な監査性や検索品質を重視する組織では、専用型プラットフォームとの比較検証が望ましい"
+	  ]
+	},
+	"ko": {
+	  "summary": "Needle 2.0는 **운영 및 지식관리 팀**이 **기업 검색, RAG 워크플로, 앱 간 액션을 커스텀 스택 없이 자동화**할 때 매우 강한 선택지입니다. 낮은 진입 가격에 비해 기능 폭이 넓고, 검색과 실행을 한곳에서 묶고 싶은 팀에 특히 유리합니다. 반면 초반부터 강한 거버넌스나 특화 검색이 필요한 조직은 추가 검증이 필요합니다.",
+	  "expert_quote": "LinkStart AI Lab 코멘트: \"Needle의 진짜 장점은 검색을 실행으로 이어주는 설계다. 답을 찾는 데서 끝나지 않고 바로 이메일, 티켓, 후속 워크플로까지 연결된다.\"",
+	  "pros": [
+		"검색, 요약, 실행을 하나의 인터페이스로 묶는 자동 지식 워크플로 구축에 매우 강함",
+		"무료 플랜과 월 $29 Pro로 가격 대비 가치가 높아 AI 자동화 입문과 확장에 모두 유리함",
+		"별도 벡터 DB나 복잡한 RAG 미들웨어 없이 엔터프라이즈 검색 환경을 빠르게 만들 수 있음"
+	  ],
+	  "cons": [
+		"제품 범위가 넓어서 사용이 커질수록 프롬프트 관리, 권한 설계, 커넥터 확장이 복잡해질 수 있음",
+		"20+ 네이티브 통합과 25+ 앱 연결 표현이 혼재하므로 도입 전에 실제 연결 깊이를 확인해야 함",
+		"고급 관측성, 검색 정확도, 액션 안정성이 중요한 팀은 전문 검색 스택과 비교 테스트가 필요함"
+	  ]
+	},
+	"es": {
+	  "summary": "Needle 2.0 es la elección de **equipos de operaciones y conocimiento** que necesitan **automatizar búsqueda empresarial, flujos RAG y acciones entre apps sin construir un stack propio**. Ofrece una amplitud poco común con una barrera de entrada baja, sobre todo para quienes quieren unir recuperación y ejecución en la misma capa. No es la opción más conservadora si tu prioridad absoluta es una gobernanza extremadamente rígida o búsqueda vertical muy especializada desde el día uno.",
+	  "expert_quote": "Nota de LinkStart AI Lab: \"Needle acierta al conectar recuperación con acción. El verdadero ahorro no está solo en encontrar respuestas antes, sino en convertirlas de inmediato en emails, tickets y pasos operativos.\"",
+	  "pros": [
+		"Muy sólido para workflows de descubrimiento de conocimiento automatizado con búsqueda, resumen y acciones en un único entorno",
+		"Excelente relación precio-valor con plan gratis, Pro desde $29 y cobertura amplia de conectores para automatización con IA",
+		"Permite desplegar un sistema RAG empresarial sin levantar por separado base vectorial, middleware y mucho código de integración"
+	  ],
+	  "cons": [
+		"Su alcance funcional es amplio y eso exige más disciplina en permisos, prompts y gobierno cuando el uso crece",
+		"La comunicación mezcla 20+ integraciones nativas y 25+ conexiones de apps, así que conviene validar profundidad real de cada conector",
+		"Equipos muy avanzados deberían comparar calidad de recuperación, observabilidad y fiabilidad de acciones frente a stacks más especializados"
+	  ]
+	}
+  },
+  "faqs_jsonb": [
+	{
+	  "question": {
+		"en": "Needle 2.0 vs OpenAI Custom GPTs: which is better for enterprise knowledge search and automation?",
+		"zh": "Needle 2.0 和 OpenAI Custom GPTs 相比，谁更适合企业知识搜索与自动化？",
+		"ja": "Needle 2.0とOpenAI Custom GPTs、企業向けナレッジ検索と自動化に向いているのはどちらですか？",
+		"ko": "Needle 2.0와 OpenAI Custom GPTs 중 기업 지식 검색과 자동화에는 무엇이 더 적합한가요?",
+		"es": "Needle 2.0 vs OpenAI Custom GPTs: ¿qué opción es mejor para búsqueda empresarial y automatización?"
+	  },
+	  "answer": {
+		"en": "The direct answer is that Needle 2.0 is better for enterprise knowledge operations, while OpenAI Custom GPTs are better for lighter personal or team assistants. While Custom GPTs are convenient for quick experimentation, Needle states they are limited to indexing 20–30 documents, whereas Needle supports unlimited document indexing, automatic reindexing from sources like Google Drive and SharePoint, workflow automation, CRM integrations, and API access. If your use case includes Slack, HubSpot, Jira, website widgets, or action-taking across systems, Needle is the more complete operational platform.",
+		"zh": "直接结论是，Needle 2.0 更适合企业级知识运营，而 OpenAI Custom GPTs 更适合轻量级个人或小团队助手。虽然 Custom GPTs 在快速试验上更方便，但 Needle 官方明确指出前者通常只适合索引 20–30 个文档，而 Needle 支持无限文档索引、Google Drive 和 SharePoint 自动重建索引、工作流自动化、CRM 集成与 API。只要你的场景涉及 Slack、HubSpot、Jira、网站小组件或跨系统执行动作，Needle 就是更完整的生产级平台。",
+		"ja": "結論は明確で、企業向けのナレッジ運用にはNeedle 2.0、軽量な個人用途にはOpenAI Custom GPTsの方が向いています。Custom GPTsは試作には便利ですが、Needleはそれらが20〜30文書程度の索引に留まる一方で、自動再索引、Google DriveやSharePoint連携、ワークフロー自動化、CRM統合、API提供まで含むと説明しています。Slack、HubSpot、Jira、Webウィジェット、アクション実行まで必要ならNeedleの方が実運用向きです。",
+		"ko": "직접 답하면, 엔터프라이즈 지식 운영에는 Needle 2.0가 더 낫고 OpenAI Custom GPTs는 가벼운 개인·팀용 도우미에 더 적합합니다. Custom GPTs는 빠른 실험에는 편하지만 Needle은 그것이 20–30개 문서 색인 수준에 머무는 반면, 자사는 무제한 문서 인덱싱, Google Drive·SharePoint 자동 재색인, 워크플로 자동화, CRM 통합, API를 지원한다고 밝힙니다. Slack, HubSpot, Jira, 웹 위젯, 시스템 간 액션이 필요하면 Needle이 더 완성도 높은 운영 플랫폼입니다.",
+		"es": "La respuesta corta es que Needle 2.0 gana para operaciones de conocimiento empresariales, mientras que OpenAI Custom GPTs encaja mejor como asistente ligero. Aunque los Custom GPTs son cómodos para probar ideas rápido, Needle afirma que se quedan en 20–30 documentos indexados, mientras su plataforma soporta indexación ilimitada, reindexación automática desde Google Drive o SharePoint, automatización de workflows, integraciones con CRM y acceso vía API. Si tu escenario incluye Slack, HubSpot, Jira, widgets web o acciones entre sistemas, Needle es claramente más completo."
+	  }
+	},
+	{
+	  "question": {
+		"en": "What are the biggest practical pain points or risks when rolling out Needle 2.0 at scale?",
+		"zh": "大规模落地 Needle 2.0 时，最现实的痛点和风险是什么？",
+		"ja": "Needle 2.0を大規模導入する際の現実的な課題やリスクは何ですか？",
+		"ko": "Needle 2.0를 대규모로 도입할 때 현실적인 문제점과 리스크는 무엇인가요?",
+		"es": "¿Cuáles son los principales riesgos y puntos de dolor al desplegar Needle 2.0 a escala?"
+	  },
+	  "answer": {
+		"en": "The main risk is governance, not basic capability. Needle 2.0 can connect many apps, index large knowledge collections, and take actions from chat, so the failure mode is usually overexposure of data, weak connector scoping, or poorly controlled prompts rather than lack of features. The practical workaround is to launch by department, define strict collection ownership, audit connector permissions, separate search-only from action-enabled agents, and monitor usage of workflow credits, tokens, and user seats before broad deployment.",
+		"zh": "最大的风险不是功能不够，而是治理不到位。Needle 2.0 能连接很多系统、索引大量知识集合，还能在对话中直接执行动作，所以真正的失败点往往是数据暴露过多、连接器权限过宽、Prompt 控制不严，而不是功能缺失。更现实的做法是先按部门逐步上线，明确 Collection 归属，审计连接器权限，把“仅搜索”和“可执行动作”的 Agent 分开，并持续监控 workflow credits、tokens 和席位消耗。",
+		"ja": "最大のリスクは機能不足ではなく統制設計です。Needle 2.0は多くのアプリを接続し、大量データを索引し、会話からアクションを実行できるため、問題は機能よりもデータ公開範囲、コネクタ権限、プロンプト管理に出やすいです。対策としては、部門単位で段階導入し、Collectionの管理責任を明確化し、検索専用エージェントと実行系エージェントを分離し、credits・tokens・席数を継続監視するのが有効です。",
+		"ko": "가장 큰 리스크는 기능 부족이 아니라 거버넌스입니다. Needle 2.0는 많은 앱을 연결하고 대규모 지식 컬렉션을 인덱싱하며 채팅에서 직접 액션까지 실행할 수 있기 때문에, 실제 문제는 기능 부족보다 데이터 과노출, 과도한 커넥터 권한, 느슨한 프롬프트 제어에서 발생합니다. 실무적으로는 부서별 단계 도입, Collection 소유권 정의, 권한 감사, 검색 전용 에이전트와 실행 에이전트 분리, 크레딧·토큰·좌석 사용량 모니터링이 가장 중요합니다.",
+		"es": "El riesgo principal no está en la capacidad básica sino en la gobernanza. Needle 2.0 puede conectar muchas apps, indexar grandes colecciones y ejecutar acciones desde el chat, así que el problema real suele ser exceso de exposición de datos, permisos demasiado amplios o prompts mal controlados. La mejor práctica es desplegar por departamentos, definir propiedad clara de colecciones, auditar permisos, separar agentes solo de búsqueda de agentes con acciones y vigilar créditos, tokens y asientos."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Is Needle 2.0 really affordable, and what limits apply to the free and Pro plans?",
+		"zh": "Needle 2.0 真的便宜吗？免费版和 Pro 版分别有哪些限制？",
+		"ja": "Needle 2.0は本当に手頃ですか？無料プランとProプランの制限は何ですか？",
+		"ko": "Needle 2.0는 정말 가성비가 좋은가요? 무료와 Pro 플랜 제한은 어떻게 되나요?",
+		"es": "¿Needle 2.0 es realmente asequible y qué límites tienen los planes Free y Pro?"
+	  },
+	  "answer": {
+		"en": "Yes, for this category it is relatively affordable. The Free plan is $0/month and includes unlimited collections, unlimited connectors, 1K workflow credits, 1M collection tokens, and 5 seats, while Pro is $29/month with 10K workflow credits, 10M collection tokens, and 10 seats; extra users cost $29/month and over-limit usage is pay-as-you-go on Pro. While some narrow AI search tools look cheaper at first glance, Needle includes workflow execution, connectors, OCR, API access, and enterprise-oriented retrieval features that would otherwise require multiple paid tools.",
+		"zh": "是的，放在这一赛道里它算相对便宜。免费版 $0/月，包含 unlimited collections、unlimited connectors、1K workflow credits、1M collection tokens 和 5 个席位；Pro 为 $29/月，包含 10K workflow credits、10M collection tokens 和 10 个席位，额外用户 $29/月，超额使用为按量计费。虽然有些单点 AI 搜索工具看起来更便宜，但 Needle 把工作流执行、连接器、OCR、API 和企业检索能力打包在一起，实际替代的是多款工具的组合成本。",
+		"ja": "はい、このカテゴリでは比較的手頃です。無料プランは$0/月で、unlimited collections、unlimited connectors、1K workflow credits、1M collection tokens、5席を含みます。Proは$29/月で、10K workflow credits、10M collection tokens、10席に拡張され、追加ユーザーは$29/月、超過分は従量課金です。単機能の検索ツールより高く見えない一方で、実際にはワークフロー実行、OCR、API、企業向け検索機能まで含まれているため、コスト効率は高いです。",
+		"ko": "네, 이 카테고리에서는 꽤 합리적인 편입니다. 무료 플랜은 월 $0이며 unlimited collections, unlimited connectors, 1K workflow credits, 1M collection tokens, 5석을 포함합니다. Pro는 월 $29로 10K workflow credits, 10M collection tokens, 10석을 제공하고, 추가 사용자는 월 $29이며 초과 사용량은 종량제로 청구됩니다. 단순 검색 툴보다 약간 비싸 보일 수 있지만 워크플로 실행, OCR, API, 엔터프라이즈 검색 기능까지 포함해 실제로는 여러 도구 비용을 줄여줍니다.",
+		"es": "Sí, para esta categoría resulta bastante asequible. El plan Free cuesta $0/mes e incluye unlimited collections, unlimited connectors, 1K workflow credits, 1M collection tokens y 5 asientos; Pro cuesta $29/mes con 10K workflow credits, 10M collection tokens y 10 asientos, usuarios extra a $29/mes y exceso por consumo. Frente a herramientas más estrechas puede parecer similar, pero Needle añade ejecución de workflows, conectores, OCR, API y búsqueda empresarial en el mismo precio."
+	  }
+	},
+	{
+	  "question": {
+		"en": "How does Needle 2.0 integrate with modern AI and ops stacks like Slack, HubSpot, Jira, and Make?",
+		"zh": "Needle 2.0 如何接入 Slack、HubSpot、Jira、Make 这类现代 AI 与运营技术栈？",
+		"ja": "Needle 2.0はSlack、HubSpot、Jira、Makeのような最新AI・業務スタックとどう連携しますか？",
+		"ko": "Needle 2.0는 Slack, HubSpot, Jira, Make 같은 현대적인 AI·업무 스택과 어떻게 통합되나요?",
+		"es": "¿Cómo se integra Needle 2.0 con stacks modernos como Slack, HubSpot, Jira y Make?"
+	  },
+	  "answer": {
+		"en": "Needle 2.0 integrates as a retrieval-and-action layer across the stack. It offers one-click connections to Slack, Confluence, HubSpot, GitHub, Google Drive, Notion, Jira, Dropbox, and SharePoint, and public user feedback also highlights usage with Make, n8n, ElevenLabs, OpenAI, Slack, and Descript. In practice, that means teams can ingest data from source systems, create searchable collections, and then let users or agents trigger follow-up actions such as drafting emails, creating tickets, or updating CRM records from the same chat interface.",
+		"zh": "Needle 2.0 更像是一层“检索 + 执行”的中间层。官方提供 Slack、Confluence、HubSpot、GitHub、Google Drive、Notion、Jira、Dropbox、SharePoint 等一键连接，公开用户反馈中也提到它会和 Make、n8n、ElevenLabs、OpenAI、Slack、Descript 一起使用。落到实际流程里，就是先从各系统取数、建立可检索 Collections，再让用户或 Agent 在同一对话界面里完成发邮件、建工单、更新 CRM 等后续动作。",
+		"ja": "Needle 2.0は、スタック全体にまたがる検索兼アクション実行レイヤーとして統合されます。公式ではSlack、Confluence、HubSpot、GitHub、Google Drive、Notion、Jira、Dropbox、SharePointへのワンクリック接続を提供し、公開レビューではMake、n8n、ElevenLabs、OpenAI、Descriptとの併用例も見られます。つまり、元データを接続してCollections化し、その上でメール作成、チケット発行、CRM更新を同じ会話画面から実行できます。",
+		"ko": "Needle 2.0는 스택 전반에 걸친 검색+실행 레이어로 통합됩니다. 공식적으로 Slack, Confluence, HubSpot, GitHub, Google Drive, Notion, Jira, Dropbox, SharePoint 원클릭 연결을 제공하고, 공개 사용자 피드백에서는 Make, n8n, ElevenLabs, OpenAI, Descript와 함께 쓰는 사례도 보입니다. 즉 소스 시스템에서 데이터를 가져와 Collections를 만들고, 같은 채팅 인터페이스 안에서 이메일 초안 작성, 티켓 생성, CRM 업데이트 같은 액션까지 이어갈 수 있습니다.",
+		"es": "Needle 2.0 se integra como una capa de recuperación y acción sobre todo el stack. La plataforma ofrece conexiones con un clic a Slack, Confluence, HubSpot, GitHub, Google Drive, Notion, Jira, Dropbox y SharePoint, y además el feedback público menciona usos con Make, n8n, ElevenLabs, OpenAI, Slack y Descript. En la práctica, eso permite ingerir datos desde los sistemas fuente, construir colecciones buscables y después ejecutar emails, tickets o actualizaciones de CRM desde el mismo chat."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Is Needle 2.0 safe for private company data, and what enterprise security controls are public?",
+		"zh": "Needle 2.0 对私有企业数据安全吗？目前公开了哪些企业级安全能力？",
+		"ja": "Needle 2.0は機密な社内データに対して安全ですか？公開されている企業向けセキュリティ機能は何ですか？",
+		"ko": "Needle 2.0는 민감한 사내 데이터에 안전한가요? 공개된 엔터프라이즈 보안 기능은 무엇인가요?",
+		"es": "¿Needle 2.0 es seguro para datos privados de empresa y qué controles enterprise son públicos?"
+	  },
+	  "answer": {
+		"en": "Yes, the public security posture is strong for a SaaS knowledge platform, but enterprises should still validate contracts and configuration. Needle states support for GDPR, CCPA, SOC 2 Type II certified data centers, AES-256 encryption, regular penetration testing, enterprise access control, region choice for data storage, and single-tenant architecture in its FAQ. The practical check before rollout is to confirm tenant isolation, retention settings, connector permission granularity, DPA terms, and how action-enabled workflows are audited.",
+		"zh": "是的，从公开信息看，它对 SaaS 知识平台来说安全姿态较强，但企业仍应结合合同和配置细查。Needle 官方 FAQ 提到 GDPR、CCPA、SOC 2 Type II 认证数据中心、AES-256 加密、定期渗透测试、企业级权限控制、数据区域选择，以及 single-tenant architecture。真正上线前，最关键的是确认租户隔离、数据保留策略、连接器权限粒度、DPA 条款，以及可执行动作工作流的审计方式。",
+		"ja": "はい、公開情報ベースではSaaS型ナレッジ基盤として十分強い部類ですが、企業導入では契約と設定確認が必要です。NeedleはFAQで、GDPR、CCPA、SOC 2 Type II認証データセンター、AES-256暗号化、定期ペネトレーションテスト、アクセス制御、保存リージョン選択、single-tenant architectureを挙げています。導入前には、テナント分離、保存期間、コネクタ権限粒度、DPA条件、アクション系ワークフローの監査方法を確認すべきです。",
+		"ko": "네, 공개된 보안 포지션은 SaaS 지식 플랫폼 기준으로 강한 편이지만 엔터프라이즈 도입 시 계약과 설정 검증은 필수입니다. Needle은 FAQ에서 GDPR, CCPA, SOC 2 Type II 인증 데이터센터, AES-256 암호화, 정기 침투 테스트, 엔터프라이즈 접근 제어, 데이터 저장 지역 선택, single-tenant architecture를 언급합니다. 실제 도입 전에는 테넌트 격리, 보존 정책, 커넥터 권한 세분화, DPA 조건, 액션 워크플로 감사 방식을 꼭 확인해야 합니다.",
+		"es": "Sí, la postura pública de seguridad es sólida para una plataforma SaaS de conocimiento, aunque la validación contractual sigue siendo obligatoria. Needle comunica GDPR, CCPA, centros de datos con certificación SOC 2 Type II, cifrado AES-256, pruebas periódicas de penetración, control de acceso empresarial, elección de región de datos y arquitectura single-tenant. Antes de desplegarla, conviene revisar aislamiento por tenant, retención, granularidad de permisos, términos del DPA y auditoría de workflows con acciones."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Can Needle 2.0 handle niche use cases like internal HR support, finance ops, or document-heavy research?",
+		"zh": "Needle 2.0 能否覆盖 HR 内部支持、财务运营或重文档研究这类细分场景？",
+		"ja": "Needle 2.0は、人事サポート、財務業務、文書量の多い調査のようなニッチ用途にも対応できますか？",
+		"ko": "Needle 2.0는 HR 내부 지원, 재무 운영, 문서 중심 리서치 같은 세부 업무에도 쓸 수 있나요?",
+		"es": "¿Needle 2.0 puede cubrir casos de uso de nicho como soporte interno de RR. HH., finanzas o investigación documental?"
+	  },
+	  "answer": {
+		"en": "Yes, and that is one of its strongest use cases. Public examples and testimonials describe policy lookup, expense reimbursement support, IT ticket handling, invoice workflows, content repurposing, AI research, PDF and Excel analysis, and internal knowledge assistants built from company documents. The best workaround for niche domains is to create separate collections by department, define role-specific prompts, and attach action permissions only where business rules are clear, which keeps HR, finance, legal, and research use cases safer and more accurate.",
+		"zh": "可以，而且这恰恰是它最强的落地方向之一。公开案例和用户反馈已经覆盖政策查询、报销规则问答、IT 工单处理、发票工作流、内容复用、AI 研究、PDF 与 Excel 分析，以及基于企业文档构建内部知识助手。针对细分领域，最稳妥的做法是按部门拆分 Collections，设计角色化 Prompt，并只在规则清晰的环节开放执行权限，这样对 HR、财务、法务和研究场景都更安全也更准确。",
+		"ja": "はい、むしろそのような用途で強みが出ます。公開例では、社内規程検索、経費精算案内、ITチケット対応、請求書処理、コンテンツ再利用、AI調査、PDFやExcelの分析、社内文書ベースのアシスタントなどが示されています。ニッチ領域で精度を高めるには、部門別Collections、役割別プロンプト、明確な業務ルールがある場面だけへのアクション権限付与が有効です。",
+		"ko": "네, 그리고 바로 그런 업무에서 강점이 잘 드러납니다. 공개 사례와 사용자 피드백에는 정책 조회, 경비 규정 안내, IT 티켓 처리, 인보이스 워크플로, 콘텐츠 재활용, AI 리서치, PDF·Excel 분석, 사내 문서 기반 지식 도우미가 포함됩니다. 니치 업무에서는 부서별 Collections를 나누고 역할별 프롬프트를 설계하며, 규칙이 명확한 단계에만 액션 권한을 부여하는 방식이 HR·재무·법무·리서치 정확도를 높입니다.",
+		"es": "Sí, y de hecho es una de sus áreas más fuertes. Los ejemplos públicos y testimonios hablan de búsqueda de políticas internas, soporte de gastos y reembolsos, gestión de tickets IT, workflows de facturas, reutilización de contenido, investigación con IA, análisis de PDF y Excel y asistentes internos basados en documentación corporativa. La mejor práctica para nichos es crear colecciones por departamento, prompts por rol y permisos de acción solo donde las reglas estén muy claras."
+	  }
+	}
+  ],
+  "seo_title_jsonb": {
+	"en": "Needle 2.0 Review 2026: Pricing, Pros & Cons, Alternatives",
+	"zh": "Needle 2.0 怎么样？2026 最新评测：价格、优缺点与竞品对比",
+	"ja": "【徹底レビュー】Needle 2.0の評判は？料金・使い方・代替ツール",
+	"ko": "Needle 2.0 솔직 후기: 가격, 장단점 및 추천 대안 (완벽 정리)",
+	"es": "Opiniones de Needle 2.0: Precio, Ventajas y Alternativas"
+  },
+  "seo_description_jsonb": {
+	"en": "Need enterprise AI search? Our Needle 2.0 Review covers Pricing, pros, cons, Free Tier, security, and whether it beats Custom GPTs for workflows.",
+	"zh": "想做企业 AI 搜索？这篇 Needle 2.0 Review 解析 Pricing、优缺点、Free Tier、安全性，以及是否优于 Custom GPTs。",
+	"ja": "企業向けAI検索を検討中なら、Needle 2.0 Reviewで料金、長所、短所、Free Tier、セキュリティを確認できます。",
+	"ko": "기업용 AI 검색이 필요하다면 Needle 2.0 Review에서 가격, 장단점, Free Tier, 보안, 워크플로 적합성을 빠르게 확인하세요.",
+	"es": "¿Buscas AI search empresarial? Esta Review de Needle 2.0 analiza Pricing, ventajas, límites, Free Tier, seguridad y alternativas reales."
+  },
+  "_citations_dump": [
+	"", [needle](https://needle.app/workflow-templates)
+	"", [needle](https://needle.app/workflow-templates/analyze-gcp-error-logs)
+	"", [needle](https://needle.app/pricing)
+	"", [naoma](https://naoma.ai)
+	"", [naoma](https://naoma.ai/pricing)
+	"" [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/17055998/57c8b20e-9668-41c3-b128-f251224ff7cd/agent_slug.csv?AWSAccessKeyId=ASIA2F3EMEYEXY2W2KTF&Signature=vEMWGEQ76zSGkENdpgU2JNo7few%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQC3EaBZ4amjtBXBtSS%2FyL8AKpd8Q7CoI%2F8UP6nijek8ugIgYJRh8mZ6rQVGeJvZZmoQemyjUIaQKyhwf71raXQZSbAq%2FAQIiP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2OTk3NTMzMDk3MDUiDANfw2rN1bE%2FCrxbWCrQBNfHQ2npq2mR8n0AtC6N9NHaMOdP146197xNqrmi2VttUx%2F8EJRFCpuBwRNF2Cy0v3vUFYRcfm%2FLBT1VvJPUWYGsp6sM3KXJBAa8g%2FlZ8SNrmVOnS0x%2Bf0nQYUji2iS41GzkzaY%2FlOvGRbNOibiG0%2Bt3XTepzDHeknBXs046HBoZ1uY5bfb2HrlVrjaBwaC7NUysJak8P2tqgywxjy%2FtVYAZZFypW5QilvBtXpT7GpZknwKoVH3a8ikik%2FIJzjtmA1S%2Brw8alPcnyDQHYl49vTLzIUA6EkIpjywgVUurIlFeZ5YyY0N%2F5FG2xS4cKguUAc%2BFgaPxEyitb3ZjsqBfleBsPLwNueJ5zgsUUmp%2B3W9IPMm6Qc4QqEOFWrajBL1e08cvkbDwa8K6Alm38qVRjz3eT6hDMKmxioapdFllp76C0%2BcNC4qgRc3q%2FOx1BiRIIKlJ7HuFJqFl1I%2FIFO7%2FVBX60GBjOUD7l7BQkBpSH%2FqrP9WUwy6sI2ukdJmUDDVPD9zuqaM8sC9LpGIp%2B2piIh2jDOUPh6gpnlDvBhXvsUtXB%2F2%2B3WI%2FgqQ5g1rpvK2tVHRBFoOkKfh%2BQh%2F1lJSoGV8V%2FOjBQxkFkQACoIiKggSURrMd4F%2ByZgbcMnJaslnwg6SE2e0S5z7%2Fwamo7p3MsNCM9mAo7yc%2FidTLqE7i4j7eqJPFi7%2FdIqBt44tehH8P2XVUyzDRJ7sOsp8KupftSUY2IrxNY2kVhxWtlgejeFOt5op3YamWn7ViAtb6fJFhQdzDfHwVFpwSBzTzKrgpNtcw4uzOzQY6mAH3ZkJmv0etI%2BV1Ydd2Yr7vruRiwcNDi28IwJArNwUT7A%2FPaqBnqQUJ1qCeVm3cdNjEwT0SaaOnHehXWfQo7xB4NTuXttKYQKyaC2lT1WWuVmnhSLn0wXzFBMthOA1s9YIMQnm7eO1jacLZrE9zUlqobOzmU1xgk2GTIRXJF2Q9tBZs2Kd%2FxM8sexu1qtl2GW6k5HHbljb4kA%3D%3D&Expires=1773386704)
+  ]
+}
