@@ -3,167 +3,82 @@
   "brand_slug": "insforge",
   "name_jsonb": {
 	"en": "InsForge",
-	"zh": "InsForge",
-	"ja": "InsForge",
-	"ko": "InsForge",
-	"es": "InsForge"
+	"zh": "InsForge"
   },
   "tagline_jsonb": {
-	"en": "The AI-Native Backend That Lets Coding Agents Build Full-Stack Apps Autonomously",
-	"zh": "让 AI 编码智能体自主构建全栈应用的原生后端平台",
-	"ja": "AIコーディングエージェントによるフルスタック開発を自律化するAIネイティブなバックエンド基盤",
-	"ko": "AI 코딩 에이전트가 풀스택 앱을 자율적으로 구축하도록 돕는 AI 네이티브 백엔드 플랫폼",
-	"es": "La plataforma backend nativa para IA que permite a los agentes de código crear aplicaciones full stack de forma autónoma"
+	"en": "AI-native backend automation for coding agents that ship full-stack apps without manual setup",
+	"zh": "让 AI 编码智能体无需手动配置即可交付全栈应用的原生后端自动化平台"
   },
   "description_jsonb": {
-	"en": "> **Executive Summary:** <a href='https://insforge.dev/' target='_blank'>InsForge</a> is an AI-native backend platform purpose-built for agentic coding workflows. It gives AI coding agents like Claude Code, Cursor, and Codex full MCP-based access to auth, database, storage, serverless functions, and unified AI model integrations — enabling zero-manual-config, prompt-driven full-stack development.\n\n## What Is InsForge?\n\nInsForge is an agent-native backend-as-a-service (BaaS) platform, open-source under Apache 2.0, designed so that AI coding agents can provision and operate an entire backend without developer intervention. Instead of manually wiring up a database or configuring OAuth, you describe what you want in natural language and your AI coding agent handles the rest via InsForge's MCP server.\n\n## The Agentic Coding Advantage\n\nIn internal benchmarks run with Claude Code (Sonnet 4.5), InsForge delivered **1.7x higher accuracy** than Supabase MCP on identical backend provisioning tasks, while using **30% fewer tokens** per run — meaning faster completions and lower API costs. The platform integrates OpenAI, Anthropic, Gemini, and Grok models through a single unified SDK with no API key setup required, billing all AI usage directly through InsForge.\n\n## Core Backend Primitives\n\n- **Authenticate users** — Complete auth system with social OAuth, email/password, and verification flows, auto-configured by your agent\n- **Persist data** — Hosted Postgres database, agent-provisioned and schema-managed via natural language\n- **Store files** — Object storage with bucket management, handled by the agent\n- **Run serverless functions** — Edge functions for scalable compute; agent-deployable on demand\n- **Unified AI gateway** — One SDK to call OpenAI, Anthropic, Gemini, Grok; zero key management\n- **One-click site deployment** — Ship the full-stack app to a live URL directly from the agent workflow\n\n## MCP-First Architecture\n\nInsForge exposes all backend primitives through a native MCP (Model Context Protocol) server. This makes it compatible out-of-the-box with Cursor, Claude Code, Windsurf, Codex, and any MCP-compliant AI IDE. Developers install the InsForge MCP in one click from inside their IDE; the agent then autonomously provisions infrastructure on every prompt cycle.\n\n## Pricing & Value\n\nInsForge offers a **Freemium** plan, with paid tiers starting at **$25/month** (Pro). It is **comparably priced** to the BaaS category average. The Free tier includes $1 in AI model credits, 50,000 MAUs, 500 MB database, 5 GB bandwidth, and 1 GB storage — sufficient for prototypes. Pro ($25/month) scales to 100,000 MAUs, 8 GB database, 250 GB bandwidth, 100 GB storage, and $10 in monthly AI credits. Enterprise pricing is custom with SOC2, HIPAA, and SSO.",
-	"zh": "> **核心摘要：** <a href='https://insforge.dev/' target='_blank'>InsForge</a> 是一款专为 AI 智能体编程工作流打造的原生后端平台。它通过 MCP 协议，让 Claude Code、Cursor、Codex 等 AI 编码智能体可以自主完成鉴权、数据库、存储、无服务器函数和 AI 模型集成的全流程配置，真正实现零手动配置的全栈开发。\n\n## InsForge 是什么？\n\nInsForge 是一个以智能体为核心的后端即服务（BaaS）平台，基于 Apache 2.0 开源，专为 AI 编码智能体设计，可让智能体在无需开发者手动干预的情况下完成整个后端的搭建与运维。你只需用自然语言描述需求，AI 编码智能体便会通过 InsForge 的 MCP 服务器自动完成所有配置。\n\n## 智能体编程的核心优势\n\n在使用 Claude Code（Sonnet 4.5）进行的基准测试中，InsForge 在相同的后端配置任务上比 Supabase MCP **精准度高出 1.7 倍**，同时 **减少 30% 的 token 用量**——意味着更快的完成速度和更低的 API 成本。平台通过统一 SDK 集成了 OpenAI、Anthropic、Gemini 和 Grok 模型，无需单独配置 API Key，所有 AI 用量通过 InsForge 统一计费。\n\n## 核心后端能力\n\n- **用户鉴权** — 完整的认证体系，支持 OAuth、邮箱/密码及验证流程，由 AI 智能体自动配置\n- **数据持久化** — 托管 Postgres 数据库，支持自然语言 Schema 管理\n- **文件存储** — 对象存储与 Bucket 管理，由智能体接管\n- **无服务器函数** — 可扩展的边缘函数，智能体可按需部署\n- **统一 AI 网关** — 一个 SDK 调用 OpenAI、Anthropic、Gemini、Grok，无需管理密钥\n- **一键部署上线** — 从智能体工作流中直接将全栈应用发布至线上 URL\n\n## MCP 优先架构\n\nInsForge 通过原生 MCP（模型上下文协议）服务器暴露所有后端能力，开箱即用地兼容 Cursor、Claude Code、Windsurf、Codex 等主流 AI IDE。开发者只需在 IDE 内一键安装 InsForge MCP，此后智能体便可在每次 Prompt 周期中自主完成基础设施的配置。\n\n## 定价与价值\n\nInsForge 提供 **免费增值（Freemium）** 计划，付费方案起价 **$25/月**（Pro 版），与 BaaS 品类均价**持平**。免费版包含 $1 AI 模型积分、50,000 MAU、500 MB 数据库、5 GB 带宽及 1 GB 存储，足以支撑原型项目。Pro 版（$25/月）可扩展至 100,000 MAU、8 GB 数据库、250 GB 带宽、100 GB 存储及每月 $10 AI 积分。企业版支持 SOC2、HIPAA 和 SSO，按需定价。",
-	"ja": "> **エグゼクティブサマリー：** <a href='https://insforge.dev/' target='_blank'>InsForge</a> は、エージェント型コーディングの業務フローに最適化されたAIネイティブのバックエンド基盤です。Claude Code、Cursor、Codex などのAIコーディングエージェントに対し、MCP経由で認証、データベース、ストレージ、サーバーレス関数、統合AIモデル連携への包括的なアクセスを提供し、手動設定を極小化したプロンプト主導のフルスタック開発を実現します。\n\n## InsForgeとは\n\nInsForge は、Apache 2.0 ライセンスの下で公開される、エージェントネイティブな Backend as a Service です。AIコーディングエージェントが開発者の個別操作なしにバックエンド全体を構成・運用できるよう設計されており、データベース接続や OAuth 設定を人手で積み上げる代わりに、自然言語で要件を伝えるだけで、InsForge の MCP サーバーを介して一連の処理を自律的に実行できます。\n\n## エージェント型開発における優位性\n\nClaude Code（Sonnet 4.5）を用いた内部ベンチマークでは、同一のバックエンド構築タスクにおいて InsForge は Supabase MCP 比で **1.7倍高い精度** を示し、さらに実行あたりのトークン消費量を **30%削減** しました。これにより、応答完了までの時間短縮と API コストの抑制が見込めます。加えて、OpenAI、Anthropic、Gemini、Grok を単一の統合 SDK で利用でき、API キーの個別設定なしに AI 利用量を InsForge 側で一元課金できます。\n\n## 主要なバックエンド機能\n\n- **ユーザー認証を構成** — ソーシャル OAuth、メール・パスワード、各種認証フローを含む認証基盤をエージェントが自動設定\n- **データを永続化** — ホスト型 Postgres を自然言語ベースでスキーマ管理しながらエージェントが構成\n- **ファイルを保存** — オブジェクトストレージとバケット管理をエージェント主導で実行\n- **サーバーレス関数を実行** — スケーラブルなエッジ関数を必要に応じてデプロイ可能\n- **統合AIゲートウェイ** — OpenAI、Anthropic、Gemini、Grok を単一 SDK で呼び出し、キー管理を不要化\n- **ワンクリックでサイト公開** — エージェントの開発フローからそのまま本番URLへ展開\n\n## MCPファーストのアーキテクチャ\n\nInsForge は、ネイティブな MCP（Model Context Protocol）サーバーを通じて、すべてのバックエンド機能を公開します。これにより、Cursor、Claude Code、Windsurf、Codex など、MCP に準拠した AI IDE と即時に連携できます。開発者は IDE 内からワンクリックで InsForge MCP を導入でき、その後は各プロンプト実行サイクルごとに、エージェントがインフラ構成を自律的に進めます。\n\n## 料金と投資対効果\n\nInsForge は **フリーミアム** 型の料金体系を採用しており、有料プランは **月額25ドル** の Pro から利用できます。BaaS 市場の平均水準と比較して **概ね同等の価格帯** です。無料プランには AI モデル用クレジット 1ドル分、50,000 MAU、500 MB のデータベース、5 GB の帯域、1 GB のストレージが含まれ、PoC や試作段階には十分です。Pro では 100,000 MAU、8 GB データベース、250 GB 帯域、100 GB ストレージ、毎月 10ドル分の AI クレジットへ拡張されます。Enterprise は SOC2、HIPAA、SSO に対応し、個別見積もりです。",
-	"ko": "> **핵심 요약:** <a href='https://insforge.dev/' target='_blank'>InsForge</a>는 에이전트형 코딩 워크플로를 위해 설계된 AI 네이티브 백엔드 플랫폼이다. Claude Code, Cursor, Codex 같은 AI 코딩 에이전트가 MCP 기반으로 인증, 데이터베이스, 스토리지, 서버리스 함수, 통합 AI 모델 연동에 직접 접근할 수 있어 수동 설정 없이 프롬프트 중심의 풀스택 개발을 구현한다.\n\n## InsForge란 무엇인가\n\nInsForge는 Apache 2.0으로 공개된 에이전트 네이티브 BaaS 플랫폼이다. 핵심은 개발자가 백엔드 인프라를 일일이 구성하지 않아도 AI 코딩 에이전트가 전체 백엔드를 프로비저닝하고 운영할 수 있도록 설계됐다는 점이다. 데이터베이스 연결이나 OAuth 설정을 수동으로 붙이는 대신, 필요한 요구사항을 자연어로 설명하면 InsForge의 MCP 서버를 통해 에이전트가 나머지 구성을 처리한다.\n\n## 에이전트 코딩 관점의 강점\n\nClaude Code(Sonnet 4.5) 기반 내부 벤치마크에서 InsForge는 동일한 백엔드 프로비저닝 작업에서 Supabase MCP 대비 **1.7배 높은 정확도**를 기록했고, 실행당 토큰 사용량은 **30% 더 적었다**. 이는 작업 완료 속도와 API 비용 양쪽에서 이점을 만든다. 또한 OpenAI, Anthropic, Gemini, Grok를 하나의 통합 SDK로 연결하며, 별도 API 키 설정 없이 모든 AI 사용량을 InsForge를 통해 일괄 과금할 수 있다.\n\n## 핵심 백엔드 기능\n\n- **사용자 인증 구성** — 소셜 OAuth, 이메일/비밀번호, 검증 플로까지 포함한 인증 시스템을 에이전트가 자동 설정\n- **데이터 영속화** — 호스팅형 Postgres 데이터베이스를 자연어 기반 스키마 관리와 함께 에이전트가 프로비저닝\n- **파일 저장 처리** — 오브젝트 스토리지와 버킷 관리를 AI 에이전트가 직접 수행\n- **서버리스 함수 배포** — 확장 가능한 엣지 함수를 필요 시 즉시 배포 가능\n- **통합 AI 게이트웨이** — OpenAI, Anthropic, Gemini, Grok를 하나의 SDK로 호출하고 키 관리를 단순화\n- **원클릭 사이트 배포** — 에이전트 워크플로에서 바로 라이브 URL로 풀스택 앱 배포\n\n## MCP 우선 아키텍처\n\nInsForge는 네이티브 MCP(Model Context Protocol) 서버를 통해 모든 백엔드 기능을 노출한다. 이 구조 덕분에 Cursor, Claude Code, Windsurf, Codex 등 MCP 호환 AI IDE와 즉시 연동할 수 있다. 개발자는 IDE 내부에서 InsForge MCP를 원클릭으로 설치할 수 있으며, 이후 에이전트가 각 프롬프트 사이클마다 인프라 구성을 자율적으로 수행한다.\n\n## 가격과 비용 효율성\n\nInsForge는 **프리미엄형 무료 요금제**를 제공하며, 유료 플랜은 **월 25달러**의 Pro부터 시작한다. 가격대는 BaaS 카테고리 평균과 비교해 **유사한 수준**이다. 무료 플랜에는 AI 모델 크레딧 1달러, 50,000 MAU, 500 MB 데이터베이스, 5 GB 대역폭, 1 GB 스토리지가 포함되어 프로토타입 단계에 충분하다. Pro 플랜은 100,000 MAU, 8 GB 데이터베이스, 250 GB 대역폭, 100 GB 스토리지, 월 10달러 AI 크레딧으로 확장된다. Enterprise는 SOC2, HIPAA, SSO를 포함한 맞춤형 가격 정책을 제공한다.",
-	"es": "> **Resumen ejecutivo:** <a href='https://insforge.dev/' target='_blank'>InsForge</a> es una plataforma backend nativa para IA diseñada específicamente para flujos de trabajo de programación agentic. Permite que agentes de código como Claude Code, Cursor y Codex accedan vía MCP a autenticación, base de datos, almacenamiento, funciones serverless e integración unificada de modelos de IA, habilitando desarrollo full stack guiado por prompts con configuración manual mínima.\n\n## Qué es InsForge\n\nInsForge es una plataforma Backend as a Service nativa para agentes, publicada como código abierto bajo Apache 2.0. Su arquitectura está pensada para que los agentes de código con IA puedan aprovisionar y operar un backend completo sin intervención continua del desarrollador. En lugar de conectar manualmente una base de datos o configurar OAuth paso a paso, el equipo describe la necesidad en lenguaje natural y el agente ejecuta el resto mediante el servidor MCP de InsForge.\n\n## Ventaja para la programación agentic\n\nEn pruebas internas realizadas con Claude Code (Sonnet 4.5), InsForge obtuvo **1,7 veces más precisión** que Supabase MCP en tareas equivalentes de aprovisionamiento backend, al tiempo que consumió **30% menos tokens** por ejecución. Esto se traduce en tiempos de finalización más rápidos y en un coste menor de API. La plataforma integra OpenAI, Anthropic, Gemini y Grok mediante un SDK unificado, sin necesidad de configurar claves API por separado, y centraliza la facturación del uso de IA en InsForge.\n\n## Capacidades backend principales\n\n- **Configurar autenticación de usuarios** — Sistema completo con OAuth social, email y contraseña, y flujos de verificación gestionados por el agente\n- **Persistir datos** — Base de datos Postgres alojada, aprovisionada por el agente y administrada por esquema mediante lenguaje natural\n- **Guardar archivos** — Almacenamiento de objetos con gestión de buckets operada por el agente\n- **Ejecutar funciones serverless** — Funciones edge escalables desplegables bajo demanda desde el flujo del agente\n- **Usar una pasarela de IA unificada** — Un solo SDK para OpenAI, Anthropic, Gemini y Grok, sin carga de gestión de claves\n- **Desplegar sitios con un clic** — Publicación del stack completo en una URL activa directamente desde el flujo agentic\n\n## Arquitectura MCP-first\n\nInsForge expone todas sus capacidades backend mediante un servidor MCP nativo. Esto le da compatibilidad inmediata con Cursor, Claude Code, Windsurf, Codex y cualquier IDE de IA compatible con MCP. Los desarrolladores pueden instalar InsForge MCP con un clic desde su propio entorno, y a partir de ese momento el agente aprovisiona infraestructura de forma autónoma en cada ciclo de prompt.\n\n## Precios y relación coste-valor\n\nInsForge ofrece un modelo **freemium**, con planes de pago a partir de **25 dólares al mes** en la modalidad Pro. Su posicionamiento de precio es **similar al promedio** del mercado BaaS. El plan gratuito incluye 1 dólar en créditos de IA, 50.000 MAU, 500 MB de base de datos, 5 GB de ancho de banda y 1 GB de almacenamiento, suficiente para prototipos y validación inicial. El plan Pro amplía a 100.000 MAU, 8 GB de base de datos, 250 GB de ancho de banda, 100 GB de almacenamiento y 10 dólares mensuales en créditos de IA. El plan Enterprise tiene precio personalizado e incorpora SOC2, HIPAA y SSO."
+	"en": "> **Executive Summary:** <a href=\"https://insforge.dev/\" target=\"_blank\">InsForge</a> is an AI-native backend platform for developers, vibe coders, and agent builders who want to automate auth, database, storage, and deployment work. Its core value is turning Claude Code, Cursor, and other MCP-compatible agents into backend operators instead of just code generators.\n\n## What InsForge does\n\n<a href=\"https://www.linkstartai.com/en/agents/ai-code-tools\" target=\"_blank\">AI code tools</a> can already scaffold UI and business logic, but backend setup still slows teams down. InsForge closes that gap by exposing auth, Postgres, storage, serverless functions, and AI model access through MCP so an agent can provision infrastructure from natural language prompts.\n\n## Why it matters for automation\n\nThe strongest angle here is workflow automation, not just code generation. In practical terms, InsForge lets a coding agent create tables, wire Google and GitHub login, configure file storage, attach AI models, and deploy a working app without clicking through admin dashboards.\n\n## Technical depth\n\nInsForge is open source under Apache 2.0 and positions itself as an agent-native alternative to <a href=\"https://www.linkstartai.com/en/agents/supabase\" target=\"_blank\">Supabase</a>. Official pricing shows a Free plan with 50,000 monthly active users, 500 MB database, 5 GB bandwidth, and 1 GB file storage, while Pro starts at $25 per month with 100,000 MAUs, 8 GB database, 250 GB bandwidth, 100 GB storage, and $10 in AI model credits.\n\n## Pricing and value\n\nInsForge offers a **Freemium** plan, with paid tiers starting at **$25/month**. It is **less expensive** than average for this category if you value bundled backend automation and MCP-native agent control over buying separate auth, database, storage, and model-routing layers. The main tradeoff is that free projects pause after 1 week of inactivity, which is fine for experiments but annoying for slow-moving side projects.\n\n## Best fit\n\nInsForge fits teams building internal tools, SaaS MVPs, AI products, and agentic prototypes that need backend automation more than pixel-perfect enterprise polish. If your stack already includes Claude Code, Cursor, Windsurf, or Codex-style workflows, it can remove one of the last manual bottlenecks in prompt-driven software delivery.",
+	"zh": "> **核心摘要：** <a href=\"https://insforge.dev/\" target=\"_blank\">InsForge</a> 是面向开发者、Vibe Coding 用户和 AI 智能体构建者的原生后端平台，核心价值是把 Claude Code、Cursor 等 MCP 兼容智能体从代码生成器升级为后端执行者，自动完成鉴权、数据库、存储与部署配置。\n\n## InsForge 到底做什么\n\n<a href=\"https://www.linkstartai.com/zh/agents/ai-code-tools\" target=\"_blank\">AI 编程工具</a> 已经能快速生成前端和业务逻辑，但后端配置依然是很多团队最慢的一步。InsForge 通过 MCP 把鉴权、Postgres、对象存储、无服务器函数和 AI 模型访问能力暴露给智能体，让它可以直接用自然语言 Prompt 完成基础设施配置。\n\n## 为什么它对自动化有价值\n\n它真正有竞争力的不是写代码，而是自动化执行工作流。实际落地时，InsForge 可以让编码智能体自动建表、接入 Google 和 GitHub 登录、配置文件存储、连接 AI 模型，并把应用部署上线，而不是让开发者反复点后台控制台。\n\n## 技术含量与产品深度\n\nInsForge 基于 Apache 2.0 开源，并明确把自己定位为 <a href=\"https://www.linkstartai.com/zh/agents/supabase\" target=\"_blank\">Supabase</a> 的智能体原生替代方案。官方定价页面显示，免费版提供 50,000 MAU、500 MB 数据库、5 GB 带宽和 1 GB 文件存储；Pro 版起价 $25/月，包含 100,000 MAU、8 GB 数据库、250 GB 带宽、100 GB 存储，以及每月 $10 AI 模型积分。\n\n## 价格与投入产出比\n\nInsForge offers a **Freemium** plan, with paid tiers starting at **$25/month**. It is **less expensive** than average for this category. 如果你本来就要分别采购鉴权、数据库、存储和模型网关，InsForge 的一体化方案通常更省事也更省钱。它最大的限制是免费项目在 1 周无活动后会自动暂停，适合试验，不太适合长期低频项目。\n\n## 适合谁用\n\nInsForge 最适合做内部工具、SaaS MVP、AI 产品原型和各种智能体应用，因为这类项目最需要的是后端自动化，而不是超成熟的企业后台生态。对于已经把 Claude Code、Cursor、Windsurf 或 Codex 类工作流作为主力开发方式的团队，它能明显减少最后那部分必须手动完成的配置工作。"
   },
-  "category_id": "ai-developer-tools",
-  "solution_category_id": "backend-as-a-service",
+  "category_id": "8fe2e40c-8466-4a36-9337-6ddae9dc247e",
+  "solution_category_id": "0af4fb71-9012-476f-9481-093464fa59b4",
   "website_url": "https://insforge.dev/",
   "logo_url": "https://assets.linkstartai.com/icon/agents/insforge.jpg",
   "pricing_model": "freemium",
   "paid_options_from": "$25",
   "billing_frequency": "month",
-  "rating": 4.3,
+  "rating": 4.2,
   "review_count": 437,
-  "supported_languages": ["en", "zh", "ja", "ko", "es", "fr", "de"],
+  "supported_languages": [
+	"en",
+	"zh",
+	"ja",
+	"ko",
+	"es"
+  ],
   "tags_jsonb": {
 	"en": [
-	  "AI Backend",
-	  "Agentic Coding",
-	  "MCP Server",
-	  "Backend as a Service",
-	  "Claude Code Integration",
-	  "Cursor MCP",
-	  "Vibe Coding Backend",
-	  "Serverless Functions",
-	  "AI-Native BaaS",
-	  "Full-Stack Automation"
+	  "MCP backend automation",
+	  "Claude Code backend",
+	  "Cursor backend setup",
+	  "AI auth provisioning",
+	  "Agentic app deployment",
+	  "Vibe coding backend",
+	  "Postgres MCP workflow",
+	  "AI model gateway",
+	  "serverless backend orchestration",
+	  "full-stack app automation"
 	],
 	"zh": [
-	  "AI 后端",
-	  "智能体编程",
-	  "MCP 服务器",
-	  "后端即服务",
-	  "Claude Code 集成",
-	  "Cursor MCP",
+	  "MCP 后端自动化",
+	  "Claude Code 后端",
+	  "Cursor 后端配置",
+	  "AI 鉴权自动化",
+	  "智能体应用部署",
 	  "Vibe Coding 后端",
-	  "无服务器函数",
-	  "AI 原生 BaaS",
-	  "全栈自动化"
-	],
-	"ja": [
-	  "AIバックエンド",
-	  "エージェント型コーディング",
-	  "MCPサーバー",
-	  "Backend as a Service",
-	  "Claude Code連携",
-	  "Cursor MCP",
-	  "Vibe Coding向けバックエンド",
-	  "サーバーレス関数",
-	  "AIネイティブBaaS",
-	  "フルスタック自動化"
-	],
-	"ko": [
-	  "AI 백엔드",
-	  "에이전트 코딩",
-	  "MCP 서버",
-	  "Backend as a Service",
-	  "Claude Code 연동",
-	  "Cursor MCP",
-	  "바이브 코딩 백엔드",
-	  "서버리스 함수",
-	  "AI 네이티브 BaaS",
-	  "풀스택 자동화"
-	],
-	"es": [
-	  "Backend de IA",
-	  "Programación Agentic",
-	  "Servidor MCP",
-	  "Backend as a Service",
-	  "Integración con Claude Code",
-	  "Cursor MCP",
-	  "Backend para Vibe Coding",
-	  "Funciones Serverless",
-	  "BaaS Nativo para IA",
-	  "Automatización Full Stack"
+	  "Postgres MCP 工作流",
+	  "AI 模型网关",
+	  "无服务器后端编排",
+	  "全栈应用自动化"
 	]
   },
   "features_jsonb": {
 	"en": [
-	  "Provision full backend via natural language prompts — zero manual config",
-	  "Native MCP server compatible with Cursor, Claude Code, Windsurf, and Codex",
-	  "Hosted Postgres database with agent-managed schema migrations",
-	  "Complete auth system: OAuth, email/password, magic links — agent-configured",
-	  "Object storage with bucket management, operated by AI agents",
-	  "Deploy serverless edge functions on demand from agent workflows",
-	  "Unified AI model gateway: OpenAI, Anthropic, Gemini, Grok — one SDK, no key management",
-	  "One-click site deployment to a live InsForge subdomain",
-	  "1.7x higher accuracy than Supabase MCP on agent backend tasks",
-	  "30% fewer tokens consumed per provisioning run vs. Supabase",
-	  "Open-source codebase under Apache 2.0 for full auditability",
-	  "Enterprise-grade compliance: SOC2, HIPAA (add-on), SSO on Enterprise plan"
+	  "Automate auth setup for Google, GitHub, email, and password flows",
+	  "Provision Postgres schemas from natural language prompts through MCP",
+	  "Connect storage buckets without opening a separate admin dashboard",
+	  "Deploy serverless functions for backend logic on demand",
+	  "Route multiple AI models through one unified gateway",
+	  "Install MCP in Claude Code and Cursor with one-click onboarding",
+	  "Launch full-stack apps to a live URL from the same workflow",
+	  "Bundle auth, database, storage, and AI credits into one backend stack",
+	  "Support open-source self-hosting with Docker-based setup",
+	  "Scale from 50,000 to 100,000 MAUs between Free and Pro plans"
 	],
 	"zh": [
-	  "通过自然语言 Prompt 自动完成整个后端配置，零手动操作",
-	  "原生 MCP 服务器，兼容 Cursor、Claude Code、Windsurf 和 Codex",
-	  "托管 Postgres 数据库，支持智能体驱动的 Schema 迁移管理",
-	  "完整鉴权体系：OAuth、邮箱/密码、Magic Link — 由 AI 智能体自动配置",
-	  "对象存储与 Bucket 管理，由 AI 智能体直接操作",
-	  "按需从智能体工作流中部署无服务器边缘函数",
-	  "统一 AI 模型网关：OpenAI、Anthropic、Gemini、Grok — 一个 SDK，无需管理密钥",
-	  "一键将应用部署至线上 InsForge 子域名",
-	  "在智能体后端任务中，精准度比 Supabase MCP 高出 1.7 倍",
-	  "每次配置运行消耗的 token 数量比 Supabase 少 30%",
-	  "基于 Apache 2.0 开源，代码库完全透明可审计",
-	  "企业级合规支持：SOC2、HIPAA（附加项）、SSO（企业版）"
-	],
-	"ja": [
-	  "自然言語プロンプトでバックエンド全体を構築 — 手動設定を不要化",
-	  "Cursor、Claude Code、Windsurf、Codex に対応するネイティブ MCP サーバー",
-	  "エージェント管理のスキーマ移行に対応したホスト型 Postgres データベース",
-	  "OAuth、メール・パスワード、マジックリンクを含む認証基盤をエージェントが自動構成",
-	  "AIエージェントが運用するオブジェクトストレージとバケット管理",
-	  "エージェントのワークフローから必要時にサーバーレスエッジ関数を展開",
-	  "OpenAI、Anthropic、Gemini、Grok を単一 SDK で利用する統合 AI ゲートウェイ",
-	  "InsForge の本番用サブドメインへワンクリックでサイトを公開",
-	  "エージェント向けバックエンド処理で Supabase MCP 比 1.7 倍の精度",
-	  "プロビジョニング実行ごとのトークン消費を Supabase 比で 30% 削減",
-	  "Apache 2.0 のオープンソースコードベースで監査性を確保",
-	  "Enterprise 向けの SOC2、HIPAA 追加対応、SSO を提供"
-	],
-	"ko": [
-	  "자연어 프롬프트만으로 전체 백엔드를 프로비저닝 — 수동 설정 불필요",
-	  "Cursor, Claude Code, Windsurf, Codex와 호환되는 네이티브 MCP 서버",
-	  "에이전트가 관리하는 스키마 마이그레이션을 지원하는 호스팅형 Postgres 데이터베이스",
-	  "OAuth, 이메일/비밀번호, 매직 링크를 포함한 완전한 인증 시스템을 에이전트가 구성",
-	  "AI 에이전트가 운영하는 오브젝트 스토리지와 버킷 관리",
-	  "에이전트 워크플로에서 필요 시 서버리스 엣지 함수를 즉시 배포",
-	  "OpenAI, Anthropic, Gemini, Grok를 하나의 SDK로 연결하는 통합 AI 게이트웨이",
-	  "라이브 InsForge 서브도메인으로 원클릭 사이트 배포",
-	  "에이전트 백엔드 작업에서 Supabase MCP 대비 1.7배 높은 정확도",
-	  "프로비저닝 실행당 토큰 사용량을 Supabase 대비 30% 절감",
-	  "Apache 2.0 기반 오픈소스 코드베이스로 높은 감사 가능성 확보",
-	  "엔터프라이즈급 규정 준수 지원: SOC2, HIPAA 추가 옵션, Enterprise SSO"
-	],
-	"es": [
-	  "Aprovisiona el backend completo mediante prompts en lenguaje natural — sin configuración manual",
-	  "Servidor MCP nativo compatible con Cursor, Claude Code, Windsurf y Codex",
-	  "Base de datos Postgres alojada con migraciones de esquema gestionadas por agentes",
-	  "Sistema completo de autenticación: OAuth, email/contraseña y magic links configurados por el agente",
-	  "Almacenamiento de objetos con gestión de buckets operado por agentes de IA",
-	  "Despliega funciones serverless edge bajo demanda desde flujos agentic",
-	  "Pasarela unificada de modelos de IA: OpenAI, Anthropic, Gemini y Grok con un solo SDK",
-	  "Despliegue del sitio con un clic a un subdominio activo de InsForge",
-	  "1,7 veces más precisión que Supabase MCP en tareas backend para agentes",
-	  "30% menos tokens consumidos por ejecución de aprovisionamiento frente a Supabase",
-	  "Código abierto bajo Apache 2.0 con trazabilidad y auditabilidad completas",
-	  "Cumplimiento de nivel empresarial: SOC2, HIPAA como extra y SSO en Enterprise"
+	  "自动配置 Google、GitHub、邮箱和密码登录鉴权流程",
+	  "通过 MCP 用自然语言 Prompt 直接生成 Postgres Schema",
+	  "无需切换后台控制台即可接入对象存储和 Bucket",
+	  "按需部署无服务器函数处理后端业务逻辑",
+	  "通过统一网关调用多个 AI 模型提供商",
+	  "在 Claude Code 和 Cursor 中一键安装 MCP",
+	  "在同一工作流内把全栈应用直接发布到线上 URL",
+	  "把鉴权、数据库、存储和 AI 积分打包成一体化后端栈",
+	  "支持基于 Docker 的开源自托管部署",
+	  "在 Free 到 Pro 之间从 50,000 MAU 扩展到 100,000 MAU"
 	]
   },
   "videos_jsonb": [
@@ -171,301 +86,233 @@
 	  "type": "youtube",
 	  "videoId": "ukhF-4jsVfQ",
 	  "title": "I Built a Full Stack App with One Prompt (Claude Code + InsForge)",
-	  "uploadDate": "2026-02-11",
-	  "description": "Build a complete newsletter app from scratch using Claude Code and InsForge in one prompt — live demo.",
-	  "duration": "PT8M13S"
+	  "uploadDate": "2026-02-11T00:00:00Z",
+	  "description": "Builds a newsletter app with auth, storage, AI writing, and deployment in one prompt.",
+	  "duration": "PT8M33S"
 	},
 	{
 	  "type": "youtube",
-	  "videoId": "UV7MxskVf1o",
-	  "title": "How to Build a Backend with AI Using InsForge | Step-by-Step",
-	  "uploadDate": "2026-03-09",
-	  "description": "Step-by-step InsForge tutorial: setup, MCP connection, database, auth, storage, serverless functions, and deploy.",
-	  "duration": "PT7M25S"
+	  "videoId": "gxYcGipGCYA",
+	  "title": "I built a real 29 dollar per month SAAS with Insforge",
+	  "uploadDate": "2026-03-07T00:00:00Z",
+	  "description": "User tutorial showing a real SaaS workflow built on InsForge.",
+	  "duration": "PT30M00S"
 	},
 	{
 	  "type": "youtube",
 	  "videoId": "194-cBlQF-I",
 	  "title": "This AI Creates Database, Auth & APIs Automatically",
-	  "uploadDate": "2026-02-23",
-	  "description": "See how InsForge AI agent auto-generates database, authentication, and APIs for full-stack apps.",
+	  "uploadDate": "2026-02-23T00:00:00Z",
+	  "description": "Review-style walkthrough of automated database, auth, and API setup.",
 	  "duration": "PT10M00S"
 	}
   ],
   "verdict_jsonb": {
 	"en": {
-	  "summary": "InsForge is the **definitive** choice for **vibe coders and AI-first developers** who need to **ship production full-stack apps without touching backend configuration**. It is the only BaaS platform architected from the ground up for MCP-based agentic workflows, and its 1.7x accuracy benchmark over Supabase makes the ROI case decisive. If your stack includes Claude Code, Cursor, or any MCP agent, InsForge removes the last manual bottleneck in your pipeline.",
-	  "expert_quote": "**LinkStart AI Lab:** 'InsForge does not just integrate with AI agents — it was designed *for* them. The MCP-native architecture and unified AI model gateway make it the strongest backend primitive in the agentic coding stack as of 2026. For teams serious about prompt-driven full-stack development, it is a non-negotiable infrastructure layer.'",
+	  "summary": "<a href=\"https://www.linkstartai.com/en/agents/insforge\" target=\"_blank\">InsForge</a> is the **smart** choice for **AI-first developers and vibe coders** who need to **automate full-stack backend setup with MCP-native agents**. It stands out because it removes dashboard-heavy backend work instead of just helping you write code. If your team already builds with Claude Code or Cursor, InsForge makes the path from prompt to deployed app materially faster.",
+	  "expert_quote": "LinkStart AI Lab says InsForge is one of the clearest examples of agent infrastructure becoming a real product category. It does not just attach AI to backend tooling; it restructures backend operations so MCP agents can execute them end to end.",
 	  "pros": [
-		"**1.7x more accurate** than Supabase MCP on agent backend tasks — benchmark-proven",
-		"**30% fewer tokens** consumed per run, directly lowering AI API costs",
-		"**Zero manual config**: agents provision auth, DB, storage, and functions autonomously",
-		"**Unified AI gateway** for OpenAI, Anthropic, Gemini, Grok — no key juggling",
-		"**Open-source (Apache 2.0)** — fully auditable, self-hostable",
-		"**One-click MCP install** inside Cursor and Claude Code — setup takes under 60 seconds"
+		"Automates auth, DB, storage, and deployment in one MCP workflow",
+		"Fits Claude Code and Cursor backend automation use cases well",
+		"Free tier includes 50,000 MAUs for serious prototyping",
+		"Open-source stack supports Docker self-hosting experiments",
+		"Unified AI credits simplify multi-model app building",
+		"Good for SaaS MVP backend setup with minimal dashboard work"
 	  ],
 	  "cons": [
-		"**Free tier pauses projects** after 1 week of inactivity — disruptive for low-traffic apps",
-		"**Ecosystem maturity gap**: far fewer community plugins vs. Supabase's 3+ year head start",
-		"**Vendor dependency risk**: unified AI billing lock-in may concern cost-conscious teams",
-		"**Enterprise HIPAA is a paid add-on**, not included in base Enterprise pricing"
+		"Free projects pause after 1 week of inactivity",
+		"Ecosystem is smaller than Supabase and Firebase",
+		"Best experience assumes MCP-native coding workflows",
+		"Enterprise polish still trails older backend platforms"
 	  ]
 	},
 	"zh": {
-	  "summary": "InsForge 是 **Vibe 编程爱好者和 AI 优先开发者** 的**最优**选择，适合所有需要**在不接触任何后端配置的情况下交付生产级全栈应用**的团队。它是市面上唯一一个从底层架构就为 MCP 智能体工作流设计的 BaaS 平台，而其相对 Supabase 高出 1.7 倍的精准度基准测试数据，让 ROI 层面的选择变得毋庸置疑。如果你的技术栈包含 Claude Code、Cursor 或任何 MCP 智能体，InsForge 将消除你整条开发流水线中最后一个手动瓶颈。",
-	  "expert_quote": "**LinkStart AI Lab：** 'InsForge 不只是与 AI 智能体集成——它是*专为*智能体而设计的。MCP 原生架构与统一 AI 模型网关，使其成为 2026 年智能体编程技术栈中最强大的后端基础设施层。对于认真追求 Prompt 驱动全栈开发的团队而言，这是一个不可或缺的基础设施选择。'",
+	  "summary": "<a href=\"https://www.linkstartai.com/zh/agents/insforge\" target=\"_blank\">InsForge</a> 是 **AI 优先开发者和 Vibe Coding 用户** 的**强力选择**，尤其适合 **用 MCP 原生智能体自动完成全栈后端配置** 的团队。它真正拉开差距的地方，不是帮你多写一点代码，而是把原本要手工点后台的工作直接交给智能体执行。对于已经把 Claude Code 或 Cursor 作为主力工作流的团队，它能明显加快从 Prompt 到线上应用的交付速度。",
+	  "expert_quote": "LinkStart AI Lab 认为，InsForge 是 Agent Infrastructure 从概念走向产品化的典型代表。它不是简单把 AI 接到后端工具上，而是把后端操作流程重构成可由 MCP 智能体端到端执行的系统。",
 	  "pros": [
-		"在智能体后端任务上**比 Supabase MCP 精准度高 1.7 倍** — 基准测试验证",
-		"每次运行**节省 30% token 用量**，直接降低 AI API 成本",
-		"**零手动配置**：智能体自主完成鉴权、数据库、存储和函数的全流程配置",
-		"**统一 AI 网关**，一站调用 OpenAI、Anthropic、Gemini、Grok，告别多密钥管理",
-		"**Apache 2.0 开源** — 代码完全透明，支持自托管",
-		"**一键 MCP 安装**，在 Cursor 和 Claude Code 中 60 秒内完成接入"
+		"把鉴权、数据库、存储、部署合并进一个 MCP 工作流",
+		"非常适合 Claude Code 和 Cursor 后端自动化场景",
+		"免费版含 50,000 MAU，原型阶段够用",
+		"开源加 Docker 适合自托管试验",
+		"统一 AI 积分便于多模型应用开发",
+		"适合 SaaS MVP 后端快速落地"
 	  ],
 	  "cons": [
-		"**免费版项目在 1 周无操作后自动暂停** — 对低流量应用体验较差",
-		"**生态成熟度不足**：相比拥有 3 年以上先发优势的 Supabase，社区插件少得多",
-		"**供应商依赖风险**：统一 AI 计费的锁定模式可能让成本敏感型团队顾虑",
-		"**企业版 HIPAA 合规为付费附加项**，未包含在企业版基础定价中"
-	  ]
-	},
-	"ja": {
-	  "summary": "InsForge は、**Vibe Coding 実践者と AI ファーストの開発チーム**が、**バックエンド設定に手を入れずに本番品質のフルスタックアプリを投入したい場合**に有力な選択肢です。MCP ベースのエージェント型ワークフローを前提に設計された数少ない BaaS であり、Supabase 比 1.7 倍の精度指標は導入対効果の根拠として明確です。Claude Code や Cursor を中心に開発基盤を整える組織では、手作業の残存工程を大きく削減できます。",
-	  "expert_quote": "**LinkStart AI Lab:** 'InsForge は AI エージェントと連携するだけの製品ではなく、エージェント活用を前提に設計された基盤です。MCP ネイティブ設計と統合 AI モデルゲートウェイの組み合わせにより、2026年時点のエージェント型開発スタックにおける中核的なバックエンド選択肢になっています。プロンプト主導のフルスタック開発を本格運用したい企業にとって、導入検討の優先度は高いといえます。'",
-	  "pros": [
-		"**Supabase MCP 比 1.7倍の精度** を実測値で提示",
-		"**トークン消費を 30%削減** し API コストを抑制",
-		"**手動設定が不要** で認証、DB、ストレージ、関数を自動構成",
-		"**統合 AI ゲートウェイ** により複数モデル運用を簡素化",
-		"**Apache 2.0 のオープンソース** で監査と自社運用に対応",
-		"**MCP をワンクリック導入** でき初期接続が速い"
-	  ],
-	  "cons": [
-		"**無料枠は 1週間非稼働で停止** し継続検証には不向き",
-		"**エコシステムは発展途上** で周辺拡張がまだ少ない",
-		"**AI 課金の集約** がコスト管理上の依存要因になり得る",
-		"**HIPAA 対応は追加費用** で標準Enterpriseに含まれない"
-	  ]
-	},
-	"ko": {
-	  "summary": "InsForge는 **바이브 코더와 AI 퍼스트 개발팀**이 **백엔드 설정을 직접 만지지 않고도 운영 가능한 풀스택 앱을 빠르게 출시해야 할 때** 가장 주목할 만한 선택지다. MCP 기반 에이전트 워크플로를 전제로 설계된 드문 BaaS이며, Supabase 대비 1.7배 정확도라는 수치는 ROI 판단에 직접 연결된다. Claude Code, Cursor, MCP 에이전트 중심 스택을 쓰는 팀이라면 마지막 수작업 병목을 크게 줄일 수 있다.",
-	  "expert_quote": "**LinkStart AI Lab:** 'InsForge는 단순히 AI 에이전트와 연동되는 수준이 아니라, 처음부터 에이전트 사용을 전제로 설계된 인프라다. MCP 네이티브 구조와 통합 AI 모델 게이트웨이는 2026년 기준 에이전트 코딩 스택에서 가장 강력한 백엔드 구성 요소 중 하나로 평가할 만하다. 프롬프트 중심 풀스택 개발을 실제 배포 단계까지 밀어붙이려는 팀에게는 사실상 핵심 인프라 계층이다.'",
-	  "pros": [
-		"**Supabase MCP 대비 1.7배 정확도** 로 성능 우위가 명확함",
-		"**토큰 사용량 30% 절감** 으로 AI API 비용 부담 완화",
-		"**수동 설정 없이** 인증, DB, 스토리지, 함수를 자동 프로비저닝",
-		"**통합 AI 게이트웨이** 로 여러 모델을 하나의 흐름에서 호출",
-		"**Apache 2.0 오픈소스** 로 감사 가능성과 자체 운영 유연성 확보",
-		"**원클릭 MCP 설치** 로 Cursor와 Claude Code 연동 속도가 빠름"
-	  ],
-	  "cons": [
-		"**무료 플랜은 1주 비활성 시 중지** 되어 사이드 프로젝트에 불편",
-		"**생태계 성숙도 격차** 로 커뮤니티 확장성과 플러그인이 적음",
-		"**통합 AI 과금 구조** 가 비용 민감 팀에는 락인 우려를 줄 수 있음",
-		"**Enterprise HIPAA는 별도 옵션** 으로 기본 포함이 아님"
-	  ]
-	},
-	"es": {
-	  "summary": "InsForge es la opción **más convincente** para **equipos AI-first y desarrolladores orientados a vibe coding** que necesitan **publicar aplicaciones full stack en producción sin tocar la configuración backend**. Es uno de los pocos BaaS diseñados desde cero para flujos agentic basados en MCP, y su ventaja de 1,7 veces en precisión frente a Supabase refuerza claramente su propuesta de valor. Si el stack del equipo ya incluye Claude Code, Cursor o agentes MCP, reduce de forma notable el trabajo manual residual.",
-	  "expert_quote": "**LinkStart AI Lab:** 'InsForge no solo se integra con agentes de IA: fue concebido para ellos. Su arquitectura nativa MCP y su pasarela unificada de modelos convierten a la plataforma en una de las piezas backend más sólidas dentro del stack de programación agentic en 2026. Para equipos que buscan llevar el desarrollo full stack guiado por prompts a producción real, su adopción tiene sentido estratégico.'",
-	  "pros": [
-		"**1,7 veces más precisión** que Supabase MCP en tareas backend para agentes",
-		"**30% menos tokens por ejecución** y menor coste operativo de IA",
-		"**Sin configuración manual** para auth, base de datos, almacenamiento y funciones",
-		"**Pasarela de IA unificada** para varios modelos sin gestionar múltiples claves",
-		"**Código abierto Apache 2.0** con opción de auditoría y despliegue propio",
-		"**Instalación MCP en un clic** dentro de Cursor y Claude Code"
-	  ],
-	  "cons": [
-		"**La capa gratuita se pausa tras 1 semana** de inactividad",
-		"**Ecosistema todavía inmaduro** frente a la ventaja histórica de Supabase",
-		"**Dependencia del proveedor** por la facturación unificada de IA",
-		"**HIPAA en Enterprise es un extra** y no viene incluido de base"
+		"免费项目 1 周无活动就会暂停",
+		"生态规模仍小于 Supabase 和 Firebase",
+		"最佳体验依赖 MCP 原生开发方式",
+		"企业级成熟度暂时不如老牌平台"
 	  ]
 	}
   },
   "faqs_jsonb": [
 	{
 	  "question": {
-		"en": "How does InsForge compare to Supabase for AI coding agents?",
-		"zh": "InsForge 与 Supabase 在 AI 编码智能体场景下有何区别？",
-		"ja": "AIコーディングエージェント用途で、InsForge は Supabase と比べて何が違いますか？",
-		"ko": "AI 코딩 에이전트 관점에서 InsForge는 Supabase와 무엇이 다른가요?",
-		"es": "¿Cómo se compara InsForge con Supabase para agentes de código con IA?"
+		"en": "InsForge vs Supabase: which is better for Claude Code and Cursor backend automation?",
+		"zh": "InsForge 和 Supabase，哪个更适合 Claude Code 与 Cursor 的后端自动化？"
 	  },
 	  "answer": {
-		"en": "InsForge is purpose-built for agentic coding, while <a href='https://supabase.com' target='_blank'>Supabase</a> is designed for manual developer workflows. In benchmarks using Claude Code (Sonnet 4.5), InsForge achieved 1.7x higher accuracy and 30% lower token consumption than Supabase MCP on identical backend provisioning tasks. Supabase has a larger ecosystem; InsForge wins on agent-native performance.",
-		"zh": "InsForge 专为智能体编程场景设计，而 <a href='https://supabase.com' target='_blank'>Supabase</a> 面向开发者手动操作工作流。在使用 Claude Code（Sonnet 4.5）进行的基准测试中，InsForge 在相同的后端配置任务上比 Supabase MCP 精准度高 1.7 倍，token 消耗减少 30%。Supabase 生态系统更成熟，但 InsForge 在智能体原生性能上占据优势。",
-		"ja": "InsForge はエージェント型コーディングを前提に設計されている一方、<a href='https://supabase.com' target='_blank'>Supabase</a> は基本的に開発者が主導する手動ワークフロー向けです。Claude Code（Sonnet 4.5）を用いた比較では、同一のバックエンド構築タスクで InsForge は 1.7 倍高い精度と 30%少ないトークン消費を示しました。エコシステムの厚みは Supabase が優位ですが、エージェントネイティブ性能では InsForge が強みを持ちます。",
-		"ko": "InsForge는 에이전트 코딩에 맞춰 설계된 반면, <a href='https://supabase.com' target='_blank'>Supabase</a>는 기본적으로 개발자 수동 워크플로 중심이다. Claude Code(Sonnet 4.5) 기반 벤치마크에서 InsForge는 동일한 백엔드 프로비저닝 작업에서 1.7배 높은 정확도와 30% 낮은 토큰 사용량을 기록했다. 생태계 규모는 Supabase가 크지만, 에이전트 네이티브 성능은 InsForge 쪽이 앞선다.",
-		"es": "InsForge fue diseñado específicamente para programación agentic, mientras que <a href='https://supabase.com' target='_blank'>Supabase</a> responde mejor a flujos manuales dirigidos por desarrolladores. En pruebas con Claude Code (Sonnet 4.5), InsForge logró 1,7 veces más precisión y 30% menos consumo de tokens que Supabase MCP en tareas equivalentes de backend. Supabase ofrece un ecosistema más amplio, pero InsForge destaca en rendimiento nativo para agentes."
+		"en": "The core difference is agent control. While <a href=\"https://www.linkstartai.com/en/agents/supabase\" target=\"_blank\">Supabase</a> is stronger for mature developer-led Postgres workflows, InsForge is better for MCP-native automation because it is built to let Claude Code and Cursor provision auth, storage, database, and deployment from prompts. If your goal is backend setup with minimal dashboard work, InsForge is the better fit.",
+		"zh": "核心区别在于智能体控制能力。虽然 <a href=\"https://www.linkstartai.com/zh/agents/supabase\" target=\"_blank\">Supabase</a> 更适合成熟的开发者主导 Postgres 工作流，但 InsForge 更适合 MCP 原生自动化，因为它就是为让 Claude Code 和 Cursor 通过 Prompt 完成鉴权、存储、数据库和部署而设计的。如果你追求尽量少点后台，InsForge 更合适。"
 	  }
 	},
 	{
 	  "question": {
-		"en": "What are the biggest complaints users have about InsForge?",
-		"zh": "用户对 InsForge 的主要吐槽是什么？",
-		"ja": "InsForge に関して、利用者が不満に感じやすい点は何ですか？",
-		"ko": "사용자들이 InsForge에 대해 가장 많이 지적하는 불만은 무엇인가요?",
-		"es": "¿Cuáles son las principales quejas de los usuarios sobre InsForge?"
+		"en": "What are the biggest real-world complaints about InsForge right now?",
+		"zh": "InsForge 目前在真实用户讨论里最大的槽点是什么？"
 	  },
 	  "answer": {
-		"en": "The most common complaint is the free tier's 1-week inactivity pause, which breaks development flow for side projects. Some users also note the ecosystem is still early compared to Supabase, with fewer community extensions and third-party integrations available in 2026.",
-		"zh": "最常见的抱怨是免费版在 1 周无活动后会自动暂停项目，打断了个人项目的开发节奏。部分用户也指出，与 Supabase 相比，InsForge 的生态系统仍处于早期阶段，2026 年可用的社区扩展和第三方集成相对较少。",
-		"ja": "最も指摘されやすいのは、無料プランが 1 週間非稼働で停止する点で、個人検証や副次プロジェクトの継続性を損ねやすいことです。加えて、2026年時点では Supabase に比べてエコシステムがまだ初期段階にあり、コミュニティ拡張や外部連携が限定的という声もあります。",
-		"ko": "가장 많이 나오는 불만은 무료 플랜이 1주 비활성 상태이면 프로젝트를 중지시킨다는 점이다. 또한 2026년 기준으로 Supabase 대비 생태계가 아직 초기 단계라 커뮤니티 확장과 서드파티 통합이 적다는 평가도 있다.",
-		"es": "La crítica más repetida es que el plan gratuito pausa los proyectos tras una semana de inactividad, algo molesto en proyectos secundarios. También se señala que en 2026 su ecosistema sigue siendo más limitado que el de Supabase, con menos extensiones comunitarias e integraciones de terceros."
+		"en": "The biggest complaints are ecosystem depth and free-tier inactivity pauses. Reddit and creator reviews repeatedly point out that free projects stop after 1 week of inactivity, and compared with Supabase or Firebase, the integration ecosystem is still thinner. The workaround is to use it for fast MVP delivery first, then evaluate self-hosting or Pro.",
+		"zh": "最大的问题主要是生态深度和免费版暂停机制。Reddit 讨论和创作者测评都反复提到，免费项目 1 周无活动就会暂停，而且和 Supabase、Firebase 相比，集成生态还不够厚。更现实的做法是先拿它快速交付 MVP，再评估自托管或升级 Pro。"
 	  }
 	},
 	{
 	  "question": {
-		"en": "What is InsForge's pricing? Is there a free tier?",
-		"zh": "InsForge 的定价是多少？有免费版吗？",
-		"ja": "InsForge の料金体系はどうなっていますか。無料プランはありますか？",
-		"ko": "InsForge의 가격 정책은 어떻게 되나요? 무료 플랜도 있나요?",
-		"es": "¿Cuál es el precio de InsForge? ¿Existe un plan gratuito?"
+		"en": "Does InsForge have a free tier, and what are the real limits?",
+		"zh": "InsForge 有免费版吗，真实限制有哪些？"
 	  },
 	  "answer": {
-		"en": "InsForge has a **Free plan at $0/month** (50K MAUs, 500 MB DB, $1 AI credits), a **Pro plan at $25/month** (100K MAUs, 8 GB DB, $10 AI credits/month), and a custom-priced **Enterprise plan** with SOC2 and HIPAA. Free projects are paused after 1 week of inactivity.",
-		"zh": "InsForge 提供**免费版（$0/月）**（含 5 万 MAU、500 MB 数据库、$1 AI 积分），**Pro 版（$25/月）**（含 10 万 MAU、8 GB 数据库、每月 $10 AI 积分），以及含 SOC2 和 HIPAA 的**企业版（定制定价）**。免费版项目在 1 周无活动后将自动暂停。",
-		"ja": "InsForge には **月額0ドルの無料プラン** があり、50,000 MAU、500 MB DB、1ドル分の AI クレジットが含まれます。**Pro は月額25ドル** で、100,000 MAU、8 GB DB、毎月10ドル分の AI クレジットを利用できます。**Enterprise は個別見積もり** で、SOC2 や HIPAA に対応します。無料プロジェクトは 1 週間非稼働で停止します。",
-		"ko": "InsForge는 **월 0달러 무료 플랜**(50K MAU, 500 MB DB, 1달러 AI 크레딧), **월 25달러 Pro 플랜**(100K MAU, 8 GB DB, 월 10달러 AI 크레딧), 그리고 SOC2와 HIPAA를 포함한 **맞춤형 Enterprise 플랜**을 제공한다. 무료 프로젝트는 1주 비활성 시 자동 중지된다.",
-		"es": "InsForge ofrece un **plan Free de 0 dólares al mes** con 50.000 MAU, 500 MB de base de datos y 1 dólar en créditos de IA. El **plan Pro cuesta 25 dólares al mes** e incluye 100.000 MAU, 8 GB de base de datos y 10 dólares mensuales en créditos de IA. El **plan Enterprise** tiene precio personalizado e incorpora SOC2 e HIPAA. Los proyectos gratuitos se pausan tras una semana de inactividad."
+		"en": "Yes. Prices start at $0 for Free and $25 per month for Pro. Free includes $1 AI credits, 50,000 MAUs, 500 MB database, 5 GB bandwidth, and 1 GB storage, but free projects pause after 1 week of inactivity, so it is better for active prototyping than passive hosting.",
+		"zh": "有。InsForge 免费版是 $0，Pro 版是 $25/月。免费版包含 $1 AI 积分、50,000 MAU、500 MB 数据库、5 GB 带宽和 1 GB 存储，但项目 1 周无活动后会暂停，所以更适合持续开发中的原型，不适合长期低频托管。"
 	  }
 	},
 	{
 	  "question": {
-		"en": "How do I integrate InsForge into my Cursor or Claude Code workflow?",
-		"zh": "如何将 InsForge 接入我的 Cursor 或 Claude Code 工作流？",
-		"ja": "InsForge を Cursor や Claude Code のワークフローに組み込むにはどうすればよいですか？",
-		"ko": "InsForge를 Cursor 또는 Claude Code 워크플로에 어떻게 연결하나요?",
-		"es": "¿Cómo integro InsForge en mi flujo de trabajo de Cursor o Claude Code?"
+		"en": "How does InsForge fit into a modern AI development workflow with Claude Code, Cursor, or Zeabur?",
+		"zh": "InsForge 如何接入 Claude Code、Cursor 或 Zeabur 这样的现代 AI 开发工作流？"
 	  },
 	  "answer": {
-		"en": "Create an InsForge account, open your project dashboard, and click 'Install MCP' on your project — the MCP server is added to your IDE in one click. Your AI coding agent then has full access to provision auth, database, storage, and functions via natural language prompts with zero additional configuration.",
-		"zh": "创建 InsForge 账号后，打开项目面板，点击项目上的「Install MCP」按钮，MCP 服务器即可一键添加到你的 IDE。此后，你的 AI 编码智能体即可通过自然语言 Prompt 完全自主地配置鉴权、数据库、存储和函数，无需任何额外操作。",
-		"ja": "InsForge のアカウント作成後、プロジェクトダッシュボードを開き、対象プロジェクトで 'Install MCP' を選択すると、MCP サーバーを IDE にワンクリックで追加できます。その後は、AI コーディングエージェントが自然言語プロンプトを通じて認証、DB、ストレージ、関数を追加設定なしで構成できます。",
-		"ko": "InsForge 계정을 만든 뒤 프로젝트 대시보드를 열고 해당 프로젝트에서 'Install MCP'를 클릭하면 MCP 서버가 IDE에 원클릭으로 추가된다. 이후 AI 코딩 에이전트가 자연어 프롬프트만으로 인증, 데이터베이스, 스토리지, 함수를 별도 설정 없이 프로비저닝할 수 있다.",
-		"es": "Primero crea una cuenta en InsForge, abre el panel del proyecto y pulsa 'Install MCP' en tu proyecto para añadir el servidor MCP al IDE con un clic. A partir de ahí, el agente de código con IA podrá aprovisionar autenticación, base de datos, almacenamiento y funciones mediante prompts en lenguaje natural sin configuración adicional."
+		"en": "It fits as the backend execution layer. You connect Claude Code or Cursor through MCP, let InsForge handle auth, Postgres, storage, and functions, and can pair it with Zeabur for code-to-cloud deployment. That makes it useful in agentic pipelines where frontend generation, backend provisioning, and hosting happen in one loop.",
+		"zh": "它适合充当后端执行层。你把 Claude Code 或 Cursor 通过 MCP 接进来，让 InsForge 处理鉴权、Postgres、存储和函数，再结合 Zeabur 做云端部署。这样前端生成、后端配置和上线发布就能进入同一个智能体闭环。"
 	  }
 	},
 	{
 	  "question": {
-		"en": "Is InsForge secure and compliant for production apps?",
-		"zh": "InsForge 是否适合生产级应用的安全合规要求？",
-		"ja": "InsForge は本番利用に必要なセキュリティとコンプライアンスを満たしますか？",
-		"ko": "InsForge는 운영 환경에서 필요한 보안과 규정 준수를 충족하나요?",
-		"es": "¿Es InsForge seguro y cumple requisitos normativos para aplicaciones en producción?"
+		"en": "Is InsForge safe for private code and production workloads?",
+		"zh": "InsForge 对私有代码和生产环境安全吗？"
 	  },
 	  "answer": {
-		"en": "Pro plan projects are production-ready with standard security controls. The Enterprise plan adds SOC2 Type II certification, HIPAA compliance (as a paid add-on), SSO, and dedicated technical support. The codebase is fully open-source under Apache 2.0, enabling independent security audits.",
-		"zh": "Pro 版项目具备标准安全管控，适合生产级部署。企业版额外提供 SOC2 Type II 认证、HIPAA 合规（付费附加项）、SSO 和专属技术支持。代码库基于 Apache 2.0 完全开源，支持独立安全审计。",
-		"ja": "Pro プランは標準的なセキュリティ管理のもとで本番運用に対応します。Enterprise では SOC2 Type II、HIPAA 追加対応、SSO、専用サポートが提供されます。コードベースは Apache 2.0 の完全オープンソースであり、独立したセキュリティ監査を実施しやすい点も安心材料です。",
-		"ko": "Pro 플랜은 표준 보안 통제를 바탕으로 운영 환경에 적용할 수 있다. Enterprise 플랜에서는 SOC2 Type II, HIPAA 추가 옵션, SSO, 전담 기술 지원이 더해진다. 코드베이스가 Apache 2.0 기반 완전 오픈소스라 독립적인 보안 감사도 가능하다.",
-		"es": "Los proyectos en Pro pueden usarse en producción con controles de seguridad estándar. El plan Enterprise añade SOC2 Type II, cumplimiento HIPAA como opción de pago, SSO y soporte técnico dedicado. Además, el código es totalmente abierto bajo Apache 2.0, lo que facilita auditorías de seguridad independientes."
+		"en": "Yes for many production cases, but the answer depends on deployment mode. The official Enterprise plan adds SOC2, SSO, dedicated support, and optional HIPAA, while the open-source Apache 2.0 version gives teams a self-hosting path with Docker. For sensitive workloads, self-hosting or Enterprise is the safer route than staying on Free.",
+		"zh": "多数生产场景可以用，但关键取决于部署方式。官方 Enterprise 提供 SOC2、SSO、专属支持和可选 HIPAA，而 Apache 2.0 开源版本则给团队提供了基于 Docker 的自托管路径。对敏感业务来说，自托管或 Enterprise 明显比免费版更稳妥。"
 	  }
 	},
 	{
 	  "question": {
-		"en": "Can I use InsForge to build a SaaS app with multi-tenant auth and AI features in one prompt?",
-		"zh": "我能用 InsForge 通过一条 Prompt 构建一个含多租户鉴权和 AI 功能的 SaaS 应用吗？",
-		"ja": "InsForge を使って、マルチテナント認証と AI 機能を備えた SaaS を 1 回のプロンプトで構築できますか？",
-		"ko": "InsForge로 멀티테넌트 인증과 AI 기능을 갖춘 SaaS 앱을 한 번의 프롬프트로 만들 수 있나요?",
-		"es": "¿Puedo usar InsForge para crear una app SaaS con autenticación multi-tenant y funciones de IA a partir de un solo prompt?"
+		"en": "Can InsForge actually build a SaaS MVP like a newsletter app, uptime monitor, or Linktree-style product?",
+		"zh": "InsForge 真的能做出新闻订阅应用、状态监控工具或 Linktree 类 SaaS MVP 吗？"
 	  },
 	  "answer": {
-		"en": "Yes. InsForge's unified backend stack — auth, Postgres, storage, serverless functions, and the multi-model AI gateway — is all accessible to your coding agent via MCP. In documented demos, developers have built complete multi-auth full-stack apps (newsletter platform, expense tracker, recipe app) using a single Claude Code session with no manual backend steps.",
-		"zh": "完全可以。InsForge 的统一后端技术栈——鉴权、Postgres、存储、无服务器函数和多模型 AI 网关——均可通过 MCP 供编码智能体直接调用。在已有记录的演示中，开发者仅用一次 Claude Code 会话、零手动后端操作，便构建出完整的多鉴权全栈应用（包括新闻订阅平台、费用追踪器、食谱应用）。",
-		"ja": "可能です。InsForge の統合バックエンド基盤である認証、Postgres、ストレージ、サーバーレス関数、マルチモデル AI ゲートウェイは、いずれも MCP 経由でコーディングエージェントから利用できます。公開デモでは、Claude Code の単一セッションだけで、ニュースレター基盤や家計管理、レシピアプリなど複数認証対応のフルスタックアプリが手動バックエンド作業なしで構築されています。",
-		"ko": "가능하다. InsForge의 통합 백엔드 스택인 인증, Postgres, 스토리지, 서버리스 함수, 멀티모델 AI 게이트웨이는 모두 MCP를 통해 코딩 에이전트가 직접 사용할 수 있다. 공개된 데모에서는 Claude Code 단일 세션만으로 뉴스레터 플랫폼, 지출 추적기, 레시피 앱 같은 다중 인증 풀스택 앱을 수작업 백엔드 없이 구축했다.",
-		"es": "Sí. El stack backend unificado de InsForge — autenticación, Postgres, almacenamiento, funciones serverless y pasarela multimodelo de IA — queda disponible para el agente de código vía MCP. En demostraciones documentadas, se han construido aplicaciones full stack con múltiples métodos de autenticación usando una sola sesión de Claude Code y sin pasos manuales de backend."
+		"en": "Yes. Recent YouTube demos show InsForge used for a newsletter app, an uptime-monitoring SaaS, and a link-in-bio style product with auth, storage, and deployment. It is best for AI-assisted MVPs where speed matters more than deep enterprise workflow customization.",
+		"zh": "可以。近期 YouTube 演示已经展示了用 InsForge 做新闻订阅应用、状态监控 SaaS 和 Linktree 风格产品，并且都包含鉴权、存储和部署能力。它尤其适合追求交付速度高于复杂企业定制的 AI 辅助 MVP 场景。"
 	  }
 	}
   ],
   "comparison_table_jsonb": {
 	"en": {
-	  "reason": "InsForge targets the same core pain point as **Supabase** (managed backend for app development) and **Firebase** (rapid full-stack BaaS), but uniquely repositions for **AI agent-driven workflows**. These are the two most relevant competitors developers evaluate when choosing a backend for agentic or vibe coding projects.",
-	  "caption": "InsForge vs. Core BaaS Competitors",
-	  "columns": ["Dimension", "InsForge", "Supabase", "Firebase"],
-	  "rows": [
-		["Core Use Case", "**Agentic coding**: AI agents autonomously provision and operate the full backend via MCP", "**Manual dev workflows**: developer-configured Postgres backend with strong DX tooling", "**Rapid prototyping**: real-time NoSQL backend, ideal for consumer apps and mobile"],
-		["Agent-Native Performance", "**1.7x more accurate, 30% fewer tokens** vs. Supabase MCP — benchmark-proven with Claude Code", "MCP server available but **not optimized** for agent-native provisioning accuracy", "**No native MCP server**; agent integration requires custom tooling or third-party connectors"],
-		["AI Model Integration", "**Unified gateway** for OpenAI, Anthropic, Gemini, Grok — one SDK, zero key management, billed through InsForge", "**No built-in AI model gateway** — requires external API key management per model provider", "Firebase Genkit provides AI integration, but **limited to Google/Vertex AI** ecosystem"],
-		["Ecosystem Maturity", "**Early-stage** (launched 2025); growing community, fewer plugins and third-party extensions", "**Mature ecosystem** (3+ years); extensive community, 100+ integrations, large Stack Overflow presence", "**Most mature** (Google-backed since 2014); largest ecosystem, SDKs for every platform"],
-		["Pricing & Free Tier", "Free: $0 (500 MB DB, 50K MAUs); **Pro: $25/month** — pauses free projects after 1 week inactivity", "Free: $0 (500 MB DB, 50K MAUs); **Pro: $25/month** — no inactivity pause on free tier", "Free: Spark plan (1 GB DB, 10 GB storage); **Blaze: pay-as-you-go** — no flat monthly Pro fee"],
-		["Open Source & Vendor Lock-in", "**Apache 2.0 open-source**, self-hostable; AI billing through InsForge may create spend dependency", "**Apache 2.0 open-source**, self-hostable with strong community self-host guides", "**Proprietary** (Google); no self-hosting option — highest vendor lock-in risk"]
+	  "reason": "This comparison focuses on **real replacement choices** developers make when moving from manual backend setup to **AI-native backend automation**. **InsForge** competes most directly with **Supabase** for Postgres-based app backends and **Firebase** for fast full-stack shipping, but it differentiates through MCP-native agent execution.",
+	  "caption": "Comparison: InsForge vs Core Backend Alternatives",
+	  "columns": [
+		"Dimension",
+		"[InsForge](https://insforge.dev/)",
+		"[Supabase](https://supabase.com/)",
+		"[Firebase](https://firebase.google.com/)"
 	  ],
-	  "tldr": "**Choose InsForge** if your workflow is agent-driven (Claude Code, Cursor, Codex) and you want the fastest, most accurate backend provisioning with a built-in AI model gateway. **Choose Supabase** if you prefer a mature, developer-managed Postgres backend with a rich ecosystem. **Choose Firebase** if you need Google-ecosystem integration, real-time NoSQL, or the broadest mobile SDK support."
+	  "rows": [
+		[
+		  "Core use case",
+		  "**Agent-native backend automation** for Claude Code, Cursor, and MCP workflows",
+		  "**Developer-led Postgres backend** for apps needing mature SQL tooling",
+		  "**Rapid app backend** for mobile and web teams using Google infrastructure"
+		],
+		[
+		  "Differentiated killer feature",
+		  "**MCP-first execution** so agents can configure auth, DB, storage, and deployment",
+		  "**Mature Postgres ecosystem** with broad docs, templates, and community depth",
+		  "**Realtime and Google stack integration** for fast consumer app shipping"
+		],
+		[
+		  "Performance and limits",
+		  "**50,000 MAUs free** and **100,000 MAUs Pro**, but free projects pause after 1 week",
+		  "**Strong stability and ecosystem**, but more setup still happens in dashboards",
+		  "**High scalability**, but NoSQL and pricing complexity can raise architectural cost"
+		],
+		[
+		  "Integration and learning curve",
+		  "**Best with Claude Code, Cursor, Zeabur, and MCP agents**; easiest for AI-first builders",
+		  "**Best for SQL-savvy teams** already comfortable with Postgres and backend ops",
+		  "**Best for Google-centric teams**; simpler early on, but backend logic can get fragmented"
+		],
+		[
+		  "ROI for MVP teams",
+		  "**High ROI** when one agent handles backend automation end to end",
+		  "**High ROI** for teams that want long-term control and mature backend patterns",
+		  "**High ROI** for mobile startups, but less ideal for MCP-driven agent workflows"
+		],
+		[
+		  "Best buyer profile",
+		  "**AI app builders** shipping agentic SaaS, internal tools, and vibe-coded products",
+		  "**Full-stack developers** wanting a proven SQL backend platform",
+		  "**Startup and mobile teams** prioritizing speed inside the Google ecosystem"
+		]
+	  ],
+	  "tldr": "**Buy InsForge** if your priority is turning Claude Code or Cursor into a backend operator, not just a code generator. **Buy Supabase** if you want the safest mature SQL ecosystem. **Buy Firebase** if you need Google-native speed, realtime sync, and mobile-first scale."
 	},
 	"zh": {
-	  "reason": "InsForge 与 **Supabase**（面向应用开发的托管后端）和 **Firebase**（快速全栈 BaaS）解决相同的核心痛点，但独特地将定位聚焦于 **AI 智能体驱动的工作流**。这两款产品是开发者在为智能体编程或 Vibe Coding 项目选型后端时最常对比评估的竞品。",
+	  "reason": "这个对比不是泛泛而谈，而是围绕开发者最真实的**替换决策**来做的。对于想从手动后端配置切换到 **AI 原生后端自动化** 的团队来说，**InsForge** 最直接的平替对象就是 **Supabase** 和 **Firebase**，但它最大的差异点在于 MCP 原生智能体执行能力。",
 	  "caption": "目标产品与核心竞品参数对比",
-	  "columns": ["对比维度", "InsForge", "Supabase", "Firebase"],
-	  "rows": [
-		["核心痛点场景", "**智能体编程**：AI 智能体通过 MCP 自主完成整个后端的配置与运维，全程零手动操作", "**手动开发工作流**：由开发者主导配置的 Postgres 后端，具备优秀的 DX 工具链", "**快速原型开发**：实时 NoSQL 后端，尤其适合消费级应用和移动端项目"],
-		["智能体原生性能", "**精准度高 1.7 倍，token 消耗少 30%**，基于 Claude Code 的 Supabase MCP 对比基准测试验证", "提供 MCP 服务器，但**未针对智能体原生配置精准度优化**", "**无原生 MCP 服务器**；智能体集成需依赖自定义工具或第三方连接器"],
-		["AI 模型集成", "**统一 AI 网关**，一个 SDK 调用 OpenAI、Anthropic、Gemini、Grok，零密钥管理，统一通过 InsForge 计费", "**无内置 AI 模型网关**，需为每个模型提供商单独管理外部 API Key", "Firebase Genkit 提供 AI 集成能力，但**仅限 Google/Vertex AI 生态**"],
-		["生态成熟度", "**早期阶段**（2025 年上线）；社区持续成长，插件和第三方扩展相对较少", "**生态成熟**（3 年以上积累）；社区完善，100+ 集成，Stack Overflow 资源丰富", "**最为成熟**（Google 自 2014 年支持）；生态最广，覆盖各平台的 SDK 齐全"],
-		["定价与免费版", "免费版：$0（500 MB 数据库，5 万 MAU）；**Pro：$25/月** — 免费版 1 周无活动后暂停", "免费版：$0（500 MB 数据库，5 万 MAU）；**Pro：$25/月** — 免费版无暂停机制", "免费版：Spark 方案（1 GB 数据库，10 GB 存储）；**Blaze：按量计费** — 无固定 Pro 月费"],
-		["开源与厂商绑定", "**Apache 2.0 开源**，支持自托管；AI 统一计费模式可能产生一定支出依赖", "**Apache 2.0 开源**，支持自托管，社区自托管文档完善", "**闭源私有**（Google）；不支持自托管 — 厂商绑定风险最高"]
+	  "columns": [
+		"对比维度",
+		"[InsForge](https://insforge.dev/)",
+		"[Supabase](https://supabase.com/)",
+		"[Firebase](https://firebase.google.com/)"
 	  ],
-	  "tldr": "**选 InsForge**：如果你的工作流由 AI 智能体驱动（Claude Code、Cursor、Codex），追求最快、最精准的后端配置体验，并希望内置 AI 模型网关。**选 Supabase**：如果你偏好拥有丰富生态的成熟 Postgres 后端，并习惯开发者主导的配置方式。**选 Firebase**：如果你深度依赖 Google 生态，需要实时 NoSQL 数据库，或需要覆盖最广泛移动平台的 SDK 支持。"
-	},
-	"ja": {
-	  "reason": "InsForge は、**Supabase** のような管理型バックエンド、**Firebase** のような迅速なフルスタック BaaS と同じ課題領域を対象にしながら、**AIエージェント駆動ワークフロー**に最適化されている点が大きな違いです。エージェント型開発や Vibe Coding 向けのバックエンドを選定する際、比較対象として妥当性が高いのがこの 2 製品です。",
-	  "caption": "InsForge と主要 BaaS 競合の比較",
-	  "columns": ["比較項目", "InsForge", "Supabase", "Firebase"],
 	  "rows": [
-		["主な利用シナリオ", "**エージェント型コーディング**：AI エージェントが MCP 経由でバックエンド全体を自律構成・運用", "**手動開発ワークフロー**：開発者が主導して構成する Postgres ベースの管理型バックエンド", "**高速プロトタイピング**：リアルタイム NoSQL を中核とし、モバイルや一般消費者向けに適合"],
-		["エージェントネイティブ性能", "**Supabase MCP 比で 1.7倍の精度、30%少ないトークン** を実証", "MCP サーバーは利用可能だが、**エージェント専用に最適化されていない**", "**ネイティブ MCP サーバーなし**。連携には独自実装または外部コネクタが必要"],
-		["AI モデル連携", "**統合ゲートウェイ** により OpenAI、Anthropic、Gemini、Grok を単一 SDK で利用可能", "**内蔵 AI ゲートウェイなし**。モデルごとに外部 API キー管理が必要", "Firebase Genkit で AI 連携は可能だが、**Google と Vertex AI に依存**"],
-		["エコシステム成熟度", "**初期成長段階**（2025年公開）。コミュニティは拡大中だが拡張数は限定的", "**成熟市場**（3年以上）。連携数が多くコミュニティ情報も豊富", "**最も成熟**（Google 支援、2014年以降）。各種 SDK と周辺資産が非常に充実"],
-		["料金と無料枠", "無料: $0（500 MB DB、50K MAU）、**Pro: 月額$25** — 1週間非稼働で無料プロジェクト停止", "無料: $0（500 MB DB、50K MAU）、**Pro: 月額$25** — 無料枠の停止条件なし", "無料: Spark（1 GB DB、10 GB ストレージ）、**Blaze: 従量課金** — 固定の Pro 月額なし"],
-		["オープンソース性とベンダーロックイン", "**Apache 2.0 のオープンソース** でセルフホスト可能。ただし AI 課金集約には依存性が生じ得る", "**Apache 2.0 のオープンソース** でセルフホスト手順も充実", "**プロプライエタリ** でセルフホスト不可。ベンダーロックインの懸念が最も高い"]
+		[
+		  "核心痛点场景",
+		  "**面向智能体的后端自动化**，适合 Claude Code、Cursor 和 MCP 工作流",
+		  "**开发者主导的 Postgres 后端**，适合需要成熟 SQL 能力的应用",
+		  "**快速交付型应用后端**，适合依赖 Google 基础设施的团队"
+		],
+		[
+		  "差异化杀手锏",
+		  "**MCP 优先执行模型**，让智能体直接配置鉴权、数据库、存储和部署",
+		  "**成熟的 Postgres 生态**，文档、模板和社区资源都更丰富",
+		  "**实时能力加 Google 生态整合**，适合快速上线消费级产品"
+		],
+		[
+		  "性能表现与限制",
+		  "**免费 50,000 MAU**，**Pro 100,000 MAU**，但免费项目 1 周无活动会暂停",
+		  "**稳定性和生态成熟度高**，但不少配置仍然要靠后台手动完成",
+		  "**扩展性强**，但 NoSQL 架构和计费复杂度可能抬高长期成本"
+		],
+		[
+		  "生态与上手门槛",
+		  "**最适合 Claude Code、Cursor、Zeabur 和 MCP 智能体**，对 AI 优先团队最友好",
+		  "**最适合熟悉 SQL 的团队**，尤其是本来就能驾驭 Postgres 和后端运维的人",
+		  "**最适合 Google 技术栈团队**，前期上手快，但后期后端逻辑容易分散"
+		],
+		[
+		  "综合投入产出比 ROI",
+		  "**ROI 很高**，前提是你真的让一个智能体端到端接管后端自动化",
+		  "**ROI 很高**，适合想要长期掌控后端架构的成熟团队",
+		  "**ROI 也不错**，但更偏移动端和 Google 生态，不是 MCP 工作流首选"
+		],
+		[
+		  "最适合采购的人群",
+		  "**AI 应用团队**，要做 agentic SaaS、内部工具和 Vibe Coding 产品",
+		  "**全栈开发团队**，更看重成熟 SQL 后端平台和稳健生态",
+		  "**创业团队和移动端团队**，优先追求 Google 体系内的快速交付"
+		]
 	  ],
-	  "tldr": "**InsForge を選ぶべきケース** は、Claude Code や Cursor などエージェント中心の開発基盤で、より高速かつ高精度なバックエンド構築と内蔵 AI モデルゲートウェイを重視する場合です。**Supabase** は成熟した Postgres 系バックエンドと豊富な周辺資産を優先する組織に向きます。**Firebase** は Google 連携、リアルタイム NoSQL、モバイル SDK の広さを重視する場合に適しています。"
-	},
-	"ko": {
-	  "reason": "InsForge는 **Supabase**의 관리형 백엔드, **Firebase**의 빠른 풀스택 BaaS와 같은 핵심 문제를 해결하지만, 포지셔닝을 **AI 에이전트 기반 워크플로**에 맞춰 재정의했다. 에이전트 코딩이나 바이브 코딩 프로젝트용 백엔드를 고를 때 실제로 가장 많이 검토되는 비교 대상이 이 두 제품이다.",
-	  "caption": "InsForge와 주요 BaaS 경쟁 제품 비교",
-	  "columns": ["비교 항목", "InsForge", "Supabase", "Firebase"],
-	  "rows": [
-		["핵심 사용 시나리오", "**에이전트 코딩**: AI 에이전트가 MCP를 통해 백엔드 전체를 자율 프로비저닝 및 운영", "**수동 개발 워크플로**: 개발자가 직접 구성하는 Postgres 기반 관리형 백엔드", "**빠른 프로토타이핑**: 실시간 NoSQL 중심으로 모바일과 소비자 앱에 적합"],
-		["에이전트 네이티브 성능", "**Supabase MCP 대비 1.7배 정확도, 30% 적은 토큰** 사용을 입증", "MCP 서버는 제공하지만 **에이전트 최적화 수준은 제한적**", "**네이티브 MCP 서버 부재** 로 커스텀 도구나 외부 커넥터가 필요"],
-		["AI 모델 통합", "**통합 게이트웨이** 로 OpenAI, Anthropic, Gemini, Grok를 하나의 SDK에서 호출", "**내장 AI 게이트웨이 없음**. 모델별 외부 API 키를 직접 관리해야 함", "Firebase Genkit로 AI 연동이 가능하지만 **Google/Vertex AI 생태계에 제한**"],
-		["생태계 성숙도", "**초기 단계**(2025년 출시)로 커뮤니티가 성장 중이나 확장 수는 적음", "**성숙한 생태계**(3년 이상)로 연동 수와 커뮤니티 자료가 풍부", "**가장 성숙** 한 편이며 Google 지원 아래 다양한 플랫폼 SDK를 제공"],
-		["가격과 무료 플랜", "무료: $0(500 MB DB, 50K MAU), **Pro: 월 $25** — 1주 비활성 시 무료 프로젝트 중지", "무료: $0(500 MB DB, 50K MAU), **Pro: 월 $25** — 무료 플랜 중지 조건 없음", "무료: Spark(1 GB DB, 10 GB 스토리지), **Blaze: 종량제** — 고정 Pro 월 요금 없음"],
-		["오픈소스와 벤더 종속성", "**Apache 2.0 오픈소스** 이며 자체 호스팅 가능, 다만 AI 과금은 InsForge 의존 가능성", "**Apache 2.0 오픈소스** 이고 자체 호스팅 가이드가 풍부", "**독점형** 이며 자체 호스팅 불가, 벤더 락인 위험이 가장 큼"]
-	  ],
-	  "tldr": "**InsForge를 선택할 시점** 은 Claude Code, Cursor, Codex 같은 에이전트 중심 워크플로에서 가장 빠르고 정확한 백엔드 프로비저닝과 내장 AI 모델 게이트웨이가 필요할 때다. **Supabase** 는 성숙한 Postgres 기반 백엔드와 넓은 생태계를 원하는 팀에 적합하다. **Firebase** 는 Google 생태계 연동, 실시간 NoSQL, 폭넓은 모바일 SDK가 중요한 경우 유리하다."
-	},
-	"es": {
-	  "reason": "InsForge aborda el mismo problema central que **Supabase** como backend gestionado y **Firebase** como BaaS full stack de despliegue rápido, pero se diferencia al posicionarse de forma clara para **flujos impulsados por agentes de IA**. Son los dos competidores más lógicos cuando un equipo evalúa backend para proyectos de programación agentic o vibe coding.",
-	  "caption": "InsForge frente a los competidores BaaS clave",
-	  "columns": ["Dimensión", "InsForge", "Supabase", "Firebase"],
-	  "rows": [
-		["Caso de uso principal", "**Programación agentic**: los agentes de IA aprovisionan y operan todo el backend mediante MCP", "**Flujos manuales de desarrollo**: backend Postgres configurado por el desarrollador con buen DX", "**Prototipado rápido**: backend NoSQL en tiempo real, ideal para apps móviles y de consumo"],
-		["Rendimiento nativo para agentes", "**1,7 veces más precisión y 30% menos tokens** que Supabase MCP, validado con Claude Code", "Dispone de servidor MCP, pero **no está optimizado** para precisión agentic", "**Sin servidor MCP nativo**; la integración requiere herramientas propias o conectores externos"],
-		["Integración de modelos de IA", "**Pasarela unificada** para OpenAI, Anthropic, Gemini y Grok con un solo SDK", "**Sin pasarela integrada de IA**; exige gestionar claves API externas por proveedor", "Firebase Genkit aporta integración de IA, pero **limitada al ecosistema Google y Vertex AI**"],
-		["Madurez del ecosistema", "**Etapa temprana** desde 2025; comunidad en crecimiento pero menos plugins y extensiones", "**Ecosistema maduro** con más de 3 años, abundantes integraciones y gran comunidad", "**El más maduro** con respaldo de Google desde 2014 y SDK para casi cualquier plataforma"],
-		["Precio y capa gratuita", "Gratis: $0 (500 MB DB, 50K MAU); **Pro: $25/mes** — pausa proyectos gratuitos tras 1 semana de inactividad", "Gratis: $0 (500 MB DB, 50K MAU); **Pro: $25/mes** — sin pausa por inactividad", "Gratis: plan Spark (1 GB DB, 10 GB almacenamiento); **Blaze: pago por uso** — sin tarifa Pro fija"],
-		["Código abierto y dependencia del proveedor", "**Apache 2.0 de código abierto**, desplegable en self-hosting; la facturación de IA puede generar dependencia", "**Apache 2.0 de código abierto**, con buenas guías de autoalojamiento", "**Propietario** de Google; sin opción self-hosting y con mayor riesgo de lock-in"]
-	  ],
-	  "tldr": "**Elige InsForge** si tu flujo está impulsado por agentes como Claude Code, Cursor o Codex y buscas el aprovisionamiento backend más rápido y preciso junto con una pasarela de IA integrada. **Elige Supabase** si prefieres un backend Postgres maduro, gestionado por desarrolladores y con ecosistema amplio. **Elige Firebase** si necesitas integración profunda con Google, NoSQL en tiempo real o el soporte móvil más extenso."
+	  "tldr": "**买 InsForge**，如果你的目标是把 Claude Code 或 Cursor 变成后端执行者，而不只是代码生成器。**买 Supabase**，如果你更看重成熟 SQL 生态和长期稳定性。**买 Firebase**，如果你需要 Google 原生速度、实时同步和移动端优先支持。"
 	}
   },
   "seo_title_jsonb": {
 	"en": "InsForge Review 2026: Pricing, Pros & Cons, Alternatives",
-	"zh": "InsForge 怎么样？2026 最新评测：价格、优缺点与竞品对比",
-	"ja": "【徹底レビュー】InsForgeの評判は？料金・特徴・代替サービスを解説",
-	"ko": "InsForge 리뷰 2026: 가격부터 장단점, 대체제까지 한 번에 정리",
-	"es": "Opiniones de InsForge: Precio, Ventajas y Alternativas"
+	"zh": "InsForge 怎么样？2026 最新评测：价格、优缺点与竞品对比"
   },
   "seo_description_jsonb": {
-	"en": "InsForge is the AI-native BaaS for agentic coding. 1.7x more accurate than Supabase MCP. Freemium plan + Pro from $25/mo. Full review, pricing & alternatives inside.",
-	"zh": "InsForge 是专为 AI 智能体编程打造的原生 BaaS，精准度比 Supabase MCP 高 1.7 倍。免费版可用，Pro 版起价 $25/月。完整评测、定价与竞品对比一览。",
-	"ja": "InsForge は AI エージェント開発向けの BaaS。Supabase MCP 比 1.7倍の精度、月額25ドルからの料金、無料枠、競合比較まで企業導入目線で整理。",
-	"ko": "InsForge는 AI 에이전트 코딩용 BaaS다. Supabase MCP 대비 1.7배 높은 정확도, 무료 플랜, 월 25달러 Pro, 경쟁 제품 비교까지 핵심만 정리했다.",
-	"es": "InsForge es un BaaS nativo para IA orientado a programación agentic. Ofrece 1,7 veces más precisión que Supabase MCP, plan freemium y Pro desde 25 dólares al mes."
+	"en": "InsForge Review 2026: explore Pricing, Free Tier, pros, cons, and alternatives. A strong AI-native backend for Claude Code, Cursor, and MCP automation.",
+	"zh": "InsForge 2026 评测：看价格、Free Tier、优缺点与竞品对比。适合 Claude Code、Cursor 与 MCP 后端自动化的 AI 原生平台。"
   }
 }
