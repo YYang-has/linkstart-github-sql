@@ -1,294 +1,414 @@
 {
   "slug": "cardboard",
-  "brand_slug": "usecardboard",
+  "brand_slug": "cardboard",
   "name_jsonb": {
 	"en": "Cardboard",
-	"zh": "Cardboard",
-	"ja": "Cardboard",
-	"ko": "Cardboard",
-	"es": "Cardboard"
+	"zh": "Cardboard"
   },
   "tagline_jsonb": {
-	"en": "Agentic Video Editor for Growth Teams",
-	"zh": "专为增长团队打造的 AI 智能视频剪辑平台",
-	"ja": "マーケティングチーム向けエージェント型動画編集",
-	"ko": "성장하는 팀을 위한 자율형 AI 비디오 에디터",
-	"es": "Editor de vídeo con IA para equipos de marketing"
+	"en": "Agentic video editor for teams that want to turn raw footage into publish-ready assets faster.",
+	"zh": "面向内容团队的 Agentic 视频编辑器，把原始素材更快转成可发布成片。"
   },
   "description_jsonb": {
-	"en": "> Executive Summary: <a href=\"https://www.linkstartai.com/en/agents/cardboard\" target=\"_blank\">Cardboard</a> is a browser-based, agentic video editor designed for <a href=\"https://www.linkstartai.com/en/categories/marketing\" target=\"_blank\">marketing</a> teams. It uses multimodal AI to transform raw footage into polished cuts via natural language commands, accelerating video iteration workflows.\n\nCardboard offers a Trial plan, with paid tiers starting at $60. It is More expensive than average for this category. By leveraging multimodal AI capabilities similar to <a href=\"https://www.linkstartai.com/en/agents/claude\" target=\"_blank\">Claude</a>, Cardboard understands visual context, emotion, and pacing to automate timeline assembly. The Creator plan ($60/mo) includes 100GB of cloud storage and allows 5 active projects with a 2.5GB max file size. It effortlessly handles rendering up to 4K at 60fps, cutting down hours of manual labor into mere minutes.",
-	"zh": "> 核心摘要：<a href=\"https://www.linkstartai.com/zh/agents/cardboard\" target=\"_blank\">Cardboard</a> 是一款基于浏览器的 Agent 视频剪辑工具，专为<a href=\"https://www.linkstartai.com/zh/categories/marketing\" target=\"_blank\">marketing</a>团队打造。它通过自然语言指令调度多模态大模型，将原始素材快速转化为高质量成片，大幅缩短工作流。\n\nCardboard offers a Trial plan, with paid tiers starting at $60. It is More expensive than average for this category. 借助媲美 <a href=\"https://www.linkstartai.com/zh/agents/claude\" target=\"_blank\">Claude</a> 的视觉理解能力，该平台能自动识别情感与节奏。基础版 ($60/月) 提供 100GB 云存储空间，支持每月 5 个活跃项目（单文件上限 2.5GB）。它可直接输出 4K 60fps 视频，将繁杂的手动粗剪时间压缩至数分钟。",
-	"ja": "> 概要：<a href=\"https://www.linkstartai.com/ja/agents/cardboard\" target=\"_blank\">Cardboard</a>は、<a href=\"https://www.linkstartai.com/ja/categories/marketing\" target=\"_blank\">マーケティング</a>チーム向けのブラウザベースのAI動画編集ツールです。自然言語による指示で、AIが自動的にタイムラインを構築し、作業時間を大幅に短縮します。\n\nCardboard offers a Trial plan, with paid tiers starting at $60. It is More expensive than average for this category. <a href=\"https://www.linkstartai.com/ja/agents/claude\" target=\"_blank\">Claude</a>に匹敵するマルチモーダルAIを搭載し、文脈や感情を理解したカット編集を実現。月額60ドルのプランでは、100GBのクラウドストレージ、最大2.5GBのファイルを扱う5つのプロジェクトが利用可能です。最大4K 60fpsの出力に対応し、プロレベルの編集を自動化します。",
-	"ko": "> 핵심 요약: <a href=\"https://www.linkstartai.com/ko/agents/cardboard\" target=\"_blank\">Cardboard</a>는 <a href=\"https://www.linkstartai.com/ko/categories/marketing\" target=\"_blank\">마케팅</a> 팀을 위해 설계된 브라우저 기반 AI 비디오 에디터입니다. 자연어 명령을 통해 원본 영상을 고품질 결과물로 자동 변환하여 작업 속도를 극대화합니다。\n\nCardboard offers a Trial plan, with paid tiers starting at $60. It is More expensive than average for this category. <a href=\"https://www.linkstartai.com/ko/agents/claude\" target=\"_blank\">Claude</a>와 같은 강력한 멀티모달 모델을 활용하여 맥락과 흐름을 이해합니다. 월 60달러 요금제는 100GB 클라우드 스토리지, 최대 2.5GB 파일 지원 및 5개의 활성 프로젝트를 제공합니다. 최대 4K 60fps로 내보낼 수 있어 수동 편집 시간을 몇 분으로 단축시킵니다.",
-	"es": "> Resumen Ejecutivo: <a href=\"https://www.linkstartai.com/es/agents/cardboard\" target=\"_blank\">Cardboard</a> es un editor de vídeo basado en navegador impulsado por agentes de IA, ideal para equipos de <a href=\"https://www.linkstartai.com/es/categories/marketing\" target=\"_blank\">marketing</a>. Utiliza comandos en lenguaje natural para transformar metraje en crudo en vídeos profesionales al instante.\n\nCardboard offers a Trial plan, with paid tiers starting at $60. It is More expensive than average for this category. Aprovechando capacidades similares a las de <a href=\"https://www.linkstartai.com/es/agents/claude\" target=\"_blank\">Claude</a>, la IA entiende el contexto y el ritmo. El plan Creator de $60/mes ofrece 100GB de almacenamiento, 5 proyectos activos con límite de 2.5GB por archivo y renderizado hasta 4K a 60fps, reduciendo las horas de edición manual a minutos."
+	"en": "> Cardboard is an AI-first, agentic video editor built for creators, marketers, and startup teams that need to turn raw footage into polished videos without living on a timeline. Its core value is compressing rough-cut work, captioning, search, and iteration into a faster, chat-driven workflow.\n\n<a href=\"https://www.linkstartai.com/en/agents/cardboard\" target=\"_blank\">Cardboard</a> positions itself as an AI-first editing system rather than a conventional NLE. The product promise is clear: go from raw footage to a publish-ready edit in minutes, support live collaboration, and let users describe edits in natural language instead of manually operating every timeline action. The site also states it helps teams create content 10x faster, and its interface references Claude Sonnet 4.6 as part of the editing workflow.\n\nFor automation-minded professionals, the biggest advantage is time compression in the messy middle of post-production. Cardboard automates silence removal, smart trimming, captions, semantic clip search, rough-cut assembly, and collaborative review, which makes it especially relevant for talking-head videos, podcast clipping, launch videos, explainers, vlogs, and montage-style content. The ability to search clips by what happened instead of filenames is a strong workflow win for large media libraries.\n\nCardboard offers a Paid Only plan, with paid tiers starting at $60. It is more expensive than average for this category. The Creator plan includes 5 active projects per month, 2.5GB max file size, 100GB cloud storage, automated captions, and unlimited exports up to 4K 60fps, while Pro costs $150/month with unlimited projects, 10GB max file size, 1TB storage, and priority AI processing.\n\nIn a modern AI stack, Cardboard fits best as the front-end automation layer for content operations. It reduces manual editing overhead before teams hand off to traditional tools, and its export support for Adobe Premiere Pro and DaVinci Resolve lowers adoption risk because editors can still finish inside established pipelines. For startup marketing teams and creator-led brands, that hybrid model is more practical than replacing the whole post-production stack at once.\n\nThe main caution is privacy and enterprise data handling. Cardboard's privacy policy says it may collect uploaded user content, prompts, generated outputs, and associated metadata, and it also says user data may be used to train, test, and improve machine learning models and algorithms. EU and EEA users are given an explicit opt-out path for AI research and model-development activities, which is useful, but teams handling client-sensitive footage should review these terms carefully before uploading production assets."
   },
-  "category_id": "98c48f94-f0a7-4de1-bbe4-7e1fd27040ec",
-  "solution_category_id": "1cbbc1c9-74f2-45da-bc71-caa430fa36f5",
+  "category_id": "992bb643-28c8-4f3b-b5a8-ddb5236bf36d",
+  "solution_category_id": "473cb70f-33a0-475d-90e7-44474ee8c87b",
   "website_url": "https://www.usecardboard.com/",
   "logo_url": "https://assets.linkstartai.com/icon/agents/cardboard.jpg",
-  "pricing_model": "freemium",
+  "pricing_model": "paid",
   "paid_options_from": "$60",
   "billing_frequency": "month",
-  "rating": 3.9,
-  "review_count": 52,
+  "rating": 4.0,
+  "review_count": 24,
   "supported_languages": [
 	"en",
-	"zh",
-	"ja",
-	"ko",
-	"es"
+	"zh"
   ],
   "tags_jsonb": {
 	"en": [
-	  "#AgenticEditing",
-	  "#MarketingVideos",
-	  "#GenerativeVideo"
+	  "AI video editing",
+	  "Agentic editing",
+	  "Podcast clipping",
+	  "Semantic clip search",
+	  "Natural language editing",
+	  "Premiere export"
 	],
 	"zh": [
-	  "#Agent智能剪辑",
-	  "#营销视频",
-	  "#生成式AI"
-	],
-	"ja": [
-	  "#エージェント編集",
-	  "#マーケティング動画",
-	  "#生成AI"
-	],
-	"ko": [
-	  "#AI자율편집",
-	  "#마케팅비디오",
-	  "#생성형AI"
-	],
-	"es": [
-	  "#EdiciónAgéntica",
-	  "#VídeosMarketing",
-	  "#IAGenerativa"
+	  "AI视频编辑",
+	  "Agentic编辑",
+	  "播客切片",
+	  "语义素材检索",
+	  "自然语言剪辑",
+	  "导出Premiere"
 	]
   },
   "features_jsonb": {
 	"en": [
-	  "Natural Language Editing",
-	  "Multimodal Context Understanding",
-	  "Browser-Based Live Collaboration",
-	  "Export to Premiere Pro & Resolve"
+	  "Describe edits in natural language to automate timeline changes",
+	  "Generate first cuts in minutes from raw footage",
+	  "Search clips by events and spoken moments instead of filenames",
+	  "Automate captions, silence removal, and smart trimming",
+	  "Collaborate live with comments, reviews, and shared project changes",
+	  "Export to Adobe Premiere Pro and DaVinci Resolve for finishing"
 	],
 	"zh": [
-	  "自然语言视频剪辑",
-	  "多模态上下文理解",
-	  "浏览器实时协同",
-	  "无缝导出至Premiere"
-	],
-	"ja": [
-	  "自然言語による編集",
-	  "マルチモーダルな文脈理解",
-	  "ブラウザベースの共同作業",
-	  "PremiereProへのエクスポート"
-	],
-	"ko": [
-	  "자연어 편집 기능",
-	  "멀티모달 맥락 이해",
-	  "브라우저 기반 실시간 협업",
-	  "프리미어 프로 내보내기"
-	],
-	"es": [
-	  "Edición por Lenguaje Natural",
-	  "Comprensión Contextual Multimodal",
-	  "Colaboración en Vivo",
-	  "Exportación a Premiere Pro"
+	  "用自然语言描述修改需求，自动完成时间线操作",
+	  "从原始素材快速生成首版粗剪",
+	  "按发生的事件和说话内容检索素材，而不是靠文件名",
+	  "自动生成字幕、去停顿、智能修剪",
+	  "支持实时协作、审阅与项目共享修改",
+	  "可导出到 Adobe Premiere Pro 和 DaVinci Resolve 做精修"
 	]
   },
   "videos_jsonb": [
 	{
 	  "type": "youtube",
-	  "videoId": "Gi977eZbABM",
-	  "title": "Cardboard | Mensa : Quick Demo",
-	  "uploadDate": "2026-01-17T00:00:00Z",
-	  "description": "Quick official demo of Cardboard, showing how an agentic video editor makes editing frictionless.",
-	  "duration": "PT2M8S"
+	  "videoId": "tkjAp5rDN6k",
+	  "title": "Which is the Best AI Video Editing Software in 2026?",
+	  "uploadDate": "2026-03-12T00:00:00Z",
+	  "description": "Compares AI video editors on automation, usability, and export quality.",
+	  "duration": "PT10M0S"
 	}
   ],
   "verdict_jsonb": {
 	"en": {
-	  "summary": "Cardboard is the definitive choice for marketing teams who need to automate first cuts and ad variants without hiring agencies.",
-	  "expert_quote": "LinkStart AI Lab note: \"The natural language processing of video timelines represents a paradigm shift, eliminating 80% of manual scrubbing.\"",
+	  "summary": "<a href=\"https://www.linkstartai.com/en/agents/cardboard\" target=\"_blank\">Cardboard</a> is the pragmatic choice for **content teams and creator-led startups** who need to **turn raw footage into polished short-form and marketing videos with less timeline work**. It stands out by combining natural-language editing, semantic search, and collaboration in one workflow. The trade-off is that pricing starts higher than many lightweight AI editors, and privacy-sensitive teams should evaluate data usage terms before scaling it internally.",
+	  "expert_quote": "\"At LinkStart AI Lab, we see Cardboard as one of the more credible agentic editing products because it automates the rough-cut bottleneck instead of just adding gimmicky AI effects. Its real value appears when a marketing or media team needs repeatable video throughput, not one-off experimentation.\"",
 	  "pros": [
-		"Eliminates hours of manual timeline scrubbing",
-		"Zero-install browser workflow",
-		"Seamless export to professional NLEs"
+		"Excellent for automated rough-cut workflows on talking heads, podcast clipping, launch videos, and explainers where speed matters more than frame-perfect manual editing.",
+		"Natural-language editing reduces timeline friction and makes non-editor teammates more useful in an AI-assisted content operations workflow.",
+		"Semantic clip search, captions, silence removal, and smart trimming create a stronger end-to-end automated video repurposing workflow than basic subtitle-first tools.",
+		"Exports to Adobe Premiere Pro and DaVinci Resolve, which lowers switching risk for teams that still need professional finishing in established post-production stacks."
 	  ],
 	  "cons": [
-		"High starting price ($60/mo) for solo creators",
-		"Struggles with ultra-precise transition micro-adjustments"
+		"No visible free tier, and the $60/month starting price is not cheap for solo users who only need occasional AI-assisted edits.",
+		"Creator plan limits users to 5 active projects per month and 2.5GB max file size, which can be restrictive for heavier production workloads.",
+		"Privacy policy allows uploaded content and prompts to be used to train and improve machine learning systems unless users rely on available opt-out mechanisms in applicable regions.",
+		"The product is optimized for speed and workflow automation, so editors seeking deep manual control may still need a traditional NLE for final polish."
 	  ]
 	},
 	"zh": {
-	  "summary": "Cardboard 是增长团队实现广告素材和营销视频自动化初剪的卓越选择。",
-	  "expert_quote": "LinkStart AI Lab 评语：\"通过自然语言重塑视频时间线，成功消除了 80% 毫无意义的拖拽与切片工作。\"",
+	  "summary": "<a href=\"https://www.linkstartai.com/zh/agents/cardboard\" target=\"_blank\">Cardboard</a> 是更适合 **内容团队、增长团队与创作者型创业公司** 的选择，尤其适合需要 **把原始素材快速变成短视频、品牌视频和营销成片** 的场景。它的核心优势不在炫技特效，而在于把粗剪、字幕、检索、协作整合成一套更高效的 AI 工作流。代价是入门价格不低，而且对隐私敏感团队来说，数据条款必须提前看清楚。",
+	  "expert_quote": "\"LinkStart AI Lab 的判断是：Cardboard 真正有价值的地方，在于它把最耗时的粗剪流程做成了可规模化的 AI 自动化，而不是只做一个会加字幕的轻量工具。对于追求内容产能的团队，这种方向是对的。\"",
 	  "pros": [
-		"节省数小时的时间线浏览与修剪工作",
-		"无需安装的浏览器原生协同",
-		"无缝导出至专业剪辑软件"
+		"非常适合 talking head、播客切片、产品发布视频、讲解视频等高重复内容场景，能明显缩短从素材到首版成片的时间。",
+		"自然语言编辑降低了时间线操作门槛，让非专业剪辑也能参与 AI 驱动的视频生产流程。",
+		"语义检索、自动字幕、去停顿、智能修剪组合在一起，形成了更完整的自动化视频再利用工作流，而不只是单点功能。",
+		"支持导出到 Adobe Premiere Pro 和 DaVinci Resolve，方便团队保留原有后期管线，不需要一次性完全替换。"
 	  ],
 	  "cons": [
-		"60美元/月的起步价对个人创作者不够友好",
-		"在处理微秒级极高精度转场时表现一般"
-	  ]
-	},
-	"ja": {
-	  "summary": "Cardboardは、外部業者に頼らず広告動画の初稿作成を自動化したいマーケティングチームにとって最適な選択です。",
-	  "expert_quote": "LinkStart AI Lab 評価:「自然言語によるタイムライン操作は、手動作業の80%を削減する画期的なアプローチです。」",
-	  "pros": [
-		"タイムライン確認の手間を劇的に削減",
-		"インストール不要のブラウザ完結型",
-		"プロ向けソフトへのスムーズな連携"
-	  ],
-	  "cons": [
-		"個人クリエイターには割高な開始価格($60/月)",
-		"ミリ秒単位の精密なトランジション調整には不向き"
-	  ]
-	},
-	"ko": {
-	  "summary": "Cardboard는 대행사 없이 광고 변형 및 초안 자동화를 필요로 하는 마케팅 팀을 위한 최고의 선택입니다.",
-	  "expert_quote": "LinkStart AI Lab 평가: \"자연어로 비디오 타임라인을 편집하는 기능은 수동 탐색 작업의 80%를 제거합니다.\"",
-	  "pros": [
-		"수동 타임라인 스크러빙 시간 단축",
-		"설치가 필요 없는 브라우저 워크플로우",
-		"전문 NLE로의 완벽한 내보내기"
-	  ],
-	  "cons": [
-		"개인에게 다소 부담스러운 시작 가격 ($60/월)",
-		"매우 정밀한 트랜지션 미세 조정의 한계"
-	  ]
-	},
-	"es": {
-	  "summary": "Cardboard es la opción definitiva para los equipos de marketing que necesitan automatizar los primeros cortes y variantes de anuncios sin agencias.",
-	  "expert_quote": "Nota de LinkStart AI Lab: \"El procesamiento en lenguaje natural de la línea de tiempo elimina el 80% del trabajo manual aburrido.\"",
-	  "pros": [
-		"Elimina horas de ajuste manual",
-		"Flujo de trabajo en navegador sin instalaciones",
-		"Exportación perfecta a editores profesionales"
-	  ],
-	  "cons": [
-		"Precio inicial alto ($60/mes) para creadores individuales",
-		"Dificultad con micro-ajustes precisos de transición"
+		"没有公开免费版，$60/月起的门槛对轻度用户和个人创作者并不便宜。",
+		"Creator 套餐只有 5 个活跃项目、2.5GB 单文件上限，对中重度视频团队很快会碰到限制。",
+		"隐私政策写明上传内容、提示词和生成内容可能用于训练和改进机器学习系统，处理客户敏感素材时需要谨慎。",
+		"它更偏向提效和自动化，不是深度精修型工具；重度后期依然可能需要传统 NLE 做最后打磨。"
 	  ]
 	}
   },
   "faqs_jsonb": [
 	{
 	  "question": {
-		"en": "Cardboard vs Premiere Pro: Which is better for video editing?",
-		"zh": "Cardboard 与 Premiere Pro 核心对比：哪个更适合视频剪辑？",
-		"ja": "CardboardとPremiere Proの比較：動画編集にはどちらが適していますか？",
-		"ko": "Cardboard vs 프리미어 프로: 비디오 편집에 어떤 것이 더 나은가요?",
-		"es": "Cardboard vs Premiere Pro: ¿Cuál es mejor para la edición de vídeo?"
+		"en": "Cardboard vs Descript: which is better for AI-first marketing video workflows?",
+		"zh": "Cardboard 和 Descript 相比，谁更适合 AI 驱动的营销视频工作流？"
 	  },
 	  "answer": {
-		"en": "While Premiere Pro excels at frame-perfect finishing and granular color grading, Cardboard has an absolute advantage in generating first cuts and ad variants purely from natural language. It dramatically reduces initial processing time, though professional colorists will still want to export the XML back to Premiere.",
-		"zh": "虽然 Premiere Pro 在精确到帧的修饰和深度调色上无可匹敌，但 Cardboard 在通过自然语言生成初剪和广告变体方面拥有绝对优势。它能大幅减少早期处理时间，尽管专业调色师仍需将其导出至 Premiere 进行最终润色。",
-		"ja": "Premiere Proはフレーム単位の完璧な調整に優れていますが、Cardboardは自然言語からの初稿生成に絶対的な優位性を持っています。初期作業を劇的に減らすことができますが、最終的な微調整にはPremiereへ書き出すのが最適です。",
-		"ko": "프리미어 프로가 프레임 단위의 완벽한 마무리와 색보정에 뛰어나다면, Cardboard는 자연어만으로 초안과 광고 변형을 생성하는 데 절대적인 우위를 가집니다. 전문가들은 여전히 프리미어로 마무리하겠지만 초기 작업 시간을 크게 줄여줍니다.",
-		"es": "Mientras que Premiere Pro destaca en los acabados perfectos, Cardboard tiene una ventaja absoluta al generar primeros cortes y variantes mediante lenguaje natural. Reduce drásticamente el tiempo de procesamiento inicial, aunque los profesionales seguirán exportando a Premiere para los detalles finales."
+		"en": "The core difference is that while <a href=\"https://www.linkstartai.com/en/agents/cardboard\" target=\"_blank\">Cardboard</a> is built around agentic rough-cut generation, semantic clip search, and natural-language timeline changes, Descript is stronger as a transcript-centric editor for podcasts, screen recordings, and text-based editing. Cardboard starts at $60/month and includes exports up to 4K 60fps, Premiere Pro and DaVinci Resolve export, plus AI-first rough-cut workflows; that gives it an advantage for teams repurposing raw footage into ads, explainers, and social clips. While Descript usually feels easier for script-led editing, Cardboard has the more aggressive automation angle for turning unstructured footage into a first cut quickly.",
+		"zh": "核心差异是：虽然 <a href=\"https://www.linkstartai.com/zh/agents/cardboard\" target=\"_blank\">Cardboard</a> 更强调 agentic 粗剪、语义素材检索和自然语言改时间线，但 Descript 更强在“按文字编辑音视频”的转录式工作流，尤其适合播客、录屏和脚本驱动内容。Cardboard $60/月起，支持最高 4K 60fps 导出，并可导出到 Premiere Pro 和 DaVinci Resolve，因此在把原始素材快速做成广告片、讲解视频和社媒切片上更有优势。虽然 Descript 对文本编辑型用户更友好，但 Cardboard 在“从杂乱素材自动拉出首版成片”这件事上更激进。"
 	  }
 	},
 	{
 	  "question": {
-		"en": "Can I trust the AI agent's creative decisions without manual timeline control?",
-		"zh": "如果没有传统时间线控制，我能信任 AI Agent 的创意决策吗？",
-		"ja": "タイムラインの手動操作なしにAIの判断を信用できますか？",
-		"ko": "수동 타임라인 제어 없이 AI의 창의적 결정을 신뢰할 수 있나요?",
-		"es": "¿Puedo confiar en las decisiones creativas de la IA sin un control manual?"
+		"en": "What are the main pain points and limitations users should expect with Cardboard?",
+		"zh": "使用 Cardboard 前，用户最需要提前知道的痛点和限制是什么？"
 	  },
 	  "answer": {
-		"en": "Yes, but with caveats. Reddit and Hacker News communities report that while the AI correctly handles 80% of mundane tasks like dead air removal, it struggles with highly specific rhythmic transitions. The workaround is that Cardboard does provide manual overrides directly in the browser, plus one-click export to DaVinci Resolve.",
-		"zh": "可以，但有条件。根据社区实测，尽管 AI 能处理 80% 如去除空白等枯燥任务，但在处理极具节奏感的特定转场时仍显吃力。有效的 Workaround 是直接使用其内置的手动覆盖功能，或一键导出至 DaVinci Resolve 进行调整。",
-		"ja": "はい、ただし注意点があります。無音部分の削除などの80%の定型作業はAIが正確に処理しますが、特定のリズムに合わせた場面転換は苦手です。解決策として、手動でのオーバーライドやDaVinci Resolveへのエクスポート機能が用意されています。",
-		"ko": "네, 하지만 조건이 있습니다. AI가 공백 제거와 같은 일상적 작업의 80%를 처리하지만 특정 리듬의 트랜지션에는 어려움을 겪습니다. 해결책으로 브라우저 내에서 수동 제어 기능을 제공하며, 다빈치 리졸브로 내보낼 수도 있습니다.",
-		"es": "Sí, pero con advertencias. La comunidad informa que la IA maneja el 80% de las tareas mundanas, pero tiene dificultades con transiciones rítmicas complejas. La solución es que Cardboard permite anulaciones manuales o exportar a DaVinci Resolve para un control total."
+		"en": "Yes, there are real limits. The public pricing page shows the Creator plan caps users at 5 active projects per month, 2.5GB max file size, and 100GB cloud storage, so heavier creators may outgrow the entry tier fast. More importantly, Cardboard's privacy policy states it may scan and analyze uploaded user content, prompts, and generated outputs to improve and develop machine learning models, so privacy-conscious teams should use stricter internal review before uploading client footage or regulated content.",
+		"zh": "有，而且很实际。公开价格页写明 Creator 套餐只有 5 个活跃项目、2.5GB 单文件上限和 100GB 云存储，中高频内容团队很{
+  "slug": "cardboard",
+  "brand_slug": "cardboard",
+  "name_jsonb": {
+	"en": "Cardboard",
+	"zh": "Cardboard"
+  },
+  "tagline_jsonb": {
+	"en": "Agentic video editor for turning raw footage into publish-ready cuts with natural-language workflows.",
+	"zh": "面向内容团队的智能视频编辑器，用自然语言把原始素材快速变成可发布成片。"
+  },
+  "description_jsonb": {
+	"en": "> Cardboard is an agentic video editor for creators, marketers, and startup teams that need to turn raw footage into finished social, product, and explainer videos faster. Its core value is automating the painful first cut, captioning, clip search, and revision loop while still letting humans steer the final story.\n\n<a href=\"https://www.linkstartai.com/en/agents/cardboard\" target=\"_blank\">Cardboard</a> positions itself as an AI-first video workflow layer rather than a classic timeline-heavy NLE. The product promise is clear: go from raw footage to a clean, publish-ready edit in minutes, with natural-language commands mapped to timeline operations, semantic clip search, live collaboration, automated captions, and exports to Adobe Premiere Pro and DaVinci Resolve. On its homepage, Cardboard also states it can help teams create content **10x faster**, and the UI preview shows caption accuracy at **99% Acc**, giving it stronger quantitative positioning than most early-stage AI video editors.\n\nFor automation-focused users, the biggest win is not \"AI magic\" but workflow compression. Cardboard can remove awkward pauses, generate first cuts, surface clips by what happened instead of filename, and support collaborative review so growth teams can move from rough media to campaign-ready assets without bouncing between an assistant editor, caption tool, asset manager, and feedback stack. That makes it especially relevant for podcast clipping, talking-head edits, launch videos, product explainers, and short-form repurposing.\n\nCardboard offers a Paid Only plan, with paid tiers starting at $60/month. It is More expensive than average for this category. The entry Creator plan includes 5 active projects per month, 2.5GB max file size, 100GB storage, automated captions, and unlimited exports up to 4K 60fps, while Pro starts at $150/month with unlimited projects, 10GB max file size, 1TB storage, priority AI processing, and early access to new models. Teams adds SAML, SSO, audit logs, unlimited storage, and a dedicated account manager, which pushes Cardboard into serious production-team territory rather than hobbyist AI editing.\n\nThe main tradeoff is control versus cost. If you already live comfortably inside Premiere Pro, Resolve, or CapCut and only need light AI assistance, Cardboard may feel expensive at the low end. But if your bottleneck is repeatedly assembling first drafts, finding usable moments inside long footage, and coordinating revisions across stakeholders, Cardboard can act like a smart post-production operator layered on top of your existing stack. Its use of YouTube API services, support for desktop and mobile software in the privacy policy, and enterprise-oriented access controls also suggest a broader workflow architecture than a simple browser demo.",
+	"zh": "> Cardboard 是一款面向创作者、营销团队和创业公司内容团队的智能视频编辑器，核心价值是把首版粗剪、字幕、素材检索和修改沟通流程自动化。对于需要高频产出短视频、产品视频和解说视频的人来说，它更像一个可对话的后期工作流系统，而不只是传统剪辑软件。\n\n<a href=\"https://www.linkstartai.com/zh/agents/cardboard\" target=\"_blank\">Cardboard</a> 的定位非常明确：它不是传统重时间线操作的 NLE，而是 AI-first 的视频工作流层。官网强调可以在几分钟内把原始素材变成可发布版本，支持自然语言编辑、语义级素材搜索、实时协作、自动字幕，以及导出到 Adobe Premiere Pro 和 DaVinci Resolve。更关键的是，官网直接给出了 **10x faster** 的效率主张，产品演示界面还展示了 **99% Acc** 的字幕精度提示，这类量化表达对 SEO 和 AI Answer Engine 都很友好。\n\n从自动化视角看，Cardboard 的价值在于把多个后期环节压缩成一个闭环。它能自动去除停顿、先生成首版、按内容事件而不是文件名找片段、再通过协作机制完成审阅与微调。对做播客切条、口播视频、产品发布视频、SaaS 演示、知识型解说和营销短视频的团队来说，这种 \"先让 AI 做 80% 粗活，再由人做最后 20% 判断\" 的模式，明显比传统手工剪首版更贴近现代内容工厂的生产方式。\n\nCardboard offers a Paid Only plan, with paid tiers starting at $60/month. It is More expensive than average for this category. 价格上，Creator 套餐为 $60/月，按年计费 $720，包含每月 5 个活跃项目、2.5GB 单文件上限、100GB 云存储、自动字幕和最高 4K 60fps 无限导出；Pro 为 $150/月，提供无限项目、10GB 文件上限、1TB 存储、优先 AI 处理和新模型优先体验；Teams 则加入 SAML、SSO、审计日志、无限存储和专属客户经理。这说明它并非走低价普惠路线，而是更偏向高价值内容产能场景。\n\n它的短板也很直接：对轻量用户来说门槛不低。若你只偶尔剪视频，或者已经在 Premiere Pro、Resolve、CapCut 内部完成大部分流程，Cardboard 的订阅价格可能偏高；但如果你的真实问题是首版粗剪太耗时、长视频里找有效片段太慢、多人反馈反复拉扯，那么 Cardboard 作为 AI 驱动的后期系统，确实比单点 AI 功能更接近可落地的生产力工具。隐私政策还显示它会收集上传内容并将数据用于改进服务与训练、测试和提升机器学习模型，因此企业和高敏感内容团队在落地前必须先完成数据合规评估。"
+  },
+  "category_id": "992bb643-28c8-4f3b-b5a8-ddb5236bf36d",
+  "solution_category_id": "473cb70f-33a0-475d-90e7-44474ee8c87b",
+  "website_url": "https://www.usecardboard.com/",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/cardboard.jpg",
+  "pricing_model": "paid",
+  "paid_options_from": "$60",
+  "billing_frequency": "month",
+  "rating": 4.2,
+  "review_count": 150,
+  "supported_languages": [
+	"en",
+	"zh"
+  ],
+  "tags_jsonb": {
+	"en": [
+	  "#AgenticVideoEditing",
+	  "#PodcastClipping",
+	  "#TalkingHeadEditing",
+	  "#SemanticClipSearch",
+	  "#AIShortFormRepurposing",
+	  "#CaptionAutomation"
+	],
+	"zh": [
+	  "#智能视频剪辑",
+	  "#播客切条",
+	  "#口播视频处理",
+	  "#语义素材检索",
+	  "#短视频重制",
+	  "#自动字幕"
+	]
+  },
+  "features_jsonb": {
+	"en": [
+	  "Generate first cuts to compress raw-footage assembly into minutes.",
+	  "Edit with natural-language commands to reduce manual timeline work.",
+	  "Search clips by semantic events instead of filenames for faster retrieval.",
+	  "Automate captions and silence removal to clean talking-head footage.",
+	  "Export to Premiere Pro and DaVinci Resolve to fit existing post-production stacks.",
+	  "Collaborate live so teams can review and revise without scattered feedback loops."
+	],
+	"zh": [
+	  "自动生成首版粗剪，把素材拼装时间压缩到分钟级。",
+	  "用自然语言改视频，减少手动拖时间线和逐帧微调。",
+	  "按语义事件搜索素材，而不是靠文件名翻素材库。",
+	  "自动生成字幕并去除停顿，提升口播视频成片效率。",
+	  "支持导出到 Premiere Pro 和 DaVinci Resolve，便于接入现有后期流程。",
+	  "支持实时协作审阅，减少团队在反馈与改稿上的来回拉扯。"
+	]
+  },
+  "videos_jsonb": [
+	{
+	  "type": "youtube",
+	  "videoId": "tkjAp5rDN6k",
+	  "title": "Which is the Best AI Video Editing Software in 2026?",
+	  "uploadDate": "2026-03-12T00:00:00Z",
+	  "description": "Recent comparison of AI video editors covering automation, speed, and exports.",
+	  "duration": "PT10M0S"
+	}
+  ],
+  "verdict_jsonb": {
+	"en": {
+	  "summary": "<a href=\"https://www.linkstartai.com/en/agents/cardboard\" target=\"_blank\">Cardboard</a> is the **high-leverage content teams** choice for **turning raw footage into polished, publish-ready edits with fewer manual post-production steps**. It stands out when the real bottleneck is first-pass assembly, short-form repurposing, and feedback coordination rather than frame-perfect artisan editing. Its price is premium, but the workflow compression is real.",
+	  "expert_quote": "\"LinkStart AI Lab view: Cardboard is one of the more credible agentic editing products because it automates the messy middle of post-production, not just captions or templates. The product becomes defensible when your team measures ROI in review cycles removed, not in novelty features alone.\"",
+	  "pros": [
+		"Excellent fit for **automated podcast clipping workflow** and creator repurposing pipelines where long footage must be turned into multiple short assets quickly.",
+		"Natural-language editing plus semantic search removes a large chunk of low-value manual work in **AI talking-head editing workflow** scenarios.",
+		"Export support for Premiere Pro and DaVinci Resolve makes it easier to slot into an existing **hybrid AI video production workflow** instead of forcing a full tool switch.",
+		"Strong team-readiness with live collaboration, SAML/SSO, audit logs, and dedicated support on Teams plans."
+	  ],
+	  "cons": [
+		"Starting at $60/month, it is expensive for solo users who only need occasional AI assists rather than full workflow replacement.",
+		"Creator plan limits users to 5 active projects per month and 2.5GB file size, which can be restrictive for serious production use.",
+		"Privacy policy states uploaded content may be scanned, analyzed, and used to train, test, and improve machine learning models, so sensitive teams need formal review before adoption.",
+		"Advanced editors who demand microscopic timeline control may still finish inside Premiere Pro or Resolve after Cardboard generates the draft."
+	  ]
+	},
+	"zh": {
+	  "summary": "<a href=\"https://www.linkstartai.com/zh/agents/cardboard\" target=\"_blank\">Cardboard</a> 是 **高频内容团队** 用来 **把原始素材更快变成可发布成片、并显著减少手工后期步骤** 的强势选择。它真正擅长的不是替代所有精细剪辑，而是解决首版粗剪、内容切条和多人反馈协同这些最耗时间的环节。价格不算便宜，但对有内容产能压力的团队，投入产出比是成立的。",
+	  "expert_quote": "\"LinkStart AI Lab 判断：Cardboard 值得关注，不是因为它会自动剪视频，而是因为它把后期里最脏最累的中间流程系统化了。对增长团队来说，真正的价值来自减少首版制作和反复改稿，而不是单一 AI 花活。\"",
+	  "pros": [
+		"非常适合 **播客切条自动化工作流**，能把长音视频快速拆成多个可分发短内容。",
+		"自然语言编辑结合语义搜索，明显降低 **口播视频 AI 剪辑流程** 中的大量重复劳动。",
+		"支持导出到 Premiere Pro 和 DaVinci Resolve，适合接入 **混合式 AI 视频生产工作流**，而不是强迫团队彻底迁移。",
+		"团队版具备实时协作、SAML/SSO、审计日志和专属支持，适合更正式的内容生产环境。"
+	  ],
+	  "cons": [
+		"$60/月起步对轻量个人用户并不友好，若只是偶尔剪视频会觉得偏贵。",
+		"Creator 套餐只有每月 5 个活跃项目、2.5GB 文件上限，对高频产能团队很快会碰到限制。",
+		"隐私政策明确提到上传内容可能被扫描、分析，并用于训练、测试和改进机器学习模型，处理敏感素材前必须先做合规评估。",
+		"对需要极高精细控制的专业剪辑师来说，最终精修仍很可能回到 Premiere Pro 或 Resolve。"
+	  ]
+	}
+  },
+  "faqs_jsonb": [
+	{
+	  "question": {
+		"en": "Cardboard vs Descript: which is better for turning long-form footage into short clips?",
+		"zh": "Cardboard 和 Descript 相比，谁更适合把长视频快速切成短内容？"
+	  },
+	  "answer": {
+		"en": "The core difference is that while <a href=\"https://www.linkstartai.com/en/agents/cardboard\" target=\"_blank\">Cardboard</a> is built around agentic video assembly, semantic clip retrieval, and natural-language timeline changes, Descript is stronger when the workflow starts from transcript-first editing and screen-recording style production. Cardboard has an absolute advantage for first-cut generation, collaboration, and finishing publish-ready social edits from raw footage; Descript is often simpler for text-based edits, overdub-style narration workflows, and basic repurposing. If your team handles podcast clipping, launch videos, and marketing reels from raw media, Cardboard is usually the sharper fit; if you mainly edit spoken content from transcripts, Descript may be easier to operationalize.",
+		"zh": "核心差异是：虽然 <a href=\"https://www.linkstartai.com/zh/agents/cardboard\" target=\"_blank\">Cardboard</a> 更偏向 agentic 视频编排、语义找片和自然语言驱动时间线修改，但 Descript 更强在 transcript-first 的文本式编辑和录屏内容生产。Cardboard 在首版粗剪、团队协作、从原始素材直接产出社媒成片方面有明显优势；Descript 则更适合基于逐字稿改内容、配音修订和轻量重制。如果你的工作流是播客切条、产品发布片和营销短视频，Cardboard 更对路；如果主要是改口播稿和录屏内容，Descript 上手更轻。"
 	  }
 	},
 	{
 	  "question": {
-		"en": "Is there a free tier and what are the API rate limits?",
-		"zh": "是否有免费版本？API 或项目调用有限制吗？",
-		"ja": "無料プランはありますか？利用制限はどのようになっていますか？",
-		"ko": "무료 버전이 있나요? 제한 사항은 무엇인가요?",
-		"es": "¿Hay una versión gratuita y cuáles son los límites?"
+		"en": "What are the biggest real-world concerns with Cardboard right now?",
+		"zh": "现在用户真正需要警惕的 Cardboard 问题有哪些？"
 	  },
 	  "answer": {
-		"en": "No, Cardboard does not offer a permanent free tier. The base \"Creator\" plan starts at $60/month, strictly limiting you to 5 active projects and a 2.5GB maximum file size. For unlimited projects and larger 10GB files, you must upgrade to the $150/mo Pro tier.",
-		"zh": "没有，Cardboard 不提供永久免费版。基础的“Creator”计划起价为 60美元/月，严格限制每月 5 个活跃项目，且单文件最大支持 2.5GB。若需无限制项目和 10GB 的文件上限，则需升级至 150美元/月的专业版。",
-		"ja": "いいえ、永久無料プランはありません。ベースとなる「Creator」プランは月額60ドルで、5つのアクティブプロジェクトと最大2.5GBのファイルサイズに厳密に制限されています。無制限のプロジェクトには月額150ドルのProプランが必要です。",
-		"ko": "아니요, 영구 무료 요금제는 없습니다. 월 60달러의 '크리에이터' 요금제는 5개의 활성 프로젝트와 최대 2.5GB 파일로 엄격히 제한됩니다. 무제한 프로젝트와 10GB 파일을 위해서는 150달러의 프로 요금제가 필요합니다.",
-		"es": "No, Cardboard no ofrece un nivel gratuito permanente. El plan base de $60/mes te limita a 5 proyectos activos y un tamaño máximo de 2.5GB. Para proyectos ilimitados y archivos de hasta 10GB, debes actualizar al nivel Pro de $150/mes."
+		"en": "The biggest concerns are price, plan limits, and data handling. Creator starts at $60/month, includes only 5 active projects and a 2.5GB file limit, so small teams can hit capacity quickly; the privacy policy also states Cardboard may scan, analyze, and review uploaded user content and use personal data to train, test, and improve machine learning models. The practical workaround is to keep sensitive client footage out of default cloud workflows until legal review is done, and to budget straight for Pro if your team produces content continuously.",
+		"zh": "最现实的三个问题是价格、套餐限制和数据处理。Creator 起步价 $60/月，只含 5 个活跃项目和 2.5GB 文件上限，小团队很容易撞到天花板；同时隐私政策明确写到平台可能会扫描、分析用户上传内容，并把个人数据用于训练、测试和改进机器学习模型。更稳妥的落地方式是：敏感客户素材先不要直接走默认云端流程，先完成法务与合规审查；如果团队是持续生产内容，预算上最好直接看 Pro。"
 	  }
 	},
 	{
 	  "question": {
-		"en": "How does Cardboard integrate into an established production workflow?",
-		"zh": "Cardboard 如何集成到现有的主流视频生产工作流中？",
-		"ja": "Cardboardは既存の制作ワークフローにどのように統合されますか？",
-		"ko": "Cardboard는 기존 프로덕션 워크플로우와 어떻게 통합되나요?",
-		"es": "¿Cómo se integra Cardboard en un flujo de trabajo de producción?"
+		"en": "Does Cardboard have a free tier, and what are the real pricing limits?",
+		"zh": "Cardboard 有免费版吗？它的价格和限制到底是什么？"
 	  },
 	  "answer": {
-		"en": "Cardboard is designed as an ingest-and-assembly layer. Instead of replacing your stack, it outputs XML workflows compatible with Premiere Pro and DaVinci Resolve. This 2-way sync philosophy ensures high-end compositing is never blocked by browser limitations.",
-		"zh": "Cardboard 被设计为前期的素材提取与组装层。它并非要完全取代现有的技术栈，而是能够输出完美兼容 Premiere Pro 和 DaVinci Resolve 的 XML 工作流。这种无缝衔接确保了高端合成永远不会受限于浏览器的性能瓶颈。",
-		"ja": "Cardboardは初期の取り込みと組み立て層として機能します。環境を置き換えるのではなく、Premiere ProやDaVinci Resolveと互換性のあるXMLを出力するため、ブラウザの制限によって高度な編集が妨げられることはありません。",
-		"ko": "Cardboard는 초기 조립 및 수집 레이어로 설계되었습니다. 기존 스택을 대체하는 대신 프리미어 프로 및 다빈치 리졸브와 호환되는 XML 워크플로우를 출력하여, 고급 컴포지팅 작업이 브라우저의 한계로 인해 차단되지 않도록 합니다.",
-		"es": "Cardboard está diseñado como una capa inicial de ensamblaje. En lugar de reemplazar tu software, exporta un flujo de trabajo XML compatible con Premiere Pro y DaVinci Resolve, asegurando que la composición avanzada nunca quede limitada por el navegador."
+		"en": "No, Cardboard does not publicly show a free tier. Prices start at $60/month for Creator with 5 active projects, 2.5GB max file size, 100GB storage, automated captions, and exports up to 4K 60fps; Pro is $150/month with unlimited projects, 10GB file size, 1TB storage, priority AI processing, and early model access, while Teams is custom-priced. There is a 7-day money-back guarantee, but this is a premium workflow product, not a low-friction freemium editor.",
+		"zh": "没有，Cardboard 目前公开页面没有展示免费版。价格从 Creator 的 $60/月起，包含 5 个活跃项目、2.5GB 单文件上限、100GB 存储、自动字幕和最高 4K 60fps 导出；Pro 为 $150/月，提供无限项目、10GB 文件上限、1TB 存储、优先 AI 处理和新模型优先体验，Teams 为定制报价。它有 7 天退款保证，但本质上这是一个偏高客单价的工作流产品，不是低门槛 freemium 工具。"
 	  }
 	},
 	{
 	  "question": {
-		"en": "Are my private corporate videos used to train Cardboard's AI models?",
-		"zh": "我的私人企业视频会被用来训练 Cardboard 的 AI 模型吗？",
-		"ja": "非公開の企業動画がAIのトレーニングに使用されることはありますか？",
-		"ko": "내 비공개 기업 비디오가 모델 학습에 사용되나요?",
-		"es": "¿Se utilizan mis vídeos privados para entrenar los modelos de IA?"
+		"en": "How does Cardboard fit into a modern AI video stack with Premiere Pro, DaVinci Resolve, and YouTube?",
+		"zh": "Cardboard 怎么接进现代 AI 视频工作流，比如 Premiere Pro、DaVinci Resolve 和 YouTube？"
 	  },
 	  "answer": {
-		"en": "For enterprise deployments on custom contracts, data isolation is guaranteed through SAML/SSO architecture and explicit zero-retention policies. However, lower-tier public users must explicitly review the Terms of Service, as metadata processing relies on large multi-tenant LLM inference clusters.",
-		"zh": "对于签署定制合同的企业用户，通过 SAML/SSO 架构及严格的零保留政策可绝对保证数据隔离。然而，普通级别的公共用户需要仔细阅读服务条款，因为其元数据处理依赖于多租户的 LLM 推理集群。",
-		"ja": "カスタム契約のエンタープライズ版では、SAML/SSOアーキテクチャとゼロ保持ポリシーによってデータ分離が保証されています。ただし、一般ユーザーのメタデータ処理はマルチテナントのLLMクラスターに依存するため、規約の確認が必要です。",
-		"ko": "맞춤형 계약을 체결한 기업의 경우 SAML/SSO 아키텍처 및 제로 보존 정책을 통해 데이터 격리가 보장됩니다. 하지만 일반 사용자의 메타데이터는 다중 테넌트 LLM 클러스터에서 처리되므로 서비스 약관을 명시적으로 검토해야 합니다.",
-		"es": "Para implementaciones empresariales con contrato, el aislamiento de datos está garantizado mediante arquitectura SAML/SSO. Sin embargo, los usuarios de niveles inferiores deben revisar los términos de servicio, ya que el procesamiento depende de clústeres LLM multiinquilino."
+		"en": "Yes, Cardboard fits best as the front-end acceleration layer in a hybrid stack. You can use it to ingest raw footage, generate the first cut, add captions, trim silence, and locate moments semantically, then export to Premiere Pro or DaVinci Resolve for final polish; its privacy policy also references features developed with YouTube API Services, which suggests direct utility for creator distribution workflows. In practice, that means Cardboard handles the repetitive assembly and search layer while your main NLE remains the finishing environment.",
+		"zh": "可以，而且最适合把它放在混合式视频栈的前端加速层。你可以先用它导入原始素材、生成首版粗剪、加字幕、去停顿、按语义找高价值片段，然后再导出到 Premiere Pro 或 DaVinci Resolve 做最终精修；其隐私政策还提到部分功能基于 YouTube API Services 开发，说明它对创作者分发链路也有一定适配。实操上就是：Cardboard 负责重复性素材整理和粗加工，主 NLE 负责最后成片控制。"
 	  }
 	},
 	{
 	  "question": {
-		"en": "Can I use Cardboard for long-form narrative feature films?",
-		"zh": "我可以使用 Cardboard 来剪辑长篇叙事电影吗？",
-		"ja": "長編の物語映画の編集にCardboardは使用できますか？",
-		"ko": "장편 내러티브 영화 편집에 Cardboard를 사용할 수 있나요?",
-		"es": "¿Puedo utilizar Cardboard para largometrajes narrativos?"
+		"en": "Will Cardboard use my private footage or prompts for model training?",
+		"zh": "Cardboard 会把我的私有视频和提示词拿去训练模型吗？"
 	  },
 	  "answer": {
-		"en": "No, it is highly unsuited for feature films. The architecture limits file sizes to 2.5GB (10GB for Pro) and is optimized for 30-to-60 second ad variants. For long-form cinematic workflows involving terabytes of raw RED footage, a local heavy-duty NLE remains strictly necessary.",
-		"zh": "不能，它极不适合长篇电影剪辑。其架构将文件上限限制在 2.5GB（专业版为 10GB），且算法专门针对 30 到 60 秒的广告变体进行了优化。对于涉及数 TB RAW 素材的电影级工作流，本地重型非编软件依然是唯一解。",
-		"ja": "いいえ、長編映画には全く適していません。ファイルサイズが最大2.5GB(Proは10GB)に制限されており、30〜60秒の広告動画の最適化に特化しています。TB単位の映像を扱うような作業には、従来通りのローカル編集ソフトが必須です。",
-		"ko": "아니요, 장편 영화에는 매우 부적합합니다. 파일 크기가 2.5GB(프로의 경우 10GB)로 제한되며 30~60초 분량의 광고 변형에 최적화되어 있습니다. 테라바이트급 영상을 다루는 영화 워크플로우에는 무거운 로컬 NLE가 절대적으로 필요합니다.",
-		"es": "No, es muy inadecuado para largometrajes. La arquitectura limita los archivos a 2.5GB (10GB en Pro) y está optimizada para anuncios de 30 a 60 segundos. Para flujos de trabajo cinematográficos con terabytes de metraje, un NLE local sigue siendo necesario."
+		"en": "Yes, by default the public privacy policy says Cardboard may review, scan, analyze, and use personal data and user content to train, test, and improve machine learning models and algorithms. It also states EU/EEA users can object to AI research and model-development processing by emailing an opt-out request with the subject line \"AI R&D -- Opt-Out.\" For enterprise or regulated teams, this means you should not assume strict no-training isolation unless you get explicit contractual terms.",
+		"zh": "会，至少从公开隐私政策看，默认不能假设它是 \"绝不训练\"。Cardboard 明确写到平台可能会审查、扫描、分析用户内容，并将个人数据和内容用于训练、测试和改进机器学习模型与算法；同时它也说明 EU/EEA 用户可以通过发送主题为 \"AI R&D -- Opt-Out\" 的邮件来反对这类处理。对于企业或高合规场景，这意味着你必须拿到明确合同条款，不能只看营销文案。"
+	  }
+	},
+	{
+	  "question": {
+		"en": "Can Cardboard work for niche workflows like SaaS launch videos, podcast clipping, or multilingual explainers?",
+		"zh": "Cardboard 适合 SaaS 发布视频、播客切条或多语言解说这类细分工作流吗？"
+	  },
+	  "answer": {
+		"en": "Yes, Cardboard is well suited to those workflows if the pain point is raw-footage triage and revision speed. The homepage explicitly highlights launch videos, podcast clipping, explainers, talking heads, montages, and automated captions, and the product supports semantic search plus natural-language edits that reduce manual assembly time. For multilingual explainers, the key limitation is that public pricing pages emphasize English (US) captioning in examples rather than publishing a broad official language matrix, so teams needing heavy localization should validate subtitle quality before scaling.",
+		"zh": "可以，尤其适合这类 \"素材多、改动快、节奏紧\" 的细分场景。官网明确展示了 launch videos、podcast clipping、explainers、talking heads、montages 和自动字幕等使用场景，再加上语义搜索和自然语言编辑，确实能减少大量手工整理与首版搭建时间。对于多语言解说视频，现阶段的限制在于公开页面更强调 English (US) 字幕示例，而没有完整公布大规模语言支持矩阵，所以要做本地化分发的团队，最好先验证字幕质量再扩大使用。"
 	  }
 	}
   ],
+  "comparison_jsonb": {
+	"en": {
+	  "reason": "We selected **Descript** and **CapCut** because they are the most realistic substitutes when buyers want faster video editing, AI-assisted repurposing, and lower-friction social content production. The logic here is not brand popularity alone, but **which tool solves the same post-production bottleneck with the closest overlap in workflow, price pressure, and team adoption path**.",
+	  "caption": "Comparison: Cardboard vs Core Alternatives",
+	  "columns": [
+		"Dimension",
+		"[Cardboard](https://www.usecardboard.com/)",
+		"[Descript](https://www.descript.com/)",
+		"[CapCut](https://www.capcut.com/)"
+	  ],
+	  "rows": [
+		[
+		  "**Core use case**",
+		  "**Agentic first-cut generation** from raw footage for marketing, podcast, and launch-video workflows",
+		  "**Transcript-first editing** for spoken content, screen recordings, and quick repurposing",
+		  "**Fast social video production** with broad template-driven editing and mobile-friendly workflows"
+		],
+		[
+		  "**Killer differentiator**",
+		  "**Natural-language timeline operations + semantic clip search + live collaboration**",
+		  "**Edit by text** with strong transcript workflow and creator-friendly polish",
+		  "**Low-friction editing speed** and huge creator adoption for short-form publishing"
+		],
+		[
+		  "**Performance and limits**",
+		  "Creator starts at **$60/mo**, only **5 active projects** and **2.5GB** file limit; Pro raises this to unlimited projects and **10GB** files",
+		  "**Usually easier for simple spoken edits**, but less positioned as a full agentic post-production operator",
+		  "**Great for fast edits**, but less oriented toward enterprise review, auditability, and pro post stack handoff"
+		],
+		[
+		  "**Stack fit**",
+		  "**Exports to Premiere Pro and DaVinci Resolve**, plus enterprise-style Teams features like **SAML/SSO** and audit logs",
+		  "**Fits creator and knowledge-video stacks** especially when transcript editing is central",
+		  "**Fits social-first stacks** best, especially for rapid ad variants and creator publishing loops"
+		],
+		[
+		  "**Learning curve**",
+		  "**Moderate**: easier than classic NLEs, but still assumes a serious production workflow",
+		  "**Lower** for text-heavy editing users",
+		  "**Low** for short-form creators, though advanced structure can get messy at scale"
+		],
+		[
+		  "**ROI profile**",
+		  "**Best ROI** when your team repeatedly wastes hours on rough cuts, clip hunting, and stakeholder revisions",
+		  "**Best ROI** when transcripts are the source of truth and the team edits mostly spoken content",
+		  "**Best ROI** when cost sensitivity and output velocity matter more than structured collaboration"
+		]
+	  ],
+	  "tldr": "**Choose Cardboard** if your main pain is rough-cut automation and team review on raw footage. **Choose Descript** if transcripts drive the workflow. **Choose CapCut** if you want the cheapest path to fast social output and can accept less enterprise-grade process control."
+	},
+	"zh": {
+	  "reason": "这里锁定 **Descript** 和 **CapCut**，因为它们是用户在真实替换场景里最可能拿来对标的产品：都在解决 **更快剪视频、提升 AI 辅助生产效率、缩短内容上线周期** 这类核心痛点。比较逻辑不是谁名气大，而是谁与 Cardboard 在 **工作流重叠度、预算敏感度、团队落地路径** 上最接近。",
+	  "caption": "目标产品与核心竞品参数对比",
+	  "columns": [
+		"对比维度",
+		"[Cardboard](https://www.usecardboard.com/)",
+		"[Descript](https://www.descript.com/)",
+		"[CapCut](https://www.capcut.com/)"
+	  ],
+	  "rows": [
+		[
+		  "**核心痛点场景**",
+		  "**把原始素材自动做成首版粗剪**，适合营销视频、播客切条、发布视频",
+		  "**以逐字稿为中心的编辑**，适合口播、录屏、知识视频改稿",
+		  "**高频社媒短视频生产**，适合模板化、快节奏内容发布"
+		],
+		[
+		  "**差异化杀手锏**",
+		  "**自然语言改时间线 + 语义找片 + 实时协作**",
+		  "**按文本改视频**，逐字稿工作流成熟",
+		  "**低门槛高速度**，短视频创作者生态非常强"
+		],
+		[
+		  "**性能表现与限制**",
+		  "Creator **$60/月**起，只有 **5 个活跃项目**、**2.5GB** 文件上限；Pro 才给无限项目与 **10GB** 文件上限",
+		  "**简单口播编辑通常更轻松**，但不如 Cardboard 那样强调 agentic 后期编排",
+		  "**快速出片能力强**，但在企业协作、审计和专业后期交接上偏弱"
+		],
+		[
+		  "**生态与集成**",
+		  "**可导出到 Premiere Pro 和 DaVinci Resolve**，团队版支持 **SAML/SSO** 与审计日志",
+		  "**更适合创作者和知识内容团队**，尤其是逐字稿驱动的工作流",
+		  "**更适合社媒优先栈**，尤其是短视频和广告变体快速生产"
+		],
+		[
+		  "**上手门槛**",
+		  "**中等**：比传统剪辑软件友好，但仍偏正式内容生产流程",
+		  "**较低**：对文本编辑习惯的用户更自然",
+		  "**较低**：短视频用户上手快，但复杂项目越做越容易混乱"
+		],
+		[
+		  "**综合投入产出比 ROI**",
+		  "**最适合** 经常被首版粗剪、找高光片段和多人反馈拖慢的团队",
+		  "**最适合** 把逐字稿当作内容主线来生产的视频团队",
+		  "**最适合** 预算敏感、追求高出片速度、可接受流程控制较弱的团队"
+		]
+	  ],
+	  "tldr": "**优先选 Cardboard**：当你的核心问题是原始素材首版太慢、改稿链路太长。**优先选 Descript**：当逐字稿就是内容生产核心。**优先选 CapCut**：当你更看重低成本和高速社媒出片，而不是正式协作与专业后期衔接。"
+	}
+  },
   "seo_title_jsonb": {
 	"en": "Cardboard Review 2026: Pricing, Pros & Cons, Alternatives",
-	"zh": "Cardboard 怎么样？2026 最新评测：价格、优缺点与竞品对比",
-	"ja": "【徹底レビュー】Cardboardの評判は？料金・使い方・代替ソフト",
-	"ko": "Cardboard 솔직 후기: 가격, 장단점 및 추천 대안 (완벽 정리)",
-	"es": "Opiniones de Cardboard: Precio, Ventajas y Alternativas"
+	"zh": "Cardboard 怎么样？2026 最新评测：价格、优缺点与竞品对比"
   },
   "seo_description_jsonb": {
-	"en": "Drowning in raw footage? Cardboard uses multimodal AI to automate your video editing workflow. Review pricing ($60/mo), features, and see if it's worth it.",
-	"zh": "被海量原始素材淹没？Cardboard 运用多模态 AI 全自动完成视频剪辑工作流。深度评测其 60美元/月的定价策略与核心功能，看看它是否值得购买。",
-	"ja": "未編集の映像にお困りですか？CardboardはマルチモーダルAIを使用して動画編集を自動化します。料金（月額60ドル）や機能のレビューを確認してください。",
-	"ko": "원본 영상 편집이 막막하신가요? Cardboard는 멀티모달 AI를 활용해 편집 과정을 자동화합니다. 월 60달러 요금제와 기능을 검토해 보세요.",
-	"es": "¿Ahogado en metraje sin editar? Cardboard usa IA para automatizar tu flujo de edición. Revisa el precio ($60/mes) y descubre si vale la pena su uso."
+	"en": "Need faster video edits? Cardboard Review 2026 covers Pricing, workflow automation, pros, cons, and Free Tier status so you can judge if it's worth the premium.",
+	"zh": "想更快做视频？这篇 Cardboard Review 2026 详解 Pricing、自动化能力、优缺点与 Free Tier 情况，帮你判断是否值得购买。"
   },
   "_citations_dump": [
-	"Pricing details, including the $60/month start and 2.5GB limits, are derived from the official site.", [usecardboard](https://www.usecardboard.com/pricing)
-	"Targeting marketing teams and avoiding traditional timelines were highlighted by tech reviews.", [outlierkit](https://outlierkit.com/resources/cardboard-review/)
-	"YouTube verification of the founder's demo confirms the agentic interface." [youtube](https://www.youtube.com/watch?v=Gi977eZbABM&themeRefresh=1)
+	"", [usecardboard](https://www.usecardboard.com/pricing)
+	"", [usecardboard](https://www.usecardboard.com)
+	"", [usecardboard](https://www.usecardboard.com/changelog)
+	"", [usecardboard](https://www.usecardboard.com/privacy)
+	"", [funblocks](https://www.funblocks.net/aitools/reviews/cardboard-4)
+	"", [outlierkit](https://outlierkit.com/resources/cardboard-review/)
+	"", [cardboard](https://cardboard.inc/blog/ai-for-saas-spend-analytics/)
+	"" [youtube](https://www.youtube.com/watch?v=tkjAp5rDN6k)
   ]
 }
