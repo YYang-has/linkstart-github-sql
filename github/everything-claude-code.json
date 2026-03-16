@@ -3,7 +3,7 @@
   "github_url": "https://github.com/affaan-m/everything-claude-code",
   "logo_url": "https://github.com/affaan-m.png",
   "stars": 50000,
-  "language": "JavaScript",
+  "language": "TypeScript",
   "license": "MIT License",
   "deploy_difficulty": "easy",
   "name_jsonb": {
@@ -11,88 +11,88 @@
 	"en": "Everything Claude Code"
   },
   "slogan_jsonb": {
-	"zh": "Anthropic 黑客马拉松冠军打造的 Claude Code 终极增强套件",
-	"en": "The Ultimate Agent Harness & Performance Optimization System for Claude Code"
+	"zh": "Anthropic 黑客马拉松冠军打造的 AI 智能体性能增强系统",
+	"en": "The agent harness performance optimization system from an Anthropic hackathon winner"
   },
   "description_jsonb": {
-	"zh": "Everything Claude Code 是由 Anthropic 黑客马拉松冠军 Affaan Malik 开源的 [Claude Code](https://claude.ai/code) 全栈增强工具集，GitHub 累计获得 50,000+ Stars。该项目将 9 个生产级智能体、11 个可复用技能、11 条自定义命令、10 个生命周期钩子、跨会话记忆持久化机制以及一套完整的安全扫描红队框架整合为一体，通过一行命令即可完成安装。它同时兼容 [Cursor](https://cursor.sh)、[Codex](https://openai.com/index/openai-codex/)、[Opencode](https://opencode.ai) 等主流 AI 编码工具，形成一套以"研究优先、安全优先"为核心理念的 AI 驱动软件工程范式，将上下文感知能力和 Token 效率优化提升至生产环境所需水准。",
-	"en": "Everything Claude Code is a full-stack enhancement toolkit for [Claude Code](https://claude.ai/code) open-sourced by Anthropic hackathon winner Affaan Malik, with 50,000+ GitHub Stars. It consolidates 9 production-grade agents, 11 reusable skills, 11 custom commands, 10 lifecycle hooks, cross-session memory persistence, and a complete security red-teaming framework into a single one-line install. Compatible with [Cursor](https://cursor.sh), [Codex](https://openai.com/index/openai-codex/), and [Opencode](https://opencode.ai), it establishes a research-first, security-first AI-driven software engineering paradigm that elevates context awareness and token efficiency to production-grade standards."
+	"zh": "Everything Claude Code（ECC）是由 Anthropic x Forum Ventures 黑客马拉松冠军 Affaan Mustafa 历经 10 个月在真实产品开发中锻造的 [Claude Code](https://claude.ai/code) 全栈增强系统，GitHub 累计突破 50,000 Stars、6,000+ Forks。它不是一份配置包，而是一套完整的智能体性能系统，内含 16 个生产级专业化子智能体、65 个可复用技能模块、40 条斜杠命令、跨会话记忆持久化、持续学习引擎（Instinct v2）以及由 1282 个测试用例驱动的安全红队工具 AgentShield。ECC 同时完整支持 [Cursor](https://cursor.sh)、[OpenCode](https://opencode.ai)、[Codex](https://openai.com/index/openai-codex/) 和 Antigravity 等主流 AI 编码工具，是业内首个真正跨平台最大化所有主流 AI 编码工具能力的开源插件。",
+	"en": "Everything Claude Code (ECC) is a full-stack AI agent harness performance system forged over 10 months of real product development by Anthropic x Forum Ventures hackathon winner Affaan Mustafa, surpassing 50,000 GitHub Stars and 6,000+ Forks. It is not a config pack but a complete system: 16 production-grade specialized sub-agents, 65 reusable skill modules, 40 slash commands, cross-session memory persistence, a continuous learning engine (Instinct v2), and AgentShield — a security red-team tool backed by 1,282 test cases. ECC provides full support for [Cursor](https://cursor.sh), [OpenCode](https://opencode.ai), [Codex](https://openai.com/index/openai-codex/), and Antigravity, making it the first open-source plugin to genuinely maximize every major AI coding harness."
   },
   "comparison_jsonb": {
 	"zh": {
 	  "painPoints": [
-		"原生 Claude Code 缺乏跨会话记忆：每次新对话 Claude 都从零开始，无法记住项目架构、编码规范或历史决策，导致大型项目中反复解释同一上下文，严重浪费 Token 预算",
-		"无内置安全防护机制：裸跑 Claude Code 时，AI 可能在未审查的情况下执行危险操作（如删文件、覆盖配置），缺少权限管控和行为审计日志",
-		"生命周期钩子缺失：无法在代码生成前后自动触发代码检查、测试运行、文档更新等工程流程，需要开发者手动介入，破坏 AI 驱动的自动化闭环",
-		"单智能体局限：原生配置下无法协调多个专业化子智能体并行处理不同模块，复杂项目中任务调度完全依赖单次对话上下文，效率瓶颈明显"
+		"原生 Claude Code 无跨会话记忆：每次启动新会话，Claude 对项目架构、团队规范和历史决策一无所知，开发者需反复粘贴上下文，在大型代码库中每日浪费数万个 Token",
+		"无工程级质量闭环：裸用 Claude Code 时，代码生成与代码审查之间缺少自动触发的质量防线，AI 生成的代码极易绕过 lint、测试和安全检查直接进入代码库",
+		"单智能体并发瓶颈：原生配置下所有任务串行在单一上下文中处理，无法将「规划→实现→测试→安全审计」等子任务并发委派给专业化子智能体，复杂任务效率极低",
+		"跨工具配置碎片化：开发者同时使用 Cursor、Claude Code、Codex 时，需为每个工具维护一套独立的最佳实践规范，配置管理成本随工具数量线性增长"
 	  ],
 	  "innovations": [
-		"持久化记忆架构：通过结构化的 CLAUDE.md 规范和 .claude/memory 目录实现项目级长期记忆注入，让 Claude 在每次会话开始时即掌握完整项目语境，彻底解决「AI 遗忘症」",
-		"多智能体协作框架：内置 9 个专业化智能体（研究员、架构师、安全审计员等），通过 Subagent 调度协议实现并行任务分解，单次任务可拆解为多个独立工作流并发执行",
-		"安全红队扫描引擎：内置安全扫描技能可对 Claude Code 的配置、权限和代码产出进行主动红队测试，识别提示注入、权限滥用等风险，是业内少有的将安全内置于 AI 编码工具的开源方案",
-		"跨工具生态兼容：同一套配置文件可无缝适配 Claude Code、Cursor、Codex、Opencode 等多个主流 AI 编码环境，开发者无需为不同工具维护多套最佳实践规范",
-		"Token 效率优化系统：通过技能模块化、上下文压缩和分层记忆注入机制，在等量 Token 消耗下，使 AI 产出的代码质量和任务完成率显著提升"
+		"双层持久化记忆架构：项目级 CLAUDE.md 静态规范与 .claude/memory 动态会话记忆并行工作，SessionStart 钩子在每次会话启动时自动加载完整上下文，Stop 阶段自动保存会话摘要，彻底根治 AI 遗忘症",
+		"Instinct v2 持续学习引擎：系统在每次会话结束时由 evaluate-session 钩子自动提取高价值编码模式，以「直觉（Instinct）」为单元存储，附带置信度评分；通过 /evolve 命令可将相关直觉自动聚合升华为可复用的技能模块，实现 AI 能力的自我进化",
+		"AgentShield 红队安全引擎：覆盖 1282 个测试用例、102 条静态分析规则的专业安全扫描器，--opus 模式下部署三路 Claude Opus 4.6 智能体以「攻击者/防御者/审计者」流水线执行对抗性推理，输出 A-F 分级风险报告，支持 CI/CD 构建门控",
+		"DRY 跨平台适配器架构：Cursor、OpenCode、Codex 均通过适配器层复用同一套底层 scripts/hooks/*.js 脚本，AGENTS.md 在根目录作为四大工具共用的上下文文件，彻底消除跨工具配置冗余",
+		"钩子运行时动态控制：通过 ECC_HOOK_PROFILE=minimal|standard|strict 和 ECC_DISABLED_HOOKS 环境变量实现运行时钩子行为动态门控，无需修改配置文件即可按环境灵活调整自动化严格度"
 	  ]
 	},
 	"en": {
 	  "painPoints": [
-		"No cross-session memory in native Claude Code: every new conversation starts from scratch, forcing developers to re-explain project architecture and coding conventions repeatedly, wasting significant token budgets on large codebases",
-		"Zero built-in security guardrails: unenhanced Claude Code may execute destructive operations (file deletion, config overwrite) without review, lacking permission controls or behavioral audit logs",
-		"Missing lifecycle hooks: no mechanism to automatically trigger linting, test runs, or documentation updates pre/post code generation, breaking the AI-driven automation loop and requiring manual developer intervention",
-		"Single-agent bottleneck: native configuration cannot coordinate multiple specialized sub-agents in parallel, making complex project task scheduling entirely dependent on single-conversation context with clear efficiency ceilings"
+		"No cross-session memory in native Claude Code: each new session starts blind to project architecture, team conventions, and historical decisions, forcing developers to paste context repeatedly and wasting tens of thousands of tokens daily on large codebases",
+		"No engineering-grade quality loop: bare Claude Code has no automated quality gate between code generation and code review — AI-generated code easily bypasses lint, tests, and security checks before reaching the codebase",
+		"Single-agent concurrency bottleneck: all tasks are processed serially in a single context with no ability to concurrently delegate planning, implementation, testing, and security auditing to specialized sub-agents, severely limiting efficiency on complex tasks",
+		"Cross-tool configuration fragmentation: developers using Cursor, Claude Code, and Codex simultaneously must maintain separate best-practice documentation for each tool, with configuration management costs scaling linearly with the number of tools"
 	  ],
 	  "innovations": [
-		"Persistent memory architecture: structured CLAUDE.md specs and .claude/memory directories enable project-level long-term memory injection, so Claude enters every session with full project context, eliminating 'AI amnesia'",
-		"Multi-agent orchestration framework: 9 built-in specialized agents (researcher, architect, security auditor, etc.) leverage a subagent scheduling protocol for parallel task decomposition, allowing a single complex task to be split into concurrent independent workflows",
-		"Security red-team scanning engine: built-in security scanning skill actively red-teams Claude Code configurations, permissions, and code output to identify prompt injection and privilege abuse risks — one of the few open-source AI coding tools with security natively built in",
-		"Cross-tool ecosystem compatibility: a single configuration set works seamlessly across Claude Code, Cursor, Codex, and Opencode, eliminating the need to maintain separate best-practice documentation for different AI coding environments",
-		"Token efficiency optimization: through skill modularization, context compression, and layered memory injection, code quality and task completion rates improve significantly for equivalent token consumption"
+		"Dual-layer persistent memory architecture: project-level static CLAUDE.md specs and dynamic .claude/memory session memory work in parallel; SessionStart hooks auto-load full context on every session launch, and Stop-phase hooks auto-save session summaries, permanently curing AI amnesia",
+		"Instinct v2 continuous learning engine: the evaluate-session hook automatically extracts high-value coding patterns at each session end, stores them as 'instincts' with confidence scores, and the /evolve command clusters related instincts into reusable skill modules — enabling genuine AI self-improvement over time",
+		"AgentShield red-team security engine: a professional security scanner covering 1,282 test cases and 102 static analysis rules; in --opus mode, three Claude Opus 4.6 agents run an attacker/defender/auditor pipeline for adversarial reasoning, outputting A-F graded risk reports with CI/CD build gate support",
+		"DRY cross-platform adapter architecture: Cursor, OpenCode, and Codex all reuse the same underlying scripts/hooks/*.js via adapter layers, with AGENTS.md at the root serving as a universal context file for all four tools, eliminating cross-tool configuration redundancy",
+		"Hook runtime dynamic controls: ECC_HOOK_PROFILE=minimal|standard|strict and ECC_DISABLED_HOOKS environment variables enable runtime hook behavior gating without editing config files, allowing flexible automation strictness adjustment per environment"
 	  ]
 	}
   },
   "architecture_jsonb": {
 	"zh": [
 	  {
-		"title": "智能体层 (Agents Layer)",
-		"desc": "项目核心是位于 /agents 目录下的 9 个生产级专业化智能体，涵盖研究员（Research Agent）、架构师（Architect Agent）、安全审计员（Security Agent）等角色。每个智能体拥有独立的系统提示（System Prompt）、工具调用权限白名单和上下文窗口管理策略，通过 AGENTS.md 中定义的 Subagent 调度协议协同工作。这种分工设计使得复杂任务可以被分解为多个专业化子任务并行处理，避免了单一通才智能体在大型工程任务中因上下文膨胀导致的质量下降，是整个系统吞吐量和代码质量的根本保障。"
+		"title": "智能体委派层 (16 专业子智能体)",
+		"desc": "位于 /agents 目录的 16 个专业化子智能体是整个系统的任务执行核心，覆盖从规划（planner）、架构设计（architect）、TDD 指导（tdd-guide）、代码审查（code-reviewer）、安全审计（security-reviewer）到 Go/Python/数据库专项审查的完整软件工程生命周期。每个智能体通过 YAML 前置配置声明独立的工具调用白名单、指定模型（如安全审计员使用 Opus）和职责边界，主智能体根据任务类型自动路由委派，彻底避免了让通才 AI 处理专业领域任务导致的质量下降。这套架构将软件工程的「分工协作」原则引入 AI 编码，是系统在复杂项目中保持稳定输出质量的根本保障。"
 	  },
 	  {
-		"title": "技能模块系统 (Skills Module)",
-		"desc": "位于 /skills 目录的 11 个可复用技能模块是该系统的知识封装单元，每个技能是一个结构化的 Markdown 文件，包含特定领域的专家知识、代码模式和最佳实践。当 Claude 执行任务时，相关技能会被按需注入到上下文中，实现精准的领域知识增强。这种设计与传统 RAG（检索增强生成）的核心思想一致，但针对代码生成场景做了深度优化：技能内容是高密度的结构化知识，而非原始文档，使得每个 Token 的信息密度最大化，在不超出上下文窗口限制的前提下注入最多的有效知识。"
+		"title": "技能模块知识库 (65 个领域技能)",
+		"desc": "位于 /skills 目录的 65 个技能模块是系统的结构化领域知识封装单元，覆盖 TypeScript、Python、Go、Swift、Java Spring Boot、PHP、Perl、C++ 等 8 大语言栈，以及 TDD 工作流、安全审查、持续评估、ClickHouse 数据工程、成本感知 LLM 流水线设计等横向技术领域。每个技能以 YAML 前置元数据 + Markdown 正文的 SKILL.md 格式编写，被智能体和命令按需注入上下文，实现精准的领域知识增强。此设计最大化了每个 Token 的信息密度，避免了全量文档注入导致的上下文窗口污染，是系统在不超出 200K 上下文限制前提下保持深度专业性的关键机制。"
 	  },
 	  {
-		"title": "生命周期钩子引擎 (Lifecycle Hooks)",
-		"desc": "位于 /hooks 目录的 10 个生命周期钩子是连接 Claude 与外部工程工具链的桥梁，在 Pre-Tool（工具调用前）、Post-Tool（工具调用后）、Pre-Edit（文件修改前）、Post-Edit（文件修改后）等关键节点自动触发。例如，Pre-Edit 钩子可在 Claude 修改任何文件前强制运行代码静态分析，Post-Edit 钩子可自动触发单元测试和文档同步更新。这套钩子机制将 AI 编码从「一次性代码生成」升级为「闭环质量保障流程」，是整个系统中实现真正工程化自动化的关键设施。"
+		"title": "生命周期钩子引擎 (20+ 自动化脚本)",
+		"desc": "位于 /hooks 和 /scripts/hooks 目录的钩子系统是将 Claude 与外部工程工具链深度融合的关键基础设施。所有钩子脚本已在 v1.8.0 中从脆弱的内联 shell 字符串重写为跨平台 Node.js 脚本，通过 ECC_HOOK_PROFILE 和 ECC_DISABLED_HOOKS 环境变量实现运行时动态控制。核心钩子涵盖：session-start.js（自动加载跨会话记忆）、session-end.js（保存会话摘要）、evaluate-session.js（提取 Instinct 直觉模式）、pre-compact.js（压缩前状态保存）以及 PostToolUse 阶段的自动格式化和 TypeScript 类型检查。这套机制将 AI 编码从「单次代码生成」升级为「有完整工程防护的持续开发流程」。"
 	  },
 	  {
-		"title": "MCP 配置与工具集成 (MCP Config Layer)",
-		"desc": "位于 /mcp-configs 目录的 Model Context Protocol 配置层定义了 Claude 可调用的外部工具集，包括文件系统、浏览器自动化、数据库查询、API 调用等能力的精细化权限配置。MCP 是 Anthropic 推出的开放标准，用于规范 AI 模型与外部工具的交互接口。本项目通过预置多套经过安全审计的 MCP 配置模板，让开发者能够在享受强大工具调用能力的同时，将权限边界限制在最小必要范围内，有效防止 AI 越权操作带来的安全风险。"
+		"title": "AgentShield 安全红队引擎",
+		"desc": "AgentShield 是专为 AI 编码工具安全场景构建的红队扫描引擎，构建于 Cerebral Valley x Anthropic 黑客马拉松，覆盖 1282 个测试用例、98% 代码覆盖率、102 条静态分析规则。扫描范围涵盖 CLAUDE.md、settings.json、MCP 配置、钩子脚本、智能体定义和技能文件，分为密钥检测（14 种模式）、权限审计、钩子注入分析、MCP 服务器风险画像和智能体配置审查五大类别。核心差异化能力在于 --opus 模式：三路 Claude Opus 4.6 智能体以攻击者（寻找利用链）、防御者（评估防护措施）、审计者（综合风险评估）的红蓝对抗流水线运行，实现对抗性推理而非简单的模式匹配。输出支持终端彩色 A-F 分级、JSON（CI 集成）、Markdown 和 HTML 格式，exitcode 2 触发构建门控。"
 	  },
 	  {
-		"title": "跨会话记忆持久化 (Memory Persistence)",
-		"desc": "系统通过两层记忆机制实现跨会话知识持久化：第一层是位于项目根目录的 CLAUDE.md 文件，存储项目级的架构决策、编码规范和技术债务记录，每次 Claude Code 启动时自动读取；第二层是 .claude/memory 目录下的动态记忆文件，在会话过程中由特定的 Memory Hook 自动捕获并结构化存储 Claude 的关键决策和发现。双层架构将「静态项目文档」与「动态 AI 认知」分离管理，在保持记忆持久性的同时，避免了无限膨胀的记忆文件拖慢上下文加载速度。"
+		"title": "Instinct v2 持续学习系统",
+		"desc": "持续学习 v2（continuous-learning-v2）是 ECC 区别于所有竞品的核心护城河特性，实现了 AI 编码工具的「自我进化」能力。系统在每次 Claude Code 会话结束时，由 evaluate-session.js 钩子自动从会话记录中提取有价值的编码模式、架构决策和最佳实践，以「直觉（Instinct）」为单元持久化存储，每条直觉附带置信度评分（0-1.0）和触发场景描述。通过 /instinct-import 和 /instinct-export 命令，团队可共享和复用成员的直觉知识库；/evolve 命令则将语义相关的直觉自动聚合升华为正式的可复用技能模块，完成从「AI 学习」到「知识沉淀」的完整闭环。"
 	  }
 	],
 	"en": [
 	  {
-		"title": "Agents Layer",
-		"desc": "The system core is 9 production-grade specialized agents housed in the /agents directory, covering roles including Research Agent, Architect Agent, and Security Agent. Each agent has its own system prompt, tool-call permission whitelist, and context window management strategy, collaborating via the subagent scheduling protocol defined in AGENTS.md. This division of labor allows complex tasks to be decomposed into specialized parallel sub-tasks, preventing the quality degradation that occurs when a single generalist agent handles large engineering tasks with bloated context — this is the fundamental guarantee of the system's throughput and code quality."
+		"title": "Agent Delegation Layer (16 Specialized Sub-Agents)",
+		"desc": "The 16 specialized sub-agents in the /agents directory are the task execution core of the entire system, covering the complete software engineering lifecycle from planning (planner), architecture design (architect), TDD guidance (tdd-guide), code review (code-reviewer), security auditing (security-reviewer), to Go/Python/database-specific reviewers. Each agent declares independent tool-call whitelists, assigned models (e.g., the security reviewer uses Opus), and responsibility boundaries via YAML frontmatter; the orchestrating agent automatically routes delegation based on task type, entirely avoiding the quality degradation of forcing a generalist AI to handle specialized domain tasks. This architecture applies the software engineering principle of 'division of labor' to AI coding and is the fundamental guarantee of stable output quality on complex projects."
 	  },
 	  {
-		"title": "Skills Module System",
-		"desc": "The 11 reusable skill modules in the /skills directory serve as the system's knowledge encapsulation units. Each skill is a structured Markdown file containing domain expert knowledge, code patterns, and best practices. When Claude executes tasks, relevant skills are injected into context on demand for precision domain augmentation. This design aligns with core RAG (Retrieval-Augmented Generation) principles but is deeply optimized for code generation: skill content is high-density structured knowledge rather than raw documents, maximizing information density per token and injecting maximum effective knowledge without exceeding context window limits."
+		"title": "Skills Module Knowledge Base (65 Domain Skills)",
+		"desc": "The 65 skill modules in the /skills directory are the system's structured domain knowledge encapsulation units, covering 8 major language stacks including TypeScript, Python, Go, Swift, Java Spring Boot, PHP, Perl, and C++, plus cross-cutting technical domains like TDD workflows, security review, continuous evaluation, ClickHouse data engineering, and cost-aware LLM pipeline design. Each skill follows a SKILL.md format with YAML frontmatter metadata and Markdown body, injected into context on demand by agents and commands for precision domain augmentation. This design maximizes information density per token and avoids the context window pollution of full-doc injection — the key mechanism enabling deep domain expertise without exceeding the 200K context limit."
 	  },
 	  {
-		"title": "Lifecycle Hooks Engine",
-		"desc": "The 10 lifecycle hooks in the /hooks directory bridge Claude with external engineering toolchains, triggering automatically at critical nodes including Pre-Tool, Post-Tool, Pre-Edit, and Post-Edit. For example, a Pre-Edit hook can enforce static code analysis before Claude modifies any file, while a Post-Edit hook can auto-trigger unit tests and documentation sync. This hook mechanism upgrades AI coding from 'one-shot code generation' to a 'closed-loop quality assurance process,' making it the key infrastructure for achieving true engineering automation within the system."
+		"title": "Lifecycle Hooks Engine (20+ Automation Scripts)",
+		"desc": "The hook system in /hooks and /scripts/hooks is the key infrastructure that deeply integrates Claude with external engineering toolchains. All hook scripts were rewritten in v1.8.0 from fragile inline shell strings to cross-platform Node.js scripts, with runtime dynamic control via ECC_HOOK_PROFILE and ECC_DISABLED_HOOKS environment variables. Core hooks include: session-start.js (auto-loading cross-session memory), session-end.js (saving session summaries), evaluate-session.js (extracting Instinct patterns), pre-compact.js (state saving before compaction), and PostToolUse phase auto-formatting and TypeScript type checking. This mechanism upgrades AI coding from 'one-shot code generation' to a 'continuous development process with full engineering guardrails.'"
 	  },
 	  {
-		"title": "MCP Config & Tool Integration",
-		"desc": "The Model Context Protocol configuration layer in /mcp-configs defines the external toolset Claude can invoke, including fine-grained permission configurations for filesystem access, browser automation, database queries, and API calls. MCP is an open standard released by Anthropic to normalize the interaction interface between AI models and external tools. By pre-bundling multiple security-audited MCP configuration templates, this project lets developers enjoy powerful tool-calling capabilities while restricting permission boundaries to the minimum necessary scope, effectively preventing security risks from AI privilege escalation."
+		"title": "AgentShield Security Red-Team Engine",
+		"desc": "AgentShield is a red-team scanning engine built specifically for AI coding tool security scenarios, developed at the Cerebral Valley x Anthropic hackathon with 1,282 test cases, 98% code coverage, and 102 static analysis rules. Its scan scope covers CLAUDE.md, settings.json, MCP configs, hook scripts, agent definitions, and skill files across five categories: secrets detection (14 patterns), permission auditing, hook injection analysis, MCP server risk profiling, and agent config review. The core differentiating capability is --opus mode: three Claude Opus 4.6 agents run an attacker (finding exploit chains), defender (evaluating protections), and auditor (synthesizing risk assessment) adversarial pipeline for genuine red-team reasoning rather than simple pattern matching. Output supports terminal A-F color grading, JSON (CI integration), Markdown, and HTML formats, with exit code 2 triggering build gates."
 	  },
 	  {
-		"title": "Cross-Session Memory Persistence",
-		"desc": "The system achieves cross-session knowledge persistence through a two-layer memory mechanism. The first layer is the CLAUDE.md file in the project root, storing project-level architectural decisions, coding conventions, and technical debt records, auto-loaded each time Claude Code starts. The second layer is dynamic memory files under .claude/memory, automatically captured and structured by Memory Hooks during sessions to preserve Claude's key decisions and discoveries. This dual-layer architecture separates 'static project documentation' from 'dynamic AI cognition,' maintaining memory persistence while preventing infinitely expanding memory files from slowing context loading."
+		"title": "Instinct v2 Continuous Learning System",
+		"desc": "Continuous learning v2 (continuous-learning-v2) is ECC's core differentiating moat feature that realizes genuine 'self-evolution' for AI coding tools. At each Claude Code session end, the evaluate-session.js hook automatically extracts valuable coding patterns, architectural decisions, and best practices from session logs, persisting them as 'instincts' with confidence scores (0-1.0) and trigger scenario descriptions. The /instinct-import and /instinct-export commands allow teams to share and reuse each member's instinct knowledge base; the /evolve command then auto-clusters semantically related instincts into formal reusable skill modules, completing the full loop from 'AI learning' to 'knowledge crystallization.'"
 	  }
 	]
   },
@@ -100,153 +100,155 @@
 	"zh": [
 	  {
 		"step": 1,
-		"instruction": "一行命令安装（推荐）：通过 Claude Code 插件市场直接安装，无需任何额外配置",
-		"code": "/plugin marketplace add affaan-m/everything-claude-code"
+		"instruction": "通过插件市场一键安装（推荐）：两条命令即可获得全部 16 个智能体、65 个技能和 40 条命令",
+		"code": "/plugin marketplace add affaan-m/everything-claude-code\n/plugin install everything-claude-code@everything-claude-code"
 	  },
 	  {
 		"step": 2,
-		"instruction": "或者通过 npm 全局安装（适用于需要自定义的场景）",
-		"code": "npm install -g everything-claude-code"
+		"instruction": "手动安装规则（必需步骤）：Claude Code 插件系统限制不允许通过插件分发 rules，必须手动复制",
+		"code": "git clone https://github.com/affaan-m/everything-claude-code.git\ncd everything-claude-code\n./install.sh typescript   # 按需替换为 python / golang / swift / php\n# 多语言栈：./install.sh typescript python golang"
 	  },
 	  {
 		"step": 3,
-		"instruction": "手动克隆仓库并运行安装脚本（完整自定义控制）",
-		"code": "git clone https://github.com/affaan-m/everything-claude-code.git\ncd everything-claude-code\nbash install.sh"
+		"instruction": "（可选）安装 AgentShield 安全扫描器：无需预装，npx 直接运行",
+		"code": "# 快速扫描\nnpx ecc-agentshield scan\n# 自动修复安全问题\nnpx ecc-agentshield scan --fix\n# 深度红队分析（三路 Opus 4.6 智能体）\nnpx ecc-agentshield scan --opus --stream"
 	  },
 	  {
 		"step": 4,
-		"instruction": "验证安装：在 Claude Code 中运行以下命令查看已加载的智能体和技能列表",
-		"code": "/agents list\n/skills list"
+		"instruction": "Token 成本优化配置：添加到 ~/.claude/settings.json 可降低约 70% 的 Token 开销",
+		"code": "{\n  \"model\": \"sonnet\",\n  \"env\": {\n    \"MAX_THINKING_TOKENS\": \"10000\",\n    \"CLAUDE_AUTOCOMPACT_PCT_OVERRIDE\": \"50\",\n    \"CLAUDE_CODE_SUBAGENT_MODEL\": \"haiku\"\n  }\n}"
 	  }
 	],
 	"en": [
 	  {
 		"step": 1,
-		"instruction": "One-line install (recommended): Install directly via Claude Code plugin marketplace with no additional configuration required",
-		"code": "/plugin marketplace add affaan-m/everything-claude-code"
+		"instruction": "One-click plugin marketplace install (recommended): two commands give you all 16 agents, 65 skills, and 40 commands",
+		"code": "/plugin marketplace add affaan-m/everything-claude-code\n/plugin install everything-claude-code@everything-claude-code"
 	  },
 	  {
 		"step": 2,
-		"instruction": "Or install globally via npm (for scenarios requiring customization)",
-		"code": "npm install -g everything-claude-code"
+		"instruction": "Manual rules install (required): the Claude Code plugin system cannot distribute rules via plugins — manual copy is mandatory",
+		"code": "git clone https://github.com/affaan-m/everything-claude-code.git\ncd everything-claude-code\n./install.sh typescript   # replace with python / golang / swift / php as needed\n# Multi-stack: ./install.sh typescript python golang"
 	  },
 	  {
 		"step": 3,
-		"instruction": "Manually clone the repository and run the install script (full custom control)",
-		"code": "git clone https://github.com/affaan-m/everything-claude-code.git\ncd everything-claude-code\nbash install.sh"
+		"instruction": "(Optional) Install AgentShield security scanner: no pre-install needed, run directly via npx",
+		"code": "# Quick scan\nnpx ecc-agentshield scan\n# Auto-fix safe issues\nnpx ecc-agentshield scan --fix\n# Deep red-team analysis (three Opus 4.6 agents)\nnpx ecc-agentshield scan --opus --stream"
 	  },
 	  {
 		"step": 4,
-		"instruction": "Verify installation: run the following commands in Claude Code to view loaded agents and skills",
-		"code": "/agents list\n/skills list"
+		"instruction": "Token cost optimization config: add to ~/.claude/settings.json to reduce token overhead by ~70%",
+		"code": "{\n  \"model\": \"sonnet\",\n  \"env\": {\n    \"MAX_THINKING_TOKENS\": \"10000\",\n    \"CLAUDE_AUTOCOMPACT_PCT_OVERRIDE\": \"50\",\n    \"CLAUDE_CODE_SUBAGENT_MODEL\": \"haiku\"\n  }\n}"
 	  }
 	]
   },
   "use_cases_jsonb": {
 	"zh": [
-	  "大型代码库重构加速: Who: 中大型团队的后端工程师; What: 利用多智能体并行分析架构、生成重构方案、执行代码迁移，配合生命周期钩子自动运行测试和 lint; Outcome: 将数周的人工重构压缩至数天，且过程中代码质量持续受到自动化闭环保障",
-	  "安全合规代码审计: Who: 需要通过 SOC2/ISO27001 审计的企业安全工程师; What: 利用内置安全红队技能对代码库进行提示注入检测、权限配置审查和 OWASP Top10 模式扫描; Outcome: 在人工安全审查前自动识别 80% 以上的常见安全漏洞，大幅降低合规审计成本",
-	  "AI 原生新产品快速原型: Who: 独立开发者或初创公司 CTO; What: 通过持久化记忆和专业化智能体在多个开发会话间保持完整的架构决策上下文，加速从 0 到 MVP 的全栈开发; Outcome: 实现跨会话的连续性开发体验，上下文维护成本降为零，MVP 交付周期可缩短 40%-60%"
+	  "大型代码库多语言重构: Who: 负责遗留系统现代化改造的后端架构师; What: 利用 16 个专业子智能体并行分析代码库、生成重构方案并执行迁移，PostToolUse 钩子自动触发各语言栈 lint 和测试; Outcome: 将数周人工重构压缩至数天，质量防线由自动化闭环持续保障，技术债清零效率提升 3-5 倍",
+	  "AI 原生 SaaS 产品 MVP 快速交付: Who: 独立开发者或初创公司 CTO; What: 通过 CLAUDE.md 持久化记忆注入完整产品架构上下文，配合 /multi-plan、/multi-execute 命令驱动多智能体并发开发前后端服务，Instinct v2 自动沉淀项目特有模式; Outcome: 跨会话保持连续性开发体验，上下文维护成本归零，MVP 交付周期可缩短 40%-60%",
+	  "企业级 DevSecOps CI/CD 集成: Who: 负责 SOC2/ISO27001 合规的平台安全工程师; What: 将 AgentShield 以 exitcode 2 构建门控接入 CI 流水线，102 条静态规则覆盖密钥泄露、MCP 权限滥用、钩子注入等 AI 编码特有风险类别; Outcome: 在人工代码审查前自动拦截 80% 以上 AI 引入的安全风险，合规审计准备周期从数周缩短至数小时"
 	],
 	"en": [
-	  "Large-Scale Codebase Refactoring: Who: Backend engineers at mid-to-large teams; What: Use multi-agent parallel analysis to generate refactoring plans and execute code migrations, with lifecycle hooks auto-running tests and lint throughout; Outcome: Compress weeks of manual refactoring into days with continuous automated quality assurance throughout the process",
-	  "Security Compliance Code Auditing: Who: Enterprise security engineers undergoing SOC2/ISO27001 audits; What: Use built-in security red-team skills to perform prompt injection detection, permission config reviews, and OWASP Top10 pattern scanning across codebases; Outcome: Automatically identify 80%+ of common security vulnerabilities before manual security review, significantly reducing compliance audit costs",
-	  "AI-Native Product Rapid Prototyping: Who: Indie developers or startup CTOs; What: Leverage persistent memory and specialized agents to maintain complete architectural decision context across multiple development sessions, accelerating full-stack development from 0 to MVP; Outcome: Achieve continuous cross-session development with zero context maintenance overhead, reducing MVP delivery cycles by 40%-60%"
+	  "Large Codebase Multi-Language Refactoring: Who: Backend architects responsible for legacy system modernization; What: Leverage 16 specialized sub-agents to parallelize codebase analysis, refactoring plan generation, and migration execution, with PostToolUse hooks auto-triggering per-language lint and tests; Outcome: Compress weeks of manual refactoring into days with automated quality guardrails continuously in place, improving technical debt elimination efficiency by 3-5x",
+	  "AI-Native SaaS MVP Rapid Delivery: Who: Indie developers or startup CTOs; What: Inject complete product architecture context via CLAUDE.md persistent memory, drive concurrent frontend/backend development with /multi-plan and /multi-execute commands, and let Instinct v2 auto-crystallize project-specific patterns; Outcome: Maintain continuous cross-session development with zero context management overhead, reducing MVP delivery cycles by 40%-60%",
+	  "Enterprise DevSecOps CI/CD Integration: Who: Platform security engineers responsible for SOC2/ISO27001 compliance; What: Integrate AgentShield into CI pipelines with exit code 2 build gates, with 102 static rules covering AI-coding-specific risk categories including secret leakage, MCP privilege abuse, and hook injection; Outcome: Automatically intercept 80%+ of AI-introduced security risks before manual code review, compressing compliance audit preparation from weeks to hours"
 	]
   },
   "limitations_jsonb": {
 	"zh": [
-	  "强绑定 Claude Code 生态：核心功能深度依赖 Anthropic 的 Claude Code CLI 和 MCP 协议，虽然声称兼容 Cursor/Codex，但部分高级钩子和智能体特性在非 Claude Code 环境下功能受限",
-	  "Token 消耗不透明：多智能体并发和技能注入会显著增加每次任务的 Token 消耗量，在 Claude API 按量计费模式下，复杂任务的实际成本可能超出预期，且当前缺乏精细化的 Token 预算控制面板",
-	  "学习曲线陡峭：对于不熟悉 Claude Code 底层机制（如 MCP、Subagent 协议、钩子生命周期）的开发者，充分发挥所有 9 个智能体和 11 个技能的协同威力需要相当的前置学习投入",
-	  "社区贡献质量参差不齐：作为快速增长的开源项目，部分社区贡献的技能和智能体模板缺乏充分测试，可能在特定项目类型或语言栈下产生不稳定输出",
-	  "Windows 支持不完整：install.sh 脚本和部分钩子依赖 Unix 环境，Windows 用户需通过 WSL2 运行，原生 PowerShell 环境下存在已知兼容性问题"
+	  "Claude Code 版本强依赖：插件系统要求 Claude Code CLI v2.1.0 及以上，且 hooks 自动加载行为在不同版本间存在已知破坏性变更（详见 Issue #29、#52、#103），升级 CLI 可能触发「Duplicate hooks file」错误需手动排查",
+	  "rules 无法通过插件自动分发：这是 Claude Code 插件系统的上游架构限制，rules 目录必须手动克隆安装，对于希望「一键部署」的团队是明显的摩擦点，且团队间 rules 同步更新需要手动操作",
+	  "多智能体并发 Token 消耗不可控：/multi-execute 等并发命令可在单次任务中消耗 50K-200K+ Token，当前无内置的 Token 预算硬性上限控制，Opus 模式的 AgentShield 扫描成本尤为高昂",
+	  "Codex 平台钩子支持残缺：Codex（无论 macOS App 还是 CLI）尚未实现 Claude Code 风格的钩子执行，ECC 在 Codex 平台上的质量闭环能力依赖 AGENTS.md 指令和沙箱权限配置，无法达到 Claude Code 平台的自动化深度",
+	  "Windows 原生支持历史问题：v1.8.0 已将钩子脚本重写为跨平台 Node.js，但安装脚本 install.sh 仍为 Shell 脚本，Windows 用户在 PowerShell 原生环境下需通过 WSL2 运行，部分场景下存在路径兼容性问题",
+	  "65 个技能模块全量注入导致上下文膨胀：新用户若不了解按需加载策略，容易将过多 MCP 服务器和技能同时激活，导致 200K 上下文窗口被压缩至约 70K 可用空间，严重影响实际编码质量"
 	],
 	"en": [
-	  "Strong Claude Code ecosystem lock-in: core features deeply depend on Anthropic's Claude Code CLI and MCP protocol; while Cursor/Codex compatibility is claimed, advanced hooks and agent features are functionally limited in non-Claude Code environments",
-	  "Opaque token consumption: multi-agent concurrency and skill injection significantly increase per-task token usage; in Claude API pay-as-you-go billing mode, actual costs for complex tasks may exceed expectations, and the project currently lacks a fine-grained token budget control panel",
-	  "Steep learning curve: developers unfamiliar with Claude Code's underlying mechanics (MCP, subagent protocols, hook lifecycles) face substantial upfront learning investment to fully leverage the synergy of all 9 agents and 11 skills",
-	  "Inconsistent community contribution quality: as a rapidly growing open-source project, some community-contributed skill and agent templates lack thorough testing and may produce unstable outputs for specific project types or language stacks",
-	  "Incomplete Windows support: the install.sh script and several hooks depend on Unix environments; Windows users must run via WSL2, with known compatibility issues in native PowerShell"
+	  "Strong Claude Code version dependency: the plugin system requires Claude Code CLI v2.1.0+, with known breaking changes in hook auto-loading behavior across versions (see Issues #29, #52, #103) — CLI upgrades may trigger 'Duplicate hooks file' errors requiring manual troubleshooting",
+	  "Rules cannot be auto-distributed via plugin: this is an upstream architectural limitation of the Claude Code plugin system — the rules directory must be manually cloned and installed, creating significant friction for teams wanting one-click deployment and requiring manual sync for rule updates",
+	  "Uncontrollable token consumption in multi-agent concurrency: /multi-execute and similar concurrent commands can consume 50K-200K+ tokens in a single task with no built-in hard token budget ceiling, and AgentShield --opus mode scanning costs are particularly high",
+	  "Codex platform hook support is incomplete: Codex (both macOS App and CLI) has not yet implemented Claude Code-style hook execution — ECC's quality loop capabilities on Codex rely on AGENTS.md instructions and sandbox permission configs, unable to match the automation depth of the Claude Code platform",
+	  "Historical Windows native support issues: v1.8.0 has rewritten hook scripts to cross-platform Node.js, but install.sh remains a shell script — Windows users in native PowerShell environments must run via WSL2, with path compatibility issues in some scenarios",
+	  "Full skill module injection causes context bloat: new users unfamiliar with on-demand loading strategies may activate too many MCP servers and skills simultaneously, compressing the 200K context window to approximately 70K usable space and significantly degrading actual coding quality"
 	]
   },
   "faqs_jsonb": {
 	"zh": [
 	  {
-		"question": "Everything Claude Code 相比直接使用 Cursor 或 GitHub Copilot，核心优势在哪里？为什么不直接用那些工具？",
-		"answer": "[Cursor](https://cursor.sh) 和 [GitHub Copilot](https://github.com/features/copilot) 本质上是「IDE 内的代码补全/对话工具」，上下文窗口受限（Cursor 约 100K，Copilot 更少），且均不支持真正的多智能体并发任务分解。Everything Claude Code 基于 Claude 200K+ Token 上下文窗口，通过多智能体架构实现真正意义上的「自主任务执行」——AI 可以同时调度研究员、架构师、安全审计员并行工作，而不是在单一对话中串行处理。此外，本项目的持久化记忆和生命周期钩子是 Cursor/Copilot 完全不具备的工程化能力。如果你的需求是行内代码补全，Copilot 足够；如果你需要 AI 参与整个软件工程生命周期，Everything Claude Code 是量级不同的解决方案。"
+		"question": "ECC 相比直接使用 [Cursor](https://cursor.sh) 或 [GitHub Copilot](https://github.com/features/copilot) 有什么本质区别？是否值得迁移成本？",
+		"answer": "Cursor 和 GitHub Copilot 本质上是「IDE 内的代码补全与对话增强工具」，上下文窗口受限（Cursor 约 100K），且均不支持真正的跨会话记忆持久化和多智能体并发委派。ECC 的核心价值不在于代码补全，而在于「AI 驱动的完整软件工程生命周期管理」：持久化记忆让 Claude 跨会话记住项目全貌，16 个专业子智能体实现真正的并行任务分解，AgentShield 提供 AI 编码工具特有的安全防护。如果你的主要需求是行内代码补全和单文件对话，Copilot/Cursor 已够用；如果你在用 Claude Code 管理多模块、多语言的复杂项目，ECC 是量级不同的增强。值得注意的是，ECC v1.8.0 已实现对 Cursor 的完整支持（15 种钩子事件），两者并不互斥。"
 	  },
 	  {
-		"question": "多个智能体并发运行时，Token 消耗会爆炸式增长吗？有没有控制成本的方法？",
-		"answer": "这是 GitHub Issues 和 Reddit 中讨论最热烈的话题之一。是的，多智能体并发确实会显著增加 Token 消耗，在不加控制的情况下，一次复杂任务可能消耗 50K-200K Token。推荐的 Workaround 有三个：1）在 CLAUDE.md 中明确定义「技能激活白名单」，只在需要时注入特定技能，避免全量技能注入；2）使用 Pre-Tool 钩子设置 Token 预算阈值，超出时强制中断并汇报进度；3）对于探索性任务使用 claude-haiku 模型进行 Agent 调度，只在最终代码生成阶段切换到 claude-sonnet，可节省 60%-70% 的 Token 成本。"
+		"question": "「Duplicate hooks file detected」错误在社区中反复出现（Issue #29, #52, #103），根本原因是什么？如何一劳永逸地解决？",
+		"answer": "这是 Claude Code 插件系统版本迭代中最典型的破坏性变更之一。根本原因：Claude Code v2.1+ 会自动检测并加载已安装插件目录下的 hooks/hooks.json，若同时在 .claude-plugin/plugin.json 的 hooks 字段中显式声明该文件路径，系统会检测到「同一文件被加载两次」并抛出该错误。修复方法：绝对不要在 plugin.json 中声明 hooks 字段，ECC 已在 v1.6.0 后通过回归测试强制防止此问题被重新引入。如果你是从旧版本升级的用户，检查 ~/.claude/settings.json 中是否存在手动配置的 hooks 路径与插件自动加载路径冲突。彻底解决方案是删除所有手动 hooks 配置，仅依赖插件系统自动加载。"
 	  },
 	  {
-		"question": "CLAUDE.md 文件应该写多少内容？是不是越详细越好？",
-		"answer": "这是社区中存在明显争议的话题。过于详细的 CLAUDE.md 会占用宝贵的上下文窗口，反而可能稀释真正重要信息的权重。社区共识（来自 Reddit r/ClaudeCode）是：CLAUDE.md 应控制在 2000-3000 Token 以内，重点覆盖「架构决策」「禁止模式（Anti-Patterns）」「关键依赖版本」三类高价值信息；详细的技术文档应拆分至 /skills 目录以按需加载；避免把 README 直接复制进 CLAUDE.md。Everything Claude Code 在其 CLAUDE.md 模板中对此给出了详细的结构化规范，可直接参考使用。"
+		"question": "Instinct v2 的「置信度评分」机制是如何工作的？AI 真的能从自己的错误中「学习」吗？",
+		"answer": "Instinct v2 的置信度系统采用贝叶斯更新逻辑：每条 Instinct 初始置信度为 0.5，每次该模式在新会话中被正向验证时置信度上调，若产出被代码审查否定或测试失败则下调。置信度低于 0.3 的 Instinct 会被标记为「待验证」，/evolve 命令只会将置信度 >= 0.7 的 Instinct 聚合升华为正式技能。客观评价：这套机制依赖 evaluate-session.js 钩子的模式提取质量，当前实现是基于规则的提取（非端到端神经网络学习），因此更接近「结构化最佳实践积累」而非真正的自我学习。真正的学习边界在于：它能沉淀「这个项目特有的模式」，但无法在不同项目间迁移学到的知识。"
 	  },
 	  {
-		"question": "安全红队扫描功能实际能检测哪些风险？它能替代专业的代码安全审计吗？",
-		"answer": "内置的安全扫描技能主要针对三类 AI 编码特有的风险：1）提示注入（Prompt Injection）——检测代码中是否存在可被恶意用户通过输入劫持 AI 行为的模式；2）权限配置漂移——对比 MCP 配置中声明的最小权限与实际工具调用行为是否一致；3）AI 生成代码中的 OWASP Top10 漏洞模式识别，如硬编码密钥、SQL 拼接、不安全反序列化等。它不能替代专业的 SAST/DAST 工具（如 [Semgrep](https://semgrep.dev) 或 [Snyk](https://snyk.io)），而是作为「AI 原生风险」的第一道防线。建议将其作为 Pre-Edit 钩子融入 CI/CD 流程，与 Semgrep 形成互补。"
+		"question": "AgentShield 的 --opus 红队模式与 Semgrep、Snyk 等专业 SAST/DAST 工具相比，扫描深度和误报率如何？",
+		"answer": "[Semgrep](https://semgrep.dev) 和 [Snyk](https://snyk.io) 是基于规则引擎和已知漏洞数据库的确定性扫描工具，误报率低（5-15%），但无法识别 AI 编码工具特有的威胁面：提示注入、MCP 权限滥用、智能体配置中的越权路径等。AgentShield --opus 模式的核心价值在于「AI 原生风险推理」：三路 Opus 4.6 智能体通过对抗性推理发现传统规则引擎无法描述的攻击链，但代价是高误报率（社区反馈约 20-30%）和高 Token 成本（单次完整扫描约消耗 50K-100K Token）。推荐架构：在 PreToolUse 钩子中运行 Semgrep 做代码级确定性检查，在 PR 合并前通过 CI 集成 AgentShield 标准模式做 AI 配置审计，--opus 模式仅在重大安全评审节点（如上线前）使用。"
 	  },
 	  {
-		"question": "为什么选择 JavaScript/TypeScript 作为主语言，而不是 Python？这对后端 Python 开发者有影响吗？",
-		"answer": "项目框架层（钩子、命令、插件系统）使用 JavaScript/TypeScript 是因为 Claude Code CLI 本身基于 Node.js 生态，与 npm 插件市场深度集成。但这不影响 Python 开发者：所有针对 Python 项目的技能模块（如 FastAPI 架构技能、pytest 测试技能）均以纯 Markdown 编写，不依赖任何运行时；生命周期钩子可以调用任意 shell 命令，因此 Python lint（ruff/flake8）、测试（pytest）等工具均可无缝集成。实际上，Python 生态的技能和智能体在社区中是贡献最活跃的类别之一。"
+		"question": "MCP 服务器数量对上下文窗口的影响有多严重？有没有量化数据？",
+		"answer": "这是 GitHub Issues 和 Reddit r/ClaudeCode 中讨论最多的性能痛点之一。量化数据：每个 MCP 工具的 schema 描述平均消耗约 200-800 Token，14 个 MCP 服务器（ECC 默认配置）如果全部启用约消耗 15K-30K Token，实际可用上下文从 200K 缩减至约 170K-185K。但如果叠加大量工具（如 Supabase MCP 单独就有 40+ 工具），上下文可能被压缩至 70K 以下，严重影响复杂任务的质量。ECC 官方建议：每个项目启用 MCP 服务器不超过 10 个，活跃工具不超过 80 个；通过项目级 .claude/settings.json 的 disabledMcpServers 字段精细化管控，而不是全局禁用。实践 Workaround：将常用 MCP 按「开发环境」、「数据库操作」、「部署」三类分组，通过上下文配置文件（/contexts/dev.md）按工作模式按需切换。"
 	  },
 	  {
-		"question": "在团队协作场景中，如何解决不同开发者的 CLAUDE.md 和记忆文件冲突问题？",
-		"answer": "这是项目当前被 GitHub Issues 讨论最多的架构痛点之一。现有的官方建议是将 CLAUDE.md 纳入 Git 版本控制（作为团队共享的「AI 规范文档」），而将 .claude/memory 目录加入 .gitignore（个人化的 AI 会话记忆不应共享）。对于需要团队级共享记忆的场景，社区发展出了一种「Memory Registry 模式」：在共享的 /contexts 目录下维护团队级知识库，通过 slash command 按需手动注入，而不是自动全量加载。这一方案的缺点是需要人工维护 contexts 目录的时效性，项目尚未提供自动化的团队记忆同步方案。"
+		"question": "CLAUDE.md 的内容边界应该如何界定？社区中存在哪些争议性实践？",
+		"answer": "CLAUDE.md 的内容设计在 Reddit r/ClaudeCode 中长期存在两派争议。「精简派」认为 CLAUDE.md 应控制在 1000-2000 Token 以内，只记录「禁止做什么（Anti-Patterns）」和「关键技术决策」；「详尽派」认为 CLAUDE.md 应包含完整的项目架构图、依赖版本、团队规范等。ECC 的官方立场倾向精简派，并给出了明确的分层策略：CLAUDE.md 只放「永久有效的全局规范」，会变化的技术文档放 /skills，临时的任务上下文放 /contexts 目录按需注入。最常见的错误实践是将 README 直接复制进 CLAUDE.md，或把详细的 API 文档塞入其中，导致每次会话都消耗大量 Token 加载从未被引用的内容。黄金法则：能按需注入的知识就不要放进 CLAUDE.md。"
 	  },
 	  {
-		"question": "Everything Claude Code 支持的 11 个命令里，哪几个对日常效率提升最显著？",
-		"answer": "根据社区使用反馈，效率提升最显著的三个命令是：1）/research——触发 Research Agent 对给定技术问题进行深度互联网检索和代码库分析，输出结构化的「技术选型报告」，彻底取代手动查文档；2）/security-scan——一键触发安全红队扫描，在提交 PR 前发现 AI 引入的潜在漏洞；3）/architect——触发 Architect Agent 基于当前代码库状态和需求描述生成详细的「架构变更提案（ADR）」，使 AI 编码从「写代码」升级为「做工程决策」。这三个命令覆盖了「研究→决策→安全」的完整工程前置链路。"
+		"question": "在团队协作场景中，如何避免不同开发者的 Instinct 直觉库和 CLAUDE.md 产生冲突？ECC 是否提供团队级同步方案？",
+		"answer": "这是 ECC GitHub Discussions 中被反复提及的架构痛点，目前没有官方的全自动团队同步方案。社区已探索出三种可行路径：1）「共享技能、个人直觉」分层：CLAUDE.md 和 /skills 目录纳入 Git 版本控制作为团队共享的「AI 规范文档」，.claude/memory 和 Instinct 文件加入 .gitignore 保持个人化；2）「Instinct 导出审查制」：通过 /instinct-export 定期导出高置信度直觉，经 PR 评审后合并至团队共享的 /contexts 知识库；3）「Memory Registry 模式」：在 /contexts 目录维护团队级知识库，通过 slash command 手动按需注入而非自动加载。ECC v1.4.0 引入的 /multi-plan 和 /multi-execute 命令为多人协作提供了任务分解框架，但完整的团队记忆同步仍是路线图中未完成的特性。"
 	  },
 	  {
-		"question": "项目迭代很快，如何追踪哪些技能和智能体是最新推荐的，避免使用过时的配置？",
-		"answer": "这是快速增长的开源项目面临的普遍挑战。实践建议：1）订阅仓库的 Release 通知，CHANGELOG.md 中对每个版本的技能/智能体变更有明确记录；2）通过 npm update -g everything-claude-code 保持最新版本，钩子系统在检测到版本更新时会自动提示；3）查阅 .claude-plugin 目录下的 manifest 文件，其中标注了每个组件的 stability 字段（stable/experimental/deprecated）；4）加入项目官方 Discord（链接见 README），核心维护者 Affaan Malik 会在重大配置变更时发布迁移指南。避免直接 fork 主分支在生产环境使用，优先通过插件市场安装以获得版本管理保障。"
+		"question": "ECC 对比 [Aider](https://aider.chat) 这类开源 AI 编码工具，在架构选择上的根本差异是什么？",
+		"answer": "Aider 是一个独立的 AI 编码 CLI 工具，核心设计理念是「Git 感知的代码修改」——它直接操作 Git 提交，有自己的模型管理和上下文策略，不依赖 Claude Code 生态。ECC 则是「Claude Code 的增强插件层」，完全运行在 Claude Code 的运行时之上，不替代而是扩展 Claude Code 的能力边界。架构差异的本质：Aider 追求工具级的自治，支持多种 LLM 后端（包括 GPT-4、Gemini）；ECC 追求在 Claude Code 生态内的极致垂直深度，深度绑定 Anthropic 的 MCP 协议、插件系统和智能体委派机制。如果你需要一个独立于特定 AI 厂商的代码工具，Aider 是更好的选择；如果你的工作流已深度依赖 Claude Code，ECC 提供的增强深度是 Aider 无法比拟的。两者并不完全竞争，部分用户同时使用 Aider（做 Git 提交级操作）和 ECC（做会话级 AI 工程管理）。"
 	  }
 	],
 	"en": [
 	  {
-		"question": "What is the core advantage of Everything Claude Code over using Cursor or GitHub Copilot directly? Why not just use those tools?",
-		"answer": "[Cursor](https://cursor.sh) and [GitHub Copilot](https://github.com/features/copilot) are fundamentally 'code completion/chat tools within an IDE' with limited context windows (Cursor ~100K, Copilot even less) and no support for true multi-agent concurrent task decomposition. Everything Claude Code leverages Claude's 200K+ token context window and multi-agent architecture to enable genuinely autonomous task execution — AI can simultaneously dispatch a researcher, architect, and security auditor working in parallel, not serially in a single conversation. Furthermore, persistent memory and lifecycle hooks represent engineering capabilities entirely absent from Cursor/Copilot. If you need inline code completion, Copilot suffices; if you need AI involvement across the entire software engineering lifecycle, Everything Claude Code operates at a fundamentally different scale."
+		"question": "What is the fundamental difference between ECC and using [Cursor](https://cursor.sh) or [GitHub Copilot](https://github.com/features/copilot) directly? Is the migration cost worth it?",
+		"answer": "Cursor and GitHub Copilot are fundamentally 'code completion and conversation enhancement tools within an IDE' with limited context windows (Cursor ~100K) and no support for true cross-session memory persistence or multi-agent concurrent delegation. ECC's core value is not code completion but 'AI-driven complete software engineering lifecycle management': persistent memory lets Claude remember the full project across sessions, 16 specialized sub-agents enable genuine parallel task decomposition, and AgentShield provides security protection unique to AI coding tools. If your primary need is inline code completion and single-file conversation, Copilot/Cursor is sufficient; if you're using Claude Code to manage complex multi-module, multi-language projects, ECC operates at a fundamentally different scale. Notably, ECC v1.8.0 provides full Cursor support (15 hook event types), so the two are not mutually exclusive."
 	  },
 	  {
-		"question": "Will token consumption explode with multiple agents running concurrently? Are there cost-control strategies?",
-		"answer": "This is one of the most hotly discussed topics in GitHub Issues and Reddit. Yes, multi-agent concurrency significantly increases token usage — an uncontrolled complex task can consume 50K-200K tokens. Three recommended workarounds: 1) Define a 'skill activation whitelist' in CLAUDE.md to inject only specific skills when needed, avoiding full-set injection; 2) Use Pre-Tool hooks to set token budget thresholds with forced interruption and progress reporting when exceeded; 3) Use claude-haiku for agent orchestration during exploratory tasks and switch to claude-sonnet only for final code generation, saving 60%-70% of token costs."
+		"question": "The 'Duplicate hooks file detected' error has repeatedly appeared in the community (Issues #29, #52, #103) — what is the root cause, and how do you fix it permanently?",
+		"answer": "This is the most typical breaking change in Claude Code plugin system version iterations. Root cause: Claude Code v2.1+ automatically detects and loads hooks/hooks.json from installed plugin directories; if the same file path is also explicitly declared in the hooks field of .claude-plugin/plugin.json, the system detects 'the same file loaded twice' and throws this error. Fix: never declare a hooks field in plugin.json — ECC enforces this via regression tests since v1.6.0 to prevent reintroduction. If you're upgrading from an older version, check whether manually configured hooks paths in ~/.claude/settings.json conflict with plugin auto-loading paths. The definitive solution is to delete all manual hooks configurations and rely solely on plugin system auto-loading."
 	  },
 	  {
-		"question": "How much content should go in CLAUDE.md? Is more detail always better?",
-		"answer": "This is a topic of clear community debate. An overly detailed CLAUDE.md consumes valuable context window space, potentially diluting the weight of truly important information. The community consensus (from Reddit r/ClaudeCode) is: keep CLAUDE.md under 2000-3000 tokens, focusing on three high-value categories: 'architectural decisions,' 'anti-patterns to avoid,' and 'critical dependency versions.' Detailed technical docs should be split into the /skills directory for on-demand loading. Never copy-paste a README directly into CLAUDE.md. Everything Claude Code provides detailed structural specifications in its CLAUDE.md template that can be used as a direct reference."
+		"question": "How does Instinct v2's 'confidence scoring' mechanism actually work? Can AI genuinely 'learn' from its own mistakes?",
+		"answer": "Instinct v2's confidence system uses Bayesian update logic: each instinct starts at 0.5 confidence, rises when the pattern is positively validated in new sessions, and drops when its output is rejected by code review or fails tests. Instincts below 0.3 confidence are flagged as 'pending verification'; /evolve only clusters instincts with >= 0.7 confidence into formal skills. Honest assessment: this mechanism depends on the pattern extraction quality of evaluate-session.js — the current implementation is rule-based extraction (not end-to-end neural network learning), making it closer to 'structured best practice accumulation' than genuine self-learning. The real learning boundary: it can crystallize 'patterns unique to this project' but cannot transfer learned knowledge across different projects."
 	  },
 	  {
-		"question": "What risks does the security red-team scan actually detect? Can it replace professional code security audits?",
-		"answer": "The built-in security scanning skill primarily targets three AI-coding-specific risk categories: 1) Prompt Injection — detecting patterns in code that malicious users could exploit to hijack AI behavior via inputs; 2) Permission config drift — comparing declared minimum permissions in MCP configs against actual tool-call behavior; 3) OWASP Top10 vulnerability pattern recognition in AI-generated code, such as hardcoded secrets, SQL concatenation, and insecure deserialization. It cannot replace professional SAST/DAST tools like [Semgrep](https://semgrep.dev) or [Snyk](https://snyk.io), but serves as the first line of defense against AI-native risks. The recommended approach is to integrate it as a Pre-Edit hook in CI/CD pipelines as a complement to Semgrep."
+		"question": "How does AgentShield's --opus red-team mode compare to professional SAST/DAST tools like Semgrep and Snyk in terms of scan depth and false positive rates?",
+		"answer": "[Semgrep](https://semgrep.dev) and [Snyk](https://snyk.io) are deterministic scanning tools based on rule engines and known vulnerability databases with low false positive rates (5-15%), but they cannot identify AI-coding-tool-specific threat surfaces: prompt injection, MCP privilege abuse, privilege escalation paths in agent configurations, etc. AgentShield --opus mode's core value is 'AI-native risk reasoning': three Opus 4.6 agents use adversarial reasoning to discover attack chains that traditional rule engines cannot describe — but at the cost of high false positive rates (~20-30% per community feedback) and high token consumption (~50K-100K tokens per full scan). Recommended architecture: run Semgrep for deterministic code-level checks in PreToolUse hooks, integrate AgentShield standard mode via CI before PR merges for AI configuration auditing, and reserve --opus mode for major security review milestones (e.g., before production launch)."
 	  },
 	  {
-		"question": "Why JavaScript/TypeScript as the primary language instead of Python? Does this affect Python backend developers?",
-		"answer": "The framework layer (hooks, commands, plugin system) uses JavaScript/TypeScript because the Claude Code CLI itself is Node.js-based and deeply integrated with the npm plugin marketplace. However, this doesn't affect Python developers: all Python project skill modules (FastAPI architecture skills, pytest testing skills) are written in pure Markdown with no runtime dependencies; lifecycle hooks can invoke any shell command, so Python lint tools (ruff/flake8) and test runners (pytest) integrate seamlessly. In practice, Python ecosystem skills and agents are among the most actively contributed categories in the community."
+		"question": "How severely does the number of MCP servers affect the context window? Is there quantitative data?",
+		"answer": "This is one of the most discussed performance pain points in GitHub Issues and Reddit r/ClaudeCode. Quantitative data: each MCP tool schema description consumes approximately 200-800 tokens; ECC's default 14 MCP servers, if all enabled simultaneously, consume ~15K-30K tokens, reducing the 200K context to approximately 170K-185K usable. But if many tools are stacked (e.g., Supabase MCP alone has 40+ tools), the context can be compressed below 70K, severely degrading complex task quality. ECC's official recommendation: enable no more than 10 MCP servers per project and keep active tools under 80; use the disabledMcpServers field in project-level .claude/settings.json for fine-grained control rather than global disable. Practical workaround: group common MCPs into 'development environment,' 'database operations,' and 'deployment' categories, switching between them on demand via context profiles (/contexts/dev.md)."
 	  },
 	  {
-		"question": "In team collaboration scenarios, how do you resolve conflicts between different developers' CLAUDE.md files and memory files?",
-		"answer": "This is one of the most discussed architectural pain points in GitHub Issues. The current official recommendation is to put CLAUDE.md under Git version control (as a shared team 'AI specification document') while adding .claude/memory to .gitignore (personalized AI session memory should not be shared). For team-level shared memory scenarios, the community has developed a 'Memory Registry Pattern': maintaining a team knowledge base under the shared /contexts directory, manually injected on demand via slash commands rather than auto-loaded in full. The downside is that it requires manual maintenance of the contexts directory's freshness — the project has not yet provided an automated team memory synchronization solution."
+		"question": "How should CLAUDE.md content boundaries be defined? What controversial practices exist in the community?",
+		"answer": "CLAUDE.md content design has long had two opposing camps in Reddit r/ClaudeCode. The 'minimalist camp' argues CLAUDE.md should stay under 1000-2000 tokens, recording only 'what not to do (anti-patterns)' and 'key technical decisions'; the 'comprehensive camp' argues it should include full project architecture diagrams, dependency versions, and team conventions. ECC's official stance favors minimalism with a clear layered strategy: CLAUDE.md only holds 'permanently valid global conventions,' changing technical docs go in /skills, and temporary task context goes in /contexts for on-demand injection. The most common mistake is copying README directly into CLAUDE.md or stuffing detailed API docs inside it, causing large token consumption loading never-referenced content every session. The golden rule: if knowledge can be injected on demand, it doesn't belong in CLAUDE.md."
 	  },
 	  {
-		"question": "Among the 11 supported commands, which ones have the most significant impact on daily efficiency?",
-		"answer": "Based on community usage feedback, the three commands with the most significant efficiency gains are: 1) /research — triggers the Research Agent to perform deep internet search and codebase analysis on a given technical problem, outputting a structured 'Technology Selection Report,' completely replacing manual documentation lookup; 2) /security-scan — one-click security red-team scan to identify AI-introduced vulnerabilities before submitting a PR; 3) /architect — triggers the Architect Agent to generate a detailed 'Architectural Decision Record (ADR)' based on current codebase state and requirements, elevating AI coding from 'writing code' to 'making engineering decisions.' These three commands cover the complete pre-engineering chain of research → decision → security."
+		"question": "In team collaboration scenarios, how do you prevent conflicts between different developers' Instinct libraries and CLAUDE.md? Does ECC provide a team-level sync solution?",
+		"answer": "This is an architectural pain point repeatedly raised in ECC GitHub Discussions, with no official fully automated team sync solution currently available. Three viable community-explored paths: 1) 'Shared skills, personal instincts' layering: put CLAUDE.md and /skills under Git version control as team-shared 'AI specification documents,' and add .claude/memory and Instinct files to .gitignore to keep them personal; 2) 'Instinct export review system': periodically export high-confidence instincts via /instinct-export, merge them into the team's shared /contexts knowledge base after PR review; 3) 'Memory Registry pattern': maintain a team-level knowledge base in /contexts, manually injecting on demand via slash commands rather than auto-loading. ECC v1.4.0's /multi-plan and /multi-execute commands provide a task decomposition framework for multi-person collaboration, but complete team memory synchronization remains an unfinished roadmap feature."
 	  },
 	  {
-		"question": "The project iterates quickly — how do you track which skills and agents are the latest recommendations and avoid using outdated configurations?",
-		"answer": "This is a common challenge for rapidly growing open-source projects. Practical advice: 1) Subscribe to repository Release notifications — CHANGELOG.md explicitly records skill/agent changes per version; 2) Run npm update -g everything-claude-code to stay current, as the hook system auto-prompts when a version update is detected; 3) Check manifest files in the .claude-plugin directory, which label each component's stability field (stable/experimental/deprecated); 4) Join the official Discord (linked in README), where core maintainer Affaan Malik publishes migration guides for major configuration changes. Avoid forking the main branch directly for production use — prefer installing via the plugin marketplace for version management guarantees."
+		"question": "What is the fundamental architectural difference between ECC and open-source AI coding tools like [Aider](https://aider.chat)?",
+		"answer": "Aider is an independent AI coding CLI tool whose core design philosophy is 'git-aware code modification' — it directly operates on Git commits, has its own model management and context strategy, and is not dependent on the Claude Code ecosystem. ECC is an 'enhancement plugin layer for Claude Code,' running entirely on top of Claude Code's runtime to extend rather than replace its capabilities. The architectural essence: Aider pursues tool-level autonomy and supports multiple LLM backends (including GPT-4 and Gemini); ECC pursues extreme vertical depth within the Claude Code ecosystem, deeply binding to Anthropic's MCP protocol, plugin system, and agent delegation mechanisms. If you need a code tool independent of a specific AI vendor, Aider is the better choice; if your workflow is already deeply dependent on Claude Code, ECC's enhancement depth is incomparable to Aider. They are not entirely competitive — some users run Aider (for Git-commit-level operations) alongside ECC (for session-level AI engineering management)."
 	  }
 	]
   },
   "seo_title_jsonb": {
-	"zh": "Everything Claude Code：50K Stars AI 编码增强套件完全指南",
-	"en": "Everything Claude Code: Ultimate 50K-Star Claude Code Enhancement Kit"
+	"zh": "Everything Claude Code：50K Star AI 智能体增强系统完全指南",
+	"en": "Everything Claude Code: 50K-Star AI Agent Harness Performance Guide"
   },
   "seo_description_jsonb": {
-	"zh": "Anthropic 黑客马拉松冠军作品，9 智能体+11 技能+持久化记忆+安全红队，一行命令将 Claude Code 升级为企业级 AI 软件工程系统。",
-	"en": "Anthropic hackathon winner's toolkit: 9 agents, 11 skills, persistent memory & security red-team scanning. One-line install to supercharge Claude Code for production-grade AI engineering."
+	"zh": "Anthropic 冠军作品，16 智能体+65 技能+AgentShield 红队+Instinct 持续学习，一行命令将 Claude Code 升级为企业级 AI 工程系统。",
+	"en": "Hackathon winner's toolkit: 16 agents, 65 skills, AgentShield red-team, Instinct v2 learning. One-line install to supercharge Claude Code for production-grade AI software engineering."
   },
   "tags_jsonb": {
 	"zh": [
@@ -257,10 +259,10 @@
 	  "提示词工程",
 	  "持久化记忆",
 	  "安全红队",
-	  "生命周期钩子",
+	  "持续学习",
 	  "开发效率",
-	  "Cursor替代方案",
-	  "Copilot增强",
+	  "Cursor替代增强",
+	  "Copilot对标",
 	  "TypeScript"
 	],
 	"en": [
@@ -271,7 +273,7 @@
 	  "prompt-engineering",
 	  "persistent-memory",
 	  "security-red-team",
-	  "lifecycle-hooks",
+	  "continuous-learning",
 	  "developer-productivity",
 	  "alternative-to-cursor",
 	  "copilot-enhancement",
