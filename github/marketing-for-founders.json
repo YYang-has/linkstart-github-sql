@@ -1,0 +1,570 @@
+{
+  "slug": "marketing-for-founders",
+  "github_url": "https://github.com/EdoStra/Marketing-for-Founders",
+  "logo_url": "https://github.com/EdoStra.png",
+  "stars": 2200,
+  "language": "Markdown",
+  "license": "Creative Commons Attribution Share Alike 4.0 International",
+  "deploy_difficulty": "easy",
+  "is_spotlight": false,
+  "tags": ["marketing-resources", "founder-marketing", "startup-growth", "saas-marketing", "go-to-market", "seo", "reddit-marketing", "email-marketing", "content-marketing", "growth-playbook"],
+  "name_jsonb": {
+	"zh": "Marketing for Founders",
+	"en": "Marketing for Founders",
+	"ja": "Marketing for Founders",
+	"ko": "Marketing for Founders",
+	"es": "Marketing for Founders"
+  },
+  "slogan_jsonb": {
+	"zh": "帮助技术型创业者拿下前 10、100、1000 个用户的实战营销资源库",
+	"en": "A practical marketing resource hub to help founders get their first 10, 100, and 1000 users",
+	"ja": "技術系創業者が最初の 10・100・1000 ユーザーを獲得するための実践型マーケティング資源集",
+	"ko": "기술 창업자가 첫 10명, 100명, 1000명의 사용자를 확보하도록 돕는 실전형 마케팅 리소스 허브",
+	"es": "Un centro práctico de recursos de marketing para que los fundadores consigan sus primeros 10, 100 y 1000 usuarios"
+  },
+  "description_jsonb": {
+	"zh": "Marketing for Founders 是一个面向早期创业者的开源营销知识库，核心目标不是讲抽象品牌理论，而是帮助创始人用可执行的方法拿到前 10、100、1000 个用户。项目以单个 GitHub 仓库的 README 为载体，按启动发布、社交媒体、冷启动销售、SEO、LLM SEO、Reddit 营销、邮件营销、内容营销、广告、定价、转化优化、用户研究等主题组织高质量外部资源，形成低预算 GTM 作战手册。它的价值不在于自研代码，而在于把分散在博客、案例、课程和社区帖子里的高信号信息，压缩为可直接导航和执行的主题索引。相比泛泛而谈的增长文章，这个项目更像一个创业者营销操作系统：先从零预算渠道切入，再逐步扩展到广告、推荐和影响者合作。对于独立开发者、SaaS 创始人和技术背景 CEO，它相当于一个持续更新的营销起步平替方案。",
+	"en": "Marketing for Founders is an open-source marketing knowledge base for early-stage founders. Instead of teaching abstract brand theory, it focuses on actionable ways to win the first 10, 100, and 1000 users. The project uses a single GitHub repository README as its delivery surface and organizes high-signal external resources across launch platforms, social media, cold outreach, SEO, LLM SEO, Reddit marketing, email, content, ads, pricing, CRO, and user research. Its value is not proprietary software but curation quality: it compresses scattered blog posts, playbooks, case studies, and community advice into an execution-ready GTM index. Compared with generic startup marketing essays, it behaves more like a founder operating manual that starts with zero-budget channels and expands toward paid acquisition, referrals, and positioning work. For indie hackers, SaaS builders, and technical CEOs, it works as a continuously updated marketing starter stack.",
+	"ja": "Marketing for Founders は、アーリーステージ創業者向けのオープンソース型マーケティング知識ベースです。抽象的なブランド論ではなく、最初の 10・100・1000 ユーザーを獲得するための実行可能な施策に焦点を当てています。単一の GitHub リポジトリ README を配信面として使い、ローンチ、ソーシャル運用、アウトバウンド、SEO、LLM SEO、Reddit、メール、コンテンツ、広告、価格設定、CRO、ユーザー調査まで高信号な外部資料を体系化しています。価値の中核は独自ソフトウェアではなく選定品質にあり、ブログ、事例、プレイブック、コミュニティ知見を実行向け GTM インデックスへ圧縮しています。一般的なマーケ記事よりも、低予算チャネルから始めて有料獲得や紹介、ポジショニングへ広げる創業者向け運用マニュアルとして機能します。",
+	"ko": "Marketing for Founders는 초기 창업자를 위한 오픈소스 마케팅 지식 베이스다. 추상적인 브랜드 이론보다 첫 10명, 100명, 1000명의 사용자를 확보하는 실행 가능한 방법에 집중한다. 단일 GitHub 저장소의 README를 중심 인터페이스로 사용하며, 런치 플랫폼, 소셜 미디어, 콜드 아웃리치, SEO, LLM SEO, Reddit 마케팅, 이메일, 콘텐츠, 광고, 가격 전략, CRO, 사용자 리서치까지 고신호 외부 자료를 체계화한다. 핵심 기능은 소프트웨어 자체가 아니라 큐레이션 품질에 있다. 흩어진 블로그, 플레이북, 사례, 커뮤니티 조언을 즉시 실행 가능한 GTM 인덱스로 압축해 인디 해커, SaaS 창업자, 기술 배경 CEO에게 지속적으로 업데이트되는 마케팅 스타터 스택을 제공한다.",
+	"es": "Marketing for Founders es una base de conocimiento de marketing de código abierto orientada a fundadores en fase inicial. En lugar de centrarse en teoría abstracta de marca, prioriza métodos accionables para conseguir los primeros 10, 100 y 1000 usuarios. Utiliza el README de un único repositorio de GitHub como superficie de entrega y organiza recursos externos de alta señal sobre lanzamientos, redes sociales, prospección en frío, SEO, LLM SEO, marketing en Reddit, email, contenido, anuncios, pricing, CRO e investigación de usuarios. Su valor no está en software propietario, sino en la calidad de la curación: comprime artículos, playbooks, casos y consejos comunitarios en un índice GTM listo para ejecutar. Frente a los textos genéricos de growth, funciona más como un manual operativo para fundadores que comienza con canales de bajo presupuesto y escala hacia adquisición pagada, referrals y posicionamiento."
+  },
+  "tags_jsonb": {
+	"zh": ["#营销资源", "#创业者营销", "#SaaS增长", "#增长策略", "#SEO", "#Reddit营销", "#邮件营销", "#内容营销"],
+	"en": ["#marketing-resources", "#founder-marketing", "#saas-growth", "#go-to-market", "#seo", "#reddit-marketing", "#email-marketing", "#content-marketing"],
+	"ja": ["#マーケティング資料", "#創業者マーケ", "#SaaS成長", "#GTM", "#SEO", "#Redditマーケ", "#メールマーケ", "#コンテンツマーケ"],
+	"ko": ["#마케팅리소스", "#창업자마케팅", "#SaaS성장", "#GTM", "#SEO", "#Reddit마케팅", "#이메일마케팅", "#콘텐츠마케팅"],
+	"es": ["#recursos-marketing", "#marketing-para-founders", "#crecimiento-saas", "#gtm", "#seo", "#marketing-reddit", "#email-marketing", "#marketing-de-contenido"]
+  },
+  "comparison_jsonb": {
+	"zh": {
+	  "painPoints": [
+		"多数创业营销内容过度面向已融资团队，默认读者拥有预算、团队与成熟分工，早期创始人很难直接执行",
+		"常见增长文章碎片化严重，信息分散在博客、播客、Twitter 线程与社区评论中，检索成本极高",
+		"很多资源强调概念而非动作，无法告诉创始人应该先做发布、冷启动外联、SEO 还是 Reddit 运营",
+		"技术型创始人通常缺少系统营销框架，容易把时间浪费在低回报渠道上"
+	  ],
+	  "innovations": [
+		"以主题导航替代线性长文，把营销拆分为 launch、SEO、LLM SEO、Reddit、内容、定价等多个可执行模块",
+		"优先覆盖零预算或低预算渠道，使其更适合作为独立开发者和早期 SaaS 的 GTM 起点",
+		"把 ChatGPT、Claude、Perplexity、Gemini 等 AI 搜索相关的新型发现渠道纳入同一资源体系",
+		"通过持续追加案例、清单和指南，形成比传统博客更易更新的营销知识索引结构",
+		"相较于泛用型营销百科，它更接近专为创业者设计的实操清单，而不是面向大团队的理论教材"
+	  ]
+	},
+	"en": {
+	  "painPoints": [
+		"Most startup marketing content is written for funded teams and assumes budget, staff, and specialized roles, making it hard for early founders to execute",
+		"Growth advice is heavily fragmented across blogs, podcasts, Twitter threads, and community comments, creating high discovery and synthesis cost",
+		"Many resources explain concepts rather than actions, so founders still do not know whether to start with launches, outbound, SEO, or Reddit",
+		"Technical founders often lack a practical marketing system and waste time on channels with low early-stage ROI"
+	  ],
+	  "innovations": [
+		"It replaces linear essays with topic-based navigation, splitting founder marketing into executable modules such as launches, SEO, LLM SEO, Reddit, content, and pricing",
+		"It prioritizes zero-budget and low-budget channels, making it a stronger starting point for indie hackers and early SaaS teams",
+		"It includes modern AI discovery channels around ChatGPT, Claude, Perplexity, and Gemini in the same resource map",
+		"Its README-first format makes the knowledge base continuously extensible with new case studies, checklists, and playbooks",
+		"Compared with a general marketing wiki, it behaves more like a founder execution checklist than a theory-heavy handbook"
+	  ]
+	},
+	"ja": {
+	  "painPoints": [
+		"多くのスタートアップ向けマーケ記事は資金調達済みチームを前提としており、予算や専任人員のない創業者には実行しにくい",
+		"成長ノウハウはブログ、ポッドキャスト、SNS スレッド、コミュニティ投稿に分散し、探索と統合の負荷が高い",
+		"概念説明に偏る資料が多く、ローンチ、アウトバウンド、SEO、Reddit のどれから始めるべきか判断しにくい",
+		"技術系創業者は実務的なマーケ体系を持たず、初期 ROI の低いチャネルに時間を浪費しやすい"
+	  ],
+	  "innovations": [
+		"長文解説ではなくテーマ別ナビゲーションを採用し、ローンチ、SEO、LLM SEO、Reddit、コンテンツ、価格設定を実行単位で整理する",
+		"ゼロ予算または低予算チャネルを優先し、インディーハッカーや初期 SaaS の GTM 起点として使いやすい",
+		"ChatGPT、Claude、Perplexity、Gemini など AI 検索時代の新しい発見チャネルを同一マップに統合する",
+		"README 中心の形式により、事例、チェックリスト、ガイドを継続的に追加しやすい",
+		"汎用マーケ百科よりも、創業者向けの実行チェックリストとして機能する"
+	  ]
+	},
+	"ko": {
+	  "painPoints": [
+		"대부분의 스타트업 마케팅 콘텐츠는 투자 유치 팀을 전제로 해 예산과 인력이 부족한 초기 창업자가 바로 실행하기 어렵다",
+		"성장 조언이 블로그, 팟캐스트, SNS 스레드, 커뮤니티 댓글에 흩어져 있어 탐색과 정리에 큰 비용이 든다",
+		"많은 자료가 개념 설명에 치우쳐 있어 런치, 아웃바운드, SEO, Reddit 중 무엇부터 시작할지 판단하기 어렵다",
+		"기술 창업자는 실무형 마케팅 시스템이 부족해 초기 ROI가 낮은 채널에 시간을 낭비하기 쉽다"
+	  ],
+	  "innovations": [
+		"선형 장문 대신 주제 기반 내비게이션으로 런치, SEO, LLM SEO, Reddit, 콘텐츠, 가격 전략을 실행 모듈로 분해한다",
+		"제로 예산과 저예산 채널을 우선 배치해 인디 해커와 초기 SaaS 팀의 GTM 출발점으로 적합하다",
+		"ChatGPT, Claude, Perplexity, Gemini 등 AI 검색 시대의 발견 채널을 하나의 리소스 맵에 통합한다",
+		"README 중심 구조라 사례, 체크리스트, 가이드를 지속적으로 확장하기 쉽다",
+		"일반 마케팅 위키보다 창업자 실행 체크리스트에 더 가깝다"
+	  ]
+	},
+	"es": {
+	  "painPoints": [
+		"Gran parte del contenido de marketing para startups está pensado para equipos financiados y presupone presupuesto, personal y funciones especializadas",
+		"El consejo de growth está muy fragmentado entre blogs, podcasts, hilos sociales y comentarios comunitarios, con alto coste de descubrimiento y síntesis",
+		"Muchos recursos explican conceptos pero no acciones, por lo que el fundador sigue sin saber si empezar por lanzamientos, outbound, SEO o Reddit",
+		"Los fundadores técnicos suelen carecer de un sistema práctico de marketing y pierden tiempo en canales con bajo ROI inicial"
+	  ],
+	  "innovations": [
+		"Sustituye los ensayos lineales por navegación temática y divide el marketing para founders en módulos ejecutables como lanzamientos, SEO, LLM SEO, Reddit, contenido y pricing",
+		"Prioriza canales de presupuesto cero o bajo, lo que lo vuelve más útil para indie hackers y equipos SaaS tempranos",
+		"Integra canales modernos de descubrimiento ligados a ChatGPT, Claude, Perplexity y Gemini dentro del mismo mapa de recursos",
+		"Su formato centrado en README facilita ampliar continuamente la base con casos, listas y guías",
+		"Frente a una wiki generalista, se comporta más como una lista operativa de ejecución para founders"
+	  ]
+	}
+  },
+  "architecture_jsonb": {
+	"zh": [
+	  {
+		"title": "README 驱动的知识库架构",
+		"desc": "这个项目本质上不是传统软件，而是一个以 README 为主界面的内容数据库。它把主题分类、链接集合、上下文说明和操作提示全部压缩在单一入口中，降低创始人寻找资料的路径成本。由于内容主要是 Markdown，维护门槛极低，贡献者不需要理解复杂框架、构建流程或数据模型就能更新资源。这样的架构特别适合快速演进的营销领域，因为新增趋势如 LLM SEO 或 Reddit 营销时，只需新增章节与链接而不是改动产品逻辑。"
+	  },
+	  {
+		"title": "主题分层与 GTM 路径设计",
+		"desc": "仓库内容并非简单罗列链接，而是按创业者常见增长任务进行主题分层。前半部分聚焦启动发布、社交媒体、冷启动销售和 SEO，这些更接近「先拿到第一批用户」的问题；后半部分再延伸到广告、推荐、定价、转化优化和用户研究，形成更完整的 GTM 路径。这样的组织方式相当于把营销漏斗拆成多个可独立执行的模块，方便创始人按阶段调用。它解决的不是信息缺乏，而是信息排序与行动优先级缺乏。"
+	  },
+	  {
+		"title": "高信号外链聚合机制",
+		"desc": "项目的核心技术价值在于策展，而不是原创长文产出。维护者从独立博客、SaaS 案例、社区帖子和实战教程中筛出相对高信号资源，再按主题归档，等于为创始人做了一层人工检索与过滤。相比搜索引擎结果页，这种人工聚合能减少大量 SEO 噪音和陈词滥调内容。对于时间极度稀缺的创始人来说，这种「筛选后再学习」的结构比自己全网搜索更接近可执行系统。"
+	  },
+	  {
+		"title": "轻量更新与社区共建模型",
+		"desc": "由于仓库本身没有复杂依赖，更新方式主要依赖 README 编辑、Issue 反馈和 Pull Request 补充。这样的协作模型天然适合开源内容项目：问题反馈可以围绕资源失效、低质量链接、遗漏主题或新渠道增加展开。GitHub 作为承载平台也让 star、fork 和 issue 成为内容可信度与讨论热度的公共信号。虽然这种模式缺少结构化数据库与搜索后端，但它换来了极低的维护成本和较强的社区扩展性。"
+	  }
+	],
+	"en": [
+	  {
+		"title": "README-First Knowledge Architecture",
+		"desc": "This project is not traditional software but a content database delivered through a single README interface. Topic grouping, link collections, context notes, and action hints are all compressed into one entry point, reducing navigation cost for founders. Because the content is mostly Markdown, maintenance overhead stays extremely low and contributors do not need to understand a framework, build system, or formal schema to improve the resource base. This architecture fits fast-moving marketing domains well, since adding trends such as LLM SEO or Reddit marketing only requires new sections instead of product rewrites."
+	  },
+	  {
+		"title": "Topic Layering and GTM Journey Design",
+		"desc": "The repository is not just a flat link dump; it is layered around common founder growth jobs. Early sections focus on launches, social media, outbound, and SEO, which map to the problem of getting initial users, while later sections expand into ads, referrals, pricing, CRO, and user research for broader GTM maturity. That structure effectively decomposes a growth funnel into modular execution tracks. The project therefore solves not only information access but also prioritization and sequencing for founder action."
+	  },
+	  {
+		"title": "High-Signal External Resource Aggregation",
+		"desc": "Its technical value lies in curation rather than original essay production. The maintainer pulls together relatively high-signal materials from independent blogs, SaaS case studies, community posts, and tactical guides, then re-indexes them by use case. Compared with a search engine results page, this manual aggregation filters out a large amount of SEO noise and generic advice. For time-constrained founders, that 'pre-filtered learning surface' is much closer to an execution system than open-ended searching."
+	  },
+	  {
+		"title": "Lightweight Update and Community Contribution Model",
+		"desc": "Because the repository has almost no runtime dependencies, updates mostly happen through README edits, issue reports, and pull requests. That makes it naturally suitable for open content collaboration around dead links, low-quality resources, missing categories, or emerging channels. GitHub also provides public trust signals through stars, forks, and discussion surfaces, which help the project behave like a living resource graph rather than a static article. The tradeoff is limited structured search and no dedicated backend, but the payoff is very low maintenance cost and strong extensibility."
+	  }
+	],
+	"ja": [
+	  {
+		"title": "README 主導の知識ベース構造",
+		"desc": "このプロジェクトは従来型ソフトウェアではなく、README を主要 UI とするコンテンツデータベースです。テーマ分類、リンク集、補足文脈、行動ヒントを単一入口に集約し、創業者の探索コストを下げています。内容の大半が Markdown のため、複雑なフレームワークやビルド手順を理解せずに更新できます。LLM SEO や Reddit マーケのような新潮流が出ても章追加で追随できるため、変化の速い領域に適した設計です。"
+	  },
+	  {
+		"title": "テーマ階層化と GTM 導線設計",
+		"desc": "内容は単なるリンク一覧ではなく、創業者の成長課題に沿って階層化されています。前半はローンチ、SNS、アウトバウンド、SEO に集中し、初期ユーザー獲得の課題へ直結します。後半は広告、紹介、価格設定、CRO、ユーザー調査へ広がり、より成熟した GTM 導線を形成します。これにより情報アクセスだけでなく、優先順位付けと実行順序まで支援できます。"
+	  },
+	  {
+		"title": "高信号外部リソースの集約機構",
+		"desc": "技術的価値の中心は独自記事ではなくキュレーションです。運営者は独立系ブログ、SaaS 事例、コミュニティ投稿、実践ガイドから高信号な情報を選別し、用途別に再索引しています。検索エンジン結果と比べると、SEO ノイズや一般論を大幅に減らせます。時間に制約のある創業者にとって、この事前フィルタ済み学習面は実行システムに近い存在です。"
+	  },
+	  {
+		"title": "軽量更新とコミュニティ共同編集",
+		"desc": "ランタイム依存がほぼないため、更新は README 編集、Issue 報告、Pull Request 追加が中心です。リンク切れ、質の低い資料、欠落カテゴリ、新規チャネルといった論点で公開協業しやすい構造になっています。GitHub の star、fork、issue は信頼性や議論熱量の公開シグナルとしても機能します。構造化検索や専用バックエンドは弱い一方、保守負荷が非常に低く拡張性は高いです。"
+	  }
+	],
+	"ko": [
+	  {
+		"title": "README 중심 지식 베이스 아키텍처",
+		"desc": "이 프로젝트는 전통적인 소프트웨어라기보다 README를 핵심 인터페이스로 사용하는 콘텐츠 데이터베이스에 가깝다. 주제 분류, 링크 모음, 맥락 설명, 실행 힌트를 하나의 진입점에 압축해 창업자의 탐색 비용을 낮춘다. 내용 대부분이 Markdown이라 복잡한 프레임워크나 빌드 파이프라인 없이도 쉽게 유지보수할 수 있다. LLM SEO나 Reddit 마케팅처럼 빠르게 변하는 영역도 섹션 추가만으로 반영할 수 있어 민첩성이 높다."
+	  },
+	  {
+		"title": "주제 계층화와 GTM 여정 설계",
+		"desc": "저장소는 단순한 링크 모음이 아니라 창업자의 성장 과업에 맞춰 계층화되어 있다. 앞부분은 런치, 소셜, 아웃바운드, SEO에 집중해 첫 사용자 확보 문제와 직접 연결된다. 이후 광고, 추천, 가격 전략, CRO, 사용자 리서치로 확장되며 더 성숙한 GTM 흐름을 만든다. 즉 정보 접근만이 아니라 우선순위와 실행 순서까지 안내하는 구조다."
+	  },
+	  {
+		"title": "고신호 외부 리소스 집계 메커니즘",
+		"desc": "핵심 가치는 자체 장문 콘텐츠보다 큐레이션에 있다. 관리자는 독립 블로그, SaaS 사례, 커뮤니티 포스트, 실전 가이드에서 신호가 높은 자료를 골라 사용 사례 기준으로 다시 인덱싱한다. 검색 엔진 결과 페이지와 비교하면 SEO 노이즈와 상투적 조언을 크게 줄일 수 있다. 시간 여유가 적은 창업자에게 이런 사전 필터링된 학습 표면은 훨씬 실행 친화적이다."
+	  },
+	  {
+		"title": "경량 업데이트와 커뮤니티 협업 모델",
+		"desc": "런타임 의존성이 거의 없어 업데이트는 README 수정, 이슈 제보, 풀리퀘스트 추가로 이뤄진다. 죽은 링크, 낮은 품질의 자료, 빠진 카테고리, 새 채널을 중심으로 공개 협업하기에 자연스럽다. GitHub의 star, fork, issue는 신뢰도와 토론 열기를 보여 주는 공개 신호 역할도 한다. 구조화 검색과 전용 백엔드는 약하지만 유지 비용이 낮고 확장성은 높다."
+	  }
+	],
+	"es": [
+	  {
+		"title": "Arquitectura de conocimiento centrada en README",
+		"desc": "Este proyecto no es software tradicional, sino una base de contenidos entregada mediante una única interfaz README. Agrupa temas, enlaces, notas de contexto y pistas de acción en un solo punto de entrada para reducir el coste de navegación del founder. Como el contenido es principalmente Markdown, el mantenimiento es muy ligero y no exige dominar frameworks ni sistemas de build. Esta arquitectura encaja bien en dominios de marketing cambiantes, porque tendencias como LLM SEO o Reddit marketing se añaden con nuevas secciones y no con reescrituras del producto. "
+	  },
+	  {
+		"title": "Estratificación temática y diseño del recorrido GTM",
+		"desc": "El repositorio no es un simple listado de enlaces, sino una estructura organizada por trabajos de crecimiento propios del founder. Las primeras secciones cubren lanzamientos, redes sociales, outbound y SEO, vinculados al problema de conseguir los primeros usuarios. Más adelante aparecen anuncios, referrals, pricing, CRO e investigación, ampliando la madurez GTM. Así, no solo resuelve acceso a información, sino también priorización y secuencia de ejecución."
+	  },
+	  {
+		"title": "Agregación de recursos externos de alta señal",
+		"desc": "Su valor técnico reside en la curación más que en la producción de ensayos originales. El mantenedor reúne materiales de alta señal procedentes de blogs independientes, casos SaaS, publicaciones comunitarias y guías tácticas, y luego los reindexa por uso. Frente a una página de resultados de buscador, este filtrado manual reduce gran parte del ruido SEO y del consejo genérico. Para founders con poco tiempo, esta superficie de aprendizaje prefiltrada se parece mucho más a un sistema de ejecución."
+	  },
+	  {
+		"title": "Actualización ligera y modelo de contribución comunitaria",
+		"desc": "Como el repositorio casi no tiene dependencias de ejecución, las actualizaciones se realizan sobre todo mediante edición del README, issues y pull requests. Eso lo hace natural para colaboración abierta sobre enlaces rotos, recursos flojos, categorías ausentes o canales emergentes. GitHub añade además señales públicas de confianza mediante stars, forks y discusiones. La contrapartida es una búsqueda poco estructurada y la ausencia de backend propio, pero a cambio obtiene bajo coste de mantenimiento y alta extensibilidad."
+	  }
+	]
+  },
+  "deployment_jsonb": {
+	"zh": [
+	  {
+		"step": 1,
+		"instruction": "克隆仓库到本地，用于离线阅读、二次编辑或内部知识库改造",
+		"code": "git clone https://github.com/EdoStra/Marketing-for-Founders.git\ncd Marketing-for-Founders"
+	  },
+	  {
+		"step": 2,
+		"instruction": "直接阅读 README，按主题筛选适合当前阶段的增长资源，无需安装依赖",
+		"code": "open README.md"
+	  },
+	  {
+		"step": 3,
+		"instruction": "如果要用于团队内部 Wiki，可将 README 转存到 Notion、Confluence 或静态站点生成器",
+		"code": "# no build required\n# copy README.md into your internal knowledge system"
+	  },
+	  {
+		"step": 4,
+		"instruction": "如需贡献新资源，提交 Pull Request 或通过 Issue 报告失效链接与低质量条目",
+		"code": "git checkout -b add-resource\n# edit README.md\ngit commit -am 'add new marketing resources'\ngit push origin add-resource"
+	  }
+	],
+	"en": [
+	  {
+		"step": 1,
+		"instruction": "Clone the repository locally for offline reading, internal adaptation, or team knowledge-base reuse",
+		"code": "git clone https://github.com/EdoStra/Marketing-for-Founders.git\ncd Marketing-for-Founders"
+	  },
+	  {
+		"step": 2,
+		"instruction": "Open the README and navigate by topic; no package installation or runtime setup is required",
+		"code": "open README.md"
+	  },
+	  {
+		"step": 3,
+		"instruction": "If you want team-wide reuse, port the README into Notion, Confluence, or a static documentation site",
+		"code": "# no build required\n# copy README.md into your internal knowledge system"
+	  },
+	  {
+		"step": 4,
+		"instruction": "To contribute, submit a pull request or open an issue for dead links, weak resources, or missing categories",
+		"code": "git checkout -b add-resource\n# edit README.md\ngit commit -am 'add new marketing resources'\ngit push origin add-resource"
+	  }
+	],
+	"ja": [
+	  {
+		"step": 1,
+		"instruction": "ローカルへ複製し、オフライン閲覧や社内ナレッジ化の基盤として利用します",
+		"code": "git clone https://github.com/EdoStra/Marketing-for-Founders.git\ncd Marketing-for-Founders"
+	  },
+	  {
+		"step": 2,
+		"instruction": "README を直接読み、現在の成長段階に合うトピックを選びます。依存関係の導入は不要です",
+		"code": "open README.md"
+	  },
+	  {
+		"step": 3,
+		"instruction": "社内展開したい場合は README を Notion、Confluence、静的ドキュメントへ移植します",
+		"code": "# no build required\n# copy README.md into your internal knowledge system"
+	  },
+	  {
+		"step": 4,
+		"instruction": "新規リソースを追加する場合は Pull Request を作成し、リンク切れや低品質項目は Issue で報告します",
+		"code": "git checkout -b add-resource\n# edit README.md\ngit commit -am 'add new marketing resources'\ngit push origin add-resource"
+	  }
+	],
+	"ko": [
+	  {
+		"step": 1,
+		"instruction": "저장소를 로컬에 복제해 오프라인 열람, 내부 편집, 사내 지식 베이스 전환에 활용한다",
+		"code": "git clone https://github.com/EdoStra/Marketing-for-Founders.git\ncd Marketing-for-Founders"
+	  },
+	  {
+		"step": 2,
+		"instruction": "README를 직접 열어 현재 단계에 맞는 성장 리소스를 탐색한다. 별도 설치는 필요 없다",
+		"code": "open README.md"
+	  },
+	  {
+		"step": 3,
+		"instruction": "팀 공용으로 쓰려면 README를 Notion, Confluence 또는 정적 문서 사이트로 옮긴다",
+		"code": "# no build required\n# copy README.md into your internal knowledge system"
+	  },
+	  {
+		"step": 4,
+		"instruction": "새 리소스를 추가할 때는 풀리퀘스트를 보내고, 죽은 링크나 약한 항목은 이슈로 제보한다",
+		"code": "git checkout -b add-resource\n# edit README.md\ngit commit -am 'add new marketing resources'\ngit push origin add-resource"
+	  }
+	],
+	"es": [
+	  {
+		"step": 1,
+		"instruction": "Clona el repositorio en local para lectura offline, adaptación interna o reutilización como base de conocimiento",
+		"code": "git clone https://github.com/EdoStra/Marketing-for-Founders.git\ncd Marketing-for-Founders"
+	  },
+	  {
+		"step": 2,
+		"instruction": "Abre el README y navega por temas según la etapa de crecimiento actual. No requiere instalación",
+		"code": "open README.md"
+	  },
+	  {
+		"step": 3,
+		"instruction": "Si quieres reutilizarlo en equipo, transpórtalo a Notion, Confluence o a un sitio documental estático",
+		"code": "# no build required\n# copy README.md into your internal knowledge system"
+	  },
+	  {
+		"step": 4,
+		"instruction": "Para contribuir, envía un pull request o abre un issue por enlaces rotos, recursos débiles o categorías faltantes",
+		"code": "git checkout -b add-resource\n# edit README.md\ngit commit -am 'add new marketing resources'\ngit push origin add-resource"
+	  }
+	]
+  },
+  "use_cases_jsonb": {
+	"zh": [
+	  "独立开发者冷启动手册: Who: 没有营销团队的独立开发者; What: 按 launch、SEO、Reddit 与冷启动外联章节搭建首批获客动作清单; Outcome: 用更低预算更快拿到前 10 到 100 个真实用户",
+	  "SaaS 创始人 GTM 学习路径: Who: 刚开始建立增长体系的技术型创始人; What: 依据仓库的主题结构，从零预算渠道逐步过渡到内容、定价与广告; Outcome: 减少试错成本并建立可持续的获客优先级框架",
+	  "营销团队知识库底稿: Who: 早期创业公司的兼职市场负责人或首位增长员工; What: 将仓库内容二次整理为内部 playbook、培训文档和渠道实验 backlog; Outcome: 快速搭建轻量级 GTM 知识底座并提升团队执行一致性"
+	],
+	"en": [
+	  "Indie Hacker Cold-Start Playbook: Who: Indie developers without a marketing team; What: Use the launch, SEO, Reddit, and outbound sections to build an early acquisition checklist; Outcome: Reach the first 10 to 100 real users faster with less budget waste",
+	  "Founder GTM Learning Path: Who: Technical founders building a growth system for the first time; What: Follow the repository structure from zero-budget channels into content, pricing, and ads; Outcome: Reduce trial-and-error and build a sustainable acquisition priority framework",
+	  "Team Knowledge Base Seed: Who: Part-time marketers or first growth hires in early startups; What: Repackage the repository into internal playbooks, onboarding docs, and channel experiment backlogs; Outcome: Stand up a lightweight GTM knowledge foundation and improve execution consistency"
+	],
+	"ja": [
+	  "インディーハッカー冷スタート手引き: Who: 専任マーケ担当を持たないインディー開発者; What: launch、SEO、Reddit、アウトバウンドの章を使って初期獲得チェックリストを構築する; Outcome: 低予算でより早く最初の 10〜100 人の実ユーザーへ到達する",
+	  "SaaS 創業者の GTM 学習導線: Who: 初めて成長体系を作る技術系創業者; What: リポジトリ構造に沿ってゼロ予算チャネルからコンテンツ、価格設定、広告へ進む; Outcome: 試行錯誤コストを抑え継続的な獲得優先順位を確立する",
+	  "マーケチーム向け知識ベース原案: Who: 初期スタートアップの兼任マーケ責任者や最初の成長担当者; What: リポジトリを社内プレイブック、研修資料、チャネル実験 backlog に再編する; Outcome: 軽量な GTM 知識基盤を短期間で整え実行の一貫性を高める"
+	],
+	"ko": [
+	  "인디 해커 콜드스타트 플레이북: Who: 마케팅 팀이 없는 인디 개발자; What: launch, SEO, Reddit, 아웃바운드 섹션을 활용해 초기 획득 체크리스트를 만든다; Outcome: 더 적은 예산으로 더 빠르게 첫 10명에서 100명의 실제 사용자를 확보한다",
+	  "SaaS 창업자 GTM 학습 경로: Who: 처음 성장 체계를 구축하는 기술 창업자; What: 저장소 구조를 따라 제로 예산 채널에서 콘텐츠, 가격 전략, 광고로 확장한다; Outcome: 시행착오를 줄이고 지속 가능한 획득 우선순위 프레임을 만든다",
+	  "마케팅 팀 지식 베이스 초안: Who: 초기 스타트업의 겸임 마케터나 첫 성장 담당자; What: 저장소를 내부 플레이북, 온보딩 문서, 채널 실험 백로그로 재구성한다; Outcome: 경량 GTM 지식 기반을 빠르게 세우고 실행 일관성을 높인다"
+	],
+	"es": [
+	  "Playbook de arranque para indie hackers: Who: Desarrolladores independientes sin equipo de marketing; What: Usar las secciones de launch, SEO, Reddit y outbound para construir una lista inicial de adquisición; Outcome: Alcanzar antes los primeros 10 a 100 usuarios reales con menor gasto",
+	  "Ruta de aprendizaje GTM para founders SaaS: Who: Fundadores técnicos que construyen su sistema de crecimiento por primera vez; What: Seguir la estructura del repositorio desde canales sin presupuesto hacia contenido, pricing y ads; Outcome: Reducir ensayo y error y crear un marco sostenible de prioridades de adquisición",
+	  "Semilla de base de conocimiento para equipos: Who: Responsables de marketing a tiempo parcial o primeros growth hires en startups tempranas; What: Reempaquetar el repositorio como playbooks internos, documentos de onboarding y backlog de experimentos; Outcome: Levantar una base ligera de conocimiento GTM y mejorar la consistencia operativa"
+	]
+  },
+  "limitations_jsonb": {
+	"zh": [
+	  "项目是内容索引而非软件产品，不提供自动化工作流、评分系统或内建搜索能力",
+	  "资源质量强依赖维护者策展判断，缺少严格的结构化评价指标与版本追踪",
+	  "大量外部链接可能随时间失效，若长期缺乏维护会削弱知识库实用性",
+	  "它更适合作为起步导航，而不是替代深度营销执行、归因分析或 CRM 系统",
+	  "由于主体内容为英文，对中文创业者而言仍存在一定阅读门槛"
+	],
+	"en": [
+	  "The project is a content index rather than a software product, so it offers no automation, scoring engine, or built-in search backend",
+	  "Resource quality depends heavily on curator judgment and lacks a strict structured evaluation framework or versioned taxonomy",
+	  "Many external links can decay over time, so maintenance quality directly affects long-term usefulness",
+	  "It works better as a starting navigation layer than as a substitute for deep execution, attribution analysis, or CRM tooling",
+	  "Because most content is in English, non-English founders may still face a practical reading barrier"
+	],
+	"ja": [
+	  "このプロジェクトはソフトウェア製品ではなくコンテンツ索引であり、自動化ワークフロー、評価エンジン、内蔵検索を提供しません",
+	  "資料品質はキュレーター判断への依存度が高く、厳密な構造評価や版管理された分類体系が不足します",
+	  "外部リンクは時間とともに劣化し得るため、保守品質が長期有用性を大きく左右します",
+	  "深い実行、アトリビューション分析、CRM の代替ではなく、あくまで出発点としての案内層に向いています",
+	  "主内容が英語中心のため、日本語話者にも一定の読解負荷があります"
+	],
+	"ko": [
+	  "이 프로젝트는 소프트웨어 제품이 아니라 콘텐츠 인덱스이므로 자동화 워크플로, 점수화 엔진, 내장 검색 백엔드를 제공하지 않는다",
+	  "자료 품질은 큐레이터 판단에 크게 의존하며 엄격한 구조 평가 체계나 버전화된 분류가 부족하다",
+	  "많은 외부 링크가 시간이 지나며 사라질 수 있어 유지보수 품질이 장기 활용도를 좌우한다",
+	  "깊은 실행, 어트리뷰션 분석, CRM 도구를 대체하기보다는 출발점 역할에 더 적합하다",
+	  "대부분의 본문이 영어라 비영어권 창업자에게는 실질적인 읽기 장벽이 남는다"
+	],
+	"es": [
+	  "El proyecto es un índice de contenido y no un producto de software, por lo que no ofrece automatización, motor de puntuación ni buscador integrado",
+	  "La calidad de los recursos depende mucho del criterio del curador y carece de una evaluación estructurada estricta o taxonomía versionada",
+	  "Muchos enlaces externos pueden degradarse con el tiempo, de modo que el mantenimiento condiciona su utilidad a largo plazo",
+	  "Funciona mejor como capa inicial de navegación que como sustituto de ejecución profunda, atribución o herramientas CRM",
+	  "Como la mayor parte del contenido está en inglés, los founders no angloparlantes siguen afrontando una barrera práctica"
+	]
+  },
+  "faqs_jsonb": {
+	"zh": [
+	  {
+		"question": "Marketing for Founders 的核心价值到底是什么？",
+		"answer": "它不是再写一篇「怎么做营销」的大而空文章，而是把创始人真正会用到的增长资源按任务重新编排。对于没有专职市场团队的技术创始人，它最大的价值是缩短「找资料—判断质量—形成动作」这条链路。"
+	  },
+	  {
+		"question": "为什么这个仓库会受到欢迎，即便它几乎没有代码？",
+		"answer": "因为早期创业者真正缺的往往不是工具，而是高信号、低噪音的行动路径。这个仓库把零预算获客、SEO、Reddit、邮件和定价等问题整合到同一阅读入口，降低了学习和执行切换成本。"
+	  },
+	  {
+		"question": "它更适合哪类人，而不适合哪类人？",
+		"answer": "它最适合独立开发者、技术型创始人、早期 SaaS 团队以及首位增长负责人。若你已经有成熟营销团队、成熟归因体系和预算管理流程，这个仓库更像补充阅读，而不是主工作台。"
+	  },
+	  {
+		"question": "仓库最大的结构性短板是什么？",
+		"answer": "最大短板是缺少结构化检索、评分、标签权重和失效链接监控，因此扩张后容易变成高质量但松散的资源墙。随着条目增加，用户对「先看什么、哪些最适合当前阶段」的判断仍然要靠自己完成。"
+	  },
+	  {
+		"question": "为什么它特别强调 Reddit、LLM SEO 和零预算渠道？",
+		"answer": "因为这些渠道更贴合早期创始人的现实约束：没有预算、没有品牌势能、没有大团队。相比付费广告先行，这类渠道更适合验证定位、拿第一批用户并获取高质量反馈。"
+	  },
+	  {
+		"question": "与 founder-skills 这类「给 AI 加技能」仓库相比，它的差异是什么？",
+		"answer": "founder-skills 更偏 AI 工作流放大器，核心是把 Claude 等模型转成增长助手；Marketing for Founders 则更偏人工策展知识库，强调渠道、案例与实战文章导航。前者偏「工具化执行层」，后者偏「策略与资源索引层」，两者可以互补而非互斥。"
+	  },
+	  {
+		"question": "它和一个普通 Notion 营销书签页相比强在哪里？",
+		"answer": "优势在于公开协作、可 fork、可 PR、可 issue 反馈，以及 GitHub 的公开信誉信号。缺点是展示体验和数据库能力不如精心设计的 Notion 或专门知识库产品。"
+	  },
+	  {
+		"question": "如果和通用营销百科或 HubSpot 风格内容站对比，它的平替目标是什么？",
+		"answer": "它并不是想取代完整的营销学院，而是想成为更轻、更快、更适合创始人落地的起步平替。与大而全内容站相比，它牺牲系统化课程体验，换来了更强的行动导向和更低的信息噪音。"
+	  }
+	],
+	"en": [
+	  {
+		"question": "What is the real core value of Marketing for Founders?",
+		"answer": "Its value is not another generic article about marketing but a task-oriented reassembly of useful growth resources. For technical founders without a dedicated marketing team, it shortens the path from discovery to evaluation to action."
+	  },
+	  {
+		"question": "Why is the repository attractive even though it contains almost no code?",
+		"answer": "Because early founders often need signal and prioritization more than software. The repository puts zero-budget acquisition, SEO, Reddit, email, and pricing into one surface, reducing context-switching across dozens of scattered sources."
+	  },
+	  {
+		"question": "Who is it best for, and who may not get much value from it?",
+		"answer": "It is best for indie hackers, technical founders, early SaaS teams, and first growth hires. If you already run a mature marketing org with attribution systems and budget operations, it is more supplemental reading than a primary workspace."
+	  },
+	  {
+		"question": "What is the biggest structural weakness of the repository?",
+		"answer": "Its biggest weakness is the lack of structured search, scoring, tag weighting, and link-health monitoring, which means growth can turn into a high-quality but loose wall of resources. As the list expands, users still need to self-prioritize what to read first."
+	  },
+	  {
+		"question": "Why does it emphasize Reddit, LLM SEO, and zero-budget channels so heavily?",
+		"answer": "Because those channels align with the real constraints of early founders: little budget, low brand equity, and no large team. Compared with leading with paid acquisition, they are better suited for positioning validation, first-user capture, and fast feedback loops."
+	  },
+	  {
+		"question": "How does it compare with founder-skills as a practical alternative?",
+		"answer": "founder-skills is more of an AI workflow amplifier that turns Claude-like models into growth assistants, while Marketing for Founders is a curated knowledge index around channels, case studies, and tactical essays. One sits closer to the execution tooling layer, the other to the strategy and resource navigation layer."
+	  },
+	  {
+		"question": "What makes it better than a typical Notion page full of marketing bookmarks?",
+		"answer": "Its advantages are public collaboration, forking, pull requests, issue reporting, and GitHub-native trust signals. Its weakness is that the presentation and database experience are still less structured than a purpose-built knowledge system."
+	  },
+	  {
+		"question": "If compared with a general marketing wiki or HubSpot-style content site, what 'replacement target' is it aiming at?",
+		"answer": "It is not trying to replace a full marketing academy; it aims to be a lighter and faster founder-friendly substitute for getting started. It gives up polished curriculum depth in exchange for stronger action orientation and lower information noise."
+	  }
+	],
+	"ja": [
+	  {
+		"question": "Marketing for Founders の中核価値は何ですか。",
+		"answer": "単なる『マーケのやり方』記事ではなく、創業者が実際に使う成長リソースをタスク単位で再編している点に価値があります。専任マーケ担当のいない技術系創業者にとって、情報探索から行動化までの距離を大きく縮めます。"
+	  },
+	  {
+		"question": "ほとんどコードがないのに、なぜ支持されるのですか。",
+		"answer": "初期創業者が不足しているのはソフトウェアよりも信号の高い優先順位付き知識だからです。ゼロ予算獲得、SEO、Reddit、メール、価格設定を同一入口にまとめることで、学習と実行の切替コストを下げています。"
+	  },
+	  {
+		"question": "どのような人に向き、どのような人には向きませんか。",
+		"answer": "インディー開発者、技術系創業者、初期 SaaS チーム、最初の成長担当者に特に向いています。すでに成熟したマーケ組織と計測運用を持つ企業では、主作業場というより補助教材に近いです。"
+	  },
+	  {
+		"question": "構造上の最大の弱点は何ですか。",
+		"answer": "構造化検索、評価、タグ重み付け、リンク健全性監視がないため、拡大すると質の高いが緩い資料壁になりやすい点です。項目が増えるほど『何から読むか』の判断は利用者側に残ります。"
+	  },
+	  {
+		"question": "なぜ Reddit、LLM SEO、低予算チャネルを特に重視するのですか。",
+		"answer": "それらは予算不足、ブランド力不足、少人数体制という初期創業者の現実制約に合うからです。有料獲得を先行させるより、ポジショニング検証と初期ユーザー獲得、質の高い反応取得に向いています。"
+	  },
+	  {
+		"question": "founder-skills のような『AI に技能を与える』系リポジトリと何が違いますか。",
+		"answer": "founder-skills は Claude などを成長アシスタント化する実行ツール寄りです。一方で Marketing for Founders はチャネル、事例、実践記事を案内するキュレーション知識ベースであり、戦略層と索引層に近い立ち位置です。"
+	  },
+	  {
+		"question": "一般的な Notion のマーケブックマーク集より優れている点は何ですか。",
+		"answer": "公開協業、fork、PR、issue、GitHub 上の信頼シグナルがある点が強みです。一方で表示体験やデータベース性は、設計された Notion や専用知識基盤ほど洗練されていません。"
+	  },
+	  {
+		"question": "汎用マーケ百科や HubSpot 型コンテンツサイトと比べた平替目標は何ですか。",
+		"answer": "完全なマーケ学院を置き換えるのではなく、より軽く速く、創業者に寄り添った入門代替になることが目標です。体系講座の深さを一部犠牲にする代わりに、行動志向と低ノイズを得ています。"
+	  }
+	],
+	"ko": [
+	  {
+		"question": "Marketing for Founders의 진짜 핵심 가치는 무엇인가",
+		"answer": "단순한 '마케팅 방법론' 글이 아니라 창업자가 실제로 쓰는 성장 리소스를 과업 단위로 재조립한 점이 핵심이다. 전담 마케팅 팀이 없는 기술 창업자에게 정보 탐색에서 실행까지의 거리를 크게 줄여 준다."
+	  },
+	  {
+		"question": "코드가 거의 없는데도 왜 인기가 있는가",
+		"answer": "초기 창업자에게 부족한 것은 소프트웨어보다 우선순위가 정리된 고신호 정보이기 때문이다. 제로 예산 획득, SEO, Reddit, 이메일, 가격 전략을 하나의 표면에 모아 학습 전환 비용을 낮춘다."
+	  },
+	  {
+		"question": "어떤 사람에게 가장 잘 맞고, 누구에게는 덜 유용한가",
+		"answer": "인디 해커, 기술 창업자, 초기 SaaS 팀, 첫 성장 담당자에게 특히 잘 맞는다. 이미 성숙한 마케팅 조직과 어트리뷰션 체계를 가진 팀이라면 메인 워크스페이스보다 보조 참고 자료에 가깝다."
+	  },
+	  {
+		"question": "이 저장소의 가장 큰 구조적 약점은 무엇인가",
+		"answer": "구조화 검색, 평가, 태그 가중치, 링크 상태 모니터링이 부족해 커질수록 질 높은 자료 벽으로 느껴질 수 있다는 점이다. 항목이 늘어날수록 무엇을 먼저 읽을지 사용자가 직접 우선순위를 정해야 한다."
+	  },
+	  {
+		"question": "왜 Reddit, LLM SEO, 저예산 채널을 특히 강조하나",
+		"answer": "예산 부족, 브랜드 약세, 소규모 팀이라는 초기 창업자의 현실 제약과 가장 잘 맞기 때문이다. 유료 광고보다 포지셔닝 검증, 첫 사용자 확보, 빠른 피드백 루프에 더 효과적이다."
+	  },
+	  {
+		"question": "founder-skills 같은 'AI에 스킬을 붙이는' 저장소와는 어떻게 다른가",
+		"answer": "founder-skills는 Claude류 모델을 성장 보조 도구로 바꾸는 실행 레이어에 가깝다. 반면 Marketing for Founders는 채널, 사례, 실전 글을 안내하는 큐레이션 지식 인덱스로서 전략 및 리소스 탐색 레이어에 더 가깝다."
+	  },
+	  {
+		"question": "일반적인 Notion 마케팅 북마크 페이지보다 나은 점은 무엇인가",
+		"answer": "공개 협업, 포크, PR, 이슈, GitHub 기반 신뢰 신호를 활용할 수 있다는 점이 강점이다. 반면 표현 경험과 데이터베이스 구조는 전용 지식 시스템만큼 정교하지는 않다."
+	  },
+	  {
+		"question": "일반 마케팅 위키나 HubSpot 스타일 사이트와 비교할 때 어떤 대체재를 지향하나",
+		"answer": "완전한 마케팅 아카데미를 대체하기보다 더 가볍고 빠르며 창업자 친화적인 시작점이 되는 것을 목표로 한다. 커리큘럼의 깊이 일부를 포기하는 대신 실행 지향성과 낮은 정보 노이즈를 얻는다."
+	  }
+	],
+	"es": [
+	  {
+		"question": "¿Cuál es el valor central real de Marketing for Founders?",
+		"answer": "No pretende ser otro artículo genérico sobre marketing, sino una reconfiguración por tareas de recursos de growth realmente útiles para founders. Para perfiles técnicos sin equipo de marketing, acorta mucho la distancia entre descubrir, evaluar y actuar."
+	  },
+	  {
+		"question": "¿Por qué resulta atractivo aunque casi no tenga código?",
+		"answer": "Porque el founder temprano suele necesitar más señal y priorización que software. El repositorio concentra adquisición sin presupuesto, SEO, Reddit, email y pricing en una sola superficie y reduce el coste de cambiar de contexto. "
+	  },
+	  {
+		"question": "¿Para quién es ideal y para quién no tanto?",
+		"answer": "Es ideal para indie hackers, founders técnicos, equipos SaaS tempranos y primeros perfiles de growth. Si ya operas una organización madura con atribución y presupuesto formal, funciona más como lectura complementaria que como espacio principal."
+	  },
+	  {
+		"question": "¿Cuál es su mayor debilidad estructural?",
+		"answer": "Carece de búsqueda estructurada, scoring, ponderación de etiquetas y monitorización de salud de enlaces, por lo que al crecer puede convertirse en una pared de recursos de calidad pero poco guiada. Cuantos más elementos incorpora, más recae en el usuario decidir por dónde empezar."
+	  },
+	  {
+		"question": "¿Por qué enfatiza tanto Reddit, LLM SEO y canales de bajo presupuesto?",
+		"answer": "Porque encajan con las restricciones reales del founder inicial: poco presupuesto, poca marca y equipo reducido. Frente a empezar con pago, estos canales sirven mejor para validar posicionamiento, captar primeros usuarios y recibir feedback útil. "
+	  },
+	  {
+		"question": "¿En qué se diferencia de repositorios como founder-skills que añaden 'skills' a la IA?",
+		"answer": "founder-skills se acerca más a una capa de ejecución que convierte modelos tipo Claude en asistentes de growth. Marketing for Founders, en cambio, es un índice curado de canales, casos y ensayos tácticos, más próximo a la capa estratégica y de navegación de recursos."
+	  },
+	  {
+		"question": "¿Qué lo hace mejor que una página de Notion llena de marcadores de marketing?",
+		"answer": "Su ventaja está en la colaboración pública, los forks, los pull requests, los issues y las señales de confianza nativas de GitHub. Su debilidad es que la presentación y la experiencia de base de datos siguen siendo menos estructuradas que en un sistema de conocimiento diseñado a medida."
+	  },
+	  {
+		"question": "Si se compara con una wiki generalista o con un sitio tipo HubSpot, ¿qué sustituto busca ser?",
+		"answer": "No quiere sustituir una academia completa de marketing, sino ofrecer una alternativa más ligera, rápida y pensada para founders que empiezan. Renuncia a parte de la profundidad curricular para ganar orientación a la acción y reducir el ruido informativo."
+	  }
+	]
+  },
+  "seo_title_jsonb": {
+	"zh": "Marketing for Founders：低预算获客平替 HubSpot 的创始人营销指南",
+	"en": "Marketing for Founders: Low-Budget GTM Alternative to HubSpot Guides",
+	"ja": "【Marketing for Founders】低予算獲得で HubSpot を補完する創業者向け指南",
+	"ko": "Marketing for Founders: 저예산 GTM 핵심 기능으로 보는 HubSpot 대안",
+	"es": "Marketing for Founders: alternativa de bajo presupuesto a HubSpot para founders"
+  },
+  "seo_description_jsonb": {
+	"zh": "Marketing for Founders 将启动发布、SEO、LLM SEO、Reddit、冷启动外联、邮件与定价资源整合进单一 GitHub 知识库，帮助技术型创始人用低预算建立 GTM 路径，减少信息噪音、缩短试错周期，并更快拿到前 10、100、1000 个用户。",
+	"en": "Marketing for Founders organizes launches, SEO, LLM SEO, Reddit, outbound, email, pricing, and user-research resources into one GitHub knowledge base, giving technical founders a low-budget GTM alternative that cuts information noise, shortens trial-and-error cycles, and helps them reach the first 10, 100, and 1000 users faster.",
+	"ja": "Marketing for Founders は、ローンチ、SEO、LLM SEO、Reddit、アウトバウンド、メール、価格設定の知見を単一 GitHub 知識ベースへ統合し、技術系創業者が低予算で GTM を組み立て、情報ノイズと試行錯誤を減らしながら最初の 10・100・1000 ユーザー獲得を加速できるようにします。",
+	"ko": "Marketing for Founders는 런치, SEO, LLM SEO, Reddit, 아웃바운드, 이메일, 가격 전략 리소스를 하나의 GitHub 지식 베이스로 묶어 기술 창업자가 저예산으로 GTM을 설계하고 정보 노이즈와 시행착오를 줄이며 첫 10명, 100명, 1000명의 사용자를 더 빠르게 확보하도록 돕는다.",
+	"es": "Marketing for Founders reúne lanzamientos, SEO, LLM SEO, Reddit, outbound, email, pricing e investigación de usuarios en una sola base de conocimiento en GitHub, ofreciendo a founders técnicos una alternativa GTM de bajo presupuesto que reduce ruido informativo, acorta el ensayo y error y acelera la llegada a los primeros 10, 100 y 1000 usuarios."
+  }
+}
