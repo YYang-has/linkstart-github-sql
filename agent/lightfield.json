@@ -1,0 +1,544 @@
+{
+  "slug": "lightfield",
+  "brand_slug": "lightfield",
+  "name_jsonb": {
+	"en": "Lightfield",
+	"zh": "Lightfield",
+	"ja": "Lightfield",
+	"ko": "Lightfield",
+	"es": "Lightfield"
+  },
+  "tagline_jsonb": {
+	"en": "AI-native CRM that builds customer memory and runs follow-up work for you",
+	"zh": "能自动构建客户记忆并替你执行跟进工作的 AI 原生 CRM",
+	"ja": "顧客メモリを自動構築し、フォローアップ業務まで代行する AI ネイティブ CRM",
+	"ko": "고객 메모리를 자동 구축하고 후속 업무까지 대신 실행하는 AI 네이티브 CRM",
+	"es": "CRM nativo de IA que construye memoria de cliente y ejecuta por ti el trabajo de seguimiento"
+  },
+  "description_jsonb": {
+	"en": "> Executive Summary: <a href=\"https://www.linkstartai.com/en/agents/lightfield\" target=\"_blank\">Lightfield</a> is an AI-native CRM for founders and early-stage revenue teams. It captures emails, calls, and meetings, builds a live customer memory, and lets agents update records, answer questions, and run follow-up work automatically. It is built for teams that want less CRM hygiene and more execution.\n\nLightfield says you can connect your inbox, upload a spreadsheet or CSV, and rebuild your CRM in less than five minutes. The product added code execution on Feb 20, 2026, opened its REST API public beta in March 2026, and launched MCP connectors for Notion, Linear, and Granola on Feb 6, 2026. Lightfield offers a Freemium plan, with paid tiers starting at $59 per user per month. It is Less expensive than average for this category.\n\nWhat makes it stand out is not just auto-capture. It stores customer interactions as continuous context, supports unlimited agent queries and actions on paid plans, and can push data outward through workflow HTTP blocks. For founder-led sales and lean GTM teams, that shifts CRM from passive database to active operating system.",
+	"zh": "> 核心摘要：<a href=\"https://www.linkstartai.com/zh/agents/lightfield\" target=\"_blank\">Lightfield</a> 是一款面向创始人和早期营收团队的 AI 原生 CRM。它会自动读取邮件、会议和通话内容，构建持续更新的客户记忆，并让智能体自动更新记录、回答问题和执行跟进任务。它最适合不想再做 CRM 体力活、而是希望直接把上下文变成行动的团队。\n\nLightfield 官方强调，你只需连接邮箱并上传旧表格或 CSV，就能在 5 分钟内重建 CRM。产品在 2026 年 2 月 20 日上线代码执行能力，2026 年 3 月开放 REST API 公测，并在 2026 年 2 月 6 日推出 Notion、Linear 和 Granola 的 MCP 连接器。Lightfield offers a Freemium plan, with paid tiers starting at $59 per user per month. It is Less expensive than average for this category.\n\n它真正有价值的地方不只是自动记录，而是把客户互动保存为连续上下文，再交给智能体去做分析、起草跟进、更新字段和触发外部系统。对 founder-led sales 和轻量 GTM 团队来说，这意味着 CRM 不再只是数据库，而是开始承担执行层的工作。",
+	"ja": "> エグゼクティブサマリー：<a href=\"https://www.linkstartai.com/en/agents/lightfield\" target=\"_blank\">Lightfield</a> は、創業者や初期段階の収益チーム向けに設計された AI ネイティブ CRM です。メール、通話、会議を取り込み、動的な顧客メモリを構築し、エージェントがレコード更新、問い合わせ対応、フォローアップ業務を自動で実行します。CRM の入力作業を減らし、実行力を高めたいチームに適しています。\n\nLightfield によれば、受信箱を接続し、スプレッドシートまたは CSV をアップロードするだけで、5 分未満で CRM を再構築できます。2026 年 2 月 20 日にはコード実行機能を追加し、2026 年 3 月には REST API のパブリックベータを開始、さらに 2026 年 2 月 6 日には Notion、Linear、Granola 向けの MCP コネクタを公開しました。Lightfield offers a Freemium plan, with paid tiers starting at $59 per user per month. It is Less expensive than average for this category.\n\n差別化要因は自動入力だけではありません。顧客とのやり取りを継続的なコンテキストとして保持し、有料プランではエージェントによる無制限の質問とアクションに対応し、ワークフローの HTTP ブロック経由で外部システムにもデータを送れます。創業者主導の営業や少人数の GTM チームにとって、CRM を受動的なデータベースから能動的な業務基盤へ変える製品です。",
+	"ko": "> 핵심 요약: <a href=\"https://www.linkstartai.com/en/agents/lightfield\" target=\"_blank\">Lightfield</a>는 창업자와 초기 매출 조직을 위한 AI 네이티브 CRM입니다. 이메일, 통화, 회의 데이터를 수집해 살아 있는 고객 메모리를 만들고, 에이전트가 기록 업데이트, 질의 응답, 후속 작업까지 자동으로 수행합니다. 단순한 CRM 정리보다 실제 실행력을 높이고 싶은 팀에 맞는 제품입니다.\n\nLightfield는 받은편지함을 연결하고 스프레드시트나 CSV를 업로드하면 5분 이내에 CRM을 다시 구축할 수 있다고 설명합니다. 2026년 2월 20일 코드 실행 기능을 추가했고, 2026년 3월 REST API 퍼블릭 베타를 열었으며, 2026년 2월 6일에는 Notion, Linear, Granola용 MCP 커넥터를 출시했습니다. Lightfield offers a Freemium plan, with paid tiers starting at $59 per user per month. It is Less expensive than average for this category.\n\n차별점은 자동 캡처에만 있지 않습니다. 고객 상호작용을 연속적인 컨텍스트로 저장하고, 유료 플랜에서는 에이전트 질의와 액션을 사실상 무제한으로 지원하며, 워크플로 HTTP 블록을 통해 외부 시스템으로도 데이터를 보낼 수 있습니다. 창업자 주도형 세일즈와 슬림한 GTM 팀에게 CRM을 수동 데이터베이스에서 능동형 운영 시스템으로 바꿔주는 접근입니다.",
+	"es": "> Resumen ejecutivo: <a href=\"https://www.linkstartai.com/en/agents/lightfield\" target=\"_blank\">Lightfield</a> es un CRM nativo de IA pensado para fundadores y equipos de ingresos en etapa temprana. Captura correos, llamadas y reuniones, construye una memoria viva del cliente y permite que los agentes actualicen registros, respondan preguntas y ejecuten seguimientos de forma automática. Está orientado a equipos que quieren menos trabajo administrativo de CRM y más ejecución.\n\nSegún Lightfield, basta con conectar la bandeja de entrada y subir una hoja de cálculo o un CSV para reconstruir el CRM en menos de cinco minutos. El producto añadió ejecución de código el 20 de febrero de 2026, abrió la beta pública de su API REST en marzo de 2026 y lanzó conectores MCP para Notion, Linear y Granola el 6 de febrero de 2026. Lightfield offers a Freemium plan, with paid tiers starting at $59 per user per month. It is Less expensive than average for this category.\n\nLo que lo diferencia no es solo la captura automática. Conserva las interacciones con clientes como contexto continuo, permite consultas y acciones ilimitadas del agente en planes de pago y puede enviar datos hacia fuera mediante bloques HTTP en workflows. Para equipos de ventas liderados por fundadores y estructuras GTM ligeras, eso convierte al CRM de base de datos pasiva en un sistema operativo de ejecución."
+  },
+  "category_id": "fe342038-344f-4b05-82b6-2246f28596e3",
+  "solution_category_id": "6b746b01-aa26-4746-a146-2477841a29b4",
+  "website_url": "https://lightfield.app/",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/lightfield.jpg",
+  "pricing_model": "freemium",
+  "paid_options_from": "$59",
+  "billing_frequency": "month",
+  "rating": 4.2,
+  "review_count": 0,
+  "supported_languages": [
+	"en",
+	"zh",
+	"ja",
+	"ko",
+	"es"
+  ],
+  "tags_jsonb": {
+	"en": [
+	  "#CustomerMemory",
+	  "#CRMDataCapture",
+	  "#MeetingPrepAutomation",
+	  "#FollowUpAutomation",
+	  "#RevenueOpsAI",
+	  "#PipelineAnalysis"
+	],
+	"zh": [
+	  "#客户记忆",
+	  "#CRM自动录入",
+	  "#会议准备自动化",
+	  "#跟进自动化",
+	  "#营收运营AI",
+	  "#管道分析"
+	],
+	"ja": [
+	  "#顧客メモリ",
+	  "#CRM自動記録",
+	  "#会議準備自動化",
+	  "#フォローアップ自動化",
+	  "#RevenueOpsAI",
+	  "#パイプライン分析"
+	],
+	"ko": [
+	  "#고객메모리",
+	  "#CRM자동기록",
+	  "#회의준비자동화",
+	  "#후속조치자동화",
+	  "#RevenueOpsAI",
+	  "#파이프라인분석"
+	],
+	"es": [
+	  "#MemoriaDeCliente",
+	  "#CapturaCRM",
+	  "#AutomatizaciónDeReuniones",
+	  "#AutomatizaciónDeSeguimiento",
+	  "#RevenueOpsAI",
+	  "#AnálisisDePipeline"
+	]
+  },
+  "features_jsonb": {
+	"en": [
+	  "Capture emails, calls, and meetings to remove manual CRM logging",
+	  "Answer revenue questions from continuous customer memory instead of scattered notes",
+	  "Draft follow-ups and artifacts with code execution against CRM context",
+	  "Trigger workflows and HTTP actions to automate downstream GTM ops",
+	  "Connect Notion, Linear, and Granola through MCP for richer context sync",
+	  "Evolve a configurable data model without upfront CRM schema work"
+	],
+	"zh": [
+	  "抓取邮件、通话和会议内容，直接消灭手工 CRM 录入",
+	  "基于连续客户记忆回答营收问题，而不是翻找零散笔记",
+	  "通过代码执行对 CRM 上下文做分析并生成跟进内容与交付物",
+	  "触发工作流和 HTTP 动作，把后续 GTM 操作自动化",
+	  "通过 MCP 连接 Notion、Linear 和 Granola，补全更多上下文",
+	  "在无需前期复杂建模的情况下逐步演化可配置数据模型"
+	],
+	"ja": [
+	  "メール、通話、会議を取り込み、手作業の CRM 入力を削減",
+	  "断片的なメモではなく継続的な顧客メモリから収益関連の質問に回答",
+	  "CRM コンテキストに対するコード実行でフォローアップと成果物を生成",
+	  "ワークフローと HTTP アクションを起動し下流の GTM 業務を自動化",
+	  "MCP 経由で Notion、Linear、Granola を接続しコンテキスト同期を強化",
+	  "初期の複雑な CRM スキーマ設計なしで設定可能なデータモデルを発展"
+	],
+	"ko": [
+	  "이메일, 통화, 회의를 수집해 수작업 CRM 입력을 제거",
+	  "흩어진 메모 대신 연속적인 고객 메모리로 매출 관련 질문에 답변",
+	  "CRM 컨텍스트 기반 코드 실행으로 후속 조치와 산출물을 작성",
+	  "워크플로와 HTTP 액션을 트리거해 하위 GTM 운영을 자동화",
+	  "MCP를 통해 Notion, Linear, Granola를 연결해 컨텍스트 동기화 강화",
+	  "초기 CRM 스키마 작업 없이도 구성 가능한 데이터 모델로 진화"
+	],
+	"es": [
+	  "Captura correos, llamadas y reuniones para eliminar el registro manual en CRM",
+	  "Responde preguntas de ingresos desde una memoria continua del cliente y no desde notas dispersas",
+	  "Redacta seguimientos y entregables con ejecución de código sobre el contexto del CRM",
+	  "Activa workflows y acciones HTTP para automatizar operaciones GTM posteriores",
+	  "Conecta Notion, Linear y Granola mediante MCP para una sincronización de contexto más rica",
+	  "Hace evolucionar un modelo de datos configurable sin trabajo previo de esquema CRM"
+	]
+  },
+  "videos_jsonb": [
+	{
+	  "type": "youtube",
+	  "videoId": "tU3GnxiDfdU",
+	  "title": "Lightfield platform overview",
+	  "uploadDate": "2026-03-17T00:00:00Z",
+	  "description": "Official 66-second overview of self-building CRM and AI follow-up workflows",
+	  "duration": "PT1M6S"
+	},
+	{
+	  "type": "youtube",
+	  "videoId": "IJDxExAA4S8",
+	  "title": "Agent code execution in Lightfield",
+	  "uploadDate": "2026-02-16T00:00:00Z",
+	  "description": "Official demo of Python-based CRM analysis, battle cards, and artifacts",
+	  "duration": "PT1M1S"
+	}
+  ],
+  "verdict_jsonb": {
+	"en": {
+	  "summary": "<a href=\"https://www.linkstartai.com/en/agents/lightfield\" target=\"_blank\">Lightfield</a> is the high-leverage choice for founders and lean revenue teams who need to replace manual CRM admin with AI-driven customer memory and follow-up automation.",
+	  "expert_quote": "LinkStart AI Lab view: Lightfield is one of the clearest examples of an AI-first SaaS rewrite. The winning move is not just summarization, but turning raw customer history into an execution layer with workflows, code execution, and a live CRM memory.",
+	  "pros": [
+		"Builds CRM from inbox, calls, and meetings in minutes",
+		"Meeting prep and follow-ups run from real customer context",
+		"Code execution enables battle cards and pipeline analysis",
+		"REST API and MCP connectors improve stack integration"
+	  ],
+	  "cons": [
+		"Still early, and user feedback shows occasional bad auto-created records",
+		"Advanced permissioning sits on the higher Pro tier",
+		"Best for startup GTM, not classic enterprise field sales"
+	  ]
+	},
+	"zh": {
+	  "summary": "<a href=\"https://www.linkstartai.com/zh/agents/lightfield\" target=\"_blank\">Lightfield</a> 是高杠杆的选择，最适合创始人和轻量营收团队去用 AI 客户记忆和自动跟进替代手工 CRM 维护。",
+	  "expert_quote": "LinkStart AI Lab 观点：Lightfield 真正厉害的地方不是把 CRM 加一点 AI，而是把原始客户历史直接变成执行层。工作流、代码执行和持续上下文结合后，它开始像一个会干活的收入操作系统。",
+	  "pros": [
+		"邮箱、通话和会议一接入，CRM 很快就能自动成型",
+		"会议准备和跟进邮件都能吃到真实客户上下文",
+		"代码执行让战卡和管道分析不再停留在摘要层",
+		"REST API 与 MCP 连接器让集成能力明显增强"
+	  ],
+	  "cons": [
+		"产品仍偏早期，已有用户反馈自动建档偶尔会出错",
+		"高级权限能力放在更贵的 Pro 档位",
+		"更适合创业销售，不是传统大型销售组织优先级"
+	  ]
+	},
+	"ja": {
+	  "summary": "<a href=\"https://www.linkstartai.com/en/agents/lightfield\" target=\"_blank\">Lightfield</a> は、手作業の CRM 運用を AI 主導の顧客メモリとフォローアップ自動化に置き換えたい創業者や少人数の収益チームにとって、高い投資対効果が見込める選択肢です。",
+	  "expert_quote": "LinkStart AI Lab の見解：Lightfield は、AI ファースト型 SaaS への再設計を最も明確に示す製品のひとつです。要約だけで終わらず、顧客履歴をワークフロー、コード実行、動的な CRM メモリと組み合わせて実行レイヤーへ変換している点が本質です。",
+	  "pros": [
+		"受信箱、通話、会議から数分で CRM を構築",
+		"会議準備とフォローアップが実際の顧客文脈で動作",
+		"コード実行がバトルカードとパイプライン分析を強化",
+		"REST API と MCP コネクタで外部連携を拡張"
+	  ],
+	  "cons": [
+		"まだ初期段階で自動生成レコードに誤りが出る場合がある",
+		"高度な権限制御は上位の Pro プランに限定",
+		"大企業の従来型営業よりスタートアップ GTM 向け"
+	  ]
+	},
+	"ko": {
+	  "summary": "<a href=\"https://www.linkstartai.com/en/agents/lightfield\" target=\"_blank\">Lightfield</a>는 수작업 CRM 운영을 AI 기반 고객 메모리와 후속 자동화로 대체해야 하는 창업자와 슬림한 매출 팀에게 가장 효율적인 선택지 가운데 하나입니다.",
+	  "expert_quote": "LinkStart AI Lab 분석: Lightfield는 AI 퍼스트 SaaS 재설계가 무엇인지 가장 선명하게 보여주는 사례 중 하나입니다. 핵심은 단순 요약이 아니라, 원시 고객 이력을 워크플로, 코드 실행, 실시간 CRM 메모리와 결합해 실행 계층으로 바꾸는 데 있습니다.",
+	  "pros": [
+		"받은편지함, 통화, 회의만으로 몇 분 안에 CRM 구축",
+		"회의 준비와 후속 조치가 실제 고객 컨텍스트를 기반으로 실행",
+		"코드 실행으로 배틀카드와 파이프라인 분석 활용도 향상",
+		"REST API와 MCP 커넥터로 스택 통합 범위 확대"
+	  ],
+	  "cons": [
+		"아직 초기 단계라 자동 생성 레코드 품질 이슈가 가끔 발생",
+		"고급 권한 관리 기능은 상위 Pro 요금제에 포함",
+		"전통적 엔터프라이즈 현장 영업보다 스타트업 GTM에 적합"
+	  ]
+	},
+	"es": {
+	  "summary": "<a href=\"https://www.linkstartai.com/en/agents/lightfield\" target=\"_blank\">Lightfield</a> es una opción de alto apalancamiento para fundadores y equipos de ingresos ligeros que necesitan sustituir la administración manual del CRM por memoria de cliente impulsada por IA y automatización de seguimiento.",
+	  "expert_quote": "Visión de LinkStart AI Lab: Lightfield es uno de los ejemplos más claros de reescritura SaaS con enfoque AI-first. La jugada ganadora no es solo resumir, sino convertir el historial bruto del cliente en una capa de ejecución con workflows, ejecución de código y memoria CRM viva.",
+	  "pros": [
+		"Construye el CRM desde correo, llamadas y reuniones en minutos",
+		"La preparación de reuniones y los seguimientos usan contexto real del cliente",
+		"La ejecución de código habilita battle cards y análisis de pipeline",
+		"La API REST y los conectores MCP mejoran la integración del stack"
+	  ],
+	  "cons": [
+		"Sigue en fase temprana y hay casos de registros automáticos erróneos",
+		"Los permisos avanzados están en el plan Pro superior",
+		"Encaja mejor en GTM de startups que en ventas enterprise clásicas"
+	  ]
+	}
+  },
+  "faqs_jsonb": [
+	{
+	  "question": {
+		"en": "Lightfield vs Attio: which is better for founder-led sales automation?",
+		"zh": "Lightfield 和 Attio 相比，哪个更适合 founder-led sales 自动化？",
+		"ja": "Lightfield と Attio を比較した場合、創業者主導の営業自動化にはどちらが適していますか？",
+		"ko": "Lightfield와 Attio 중 창업자 주도형 세일즈 자동화에는 어느 쪽이 더 적합한가요?",
+		"es": "Lightfield vs Attio: ¿cuál es mejor para la automatización comercial liderada por fundadores?"
+	  },
+	  "answer": {
+		"en": "The core difference is automation depth. While Attio excels at composable CRM structure and a more mature setup, Lightfield has an absolute advantage in self-building CRM, sub-5-minute onboarding, meeting prep, follow-ups, and agent-driven analysis from continuous customer memory.",
+		"zh": "核心差异在自动化深度。虽然 Attio 更强在可组合结构和更成熟的 CRM 框架，但 Lightfield 在 5 分钟内起盘、自动建库、会议准备、跟进执行和基于连续客户记忆的智能分析上优势更明显。",
+		"ja": "中核的な違いは自動化の深さです。Attio は構成可能な CRM 設計と成熟度で優位ですが、Lightfield は自己構築型 CRM、5 分未満の立ち上げ、会議準備、フォローアップ、継続的な顧客メモリにもとづくエージェント分析で明確な強みがあります。",
+		"ko": "핵심 차이는 자동화의 깊이입니다. Attio가 조합형 CRM 구조와 더 성숙한 구축 방식에 강점이 있다면, Lightfield는 5분 이내 온보딩, 자가 구축형 CRM, 회의 준비, 후속 조치, 연속적 고객 메모리 기반 에이전트 분석에서 분명한 우위를 보입니다.",
+		"es": "La diferencia central está en la profundidad de la automatización. Mientras Attio destaca por su estructura CRM componible y una implantación más madura, Lightfield tiene ventaja clara en CRM autoconstruido, onboarding en menos de 5 minutos, preparación de reuniones, seguimientos y análisis impulsado por agentes sobre memoria continua del cliente."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Is Lightfield reliable enough for production, or is it still too new?",
+		"zh": "Lightfield 现在足够稳定能上生产环境吗，还是仍然太早期？",
+		"ja": "Lightfield は本番導入に十分な信頼性がありますか。それともまだ新しすぎますか？",
+		"ko": "Lightfield는 프로덕션에 투입할 만큼 안정적일까요, 아니면 아직 너무 초기일까요?",
+		"es": "¿Lightfield es ya lo bastante fiable para producción o sigue siendo demasiado nuevo?"
+	  },
+	  "answer": {
+		"en": "It is promising, but still early. Public feedback praises speed and automation, yet some users flagged AI-created bad records or nonexistent companies. The practical workaround is to start with limited imports, approval-based workflows, and human review before bulk updates.",
+		"zh": "它很有潜力，但确实还偏早期。公开反馈普遍认可效率和自动化深度，但也有人提到 AI 自动生成错误记录甚至虚构公司。更稳的做法是先小范围导入、把关键动作设为审批制，再逐步放开批量更新。",
+		"ja": "将来性は高いものの、まだ初期段階です。公開されている評価では速度と自動化は高く評価されていますが、AI が誤ったレコードや存在しない企業を生成したという指摘もあります。実運用では、限定的なインポート、承認ベースのワークフロー、大量更新前の人手レビューから始めるのが現実的です。",
+		"ko": "잠재력은 높지만 아직 초기 단계입니다. 공개 피드백에서는 속도와 자동화 수준을 높게 평가하지만, AI가 잘못된 레코드나 존재하지 않는 회사를 만든 사례도 언급됩니다. 실무적으로는 제한된 가져오기, 승인 기반 워크플로, 대량 업데이트 전 사람 검수를 먼저 적용하는 방식이 안전합니다.",
+		"es": "Es prometedor, pero sigue en fase temprana. La opinión pública valora su velocidad y automatización, aunque algunos usuarios han señalado registros erróneos o empresas inexistentes creadas por la IA. El enfoque más prudente es empezar con importaciones limitadas, workflows con aprobación y revisión humana antes de actualizar en masa."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Is there a free tier, and what does Lightfield pricing look like?",
+		"zh": "Lightfield 有免费层吗，Pricing 大概是什么结构？",
+		"ja": "無料プランはありますか。また Lightfield の料金体系はどのようになっていますか？",
+		"ko": "무료 플랜이 있나요, 그리고 Lightfield 요금 구조는 어떻게 되나요?",
+		"es": "¿Hay plan gratuito y cómo es la estructura de precios de Lightfield?"
+	  },
+	  "answer": {
+		"en": "Yes. Startup includes a free trial, then starts at $59 per user monthly, while Pro is $149 per user and billed annually. Pro adds higher limits, advanced permissioning, dedicated onboarding, and a dedicated customer success manager.",
+		"zh": "有。Startup 档支持免费试用，之后是每人每月 59 美元；Pro 档是每人每月 149 美元，按年计费。Pro 主要增加更高额度、高级权限、迁移与上手支持，以及专属客户成功经理。",
+		"ja": "はい。Startup プランには無料トライアルがあり、その後は 1 ユーザーあたり月額 59 ドルから始まります。Pro は 1 ユーザーあたり月額 149 ドルで年額請求です。Pro では上限拡大、高度な権限制御、専用オンボーディング、専任カスタマーサクセスマネージャーが追加されます。",
+		"ko": "예. Startup 플랜은 무료 체험을 제공한 뒤 사용자당 월 59달러부터 시작하며, Pro는 사용자당 월 149달러로 연간 청구됩니다. Pro에는 더 높은 한도, 고급 권한 관리, 전담 온보딩, 전담 고객 성공 매니저가 포함됩니다.",
+		"es": "Sí. Startup incluye prueba gratuita y después parte de 59 dólares por usuario al mes, mientras que Pro cuesta 149 dólares por usuario con facturación anual. Pro añade límites superiores, permisos avanzados, onboarding dedicado y un responsable de customer success."
+	  }
+	},
+	{
+	  "question": {
+		"en": "How does Lightfield fit into a modern AI and GTM stack?",
+		"zh": "Lightfield 如何接入现代 AI 与 GTM 技术栈？",
+		"ja": "Lightfield は現代的な AI および GTM スタックにどのように組み込めますか？",
+		"ko": "Lightfield는 현대적인 AI 및 GTM 스택에 어떻게 들어맞나요?",
+		"es": "¿Cómo encaja Lightfield en un stack moderno de IA y GTM?"
+	  },
+	  "answer": {
+		"en": "It fits well as both memory layer and action layer. Lightfield connects email and calendar data, added MCP connectors for Notion, Linear, and Granola, opened a REST API public beta, and supports HTTP-out workflow steps for downstream automation.",
+		"zh": "它既能做记忆层，也能做执行层。Lightfield 接入邮箱和日历数据，已经上线 Notion、Linear、Granola 的 MCP 连接器，开放 REST API 公测，并支持通过 HTTP 工作流把动作推向下游系统。",
+		"ja": "メモリレイヤーと実行レイヤーの両方として適合します。Lightfield はメールとカレンダーデータを接続し、Notion、Linear、Granola 向けの MCP コネクタを追加し、REST API のパブリックベータを公開し、下流自動化向けに HTTP 出力のワークフローステップもサポートしています。",
+		"ko": "메모리 레이어이자 액션 레이어로 모두 활용할 수 있습니다. Lightfield는 이메일과 캘린더 데이터를 연결하고, Notion, Linear, Granola용 MCP 커넥터를 추가했으며, REST API 퍼블릭 베타를 열었고, 하위 자동화를 위한 HTTP 아웃 워크플로 단계도 지원합니다.",
+		"es": "Encaja bien tanto como capa de memoria como de acción. Lightfield conecta correo y calendario, añadió conectores MCP para Notion, Linear y Granola, abrió la beta pública de la API REST y soporta pasos de workflow con salida HTTP para automatización aguas abajo."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Is Lightfield safe enough for sensitive customer data?",
+		"zh": "Lightfield 适合处理敏感客户数据吗？",
+		"ja": "Lightfield は機密性の高い顧客データの取り扱いに十分対応できますか？",
+		"ko": "Lightfield는 민감한 고객 데이터를 다루기에 충분히 안전한가요?",
+		"es": "¿Lightfield es lo bastante seguro para datos sensibles de clientes?"
+	  },
+	  "answer": {
+		"en": "Partially, but teams should verify before rollout. Public materials show configurable data models and advanced permissioning on Pro, yet they do not fully spell out enterprise privacy details on the pages reviewed. Sensitive teams should request security documentation during pilot.",
+		"zh": "可以试，但上线前必须做安全核验。公开页面能看到可配置数据模型和 Pro 档高级权限，但我们看到的材料还没有把完整企业级隐私细节讲透。处理敏感数据的团队应在试点阶段先索取安全文档。",
+		"ja": "一定の適性はありますが、導入前の検証は必要です。公開情報では設定可能なデータモデルと Pro の高度な権限制御は確認できますが、レビュー対象ページではエンタープライズ向けのプライバシー要件が十分に明示されていません。機密データを扱う場合は、PoC 段階でセキュリティ資料を取得すべきです。",
+		"ko": "부분적으로는 가능하지만 도입 전 검증이 필요합니다. 공개 자료상 구성 가능한 데이터 모델과 Pro의 고급 권한 관리는 확인되지만, 엔터프라이즈 수준의 프라이버시 세부 사항은 충분히 설명돼 있지 않습니다. 민감 데이터 팀이라면 파일럿 단계에서 보안 문서를 반드시 요청해야 합니다.",
+		"es": "En parte sí, pero los equipos deben verificarlo antes del despliegue. Los materiales públicos muestran modelos de datos configurables y permisos avanzados en Pro, aunque no detallan por completo los aspectos de privacidad enterprise en las páginas revisadas. Los equipos sensibles deberían solicitar documentación de seguridad durante el piloto."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Can Lightfield do product and board analysis, not just CRM updates?",
+		"zh": "Lightfield 能做产品复盘和董事会分析，而不只是更新 CRM 吗？",
+		"ja": "Lightfield は CRM 更新だけでなく、製品レビューや取締役会向け分析にも使えますか？",
+		"ko": "Lightfield는 CRM 업데이트뿐 아니라 제품 회고나 이사회 분석에도 활용할 수 있나요?",
+		"es": "¿Lightfield puede hacer análisis de producto y para consejo, y no solo actualizar el CRM?"
+	  },
+	  "answer": {
+		"en": "Yes. Since Feb 20, 2026, Lightfield has supported code execution, letting the agent write and run Python against CRM memory. That makes battle cards, pipeline analysis, account plans, and structured artifacts much more practical than standard call-note tools.",
+		"zh": "可以。自 2026 年 2 月 20 日起，Lightfield 已支持代码执行，智能体能够直接对 CRM 记忆写并运行 Python。这样它就不只是记要点，而是能做战卡、管道分析、账户计划和结构化分析产物。",
+		"ja": "はい。2026 年 2 月 20 日以降、Lightfield はコード実行をサポートしており、エージェントが CRM メモリに対して Python を記述し実行できます。そのため、バトルカード、パイプライン分析、アカウントプラン、構造化された分析成果物の作成が、一般的な通話メモツールよりも現実的になります。",
+		"ko": "예. 2026년 2월 20일부터 Lightfield는 코드 실행을 지원하며, 에이전트가 CRM 메모리에 대해 Python을 작성하고 실행할 수 있습니다. 이 덕분에 배틀카드, 파이프라인 분석, 계정 계획, 구조화된 산출물이 일반적인 콜노트 도구보다 훨씬 실용적으로 구현됩니다.",
+		"es": "Sí. Desde el 20 de febrero de 2026, Lightfield admite ejecución de código, lo que permite al agente escribir y ejecutar Python sobre la memoria del CRM. Esto vuelve mucho más viables las battle cards, el análisis de pipeline, los planes de cuenta y los entregables estructurados frente a las herramientas estándar de notas de llamadas."
+	  }
+	}
+  ],
+  "comparison_table_jsonb": {
+	"en": {
+	  "reason": "While Attio is stronger for teams that want a mature, composable CRM they can shape by hand, Lightfield is better for teams that want the CRM to build itself, remember everything, and trigger work automatically.",
+	  "caption": "Comparison: Lightfield vs Attio",
+	  "columns": [
+		"Dimension",
+		"Lightfield",
+		"Attio"
+	  ],
+	  "rows": [
+		[
+		  "Core use case",
+		  "AI-native customer memory plus execution layer",
+		  "Composable startup CRM with strong manual control"
+		],
+		[
+		  "Time to first value",
+		  "Connect inbox and CSV, rebuild in under 5 minutes",
+		  "More setup effort before full value shows up"
+		],
+		[
+		  "Data capture model",
+		  "Continuous context from emails, meetings, and calls",
+		  "Structured CRM objects with customization focus"
+		],
+		[
+		  "Automation depth",
+		  "Agent queries, workflows, code execution, follow-ups",
+		  "Automation is useful, but less agent-centric"
+		],
+		[
+		  "Integration surface",
+		  "REST API beta, MCP for Notion, Linear, Granola, HTTP out",
+		  "Strong composability, but less AI-execution emphasis"
+		],
+		[
+		  "Best-fit buyer",
+		  "Founders and lean GTM teams who hate CRM admin",
+		  "Ops-heavy teams wanting a polished modern CRM foundation"
+		]
+	  ],
+	  "tldr": "Choose Lightfield if your main pain is manual data entry and follow-up work. Choose Attio if you want a more mature composable CRM and are comfortable doing more setup yourself."
+	},
+	"zh": {
+	  "reason": "虽然 Attio 更适合想手动塑形、追求成熟可组合 CRM 的团队，但 Lightfield 更适合希望 CRM 自己搭起来、自己记住上下文、并自动推动工作的团队。",
+	  "caption": "Lightfield 与核心竞品对比",
+	  "columns": [
+		"对比维度",
+		"Lightfield",
+		"Attio"
+	  ],
+	  "rows": [
+		[
+		  "核心痛点场景",
+		  "AI 原生客户记忆加执行层",
+		  "偏现代化、可组合的创业 CRM"
+		],
+		[
+		  "启动速度",
+		  "连接邮箱和 CSV 后，5 分钟内就能起盘",
+		  "前期配置更多，价值释放更慢"
+		],
+		[
+		  "数据组织方式",
+		  "把邮件、会议、通话存成连续上下文",
+		  "以结构化 CRM 对象和自定义为主"
+		],
+		[
+		  "自动化深度",
+		  "智能体问答、工作流、代码执行、自动跟进",
+		  "自动化有用，但智能体执行层较弱"
+		],
+		[
+		  "生态接入能力",
+		  "REST API 公测，MCP 接 Notion、Linear、Granola，支持 HTTP out",
+		  "可组合性不错，但 AI 执行导向没那么强"
+		],
+		[
+		  "适合谁买",
+		  "讨厌 CRM 录入的创始人和轻量 GTM 团队",
+		  "更偏运营导向、愿意多做配置的团队"
+		]
+	  ],
+	  "tldr": "选 Lightfield，如果你最大的痛点是手工录入和后续跟进。选 Attio，如果你更看重成熟可组合的 CRM 框架，并愿意自己做更多配置。"
+	},
+	"ja": {
+	  "reason": "Attio は成熟した構成可能 CRM を手動で設計したいチームに向いていますが、Lightfield は CRM 自体に自律的な構築、継続的な記憶、業務トリガーを担わせたいチームに適しています。",
+	  "caption": "比較: Lightfield と Attio",
+	  "columns": [
+		"比較項目",
+		"Lightfield",
+		"Attio"
+	  ],
+	  "rows": [
+		[
+		  "主な用途",
+		  "AI ネイティブな顧客メモリと実行レイヤー",
+		  "手動制御に強い構成可能なスタートアップ向け CRM"
+		],
+		[
+		  "価値実感までの時間",
+		  "受信箱と CSV を接続し 5 分未満で再構築",
+		  "本格活用までにより多くの初期設定が必要"
+		],
+		[
+		  "データ取得モデル",
+		  "メール、会議、通話を継続的コンテキストとして保持",
+		  "構造化された CRM オブジェクト中心で高いカスタマイズ性"
+		],
+		[
+		  "自動化の深さ",
+		  "エージェント質問、ワークフロー、コード実行、フォローアップ",
+		  "自動化は有用だがエージェント実行性は相対的に弱い"
+		],
+		[
+		  "連携面",
+		  "REST API ベータ、Notion、Linear、Granola 向け MCP、HTTP 出力",
+		  "高い構成性を持つが AI 実行層の色は薄い"
+		],
+		[
+		  "適した導入企業",
+		  "CRM 入力を嫌う創業者や少人数 GTM チーム",
+		  "洗練された CRM 基盤を求める運用主導のチーム"
+		]
+	  ],
+	  "tldr": "主な課題が手入力とフォローアップ作業なら Lightfield が有力です。より成熟した構成型 CRM を求め、自社で設定を進められるなら Attio が適しています。"
+	},
+	"ko": {
+	  "reason": "Attio가 손으로 다듬을 수 있는 성숙한 조합형 CRM을 원하는 팀에 더 강하다면, Lightfield는 CRM이 스스로 구축되고 모든 컨텍스트를 기억하며 업무를 자동으로 트리거하길 원하는 팀에 더 잘 맞습니다.",
+	  "caption": "비교: Lightfield vs Attio",
+	  "columns": [
+		"비교 항목",
+		"Lightfield",
+		"Attio"
+	  ],
+	  "rows": [
+		[
+		  "핵심 사용 사례",
+		  "AI 네이티브 고객 메모리와 실행 레이어",
+		  "수동 제어가 강한 조합형 스타트업 CRM"
+		],
+		[
+		  "초기 가치 도달 시간",
+		  "받은편지함과 CSV 연결 후 5분 이내 재구축",
+		  "완전한 가치 실현까지 더 많은 설정 필요"
+		],
+		[
+		  "데이터 캡처 모델",
+		  "이메일, 회의, 통화를 연속 컨텍스트로 저장",
+		  "구조화된 CRM 객체와 높은 커스터마이징 중심"
+		],
+		[
+		  "자동화 깊이",
+		  "에이전트 질의, 워크플로, 코드 실행, 후속 조치",
+		  "자동화는 유용하지만 에이전트 중심성은 더 약함"
+		],
+		[
+		  "통합 범위",
+		  "REST API 베타, Notion, Linear, Granola용 MCP, HTTP 아웃",
+		  "조합성은 강하지만 AI 실행 계층 강조는 상대적으로 약함"
+		],
+		[
+		  "적합한 구매자",
+		  "CRM 관리 업무를 싫어하는 창업자와 슬림 GTM 팀",
+		  "정교한 현대식 CRM 기반을 원하는 운영 중심 팀"
+		]
+	  ],
+	  "tldr": "핵심 문제가 수작업 입력과 후속 작업이라면 Lightfield를 선택하는 편이 낫습니다. 더 성숙한 조합형 CRM을 원하고 직접 설정할 여력이 있다면 Attio가 더 적합합니다."
+	},
+	"es": {
+	  "reason": "Mientras Attio resulta más sólido para equipos que quieren un CRM maduro y componible que puedan modelar manualmente, Lightfield encaja mejor en equipos que quieren que el CRM se construya solo, recuerde todo y active trabajo de forma automática.",
+	  "caption": "Comparación: Lightfield vs Attio",
+	  "columns": [
+		"Dimensión",
+		"Lightfield",
+		"Attio"
+	  ],
+	  "rows": [
+		[
+		  "Caso de uso principal",
+		  "Memoria de cliente nativa de IA más capa de ejecución",
+		  "CRM componible para startups con fuerte control manual"
+		],
+		[
+		  "Tiempo hasta obtener valor",
+		  "Conecta correo y CSV y reconstruye en menos de 5 minutos",
+		  "Requiere más configuración antes de mostrar todo su valor"
+		],
+		[
+		  "Modelo de captura de datos",
+		  "Contexto continuo desde correos, reuniones y llamadas",
+		  "Objetos CRM estructurados con foco en personalización"
+		],
+		[
+		  "Profundidad de automatización",
+		  "Consultas de agentes, workflows, ejecución de código y seguimientos",
+		  "La automatización es útil, pero menos centrada en agentes"
+		],
+		[
+		  "Superficie de integración",
+		  "API REST beta, MCP para Notion, Linear, Granola y salida HTTP",
+		  "Gran componibilidad, aunque con menos énfasis en ejecución con IA"
+		],
+		[
+		  "Comprador ideal",
+		  "Fundadores y equipos GTM ligeros que detestan la administración del CRM",
+		  "Equipos más orientados a operaciones que quieren una base CRM moderna y pulida"
+		]
+	  ],
+	  "tldr": "Elige Lightfield si tu principal dolor es la entrada manual de datos y el seguimiento. Elige Attio si prefieres un CRM más maduro y componible y no te importa invertir más tiempo en la configuración."
+	}
+  },
+  "seo_title_jsonb": {
+	"en": "Lightfield Review 2026: Pricing, Pros, Cons, and Attio Alternatives",
+	"zh": "Lightfield 怎么样？2026 最新评测：价格、优缺点与 Attio 竞品对比",
+	"ja": "【徹底レビュー】Lightfieldの評判は？料金・強み・弱み・Attio代替比較",
+	"ko": "Lightfield 솔직 후기: 가격, 장단점 및 Attio 대안 비교",
+	"es": "Opiniones de Lightfield: Precio, Ventajas y Alternativas frente a Attio"
+  },
+  "seo_description_jsonb": {
+	"en": "Lightfield Review 2026: explore Pricing, Free Tier, code execution, and Attio alternatives to see if this AI-native CRM truly removes manual data entry.",
+	"zh": "Lightfield 评测：看它如何在 5 分钟内自动搭建 CRM，解析 Pricing、Free Tier、代码执行与 Attio 竞品差异，判断是否真能替代手工录入。",
+	"ja": "Lightfield の料金、無料トライアル、コード実行、Attio との違いを整理。5 分以内で CRM を立ち上げられる AI ネイティブ CRM の実力を検証します。",
+	"ko": "Lightfield의 가격, 무료 체험, 코드 실행, Attio 대안을 분석합니다. 5분 내 CRM 구축이 가능한 AI 네이티브 CRM인지 실제 관점에서 정리했습니다.",
+	"es": "Analizamos Lightfield: precio, prueba gratuita, ejecución de código y alternativas a Attio para comprobar si este CRM nativo de IA elimina de verdad la carga manual."
+  }
+}
