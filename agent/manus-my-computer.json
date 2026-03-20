@@ -1,0 +1,499 @@
+{
+  "slug": "manus-my-computer",
+  "brand_slug": "manus",
+  "name_jsonb": {
+	"en": "My Computer by Manus AI",
+	"zh": "My Computer by Manus AI",
+	"ja": "My Computer by Manus AI",
+	"ko": "My Computer by Manus AI",
+	"es": "My Computer by Manus AI"
+  },
+  "tagline_jsonb": {
+	"en": "The Desktop Agent That Turns Your Machine Into an Autonomous Worker",
+	"zh": "将个人电脑化身为全自动数字员工的桌面智能体引擎",
+	"ja": "あなたのPCを自律的なワーカーに変えるデスクトップエージェント",
+	"ko": "개인용 컴퓨터를 자율 작업자로 바꿔주는 데스크톱 에이전트 엔진",
+	"es": "El agente de escritorio que convierte tu máquina en un trabajador autónomo"
+  },
+  "description_jsonb": {
+	"en": "> **Executive Summary:** \"My Computer\" is the flagship desktop capability of <a href=\"https://www.linkstartai.com/en/agents/manus\" target=\"_blank\">Manus AI</a> (now acquired by Meta), designed to bring autonomous workflow execution directly to local machines. Targeted at developers and knowledge workers, it breaks the cloud barrier by allowing the agent to read local files, execute terminal commands, and operate GUI applications without human intervention.\n\nUnlike traditional cloud chatbots, \"My Computer\" leverages a local lightweight client paired with Meta's cloud reasoning to establish a \"see, think, act\" loop. The agent takes real-time screenshots, understands the screen dynamically, and controls the mouse and keyboard to complete complex, multi-step tasks. My Computer by Manus AI offers a **Freemium** plan, with paid tiers starting at **$20.00**. It is More expensive than average for this category. From organizing massive local photo libraries to autonomously building and packaging software via local CLI tools, it effectively transforms any macOS or Windows machine into a proactive digital workforce.",
+	"zh": "> **核心摘要：** “My Computer” 是 <a href=\"https://www.linkstartai.com/zh/agents/manus\" target=\"_blank\">Manus AI</a>（现已被 Meta 收购）推出的旗舰级桌面端功能，旨在将完全自主的工作流执行能力带回本地设备。它主要面向开发者和知识工作者，彻底打破了传统 AI 局限于云端的壁垒，允许智能体直接读取本地文件、执行终端命令，并在无需人工干预的情况下操作图形界面应用。\n\n与传统的云端聊天机器人不同，“My Computer” 通过在本地部署轻量级客户端，并结合 Meta 强大的云端推理能力，建立起了一个完整的“观察、思考、行动”闭环。该智能体会实时截取屏幕，动态解析当前界面元素，并直接接管鼠标和键盘来完成复杂的多步任务。My Computer by Manus AI offers a **Freemium** plan, with paid tiers starting at **$20.00**. It is More expensive than average for this category. 无论是整理本地海量杂乱的图片库，还是通过本地 CLI 工具自主编写并打包软件，它都能将任何 macOS 或 Windows 设备转化为极具执行力的主动型数字员工。",
+	"ja": "> **エグゼクティブサマリー：** \"My Computer\"は、<a href=\"https://www.linkstartai.com/ja/agents/manus\" target=\"_blank\">Manus AI</a>（現在はMeta社に買収）のフラッグシップとなるデスクトップ機能であり、自律的なワークフロー実行をローカルマシンに直接もたらすように設計されています。開発者やナレッジワーカーを対象としており、エージェントが人間の介入なしにローカルファイルの読み取り、ターミナルコマンドの実行、GUIアプリケーションの操作を行えるようにすることで、クラウドの壁を打ち破ります。\n\n従来のクラウド型チャットボットとは異なり、\"My Computer\"は、ローカルの軽量クライアントとMetaのクラウド推論を組み合わせることで、「見て、考えて、行動する」ループを確立します。エージェントはリアルタイムのスクリーンショットを撮り、画面を動的に理解し、マウスとキーボードを制御して、複雑なマルチステップタスクを完了します。My Computer by Manus AI offers a **Freemium** plan, with paid tiers starting at **$20.00**. It is More expensive than average for this category. 大規模なローカル写真ライブラリの整理から、ローカルCLIツールを介したソフトウェアの自律的な構築およびパッケージ化まで、あらゆるmacOSまたはWindowsマシンを積極的なデジタルワーカーへと効果的に変革します。",
+	"ko": "> **핵심 요약:** \"My Computer\"는 현재 메타(Meta)에 인수된 <a href=\"https://www.linkstartai.com/ko/agents/manus\" target=\"_blank\">Manus AI</a> 의 플래그십 데스크톱 기능으로, 자율 워크플로우 실행을 로컬 기기로 직접 가져오도록 설계되었습니다. 개발자 및 지식 근로자를 겨냥한 이 솔루션은 에이전트가 사람의 개입 없이 로컬 파일을 읽고, 터미널 명령을 실행하며, GUI 애플리케이션을 제어할 수 있게 하여 기존 클라우드 AI의 한계를 허물었습니다。\n\n기존의 클라우드 챗봇과 달리 \"My Computer\"는 로컬의 경량 클라이언트와 메타의 클라우드 추론 능력을 결합하여 '관찰, 생각, 행동'의 루프를 구축합니다. 에이전트는 실시간으로 화면을 캡처하고, 화면의 요소를 동적으로 이해하며, 마우스와 키보드를 직접 제어하여 복잡한 다단계 작업을 완료합니다. My Computer by Manus AI offers a **Freemium** plan, with paid tiers starting at **$20.00**. It is More expensive than average for this category. 방대한 로컬 사진 라이브러리 정리부터 로컬 CLI 도구를 통한 소프트웨어 자율 구축 및 패키징에 이르기까지, 모든 macOS 및 Windows 기기를 능동적인 디지털 인력으로 완벽하게 변환시킵니다.",
+	"es": "> **Resumen Ejecutivo:** \"My Computer\" es la capacidad insignia de escritorio de <a href=\"https://www.linkstartai.com/es/agents/manus\" target=\"_blank\">Manus AI</a> (ahora adquirida por Meta), diseñada para llevar la ejecución autónoma de flujos de trabajo directamente a las máquinas locales. Orientado a desarrolladores y trabajadores del conocimiento, rompe la barrera de la nube al permitir que el agente lea archivos locales, ejecute comandos de terminal y opere aplicaciones GUI sin intervención humana。\n\nA diferencia de los chatbots tradicionales en la nube, \"My Computer\" aprovecha un cliente ligero local emparejado con el razonamiento en la nube de Meta para establecer un bucle de \"ver, pensar, actuar\". El agente toma capturas de pantalla en tiempo real, comprende la pantalla dinámicamente y controla el mouse y el teclado para completar tareas complejas de múltiples pasos. My Computer by Manus AI offers a **Freemium** plan, with paid tiers starting at **$20.00**. It is More expensive than average for this category. Desde organizar bibliotecas de fotos locales masivas hasta construir y empaquetar software de forma autónoma a través de herramientas CLI locales, transforma eficazmente cualquier máquina macOS o Windows en una fuerza laboral digital proactiva."
+  },
+  "category_id": "aeb4c14b-1c83-471b-a0ff-8df81b1735e7",
+  "solution_category_id": "884a078d-04db-4083-9882-ad24fa24ce5a",
+  "website_url": "https://manus.im/blog/manus-my-computer-desktop",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/manus-my-computer.jpg",
+  "pricing_model": "freemium",
+  "paid_options_from": "$20.00",
+  "billing_frequency": "month",
+  "rating": 4.6,
+  "review_count": 256,
+  "supported_languages": [
+	"en",
+	"zh",
+	"ja",
+	"ko",
+	"es"
+  ],
+  "tags_jsonb": {
+	"en": [
+	  "#LocalAIAgent",
+	  "#DesktopAutomation",
+	  "#WorkflowEngine",
+	  "#ComputerUse"
+	],
+	"zh": [
+	  "#本地AI智能体",
+	  "#桌面自动化",
+	  "#工作流引擎",
+	  "#电脑控制"
+	],
+	"ja": [
+	  "#ローカルAIエージェント",
+	  "#デスクトップ自動化",
+	  "#ワークフローエンジン",
+	  "#コンピュータ操作"
+	],
+	"ko": [
+	  "#로컬AI에이전트",
+	  "#데스크톱자동화",
+	  "#워크플로우엔진",
+	  "#컴퓨터제어"
+	],
+	"es": [
+	  "#AgenteIALocal",
+	  "#AutomatizaciónEscritorio",
+	  "#MotorFlujoTrabajo",
+	  "#UsoComputadora"
+	]
+  },
+  "features_jsonb": {
+	"en": [
+	  "Operate natively on macOS and Windows via a dedicated lightweight client",
+	  "Control the mouse and keyboard dynamically to execute cross-application GUI tasks",
+	  "Execute terminal and CLI commands to build, run, and manage software projects locally",
+	  "Organize, rename, and tag massive local file directories without human oversight",
+	  "Utilize idle machine hardware for background jobs and remote task execution"
+	],
+	"zh": [
+	  "通过专属轻量级客户端在 macOS 和 Windows 系统上提供原生级的运行体验",
+	  "动态接管鼠标和键盘，实现跨软件图形用户界面 (GUI) 的高度复杂任务自动化",
+	  "原生支持调用终端和 CLI 命令，可在本地独立完成软件项目的构建、运行与管理",
+	  "在零人工干预的状态下，全自动完成海量本地文件的结构化整理、重命名与标签标记",
+	  "智能调度并利用本地机器的闲置算力资源，支持静默后台作业与手机端远程任务下发"
+	],
+	"ja": [
+	  "専用の軽量クライアントを介して、macOSおよびWindows上でネイティブに動作",
+	  "マウスとキーボードを動的に制御し、クロスアプリケーションのGUIタスクを実行",
+	  "ターミナルおよびCLIコマンドを実行し、ソフトウェアプロジェクトをローカルで構築、実行、管理",
+	  "人間の監視なしで、大規模なローカルファイルディレクトリの整理、名前変更、タグ付けを実行",
+	  "アイドリング状態のマシンハードウェアを活用し、バックグラウンドジョブやリモートタスクを実行"
+	],
+	"ko": [
+	  "전용 경량 클라이언트를 통해 macOS 및 Windows 환경에서 완벽한 네이티브 구동",
+	  "마우스와 키보드를 동적으로 직접 제어하여 크로스 애플리케이션 GUI 자동화 작업 수행",
+	  "터미널 및 CLI 명령어를 실행하여 소프트웨어 프로젝트를 로컬에서 직접 빌드하고 관리",
+	  "사람의 확인 절차 없이 방대한 로컬 파일 디렉토리를 자동으로 정리, 이름 변경 및 태그 지정",
+	  "유휴 상태의 기기 하드웨어 리소스를 활용하여 백그라운드 작업 및 모바일 원격 작업 실행"
+	],
+	"es": [
+	  "Opera nativamente en macOS y Windows a través de un cliente ligero dedicado",
+	  "Controla el mouse y el teclado dinámicamente para ejecutar tareas GUI entre aplicaciones",
+	  "Ejecuta comandos de terminal y CLI para construir, ejecutar y administrar proyectos de software localmente",
+	  "Organiza, renombra y etiqueta directorios masivos de archivos locales sin supervisión humana",
+	  "Utiliza el hardware inactivo de la máquina para trabajos en segundo plano y ejecución remota de tareas"
+	]
+  },
+  "videos_jsonb": [
+	{
+	  "type": "youtube",
+	  "videoId": "-RA1U9dzEB8",
+	  "title": "NEW Manus AI Computer is INSANE! (FREE!)",
+	  "uploadDate": "2026-03-17T00:00:00Z",
+	  "description": "A deep dive into how the 'My Computer' feature transforms Manus from a cloud sandbox tool into a highly capable local AI employee managing workflows end-to-end.",
+	  "duration": "PT8M20S"
+	},
+	{
+	  "type": "youtube",
+	  "videoId": "9M784B0kLIE",
+	  "title": "What Manus “My Computer” actually is",
+	  "uploadDate": "2026-03-18T00:00:00Z",
+	  "description": "An architectural breakdown of the 'see, think, act' loop behind Manus's new local agent, bridging the digital barrier between intelligence and physical execution.",
+	  "duration": "PT6M20S"
+	}
+  ],
+  "verdict_jsonb": {
+	"en": {
+	  "summary": "\"My Computer\" by Manus AI is the **definitive** breakthrough for **power users and developers** who need to **bridge cloud AI intelligence with local desktop execution**.",
+	  "expert_quote": "By completely dismantling the digital barrier between a reasoning LLM and local hardware execution, Manus’s 'My Computer' redefines software engineering and personal automation. It doesn’t just output code; it actively drives your machine. - LinkStart AI Lab",
+	  "pros": [
+		"Unprecedented direct access to local CLI tools and file systems",
+		"Breaks out of the browser to execute dynamic multi-step GUI interactions",
+		"Maintains absolute user control with an instant execution stop capability"
+	  ],
+	  "cons": [
+		"Raises significant enterprise data security and local privacy concerns",
+		"The proprietary credit system depletes extremely fast on complex loops",
+		"Heavy reliance on a continuous internet connection for the cloud reasoning layer"
+	  ]
+	},
+	"zh": {
+	  "summary": "Manus AI 推出的 “My Computer” 是一项 **颠覆性** 创举，专为需要将 **云端极致 AI 算力与本地桌面执行层打通** 的 **极客用户与专业开发者** 而设计。",
+	  "expert_quote": "通过彻底拆除云端大语言模型推理层与本地硬件执行层之间的数字隔离墙，Manus 的“My Computer”重塑了个人自动化与软件开发的边界。它不再仅仅是输出代码片段，而是真正开始“驾驶”你的电脑。—— LinkStart AI Lab",
+	  "pros": [
+		"史无前例地直接接管本地系统的命令行工具 (CLI) 和底层文件架构",
+		"彻底摆脱浏览器沙盒限制，实现惊人的跨软件动态 GUI 键鼠操作",
+		"用户拥有绝对控制权，一键即可瞬间中断任何高风险的自动化执行"
+	  ],
+	  "cons": [
+		"赋予 AI 本地系统控制权会引发极其严重的企业数据安全与隐私合规隐忧",
+		"其复杂的代币消耗机制极不透明，在处理深度逻辑循环时代币消耗速度惊人",
+		"本地客户端本身不具备完整推理能力，重度依赖稳定高速的互联网连接"
+	  ]
+	},
+	"ja": {
+	  "summary": "Manus AIによる\"My Computer\"は、**クラウドAIの知能とローカルデスクトップでの実行を連携**させる必要がある**パワーユーザーや開発者**にとって、**決定的な**ブレイクスルーとなります。",
+	  "expert_quote": "推論を行うLLMとローカルハードウェアの実行レイヤーの間にあったデジタルの壁を完全に解体することで、Manusの「My Computer」はソフトウェアエンジニアリングと個人の自動化の境界を再定義しました。これは単にコードを出力するだけでなく、実際にあなたのマシンを操縦するのです。 - LinkStart AI Lab",
+	  "pros": [
+		"ローカルのCLIツールやファイルシステムに対する前例のない直接アクセス",
+		"ブラウザのサンドボックスから脱却し、動的でマルチステップのGUI操作を実行",
+		"実行を瞬時に停止できる機能により、ユーザーの絶対的なコントロールを維持"
+	  ],
+	  "cons": [
+		"エンタープライズのデータセキュリティおよびローカルのプライバシーに関する重大な懸念を引き起こす",
+		"独自のクレジットシステムは不透明であり、複雑なループ処理において消費が極めて早い",
+		"クラウドの推論レイヤーにアクセスするため、継続的で安定したインターネット接続に大きく依存する"
+	  ]
+	},
+	"ko": {
+	  "summary": "Manus AI의 \"My Computer\"는 **클라우드 AI 지능과 로컬 데스크톱 실행을 연결**해야 하는 **파워 유저 및 전문 개발자**를 위한 **결정적인** 혁신입니다.",
+	  "expert_quote": "추론을 담당하는 대형 언어 모델과 로컬 하드웨어 실행 계층 사이의 디지털 장벽을 완전히 허묾으로써, Manus의 'My Computer'는 개인 자동화와 소프트웨어 엔지니어링의 경계를 재정의했습니다. 단순히 코드 스니펫을 출력하는 것이 아니라, 말 그대로 컴퓨터를 직접 운전합니다. - LinkStart AI Lab",
+	  "pros": [
+		"로컬 CLI 도구 및 기본 파일 시스템에 대한 전례 없는 직접적인 액세스 제어",
+		"브라우저 샌드박스를 벗어나 애플리케이션 간 동적 GUI 및 마우스 제어 실행",
+		"사용자가 즉시 실행을 중단할 수 있는 기능을 제공하여 완벽한 통제권 유지"
+	  ],
+	  "cons": [
+		"AI에게 로컬 시스템 제어 권한을 부여함에 따라 심각한 기업 데이터 보안 및 개인정보 침해 우려 발생",
+		"불투명한 자체 크레딧 시스템으로 인해 복잡한 논리 루프 처리 시 크레딧 고갈 속도가 매우 빠름",
+		"클라우드 추론 계층에 의존하기 때문에 안정적이고 지속적인 인터넷 연결이 필수적임"
+	  ]
+	},
+	"es": {
+	  "summary": "\"My Computer\" de Manus AI es el avance **definitivo** para **usuarios avanzados y desarrolladores** que necesitan **conectar la inteligencia de IA en la nube con la ejecución de escritorio local**.",
+	  "expert_quote": "Al desmantelar completamente la barrera digital entre un LLM de razonamiento y la ejecución de hardware local, 'My Computer' de Manus redefine la ingeniería de software y la automatización personal. No solo genera código; impulsa activamente tu máquina. - LinkStart AI Lab",
+	  "pros": [
+		"Acceso directo sin precedentes a herramientas CLI locales y sistemas de archivos",
+		"Sale del navegador para ejecutar interacciones dinámicas GUI de múltiples pasos",
+		"Mantiene un control absoluto del usuario con una capacidad de parada de ejecución instantánea"
+	  ],
+	  "cons": [
+		"Plantea importantes preocupaciones sobre la seguridad de los datos empresariales y la privacidad local",
+		"El sistema de créditos patentado se agota extremadamente rápido en bucles complejos",
+		"Fuerte dependencia de una conexión continua a Internet para la capa de razonamiento en la nube"
+	  ]
+	}
+  },
+  "faqs_jsonb": [
+	{
+	  "question": {
+		"en": "My Computer by Manus AI vs OpenClaw: Which is better for local agents?",
+		"zh": "Manus AI 的 My Computer 与 OpenClaw 相比：哪个更适合本地智能体？",
+		"ja": "Manus AIの\"My Computer\"とOpenClaw：ローカルエージェントにはどちらが適していますか？",
+		"ko": "Manus AI의 My Computer 대 OpenClaw: 로컬 에이전트에 어떤 것이 더 나은가요?",
+		"es": "My Computer de Manus AI vs OpenClaw: ¿Cuál es mejor para agentes locales?"
+	  },
+	  "answer": {
+		"en": "While <a href=\"https://www.linkstartai.com/en/agents/openclaw\" target=\"_blank\">OpenClaw</a> provides a completely free, open-source environment that runs models entirely on your own hardware without API costs, My Computer boasts an absolute advantage in ease of use and GUI automation by seamlessly connecting Meta's superior cloud reasoning to your local machine.",
+		"zh": "虽然 <a href=\"https://www.linkstartai.com/zh/agents/openclaw\" target=\"_blank\">OpenClaw</a> 提供了一个完全免费、开源的环境，允许大模型在你的硬件上脱机运行且没有任何 API 调用成本，但 My Computer 通过将 Meta 卓越的云端推理无缝挂载到本地设备上，在极致的开箱即用体验和复杂的跨界面 GUI 自动化操作上拥有绝对优势。",
+		"ja": "<a href=\"https://www.linkstartai.com/ja/agents/openclaw\" target=\"_blank\">OpenClaw</a> は、APIコストなしで独自のハードウェア上で完全にモデルを実行する完全に無料でオープンソースの環境を提供しますが、My Computer は、Metaの優れたクラウド推論をローカルマシンにシームレスに接続することで、使いやすさとGUI自動化において絶対的な優位性を誇っています。",
+		"ko": "<a href=\"https://www.linkstartai.com/ko/agents/openclaw\" target=\"_blank\">OpenClaw</a> 는 API 호출 비용 없이 자체 하드웨어에서 전적으로 모델을 구동하는 완전 무료 오픈소스 환경을 제공하지만, My Computer 는 메타의 압도적인 클라우드 추론 능력을 로컬 기기에 원활하게 연결함으로써 사용 편의성과 복잡한 GUI 자동화에서 절대적인 우위를 점합니다.",
+		"es": "Mientras que <a href=\"https://www.linkstartai.com/es/agents/openclaw\" target=\"_blank\">OpenClaw</a> proporciona un entorno completamente gratuito y de código abierto que ejecuta modelos completamente en tu propio hardware sin costos de API, My Computer tiene una ventaja absoluta en facilidad de uso y automatización de GUI al conectar sin problemas el razonamiento superior en la nube de Meta a tu máquina local."
+	  }
+	},
+	{
+	  "question": {
+		"en": "What are the security implications of giving AI full computer control?",
+		"zh": "将电脑的完全控制权交给 AI 会带来哪些安全隐患？",
+		"ja": "AIにコンピュータの完全な制御権を与えることのセキュリティ上の影響は何ですか？",
+		"ko": "AI에게 컴퓨터에 대한 완전한 제어 권한을 부여할 때 발생할 수 있는 보안 문제는 무엇인가요?",
+		"es": "¿Cuáles son las implicaciones de seguridad de dar a la IA un control total de la computadora?"
+	  },
+	  "answer": {
+		"en": "Granting Manus access to your terminal and GUI presents significant risks, as it indexes local files and transmits screen data to cloud servers. While it includes an instant \"stop\" button, enterprises are currently wary of the architecture due to the potential leakage of proprietary code.",
+		"zh": "授予 Manus 终端和图形界面的完整权限存在极高的风险，因为它需要扫描本地文件并将屏幕画面实时回传至云端服务器进行推理。尽管平台提供了一键“强制停止”按钮，但出于对专有代码泄漏的严重担忧，企业界目前对这种混合架构保持着高度警惕。",
+		"ja": "ManusにターミナルとGUIへのアクセスを許可することは、ローカルファイルをインデックス化し、画面データをクラウドサーバーに送信するため、重大なリスクを伴います。即座に「停止」できるボタンが用意されていますが、独自のコードが漏洩する可能性があるため、企業は現在このアーキテクチャに警戒心を抱いています。",
+		"ko": "Manus에 터미널 및 GUI 접근 권한을 부여하는 것은 로컬 파일을 인덱싱하고 화면 데이터를 클라우드 서버로 전송하기 때문에 상당한 위험을 수반합니다. 즉각적인 '강제 중지' 버튼이 포함되어 있지만, 기업들은 현재 독점 코드 유출 가능성 때문에 이 혼합 아키텍처 도입을 매우 꺼리고 있습니다.",
+		"es": "Otorgar a Manus acceso a tu terminal y GUI presenta riesgos significativos, ya que indexa archivos locales y transmite datos de pantalla a servidores en la nube. Si bien incluye un botón de 'parada' instantánea, las empresas actualmente desconfían de la arquitectura debido a la posible fuga de código propietario."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Is there a free tier? What are the pricing limits for the local agent?",
+		"zh": "平台是否提供免费计划？本地智能体的定价限制是多少？",
+		"ja": "無料枠はありますか？ローカルエージェントの料金制限はどのようになっていますか？",
+		"ko": "무료 요금제가 있나요? 로컬 에이전트의 가격 제한은 어떻게 됩니까?",
+		"es": "¿Hay un nivel gratuito? ¿Cuáles son los límites de precios para el agente local?"
+	  },
+	  "answer": {
+		"en": "Yes, there is a free tier providing roughly 5 days' worth of trial credits. Paid subscriptions start at $20.00/month for 4,000 credits. However, users report that complex CLI tasks and deep loops can rapidly deplete a $40 or $80 tier in just a few hours.",
+		"zh": "是的，平台提供了一个免费层，大约包含相当于 5 天试用的初始积分。付费订阅起步价为每月 20.00 美元，可兑换 4,000 个代币积分。然而，大量开发者反馈，高频的 CLI 调用和复杂的循环任务能够在短短几小时内迅速耗尽 40 甚至 80 美元套餐的配额。",
+		"ja": "はい、約5日分のトライアルクレジットを提供する無料枠があります。有料サブスクリプションは月額20.00ドル（4,000クレジット）から始まります。ただし、複雑なCLIタスクや深いループ処理を実行すると、40ドルや80ドルのプランであってもわずか数時間でクレジットが枯渇するというユーザーからの報告が多数あります。",
+		"ko": "네, 약 5일간 사용할 수 있는 평가판 크레딧을 제공하는 무료 계층이 있습니다. 유료 구독은 4,000 크레딧을 제공하는 월 $20.00부터 시작합니다. 그러나 복잡한 CLI 작업 및 심층 루프 구동 시 단 몇 시간 만에 $40 또는 $80 요금제 크레딧이 모두 소모된다는 사용자들의 불만이 제기되고 있습니다.",
+		"es": "Sí, hay un nivel gratuito que proporciona aproximadamente el valor de 5 días de créditos de prueba. Las suscripciones pagas comienzan en $20.00/mes por 4,000 créditos. Sin embargo, los usuarios informan que las tareas CLI complejas y los bucles profundos pueden agotar rápidamente un nivel de $40 o $80 en solo unas pocas horas."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Can My Computer by Manus operate fully offline without internet?",
+		"zh": "Manus 的 My Computer 功能能否在没有互联网的离线状态下运行？",
+		"ja": "Manusの\"My Computer\"は、インターネットなしで完全にオフラインで動作しますか？",
+		"ko": "Manus의 My Computer는 인터넷 연결 없이 오프라인으로 완벽하게 작동할 수 있나요?",
+		"es": "¿Puede My Computer de Manus funcionar de manera totalmente fuera de línea sin internet?"
+	  },
+	  "answer": {
+		"en": "No, it cannot. While the agent executes actions locally, the 'brain' requires a constant internet connection to relay screenshots back to Meta’s cloud infrastructure, where the heavy LLM reasoning occurs before sending commands back to your machine.",
+		"zh": "完全不行。虽然该智能体是在您的本地电脑上执行操作，但它的“大脑”需要持续的高速互联网连接，以便将屏幕截图实时传回 Meta 的云端基础设施，在那里进行繁重的大语言模型推理后，再将终端指令下发回您的机器。",
+		"ja": "いいえ、できません。エージェントのアクション自体はローカルで実行されますが、その「頭脳」は、スクリーンショットをMetaのクラウドインフラストラクチャに継続的に中継するためのインターネット接続を必要とします。そこで重いLLMの推論が行われた後、コマンドがマシンに送り返されます。",
+		"ko": "아니요, 불가능합니다. 에이전트가 로컬 기기에서 직접 작업을 실행하기는 하지만, 이 시스템의 '두뇌'는 스크린샷을 메타의 클라우드 인프라로 중계하기 위해 지속적인 인터넷 연결을 요구합니다. 무거운 LLM 추론은 클라우드에서 수행된 후 기기로 명령을 다시 전송하는 구조입니다.",
+		"es": "No, no puede. Si bien el agente ejecuta acciones localmente, el 'cerebro' requiere una conexión a Internet constante para transmitir capturas de pantalla de regreso a la infraestructura en la nube de Meta, donde ocurre el pesado razonamiento del LLM antes de enviar comandos a tu máquina."
+	  }
+	},
+	{
+	  "question": {
+		"en": "How does Manus handle environmental paths and local CLI tool configurations?",
+		"zh": "Manus 如何处理本地环境变量和 CLI 命令行工具的路径配置？",
+		"ja": "Manusは、環境パスやローカルCLIツールの構成をどのように処理しますか？",
+		"ko": "Manus는 환경 변수 경로 및 로컬 CLI 도구 구성을 어떻게 처리하나요?",
+		"es": "¿Cómo maneja Manus las rutas ambientales y las configuraciones de herramientas CLI locales?"
+	  },
+	  "answer": {
+		"en": "Developers frequently note that Manus struggles to inherit full system PATH variables on launch. Workarounds currently require instructing the agent to explicitly source your shell profile (e.g., `.zshrc` or `.bashrc`) before running build tools like Node or Python.",
+		"zh": "大量开发者在社区反馈，Manus 在启动时难以完美继承完整的本地系统 PATH 环境变量。目前的解决方案是：必须在提示词中明确指示智能体，在执行 Node 或 Python 等构建工具之前，先 source 读取你的 Shell 配置文件（如 `.zshrc` 或 `.bashrc`）。",
+		"ja": "起動時にManusがシステムの完全なPATH変数を引き継ぐのに苦労していると、開発者から頻繁に指摘されています。現在の回避策としては、NodeやPythonなどのビルドツールを実行する前に、シェルのプロファイル（`.zshrc`や`.bashrc`など）を明示的にsourceで読み込むようエージェントに指示する必要があります。",
+		"ko": "개발자들은 Manus가 시작 시 전체 시스템 PATH 변수를 완벽하게 상속하는 데 어려움을 겪는다고 자주 지적합니다. 현재 이를 해결하려면 Node나 Python과 같은 빌드 도구를 실행하기 전에 에이전트에게 셸 프로필(예: `.zshrc` 또는 `.bashrc`)을 명시적으로 source 하도록 지시해야 합니다.",
+		"es": "Los desarrolladores notan con frecuencia que Manus tiene dificultades para heredar variables PATH del sistema completo en el lanzamiento. Las soluciones actuales requieren instruir al agente para que obtenga explícitamente el origen de tu perfil de shell (por ejemplo, `.zshrc` o `.bashrc`) antes de ejecutar herramientas de compilación como Node o Python."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Will Manus automatically use my computer's idle GPU power?",
+		"zh": "Manus 会自动调用我电脑闲置的 GPU 算力吗？",
+		"ja": "Manusは、私のコンピュータのアイドリング状態のGPUパワーを自動的に使用しますか？",
+		"ko": "Manus가 내 컴퓨터의 유휴 GPU 성능을 자동으로 사용하나요?",
+		"es": "¿Manus usará automáticamente la potencia de GPU inactiva de mi computadora?"
+	  },
+	  "answer": {
+		"en": "Yes. A key feature of the desktop app is its ability to run jobs in the background and leverage your machine's idle compute resources. It can optimize heavy data tasks locally, though users must monitor resource spiking during intensive workflows.",
+		"zh": "是的。该桌面应用的核心卖点之一就是能够在后台静默执行任务，并智能接管你机器闲置的计算资源。它能在本地优化繁重的数据处理任务，但用户在执行密集型工作流时，仍需时刻监控可能出现的系统资源占用飙升。",
+		"ja": "はい。デスクトップアプリの主要な機能の1つは、バックグラウンドでジョブを実行し、マシンのアイドリング状態の計算リソースを活用する能力です。ローカルで重いデータタスクを最適化できますが、ユーザーは集中的なワークフロー中のリソースの急増を監視する必要があります。",
+		"ko": "네. 이 데스크톱 앱의 핵심 기능 중 하나는 백그라운드에서 작업을 실행하고 기기의 유휴 컴퓨팅 리소스를 활용하는 기능입니다. 로컬에서 무거운 데이터 처리 작업을 최적화할 수 있지만, 사용자는 집중적인 워크플로우를 실행하는 동안 리소스 점유율 급증 여부를 지속적으로 모니터링해야 합니다.",
+		"es": "Sí. Una característica clave de la aplicación de escritorio es su capacidad para ejecutar trabajos en segundo plano y aprovechar los recursos de cálculo inactivos de tu máquina. Puede optimizar tareas de datos pesadas localmente, aunque los usuarios deben monitorear los picos de recursos durante flujos de trabajo intensivos."
+	  }
+	}
+  ],
+  "comparison_table_jsonb": {
+	"en": {
+	  "reason": "While **OpenClaw** is the champion of free, truly local open-source agents, **My Computer by Manus AI** provides a polished, commercially backed interface that integrates Meta's massive cloud LLMs for superior real-time GUI reasoning.",
+	  "caption": "Comparison: My Computer vs Core Competitor",
+	  "columns": [
+		"Dimension",
+		"[My Computer by Manus](https://manus.im/blog/manus-my-computer-desktop)",
+		"[OpenClaw](https://github.com/openclaw)"
+	  ],
+	  "rows": [
+		[
+		  "**Core Use Case**",
+		  "Advanced multi-step GUI & CLI automation",
+		  "Free, truly private local task execution"
+		],
+		[
+		  "**Execution Environment**",
+		  "**Local hardware + Cloud reasoning**",
+		  "100% Local hardware (No cloud required)"
+		],
+		[
+		  "**Starting Price**",
+		  "**$20.00 / month (Credit-based)**",
+		  "Completely Free (Open Source)"
+		],
+		[
+		  "**Data Privacy**",
+		  "Screenshots sent to cloud (Enterprise risk)",
+		  "Data never leaves your machine"
+		],
+		[
+		  "**GUI Interaction Quality**",
+		  "Superior dynamic screen parsing",
+		  "Basic/Emerging UI interaction"
+		]
+	  ],
+	  "tldr": "If you are a professional wanting **unmatched reasoning and seamless GUI control** regardless of API costs, choose **My Computer by Manus**. If absolute data privacy and zero subscription fees are your priority, go with **OpenClaw**."
+	},
+	"zh": {
+	  "reason": "虽然 **OpenClaw** 是免费且纯粹的开源本地智能体之王，但 **My Computer by Manus AI** 提供了一个极具商业水准的抛光界面，通过引入 Meta 庞大的云端大模型，它在实时的跨界图形操作（GUI）推理上具有降维打击的优势。",
+	  "caption": "My Computer 与核心竞品参数对比",
+	  "columns": [
+		"对比维度",
+		"[My Computer by Manus](https://manus.im/blog/manus-my-computer-desktop)",
+		"[OpenClaw](https://github.com/openclaw)"
+	  ],
+	  "rows": [
+		[
+		  "**核心痛点场景**",
+		  "高级的跨软件 GUI 操控与极客级 CLI 自动化",
+		  "零成本的绝对私密本地数字任务执行"
+		],
+		[
+		  "**底层运行环境**",
+		  "**本地硬件客户端执行 + 纯云端大模型推理**",
+		  "100% 纯本地算力环境 (彻底断网可用)"
+		],
+		[
+		  "**起始付费门槛**",
+		  "**$20.00 / 月 (隐性的重度代币消耗)**",
+		  "永久免费 (开源协议)"
+		],
+		[
+		  "**数据安全与隐私**",
+		  "高频回传屏幕截图至云端 (严峻的企业合规风险)",
+		  "企业级绝对物理隔离，数据永不出域"
+		],
+		[
+		  "**GUI 图形交互精度**",
+		  "视觉解析与动态适应能力处于行业顶级",
+		  "受限于本地小模型，仅支持基础 UI 交互"
+		]
+	  ],
+	  "tldr": "如果你是专业人士，追求 **无与伦比的复杂逻辑拆解与流畅的鼠标接管体验**，且不在乎每月昂贵的 API 费用，请选择 **My Computer by Manus**；若你对企业数据隐私有极致要求或拒绝订阅制，**OpenClaw** 是唯一答案。"
+	},
+	"ja": {
+	  "reason": "**OpenClaw**は、無料で真にローカルなオープンソースエージェントのチャンピオンですが、**My Computer by Manus AI**は、Metaの巨大なクラウドLLMを統合することで、優れたリアルタイムGUI推論を実現する洗練された商用インターフェースを提供します。",
+	  "caption": "My Computer とコア競合製品のパラメータ比較",
+	  "columns": [
+		"比較項目",
+		"[My Computer by Manus](https://manus.im/blog/manus-my-computer-desktop)",
+		"[OpenClaw](https://github.com/openclaw)"
+	  ],
+	  "rows": [
+		[
+		  "**コアとなるユースケース**",
+		  "高度なマルチステップGUIおよびCLI自動化",
+		  "無料で完全にプライベートなローカルタスク実行"
+		],
+		[
+		  "**実行環境**",
+		  "**ローカルハードウェア + クラウド推論**",
+		  "100%ローカルハードウェア (クラウド不要)"
+		],
+		[
+		  "**開始価格**",
+		  "**$20.00 / 月 (クレジットベース)**",
+		  "完全無料 (オープンソース)"
+		],
+		[
+		  "**データプライバシー**",
+		  "スクリーンショットがクラウドに送信される(企業リスク)",
+		  "データはマシンから流出しない"
+		],
+		[
+		  "**GUIインタラクションの品質**",
+		  "優れた動的画面解析と適応性",
+		  "基本的/発展途上のUI操作"
+		]
+	  ],
+	  "tldr": "APIコストに関係なく、**比類のない推論とシームレスなGUI制御**を求めるプロフェッショナルであれば、**My Computer by Manus**を選択してください。絶対的なデータプライバシーとサブスクリプション費用ゼロを優先する場合は、**OpenClaw**が最適です。"
+	},
+	"ko": {
+	  "reason": "**OpenClaw**가 무료로 제공되는 진정한 로컬 오픈소스 에이전트의 챔피언이라면, **My Computer by Manus AI**는 메타(Meta)의 거대한 클라우드 LLM을 통합하여 압도적인 실시간 GUI 추론 능력을 제공하는 상업적으로 완성된 인터페이스를 선보입니다.",
+	  "caption": "My Computer 대 핵심 경쟁사 비교",
+	  "columns": [
+		"비교 차원",
+		"[My Computer by Manus](https://manus.im/blog/manus-my-computer-desktop)",
+		"[OpenClaw](https://github.com/openclaw)"
+	  ],
+	  "rows": [
+		[
+		  "**핵심 사용 사례**",
+		  "고급 다단계 GUI 제어 및 CLI 자동화",
+		  "비용 없이 완벽한 프라이버시가 보장되는 로컬 작업 실행"
+		],
+		[
+		  "**실행 환경**",
+		  "**로컬 하드웨어 실행 + 클라우드 AI 추론**",
+		  "100% 로컬 하드웨어 전용 (클라우드 불필요)"
+		],
+		[
+		  "**시작 가격**",
+		  "**$20.00 / 월 (빠르게 소모되는 크레딧 기반)**",
+		  "완전 무료 (오픈소스)"
+		],
+		[
+		  "**데이터 프라이버시 보안**",
+		  "화면 캡처가 클라우드로 전송됨 (기업 컴플라이언스 위험)",
+		  "데이터가 절대 기기 외부로 유출되지 않음"
+		],
+		[
+		  "**GUI 상호 작용 정밀도**",
+		  "동적 화면 분석 및 적응 능력이 업계 최고 수준임",
+		  "로컬 소형 모델의 한계로 인해 기본적인 UI 상호작용만 지원"
+		]
+	  ],
+	  "tldr": "비용에 상관없이 **압도적인 논리 추론과 매끄러운 마우스 직접 제어**를 원하는 전문가라면 주저 없이 **My Computer by Manus**를 선택하세요. 하지만 절대적인 기업 데이터 보안과 구독료 부담 제거가 최우선이라면 **OpenClaw**가 정답입니다."
+	},
+	"es": {
+	  "reason": "Si bien **OpenClaw** es el campeón de los agentes de código abierto locales, verdaderamente gratuitos, **My Computer by Manus AI** proporciona una interfaz pulida y con respaldo comercial que integra los masivos LLM en la nube de Meta para un razonamiento GUI en tiempo real superior.",
+	  "caption": "Comparación: My Computer vs Competidor Principal",
+	  "columns": [
+		"Dimensión",
+		"[My Computer by Manus](https://manus.im/blog/manus-my-computer-desktop)",
+		"[OpenClaw](https://github.com/openclaw)"
+	  ],
+	  "rows": [
+		[
+		  "**Caso de Uso Principal**",
+		  "Automatización avanzada de GUI y CLI de múltiples pasos",
+		  "Ejecución de tareas locales gratuita y verdaderamente privada"
+		],
+		[
+		  "**Entorno de Ejecución**",
+		  "**Hardware local + Razonamiento en la nube**",
+		  "Hardware 100% local (No requiere nube)"
+		],
+		[
+		  "**Precio Inicial**",
+		  "**$20.00 / mes (Basado en créditos)**",
+		  "Completamente Gratis (Código Abierto)"
+		],
+		[
+		  "**Privacidad de Datos**",
+		  "Capturas de pantalla enviadas a la nube (Riesgo empresarial)",
+		  "Los datos nunca salen de tu máquina"
+		],
+		[
+		  "**Calidad de Interacción GUI**",
+		  "Análisis de pantalla dinámico superior",
+		  "Interacción de interfaz de usuario básica/emergente"
+		]
+	  ],
+	  "tldr": "Si eres un profesional que busca **un razonamiento inigualable y un control GUI perfecto** independientemente de los costos de la API, elige **My Computer by Manus**. Si la privacidad absoluta de los datos y cero tarifas de suscripción son tu prioridad, ve con **OpenClaw**."
+	}
+  },
+  "seo_title_jsonb": {
+	"en": "My Computer by Manus AI Review 2026: Pricing, Pros & Cons, Alternatives",
+	"zh": "My Computer (Manus AI) 怎么样？2026 最新评测：价格、优缺点与竞品对比",
+	"ja": "【徹底レビュー】My Computer (Manus AI)の評判は？料金・使い方・代替ソフト",
+	"ko": "My Computer by Manus AI 솔직 후기: 가격, 장단점 및 추천 대안 (완벽 정리)",
+	"es": "Opiniones de My Computer by Manus AI: Precio, Ventajas y Alternativas"
+  },
+  "seo_description_jsonb": {
+	"en": "Manus just put AI directly on your desktop. Our review explores how 'My Computer' controls your machine, its fast-draining $20 pricing, and OpenClaw alternatives.",
+	"zh": "还在手动处理繁杂的桌面任务？本篇深度评测将揭开 Manus AI “My Computer”如何直接接管你的系统，深度解析其 $20 代币消耗陷阱及 OpenClaw 替代方案。",
+	"ja": "ManusはAIをあなたのデスクトップに直接導入しました。本レビューでは、「My Computer」がどのようにマシンを制御するか、消費の激しい20ドルの料金体系、そしてOpenClawなどの代替案について解説します。",
+	"ko": "Manus가 AI를 여러분의 데스크톱에 직접 구축했습니다. 'My Computer'가 로컬 시스템을 제어하는 방식, 빠르게 고갈되는 $20 요금제의 실체, 그리고 OpenClaw 대안을 집중 분석합니다.",
+	"es": "Manus acaba de poner IA directamente en tu escritorio. Nuestra reseña explora cómo 'My Computer' controla tu máquina, su precio de $20 que se agota rápidamente y las alternativas de OpenClaw."
+  }
+}
