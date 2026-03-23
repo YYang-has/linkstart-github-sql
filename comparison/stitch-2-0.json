@@ -1,0 +1,497 @@
+{
+  "slug": "stitch-2-0",
+  "data": {
+	"en": {
+	  "reason": "These three products belong in the same **idea-to-interface** buying decision: teams want to turn prompts, screenshots, or rough requirements into usable product UI quickly, but **Stitch 2.0** is strongest in AI-native design exploration, **Lovable** in fast app shipping, and **v0** in developer-first front-end generation.",
+	  "caption": "Stitch 2.0 vs Lovable vs v0",
+	  "columns": [
+		"Dimension",
+		"[Stitch 2.0](https://stitch.withgoogle.com/home)",
+		"[Lovable](https://lovable.dev)",
+		"[v0](https://v0.dev)"
+	  ],
+	  "rows": [
+		[
+		  "Core use case",
+		  "**Best for** product teams that need fast mobile and web UI exploration, especially when work starts from prompts and iterative visual refinement.",
+		  "**Best for** founders and lean teams that want to move from idea to a working app or website with minimal coding overhead.",
+		  "**Best for** developers who want to generate production-oriented front-end UI quickly while keeping control in a modern code workflow."
+		],
+		[
+		  "Killer differentiator",
+		  "**AI-native canvas** and conversational design iteration make it strong when the job is to explore, critique, and refine interface directions fast.",
+		  "**Chat-to-app** flow shortens the path from concept to a usable product, which matters when validation speed is the top priority.",
+		  "**Developer-first code output** is the key advantage, especially for teams that care more about editable UI code than pure design experimentation."
+		],
+		[
+		  "Performance and limits",
+		  "Strong at **high-fidelity UI ideation** and polishing screens, but it is less centered on full product assembly and operational logic.",
+		  "Very fast for **end-to-end prototype creation**, but complex logic, architecture, and long-term maintainability still need human review.",
+		  "Excellent for **front-end scaffolding** and component generation, but teams usually need to wire business logic, data flow, and final polish themselves."
+		],
+		[
+		  "Ecosystem and ramp",
+		  "Lower barrier for designers, PMs, and mixed product teams; especially attractive if your workflow already leans toward the **Google** ecosystem.",
+		  "Easy to approach for non-engineers because the interaction model is simple; a good fit when the team wants fewer tool switches.",
+		  "Most natural for teams already comfortable with **React, Tailwind, and modern web stacks**; less friendly for purely design-led teams."
+		],
+		[
+		  "Collaboration and handoff",
+		  "A better fit when you need a smoother bridge across **idea, design review, and developer handoff**.",
+		  "A better fit when one team wants to stay in **one surface** from ideation to iteration to launch.",
+		  "A better fit when the people prompting the UI are also the people editing and shipping the code."
+		],
+		[
+		  "ROI",
+		  "The value is highest when interface direction changes often and better alignment reduces rework; the return comes from **faster design decisions**.",
+		  "The best ROI usually appears when a small team must validate and launch quickly; the return comes from **shorter time to live product**.",
+		  "The best ROI usually appears in engineering-led teams that want faster UI output without giving up code ownership; the return comes from **higher developer throughput**."
+		]
+	  ],
+	  "tldr": "If you care most about **AI-first UI exploration and cleaner design handoff**, choose **Stitch 2.0**; if you want the **fastest path from idea to a live app**, **Lovable** is the better buy; if you prioritize **developer-controlled front-end generation inside a code-centric workflow**, pick **v0**."
+	},
+	"zh": {
+	  "reason": "这三款产品对应的是同一个 **从想法到界面** 的采购决策：团队都希望把提示词、截图或模糊需求尽快转成可用界面，但 **Stitch 2.0** 更偏向 AI 原生设计探索，**Lovable** 更偏向快速做出可上线应用，**v0** 则更偏向开发者主导的前端代码生成。",
+	  "caption": "Stitch 2.0、Lovable 与 v0 对比",
+	  "columns": [
+		"对比维度",
+		"[Stitch 2.0](https://stitch.withgoogle.com/home)",
+		"[Lovable](https://lovable.dev)",
+		"[v0](https://v0.dev)"
+	  ],
+	  "rows": [
+		[
+		  "核心痛点场景",
+		  "**更适合** 需要快速生成移动端与 Web 界面方案的产品团队，尤其适用于从提示词出发、反复做视觉迭代的场景。",
+		  "**更适合** 创业者和精简团队，以尽量少的编码成本，把想法快速做成可运行的网站或应用。",
+		  "**更适合** 希望快速生成前端界面、同时又要保留代码控制权的开发团队。"
+		],
+		[
+		  "差异化杀手锏",
+		  "**AI 原生画布** 与对话式设计迭代能力更强，适合在短时间内探索、评审并收敛界面方向。",
+		  "**对话生成应用** 的路径更短，概念到可用产品的转换效率高，适合把验证速度放在第一位的团队。",
+		  "**开发者优先的代码产出** 是核心优势，适合更在意可编辑前端代码、而非纯设计试验的团队。"
+		],
+		[
+		  "性能表现与限制",
+		  "擅长 **高保真 UI 构思与打磨**，但对完整产品装配、业务逻辑和运行层面的覆盖相对没那么重。",
+		  "在 **端到端原型生成** 上速度很快，但复杂业务逻辑、架构设计和长期可维护性仍需要人工把关。",
+		  "在 **前端脚手架与组件生成** 上效率很高，但业务逻辑、数据流和最终产品打磨通常仍要团队自行补齐。"
+		],
+		[
+		  "生态与上手门槛",
+		  "对设计师、产品经理和混合型团队更友好；如果现有工作流靠近 **Google** 生态，接入会更顺。",
+		  "对非工程背景用户更友好，交互方式直接，适合希望减少工具切换的团队。",
+		  "对已经熟悉 **React、Tailwind 与现代 Web 技术栈** 的团队最顺手；纯设计导向团队上手门槛相对更高。"
+		],
+		[
+		  "协作与交付路径",
+		  "更适合需要打通 **需求想法、设计评审、开发交接** 的团队协作链路。",
+		  "更适合希望在 **一个工作界面** 内完成构思、迭代与发布的团队。",
+		  "更适合由同一批人既负责提示生成，也负责改代码和上线的开发流程。"
+		],
+		[
+		  "综合投入产出比",
+		  "当界面方向频繁变化、返工成本高时更值得投入，其核心回报来自 **更快的设计决策速度**。",
+		  "对小团队而言，若目标是尽快验证并上线，ROI 往往最高，核心回报来自 **更短的上线路径**。",
+		  "对工程主导团队而言，如果既要提速又不能放弃代码所有权，ROI 通常更高，核心回报来自 **更高的开发吞吐**。"
+		]
+	  ],
+	  "tldr": "如果你看重 **高质量界面探索与设计交付衔接**，选 **Stitch 2.0**；如果你更关注 **从想法到可上线应用的最短路径**，**Lovable** 更合适；如果你的核心诉求是 **开发者可控的前端代码生成效率**，选 **v0**。"
+	},
+	"ja": {
+	  "reason": "この3製品は、いずれも **アイデアをUIに変換する** という同一の導入判断に属しますが、**Stitch 2.0** はAIネイティブなデザイン探索、**Lovable** はアプリの高速立ち上げ、**v0** は開発者主導のフロントエンド生成にそれぞれ強みがあります。",
+	  "caption": "Stitch 2.0・Lovable・v0 の比較",
+	  "columns": [
+		"比較軸",
+		"[Stitch 2.0](https://stitch.withgoogle.com/home)",
+		"[Lovable](https://lovable.dev)",
+		"[v0](https://v0.dev)"
+	  ],
+	  "rows": [
+		[
+		  "中核ユースケース",
+		  "**最適** なのは、プロンプト起点でモバイル・Web UI を素早く検討し、画面案を反復的に磨き込みたいプロダクトチームです。",
+		  "**最適** なのは、少人数でアイデアから動くアプリやサイトまで一気に進めたいスタートアップや新規事業チームです。",
+		  "**最適** なのは、モダンな開発フローの中でコード管理を維持しつつ、フロントエンドUIを高速生成したい開発チームです。"
+		],
+		[
+		  "差別化ポイント",
+		  "**AIネイティブなキャンバス** と対話型の反復設計が強く、短時間で画面方向性を探索しやすい点が武器です。",
+		  "**会話からアプリ化** までの距離が短く、検証速度を最重視するケースで優位性があります。",
+		  "**開発者向けのコード出力** が最大の特徴で、編集可能なUIコードを前提とする運用に向いています。"
+		],
+		[
+		  "実運用での強みと制約",
+		  "**高精細なUI案の生成と洗練** に強い一方で、製品全体の業務ロジック実装までを中心に据えた設計ではありません。",
+		  "**エンドツーエンドの試作** は非常に速いものの、複雑なロジックや長期保守性は別途の設計判断が必要です。",
+		  "**フロントエンドの雛形生成** には強いものの、業務ロジック、データ接続、最終品質の詰めはチーム側で担う必要があります。"
+		],
+		[
+		  "エコシステムと導入負荷",
+		  "デザイナー、PM、混成チームに適しており、既存運用が **Google** 系ツールに近いほど導入しやすい構成です。",
+		  "非エンジニアでも扱いやすく、ツールを横断せずに進めたいチームに向いています。",
+		  "**React、Tailwind、モダンWeb開発** に慣れた組織では導入しやすい一方、デザイン専業組織にはやや技術的です。"
+		],
+		[
+		  "協業と引き継ぎ",
+		  "**構想、デザインレビュー、開発引き継ぎ** を滑らかにつなぎたい場合に適しています。",
+		  "**単一の作業面** で企画から反復、公開まで進めたい場合に適しています。",
+		  "UIを生成する人とコードを編集・出荷する人がほぼ同一である開発体制に適しています。"
+		],
+		[
+		  "投資対効果",
+		  "画面方針の変更が多く、手戻り削減が重要な場合に有効で、価値の中心は **意思決定の高速化** にあります。",
+		  "少人数で短期間に検証と公開を進める場合、ROI が高くなりやすく、価値の中心は **リリースまでの短縮** にあります。",
+		  "開発主導組織では、コード所有権を保ったまま速度を上げられるため、価値の中心は **開発生産性の向上** にあります。"
+		]
+	  ],
+	  "tldr": "**UI探索の質** と **設計から実装への受け渡し** を重視するなら **Stitch 2.0**、**アイデアから公開までの最短距離** を求めるなら **Lovable**、**コード中心で制御可能なフロントエンド生成** を重視するなら **v0** が適しています。"
+	},
+	"ko": {
+	  "reason": "이 세 제품은 모두 **아이디어를 실제 UI로 빠르게 전환** 하려는 동일한 구매 맥락에 놓여 있지만, **Stitch 2.0** 은 AI 네이티브 디자인 탐색, **Lovable** 은 빠른 앱 출시, **v0** 는 개발자 중심 프런트엔드 생성에 더 강한 포지션을 갖고 있습니다.",
+	  "caption": "Stitch 2.0, Lovable, v0 비교",
+	  "columns": [
+		"비교 항목",
+		"[Stitch 2.0](https://stitch.withgoogle.com/home)",
+		"[Lovable](https://lovable.dev)",
+		"[v0](https://v0.dev)"
+	  ],
+	  "rows": [
+		[
+		  "핵심 문제 해결 시나리오",
+		  "**가장 적합한 대상** 은 프롬프트 기반으로 모바일·웹 UI 방향을 빠르게 탐색하고, 시각적 반복 수정이 많은 제품 팀입니다.",
+		  "**가장 적합한 대상** 은 적은 개발 리소스로 아이디어를 동작하는 앱이나 웹사이트로 빨리 바꾸려는 창업팀과 소규모 팀입니다.",
+		  "**가장 적합한 대상** 은 현대적인 코드 워크플로 안에서 통제력을 유지하며 프런트엔드 UI를 빠르게 생성하려는 개발팀입니다."
+		],
+		[
+		  "차별화 포인트",
+		  "**AI 네이티브 캔버스** 와 대화형 디자인 반복이 강점이라, 화면 방향을 빠르게 실험하고 정교화하기 좋습니다.",
+		  "**채팅에서 앱 생성까지** 의 경로가 짧아, 시장 검증 속도를 최우선으로 둘 때 강한 선택지입니다.",
+		  "**개발자 우선 코드 출력** 이 핵심 장점이며, 순수 디자인 실험보다 수정 가능한 UI 코드를 중시하는 팀에 유리합니다."
+		],
+		[
+		  "성능과 제약",
+		  "**고충실도 UI 아이데이션** 과 화면 다듬기에 강하지만, 전체 제품 조립이나 운영 로직 중심 도구로 보기는 어렵습니다.",
+		  "**엔드투엔드 프로토타입 생성** 속도는 매우 빠르지만, 복잡한 비즈니스 로직과 장기 유지보수성은 별도 검토가 필요합니다.",
+		  "**프런트엔드 스캐폴딩** 과 컴포넌트 생성에는 강하지만, 비즈니스 로직, 데이터 연결, 최종 완성도는 팀이 직접 메워야 합니다."
+		],
+		[
+		  "생태계와 학습 곡선",
+		  "디자이너, PM, 혼합형 제품 조직에 비교적 친화적이며, 기존 워크플로가 **Google** 생태계에 가까울수록 도입이 수월합니다.",
+		  "비개발자도 접근하기 쉬우며, 여러 도구를 오가지 않고 빠르게 결과를 내고 싶은 팀에 잘 맞습니다.",
+		  "**React, Tailwind, 최신 Web 스택** 에 익숙한 팀에게 가장 자연스럽고, 순수 디자인 중심 조직에는 다소 기술 장벽이 있습니다."
+		],
+		[
+		  "협업과 전달 방식",
+		  "**아이디어, 디자인 리뷰, 개발 핸드오프** 를 부드럽게 잇고 싶을 때 적합합니다.",
+		  "**하나의 작업 공간** 에서 기획, 반복, 배포까지 밀고 가려는 팀에 적합합니다.",
+		  "UI를 생성하는 사람과 코드를 수정·배포하는 사람이 사실상 같은 개발 중심 조직에 적합합니다."
+		],
+		[
+		  "종합 ROI",
+		  "화면 방향이 자주 바뀌고 재작업 비용이 큰 환경에서 가치가 높으며, 핵심 수익은 **더 빠른 디자인 의사결정** 에서 나옵니다.",
+		  "소규모 팀이 빠르게 검증하고 출시해야 할 때 ROI 가 높아지기 쉽고, 핵심 수익은 **출시까지 걸리는 시간 단축** 입니다.",
+		  "엔지니어링 주도 조직에서 코드 소유권을 유지한 채 속도를 높일 수 있어, 핵심 수익은 **개발 처리량 증가** 입니다."
+		]
+	  ],
+	  "tldr": "**디자인 탐색 품질** 과 **핸드오프 효율** 이 중요하면 **Stitch 2.0**, **아이디어에서 실제 서비스까지의 최단 경로** 가 중요하면 **Lovable**, **코드 중심의 통제 가능한 프런트엔드 생성** 이 중요하면 **v0** 를 선택하는 편이 맞습니다."
+	},
+	"es": {
+	  "reason": "Estos tres productos compiten en la misma decisión de compra de **idea a interfaz**: los equipos quieren convertir prompts, capturas o requisitos difusos en UI utilizable con rapidez, pero **Stitch 2.0** destaca más en exploración de diseño con IA, **Lovable** en salida rápida a producto y **v0** en generación front-end orientada a desarrolladores.",
+	  "caption": "Comparativa de Stitch 2.0, Lovable y v0",
+	  "columns": [
+		"Dimensión",
+		"[Stitch 2.0](https://stitch.withgoogle.com/home)",
+		"[Lovable](https://lovable.dev)",
+		"[v0](https://v0.dev)"
+	  ],
+	  "rows": [
+		[
+		  "Caso de uso principal",
+		  "**Encaja mejor** con equipos de producto que necesitan explorar UI móvil y web con rapidez, especialmente cuando el trabajo empieza con prompts y refinamiento visual iterativo.",
+		  "**Encaja mejor** con fundadores y equipos pequeños que buscan pasar de una idea a una app o web funcional con la menor fricción técnica posible.",
+		  "**Encaja mejor** con desarrolladores que quieren generar UI front-end con rapidez sin perder control dentro de un flujo de trabajo basado en código."
+		],
+		[
+		  "Ventaja decisiva",
+		  "**Canvas nativo de IA** y una iteración conversacional de diseño más fuerte, ideal para explorar, revisar y ajustar direcciones visuales en poco tiempo.",
+		  "**Flujo de chat a aplicación** que reduce la distancia entre concepto y producto utilizable, clave cuando la velocidad de validación manda.",
+		  "**Salida de código orientada al desarrollador** como ventaja central, especialmente valiosa para equipos que priorizan UI editable sobre experimentación puramente visual."
+		],
+		[
+		  "Rendimiento y límites",
+		  "Rinde bien en **ideación de UI de alta fidelidad** y refinamiento de pantallas, pero no está tan centrado en ensamblar el producto completo con toda su lógica operativa.",
+		  "Es muy rápido para **prototipado de extremo a extremo**, aunque la lógica compleja, la arquitectura y la mantenibilidad a largo plazo siguen requiriendo revisión humana.",
+		  "Es muy sólido en **scaffolding front-end** y generación de componentes, pero la lógica de negocio, el flujo de datos y el pulido final suelen quedar del lado del equipo."
+		],
+		[
+		  "Ecosistema y curva de adopción",
+		  "Tiene una barrera de entrada menor para diseñadores, PM y equipos mixtos; gana atractivo si el flujo actual ya se mueve cerca del ecosistema **Google**.",
+		  "Resulta accesible incluso para perfiles no técnicos y funciona bien cuando el equipo quiere reducir saltos entre herramientas.",
+		  "Se integra mejor en equipos ya familiarizados con **React, Tailwind y stacks web modernos**; es menos natural para organizaciones puramente orientadas a diseño."
+		],
+		[
+		  "Colaboración y entrega",
+		  "Funciona mejor cuando hace falta conectar con más fluidez **idea, revisión de diseño y handoff a desarrollo**.",
+		  "Funciona mejor cuando el equipo quiere permanecer en **una sola superficie** desde la ideación hasta la publicación.",
+		  "Funciona mejor cuando quienes generan la UI también van a editar el código y llevarlo a producción."
+		],
+		[
+		  "ROI",
+		  "Su valor sube cuando la dirección visual cambia con frecuencia y reducir retrabajo importa; el retorno viene de **decidir diseño más rápido**.",
+		  "Suele ofrecer el mejor ROI cuando un equipo pequeño necesita validar y lanzar deprisa; el retorno viene de **acortar el tiempo hasta producto en vivo**.",
+		  "Suele ofrecer el mejor ROI en equipos liderados por ingeniería que quieren acelerar la salida de UI sin renunciar al control del código; el retorno viene de **más productividad de desarrollo**."
+		]
+	  ],
+	  "tldr": "Si priorizas **exploración visual de alto nivel** y un **handoff de diseño más limpio**, elige **Stitch 2.0**; si buscas la **ruta más corta de idea a app publicada**, **Lovable** es la mejor compra; si tu prioridad es **generación front-end controlada por desarrolladores en un flujo centrado en código**, elige **v0**."
+	}
+  },
+  "comparison_table_jsonb": {
+	"en": {
+	  "reason": "These three products belong in the same **idea-to-interface** buying decision: teams want to turn prompts, screenshots, or rough requirements into usable product UI quickly, but **Stitch 2.0** is strongest in AI-native design exploration, **Lovable** in fast app shipping, and **v0** in developer-first front-end generation.",
+	  "caption": "Stitch 2.0 vs Lovable vs v0",
+	  "columns": [
+		"Dimension",
+		"[Stitch 2.0](https://stitch.withgoogle.com/home)",
+		"[Lovable](https://lovable.dev)",
+		"[v0](https://v0.dev)"
+	  ],
+	  "rows": [
+		[
+		  "Core use case",
+		  "**Best for** product teams that need fast mobile and web UI exploration, especially when work starts from prompts and iterative visual refinement.",
+		  "**Best for** founders and lean teams that want to move from idea to a working app or website with minimal coding overhead.",
+		  "**Best for** developers who want to generate production-oriented front-end UI quickly while keeping control in a modern code workflow."
+		],
+		[
+		  "Killer differentiator",
+		  "**AI-native canvas** and conversational design iteration make it strong when the job is to explore, critique, and refine interface directions fast.",
+		  "**Chat-to-app** flow shortens the path from concept to a usable product, which matters when validation speed is the top priority.",
+		  "**Developer-first code output** is the key advantage, especially for teams that care more about editable UI code than pure design experimentation."
+		],
+		[
+		  "Performance and limits",
+		  "Strong at **high-fidelity UI ideation** and polishing screens, but it is less centered on full product assembly and operational logic.",
+		  "Very fast for **end-to-end prototype creation**, but complex logic, architecture, and long-term maintainability still need human review.",
+		  "Excellent for **front-end scaffolding** and component generation, but teams usually need to wire business logic, data flow, and final polish themselves."
+		],
+		[
+		  "Ecosystem and ramp",
+		  "Lower barrier for designers, PMs, and mixed product teams; especially attractive if your workflow already leans toward the **Google** ecosystem.",
+		  "Easy to approach for non-engineers because the interaction model is simple; a good fit when the team wants fewer tool switches.",
+		  "Most natural for teams already comfortable with **React, Tailwind, and modern web stacks**; less friendly for purely design-led teams."
+		],
+		[
+		  "Collaboration and handoff",
+		  "A better fit when you need a smoother bridge across **idea, design review, and developer handoff**.",
+		  "A better fit when one team wants to stay in **one surface** from ideation to iteration to launch.",
+		  "A better fit when the people prompting the UI are also the people editing and shipping the code."
+		],
+		[
+		  "ROI",
+		  "The value is highest when interface direction changes often and better alignment reduces rework; the return comes from **faster design decisions**.",
+		  "The best ROI usually appears when a small team must validate and launch quickly; the return comes from **shorter time to live product**.",
+		  "The best ROI usually appears in engineering-led teams that want faster UI output without giving up code ownership; the return comes from **higher developer throughput**."
+		]
+	  ],
+	  "tldr": "If you care most about **AI-first UI exploration and cleaner design handoff**, choose **Stitch 2.0**; if you want the **fastest path from idea to a live app**, **Lovable** is the better buy; if you prioritize **developer-controlled front-end generation inside a code-centric workflow**, pick **v0**."
+	},
+	"zh": {
+	  "reason": "这三款产品对应的是同一个 **从想法到界面** 的采购决策：团队都希望把提示词、截图或模糊需求尽快转成可用界面，但 **Stitch 2.0** 更偏向 AI 原生设计探索，**Lovable** 更偏向快速做出可上线应用，**v0** 则更偏向开发者主导的前端代码生成。",
+	  "caption": "Stitch 2.0、Lovable 与 v0 对比",
+	  "columns": [
+		"对比维度",
+		"[Stitch 2.0](https://stitch.withgoogle.com/home)",
+		"[Lovable](https://lovable.dev)",
+		"[v0](https://v0.dev)"
+	  ],
+	  "rows": [
+		[
+		  "核心痛点场景",
+		  "**更适合** 需要快速生成移动端与 Web 界面方案的产品团队，尤其适用于从提示词出发、反复做视觉迭代的场景。",
+		  "**更适合** 创业者和精简团队，以尽量少的编码成本，把想法快速做成可运行的网站或应用。",
+		  "**更适合** 希望快速生成前端界面、同时又要保留代码控制权的开发团队。"
+		],
+		[
+		  "差异化杀手锏",
+		  "**AI 原生画布** 与对话式设计迭代能力更强，适合在短时间内探索、评审并收敛界面方向。",
+		  "**对话生成应用** 的路径更短，概念到可用产品的转换效率高，适合把验证速度放在第一位的团队。",
+		  "**开发者优先的代码产出** 是核心优势，适合更在意可编辑前端代码、而非纯设计试验的团队。"
+		],
+		[
+		  "性能表现与限制",
+		  "擅长 **高保真 UI 构思与打磨**，但对完整产品装配、业务逻辑和运行层面的覆盖相对没那么重。",
+		  "在 **端到端原型生成** 上速度很快，但复杂业务逻辑、架构设计和长期可维护性仍需要人工把关。",
+		  "在 **前端脚手架与组件生成** 上效率很高，但业务逻辑、数据流和最终产品打磨通常仍要团队自行补齐。"
+		],
+		[
+		  "生态与上手门槛",
+		  "对设计师、产品经理和混合型团队更友好；如果现有工作流靠近 **Google** 生态，接入会更顺。",
+		  "对非工程背景用户更友好，交互方式直接，适合希望减少工具切换的团队。",
+		  "对已经熟悉 **React、Tailwind 与现代 Web 技术栈** 的团队最顺手；纯设计导向团队上手门槛相对更高。"
+		],
+		[
+		  "协作与交付路径",
+		  "更适合需要打通 **需求想法、设计评审、开发交接** 的团队协作链路。",
+		  "更适合希望在 **一个工作界面** 内完成构思、迭代与发布的团队。",
+		  "更适合由同一批人既负责提示生成，也负责改代码和上线的开发流程。"
+		],
+		[
+		  "综合投入产出比",
+		  "当界面方向频繁变化、返工成本高时更值得投入，其核心回报来自 **更快的设计决策速度**。",
+		  "对小团队而言，若目标是尽快验证并上线，ROI 往往最高，核心回报来自 **更短的上线路径**。",
+		  "对工程主导团队而言，如果既要提速又不能放弃代码所有权，ROI 通常更高，核心回报来自 **更高的开发吞吐**。"
+		]
+	  ],
+	  "tldr": "如果你看重 **高质量界面探索与设计交付衔接**，选 **Stitch 2.0**；如果你更关注 **从想法到可上线应用的最短路径**，**Lovable** 更合适；如果你的核心诉求是 **开发者可控的前端代码生成效率**，选 **v0**。"
+	},
+	"ja": {
+	  "reason": "この3製品は、いずれも **アイデアをUIに変換する** という同一の導入判断に属しますが、**Stitch 2.0** はAIネイティブなデザイン探索、**Lovable** はアプリの高速立ち上げ、**v0** は開発者主導のフロントエンド生成にそれぞれ強みがあります。",
+	  "caption": "Stitch 2.0・Lovable・v0 の比較",
+	  "columns": [
+		"比較軸",
+		"[Stitch 2.0](https://stitch.withgoogle.com/home)",
+		"[Lovable](https://lovable.dev)",
+		"[v0](https://v0.dev)"
+	  ],
+	  "rows": [
+		[
+		  "中核ユースケース",
+		  "**最適** なのは、プロンプト起点でモバイル・Web UI を素早く検討し、画面案を反復的に磨き込みたいプロダクトチームです。",
+		  "**最適** なのは、少人数でアイデアから動くアプリやサイトまで一気に進めたいスタートアップや新規事業チームです。",
+		  "**最適** なのは、モダンな開発フローの中でコード管理を維持しつつ、フロントエンドUIを高速生成したい開発チームです。"
+		],
+		[
+		  "差別化ポイント",
+		  "**AIネイティブなキャンバス** と対話型の反復設計が強く、短時間で画面方向性を探索しやすい点が武器です。",
+		  "**会話からアプリ化** までの距離が短く、検証速度を最重視するケースで優位性があります。",
+		  "**開発者向けのコード出力** が最大の特徴で、編集可能なUIコードを前提とする運用に向いています。"
+		],
+		[
+		  "実運用での強みと制約",
+		  "**高精細なUI案の生成と洗練** に強い一方で、製品全体の業務ロジック実装までを中心に据えた設計ではありません。",
+		  "**エンドツーエンドの試作** は非常に速いものの、複雑なロジックや長期保守性は別途の設計判断が必要です。",
+		  "**フロントエンドの雛形生成** には強いものの、業務ロジック、データ接続、最終品質の詰めはチーム側で担う必要があります。"
+		],
+		[
+		  "エコシステムと導入負荷",
+		  "デザイナー、PM、混成チームに適しており、既存運用が **Google** 系ツールに近いほど導入しやすい構成です。",
+		  "非エンジニアでも扱いやすく、ツールを横断せずに進めたいチームに向いています。",
+		  "**React、Tailwind、モダンWeb開発** に慣れた組織では導入しやすい一方、デザイン専業組織にはやや技術的です。"
+		],
+		[
+		  "協業と引き継ぎ",
+		  "**構想、デザインレビュー、開発引き継ぎ** を滑らかにつなぎたい場合に適しています。",
+		  "**単一の作業面** で企画から反復、公開まで進めたい場合に適しています。",
+		  "UIを生成する人とコードを編集・出荷する人がほぼ同一である開発体制に適しています。"
+		],
+		[
+		  "投資対効果",
+		  "画面方針の変更が多く、手戻り削減が重要な場合に有効で、価値の中心は **意思決定の高速化** にあります。",
+		  "少人数で短期間に検証と公開を進める場合、ROI が高くなりやすく、価値の中心は **リリースまでの短縮** にあります。",
+		  "開発主導組織では、コード所有権を保ったまま速度を上げられるため、価値の中心は **開発生産性の向上** にあります。"
+		]
+	  ],
+	  "tldr": "**UI探索の質** と **設計から実装への受け渡し** を重視するなら **Stitch 2.0**、**アイデアから公開までの最短距離** を求めるなら **Lovable**、**コード中心で制御可能なフロントエンド生成** を重視するなら **v0** が適しています。"
+	},
+	"ko": {
+	  "reason": "이 세 제품은 모두 **아이디어를 실제 UI로 빠르게 전환** 하려는 동일한 구매 맥락에 놓여 있지만, **Stitch 2.0** 은 AI 네이티브 디자인 탐색, **Lovable** 은 빠른 앱 출시, **v0** 는 개발자 중심 프런트엔드 생성에 더 강한 포지션을 갖고 있습니다.",
+	  "caption": "Stitch 2.0, Lovable, v0 비교",
+	  "columns": [
+		"비교 항목",
+		"[Stitch 2.0](https://stitch.withgoogle.com/home)",
+		"[Lovable](https://lovable.dev)",
+		"[v0](https://v0.dev)"
+	  ],
+	  "rows": [
+		[
+		  "핵심 문제 해결 시나리오",
+		  "**가장 적합한 대상** 은 프롬프트 기반으로 모바일·웹 UI 방향을 빠르게 탐색하고, 시각적 반복 수정이 많은 제품 팀입니다.",
+		  "**가장 적합한 대상** 은 적은 개발 리소스로 아이디어를 동작하는 앱이나 웹사이트로 빨리 바꾸려는 창업팀과 소규모 팀입니다.",
+		  "**가장 적합한 대상** 은 현대적인 코드 워크플로 안에서 통제력을 유지하며 프런트엔드 UI를 빠르게 생성하려는 개발팀입니다."
+		],
+		[
+		  "차별화 포인트",
+		  "**AI 네이티브 캔버스** 와 대화형 디자인 반복이 강점이라, 화면 방향을 빠르게 실험하고 정교화하기 좋습니다.",
+		  "**채팅에서 앱 생성까지** 의 경로가 짧아, 시장 검증 속도를 최우선으로 둘 때 강한 선택지입니다.",
+		  "**개발자 우선 코드 출력** 이 핵심 장점이며, 순수 디자인 실험보다 수정 가능한 UI 코드를 중시하는 팀에 유리합니다."
+		],
+		[
+		  "성능과 제약",
+		  "**고충실도 UI 아이데이션** 과 화면 다듬기에 강하지만, 전체 제품 조립이나 운영 로직 중심 도구로 보기는 어렵습니다.",
+		  "**엔드투엔드 프로토타입 생성** 속도는 매우 빠르지만, 복잡한 비즈니스 로직과 장기 유지보수성은 별도 검토가 필요합니다.",
+		  "**프런트엔드 스캐폴딩** 과 컴포넌트 생성에는 강하지만, 비즈니스 로직, 데이터 연결, 최종 완성도는 팀이 직접 메워야 합니다."
+		],
+		[
+		  "생태계와 학습 곡선",
+		  "디자이너, PM, 혼합형 제품 조직에 비교적 친화적이며, 기존 워크플로가 **Google** 생태계에 가까울수록 도입이 수월합니다.",
+		  "비개발자도 접근하기 쉬우며, 여러 도구를 오가지 않고 빠르게 결과를 내고 싶은 팀에 잘 맞습니다.",
+		  "**React, Tailwind, 최신 Web 스택** 에 익숙한 팀에게 가장 자연스럽고, 순수 디자인 중심 조직에는 다소 기술 장벽이 있습니다."
+		],
+		[
+		  "협업과 전달 방식",
+		  "**아이디어, 디자인 리뷰, 개발 핸드오프** 를 부드럽게 잇고 싶을 때 적합합니다.",
+		  "**하나의 작업 공간** 에서 기획, 반복, 배포까지 밀고 가려는 팀에 적합합니다.",
+		  "UI를 생성하는 사람과 코드를 수정·배포하는 사람이 사실상 같은 개발 중심 조직에 적합합니다."
+		],
+		[
+		  "종합 ROI",
+		  "화면 방향이 자주 바뀌고 재작업 비용이 큰 환경에서 가치가 높으며, 핵심 수익은 **더 빠른 디자인 의사결정** 에서 나옵니다.",
+		  "소규모 팀이 빠르게 검증하고 출시해야 할 때 ROI 가 높아지기 쉽고, 핵심 수익은 **출시까지 걸리는 시간 단축** 입니다.",
+		  "엔지니어링 주도 조직에서 코드 소유권을 유지한 채 속도를 높일 수 있어, 핵심 수익은 **개발 처리량 증가** 입니다."
+		]
+	  ],
+	  "tldr": "**디자인 탐색 품질** 과 **핸드오프 효율** 이 중요하면 **Stitch 2.0**, **아이디어에서 실제 서비스까지의 최단 경로** 가 중요하면 **Lovable**, **코드 중심의 통제 가능한 프런트엔드 생성** 이 중요하면 **v0** 를 선택하는 편이 맞습니다."
+	},
+	"es": {
+	  "reason": "Estos tres productos compiten en la misma decisión de compra de **idea a interfaz**: los equipos quieren convertir prompts, capturas o requisitos difusos en UI utilizable con rapidez, pero **Stitch 2.0** destaca más en exploración de diseño con IA, **Lovable** en salida rápida a producto y **v0** en generación front-end orientada a desarrolladores.",
+	  "caption": "Comparativa de Stitch 2.0, Lovable y v0",
+	  "columns": [
+		"Dimensión",
+		"[Stitch 2.0](https://stitch.withgoogle.com/home)",
+		"[Lovable](https://lovable.dev)",
+		"[v0](https://v0.dev)"
+	  ],
+	  "rows": [
+		[
+		  "Caso de uso principal",
+		  "**Encaja mejor** con equipos de producto que necesitan explorar UI móvil y web con rapidez, especialmente cuando el trabajo empieza con prompts y refinamiento visual iterativo.",
+		  "**Encaja mejor** con fundadores y equipos pequeños que buscan pasar de una idea a una app o web funcional con la menor fricción técnica posible.",
+		  "**Encaja mejor** con desarrolladores que quieren generar UI front-end con rapidez sin perder control dentro de un flujo de trabajo basado en código."
+		],
+		[
+		  "Ventaja decisiva",
+		  "**Canvas nativo de IA** y una iteración conversacional de diseño más fuerte, ideal para explorar, revisar y ajustar direcciones visuales en poco tiempo.",
+		  "**Flujo de chat a aplicación** que reduce la distancia entre concepto y producto utilizable, clave cuando la velocidad de validación manda.",
+		  "**Salida de código orientada al desarrollador** como ventaja central, especialmente valiosa para equipos que priorizan UI editable sobre experimentación puramente visual."
+		],
+		[
+		  "Rendimiento y límites",
+		  "Rinde bien en **ideación de UI de alta fidelidad** y refinamiento de pantallas, pero no está tan centrado en ensamblar el producto completo con toda su lógica operativa.",
+		  "Es muy rápido para **prototipado de extremo a extremo**, aunque la lógica compleja, la arquitectura y la mantenibilidad a largo plazo siguen requiriendo revisión humana.",
+		  "Es muy sólido en **scaffolding front-end** y generación de componentes, pero la lógica de negocio, el flujo de datos y el pulido final suelen quedar del lado del equipo."
+		],
+		[
+		  "Ecosistema y curva de adopción",
+		  "Tiene una barrera de entrada menor para diseñadores, PM y equipos mixtos; gana atractivo si el flujo actual ya se mueve cerca del ecosistema **Google**.",
+		  "Resulta accesible incluso para perfiles no técnicos y funciona bien cuando el equipo quiere reducir saltos entre herramientas.",
+		  "Se integra mejor en equipos ya familiarizados con **React, Tailwind y stacks web modernos**; es menos natural para organizaciones puramente orientadas a diseño."
+		],
+		[
+		  "Colaboración y entrega",
+		  "Funciona mejor cuando hace falta conectar con más fluidez **idea, revisión de diseño y handoff a desarrollo**.",
+		  "Funciona mejor cuando el equipo quiere permanecer en **una sola superficie** desde la ideación hasta la publicación.",
+		  "Funciona mejor cuando quienes generan la UI también van a editar el código y llevarlo a producción."
+		],
+		[
+		  "ROI",
+		  "Su valor sube cuando la dirección visual cambia con frecuencia y reducir retrabajo importa; el retorno viene de **decidir diseño más rápido**.",
+		  "Suele ofrecer el mejor ROI cuando un equipo pequeño necesita validar y lanzar deprisa; el retorno viene de **acortar el tiempo hasta producto en vivo**.",
+		  "Suele ofrecer el mejor ROI en equipos liderados por ingeniería que quieren acelerar la salida de UI sin renunciar al control del código; el retorno viene de **más productividad de desarrollo**."
+		]
+	  ],
+	  "tldr": "Si priorizas **exploración visual de alto nivel** y un **handoff de diseño más limpio**, elige **Stitch 2.0**; si buscas la **ruta más corta de idea a app publicada**, **Lovable** es la mejor compra; si tu prioridad es **generación front-end controlada por desarrolladores en un flujo centrado en código**, elige **v0**."
+	}
+  }
+}
