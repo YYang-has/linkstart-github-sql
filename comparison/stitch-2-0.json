@@ -1,6 +1,6 @@
 {
   "slug": "stitch-2-0",
-  "data": {
+  "comparison_table_jsonb": {
 	"en": {
 	  "reason": "These three products belong in the same **idea-to-interface** buying decision: teams want to turn prompts, screenshots, or rough requirements into usable product UI quickly, but **Stitch 2.0** is strongest in AI-native design exploration, **Lovable** in fast app shipping, and **v0** in developer-first front-end generation.",
 	  "caption": "Stitch 2.0 vs Lovable vs v0",
