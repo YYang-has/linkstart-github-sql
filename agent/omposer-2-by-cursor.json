@@ -1,0 +1,549 @@
+{
+  "slug": "composer-2-by-cursor",
+  "brand_slug": "cursor",
+  "name_jsonb": {
+	"en": "Composer 2 by Cursor",
+	"zh": "Composer 2 by Cursor",
+	"ja": "Composer 2 by Cursor",
+	"ko": "Composer 2 by Cursor",
+	"es": "Composer 2 by Cursor"
+  },
+  "tagline_jsonb": {
+	"en": "Agentic coding model inside Cursor for long-horizon code edits, low-cost generation, and faster ship-ready implementation",
+	"zh": "集成在 Cursor 内的 Agentic 编码模型，主打长链路代码修改、低成本生成与更快落地交付",
+	"ja": "Cursor 内で動作する Agentic コーディングモデル。長期的なコード編集、低コスト生成、より迅速な実装投入を支援",
+	"ko": "Cursor 안에서 동작하는 Agentic 코딩 모델로, 장기 실행형 코드 수정, 저비용 생성, 더 빠른 배포 준비 구현을 지원",
+	"es": "Modelo de codificación agentic dentro de Cursor para ediciones de código de largo alcance, generación de bajo coste y una implementación lista para entrega más rápida"
+  },
+  "description_jsonb": {
+	"en": "> Executive Summary: <a href=\"https://www.linkstartai.com/en/agents/composer-2-by-cursor\" target=\"_blank\">Composer 2 by Cursor</a> is Cursor’s in-editor coding model for developers and engineering teams who want cheaper, faster agentic code generation without leaving their IDE. Its core value is strong benchmark performance, long-horizon task handling, and tighter workflow fit for planning, editing, terminal work, and iterative shipping.\n\nComposer 2 matters because it is not just another coding chatbot. Cursor positions it as a frontier-level coding model trained with continued pretraining and reinforcement learning for long-horizon software tasks, and the launch numbers are strong enough to justify the claim: 61.3 on CursorBench, 61.7 on Terminal-Bench 2.0, and 73.7 on SWE-bench Multilingual. The model is explicitly framed for tasks requiring hundreds of actions, which makes it more relevant to refactoring, multi-file edits, and semi-autonomous implementation loops than single-shot code completion.\n\nFor AI-first teams, the real value is workflow economics. Composer 2 by Cursor offers a Freemium plan, with paid tiers starting at $20/mo. It is Less expensive than average for this category. At the model layer, standard Composer 2 is priced at $0.50 per 1M input tokens and $2.50 per 1M output tokens, while Composer 2 Fast is $1.50 input and $7.50 output per 1M tokens, and Cursor says Fast is the default option with the same intelligence. That price-performance mix makes it unusually attractive for high-frequency coding loops, internal tool building, and agentic dev workflows where token burn can otherwise get out of hand.",
+	"zh": "> 核心摘要： <a href=\"https://www.linkstartai.com/zh/agents/composer-2-by-cursor\" target=\"_blank\">Composer 2 by Cursor</a> 是 Cursor 内置的编码模型，面向希望在 IDE 内完成更便宜、更快的 Agentic 编码工作的开发者与工程团队。它的核心价值在于，把强基准表现、长链路任务处理能力，以及规划、编辑、终端执行、迭代交付等工作流整合到同一环境里。\n\nComposer 2 值得关注，不只是因为它会写代码，而是因为它明显朝着可执行工作流在优化。Cursor 将它定义为 frontier-level coding model，并强调它来自 continued pretraining 与 reinforcement learning 对长链路软件任务的强化训练，而首发数据也确实足够有说服力：CursorBench 61.3、Terminal-Bench 2.0 为 61.7、SWE-bench Multilingual 为 73.7。官方还明确表示，它可以处理需要 数百次动作 的复杂任务，这让它比传统单轮补全更适合重构、多文件改写和半自动实现流程。\n\n对 AI-first 团队来说，真正的价值在于工作流经济性。Composer 2 by Cursor offers a Freemium plan, with paid tiers starting at $20/mo. It is Less expensive than average for this category. 如果看模型层成本，标准版 Composer 2 的价格是 每百万输入 tokens 0.50 美元、每百万输出 tokens 2.50 美元，而 Composer 2 Fast 则是 输入 1.50 美元、输出 7.50 美元，并且 Cursor 表示 Fast 是默认选项且智能水平相同。对于高频编码循环、内部工具开发和 Agentic 开发流程而言，这种价格与能力组合非常有竞争力。",
+	"ja": "> Executive Summary: <a href=\"https://www.linkstartai.com/ja/agents/composer-2-by-cursor\" target=\"_blank\">Composer 2 by Cursor</a> は、IDE から離れずに、より低コストかつ高速な Agentic コード生成を求める開発者とエンジニアリングチーム向けの、Cursor 内蔵コーディングモデルです。中核価値は、強いベンチマーク性能、長期タスク処理能力、そして計画、編集、ターミナル作業、反復的なリリースに適したワークフロー統合にあります。\n\nComposer 2 が重要なのは、単なるコーディングチャットボットではないためです。Cursor はこれを、継続事前学習と reinforcement learning によって長期的なソフトウェアタスク向けに鍛えた frontier-level coding model と位置付けており、その主張を裏付ける初期数値として、CursorBench 61.3、Terminal-Bench 2.0 で 61.7、SWE-bench Multilingual で 73.7 を提示しています。さらに、数百回のアクションを要するタスクを前提に設計されているため、単発のコード補完よりも、リファクタリング、複数ファイル編集、半自律的な実装ループに適しています。\n\nAI-first の開発組織にとって、本質的な価値はワークフロー経済性です。Composer 2 by Cursor offers a Freemium plan, with paid tiers starting at $20/mo. It is Less expensive than average for this category. モデル課金では、標準版 Composer 2 が 1M input tokens あたり 0.50 ドル、1M output tokens あたり 2.50 ドルで、Composer 2 Fast は input 1.50 ドル、output 7.50 ドルです。Cursor は Fast を同等の知能を持つデフォルト選択肢と説明しており、この価格性能バランスは、高頻度なコーディングループ、社内ツール開発、Agentic 開発ワークフローにおける導入判断を後押しします。",
+	"ko": "> Executive Summary: <a href=\"https://www.linkstartai.com/ko/agents/composer-2-by-cursor\" target=\"_blank\">Composer 2 by Cursor</a>는 IDE를 벗어나지 않고 더 저렴하고 더 빠른 Agentic 코드 생성을 원하는 개발자와 엔지니어링 팀을 위한 Cursor의 인에디터 코딩 모델입니다. 핵심 가치는 강한 벤치마크 성능, 장기 실행형 작업 처리 능력, 그리고 계획, 편집, 터미널 작업, 반복 배포에 맞춘 워크플로 적합성에 있습니다.\n\nComposer 2가 중요한 이유는 단순한 코딩 챗봇이 아니기 때문입니다. Cursor는 이를 continued pretraining과 reinforcement learning으로 장기 소프트웨어 작업에 맞춰 학습된 frontier-level coding model로 설명하며, 출시 수치도 이를 뒷받침합니다. CursorBench 61.3, Terminal-Bench 2.0 61.7, SWE-bench Multilingual 73.7이라는 수치는 단발성 자동완성보다 리팩터링, 멀티파일 수정, 반자동 구현 루프에 더 적합하다는 점을 보여 줍니다.\n\nAI-first 팀에게 핵심은 워크플로 경제성입니다. Composer 2 by Cursor offers a Freemium plan, with paid tiers starting at $20/mo. It is Less expensive than average for this category. 모델 기준으로 표준 Composer 2는 1M input tokens당 0.50달러, 1M output tokens당 2.50달러이며, Composer 2 Fast는 input 1.50달러와 output 7.50달러입니다. Cursor는 Fast가 동일한 지능을 유지하는 기본 옵션이라고 설명하며, 이 가격 대비 성능 조합은 고빈도 코딩 루프, 내부 도구 구축, Agentic 개발 워크플로에서 특히 매력적입니다.",
+	"es": "> Executive Summary: <a href=\"https://www.linkstartai.com/es/agents/composer-2-by-cursor\" target=\"_blank\">Composer 2 by Cursor</a> es el modelo de programación integrado en el editor de Cursor para desarrolladores y equipos de ingeniería que buscan generación de código agentic más rápida y más barata sin salir del IDE. Su valor central está en el rendimiento sólido en benchmarks, la capacidad para tareas de largo alcance y un encaje más estrecho con workflows de planificación, edición, terminal y entrega iterativa.\n\nComposer 2 importa porque no es otro chatbot de programación más. Cursor lo presenta como un frontier-level coding model entrenado con continued pretraining y reinforcement learning para tareas de software de largo horizonte, y las cifras de lanzamiento respaldan esa posición: 61.3 en CursorBench, 61.7 en Terminal-Bench 2.0 y 73.7 en SWE-bench Multilingual. Además, se define de forma explícita para tareas que requieren cientos de acciones, por lo que resulta más relevante para refactorización, cambios en múltiples archivos y bucles de implementación semiautónoma que una simple autocompletación puntual.\n\nPara equipos AI-first, el valor real está en la economía del workflow. Composer 2 by Cursor offers a Freemium plan, with paid tiers starting at $20/mo. It is Less expensive than average for this category. En la capa de modelo, Composer 2 estándar cuesta 0.50 dólares por 1M input tokens y 2.50 dólares por 1M output tokens, mientras que Composer 2 Fast sube a 1.50 dólares de input y 7.50 dólares de output por 1M tokens. Cursor afirma que Fast es la opción por defecto con la misma inteligencia, y esa relación entre precio y rendimiento lo vuelve especialmente atractivo para bucles de desarrollo intensivos, construcción de herramientas internas y workflows agentic donde el consumo de tokens puede dispararse."
+  },
+  "category_id": "8fe2e40c-8466-4a36-9337-6ddae9dc247e",
+  "solution_category_id": "0ece980c-f67d-42e9-a202-59fb854e8441",
+  "website_url": "https://cursor.com/blog/composer-2-",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/composer-2-by-cursor.jpg",
+  "pricing_model": "freemium",
+  "paid_options_from": "$20",
+  "billing_frequency": "month",
+  "rating": 4.2,
+  "review_count": 0,
+  "supported_languages": [
+	"en",
+	"zh",
+	"ja",
+	"ko",
+	"es"
+  ],
+  "tags_jsonb": {
+	"en": [
+	  "#AgenticCodeEditing",
+	  "#LongHorizonRefactoring",
+	  "#TerminalAwareCoding",
+	  "#MultiFileImplementation",
+	  "#IDEEmbeddedCodingModel",
+	  "#LowCostCodeGeneration"
+	],
+	"zh": [
+	  "#Agentic代码编辑",
+	  "#长链路代码重构",
+	  "#终端感知编码",
+	  "#多文件实现流程",
+	  "#IDE内置编码模型",
+	  "#低成本代码生成"
+	],
+	"ja": [
+	  "#Agenticコード編集",
+	  "#長期リファクタリング",
+	  "#ターミナル連携コーディング",
+	  "#複数ファイル実装",
+	  "#IDE組み込みコーディングモデル",
+	  "#低コストコード生成"
+	],
+	"ko": [
+	  "#Agentic코드편집",
+	  "#장기리팩터링",
+	  "#터미널인식코딩",
+	  "#멀티파일구현",
+	  "#IDE내장코딩모델",
+	  "#저비용코드생성"
+	],
+	"es": [
+	  "#EdiciónDeCódigoAgentic",
+	  "#RefactorizaciónDeLargoAlcance",
+	  "#CodificaciónConTerminal",
+	  "#ImplementaciónMultiarchivo",
+	  "#ModeloDeCódigoIntegradoEnIDE",
+	  "#GeneraciónDeCódigoDeBajoCoste"
+	]
+  },
+  "features_jsonb": {
+	"en": [
+	  "Generate multi-file changes to reduce manual implementation across larger coding tasks",
+	  "Plan long-horizon coding steps to keep refactors coherent over hundreds of actions",
+	  "Execute lower-cost coding loops to control token spend in daily development",
+	  "Handle terminal-oriented workflows for more complete build-fix-ship cycles",
+	  "Benchmark frontier coding quality inside Cursor without leaving the editor",
+	  "Switch to Fast mode for quicker iteration while keeping the same stated intelligence"
+	],
+	"zh": [
+	  "生成多文件修改，减少大型开发任务中的手工实现负担",
+	  "规划长链路编码步骤，让重构在数百次动作中仍保持一致性",
+	  "以更低成本运行编码循环，控制日常开发中的 token 消耗",
+	  "支持终端导向工作流，覆盖构建、修复与交付闭环",
+	  "直接在 Cursor 内验证前沿编码能力，无需切换到外部平台",
+	  "切换到 Fast 模式以提升迭代速度，同时保持官方宣称的同等智能"
+	],
+	"ja": [
+	  "複数ファイルの変更を生成し、大規模コーディング作業の手動実装を削減",
+	  "長期的なコーディング手順を計画し、数百アクションにわたるリファクタリングの一貫性を維持",
+	  "より低コストなコーディングループを実行し、日常開発の token 消費を抑制",
+	  "ターミナル中心のワークフローに対応し、ビルド、修正、出荷の循環をより完全にする",
+	  "エディタを離れずに Cursor 内で先端的なコーディング品質を検証",
+	  "Fast モードへ切り替え、同等の知能を保ちながら反復速度を向上"
+	],
+	"ko": [
+	  "멀티파일 변경을 생성해 대규모 코딩 작업의 수동 구현 부담을 줄임",
+	  "장기 실행형 코딩 단계를 계획해 수백 개 작업에서도 리팩터링 일관성을 유지",
+	  "더 낮은 비용의 코딩 루프를 실행해 일상 개발의 token 사용량을 제어",
+	  "터미널 중심 워크플로를 처리해 빌드, 수정, 배포 사이클을 더 완전하게 구성",
+	  "에디터를 벗어나지 않고 Cursor 안에서 프런티어급 코딩 품질을 검증",
+	  "Fast 모드로 전환해 같은 지능 수준을 유지하면서 반복 속도를 높임"
+	],
+	"es": [
+	  "Genera cambios en múltiples archivos para reducir la implementación manual en tareas de mayor escala",
+	  "Planifica pasos de codificación de largo horizonte para mantener la coherencia en refactorizaciones con cientos de acciones",
+	  "Ejecuta bucles de codificación de menor coste para controlar el gasto de tokens en el desarrollo diario",
+	  "Gestiona workflows orientados a terminal para cerrar mejor el ciclo de compilar, corregir y entregar",
+	  "Evalúa calidad de codificación frontier dentro de Cursor sin salir del editor",
+	  "Cambia al modo Fast para iterar más rápido manteniendo la misma inteligencia declarada"
+	]
+  },
+  "videos_jsonb": [
+	{
+	  "type": "youtube",
+	  "videoId": "stRhZIrwa-w",
+	  "title": "Cursor Composer 2 + Cursor Glass in 10 Minutes",
+	  "uploadDate": "2026-03-19T00:00:00Z",
+	  "description": "Hands-on walkthrough of Composer 2, Glass UI, pricing, and benchmark context",
+	  "duration": "PT9M47S"
+	},
+	{
+	  "type": "youtube",
+	  "videoId": "nv1fcjfC5wg",
+	  "title": "Composer 2 Deep Dive - What's Actually New?",
+	  "uploadDate": "2026-03-19T00:00:00Z",
+	  "description": "Review of Composer 2 changes, pricing, real use, and model positioning",
+	  "duration": "PT11M27S"
+	}
+  ],
+  "verdict_jsonb": {
+	"en": {
+	  "summary": "<a href=\"https://www.linkstartai.com/en/agents/composer-2-by-cursor\" target=\"_blank\">Composer 2 by Cursor</a> is the high-efficiency choice for developers and engineering teams who need to run lower-cost long-horizon coding workflows directly inside Cursor. It earns that position by combining strong coding benchmarks, reinforcement-learning-based task handling, and pricing that makes repeated agentic edits financially realistic.",
+	  "expert_quote": "LinkStart AI Lab verdict: Composer 2 is one of the smartest recent moves in AI coding economics. It does not fully remove the need for review, but it meaningfully shifts the price-performance curve for teams that live inside Cursor all day.",
+	  "pros": [
+		"Excellent price-performance for daily coding loops",
+		"Handles long-horizon tasks with hundreds of actions",
+		"Fits naturally into Cursor planning and edit workflows",
+		"Fast variant improves iteration speed without changing intelligence"
+	  ],
+	  "cons": [
+		"Locked to the Cursor ecosystem",
+		"Model provenance controversy may concern enterprise buyers",
+		"Still needs strong human review on risky refactors",
+		"Real monthly spend can rise quickly for heavy usage"
+	  ]
+	},
+	"zh": {
+	  "summary": "<a href=\"https://www.linkstartai.com/zh/agents/composer-2-by-cursor\" target=\"_blank\">Composer 2 by Cursor</a> 是 高效率型 选择，尤其适合 开发者与工程团队 去 在 Cursor 内低成本运行长链路编码工作流。它的优势来自较强的编码基准、基于强化学习的任务处理能力，以及让高频 Agentic 编辑更可负担的价格结构。",
+	  "expert_quote": "LinkStart AI Lab 观点：Composer 2 是近期 AI 编码经济学里非常聪明的一步。它并没有消灭人工审查，但它确实重画了长期驻留在 Cursor 团队的价格与能力曲线。",
+	  "pros": [
+		"日常编码循环的价格性能比很强",
+		"能处理数百次动作的长链路任务",
+		"与 Cursor 规划和编辑工作流贴合度高",
+		"Fast 版本提升迭代速度且官方称智能相同"
+	  ],
+	  "cons": [
+		"基本锁定在 Cursor 生态内",
+		"模型来源争议会影响企业采购信心",
+		"高风险重构仍需人工严格审查",
+		"重度使用时月度成本可能上升很快"
+	  ]
+	},
+	"ja": {
+	  "summary": "<a href=\"https://www.linkstartai.com/ja/agents/composer-2-by-cursor\" target=\"_blank\">Composer 2 by Cursor</a> は、Cursor 内で低コストな長期コーディングワークフローを実行したい開発者とエンジニアリングチームにとって、高効率な選択肢です。強いコーディングベンチマーク、reinforcement learning ベースのタスク処理、そして反復的な Agentic 編集を現実的なコストに抑える価格体系が、その評価を支えています。",
+	  "expert_quote": "LinkStart AI Lab の評価: Composer 2 は、近年の AI コーディング経済性における最も賢い一手の一つです。レビュー工程自体を不要にはしませんが、Cursor を日常利用するチームの価格性能曲線を大きく押し上げます。",
+	  "pros": [
+		"日常的なコーディングループで優れた価格性能",
+		"数百アクション規模の長期タスクを処理",
+		"Cursor の計画と編集フローに自然に適合",
+		"Fast 版で知能を維持しつつ反復速度を向上"
+	  ],
+	  "cons": [
+		"Cursor エコシステムへの依存が強い",
+		"モデル出自の論争が企業調達で懸念になり得る",
+		"高リスクなリファクタリングでは人手レビューが必要",
+		"高頻度利用では月額コストが急上昇し得る"
+	  ]
+	},
+	"ko": {
+	  "summary": "<a href=\"https://www.linkstartai.com/ko/agents/composer-2-by-cursor\" target=\"_blank\">Composer 2 by Cursor</a>는 Cursor 안에서 더 낮은 비용으로 장기 코딩 워크플로를 돌려야 하는 개발자와 엔지니어링 팀에게 효율성이 높은 선택지입니다. 강한 코딩 벤치마크, reinforcement learning 기반 작업 처리, 반복적인 Agentic 편집을 감당 가능한 비용으로 유지하는 가격 구조가 그 가치를 만듭니다.",
+	  "expert_quote": "LinkStart AI Lab 평가: Composer 2는 최근 AI 코딩 경제성 측면에서 가장 영리한 움직임 중 하나입니다. 리뷰 필요성을 완전히 없애지는 않지만, 하루 종일 Cursor를 사용하는 팀의 가격 대비 성능 곡선을 분명히 바꿔 놓습니다.",
+	  "pros": [
+		"일상 코딩 루프에서 뛰어난 가격 대비 성능",
+		"수백 단계의 장기 작업을 처리 가능",
+		"Cursor 계획 및 편집 워크플로에 자연스럽게 맞음",
+		"Fast 버전이 지능 변화 없이 반복 속도를 높임"
+	  ],
+	  "cons": [
+		"Cursor 생태계에 묶이는 구조",
+		"모델 출처 논란이 엔터프라이즈 구매에 부담",
+		"위험한 리팩터링에는 여전히 강한 인간 검토 필요",
+		"헤비 유저는 월간 비용이 빠르게 올라갈 수 있음"
+	  ]
+	},
+	"es": {
+	  "summary": "<a href=\"https://www.linkstartai.com/es/agents/composer-2-by-cursor\" target=\"_blank\">Composer 2 by Cursor</a> es la opción de alta eficiencia para desarrolladores y equipos de ingeniería que necesitan ejecutar workflows de codificación de largo alcance y menor coste directamente dentro de Cursor. Se gana esa posición al combinar benchmarks sólidos, manejo de tareas basado en reinforcement learning y un pricing que hace financieramente viable la edición agentic repetida.",
+	  "expert_quote": "Veredicto de LinkStart AI Lab: Composer 2 es uno de los movimientos más inteligentes recientes en economía de IA para programación. No elimina por completo la necesidad de revisión, pero sí desplaza de forma tangible la curva de precio y rendimiento para los equipos que viven dentro de Cursor todo el día.",
+	  "pros": [
+		"Excelente relación precio rendimiento para bucles diarios de código",
+		"Gestiona tareas de largo horizonte con cientos de acciones",
+		"Encaja de forma natural en planificación y edición de Cursor",
+		"La variante Fast acelera la iteración sin cambiar la inteligencia"
+	  ],
+	  "cons": [
+		"Queda ligado al ecosistema de Cursor",
+		"La controversia sobre el origen del modelo puede inquietar a empresas",
+		"Sigue requiriendo revisión humana en refactorizaciones de riesgo",
+		"El gasto mensual real puede crecer rápido con uso intensivo"
+	  ]
+	}
+  },
+  "faqs_jsonb": [
+	{
+	  "question": {
+		"en": "Composer 2 by Cursor vs Claude Opus 4.6: which is better for agentic coding inside an IDE?",
+		"zh": "Composer 2 by Cursor 和 Claude Opus 4.6 相比，谁更适合 IDE 内的 Agentic 编码？",
+		"ja": "Composer 2 by Cursor と Claude Opus 4.6 では、IDE 内の Agentic コーディングにどちらが適していますか？",
+		"ko": "Composer 2 by Cursor와 Claude Opus 4.6 중 IDE 내부 Agentic 코딩에는 어느 쪽이 더 적합한가요?",
+		"es": "Composer 2 by Cursor vs Claude Opus 4.6: ¿cuál es mejor para codificación agentic dentro de un IDE?"
+	  },
+	  "answer": {
+		"en": "The core difference is price-performance versus brand-proven premium quality. While Claude Opus 4.6 remains the safer pick for teams optimizing for top-tier trust, Composer 2 by Cursor has an absolute advantage on in-editor economics with 61.7 on Terminal-Bench 2.0, 73.7 on SWE-bench Multilingual, and pricing from $0.50 input plus $2.50 output per 1M tokens.",
+		"zh": "核心差异在于价格性能比与高端品牌信任度。虽然 Claude Opus 4.6 仍然更适合把顶级稳定性和品牌信任放在首位的团队，但 Composer 2 by Cursor 在 IDE 内经济性上优势非常明显，Terminal-Bench 2.0 为 61.7、SWE-bench Multilingual 为 73.7，且价格从每百万输入 0.50 美元、输出 2.50 美元起。",
+		"ja": "中核的な違いは、価格性能比を取るか、ブランド実績のある高級品質を取るかです。Claude Opus 4.6 は最高水準の信頼性を重視するチームにとって依然として安全な選択ですが、Composer 2 by Cursor は Terminal-Bench 2.0 で 61.7、SWE-bench Multilingual で 73.7、さらに 1M tokens あたり input 0.50 ドル、output 2.50 ドルからという価格により、エディタ内経済性では明確な優位があります。",
+		"ko": "핵심 차이는 가격 대비 성능과 브랜드로 검증된 프리미엄 품질 사이의 선택입니다. Claude Opus 4.6가 최상위 신뢰를 중시하는 팀에는 더 안전한 선택이지만, Composer 2 by Cursor는 Terminal-Bench 2.0 61.7, SWE-bench Multilingual 73.7, 그리고 1M tokens당 input 0.50달러와 output 2.50달러라는 가격으로 에디터 내부 경제성에서 분명한 우위를 가집니다.",
+		"es": "La diferencia central está entre relación precio rendimiento y calidad premium respaldada por marca. Mientras Claude Opus 4.6 sigue siendo la opción más segura para equipos que priorizan confianza de primer nivel, Composer 2 by Cursor tiene una ventaja clara en economía dentro del editor con 61.7 en Terminal-Bench 2.0, 73.7 en SWE-bench Multilingual y precios desde 0.50 dólares de input más 2.50 dólares de output por 1M tokens."
+	  }
+	},
+	{
+	  "question": {
+		"en": "What is the biggest community concern around Composer 2 by Cursor right now?",
+		"zh": "当前社区对 Composer 2 by Cursor 最大的顾虑是什么？",
+		"ja": "現在、Composer 2 by Cursor を巡るコミュニティ上の最大の懸念は何ですか？",
+		"ko": "지금 Composer 2 by Cursor를 둘러싼 커뮤니티 최대 우려는 무엇인가요?",
+		"es": "¿Cuál es ahora mismo la mayor preocupación de la comunidad sobre Composer 2 by Cursor?"
+	  },
+	  "answer": {
+		"en": "The biggest concern is model provenance and disclosure clarity. Social discussion on Reddit and X focused on whether Composer 2 is partially based on Kimi K2.5 and whether attribution was handled clearly, so teams with strict procurement rules should keep Composer 2 on non-sensitive branches until vendor messaging stabilizes.",
+		"zh": "最大的顾虑是模型来源与披露透明度。Reddit 和 X 上的讨论集中在 Composer 2 是否部分建立在 Kimi K2.5 之上，以及相关归属说明是否足够清晰，所以对采购合规要求高的团队，最好先把它限制在非敏感分支上使用。",
+		"ja": "最大の懸念は、モデルの出自と開示の明確さです。Reddit と X 上では、Composer 2 が Kimi K2.5 を部分的にベースとしているのか、また帰属表示が十分に明確だったのかが議論されており、調達ルールが厳格なチームは、ベンダー説明が安定するまで非機密ブランチでの利用に限定すべきです。",
+		"ko": "가장 큰 우려는 모델 출처와 공개 투명성입니다. Reddit와 X에서는 Composer 2가 Kimi K2.5를 일부 기반으로 하는지, 그리고 출처 표기가 충분히 명확했는지가 집중적으로 논의됐습니다. 조달 규정이 엄격한 팀이라면 벤더 메시지가 안정될 때까지 비민감 브랜치에서만 사용하는 편이 좋습니다.",
+		"es": "La mayor preocupación es la procedencia del modelo y la claridad de divulgación. El debate en Reddit y X se ha centrado en si Composer 2 se basa en parte en Kimi K2.5 y en si la atribución se gestionó con suficiente claridad, por lo que los equipos con reglas estrictas de procurement deberían limitarlo a ramas no sensibles hasta que el mensaje del proveedor se estabilice."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Is there a free tier, and how is Composer 2 by Cursor priced?",
+		"zh": "Composer 2 by Cursor 有免费层吗，价格结构是什么？",
+		"ja": "Composer 2 by Cursor に無料枠はありますか。また価格体系はどうなっていますか？",
+		"ko": "Composer 2 by Cursor에는 무료 티어가 있나요, 그리고 가격 구조는 어떻게 되나요?",
+		"es": "¿Existe free tier y cómo se estructura el precio de Composer 2 by Cursor?"
+	  },
+	  "answer": {
+		"en": "Yes. Cursor has a free entry path, while paid individual plans start at $20 per month. At the model layer, Composer 2 costs $0.50 input and $2.50 output per 1M tokens, while Composer 2 Fast costs $1.50 input and $7.50 output per 1M tokens.",
+		"zh": "有。Cursor 提供免费入口，而个人付费方案从每月 20 美元起。模型层面，Composer 2 的价格是每百万输入 0.50 美元、输出 2.50 美元，Composer 2 Fast 则是输入 1.50 美元、输出 7.50 美元。",
+		"ja": "はい。Cursor には無料の導入経路があり、個人向け有料プランは月額 20 ドルから始まります。モデル課金では、Composer 2 が 1M tokens あたり input 0.50 ドル、output 2.50 ドルで、Composer 2 Fast は input 1.50 ドル、output 7.50 ドルです。",
+		"ko": "예. Cursor는 무료 진입 경로를 제공하며, 개인 유료 플랜은 월 20달러부터 시작합니다. 모델 기준으로 Composer 2는 1M tokens당 input 0.50달러와 output 2.50달러이며, Composer 2 Fast는 input 1.50달러와 output 7.50달러입니다.",
+		"es": "Sí. Cursor ofrece una vía de entrada gratuita, mientras que los planes individuales de pago empiezan en 20 dólares al mes. A nivel de modelo, Composer 2 cuesta 0.50 dólares de input y 2.50 dólares de output por 1M tokens, mientras que Composer 2 Fast cuesta 1.50 dólares de input y 7.50 dólares de output por 1M tokens."
+	  }
+	},
+	{
+	  "question": {
+		"en": "How does Composer 2 by Cursor fit into a modern AI developer stack?",
+		"zh": "Composer 2 by Cursor 如何接入现代 AI 开发者技术栈？",
+		"ja": "Composer 2 by Cursor は現代的な AI 開発者スタックの中でどのように位置づけられますか？",
+		"ko": "Composer 2 by Cursor는 현대적인 AI 개발자 스택에서 어떻게 위치하나요?",
+		"es": "¿Cómo encaja Composer 2 by Cursor en un stack moderno de desarrollo con IA?"
+	  },
+	  "answer": {
+		"en": "It fits best as the in-IDE execution layer for agentic software delivery. Teams can use Cursor for planning, multi-file edits, terminal work, and iterative implementation, then pair it with GitHub, CI pipelines, and external review tools to complete the delivery loop.",
+		"zh": "它最适合作为 IDE 内的 Agentic 执行层。团队可以在 Cursor 里完成规划、多文件修改、终端操作和迭代实现，再与 GitHub、CI 流水线以及外部审查工具配合，形成完整交付闭环。",
+		"ja": "最も適しているのは、Agentic なソフトウェア提供のための IDE 内実行レイヤーです。チームは Cursor で計画、複数ファイル編集、ターミナル作業、反復実装を進め、その後 GitHub、CI パイプライン、外部レビュー基盤と組み合わせて納品ループを完成できます。",
+		"ko": "가장 적합한 위치는 Agentic 소프트웨어 전달을 위한 IDE 내부 실행 레이어입니다. 팀은 Cursor에서 계획, 멀티파일 수정, 터미널 작업, 반복 구현을 수행하고, 이후 GitHub, CI 파이프라인, 외부 리뷰 도구와 결합해 전체 전달 루프를 완성할 수 있습니다.",
+		"es": "Encaja mejor como capa de ejecución dentro del IDE para entrega agentic de software. Los equipos pueden usar Cursor para planificación, ediciones multiarquivo, trabajo en terminal e implementación iterativa, y después combinarlo con GitHub, pipelines de CI y herramientas externas de revisión para cerrar el ciclo de entrega."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Is Composer 2 by Cursor safe for private enterprise code?",
+		"zh": "Composer 2 by Cursor 适合处理企业私有代码吗？",
+		"ja": "Composer 2 by Cursor は企業の私有コードに安全に使えますか？",
+		"ko": "Composer 2 by Cursor는 기업의 비공개 코드에 안전한가요?",
+		"es": "¿Es seguro Composer 2 by Cursor para código privado de empresa?"
+	  },
+	  "answer": {
+		"en": "Not automatically. The Composer 2 launch post emphasizes performance and pricing, not a new model-specific enterprise isolation guarantee, so regulated teams should validate Cursor Business or enterprise controls before exposing private repositories.",
+		"zh": "不能默认认为适合。Composer 2 的发布内容重点在性能和价格，并没有提供新的模型级企业隔离承诺，因此受监管团队在接入私有仓库前，应先核实 Cursor Business 或企业级控制能力。",
+		"ja": "自動的に安全とは言えません。Composer 2 の公開内容は性能と価格に重点を置いており、新しいモデル固有の企業向け分離保証は明示していません。そのため、規制対応が必要なチームは、私有リポジトリを接続する前に Cursor Business や企業統制機能を確認すべきです。",
+		"ko": "자동으로 안전하다고 볼 수는 없습니다. Composer 2 출시 내용은 성능과 가격에 초점을 맞추고 있으며, 새로운 모델 전용 엔터프라이즈 격리 보장을 제시하지 않았습니다. 따라서 규제를 받는 팀은 비공개 저장소를 연결하기 전에 Cursor Business 또는 엔터프라이즈 제어 기능을 먼저 검증해야 합니다.",
+		"es": "No de forma automática. El lanzamiento de Composer 2 enfatiza rendimiento y pricing, no una nueva garantía específica de aislamiento enterprise a nivel de modelo, por lo que los equipos regulados deberían validar Cursor Business o los controles enterprise antes de exponer repositorios privados."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Can Composer 2 by Cursor handle long refactors and multi-step implementation work?",
+		"zh": "Composer 2 by Cursor 能处理长链路重构和多步骤实现任务吗？",
+		"ja": "Composer 2 by Cursor は長期的なリファクタリングや多段階の実装作業を処理できますか？",
+		"ko": "Composer 2 by Cursor는 장기 리팩터링과 다단계 구현 작업을 처리할 수 있나요?",
+		"es": "¿Puede Composer 2 by Cursor manejar refactorizaciones largas y trabajo de implementación en varios pasos?"
+	  },
+	  "answer": {
+		"en": "Yes. Cursor explicitly says Composer 2 is trained for long-horizon coding tasks and can solve work requiring hundreds of actions. That makes it better suited to refactors, terminal-heavy fixes, and staged feature implementation than basic autocomplete models.",
+		"zh": "可以。Cursor 官方明确表示，Composer 2 面向长链路编码任务训练，能够处理需要数百次动作的工作。相比基础自动补全模型，它更适合重构、终端密集修复和分阶段功能实现。",
+		"ja": "はい。Cursor は、Composer 2 が長期的なコーディングタスク向けに学習されており、数百アクションを要する作業に対応できると明示しています。そのため、基本的な自動補完モデルよりも、リファクタリング、ターミナル依存の修正、段階的な機能実装に適しています。",
+		"ko": "예. Cursor는 Composer 2가 장기 코딩 작업을 위해 학습됐으며 수백 단계가 필요한 작업도 처리할 수 있다고 명확히 설명합니다. 따라서 기본 자동완성 모델보다 리팩터링, 터미널 중심 수정, 단계적 기능 구현에 더 적합합니다.",
+		"es": "Sí. Cursor afirma de forma explícita que Composer 2 está entrenado para tareas de codificación de largo horizonte y que puede resolver trabajo que requiere cientos de acciones. Eso lo hace más adecuado que los modelos básicos de autocompletado para refactorizaciones, correcciones intensivas en terminal e implementación de funcionalidades por etapas."
+	  }
+	}
+  ],
+  "comparison_table_jsonb": {
+	"en": {
+	  "reason": "While Claude Opus 4.6 is still the more conservative choice for buyers who optimize for mature brand trust and premium reasoning, Composer 2 by Cursor is the sharper purchase for teams that care about in-IDE automation, lower token costs, and long-horizon implementation inside Cursor.",
+	  "caption": "Comparison: Composer 2 by Cursor vs Claude Opus 4.6",
+	  "columns": [
+		"Dimension",
+		"Composer 2 by Cursor",
+		"Claude Opus 4.6"
+	  ],
+	  "rows": [
+		[
+		  "Core workflow fit",
+		  "Built for Cursor-native agentic coding, planning, edits, and terminal loops",
+		  "Stronger as a premium reasoning model across broader environments"
+		],
+		[
+		  "Benchmark signal",
+		  "61.7 on Terminal-Bench 2.0 and 73.7 on SWE-bench Multilingual",
+		  "Widely respected for coding quality, but not priced for low-cost repetition"
+		],
+		[
+		  "Price-performance",
+		  "$0.50 input and $2.50 output per 1M tokens on standard mode",
+		  "Higher premium cost profile in typical coding usage"
+		],
+		[
+		  "Long-horizon execution",
+		  "Explicitly trained for tasks requiring hundreds of actions",
+		  "Strong reasoning, but less tightly positioned around Cursor-native loops"
+		],
+		[
+		  "Ecosystem and onboarding",
+		  "Best if your team already lives inside Cursor every day",
+		  "Better if your stack spans multiple clients and Anthropic-centered tooling"
+		],
+		[
+		  "ROI for teams",
+		  "Highest ROI for high-frequency coding teams optimizing monthly spend",
+		  "Higher ROI only when premium model trust matters more than cost efficiency"
+		]
+	  ],
+	  "tldr": "Buy Composer 2 by Cursor if your team ships code inside Cursor all day and needs more automation per dollar. Buy Claude Opus 4.6 if procurement confidence, cross-environment flexibility, and premium-brand safety matter more than raw IDE economics."
+	},
+	"zh": {
+	  "reason": "虽然 Claude Opus 4.6 对于把成熟品牌信任和高端推理稳定性放在首位的团队更稳妥，但 Composer 2 by Cursor 对于重视 IDE 内自动化、较低 token 成本，以及在 Cursor 中完成长链路实现 的团队来说，是更锋利的采购选择。",
+	  "caption": "Composer 2 by Cursor 与核心竞品对比",
+	  "columns": [
+		"对比维度",
+		"Composer 2 by Cursor",
+		"Claude Opus 4.6"
+	  ],
+	  "rows": [
+		[
+		  "核心工作流适配",
+		  "原生面向 Cursor 内的 Agentic 编码、规划、编辑和终端循环",
+		  "更像是可在更广环境中调用的高端推理模型"
+		],
+		[
+		  "基准信号",
+		  "Terminal-Bench 2.0 为 61.7，SWE-bench Multilingual 为 73.7",
+		  "编码质量口碑强，但并不是为低成本高频循环而定价"
+		],
+		[
+		  "价格性能比",
+		  "标准版每百万输入 0.50 美元、输出 2.50 美元",
+		  "在典型编码使用中属于更高溢价成本结构"
+		],
+		[
+		  "长链路执行能力",
+		  "官方明确支持需要数百次动作的任务",
+		  "推理能力强，但没有那么强调 Cursor 原生长流程闭环"
+		],
+		[
+		  "生态与上手门槛",
+		  "最适合已经长期驻留在 Cursor 的团队",
+		  "更适合跨客户端和 Anthropic 工具体系并行的团队"
+		],
+		[
+		  "团队 ROI",
+		  "更适合高频编码团队压低月度成本并扩大自动化覆盖",
+		  "只有当品牌信任高于成本效率时，ROI 才更合理"
+		]
+	  ],
+	  "tldr": "选 Composer 2 by Cursor，如果你的团队整天都在 Cursor 里交付代码，追求单位成本下更高自动化产出。选 Claude Opus 4.6，如果你更看重采购稳健性、跨环境灵活性和高端品牌安全感。"
+	},
+	"ja": {
+	  "reason": "Claude Opus 4.6 は、成熟したブランド信頼と高水準の推論品質を重視する調達担当者にとって、なお保守的で安心感のある選択です。一方で、Composer 2 by Cursor は、IDE 内自動化、低い token コスト、そして Cursor 内での長期実装を重視するチームにとって、より鋭い投資先です。",
+	  "caption": "比較: Composer 2 by Cursor と Claude Opus 4.6",
+	  "columns": [
+		"比較項目",
+		"Composer 2 by Cursor",
+		"Claude Opus 4.6"
+	  ],
+	  "rows": [
+		[
+		  "中核ワークフロー適合性",
+		  "Cursor ネイティブの Agentic コーディング、計画、編集、ターミナルループ向け",
+		  "より広い環境で使える高級推論モデルとして強い"
+		],
+		[
+		  "ベンチマーク指標",
+		  "Terminal-Bench 2.0 で 61.7、SWE-bench Multilingual で 73.7",
+		  "コーディング品質の評価は高いが、低コスト反復向けの価格ではない"
+		],
+		[
+		  "価格性能比",
+		  "標準モードで 1M tokens あたり input 0.50 ドル、output 2.50 ドル",
+		  "一般的なコーディング用途では高価格帯"
+		],
+		[
+		  "長期実行能力",
+		  "数百アクションを要するタスク向けに明示的に学習",
+		  "推論は強いが Cursor ネイティブループへの最適化は弱い"
+		],
+		[
+		  "エコシステムと導入性",
+		  "日常的に Cursor を使うチームに最適",
+		  "複数クライアントや Anthropic 中心のツール構成に向く"
+		],
+		[
+		  "チーム ROI",
+		  "月次コストを最適化する高頻度コーディングチームで高 ROI",
+		  "コスト効率よりブランド信頼が重要な場合に ROI が上がる"
+		]
+	  ],
+	  "tldr": "チームが一日中 Cursor 内でコードを出荷し、1 ドルあたりの自動化量を増やしたいなら Composer 2 by Cursor を選ぶ価値があります。調達上の安心感、複数環境での柔軟性、プレミアムブランドの安全性を優先するなら Claude Opus 4.6 が適しています。"
+	},
+	"ko": {
+	  "reason": "Claude Opus 4.6는 성숙한 브랜드 신뢰와 프리미엄 추론 품질을 최우선으로 두는 구매자에게 여전히 더 보수적인 선택입니다. 반면 Composer 2 by Cursor는 IDE 내부 자동화, 낮은 token 비용, 그리고 Cursor 안에서의 장기 구현을 중시하는 팀에게 더 날카로운 구매 판단이 됩니다.",
+	  "caption": "비교: Composer 2 by Cursor vs Claude Opus 4.6",
+	  "columns": [
+		"비교 항목",
+		"Composer 2 by Cursor",
+		"Claude Opus 4.6"
+	  ],
+	  "rows": [
+		[
+		  "핵심 워크플로 적합성",
+		  "Cursor 네이티브 Agentic 코딩, 계획, 편집, 터미널 루프에 최적화",
+		  "더 넓은 환경에서 강한 프리미엄 추론 모델"
+		],
+		[
+		  "벤치마크 신호",
+		  "Terminal-Bench 2.0 61.7, SWE-bench Multilingual 73.7",
+		  "코딩 품질 평판은 높지만 저비용 반복용 가격 구조는 아님"
+		],
+		[
+		  "가격 대비 성능",
+		  "표준 모드 기준 1M tokens당 input 0.50달러와 output 2.50달러",
+		  "일반적 코딩 사용에서는 더 높은 프리미엄 비용 구조"
+		],
+		[
+		  "장기 실행 능력",
+		  "수백 단계가 필요한 작업을 위해 명시적으로 학습됨",
+		  "추론은 강하지만 Cursor 네이티브 루프 중심 포지셔닝은 약함"
+		],
+		[
+		  "생태계와 온보딩",
+		  "매일 Cursor 안에서 일하는 팀에 가장 적합",
+		  "다중 클라이언트와 Anthropic 중심 툴링을 쓰는 팀에 더 적합"
+		],
+		[
+		  "팀 ROI",
+		  "월 지출을 최적화하려는 고빈도 코딩 팀에서 최고 ROI",
+		  "비용 효율보다 프리미엄 모델 신뢰가 더 중요할 때만 ROI 우위"
+		]
+	  ],
+	  "tldr": "팀이 하루 종일 Cursor 안에서 코드를 출하하고 비용 대비 더 많은 자동화를 원한다면 Composer 2 by Cursor가 더 적합합니다. 조달 신뢰, 크로스 환경 유연성, 프리미엄 브랜드 안정성이 더 중요하다면 Claude Opus 4.6를 선택하는 편이 낫습니다."
+	},
+	"es": {
+	  "reason": "Claude Opus 4.6 sigue siendo la elección más conservadora para compradores que priorizan confianza de marca madura y razonamiento premium. En cambio, Composer 2 by Cursor es una compra más afilada para equipos que valoran automatización dentro del IDE, menor coste por token y ejecución de largo horizonte dentro de Cursor.",
+	  "caption": "Comparación: Composer 2 by Cursor vs Claude Opus 4.6",
+	  "columns": [
+		"Dimensión",
+		"Composer 2 by Cursor",
+		"Claude Opus 4.6"
+	  ],
+	  "rows": [
+		[
+		  "Encaje con el workflow principal",
+		  "Construido para codificación agentic nativa de Cursor, planificación, edición y bucles de terminal",
+		  "Más fuerte como modelo premium de razonamiento en entornos más amplios"
+		],
+		[
+		  "Señal de benchmark",
+		  "61.7 en Terminal-Bench 2.0 y 73.7 en SWE-bench Multilingual",
+		  "Muy respetado por calidad de código, pero no con pricing para repetición barata"
+		],
+		[
+		  "Precio rendimiento",
+		  "0.50 dólares de input y 2.50 dólares de output por 1M tokens en modo estándar",
+		  "Perfil de coste premium más alto en uso típico de programación"
+		],
+		[
+		  "Ejecución de largo horizonte",
+		  "Entrenado de forma explícita para tareas que requieren cientos de acciones",
+		  "Razonamiento fuerte, pero menos centrado en bucles nativos de Cursor"
+		],
+		[
+		  "Ecosistema y adopción",
+		  "Ideal si tu equipo ya vive dentro de Cursor cada día",
+		  "Mejor si tu stack abarca varios clientes y tooling centrado en Anthropic"
+		],
+		[
+		  "ROI para equipos",
+		  "Mayor ROI para equipos de alta frecuencia que optimizan gasto mensual",
+		  "Mayor ROI solo cuando la confianza en un modelo premium pesa más que la eficiencia"
+		]
+	  ],
+	  "tldr": "Compra Composer 2 by Cursor si tu equipo entrega código dentro de Cursor todo el día y necesita más automatización por dólar. Compra Claude Opus 4.6 si la confianza en procurement, la flexibilidad entre entornos y la seguridad de una marca premium pesan más que la economía pura del IDE."
+	}
+  },
+  "seo_title_jsonb": {
+	"en": "Composer 2 by Cursor Review 2026: Pricing, Pros & Cons, Alternatives",
+	"zh": "Composer 2 by Cursor 怎么样？2026 最新评测：价格、优缺点与竞品对比",
+	"ja": "【徹底レビュー】Composer 2 by Cursor の評判は？料金・強み・代替比較",
+	"ko": "Composer 2 by Cursor 솔직 후기: 가격, 장단점 및 추천 대안",
+	"es": "Opiniones de Composer 2 by Cursor: Precio, Ventajas y Alternativas"
+  },
+  "seo_description_jsonb": {
+	"en": "Composer 2 by Cursor Review: compare Pricing, Free Tier access, coding benchmarks, pros, cons, and Claude alternatives before standardizing on Cursor.",
+	"zh": "Composer 2 by Cursor 评测：看 Pricing、Free Tier、编码基准、优缺点与 Claude 替代方案，再决定是否把 Cursor 设为主力开发栈。",
+	"ja": "Composer 2 by Cursor の Review。Pricing、Free Tier、コーディング指標、長期実装性能、Claude 代替比較を確認してから Cursor 標準化を判断できます。",
+	"ko": "Composer 2 by Cursor 리뷰입니다. Pricing, Free Tier, 코딩 벤치마크, 장단점, Claude 대안을 비교해 Cursor 표준화 전에 판단할 수 있습니다.",
+	"es": "Review de Composer 2 by Cursor: compara Pricing, Free Tier, benchmarks de código, pros, contras y alternativas a Claude antes de estandarizar Cursor."
+  }
+}

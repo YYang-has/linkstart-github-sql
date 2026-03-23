@@ -1,0 +1,544 @@
+{
+  "slug": "google-ai-studio-2-0",
+  "brand_slug": "google",
+  "name_jsonb": {
+	"en": "Google AI Studio 2.0",
+	"zh": "Google AI Studio 2.0",
+	"ja": "Google AI Studio 2.0",
+	"ko": "Google AI Studio 2.0",
+	"es": "Google AI Studio 2.0"
+  },
+  "tagline_jsonb": {
+	"en": "Browser-based Gemini prototyping workspace for multimodal prompts, realtime app testing, and fast handoff from experiment to production",
+	"zh": "面向 Gemini 的浏览器端原型工作台，可进行多模态提示测试、实时应用验证，并把实验结果快速迁移到生产环境",
+	"ja": "Gemini 向けのブラウザベース試作ワークスペース。マルチモーダルなプロンプト検証、リアルタイムアプリのテスト、実験から本番への迅速な移行に対応",
+	"ko": "Gemini용 브라우저 기반 프로토타이핑 워크스페이스로, 멀티모달 프롬프트 실험, 실시간 앱 테스트, 실험에서 운영 환경으로의 빠른 전환을 지원",
+	"es": "Espacio de prototipado en navegador para Gemini, orientado a prompts multimodales, pruebas de apps en tiempo real y traspaso rápido del experimento a producción"
+  },
+  "description_jsonb": {
+	"en": "> Executive Summary: <a href=\"https://www.linkstartai.com/en/agents/google-ai-studio-2-0\" target=\"_blank\">Google AI Studio 2.0</a> is Google’s browser-based workspace for developers, AI builders, and automation teams who need to prototype Gemini apps fast. Its core value is combining free experimentation, multimodal testing, and production-ready API handoff in one interface, so teams can move from prompt design to deployable workflows with much less friction.\n\nGoogle positions AI Studio as the fastest path from prompt to production with Gemini, and that framing is accurate for teams testing multimodal workflows without standing up infrastructure first. The platform gives direct access to Gemini 2.0 Flash, Gemini 2.5 models, Live API capabilities, grounding, code execution, and browser-based prompt iteration, which makes it especially strong for rapid prototyping, agent workflow validation, and internal AI tool design. Google AI Studio 2.0 offers a Free plan, with paid tiers starting at $0.10 per 1M input tokens for Gemini 2.0 Flash. It is Less expensive than average for this category.\n\nWhat makes it matter in automation is the transition layer between experimentation and production. Teams can test text, image, audio, and realtime flows in one UI, then move winning prompts into the Gemini API or Vertex AI stack when reliability, quotas, governance, or scaling start to matter. Official pricing also shows concrete leverage points for builders: Gemini 2.0 Flash starts at $0.10 input and $0.40 output per 1M tokens on paid usage, while Live API documentation highlights sub-second first-token latency around 600 milliseconds for realtime multimodal interactions.",
+	"zh": "> 核心摘要： <a href=\"https://www.linkstartai.com/zh/agents/google-ai-studio-2-0\" target=\"_blank\">Google AI Studio 2.0</a> 是 Google 面向开发者、AI 构建者和自动化团队推出的浏览器端工作台，核心目标是让 Gemini 应用原型更快落地。它真正的价值，在于把免费实验、多模态测试和面向生产的 API 迁移整合到一个界面里，让团队从提示设计走到可部署工作流时阻力更小。\n\nGoogle 把 AI Studio 定义为从 Prompt 到 Production 的最快路径，这个定位对需要先验证多模态流程、又不想先搭底层基础设施的团队来说很准确。平台可直接调用 Gemini 2.0 Flash、Gemini 2.5 系列、Live API、Grounding、代码执行以及浏览器内提示迭代能力，因此非常适合快速原型、Agent 工作流验证和内部 AI 工具设计。Google AI Studio 2.0 offers a Free plan, with paid tiers starting at $0.10 per 1M input tokens for Gemini 2.0 Flash. It is Less expensive than average for this category.\n\n它真正值得关注的，是从实验走向生产的过渡层价值。团队可以在一个界面里测试文本、图像、音频和实时交互流程，再把跑通的提示与逻辑迁移到 Gemini API 或 Vertex AI，用于更高可靠性、配额治理和规模化部署。官方价格页也给出了非常清晰的成本锚点：Gemini 2.0 Flash 的付费价格是每百万输入 tokens 0.10 美元、输出 tokens 0.40 美元，而 Live API 官方材料则强调其实时多模态交互可实现约 600 毫秒的首 token 延迟。",
+	"ja": "> Executive Summary: <a href=\"https://www.linkstartai.com/en/agents/google-ai-studio-2-0\" target=\"_blank\">Google AI Studio 2.0</a> は、Gemini アプリを迅速に試作したい開発者、AI ビルダー、自動化チーム向けの Google のブラウザベース作業環境です。無料検証、マルチモーダルテスト、本番向け API への引き継ぎを単一画面に統合しており、プロンプト設計から実装可能なワークフローまでを低摩擦で進められる点が中核価値です。\n\nGoogle は AI Studio を Gemini における Prompt から Production までの最短経路として位置づけていますが、この評価は、先に基盤を構築せずにマルチモーダルな業務フローを検証したいチームにとって妥当です。プラットフォームでは Gemini 2.0 Flash、Gemini 2.5 系列、Live API、grounding、コード実行、ブラウザ上でのプロンプト反復が直接利用でき、迅速な試作、Agent ワークフロー検証、社内向け AI ツール設計に特に適しています。Google AI Studio 2.0 offers a Free plan, with paid tiers starting at $0.10 per 1M input tokens for Gemini 2.0 Flash. It is Less expensive than average for this category.\n\n自動化の観点で重要なのは、実験と本番の間をつなぐ移行レイヤーとしての役割です。テキスト、画像、音声、リアルタイムのフローを単一 UI で検証し、その後、信頼性、クォータ、ガバナンス、スケーリングが重要になる段階で、有効なプロンプトを Gemini API や Vertex AI スタックへ移行できます。公式価格情報も導入判断に有用で、Gemini 2.0 Flash の従量課金は入力 100 万 tokens あたり 0.10 ドル、出力 100 万 tokens あたり 0.40 ドルから始まり、Live API の公式資料ではリアルタイムなマルチモーダル対話で約 600 ミリ秒の first-token latency が示されています。",
+	"ko": "> Executive Summary: <a href=\"https://www.linkstartai.com/en/agents/google-ai-studio-2-0\" target=\"_blank\">Google AI Studio 2.0</a>는 Gemini 앱을 빠르게 프로토타이핑해야 하는 개발자, AI 빌더, 자동화 팀을 위한 Google의 브라우저 기반 작업 공간입니다. 무료 실험, 멀티모달 테스트, 운영 환경용 API 전환을 하나의 인터페이스에 결합해 프롬프트 설계에서 배포 가능한 워크플로까지 훨씬 적은 마찰로 이동할 수 있게 해 주는 것이 핵심 가치입니다.\n\nGoogle은 AI Studio를 Gemini 기반 Prompt에서 Production까지 이어지는 가장 빠른 경로로 제시하며, 이는 인프라를 먼저 세우지 않고 멀티모달 워크플로를 검증하려는 팀에게 상당히 정확한 설명입니다. 플랫폼은 Gemini 2.0 Flash, Gemini 2.5 계열, Live API 기능, grounding, 코드 실행, 브라우저 기반 프롬프트 반복 실험에 직접 접근할 수 있게 하며, 빠른 프로토타이핑, Agent 워크플로 검증, 내부 AI 도구 설계에 특히 강점을 보입니다. Google AI Studio 2.0 offers a Free plan, with paid tiers starting at $0.10 per 1M input tokens for Gemini 2.0 Flash. It is Less expensive than average for this category.\n\n자동화 관점에서 중요한 이유는 실험과 운영 환경 사이의 전환 레이어 역할입니다. 팀은 하나의 UI에서 텍스트, 이미지, 오디오, 실시간 흐름을 시험한 뒤, 신뢰성, 쿼터, 거버넌스, 확장이 중요해지는 시점에 검증된 프롬프트를 Gemini API 또는 Vertex AI 스택으로 옮길 수 있습니다. 공식 가격 체계도 빌더에게 명확한 기준점을 제공하는데, Gemini 2.0 Flash의 유료 사용 가격은 입력 100만 tokens당 0.10달러, 출력 100만 tokens당 0.40달러부터 시작하며, Live API 문서는 실시간 멀티모달 상호작용에서 약 600밀리초 수준의 first-token latency를 강조합니다.",
+	"es": "> Executive Summary: <a href=\"https://www.linkstartai.com/en/agents/google-ai-studio-2-0\" target=\"_blank\">Google AI Studio 2.0</a> es el espacio de trabajo basado en navegador de Google para desarrolladores, builders de IA y equipos de automatización que necesitan prototipar apps con Gemini con rapidez. Su valor central está en combinar experimentación gratuita, pruebas multimodales y traspaso listo para producción hacia la API en una sola interfaz, reduciendo fricción entre el diseño de prompts y los flujos desplegables.\n\nGoogle presenta AI Studio como la ruta más rápida de Prompt a Production con Gemini, y esa definición encaja bien para equipos que quieren validar flujos multimodales sin desplegar antes infraestructura propia. La plataforma ofrece acceso directo a Gemini 2.0 Flash, la familia Gemini 2.5, capacidades de Live API, grounding, ejecución de código e iteración de prompts desde el navegador, lo que la hace especialmente fuerte para prototipado rápido, validación de workflows agentic y diseño de herramientas internas de IA. Google AI Studio 2.0 offers a Free plan, with paid tiers starting at $0.10 per 1M input tokens for Gemini 2.0 Flash. It is Less expensive than average for this category.\n\nLo que la vuelve relevante para automatización es su papel como capa de transición entre experimento y producción. Los equipos pueden probar texto, imagen, audio y flujos en tiempo real dentro de una única UI, y luego mover los prompts ganadores hacia Gemini API o el stack de Vertex AI cuando la fiabilidad, las cuotas, la gobernanza o el escalado pasan a ser prioritarios. El pricing oficial también aporta referencias claras para builders: Gemini 2.0 Flash parte de 0.10 dólares de entrada y 0.40 dólares de salida por cada 1M tokens en uso de pago, mientras la documentación de Live API destaca una first-token latency cercana a 600 milisegundos para interacciones multimodales en tiempo real."
+  },
+  "category_id": "8fe2e40c-8466-4a36-9337-6ddae9dc247e",
+  "solution_category_id": "0ece980c-f67d-42e9-a202-59fb854e8441",
+  "website_url": "https://aistudio.google.com/",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/google-ai-studio-2-0.jpg",
+  "pricing_model": "freemium",
+  "paid_options_from": "$0.10 per 1M input tokens",
+  "billing_frequency": "usage",
+  "rating": 4.2,
+  "review_count": 0,
+  "supported_languages": [
+	"en",
+	"zh",
+	"ja",
+	"ko",
+	"es"
+  ],
+  "tags_jsonb": {
+	"en": [
+	  "#GeminiPromptPrototyping",
+	  "#MultimodalLiveAPITesting",
+	  "#GroundedSearchWorkflows",
+	  "#AIAppRapidPrototyping",
+	  "#StructuredOutputValidation",
+	  "#GeminiToVertexHandoff"
+	],
+	"zh": [
+	  "#Gemini提示原型设计",
+	  "#多模态LiveAPI测试",
+	  "#搜索Grounding工作流",
+	  "#AI应用快速原型",
+	  "#结构化输出验证",
+	  "#Gemini到Vertex迁移"
+	],
+	"ja": [
+	  "#Geminiプロンプト試作",
+	  "#マルチモーダルLiveAPI検証",
+	  "#Grounding検索ワークフロー",
+	  "#AIアプリ高速試作",
+	  "#構造化出力検証",
+	  "#GeminiからVertex移行"
+	],
+	"ko": [
+	  "#Gemini프롬프트프로토타이핑",
+	  "#멀티모달LiveAPI테스트",
+	  "#Grounding검색워크플로",
+	  "#AI앱고속프로토타이핑",
+	  "#구조화출력검증",
+	  "#Gemini에서Vertex전환"
+	],
+	"es": [
+	  "#PrototipadoDePromptsGemini",
+	  "#PruebasMultimodalesLiveAPI",
+	  "#WorkflowsDeGroundingConBúsqueda",
+	  "#PrototipadoRápidoDeAppsIA",
+	  "#ValidaciónDeSalidaEstructurada",
+	  "#TransiciónDeGeminiAVertex"
+	]
+  },
+  "features_jsonb": {
+	"en": [
+	  "Prototype Gemini prompts in the browser to cut setup time for new AI apps",
+	  "Test multimodal inputs and realtime flows before committing engineering resources",
+	  "Ground responses with Google Search and Maps for more actionable automation outputs",
+	  "Run code execution and structured output checks to validate workflow reliability",
+	  "Export winning prompt logic into Gemini API or Vertex AI production pipelines",
+	  "Compare model behavior quickly to reduce iteration cost across agent experiments"
+	],
+	"zh": [
+	  "在浏览器中原型化 Gemini 提示，减少新 AI 应用的前期搭建时间",
+	  "先测试多模态输入和实时交互流程，再决定是否投入工程资源",
+	  "结合 Google Search 与 Maps 做 Grounding，让自动化结果更可执行",
+	  "通过代码执行与结构化输出校验，提高工作流可靠性验证效率",
+	  "把验证成功的提示逻辑迁移到 Gemini API 或 Vertex AI 生产管线",
+	  "快速比较不同模型表现，降低 Agent 实验阶段的迭代成本"
+	],
+	"ja": [
+	  "ブラウザ上で Gemini プロンプトを試作し、新規 AI アプリの初期設定時間を短縮",
+	  "開発工数を投じる前にマルチモーダル入力とリアルタイムフローを検証",
+	  "Google Search と Maps を用いて応答を grounding し、自動化結果の実用性を向上",
+	  "コード実行と構造化出力チェックを実行し、ワークフロー信頼性を検証",
+	  "有効だったプロンプトロジックを Gemini API または Vertex AI の本番パイプラインへ移行",
+	  "モデル挙動を迅速に比較し、Agent 実験における反復コストを削減"
+	],
+	"ko": [
+	  "브라우저에서 Gemini 프롬프트를 프로토타이핑해 신규 AI 앱의 초기 설정 시간을 단축",
+	  "엔지니어링 리소스를 투입하기 전에 멀티모달 입력과 실시간 흐름을 검증",
+	  "Google Search와 Maps로 응답을 grounding해 자동화 결과의 실행 가능성을 높임",
+	  "코드 실행과 구조화 출력 검사를 수행해 워크플로 신뢰성을 검증",
+	  "성공한 프롬프트 로직을 Gemini API 또는 Vertex AI 운영 파이프라인으로 내보냄",
+	  "모델 동작을 빠르게 비교해 Agent 실험 전반의 반복 비용을 줄임"
+	],
+	"es": [
+	  "Prototipa prompts de Gemini en el navegador para reducir el tiempo de arranque de nuevas apps de IA",
+	  "Prueba entradas multimodales y flujos en tiempo real antes de comprometer recursos de ingeniería",
+	  "Aplica grounding con Google Search y Maps para lograr salidas de automatización más accionables",
+	  "Ejecuta código y comprobaciones de salida estructurada para validar la fiabilidad del workflow",
+	  "Exporta la lógica de prompts ganadora hacia pipelines de producción en Gemini API o Vertex AI",
+	  "Compara rápido el comportamiento de modelos para reducir el coste iterativo en experimentos agentic"
+	]
+  },
+  "videos_jsonb": [
+	{
+	  "type": "youtube",
+	  "videoId": "TmVdD7gmlVY",
+	  "title": "Google AI Studio with Gemini 2.0: Real-Time Screen Sharing",
+	  "uploadDate": "2024-12-17T00:00:00Z",
+	  "description": "Tutorial showing realtime screen sharing and microphone workflows",
+	  "duration": "PT5M42S"
+	},
+	{
+	  "type": "youtube",
+	  "videoId": "uo0FZRgwE20",
+	  "title": "Gemini 2.0: The AI That Sees, Hears, and Understands",
+	  "uploadDate": "2024-12-16T00:00:00Z",
+	  "description": "Beginner tutorial on using Gemini 2.0 in Google AI Studio",
+	  "duration": "PT11M5S"
+	}
+  ],
+  "verdict_jsonb": {
+	"en": {
+	  "summary": "<a href=\"https://www.linkstartai.com/en/agents/google-ai-studio-2-0\" target=\"_blank\">Google AI Studio 2.0</a> is the high-leverage choice for developers, AI product teams, and automation builders who need to prototype multimodal Gemini workflows fast and hand them off to production without heavy setup.",
+	  "expert_quote": "LinkStart AI Lab view: Google AI Studio is one of the best low-friction prototyping environments in the market. It wins on speed, multimodal breadth, and cost efficiency, but serious production teams will still graduate into Vertex AI when governance, quotas, and enterprise controls become mandatory.",
+	  "pros": [
+		"Very fast prompt-to-prototype workflow",
+		"Free access lowers early experimentation cost",
+		"Strong multimodal and realtime testing surface",
+		"Clean bridge into Gemini API and Vertex AI"
+	  ],
+	  "cons": [
+		"Governance is lighter than Vertex AI",
+		"Free tier data may improve Google products",
+		"Best for prototyping, not full enterprise ops"
+	  ]
+	},
+	"zh": {
+	  "summary": "<a href=\"https://www.linkstartai.com/zh/agents/google-ai-studio-2-0\" target=\"_blank\">Google AI Studio 2.0</a> 是 高杠杆型 选择，尤其适合 开发者、AI 产品团队和自动化构建者 去 快速原型化多模态 Gemini 工作流，并在不重搭基础设施的情况下迁移到生产环境。",
+	  "expert_quote": "LinkStart AI Lab 观点：Google AI Studio 是目前市场上最顺手的轻量级 AI 原型环境之一。它在速度、多模态覆盖和成本效率上都很强，但一旦团队开始追求治理、配额稳定性和企业级控制，最终仍会走向 Vertex AI。",
+	  "pros": [
+		"从提示到原型的速度非常快",
+		"免费入口降低早期实验成本",
+		"多模态与实时测试能力很完整",
+		"能自然衔接 Gemini API 和 Vertex AI"
+	  ],
+	  "cons": [
+		"治理能力弱于 Vertex AI",
+		"免费层数据可能用于改进 Google 产品",
+		"更适合原型而非完整企业运营"
+	  ]
+	},
+	"ja": {
+	  "summary": "<a href=\"https://www.linkstartai.com/en/agents/google-ai-studio-2-0\" target=\"_blank\">Google AI Studio 2.0</a> は、マルチモーダルな Gemini ワークフローを迅速に試作し、重い初期構築なしで本番へ引き継ぎたい開発者、AI プロダクトチーム、自動化ビルダーにとって、高い投資効率を持つ選択肢です。",
+	  "expert_quote": "LinkStart AI Lab の見解：Google AI Studio は、市場でも有数の低摩擦な試作環境です。速度、マルチモーダルの広さ、コスト効率で優位に立つ一方、本格運用チームはガバナンス、クォータ、企業統制が必須になる段階で Vertex AI へ進むことになります。",
+	  "pros": [
+		"プロンプトから試作までの流れが非常に速い",
+		"無料利用で初期実験コストを抑えやすい",
+		"マルチモーダルとリアルタイム検証が強力",
+		"Gemini API と Vertex AI への橋渡しが自然"
+	  ],
+	  "cons": [
+		"ガバナンスは Vertex AI より軽い",
+		"無料枠のデータは Google 製品改善に使われ得る",
+		"本格企業運用より試作向け"
+	  ]
+	},
+	"ko": {
+	  "summary": "<a href=\"https://www.linkstartai.com/en/agents/google-ai-studio-2-0\" target=\"_blank\">Google AI Studio 2.0</a>는 멀티모달 Gemini 워크플로를 빠르게 프로토타이핑하고, 무거운 초기 구축 없이 운영 환경으로 넘겨야 하는 개발자, AI 제품 팀, 자동화 빌더에게 높은 레버리지의 선택지입니다.",
+	  "expert_quote": "LinkStart AI Lab 분석: Google AI Studio는 시장에서 가장 마찰이 적은 프로토타이핑 환경 중 하나입니다. 속도, 멀티모달 범위, 비용 효율성에서 강점을 보이지만, 거버넌스, 쿼터, 엔터프라이즈 제어가 중요해지는 시점에는 결국 Vertex AI로 이동하는 팀이 많습니다.",
+	  "pros": [
+		"프롬프트에서 프로토타입까지 매우 빠름",
+		"무료 접근으로 초기 실험 비용을 낮춤",
+		"멀티모달과 실시간 테스트 범위가 강함",
+		"Gemini API와 Vertex AI로의 연결이 자연스러움"
+	  ],
+	  "cons": [
+		"거버넌스는 Vertex AI보다 약함",
+		"무료 티어 데이터가 Google 제품 개선에 쓰일 수 있음",
+		"완전한 엔터프라이즈 운영보다는 프로토타입에 적합"
+	  ]
+	},
+	"es": {
+	  "summary": "<a href=\"https://www.linkstartai.com/en/agents/google-ai-studio-2-0\" target=\"_blank\">Google AI Studio 2.0</a> es la opción de alto apalancamiento para desarrolladores, equipos de producto de IA y builders de automatización que necesitan prototipar rápido workflows multimodales con Gemini y transferirlos a producción sin una puesta en marcha pesada.",
+	  "expert_quote": "Visión de LinkStart AI Lab: Google AI Studio es uno de los mejores entornos de prototipado de baja fricción del mercado. Destaca por velocidad, amplitud multimodal y eficiencia de costes, pero los equipos de producción serios terminarán migrando a Vertex AI cuando gobernanza, cuotas y controles enterprise sean obligatorios.",
+	  "pros": [
+		"Workflow muy rápido de prompt a prototipo",
+		"El acceso gratuito reduce el coste de experimentación inicial",
+		"Superficie sólida para pruebas multimodales y en tiempo real",
+		"Puente limpio hacia Gemini API y Vertex AI"
+	  ],
+	  "cons": [
+		"La gobernanza es más ligera que en Vertex AI",
+		"Los datos del free tier pueden mejorar productos de Google",
+		"Encaja mejor en prototipado que en operación enterprise completa"
+	  ]
+	}
+  },
+  "faqs_jsonb": [
+	{
+	  "question": {
+		"en": "Google AI Studio 2.0 vs OpenAI Playground: which is better for fast AI prototyping?",
+		"zh": "Google AI Studio 2.0 和 OpenAI Playground 相比，哪个更适合快速 AI 原型开发？",
+		"ja": "Google AI Studio 2.0 と OpenAI Playground では、高速な AI 試作にどちらが適していますか？",
+		"ko": "Google AI Studio 2.0와 OpenAI Playground 중 빠른 AI 프로토타이핑에는 어느 쪽이 더 적합한가요?",
+		"es": "Google AI Studio 2.0 vs OpenAI Playground: ¿cuál es mejor para prototipado rápido de IA?"
+	  },
+	  "answer": {
+		"en": "The core difference is multimodal breadth versus model ecosystem familiarity. While OpenAI Playground is stronger for teams already standardized on GPT workflows, Google AI Studio 2.0 has an absolute advantage for Gemini-native prototyping, free browser testing, realtime multimodal flows, and lower starting cost at $0.10 per 1M input tokens for Gemini 2.0 Flash.",
+		"zh": "核心差异在于多模态广度和既有模型生态。虽然 OpenAI Playground 更适合已经围绕 GPT 工作流标准化的团队，但 Google AI Studio 2.0 在 Gemini 原生原型开发、浏览器免费测试、实时多模态流程以及 Gemini 2.0 Flash 每百万输入 tokens 0.10 美元的低起步成本上更有优势。",
+		"ja": "中核的な違いは、マルチモーダル対応の広さと既存モデルエコシステムへの慣れです。OpenAI Playground は GPT ワークフローへ既に標準化しているチームに向きますが、Google AI Studio 2.0 は Gemini ネイティブの試作、ブラウザでの無料検証、リアルタイムなマルチモーダルフロー、さらに Gemini 2.0 Flash の入力 100 万 tokens あたり 0.10 ドルという低い初期コストで明確な優位があります。",
+		"ko": "핵심 차이는 멀티모달 범위와 기존 모델 생태계 친숙도입니다. OpenAI Playground가 이미 GPT 워크플로로 표준화된 팀에 더 강하다면, Google AI Studio 2.0는 Gemini 네이티브 프로토타이핑, 무료 브라우저 테스트, 실시간 멀티모달 흐름, 그리고 Gemini 2.0 Flash 기준 입력 100만 tokens당 0.10달러의 낮은 시작 비용에서 확실한 강점을 가집니다.",
+		"es": "La diferencia central está en la amplitud multimodal frente a la familiaridad con el ecosistema del modelo. Mientras OpenAI Playground encaja mejor para equipos ya estandarizados en workflows con GPT, Google AI Studio 2.0 tiene ventaja clara para prototipado nativo con Gemini, pruebas gratuitas en navegador, flujos multimodales en tiempo real y un coste de entrada más bajo de 0.10 dólares por 1M input tokens en Gemini 2.0 Flash."
+	  }
+	},
+	{
+	  "question": {
+		"en": "What are the biggest real-world concerns around Google AI Studio 2.0?",
+		"zh": "Google AI Studio 2.0 目前最大的真实顾虑是什么？",
+		"ja": "Google AI Studio 2.0 に関する現実的な懸念点として最も大きいものは何ですか？",
+		"ko": "Google AI Studio 2.0에 대해 실제로 가장 크게 제기되는 우려는 무엇인가요?",
+		"es": "¿Cuáles son las preocupaciones reales más importantes sobre Google AI Studio 2.0?"
+	  },
+	  "answer": {
+		"en": "The main concern is production fit, not capability. Developers like the speed, but many teams find AI Studio less suitable than Vertex AI for quotas, enterprise governance, and stable operational controls. The common workaround is to prototype in AI Studio and ship on Vertex AI.",
+		"zh": "最大的问题不是能力，而是生产适配。开发者普遍认可它的速度，但很多团队会发现，配额、企业治理和稳定运行控制仍然更适合 Vertex AI。最常见的做法，就是在 AI Studio 里做原型，在 Vertex AI 上线。",
+		"ja": "最大の論点は能力不足ではなく本番適合性です。開発者は速度を高く評価する一方、クォータ管理、企業ガバナンス、安定運用の面では AI Studio より Vertex AI の方が適していると考えるチームが少なくありません。一般的な運用方法は、AI Studio で試作し、Vertex AI で本番展開する形です。",
+		"ko": "가장 큰 이슈는 성능이 아니라 운영 적합성입니다. 개발자들은 속도를 높게 평가하지만, 많은 팀은 쿼터, 엔터프라이즈 거버넌스, 안정적 운영 제어 측면에서 AI Studio보다 Vertex AI가 더 적합하다고 봅니다. 가장 흔한 방식은 AI Studio에서 프로토타입을 만들고 Vertex AI에서 출시하는 것입니다.",
+		"es": "La principal preocupación no es la capacidad, sino el encaje en producción. Los desarrolladores valoran la velocidad, pero muchos equipos consideran que AI Studio resulta menos adecuado que Vertex AI para cuotas, gobernanza enterprise y controles operativos estables. La solución habitual es prototipar en AI Studio y desplegar en Vertex AI."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Is there a free tier, and how is Google AI Studio 2.0 priced?",
+		"zh": "Google AI Studio 2.0 有免费层吗，价格结构是什么？",
+		"ja": "無料枠はありますか。また Google AI Studio 2.0 の価格体系はどうなっていますか？",
+		"ko": "무료 티어가 있나요, 그리고 Google AI Studio 2.0의 가격 구조는 어떻게 되나요?",
+		"es": "¿Existe free tier y cómo se estructura el precio de Google AI Studio 2.0?"
+	  },
+	  "answer": {
+		"en": "Yes. Google AI Studio usage is free in available regions, and paid costs begin when you scale on Gemini API or related production services. For a concrete entry point, Gemini 2.0 Flash starts at $0.10 input and $0.40 output per 1M tokens on the paid tier.",
+		"zh": "有。Google AI Studio 在可用地区本身可免费使用，真正的付费主要从 Gemini API 或相关生产服务开始。一个明确的起步价格是，Gemini 2.0 Flash 付费层每百万输入 tokens 0.10 美元、输出 tokens 0.40 美元。",
+		"ja": "はい。Google AI Studio 自体は利用可能地域で無料利用が可能で、本格的な従量課金は Gemini API や関連する本番サービスへ拡張した段階から発生します。明確な基準として、Gemini 2.0 Flash の有料価格は 100 万 tokens あたり入力 0.10 ドル、出力 0.40 ドルから始まります。",
+		"ko": "예. Google AI Studio 자체는 지원 지역에서 무료로 사용할 수 있고, 본격적인 유료 비용은 Gemini API나 관련 운영 서비스로 확장할 때 발생합니다. 구체적인 시작 가격으로는 Gemini 2.0 Flash 유료 티어가 100만 tokens당 입력 0.10달러, 출력 0.40달러부터 시작합니다.",
+		"es": "Sí. El uso de Google AI Studio es gratuito en las regiones disponibles, y el coste de pago comienza cuando escalas sobre Gemini API o servicios de producción relacionados. Como referencia clara, Gemini 2.0 Flash parte de 0.10 dólares de entrada y 0.40 dólares de salida por cada 1M tokens en el tier de pago."
+	  }
+	},
+	{
+	  "question": {
+		"en": "How does Google AI Studio 2.0 fit into a modern AI stack?",
+		"zh": "Google AI Studio 2.0 如何接入现代 AI 技术栈？",
+		"ja": "Google AI Studio 2.0 は現代的な AI スタックの中でどのような位置づけですか？",
+		"ko": "Google AI Studio 2.0는 현대적인 AI 스택에서 어떤 역할을 하나요?",
+		"es": "¿Cómo encaja Google AI Studio 2.0 dentro de un stack moderno de IA?"
+	  },
+	  "answer": {
+		"en": "It fits best as the prototyping layer before production. Teams use AI Studio to test prompts, structured output, Live API, grounding, and code execution, then move validated flows into Gemini API or Vertex AI for deployment, scaling, and enterprise controls.",
+		"zh": "它最适合作为生产之前的原型层。团队可以先在 AI Studio 里测试提示、结构化输出、Live API、Grounding 和代码执行，再把验证过的流程迁移到 Gemini API 或 Vertex AI 做部署、扩展和企业治理。",
+		"ja": "最も適しているのは本番前の試作レイヤーとしての役割です。チームは AI Studio でプロンプト、構造化出力、Live API、grounding、コード実行を検証し、その後、検証済みフローを Gemini API や Vertex AI へ移して、展開、拡張、企業統制へつなげます。",
+		"ko": "가장 적합한 위치는 운영 이전의 프로토타이핑 레이어입니다. 팀은 AI Studio에서 프롬프트, 구조화 출력, Live API, grounding, 코드 실행을 검증한 뒤, 검증된 흐름을 Gemini API 또는 Vertex AI로 옮겨 배포, 확장, 엔터프라이즈 제어를 수행합니다.",
+		"es": "Encaja mejor como capa de prototipado antes de producción. Los equipos usan AI Studio para probar prompts, salida estructurada, Live API, grounding y ejecución de código, y después trasladan los flujos validados a Gemini API o Vertex AI para despliegue, escalado y controles enterprise."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Will Google AI Studio 2.0 use my data for model training?",
+		"zh": "Google AI Studio 2.0 会用我的数据训练模型吗？",
+		"ja": "Google AI Studio 2.0 は自分のデータをモデル学習に使いますか？",
+		"ko": "Google AI Studio 2.0가 내 데이터를 모델 학습에 사용하나요?",
+		"es": "¿Google AI Studio 2.0 usará mis datos para entrenar modelos?"
+	  },
+	  "answer": {
+		"en": "Partly, depending on tier. Google’s pricing page states free tier content may be used to improve products, while paid tier content is not used to improve products. Teams handling private code or regulated data should avoid relying on the free tier for sensitive workflows.",
+		"zh": "会不会使用，取决于层级。Google 官方价格页明确写到，免费层内容可能用于改进产品，而付费层内容不会用于改进产品。涉及私有代码或受监管数据的团队，不应把免费层用于敏感工作流。",
+		"ja": "一部は利用され得ますが、利用層によります。Google の公式価格ページでは、無料枠のコンテンツは製品改善に使用される可能性があり、有料枠のコンテンツは製品改善に使用されないと明記されています。機密コードや規制対象データを扱うチームは、無料枠を機微な業務フローに使うべきではありません。",
+		"ko": "부분적으로는 그럴 수 있으며, 티어에 따라 달라집니다. Google 공식 가격 페이지는 무료 티어 콘텐츠가 제품 개선에 사용될 수 있다고 명시하고, 유료 티어 콘텐츠는 제품 개선에 사용되지 않는다고 설명합니다. 비공개 코드나 규제 데이터를 다루는 팀은 민감한 워크플로에 무료 티어를 의존하지 않는 것이 좋습니다.",
+		"es": "En parte sí, según el tier. La página oficial de pricing de Google indica que el contenido del free tier puede usarse para mejorar productos, mientras que el contenido del tier de pago no se usa con ese fin. Los equipos que manejan código privado o datos regulados deberían evitar el free tier en workflows sensibles."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Can Google AI Studio 2.0 handle realtime voice and screen-based agent workflows?",
+		"zh": "Google AI Studio 2.0 能处理实时语音和屏幕级 Agent 工作流吗？",
+		"ja": "Google AI Studio 2.0 はリアルタイム音声や画面共有ベースの Agent ワークフローに対応できますか？",
+		"ko": "Google AI Studio 2.0는 실시간 음성 및 화면 기반 Agent 워크플로를 처리할 수 있나요?",
+		"es": "¿Google AI Studio 2.0 puede manejar workflows agentic con voz en tiempo real y pantalla?"
+	  },
+	  "answer": {
+		"en": "Yes. Gemini Live API is available through the AI Studio workflow and supports realtime multimodal interaction. Google also highlights first-token latency around 600 milliseconds, which makes it viable for live copilots, screen assistance, and voice-driven prototyping.",
+		"zh": "可以。Gemini Live API 能通过 AI Studio 工作流进行实时多模态交互测试。Google 官方还强调其首 token 延迟约为 600 毫秒，这让它适合做实时 Copilot、屏幕辅助和语音驱动的原型验证。",
+		"ja": "はい。Gemini Live API は AI Studio のワークフロー経由で利用でき、リアルタイムなマルチモーダル対話をサポートします。Google は約 600 ミリ秒の first-token latency も示しており、ライブ Copilot、画面支援、音声主導の試作に適しています。",
+		"ko": "예. Gemini Live API는 AI Studio 워크플로를 통해 사용할 수 있으며 실시간 멀티모달 상호작용을 지원합니다. Google은 약 600밀리초 수준의 first-token latency도 강조하고 있어 라이브 코파일럿, 화면 보조, 음성 기반 프로토타이핑에 활용 가능합니다.",
+		"es": "Sí. Gemini Live API está disponible a través del workflow de AI Studio y admite interacción multimodal en tiempo real. Google también destaca una first-token latency cercana a 600 milisegundos, lo que la hace viable para copilots en vivo, asistencia sobre pantalla y prototipado guiado por voz."
+	  }
+	}
+  ],
+  "comparison_table_jsonb": {
+	"en": {
+	  "reason": "While OpenAI Playground is stronger for teams already committed to GPT-centric testing and familiar API workflows, Google AI Studio 2.0 is the better buy for builders who want free browser experimentation, Gemini-native multimodal testing, and a cleaner bridge into Google production infrastructure.",
+	  "caption": "Comparison: Google AI Studio 2.0 vs OpenAI Playground",
+	  "columns": [
+		"Dimension",
+		"Google AI Studio 2.0",
+		"OpenAI Playground"
+	  ],
+	  "rows": [
+		[
+		  "Core use case",
+		  "Gemini-native prompt, multimodal, and realtime prototyping",
+		  "GPT-focused prompt and API experimentation"
+		],
+		[
+		  "Starting cost",
+		  "Free interface, paid usage from $0.10 per 1M input tokens on Gemini 2.0 Flash",
+		  "Usage billed through OpenAI API pricing"
+		],
+		[
+		  "Multimodal workflow depth",
+		  "Strong browser testing for text, image, audio, and Live API scenarios",
+		  "Strong text workflows, but different realtime and multimodal tradeoffs"
+		],
+		[
+		  "Production handoff",
+		  "Natural path into Gemini API and Vertex AI",
+		  "Natural path into OpenAI API stack"
+		],
+		[
+		  "Enterprise readiness",
+		  "Good for prototyping, but lighter governance than Vertex AI",
+		  "Good for experimentation, but enterprises often need Azure or other controls"
+		],
+		[
+		  "ROI profile",
+		  "Higher ROI for teams prototyping fast on Google’s stack",
+		  "Higher ROI for teams already standardized on OpenAI"
+		]
+	  ],
+	  "tldr": "Choose Google AI Studio 2.0 if your bottleneck is rapid multimodal prototyping with low upfront cost on the Google stack. Choose OpenAI Playground if your bottleneck is staying inside an existing GPT workflow and you value ecosystem continuity more than lower entry cost."
+	},
+	"zh": {
+	  "reason": "虽然 OpenAI Playground 更适合已经围绕 GPT 测试链路和熟悉 API 工作流 建立标准的团队，但 Google AI Studio 2.0 对于想要 免费浏览器实验、Gemini 原生多模态测试，以及更顺滑接入 Google 生产基础设施 的构建者来说更值得买。",
+	  "caption": "Google AI Studio 2.0 与核心竞品对比",
+	  "columns": [
+		"对比维度",
+		"Google AI Studio 2.0",
+		"OpenAI Playground"
+	  ],
+	  "rows": [
+		[
+		  "核心痛点场景",
+		  "面向 Gemini 的提示、多模态与实时原型开发",
+		  "偏向 GPT 的提示与 API 实验环境"
+		],
+		[
+		  "起步成本",
+		  "界面免费，Gemini 2.0 Flash 付费从每百万输入 tokens 0.10 美元起",
+		  "按 OpenAI API 定价计费"
+		],
+		[
+		  "多模态工作流深度",
+		  "在浏览器里测试文本、图像、音频和 Live API 更完整",
+		  "文本工作流成熟，但实时和多模态取舍不同"
+		],
+		[
+		  "迁移到生产",
+		  "更自然衔接 Gemini API 和 Vertex AI",
+		  "更自然衔接 OpenAI API 体系"
+		],
+		[
+		  "企业级准备度",
+		  "适合做原型，但治理能力弱于 Vertex AI",
+		  "适合实验，但企业常需 Azure 等更强控制层"
+		],
+		[
+		  "ROI 结构",
+		  "更适合在 Google 技术栈里低成本快速验证",
+		  "更适合已完成 OpenAI 标准化的团队"
+		]
+	  ],
+	  "tldr": "选 Google AI Studio 2.0，如果你的瓶颈是低成本快速验证多模态原型，并且未来会走 Google 栈。选 OpenAI Playground，如果你的瓶颈是继续留在既有 GPT 工作流里，并且更看重生态连续性。"
+	},
+	"ja": {
+	  "reason": "OpenAI Playground は、GPT 中心の検証フローや既存 API 運用に既に最適化されたチームに向いていますが、Google AI Studio 2.0 は、ブラウザ上での無料検証、Gemini ネイティブのマルチモーダル試作、Google の本番基盤への自然な接続を重視するビルダーにとって、より導入価値の高い選択肢です。",
+	  "caption": "比較: Google AI Studio 2.0 と OpenAI Playground",
+	  "columns": [
+		"比較項目",
+		"Google AI Studio 2.0",
+		"OpenAI Playground"
+	  ],
+	  "rows": [
+		[
+		  "主な用途",
+		  "Gemini ネイティブのプロンプト、マルチモーダル、リアルタイム試作",
+		  "GPT 中心のプロンプトおよび API 実験"
+		],
+		[
+		  "導入コスト",
+		  "UI は無料、Gemini 2.0 Flash は入力 100 万 tokens あたり 0.10 ドルから従量課金",
+		  "OpenAI API の価格体系で課金"
+		],
+		[
+		  "マルチモーダルワークフローの深さ",
+		  "テキスト、画像、音声、Live API をブラウザで強力に検証可能",
+		  "テキスト系は強いが、リアルタイムとマルチモーダルの特性は異なる"
+		],
+		[
+		  "本番移行",
+		  "Gemini API と Vertex AI への移行が自然",
+		  "OpenAI API スタックへの移行が自然"
+		],
+		[
+		  "企業導入適性",
+		  "試作には適するが、ガバナンスは Vertex AI より軽い",
+		  "実験には適するが、企業では Azure など追加統制が必要になりやすい"
+		],
+		[
+		  "ROI 特性",
+		  "Google スタック上で迅速に試作するチームに高い ROI",
+		  "OpenAI に標準化済みのチームに高い ROI"
+		]
+	  ],
+	  "tldr": "低い初期コストでマルチモーダル試作を高速に進め、将来的に Google スタックへ載せるなら Google AI Studio 2.0 が有力です。既存の GPT ワークフロー内にとどまり、エコシステム継続性を優先するなら OpenAI Playground が適しています。"
+	},
+	"ko": {
+	  "reason": "OpenAI Playground가 GPT 중심 테스트와 익숙한 API 워크플로에 이미 맞춰진 팀에 더 강하다면, Google AI Studio 2.0는 무료 브라우저 실험, Gemini 네이티브 멀티모달 테스트, Google 운영 인프라로의 더 자연스러운 연결을 원하는 빌더에게 더 나은 선택입니다.",
+	  "caption": "비교: Google AI Studio 2.0 vs OpenAI Playground",
+	  "columns": [
+		"비교 항목",
+		"Google AI Studio 2.0",
+		"OpenAI Playground"
+	  ],
+	  "rows": [
+		[
+		  "핵심 사용 사례",
+		  "Gemini 네이티브 프롬프트, 멀티모달, 실시간 프로토타이핑",
+		  "GPT 중심 프롬프트 및 API 실험"
+		],
+		[
+		  "시작 비용",
+		  "인터페이스는 무료, Gemini 2.0 Flash는 입력 100만 tokens당 0.10달러부터 유료 사용",
+		  "OpenAI API 가격 체계로 과금"
+		],
+		[
+		  "멀티모달 워크플로 깊이",
+		  "텍스트, 이미지, 오디오, Live API 시나리오를 브라우저에서 강하게 검증",
+		  "텍스트 워크플로는 강하지만 실시간 및 멀티모달 특성은 다름"
+		],
+		[
+		  "운영 전환",
+		  "Gemini API와 Vertex AI로 자연스럽게 연결",
+		  "OpenAI API 스택으로 자연스럽게 연결"
+		],
+		[
+		  "엔터프라이즈 준비도",
+		  "프로토타이핑에는 좋지만 거버넌스는 Vertex AI보다 약함",
+		  "실험에는 좋지만 기업은 Azure 등 추가 제어를 요구하는 경우가 많음"
+		],
+		[
+		  "ROI 특성",
+		  "Google 스택에서 빠르게 프로토타이핑하는 팀에 높은 ROI",
+		  "이미 OpenAI로 표준화된 팀에 높은 ROI"
+		]
+	  ],
+	  "tldr": "낮은 초기 비용으로 멀티모달 프로토타이핑을 빠르게 진행하고 이후 Google 스택으로 연결할 계획이라면 Google AI Studio 2.0가 유리합니다. 기존 GPT 워크플로 안에 머물며 생태계 연속성을 중시한다면 OpenAI Playground가 더 적합합니다."
+	},
+	"es": {
+	  "reason": "Mientras OpenAI Playground encaja mejor para equipos ya comprometidos con pruebas centradas en GPT y workflows de API familiares, Google AI Studio 2.0 es una compra más inteligente para builders que quieren experimentación gratuita en navegador, pruebas multimodales nativas de Gemini y un puente más limpio hacia la infraestructura productiva de Google.",
+	  "caption": "Comparación: Google AI Studio 2.0 vs OpenAI Playground",
+	  "columns": [
+		"Dimensión",
+		"Google AI Studio 2.0",
+		"OpenAI Playground"
+	  ],
+	  "rows": [
+		[
+		  "Caso de uso principal",
+		  "Prototipado nativo con Gemini para prompts, multimodalidad y tiempo real",
+		  "Experimentación con prompts y API centrada en GPT"
+		],
+		[
+		  "Coste de entrada",
+		  "Interfaz gratuita, uso de pago desde 0.10 dólares por 1M input tokens en Gemini 2.0 Flash",
+		  "Facturación según el pricing de la API de OpenAI"
+		],
+		[
+		  "Profundidad del workflow multimodal",
+		  "Pruebas potentes en navegador para texto, imagen, audio y escenarios con Live API",
+		  "Workflows de texto sólidos, pero con otros compromisos en tiempo real y multimodalidad"
+		],
+		[
+		  "Paso a producción",
+		  "Ruta natural hacia Gemini API y Vertex AI",
+		  "Ruta natural hacia el stack de OpenAI API"
+		],
+		[
+		  "Preparación enterprise",
+		  "Bueno para prototipado, pero con gobernanza más ligera que Vertex AI",
+		  "Bueno para experimentación, aunque las empresas suelen requerir Azure u otros controles"
+		],
+		[
+		  "Perfil de ROI",
+		  "Mayor ROI para equipos que prototipan rápido sobre el stack de Google",
+		  "Mayor ROI para equipos ya estandarizados en OpenAI"
+		]
+	  ],
+	  "tldr": "Elige Google AI Studio 2.0 si tu cuello de botella es el prototipado multimodal rápido con bajo coste inicial dentro del stack de Google. Elige OpenAI Playground si tu prioridad es seguir dentro de un workflow GPT ya existente y valoras más la continuidad del ecosistema que un coste de entrada menor."
+	}
+  },
+  "seo_title_jsonb": {
+	"en": "Google AI Studio 2.0 Review 2026: Pricing, Pros & Cons, Alternatives",
+	"zh": "Google AI Studio 2.0 怎么样？2026 最新评测：价格、优缺点与竞品对比",
+	"ja": "【徹底レビュー】Google AI Studio 2.0 の評判は？料金・強み・代替比較",
+	"ko": "Google AI Studio 2.0 솔직 후기: 가격, 장단점 및 추천 대안",
+	"es": "Opiniones de Google AI Studio 2.0: Precio, Ventajas y Alternativas"
+  },
+  "seo_description_jsonb": {
+	"en": "Google AI Studio 2.0 Review: compare Pricing, Free Tier access, Gemini prototyping, and OpenAI alternatives before you build on Google.",
+	"zh": "Google AI Studio 2.0 评测：看 Pricing、Free Tier、Gemini 原型能力与 OpenAI 替代方案，再决定是否接入 Google 技术栈。",
+	"ja": "Google AI Studio 2.0 の Pricing、Free Tier、Gemini 試作性能、OpenAI 代替比較を確認し、Google スタック導入前の判断材料にできます。",
+	"ko": "Google AI Studio 2.0의 Pricing, Free Tier, Gemini 프로토타이핑 역량, OpenAI 대안을 확인하고 Google 스택 도입 여부를 판단할 수 있습니다.",
+	"es": "Review de Google AI Studio 2.0: compara Pricing, Free Tier, prototipado con Gemini y alternativas a OpenAI antes de construir sobre Google."
+  }
+}
