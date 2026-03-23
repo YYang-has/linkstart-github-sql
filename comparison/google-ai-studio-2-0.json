@@ -1,6 +1,6 @@
 {
   "slug": "google-ai-studio-2-0",
-  "data": {
+  "comparison_table_jsonb": {
 	"en": {
 	  "reason": "These three products belong in the same buying conversation because they all target the **developer workbench** use case: testing prompts, validating outputs, iterating on multimodal workflows, and moving from experiment to production with minimal friction. The real replacement decision is not 'which chatbot is better', but **which console helps a team ship faster inside its preferred model ecosystem**.",
 	  "caption": "Developer Console Comparison for Rapid AI Prototyping",
