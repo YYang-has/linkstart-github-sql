@@ -1,250 +1,250 @@
 {
-  "slug": "google-ai-studio-2-0",
+  "slug": "stitch-2-0",
   "comparison_table_jsonb": {
 	"en": {
-	  "reason": "These three products belong in the same buying conversation because they all target the **developer workbench** use case: testing prompts, validating outputs, iterating on multimodal workflows, and moving from experiment to production with minimal friction. The real replacement decision is not 'which chatbot is better', but **which console helps a team ship faster inside its preferred model ecosystem**.",
-	  "caption": "Developer Console Comparison for Rapid AI Prototyping",
+	  "reason": "These three products belong in the same **idea-to-interface** buying decision: teams want to turn prompts, screenshots, or rough requirements into usable product UI quickly, but **Stitch 2.0** is strongest in AI-native design exploration, **Lovable** in fast app shipping, and **v0** in developer-first front-end generation.",
+	  "caption": "Stitch 2.0 vs Lovable vs v0",
 	  "columns": [
 		"Dimension",
-		"[Google AI Studio 2.0](https://aistudio.google.com)",
-		"[OpenAI Playground](https://platform.openai.com/playground)",
-		"[Anthropic Console](https://console.anthropic.com)"
+		"[Stitch 2.0](https://stitch.withgoogle.com/home)",
+		"[Lovable](https://lovable.dev)",
+		"[v0](https://v0.dev)"
 	  ],
 	  "rows": [
 		[
-		  "Core pain-point scenario",
-		  "Best for teams that want to **prototype Gemini-native apps fast** in a browser, especially when the workflow starts from prompting, file testing, structured output, and quick handoff into Google APIs.",
-		  "Best for builders who need a **general-purpose OpenAI sandbox** for trying text, image, audio, and realtime product flows before wiring them into the broader OpenAI platform.",
-		  "Best for teams optimizing **prompt quality, safety-sensitive tasks, and long-context reasoning** before moving Claude-based features into production."
+		  "Core use case",
+		  "**Best for** product teams that need fast mobile and web UI exploration, especially when work starts from prompts and iterative visual refinement.",
+		  "**Best for** founders and lean teams that want to move from idea to a working app or website with minimal coding overhead.",
+		  "**Best for** developers who want to generate production-oriented front-end UI quickly while keeping control in a modern code workflow."
 		],
 		[
-		  "Differentiating edge",
-		  "Its strongest hook is **speed-to-first-prototype** inside Google's stack: low setup friction, direct Gemini experimentation, and a natural path toward Gemini API and Google cloud workflows.",
-		  "Its biggest advantage is **surface-area breadth**. If a team expects to explore multiple OpenAI modalities and product primitives in one place, Playground is usually the more flexible staging ground.",
-		  "Its killer advantage is **prompt engineering discipline**. Anthropic Console is especially compelling when teams care about controllability, evaluation quality, and more deliberate prompt iteration."
+		  "Killer differentiator",
+		  "**AI-native canvas** and conversational design iteration make it strong when the job is to explore, critique, and refine interface directions fast.",
+		  "**Chat-to-app** flow shortens the path from concept to a usable product, which matters when validation speed is the top priority.",
+		  "**Developer-first code output** is the key advantage, especially for teams that care more about editable UI code than pure design experimentation."
 		],
 		[
 		  "Performance and limits",
-		  "Excellent for rapid iteration, but the trade-off is that it is most compelling when your roadmap already leans toward **Gemini-specific capabilities**. Cross-vendor neutrality is not its core value proposition.",
-		  "Strong for broad experimentation, but cost visibility can rise quickly once teams test many variants at scale. It is powerful, though the platform can feel **API-centric rather than workflow-opinionated**.",
-		  "Often shines in reasoning-heavy or policy-sensitive workflows, but it is less about flashy breadth and more about **depth of prompt behavior**. Teams seeking the widest multimodal playground may find it narrower than OpenAI's environment."
+		  "Strong at **high-fidelity UI ideation** and polishing screens, but it is less centered on full product assembly and operational logic.",
+		  "Very fast for **end-to-end prototype creation**, but complex logic, architecture, and long-term maintainability still need human review.",
+		  "Excellent for **front-end scaffolding** and component generation, but teams usually need to wire business logic, data flow, and final polish themselves."
 		],
 		[
-		  "Workflow and ecosystem fit",
-		  "The best fit for organizations already using **Google Cloud, Gemini APIs, or Google-centric data workflows**. Onboarding is typically straightforward for developers who want a fast browser-based start.",
-		  "A strong fit for teams standardizing on **OpenAI's developer platform** and expecting downstream use of adjacent APIs and product building blocks.",
-		  "A strong fit for companies that prioritize **Claude-based agents, safer enterprise usage patterns, and careful prompt iteration** over ecosystem sprawl."
+		  "Ecosystem and ramp",
+		  "Lower barrier for designers, PMs, and mixed product teams; especially attractive if your workflow already leans toward the **Google** ecosystem.",
+		  "Easy to approach for non-engineers because the interaction model is simple; a good fit when the team wants fewer tool switches.",
+		  "Most natural for teams already comfortable with **React, Tailwind, and modern web stacks**; less friendly for purely design-led teams."
 		],
 		[
-		  "Cost and ROI",
-		  "The ROI story is attractive when a team wants to **start cheap and validate quickly**, because the studio layer is easy to enter and the main spend usually appears when usage moves into production APIs.",
-		  "The value is highest when a team will actually use **multiple OpenAI capabilities**. For narrow single-model testing, it can be more expensive than necessary relative to the learning gained.",
-		  "The ROI is strongest when better prompts reduce expensive downstream errors, rewrites, or review cycles. In that scenario, **higher-quality prompt iteration can pay back quickly** even if raw token cost is not the lowest."
+		  "Collaboration and handoff",
+		  "A better fit when you need a smoother bridge across **idea, design review, and developer handoff**.",
+		  "A better fit when one team wants to stay in **one surface** from ideation to iteration to launch.",
+		  "A better fit when the people prompting the UI are also the people editing and shipping the code."
 		],
 		[
-		  "Best-fit buyer",
-		  "**Choose this** if you are a Gemini-first builder, an internal tools team on Google stack, or a startup that wants the shortest path from browser prototype to Gemini app.",
-		  "**Choose this** if you want broad OpenAI experimentation, especially for products touching multimodal UX, agent patterns, or realtime interaction surfaces.",
-		  "**Choose this** if your team values reliability, nuanced instruction following, and a more rigorous prompt design workflow for enterprise-facing AI features."
+		  "ROI",
+		  "The value is highest when interface direction changes often and better alignment reduces rework; the return comes from **faster design decisions**.",
+		  "The best ROI usually appears when a small team must validate and launch quickly; the return comes from **shorter time to live product**.",
+		  "The best ROI usually appears in engineering-led teams that want faster UI output without giving up code ownership; the return comes from **higher developer throughput**."
 		]
 	  ],
-	  "tldr": "If you care most about **fast Gemini prototyping and Google ecosystem fit**, pick Google AI Studio 2.0. If you need **the broadest OpenAI product playground**, choose OpenAI Playground. If your priority is **prompt quality, controllability, and Claude-centered enterprise workflows**, Anthropic Console is the stronger bet."
+	  "tldr": "If you care most about **AI-first UI exploration and cleaner design handoff**, choose **Stitch 2.0**; if you want the **fastest path from idea to a live app**, **Lovable** is the better buy; if you prioritize **developer-controlled front-end generation inside a code-centric workflow**, pick **v0**."
 	},
 	"zh": {
-	  "reason": "这三款产品适合放在一起比较，因为它们解决的是同一类 **开发者工作台** 需求：测试提示词、验证输出效果、迭代多模态流程，并尽可能顺滑地从实验走向生产。真实的替换场景并不是『哪个聊天机器人更强』，而是 **哪个控制台更能在既定模型生态里帮助团队更快落地**。",
-	  "caption": "面向快速 AI 原型开发的开发者控制台对比",
+	  "reason": "这三款产品对应的是同一个 **从想法到界面** 的采购决策：团队都希望把提示词、截图或模糊需求尽快转成可用界面，但 **Stitch 2.0** 更偏向 AI 原生设计探索，**Lovable** 更偏向快速做出可上线应用，**v0** 则更偏向开发者主导的前端代码生成。",
+	  "caption": "Stitch 2.0、Lovable 与 v0 对比",
 	  "columns": [
 		"对比维度",
-		"[Google AI Studio 2.0](https://aistudio.google.com)",
-		"[OpenAI Playground](https://platform.openai.com/playground)",
-		"[Anthropic Console](https://console.anthropic.com)"
+		"[Stitch 2.0](https://stitch.withgoogle.com/home)",
+		"[Lovable](https://lovable.dev)",
+		"[v0](https://v0.dev)"
 	  ],
 	  "rows": [
 		[
 		  "核心痛点场景",
-		  "适合希望在浏览器中 **快速验证 Gemini 应用原型** 的团队，尤其适用于从提示词设计、文件测试、结构化输出到接入 Google API 的一体化起步流程。",
-		  "适合需要一个 **通用型 OpenAI 沙盒** 的开发者，用于先行验证文本、图像、音频、实时交互等产品流程，再接入 OpenAI 平台能力。",
-		  "适合重点优化 **提示词质量、安全敏感任务与长上下文推理** 的团队，在将 Claude 能力投入生产前先把行为边界和稳定性打磨清楚。"
+		  "**更适合** 需要快速生成移动端与 Web 界面方案的产品团队，尤其适用于从提示词出发、反复做视觉迭代的场景。",
+		  "**更适合** 创业者和精简团队，以尽量少的编码成本，把想法快速做成可运行的网站或应用。",
+		  "**更适合** 希望快速生成前端界面、同时又要保留代码控制权的开发团队。"
 		],
 		[
 		  "差异化杀手锏",
-		  "它最强的吸引力在于 **原型成型速度快**：接入门槛低，能直接实验 Gemini，并自然衔接 Gemini API 与 Google 云侧工作流。",
-		  "它的优势在于 **能力面更宽**。如果团队希望在一个环境里探索更多 OpenAI 的模态与产品原语，Playground 往往更灵活。",
-		  "它的核心价值在于 **提示工程更严谨**。当团队更关注可控性、评测质量和高质量提示词迭代时，Anthropic Console 通常更有吸引力。"
+		  "**AI 原生画布** 与对话式设计迭代能力更强，适合在短时间内探索、评审并收敛界面方向。",
+		  "**对话生成应用** 的路径更短，概念到可用产品的转换效率高，适合把验证速度放在第一位的团队。",
+		  "**开发者优先的代码产出** 是核心优势，适合更在意可编辑前端代码、而非纯设计试验的团队。"
 		],
 		[
 		  "性能表现与限制",
-		  "非常适合快速试错，但前提是你的路线本身更偏向 **Gemini 能力栈**。如果你追求跨厂商中立，它并不是最核心的卖点。",
-		  "适合大范围实验，但当团队并行测试很多变体时，成本感知会上升。它很强大，不过整体更偏 **API 平台导向**，而不是强工作流导向。",
-		  "它常常在复杂推理或策略敏感任务里表现突出，但重心不是花哨的能力覆盖，而是 **提示行为的深度调优**。若你追求最宽的多模态试玩面，它会比 OpenAI 更收敛。"
+		  "擅长 **高保真 UI 构思与打磨**，但对完整产品装配、业务逻辑和运行层面的覆盖相对没那么重。",
+		  "在 **端到端原型生成** 上速度很快，但复杂业务逻辑、架构设计和长期可维护性仍需要人工把关。",
+		  "在 **前端脚手架与组件生成** 上效率很高，但业务逻辑、数据流和最终产品打磨通常仍要团队自行补齐。"
 		],
 		[
 		  "生态与上手门槛",
-		  "对于已经采用 **Google Cloud、Gemini API 或 Google 数据工作流** 的组织最顺手。开发者通常可以用浏览器低门槛起步。",
-		  "适合准备统一在 **OpenAI 开发者平台** 上构建产品的团队，尤其是后续还会继续使用周边 API 与平台组件的场景。",
-		  "适合重视 **Claude 智能体、安全型企业使用方式与精细提示词迭代** 的公司，而不是追求生态面铺得尽可能大。"
+		  "对设计师、产品经理和混合型团队更友好；如果现有工作流靠近 **Google** 生态，接入会更顺。",
+		  "对非工程背景用户更友好，交互方式直接，适合希望减少工具切换的团队。",
+		  "对已经熟悉 **React、Tailwind 与现代 Web 技术栈** 的团队最顺手；纯设计导向团队上手门槛相对更高。"
+		],
+		[
+		  "协作与交付路径",
+		  "更适合需要打通 **需求想法、设计评审、开发交接** 的团队协作链路。",
+		  "更适合希望在 **一个工作界面** 内完成构思、迭代与发布的团队。",
+		  "更适合由同一批人既负责提示生成，也负责改代码和上线的开发流程。"
 		],
 		[
 		  "综合投入产出比",
-		  "如果团队目标是 **低成本起步、快速验证**，它的 ROI 很有吸引力，因为工作台层面上手轻，主要成本通常发生在进入生产 API 之后。",
-		  "当团队确实会用到 **多种 OpenAI 能力** 时，它的投入更值得；但若只是做单模型、窄场景验证，学习收益未必覆盖持续成本。",
-		  "如果更好的提示词可以减少错误输出、返工和人工审核，它的 ROI 会很明显。在这类场景下，**更高质量的提示词迭代往往能快速回本**。"
-		],
-		[
-		  "最适合谁",
-		  "**优先选它**：你是 Gemini 优先的开发者、基于 Google 技术栈的内部工具团队，或想把浏览器原型快速推进为 Gemini 应用的创业团队。",
-		  "**优先选它**：你需要广泛试验 OpenAI 的能力，尤其产品会涉及多模态交互、Agent 模式或实时交互界面。",
-		  "**优先选它**：你更看重稳定性、复杂指令遵循，以及面向企业场景的严谨提示词设计流程。"
+		  "当界面方向频繁变化、返工成本高时更值得投入，其核心回报来自 **更快的设计决策速度**。",
+		  "对小团队而言，若目标是尽快验证并上线，ROI 往往最高，核心回报来自 **更短的上线路径**。",
+		  "对工程主导团队而言，如果既要提速又不能放弃代码所有权，ROI 通常更高，核心回报来自 **更高的开发吞吐**。"
 		]
 	  ],
-	  "tldr": "如果你最看重 **Gemini 原型开发效率与 Google 生态衔接**，选择 Google AI Studio 2.0；如果你更需要 **OpenAI 侧最宽的产品实验面**，选择 OpenAI Playground；如果你更关注 **提示词质量、可控性与 Claude 为核心的企业工作流**，Anthropic Console 更合适。"
+	  "tldr": "如果你看重 **高质量界面探索与设计交付衔接**，选 **Stitch 2.0**；如果你更关注 **从想法到可上线应用的最短路径**，**Lovable** 更合适；如果你的核心诉求是 **开发者可控的前端代码生成效率**，选 **v0**。"
 	},
 	"ja": {
-	  "reason": "この3製品を同じ比較軸で見るべき理由は、いずれも **開発者向けワークベンチ** として、プロンプト検証、出力評価、マルチモーダル設計、そして実験から本番導入までの移行を支援するためです。実際の選定ポイントは『どのチャットAIが強いか』ではなく、**自社が採用するモデル基盤の中で、どのコンソールが最も速く価値検証を進められるか** にあります。",
-	  "caption": "迅速なAIプロトタイピング向け開発者コンソール比較",
+	  "reason": "この3製品は、いずれも **アイデアをUIに変換する** という同一の導入判断に属しますが、**Stitch 2.0** はAIネイティブなデザイン探索、**Lovable** はアプリの高速立ち上げ、**v0** は開発者主導のフロントエンド生成にそれぞれ強みがあります。",
+	  "caption": "Stitch 2.0・Lovable・v0 の比較",
 	  "columns": [
 		"比較軸",
-		"[Google AI Studio 2.0](https://aistudio.google.com)",
-		"[OpenAI Playground](https://platform.openai.com/playground)",
-		"[Anthropic Console](https://console.anthropic.com)"
+		"[Stitch 2.0](https://stitch.withgoogle.com/home)",
+		"[Lovable](https://lovable.dev)",
+		"[v0](https://v0.dev)"
 	  ],
 	  "rows": [
 		[
 		  "中核ユースケース",
-		  "ブラウザ上で **Gemini前提のアプリ原型を素早く検証** したいチームに最適です。プロンプト設計、ファイル検証、構造化出力、Google API連携までを一気通貫で始めやすい構成です。",
-		  "テキスト、画像、音声、リアルタイム体験まで含めて **OpenAI全体を横断的に試したい** 開発者に向いています。本番実装前の検証環境として汎用性が高いです。",
-		  "**プロンプト品質、安全性が重要な業務、長文脈推論** を重視するチームに向いています。Claudeベース機能を本番化する前の設計・調整に強みがあります。"
+		  "**最適** なのは、プロンプト起点でモバイル・Web UI を素早く検討し、画面案を反復的に磨き込みたいプロダクトチームです。",
+		  "**最適** なのは、少人数でアイデアから動くアプリやサイトまで一気に進めたいスタートアップや新規事業チームです。",
+		  "**最適** なのは、モダンな開発フローの中でコード管理を維持しつつ、フロントエンドUIを高速生成したい開発チームです。"
 		],
 		[
 		  "差別化ポイント",
-		  "最大の強みは **初期試作までの速さ** です。Googleのスタック内で立ち上がりが軽く、Gemini実験からAPI利用、クラウド連携へ自然につながります。",
-		  "最大の魅力は **扱える領域の広さ** です。OpenAIの複数モダリティや開発要素を1つの環境で試したい場合、柔軟性が高い選択肢です。",
-		  "決定的な価値は **プロンプト設計の精度を高めやすいこと** です。制御性、評価品質、反復改善を重視する組織に適しています。"
+		  "**AIネイティブなキャンバス** と対話型の反復設計が強く、短時間で画面方向性を探索しやすい点が武器です。",
+		  "**会話からアプリ化** までの距離が短く、検証速度を最重視するケースで優位性があります。",
+		  "**開発者向けのコード出力** が最大の特徴で、編集可能なUIコードを前提とする運用に向いています。"
 		],
 		[
 		  "実運用での強みと制約",
-		  "高速な反復検証には非常に有効ですが、真価は **Gemini中心のロードマップ** を持つ場合に発揮されます。マルチベンダー中立性そのものを売りにする製品ではありません。",
-		  "幅広い実験には強い一方で、多数のバリエーションを並行検証するとコスト管理が課題になりやすいです。全体としては **APIプラットフォーム寄り** の設計思想です。",
-		  "高度推論や方針準拠が求められる場面で力を発揮しやすい反面、派手な機能網羅より **プロンプト挙動の深い最適化** を重視する方向です。"
+		  "**高精細なUI案の生成と洗練** に強い一方で、製品全体の業務ロジック実装までを中心に据えた設計ではありません。",
+		  "**エンドツーエンドの試作** は非常に速いものの、複雑なロジックや長期保守性は別途の設計判断が必要です。",
+		  "**フロントエンドの雛形生成** には強いものの、業務ロジック、データ接続、最終品質の詰めはチーム側で担う必要があります。"
 		],
 		[
-		  "エコシステム適合性",
-		  "**Google Cloud、Gemini API、Google系データ基盤** をすでに活用している企業との相性が高く、ブラウザ起点で導入しやすいです。",
-		  "**OpenAI開発基盤** を中核に据えるチームに向いており、周辺APIや将来の機能拡張も視野に入れやすいです。",
-		  "**Claude中心のエージェント設計、安全性重視の企業導入、慎重なプロンプト反復** を重視する企業に適しています。"
+		  "エコシステムと導入負荷",
+		  "デザイナー、PM、混成チームに適しており、既存運用が **Google** 系ツールに近いほど導入しやすい構成です。",
+		  "非エンジニアでも扱いやすく、ツールを横断せずに進めたいチームに向いています。",
+		  "**React、Tailwind、モダンWeb開発** に慣れた組織では導入しやすい一方、デザイン専業組織にはやや技術的です。"
+		],
+		[
+		  "協業と引き継ぎ",
+		  "**構想、デザインレビュー、開発引き継ぎ** を滑らかにつなぎたい場合に適しています。",
+		  "**単一の作業面** で企画から反復、公開まで進めたい場合に適しています。",
+		  "UIを生成する人とコードを編集・出荷する人がほぼ同一である開発体制に適しています。"
 		],
 		[
 		  "投資対効果",
-		  "**低コストで素早く仮説検証** したい場合に費用対効果が高いです。ワークベンチ自体の着手負荷が低く、主なコストは本番API利用段階で顕在化しやすい構造です。",
-		  "**OpenAIの複数機能を継続利用する前提** なら投資価値が高いですが、単一モデルの限定検証だけでは費用に見合う学習効果が出にくい場合もあります。",
-		  "高品質なプロンプトによって誤出力、手戻り、レビュー負荷を減らせるなら、**プロンプト改善の質そのものが早期に回収効果を生む** タイプです。"
-		],
-		[
-		  "向いている導入企業",
-		  "**これを選ぶべき** なのは、Gemini優先の開発者、Google基盤上の社内ツールチーム、またはブラウザ試作からGeminiアプリへ素早く進めたいスタートアップです。",
-		  "**これを選ぶべき** なのは、OpenAIの広い実験環境を必要とし、マルチモーダルUX、エージェント設計、リアルタイム体験を検証したいチームです。",
-		  "**これを選ぶべき** なのは、信頼性、複雑な指示追従、企業向けAI機能の慎重な設計フローを重視するチームです。"
+		  "画面方針の変更が多く、手戻り削減が重要な場合に有効で、価値の中心は **意思決定の高速化** にあります。",
+		  "少人数で短期間に検証と公開を進める場合、ROI が高くなりやすく、価値の中心は **リリースまでの短縮** にあります。",
+		  "開発主導組織では、コード所有権を保ったまま速度を上げられるため、価値の中心は **開発生産性の向上** にあります。"
 		]
 	  ],
-	  "tldr": "**Gemini中心で高速に原型を回したい** なら Google AI Studio 2.0、**OpenAIの幅広い機能面を試したい** なら OpenAI Playground、**プロンプト品質、制御性、Claude中心の企業導入** を重視するなら Anthropic Console が有力です。"
+	  "tldr": "**UI探索の質** と **設計から実装への受け渡し** を重視するなら **Stitch 2.0**、**アイデアから公開までの最短距離** を求めるなら **Lovable**、**コード中心で制御可能なフロントエンド生成** を重視するなら **v0** が適しています。"
 	},
 	"ko": {
-	  "reason": "이 세 제품은 모두 **개발자 워크벤치** 라는 같은 구매 맥락에 있기 때문에 함께 비교할 가치가 있습니다. 핵심은 '어떤 챗봇이 더 똑똑한가'가 아니라, **자신의 모델 생태계 안에서 어떤 콘솔이 프롬프트 검증, 출력 평가, 멀티모달 실험, 프로덕션 전환을 가장 빠르게 지원하느냐** 입니다.",
-	  "caption": "빠른 AI 프로토타이핑을 위한 개발자 콘솔 비교",
+	  "reason": "이 세 제품은 모두 **아이디어를 실제 UI로 빠르게 전환** 하려는 동일한 구매 맥락에 놓여 있지만, **Stitch 2.0** 은 AI 네이티브 디자인 탐색, **Lovable** 은 빠른 앱 출시, **v0** 는 개발자 중심 프런트엔드 생성에 더 강한 포지션을 갖고 있습니다.",
+	  "caption": "Stitch 2.0, Lovable, v0 비교",
 	  "columns": [
 		"비교 항목",
-		"[Google AI Studio 2.0](https://aistudio.google.com)",
-		"[OpenAI Playground](https://platform.openai.com/playground)",
-		"[Anthropic Console](https://console.anthropic.com)"
+		"[Stitch 2.0](https://stitch.withgoogle.com/home)",
+		"[Lovable](https://lovable.dev)",
+		"[v0](https://v0.dev)"
 	  ],
 	  "rows": [
 		[
 		  "핵심 문제 해결 시나리오",
-		  "브라우저에서 **Gemini 기반 앱 프로토타입을 빠르게 검증** 하려는 팀에 적합합니다. 프롬프트 설계, 파일 테스트, 구조화 출력, Google API 연동까지 자연스럽게 이어집니다.",
-		  "텍스트, 이미지, 오디오, 실시간 상호작용까지 포함해 **OpenAI 전반을 폭넓게 실험** 하려는 개발자에게 적합한 범용 샌드박스입니다.",
-		  "**프롬프트 품질, 안전 민감 업무, 긴 컨텍스트 추론** 을 중시하는 팀에 적합합니다. Claude 기반 기능을 배포하기 전 동작 안정성을 정교하게 다듬는 데 강점이 있습니다."
+		  "**가장 적합한 대상** 은 프롬프트 기반으로 모바일·웹 UI 방향을 빠르게 탐색하고, 시각적 반복 수정이 많은 제품 팀입니다.",
+		  "**가장 적합한 대상** 은 적은 개발 리소스로 아이디어를 동작하는 앱이나 웹사이트로 빨리 바꾸려는 창업팀과 소규모 팀입니다.",
+		  "**가장 적합한 대상** 은 현대적인 코드 워크플로 안에서 통제력을 유지하며 프런트엔드 UI를 빠르게 생성하려는 개발팀입니다."
 		],
 		[
 		  "차별화 포인트",
-		  "가장 큰 무기는 **첫 프로토타입까지의 속도** 입니다. Google 스택 안에서 진입 장벽이 낮고, Gemini 실험에서 API 및 클라우드 워크플로로 이어지기 쉽습니다.",
-		  "강점은 **기능 표면의 넓이** 입니다. 여러 OpenAI 모달리티와 제품 요소를 한 환경에서 시험하려는 팀이라면 더 유연한 선택이 됩니다.",
-		  "핵심 경쟁력은 **프롬프트 엔지니어링의 정교함** 입니다. 제어 가능성, 평가 품질, 반복 개선을 중시하는 팀에 특히 매력적입니다."
+		  "**AI 네이티브 캔버스** 와 대화형 디자인 반복이 강점이라, 화면 방향을 빠르게 실험하고 정교화하기 좋습니다.",
+		  "**채팅에서 앱 생성까지** 의 경로가 짧아, 시장 검증 속도를 최우선으로 둘 때 강한 선택지입니다.",
+		  "**개발자 우선 코드 출력** 이 핵심 장점이며, 순수 디자인 실험보다 수정 가능한 UI 코드를 중시하는 팀에 유리합니다."
 		],
 		[
-		  "성능과 한계",
-		  "빠른 반복 실험에는 매우 좋지만, 진가는 **Gemini 중심 로드맵** 이 있을 때 더 크게 나타납니다. 멀티벤더 중립성이 핵심 가치인 제품은 아닙니다.",
-		  "넓은 범위의 실험에는 강하지만, 많은 변형을 동시에 테스트하면 비용 체감이 커질 수 있습니다. 전체적으로는 **API 플랫폼 중심 성격** 이 더 강합니다.",
-		  "복잡한 추론이나 정책 민감 시나리오에서 빛나는 경우가 많지만, 화려한 기능 폭보다는 **프롬프트 동작의 깊이 있는 최적화** 에 초점이 맞춰져 있습니다."
+		  "성능과 제약",
+		  "**고충실도 UI 아이데이션** 과 화면 다듬기에 강하지만, 전체 제품 조립이나 운영 로직 중심 도구로 보기는 어렵습니다.",
+		  "**엔드투엔드 프로토타입 생성** 속도는 매우 빠르지만, 복잡한 비즈니스 로직과 장기 유지보수성은 별도 검토가 필요합니다.",
+		  "**프런트엔드 스캐폴딩** 과 컴포넌트 생성에는 강하지만, 비즈니스 로직, 데이터 연결, 최종 완성도는 팀이 직접 메워야 합니다."
 		],
 		[
-		  "생태계와 도입 난이도",
-		  "**Google Cloud, Gemini API, Google 중심 데이터 워크플로** 를 이미 쓰는 조직과 특히 잘 맞습니다. 브라우저 기반으로 시작하기 쉬운 편입니다.",
-		  "**OpenAI 개발자 플랫폼** 을 표준으로 삼으려는 팀에 적합하며, 이후 주변 API와 플랫폼 기능으로 확장하기 좋습니다.",
-		  "**Claude 기반 에이전트, 더 안전한 엔터프라이즈 활용, 세밀한 프롬프트 반복** 을 중시하는 기업에 잘 맞습니다."
+		  "생태계와 학습 곡선",
+		  "디자이너, PM, 혼합형 제품 조직에 비교적 친화적이며, 기존 워크플로가 **Google** 생태계에 가까울수록 도입이 수월합니다.",
+		  "비개발자도 접근하기 쉬우며, 여러 도구를 오가지 않고 빠르게 결과를 내고 싶은 팀에 잘 맞습니다.",
+		  "**React, Tailwind, 최신 Web 스택** 에 익숙한 팀에게 가장 자연스럽고, 순수 디자인 중심 조직에는 다소 기술 장벽이 있습니다."
 		],
 		[
-		  "ROI와 비용 구조",
-		  "**낮은 초기 부담으로 빠르게 검증** 하려는 경우 ROI가 좋습니다. 워크벤치 진입 비용이 가볍고, 본격적인 지출은 대체로 프로덕션 API 단계에서 발생합니다.",
-		  "**여러 OpenAI 기능을 실제로 활용할 계획** 이라면 투자 가치가 높지만, 단일 모델의 좁은 테스트만 한다면 비용 대비 학습 효율이 떨어질 수 있습니다.",
-		  "더 나은 프롬프트가 오류, 재작업, 검수 비용을 줄여 준다면 ROI가 분명합니다. 이런 환경에서는 **프롬프트 품질 개선 자체가 빠르게 비용을 회수** 할 수 있습니다."
+		  "협업과 전달 방식",
+		  "**아이디어, 디자인 리뷰, 개발 핸드오프** 를 부드럽게 잇고 싶을 때 적합합니다.",
+		  "**하나의 작업 공간** 에서 기획, 반복, 배포까지 밀고 가려는 팀에 적합합니다.",
+		  "UI를 생성하는 사람과 코드를 수정·배포하는 사람이 사실상 같은 개발 중심 조직에 적합합니다."
 		],
 		[
-		  "가장 잘 맞는 사용자",
-		  "**이쪽이 적합** 한 경우는 Gemini 우선 개발자, Google 스택 기반 내부 도구 팀, 또는 브라우저 프로토타입을 빠르게 Gemini 앱으로 연결하려는 스타트업입니다.",
-		  "**이쪽이 적합** 한 경우는 OpenAI의 폭넓은 기능 실험이 필요하고, 멀티모달 UX, 에이전트 패턴, 실시간 인터랙션을 다루려는 팀입니다.",
-		  "**이쪽이 적합** 한 경우는 신뢰성, 복잡한 지시 준수, 엔터프라이즈용 AI 기능 설계의 엄격함을 중시하는 팀입니다."
+		  "종합 ROI",
+		  "화면 방향이 자주 바뀌고 재작업 비용이 큰 환경에서 가치가 높으며, 핵심 수익은 **더 빠른 디자인 의사결정** 에서 나옵니다.",
+		  "소규모 팀이 빠르게 검증하고 출시해야 할 때 ROI 가 높아지기 쉽고, 핵심 수익은 **출시까지 걸리는 시간 단축** 입니다.",
+		  "엔지니어링 주도 조직에서 코드 소유권을 유지한 채 속도를 높일 수 있어, 핵심 수익은 **개발 처리량 증가** 입니다."
 		]
 	  ],
-	  "tldr": "**Gemini 중심의 빠른 프로토타이핑과 Google 생태계 연계** 가 중요하면 Google AI Studio 2.0, **OpenAI의 가장 넓은 실험 공간** 이 필요하면 OpenAI Playground, **프롬프트 품질·제어 가능성·Claude 중심 엔터프라이즈 워크플로** 를 중시하면 Anthropic Console이 더 적합합니다."
+	  "tldr": "**디자인 탐색 품질** 과 **핸드오프 효율** 이 중요하면 **Stitch 2.0**, **아이디어에서 실제 서비스까지의 최단 경로** 가 중요하면 **Lovable**, **코드 중심의 통제 가능한 프런트엔드 생성** 이 중요하면 **v0** 를 선택하는 편이 맞습니다."
 	},
 	"es": {
-	  "reason": "Estos tres productos deben compararse juntos porque responden al mismo escenario de compra: un **workbench para desarrolladores** donde se prueban prompts, se validan salidas, se iteran flujos multimodales y se acelera el paso de experimento a producción. La decisión real no es 'qué chatbot responde mejor', sino **qué consola permite desplegar más rápido dentro del ecosistema de modelos que la organización ya prioriza**.",
-	  "caption": "Comparativa de consolas para prototipado rápido de IA",
+	  "reason": "Estos tres productos compiten en la misma decisión de compra de **idea a interfaz**: los equipos quieren convertir prompts, capturas o requisitos difusos en UI utilizable con rapidez, pero **Stitch 2.0** destaca más en exploración de diseño con IA, **Lovable** en salida rápida a producto y **v0** en generación front-end orientada a desarrolladores.",
+	  "caption": "Comparativa de Stitch 2.0, Lovable y v0",
 	  "columns": [
 		"Dimensión",
-		"[Google AI Studio 2.0](https://aistudio.google.com)",
-		"[OpenAI Playground](https://platform.openai.com/playground)",
-		"[Anthropic Console](https://console.anthropic.com)"
+		"[Stitch 2.0](https://stitch.withgoogle.com/home)",
+		"[Lovable](https://lovable.dev)",
+		"[v0](https://v0.dev)"
 	  ],
 	  "rows": [
 		[
-		  "Escenario de dolor principal",
-		  "Encaja mejor con equipos que quieren **prototipar aplicaciones basadas en Gemini con gran velocidad** desde el navegador, especialmente cuando el flujo empieza con prompts, pruebas de archivos, salida estructurada y salto rápido hacia APIs de Google.",
-		  "Es la mejor opción para quienes necesitan un **sandbox generalista de OpenAI** para explorar texto, imagen, audio y experiencias en tiempo real antes de integrarlas en la plataforma más amplia.",
-		  "Resulta más adecuado para equipos que priorizan **calidad de prompts, tareas sensibles en seguridad y razonamiento con contexto largo** antes de llevar capacidades de Claude a producción."
+		  "Caso de uso principal",
+		  "**Encaja mejor** con equipos de producto que necesitan explorar UI móvil y web con rapidez, especialmente cuando el trabajo empieza con prompts y refinamiento visual iterativo.",
+		  "**Encaja mejor** con fundadores y equipos pequeños que buscan pasar de una idea a una app o web funcional con la menor fricción técnica posible.",
+		  "**Encaja mejor** con desarrolladores que quieren generar UI front-end con rapidez sin perder control dentro de un flujo de trabajo basado en código."
 		],
 		[
-		  "Ventaja diferencial",
-		  "Su principal argumento es la **velocidad hasta el primer prototipo**. La fricción inicial es baja y el camino hacia Gemini API y flujos sobre Google Cloud es natural.",
-		  "Su mayor fortaleza es la **amplitud de superficie funcional**. Si un equipo quiere explorar varias modalidades y primitivas de producto de OpenAI en un solo lugar, Playground suele ser más flexible.",
-		  "Su valor diferencial está en la **disciplina de ingeniería de prompts**. Es especialmente atractivo cuando la organización necesita más control, mejor evaluación y una iteración más rigurosa."
+		  "Ventaja decisiva",
+		  "**Canvas nativo de IA** y una iteración conversacional de diseño más fuerte, ideal para explorar, revisar y ajustar direcciones visuales en poco tiempo.",
+		  "**Flujo de chat a aplicación** que reduce la distancia entre concepto y producto utilizable, clave cuando la velocidad de validación manda.",
+		  "**Salida de código orientada al desarrollador** como ventaja central, especialmente valiosa para equipos que priorizan UI editable sobre experimentación puramente visual."
 		],
 		[
 		  "Rendimiento y límites",
-		  "Es excelente para iterar rápido, pero su propuesta brilla de verdad cuando la hoja de ruta ya apunta a **capacidades específicas de Gemini**. La neutralidad entre proveedores no es su foco central.",
-		  "Es fuerte para experimentación amplia, aunque el coste percibido puede crecer cuando el equipo prueba muchas variantes en paralelo. Sigue siendo potente, pero con un enfoque más **centrado en plataforma API** que en flujo guiado.",
-		  "Suele destacar en flujos de razonamiento complejo o sensibles a políticas, pero está menos orientado a una cobertura espectacular y más a la **profundidad del comportamiento del prompt**."
+		  "Rinde bien en **ideación de UI de alta fidelidad** y refinamiento de pantallas, pero no está tan centrado en ensamblar el producto completo con toda su lógica operativa.",
+		  "Es muy rápido para **prototipado de extremo a extremo**, aunque la lógica compleja, la arquitectura y la mantenibilidad a largo plazo siguen requiriendo revisión humana.",
+		  "Es muy sólido en **scaffolding front-end** y generación de componentes, pero la lógica de negocio, el flujo de datos y el pulido final suelen quedar del lado del equipo."
 		],
 		[
-		  "Encaje con el ecosistema",
-		  "Es ideal para organizaciones que ya trabajan con **Google Cloud, Gemini API o flujos de datos centrados en Google**. La entrada suele ser sencilla para desarrolladores que quieren empezar en navegador.",
-		  "Encaja bien con equipos que quieren estandarizar sobre la **plataforma de desarrollo de OpenAI** y después reutilizar APIs y componentes adyacentes del mismo proveedor.",
-		  "Encaja mejor con empresas que priorizan **agentes basados en Claude, patrones de uso empresarial más seguros e iteración cuidadosa de prompts** por encima de una expansión de ecosistema muy amplia."
+		  "Ecosistema y curva de adopción",
+		  "Tiene una barrera de entrada menor para diseñadores, PM y equipos mixtos; gana atractivo si el flujo actual ya se mueve cerca del ecosistema **Google**.",
+		  "Resulta accesible incluso para perfiles no técnicos y funciona bien cuando el equipo quiere reducir saltos entre herramientas.",
+		  "Se integra mejor en equipos ya familiarizados con **React, Tailwind y stacks web modernos**; es menos natural para organizaciones puramente orientadas a diseño."
 		],
 		[
-		  "ROI y estructura de coste",
-		  "La propuesta de valor es sólida cuando el objetivo es **empezar con bajo coste y validar rápido**, porque la capa de estudio es ligera y el gasto importante suele aparecer al pasar a APIs de producción.",
-		  "El retorno es más claro cuando el equipo realmente va a aprovechar **varias capacidades de OpenAI**. Para pruebas estrechas de un solo modelo, puede resultar más caro de lo necesario frente al aprendizaje obtenido.",
-		  "El ROI es más fuerte cuando mejores prompts reducen errores, retrabajo o ciclos de revisión. En ese contexto, **una iteración de prompts de mayor calidad puede amortizarse con rapidez**."
+		  "Colaboración y entrega",
+		  "Funciona mejor cuando hace falta conectar con más fluidez **idea, revisión de diseño y handoff a desarrollo**.",
+		  "Funciona mejor cuando el equipo quiere permanecer en **una sola superficie** desde la ideación hasta la publicación.",
+		  "Funciona mejor cuando quienes generan la UI también van a editar el código y llevarlo a producción."
 		],
 		[
-		  "Comprador ideal",
-		  "**Elígelo** si eres un desarrollador orientado a Gemini, un equipo de herramientas internas sobre stack de Google o una startup que quiere pasar del prototipo en navegador a una app Gemini con la menor fricción posible.",
-		  "**Elígelo** si necesitas una base amplia para experimentar con OpenAI, sobre todo en productos con UX multimodal, patrones de agentes o interacción en tiempo real.",
-		  "**Elígelo** si tu equipo valora fiabilidad, seguimiento fino de instrucciones y un flujo más riguroso de diseño de prompts para funciones de IA empresariales."
+		  "ROI",
+		  "Su valor sube cuando la dirección visual cambia con frecuencia y reducir retrabajo importa; el retorno viene de **decidir diseño más rápido**.",
+		  "Suele ofrecer el mejor ROI cuando un equipo pequeño necesita validar y lanzar deprisa; el retorno viene de **acortar el tiempo hasta producto en vivo**.",
+		  "Suele ofrecer el mejor ROI en equipos liderados por ingeniería que quieren acelerar la salida de UI sin renunciar al control del código; el retorno viene de **más productividad de desarrollo**."
 		]
 	  ],
-	  "tldr": "Si priorizas **prototipado rápido con Gemini y encaje con el ecosistema de Google**, elige Google AI Studio 2.0. Si necesitas **la mayor amplitud dentro del stack de OpenAI**, elige OpenAI Playground. Si valoras más **calidad de prompts, control y flujos empresariales centrados en Claude**, Anthropic Console es la opción más sólida."
+	  "tldr": "Si priorizas **exploración visual de alto nivel** y un **handoff de diseño más limpio**, elige **Stitch 2.0**; si buscas la **ruta más corta de idea a app publicada**, **Lovable** es la mejor compra; si tu prioridad es **generación front-end controlada por desarrolladores en un flujo centrado en código**, elige **v0**."
 	}
   }
 }
