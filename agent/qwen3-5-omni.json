@@ -1,0 +1,632 @@
+{
+  "slug": "qwen3-5-omni",
+  "brand_slug": "qwen",
+  "name_jsonb": {
+	"en": "Qwen3.5-Omni",
+	"zh": "Qwen3.5-Omni",
+	"ja": "Qwen3.5-Omni",
+	"ko": "Qwen3.5-Omni",
+	"es": "Qwen3.5-Omni"
+  },
+  "tagline_jsonb": {
+	"en": "Native Omni-Modal AI Model for Real-Time Voice, Video, Search, and Agent Workflows",
+	"zh": "面向实时语音、视频理解、联网搜索与智能体工作流的原生全模态 AI 模型",
+	"ja": "リアルタイム音声、動画理解、検索、エージェント運用に対応するネイティブ全モーダル AI モデル",
+	"ko": "실시간 음성, 영상 이해, 검색, 에이전트 워크플로를 위한 네이티브 옴니모달 AI 모델",
+	"es": "Modelo de IA omni-modal nativo para voz en tiempo real, vídeo, búsqueda y flujos con agentes"
+  },
+  "description_jsonb": {
+	"en": "> **Executive Summary:** <a href=\"https://qwen.ai/blog?id=qwen3.5-omni-\" target=\"_blank\">Qwen3.5-Omni</a> is Alibaba Qwen's latest native omni-modal model family for teams building voice assistants, multimodal agents, and real-time AI interfaces. Its core value is combining text, image, audio, and video understanding with low-cost deployment paths, built-in function calling, and long-context processing.\n\n**Qwen3.5-Omni** is best understood as an AI infrastructure layer rather than a simple chatbot. It is designed for developers, AI product teams, and system builders who need one model family to handle multimodal input, speech output, function calling, web search, and real-time interaction without stitching together separate ASR, VLM, and TTS services.\n\nThe latest public launch positions the family around three service variants: Plus, Flash, and Light. Community and launch materials indicate **256K context support**, native handling of up to **10 hours of audio** or about **400 seconds of 720p video**, recognition across **113 speech languages**, and speech generation in **36 languages**. That makes it unusually strong for voice agents, multilingual customer support automation, video QA pipelines, and screen-plus-audio copilots.\n\nFor self-hosters and research teams, the open Qwen3-Omni line adds important operational context. The open-source **30B-A3B** model family reports **open-source SOTA on 32 of 36 audio and audio-visual benchmarks** and overall SOTA on **22 of 36**, while the published minimum BF16 memory requirement starts at **78.85 GB** even for a **15-second video**. In other words, the cloud story is accessible, but serious local deployment is still infrastructure-heavy.\n\nQwen3.5-Omni offers a **Free** plan, with paid tiers starting at **about $0.11 per 1M input tokens**. It is less expensive than average for this category.\n\nIn practical workflow terms, Qwen3.5-Omni is most compelling when you want one multimodal stack for speech recognition, video understanding, tool use, and spoken responses. Compared with <a href=\"https://www.linkstartai.com/en/agents/gpt-4o\" target=\"_blank\">GPT-4o</a> and <a href=\"https://www.linkstartai.com/en/agents/gemini\" target=\"_blank\">Gemini</a>, its biggest advantage is the blend of open deployment options, strong audio performance, and lower cost. The biggest drawback is operational complexity: local inference still demands heavy GPU memory, source installs, and careful backend selection such as Transformers, vLLM, Docker, and ffmpeg.",
+	"zh": "> **核心摘要：** <a href=\"https://qwen.ai/blog?id=qwen3.5-omni-\" target=\"_blank\">Qwen3.5-Omni</a> 是阿里 Qwen 最新发布的原生全模态模型家族，面向要构建语音助手、多模态智能体和实时 AI 交互界面的团队。它的核心价值在于，把文本、图像、音频、视频理解，以及工具调用、联网搜索和长上下文处理，收敛到同一套模型能力里。\n\n**Qwen3.5-Omni** 更像 AI 基础设施层，而不只是一个聊天模型。它适合开发者、AI 产品团队和系统构建者，因为它试图用一个模型家族同时覆盖多模态输入、语音输出、函数调用、网页搜索和实时交互，避免把 ASR、VLM 和 TTS 服务分散拼装。\n\n从最新公开信息看，这一代家族主要包括 Plus、Flash 和 Light 三个变体。公开发布材料和社区转述显示，它支持 **256K 上下文**，可原生处理最长 **10 小时音频** 或约 **400 秒 720p 视频**，支持 **113 种语音识别语言** 和 **36 种语音输出语言**。这让它非常适合语音智能体、多语种客服自动化、视频问答流水线，以及屏幕加语音协同 Copilot 场景。\n\n对于自部署团队和研究者来说，开源的 Qwen3-Omni 系列也提供了关键的落地参考。开源 **30B-A3B** 模型家族公布了 **36 项音频与音视频基准中 32 项开源 SOTA**、**22 项总体 SOTA** 的成绩，但它在 BF16 下即便只处理 **15 秒视频**，公开最低显存需求也从 **78.85 GB** 起步。这意味着云端体验门槛不高，但本地严肃部署依然是重基础设施任务。\n\nQwen3.5-Omni offers a **Free** plan, with paid tiers starting at **about $0.11 per 1M input tokens**. It is less expensive than average for this category.\n\n从实际工作流看，Qwen3.5-Omni 最有吸引力的地方，是它可以把语音识别、视频理解、工具调用和语音回复放进同一条多模态技术栈。和 <a href=\"https://www.linkstartai.com/zh/agents/gpt-4o\" target=\"_blank\">GPT-4o</a> 以及 <a href=\"https://www.linkstartai.com/zh/agents/gemini\" target=\"_blank\">Gemini</a> 相比，它最大的优势是开放部署路径、更强的音频能力和更低的调用成本。最大的短板则是工程复杂度不低，本地推理仍然需要高显存、源码安装，以及对 Transformers、vLLM、Docker 和 ffmpeg 的熟练掌握。",
+	"ja": "> **エグゼクティブサマリー：** <a href=\"https://qwen.ai/blog?id=qwen3.5-omni-\" target=\"_blank\">Qwen3.5-Omni</a> は、Alibaba Qwen が公開した最新のネイティブ全モーダルモデル群であり、音声アシスタント、多モーダルエージェント、リアルタイム AI インターフェースを構築するチーム向けに設計されています。中核価値は、テキスト、画像、音声、動画の理解に加え、低コストな導入経路、関数呼び出し、長文脈処理を単一基盤へ統合している点です。\n\n**Qwen3.5-Omni** は、単なるチャットモデルというより AI インフラ層として捉えるのが適切です。開発者、AI プロダクトチーム、システム構築者に向いており、ASR、VLM、TTS を個別に組み合わせずとも、多モーダル入力、音声出力、関数呼び出し、Web 検索、リアルタイム対話を 1 つのモデル群で扱えます。\n\n最新の公開情報では、Plus、Flash、Light の 3 系統が中心です。公開資料とコミュニティ情報によれば、**256K コンテキスト**、最大 **10 時間の音声** または約 **400 秒の 720p 動画** のネイティブ処理、**113 の音声認識言語**、**36 の音声生成言語** に対応します。これにより、音声エージェント、多言語カスタマーサポート自動化、動画 QA パイプライン、画面共有と音声を組み合わせたコパイロット用途で高い競争力があります。\n\nセルフホストや研究利用では、オープンな Qwen3-Omni 系列が運用面の重要な示唆を与えます。オープンソースの **30B-A3B** 系列は、**36 の音声および音声映像ベンチマークのうち 32 で OSS SOTA**、さらに **22 項目で総合 SOTA** を公表しています。一方で、公開されている BF16 最低メモリ要件は **15 秒動画** でも **78.85 GB** から始まるため、本格的なローカル導入には依然として重い基盤が必要です。\n\nQwen3.5-Omni offers a **Free** plan, with paid tiers starting at **about $0.11 per 1M input tokens**. It is less expensive than average for this category.\n\n実運用の観点では、音声認識、動画理解、ツール利用、音声応答を単一の多モーダル基盤で処理したい場合に、Qwen3.5-Omni は特に有力です。<a href=\"https://www.linkstartai.com/en/agents/gpt-4o\" target=\"_blank\">GPT-4o</a> や <a href=\"https://www.linkstartai.com/en/agents/gemini\" target=\"_blank\">Gemini</a> と比べると、オープンな導入選択肢、音声性能、コスト優位性の組み合わせが大きな強みです。反面、ローカル推論では大容量 GPU メモリ、ソースベース導入、Transformers、vLLM、Docker、ffmpeg などのバックエンド選定が必要で、運用難度は低くありません。",
+	"ko": "> **핵심 요약:** <a href=\"https://qwen.ai/blog?id=qwen3.5-omni-\" target=\"_blank\">Qwen3.5-Omni</a>는 Alibaba Qwen이 공개한 최신 네이티브 옴니모달 모델 계열로, 음성 비서, 멀티모달 에이전트, 실시간 AI 인터페이스를 구축하려는 팀을 겨냥한다. 핵심 가치는 텍스트, 이미지, 오디오, 비디오 이해를 저비용 배포 경로, 내장 함수 호출, 장문 컨텍스트 처리와 하나의 스택으로 묶었다는 점이다.\n\n**Qwen3.5-Omni**는 단순 챗봇보다 AI 인프라 레이어로 이해하는 편이 맞다. 개발자, AI 제품팀, 시스템 빌더를 위한 모델 계열로, 별도의 ASR, VLM, TTS 서비스를 이어 붙이지 않고도 멀티모달 입력, 음성 출력, 함수 호출, 웹 검색, 실시간 상호작용을 하나의 모델군에서 처리할 수 있다.\n\n최신 공개 내용 기준으로 이 계열은 Plus, Flash, Light 세 가지 서비스 변형으로 전개된다. 공개 자료와 커뮤니티 정보에 따르면 **256K 컨텍스트**, 최대 **10시간 오디오** 또는 약 **400초 분량의 720p 비디오** 네이티브 처리, **113개 음성 인식 언어**, **36개 음성 생성 언어**를 지원한다. 이 때문에 음성 에이전트, 다국어 고객지원 자동화, 비디오 QA 파이프라인, 화면과 오디오를 함께 다루는 코파일럿 시나리오에서 특히 강하다.\n\n셀프호스팅과 연구 관점에서는 공개된 Qwen3-Omni 라인이 중요한 운영 정보를 제공한다. 오픈소스 **30B-A3B** 계열은 **36개 오디오 및 오디오비주얼 벤치마크 중 32개에서 오픈소스 SOTA**, 그리고 **22개에서 전체 SOTA**를 제시했다. 반면 공개된 BF16 최소 메모리 요구량은 **15초 비디오** 기준으로도 **78.85 GB**부터 시작하므로, 로컬에서 본격 운영하려면 여전히 인프라 부담이 크다.\n\nQwen3.5-Omni offers a **Free** plan, with paid tiers starting at **about $0.11 per 1M input tokens**. It is less expensive than average for this category.\n\n실전 워크플로 관점에서 Qwen3.5-Omni의 가장 큰 매력은 음성 인식, 비디오 이해, 도구 사용, 음성 응답을 하나의 멀티모달 스택으로 처리할 수 있다는 점이다. <a href=\"https://www.linkstartai.com/en/agents/gpt-4o\" target=\"_blank\">GPT-4o</a>와 <a href=\"https://www.linkstartai.com/en/agents/gemini\" target=\"_blank\">Gemini</a>와 비교하면 개방형 배포 옵션, 강한 오디오 성능, 낮은 비용 조합이 가장 큰 강점이다. 다만 로컬 추론에는 대용량 GPU 메모리, 소스 설치, Transformers, vLLM, Docker, ffmpeg 같은 백엔드 선택이 필요해 운영 복잡도는 여전히 높다.",
+	"es": "> **Resumen ejecutivo:** <a href=\"https://qwen.ai/blog?id=qwen3.5-omni-\" target=\"_blank\">Qwen3.5-Omni</a> es la familia más reciente de modelos omni-modales nativos de Alibaba Qwen, pensada para equipos que construyen asistentes de voz, agentes multimodales e interfaces de IA en tiempo real. Su valor central consiste en unificar comprensión de texto, imagen, audio y vídeo con rutas de despliegue de bajo coste, function calling integrado y procesamiento de contexto largo.\n\n**Qwen3.5-Omni** debe entenderse mejor como una capa de infraestructura de IA que como un simple chatbot. Está orientado a desarrolladores, equipos de producto de IA y arquitectos de sistemas que necesitan una sola familia de modelos para manejar entrada multimodal, salida de voz, function calling, búsqueda web e interacción en tiempo real sin tener que ensamblar servicios separados de ASR, VLM y TTS.\n\nEl lanzamiento público más reciente organiza la familia en tres variantes de servicio: Plus, Flash y Light. El material de lanzamiento y la conversación técnica apuntan a **256K de contexto**, procesamiento nativo de hasta **10 horas de audio** o cerca de **400 segundos de vídeo en 720p**, reconocimiento en **113 idiomas de voz** y generación de voz en **36 idiomas**. Esto la vuelve especialmente sólida para agentes de voz, automatización de soporte multilingüe, pipelines de QA sobre vídeo y copilotos que combinan pantalla y audio.\n\nPara equipos de investigación y despliegue propio, la línea abierta Qwen3-Omni aporta un contexto operativo clave. La familia open source **30B-A3B** reporta **SOTA open source en 32 de 36 benchmarks de audio y audio-visual** y **SOTA general en 22 de 36**, mientras que el requisito mínimo publicado de memoria BF16 parte de **78.85 GB** incluso para un **vídeo de 15 segundos**. En otras palabras, la historia en cloud es accesible, pero el despliegue local serio sigue siendo intensivo en infraestructura.\n\nQwen3.5-Omni offers a **Free** plan, with paid tiers starting at **about $0.11 per 1M input tokens**. It is less expensive than average for this category.\n\nEn términos de workflow real, Qwen3.5-Omni resulta más convincente cuando se busca una sola pila multimodal para reconocimiento de voz, comprensión de vídeo, uso de herramientas y respuestas habladas. Frente a <a href=\"https://www.linkstartai.com/en/agents/gpt-4o\" target=\"_blank\">GPT-4o</a> y <a href=\"https://www.linkstartai.com/en/agents/gemini\" target=\"_blank\">Gemini</a>, su mayor ventaja está en combinar opciones de despliegue abiertas, buen rendimiento en audio y menor coste. Su mayor limitación es la complejidad operativa, ya que la inferencia local sigue exigiendo mucha memoria GPU, instalación desde código fuente y elección cuidadosa de backends como Transformers, vLLM, Docker y ffmpeg."
+  },
+  "category_id": "fe18c1c0-a4c3-45c0-bb1e-085452fb97e5",
+  "solution_category_id": "0af4fb71-9012-476f-9481-093464fa59b4",
+  "website_url": "https://qwen.ai/blog?id=qwen3.5-omni-",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/qwen3-5-omni.jpg",
+  "pricing_model": "freemium",
+  "paid_options_from": "$0.11",
+  "billing_frequency": "1m_tokens",
+  "rating": 4.1,
+  "review_count": 0,
+  "supported_languages": [
+	"en",
+	"zh",
+	"ja",
+	"ko",
+	"es"
+  ],
+  "tags_jsonb": {
+	"en": [
+	  "Realtime Voice Agent",
+	  "Multimodal Function Calling",
+	  "Audio Visual QA",
+	  "Speech to Speech AI",
+	  "Long Audio Understanding",
+	  "Video Caption Automation",
+	  "Low Cost Omni Model",
+	  "Open Weight Multimodal Deployment"
+	],
+	"zh": [
+	  "实时语音智能体",
+	  "多模态函数调用",
+	  "音视频问答",
+	  "语音到语音 AI",
+	  "长音频理解",
+	  "视频字幕自动化",
+	  "低成本全模态模型",
+	  "开源多模态部署"
+	],
+	"ja": [
+	  "リアルタイム音声エージェント",
+	  "多モーダル関数呼び出し",
+	  "音声映像 QA",
+	  "音声対音声 AI",
+	  "長時間音声理解",
+	  "動画字幕自動化",
+	  "低コスト全モーダルモデル",
+	  "オープンウェイト多モーダル導入"
+	],
+	"ko": [
+	  "실시간 음성 에이전트",
+	  "멀티모달 함수 호출",
+	  "오디오 비주얼 QA",
+	  "음성 대 음성 AI",
+	  "장시간 오디오 이해",
+	  "비디오 자막 자동화",
+	  "저비용 옴니 모델",
+	  "오픈 웨이트 멀티모달 배포"
+	],
+	"es": [
+	  "Agente de voz en tiempo real",
+	  "Function calling multimodal",
+	  "QA audio visual",
+	  "IA de voz a voz",
+	  "Comprensión de audio largo",
+	  "Automatización de subtítulos de vídeo",
+	  "Modelo omni de bajo coste",
+	  "Despliegue multimodal con pesos abiertos"
+	]
+  },
+  "features_jsonb": {
+	"en": [
+	  "Process text, image, audio, and video in one native omni-modal stack",
+	  "Handle up to 10 hours of audio for long-form transcription and analysis",
+	  "Understand about 400 seconds of 720p video for multimodal QA workflows",
+	  "Recognize 113 speech languages to automate global voice interfaces",
+	  "Generate speech in 36 languages for multilingual assistant deployment",
+	  "Trigger tools and web search for agent-style automation workflows",
+	  "Deploy through DashScope, Transformers, vLLM, Docker, and local web UI",
+	  "Switch between Plus, Flash, and Light tiers to balance latency and cost"
+	],
+	"zh": [
+	  "在同一套原生全模态架构中处理文本、图像、音频和视频",
+	  "支持最长 10 小时音频理解，用于长内容转写与分析",
+	  "可理解约 400 秒 720p 视频，适合多模态问答流水线",
+	  "识别 113 种语音语言，帮助构建全球化语音界面",
+	  "生成 36 种语言语音，便于多语种助手部署",
+	  "通过工具调用和网页搜索执行智能体式自动化任务",
+	  "支持 DashScope、Transformers、vLLM、Docker 和本地 Web UI 部署",
+	  "在 Plus、Flash 和 Light 之间切换，以平衡延迟与成本"
+	],
+	"ja": [
+	  "単一のネイティブ全モーダル基盤でテキスト、画像、音声、動画を処理",
+	  "最大 10 時間の音声を扱い、長時間転写と分析を自動化",
+	  "約 400 秒の 720p 動画を理解し、多モーダル QA を実行",
+	  "113 の音声言語を認識し、グローバル音声 UI を自動化",
+	  "36 言語で音声を生成し、多言語アシスタント展開を支援",
+	  "ツール呼び出しと Web 検索でエージェント型自動化を実行",
+	  "DashScope、Transformers、vLLM、Docker、本地 Web UI で導入可能",
+	  "Plus、Flash、Light を切り替え、遅延とコストを最適化"
+	],
+	"ko": [
+	  "하나의 네이티브 옴니모달 스택에서 텍스트, 이미지, 오디오, 비디오 처리",
+	  "최대 10시간 오디오를 처리해 장문 전사와 분석 지원",
+	  "약 400초 분량의 720p 비디오를 이해해 멀티모달 QA 수행",
+	  "113개 음성 언어를 인식해 글로벌 음성 인터페이스 자동화",
+	  "36개 언어로 음성을 생성해 다국어 비서 배포 지원",
+	  "도구 호출과 웹 검색으로 에이전트형 자동화 워크플로 실행",
+	  "DashScope, Transformers, vLLM, Docker, 로컬 웹 UI로 배포 가능",
+	  "Plus, Flash, Light 티어를 전환해 지연과 비용을 균형화"
+	],
+	"es": [
+	  "Procesa texto, imagen, audio y vídeo en una sola pila omni-modal nativa",
+	  "Maneja hasta 10 horas de audio para transcripción y análisis de larga duración",
+	  "Comprende cerca de 400 segundos de vídeo 720p para flujos multimodales de QA",
+	  "Reconoce 113 idiomas de voz para automatizar interfaces globales",
+	  "Genera voz en 36 idiomas para desplegar asistentes multilingües",
+	  "Activa herramientas y búsqueda web para workflows de automatización con agentes",
+	  "Se despliega mediante DashScope, Transformers, vLLM, Docker y web UI local",
+	  "Permite alternar entre Plus, Flash y Light para equilibrar latencia y coste"
+	]
+  },
+  "videos_jsonb": [
+	{
+	  "type": "youtube",
+	  "videoId": "SBXFE0cAqDo",
+	  "title": "Qwen3.5-Omni Plus + Flash : The Most Powerful AI Ever Built",
+	  "uploadDate": "2026-03-29T00:00:00Z",
+	  "description": "Early feature overview of Qwen3.5-Omni Plus and Flash multimodal capabilities.",
+	  "duration": "PT8M00S"
+	},
+	{
+	  "type": "youtube",
+	  "videoId": "zdAsDshsMmU",
+	  "title": "Qwen3.5 Omni Plus World Premiere: Exclusive First Coverage",
+	  "uploadDate": "2026-03-29T00:00:00Z",
+	  "description": "First coverage of Qwen3.5-Omni Plus with launch context and product demo notes.",
+	  "duration": "PT10M00S"
+	},
+	{
+	  "type": "youtube",
+	  "videoId": "Na_PLtcTqMc",
+	  "title": "Scaling Up, Toward Native Omni-Modal AGI QWEN Chat",
+	  "uploadDate": "2026-03-29T00:00:00Z",
+	  "description": "Paper style review covering long audio, video, and omni-modal architecture.",
+	  "duration": "PT7M00S"
+	}
+  ],
+  "verdict_jsonb": {
+	"en": {
+	  "summary": "<a href=\"https://qwen.ai/blog?id=qwen3.5-omni-\" target=\"_blank\">Qwen3.5-Omni</a> is the **most cost-aggressive choice** for **developers and AI infrastructure teams** who need to **ship real-time multimodal agents with voice, video, tool use, and multilingual reach**. It wins on audio depth, deployment flexibility, and price-to-performance, but the local stack is still demanding enough to keep non-technical buyers away. For teams comparing open deployment against premium closed models, this is one of the strongest 2026 options.",
+	  "expert_quote": "LinkStart AI Lab: 'Qwen3.5-Omni matters because it compresses ASR, VLM, TTS, tool use, and real-time conversation into one stack. The strategic story is not just benchmark performance. It is that teams can build serious multimodal agents without paying frontier closed-model pricing on every request.'",
+	  "pros": [
+		"Excellent for low-cost multilingual voice agent deployment",
+		"Strong audio and audio-visual benchmark performance",
+		"Built-in search and function calling aid agent workflows",
+		"Free usage path lowers prototyping friction",
+		"Open deployment options fit privacy-sensitive teams",
+		"Plus, Flash, Light variants improve cost control"
+	  ],
+	  "cons": [
+		"Local deployment needs very large GPU memory",
+		"vLLM support remains uneven for full audio workflows",
+		"Source installs raise setup complexity",
+		"Open and cloud product lines are easy to confuse",
+		"Enterprise privacy terms need separate review",
+		"Not a plug-and-play tool for non-engineers"
+	  ]
+	},
+	"zh": {
+	  "summary": "<a href=\"https://qwen.ai/blog?id=qwen3.5-omni-\" target=\"_blank\">Qwen3.5-Omni</a> 是 **最具成本冲击力的选择**，适合 **开发者与 AI 基础设施团队** 去 **构建带语音、视频、工具调用和多语种能力的实时多模态智能体**。它在音频能力、部署灵活性和价格性能比上都很强，但本地部署门槛依然高，非技术买家很难无痛落地。对于想在开放部署和高价闭源模型之间做平衡的团队，这是 2026 年非常值得关注的一档方案。",
+	  "expert_quote": "LinkStart AI Lab：'Qwen3.5-Omni 的意义，在于它把 ASR、VLM、TTS、工具调用和实时对话压缩进同一套技术栈。真正有战略价值的，不只是基准分数，而是团队终于能在不承担顶级闭源模型高额调用成本的前提下，做出可落地的多模态智能体。'",
+	  "pros": [
+		"适合低成本部署多语种语音智能体",
+		"音频与音视频基准表现很强",
+		"内置搜索和函数调用适合智能体工作流",
+		"提供免费体验路径，原型验证成本低",
+		"开放部署能力适合重隐私团队",
+		"Plus、Flash、Light 便于控制成本"
+	  ],
+	  "cons": [
+		"本地部署需要非常高的 GPU 显存",
+		"vLLM 对完整音频链路支持仍不均衡",
+		"源码安装提升了工程门槛",
+		"开源线和云端产品线容易混淆",
+		"企业级隐私条款仍需单独审核",
+		"对非工程用户并不算即开即用"
+	  ]
+	},
+	"ja": {
+	  "summary": "<a href=\"https://qwen.ai/blog?id=qwen3.5-omni-\" target=\"_blank\">Qwen3.5-Omni</a> は、**開発者と AI インフラチーム** が **音声、動画、ツール利用、多言語対応を備えたリアルタイム多モーダルエージェントを実装する** ための **最もコスト競争力の高い選択肢** です。音声性能、導入柔軟性、価格対性能比に優れますが、ローカル運用の難度は依然として高く、非技術部門には導入しやすい製品ではありません。オープン導入と高価格な閉域モデルの間で比較する企業にとって、2026 年時点で有力な候補です。",
+	  "expert_quote": "LinkStart AI Lab: 'Qwen3.5-Omni の重要性は、ASR、VLM、TTS、ツール利用、リアルタイム対話を 1 つのスタックへ圧縮した点にあります。戦略的な価値はベンチマークだけではありません。チームがフロンティア級の閉域モデル料金を毎回支払わずとも、本格的な多モーダルエージェントを構築できることです。'",
+	  "pros": [
+		"低コストな多言語音声エージェント導入に向く",
+		"音声と音声映像ベンチマークが強い",
+		"検索と関数呼び出しを内蔵しエージェント運用向き",
+		"無料利用枠で試作の初期負担を下げやすい",
+		"オープン導入がプライバシー重視組織に合う",
+		"Plus、Flash、Light でコスト制御しやすい"
+	  ],
+	  "cons": [
+		"ローカル導入に大容量 GPU メモリが必要",
+		"完全な音声処理では vLLM 対応がまだ不均一",
+		"ソース導入がセットアップ難度を上げる",
+		"オープン版とクラウド版の違いが分かりにくい",
+		"企業向けプライバシー条件は別途確認が必要",
+		"非エンジニア向けの即時導入型ではない"
+	  ]
+	},
+	"ko": {
+	  "summary": "<a href=\"https://qwen.ai/blog?id=qwen3.5-omni-\" target=\"_blank\">Qwen3.5-Omni</a>는 **개발자와 AI 인프라 팀** 이 **음성, 비디오, 도구 사용, 다국어 대응이 포함된 실시간 멀티모달 에이전트를 배포해야 할 때** 선택할 수 있는 **가장 공격적인 가성비 옵션**이다. 오디오 성능, 배포 유연성, 가격 대비 성능에서 강하지만, 로컬 스택의 난도는 여전히 높아 비기술 조직이 바로 도입하기는 쉽지 않다. 개방형 배포와 프리미엄 폐쇄형 모델을 함께 검토하는 팀에게 2026년 기준 매우 강한 선택지다.",
+	  "expert_quote": "LinkStart AI Lab: 'Qwen3.5-Omni가 중요한 이유는 ASR, VLM, TTS, 도구 사용, 실시간 대화를 하나의 스택으로 압축했기 때문이다. 전략적 의미는 단순한 벤치마크 점수에 있지 않다. 팀이 최상위 폐쇄형 모델 가격을 매 요청마다 지불하지 않고도 본격적인 멀티모달 에이전트를 만들 수 있다는 점이다.'",
+	  "pros": [
+		"저비용 다국어 음성 에이전트 배포에 유리",
+		"오디오와 오디오비주얼 벤치마크 성능이 강함",
+		"검색과 함수 호출 내장으로 에이전트 워크플로에 적합",
+		"무료 사용 경로로 프로토타이핑 부담을 낮춤",
+		"개방형 배포 옵션이 프라이버시 중시 팀에 적합",
+		"Plus, Flash, Light로 비용 제어가 쉬움"
+	  ],
+	  "cons": [
+		"로컬 배포에는 매우 큰 GPU 메모리가 필요",
+		"전체 오디오 워크플로에서 vLLM 지원이 고르지 않다",
+		"소스 설치가 초기 구축 난도를 높인다",
+		"오픈 제품군과 클라우드 제품군이 혼동되기 쉽다",
+		"엔터프라이즈 프라이버시 조건은 별도 검토가 필요",
+		"비엔지니어용 즉시 사용형 도구는 아니다"
+	  ]
+	},
+	"es": {
+	  "summary": "<a href=\"https://qwen.ai/blog?id=qwen3.5-omni-\" target=\"_blank\">Qwen3.5-Omni</a> es la **opción más agresiva en coste** para **desarrolladores y equipos de infraestructura de IA** que necesitan **lanzar agentes multimodales en tiempo real con voz, vídeo, uso de herramientas y alcance multilingüe**. Destaca por profundidad en audio, flexibilidad de despliegue y relación precio-rendimiento, aunque su stack local sigue siendo lo bastante exigente como para alejar a compradores no técnicos. Para equipos que comparan despliegue abierto frente a modelos cerrados premium, es una de las apuestas más fuertes de 2026.",
+	  "expert_quote": "LinkStart AI Lab: 'Qwen3.5-Omni importa porque comprime ASR, VLM, TTS, uso de herramientas y conversación en tiempo real dentro de una sola pila. La historia estratégica no está solo en el benchmark. Está en que los equipos pueden construir agentes multimodales serios sin pagar precios de modelo cerrado frontier en cada solicitud.'",
+	  "pros": [
+		"Excelente para desplegar agentes de voz multilingües a bajo coste",
+		"Buen rendimiento en benchmarks de audio y audio visual",
+		"Búsqueda y function calling integrados para flujos con agentes",
+		"La vía gratuita reduce la fricción de prototipado",
+		"Las opciones abiertas encajan en entornos sensibles a privacidad",
+		"Plus, Flash y Light facilitan controlar el gasto"
+	  ],
+	  "cons": [
+		"El despliegue local requiere mucha memoria GPU",
+		"El soporte de vLLM sigue siendo irregular en audio completo",
+		"La instalación desde código eleva la complejidad",
+		"Es fácil confundir la línea open con la línea cloud",
+		"Las condiciones enterprise de privacidad exigen revisión aparte",
+		"No es una herramienta plug and play para no técnicos"
+	  ]
+	}
+  },
+  "faqs_jsonb": [
+	{
+	  "question": {
+		"en": "Qwen3.5-Omni vs GPT-4o: Which is better for real-time multimodal agents?",
+		"zh": "Qwen3.5-Omni 和 GPT-4o 相比，谁更适合实时多模态智能体？",
+		"ja": "Qwen3.5-Omni と GPT-4o では、リアルタイム多モーダルエージェントにどちらが適していますか。",
+		"ko": "Qwen3.5-Omni와 GPT-4o 중 실시간 멀티모달 에이전트에는 무엇이 더 적합한가요.",
+		"es": "Qwen3.5-Omni vs GPT-4o: ¿cuál encaja mejor para agentes multimodales en tiempo real?"
+	  },
+	  "answer": {
+		"en": "The core difference is deployment economics. While <a href=\"https://www.linkstartai.com/en/agents/gpt-4o\" target=\"_blank\">GPT-4o</a> is easier for polished managed workflows, Qwen3.5-Omni has an absolute advantage for lower-cost voice agents, open deployment paths, and teams that want one stack for audio, video, search, and function calling.",
+		"zh": "核心差异在部署经济性。虽然 <a href=\"https://www.linkstartai.com/zh/agents/gpt-4o\" target=\"_blank\">GPT-4o</a> 在托管式体验上更省心，但 Qwen3.5-Omni 在低成本语音智能体、开放部署路径，以及把音频、视频、搜索和函数调用统一进一套栈上优势更大。",
+		"ja": "中核の違いは導入コスト構造です。<a href=\"https://www.linkstartai.com/en/agents/gpt-4o\" target=\"_blank\">GPT-4o</a> は完成度の高いマネージド運用に向きますが、Qwen3.5-Omni は低コストな音声エージェント、オープン導入、音声、動画、検索、関数呼び出しを 1 スタックへ統合したいチームに明確な優位があります。",
+		"ko": "핵심 차이는 배포 경제성이다. <a href=\"https://www.linkstartai.com/en/agents/gpt-4o\" target=\"_blank\">GPT-4o</a>는 완성도 높은 관리형 워크플로에 더 쉽지만, Qwen3.5-Omni는 저비용 음성 에이전트, 개방형 배포, 오디오, 비디오, 검색, 함수 호출을 한 스택으로 묶고 싶은 팀에 확실한 우위가 있다.",
+		"es": "La diferencia principal está en la economía del despliegue. Mientras <a href=\"https://www.linkstartai.com/en/agents/gpt-4o\" target=\"_blank\">GPT-4o</a> resulta más sencillo para workflows gestionados y pulidos, Qwen3.5-Omni ofrece una ventaja clara para agentes de voz de menor coste, rutas abiertas de despliegue y equipos que quieren una sola pila para audio, vídeo, búsqueda y function calling."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Is Qwen3.5-Omni production-ready, or are there still real engineering pain points?",
+		"zh": "Qwen3.5-Omni 已经适合生产环境了吗，还是仍有明显工程痛点？",
+		"ja": "Qwen3.5-Omni は本番導入可能ですか。それともまだ現実的なエンジニアリング課題がありますか。",
+		"ko": "Qwen3.5-Omni는 프로덕션에 적합한가요, 아니면 아직 뚜렷한 엔지니어링 난제가 남아 있나요.",
+		"es": "¿Qwen3.5-Omni está listo para producción o aún arrastra problemas reales de ingeniería?"
+	  },
+	  "answer": {
+		"en": "Yes, it is production-capable, but the pain points are real. Community and repo signals show heavy VRAM needs, source installs, and uneven backend maturity. The best workaround is to start with DashScope cloud access, then move to Docker and vLLM only after workload patterns are stable.",
+		"zh": "可以进生产，但工程痛点是真实存在的。社区讨论和仓库文档都指向高显存需求、源码安装以及后端成熟度不完全一致。最稳妥的做法，是先用 DashScope 云端验证，再在工作负载稳定后转向 Docker 和 vLLM。",
+		"ja": "はい、本番運用は可能ですが、課題は現実的です。コミュニティとリポジトリ情報からは、高い VRAM 要件、ソース導入、バックエンド成熟度の差が確認できます。最も安全な進め方は、まず DashScope のクラウド利用で検証し、負荷特性が固まってから Docker と vLLM に移行することです。",
+		"ko": "예, 프로덕션 투입은 가능하지만 난제도 분명하다. 커뮤니티와 저장소 정보는 높은 VRAM 요구량, 소스 설치, 백엔드 성숙도의 편차를 보여준다. 가장 현실적인 우회책은 먼저 DashScope 클라우드로 검증한 뒤 워크로드 패턴이 안정되면 Docker와 vLLM으로 옮기는 것이다.",
+		"es": "Sí, puede entrar en producción, pero los problemas son reales. Las señales del repositorio y de la comunidad apuntan a alta demanda de VRAM, instalaciones desde fuente y madurez desigual entre backends. La mejor vía es empezar por DashScope en cloud y pasar a Docker y vLLM solo cuando el patrón de carga ya esté estabilizado."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Does Qwen3.5-Omni have a free tier, and what are the hidden deployment costs?",
+		"zh": "Qwen3.5-Omni 有免费层吗，隐藏成本主要在哪里？",
+		"ja": "Qwen3.5-Omni に無料枠はありますか。また隠れた導入コストは何ですか。",
+		"ko": "Qwen3.5-Omni에 무료 티어가 있나요, 숨은 배포 비용은 무엇인가요.",
+		"es": "¿Qwen3.5-Omni tiene Free Tier y cuáles son los costes ocultos de despliegue?"
+	  },
+	  "answer": {
+		"en": "Yes. It offers a free usage path, and paid access starts around $0.11 per 1M input tokens. The hidden cost is local infrastructure: the open 30B-A3B BF16 line starts at 78.85 GB memory even for 15-second video workloads.",
+		"zh": "有。它提供免费使用路径，付费调用起点约为每 100 万输入 tokens 0.11 美元。真正的隐藏成本在本地基础设施上，因为开源 30B-A3B 系列在 BF16 下处理 15 秒视频时，公开最低显存需求就从 78.85 GB 起。",
+		"ja": "はい。無料利用の導線があり、有料は 100 万入力 tokens あたり約 0.11 ドルから始まります。隠れたコストはローカル基盤であり、オープンな 30B-A3B の BF16 系列は **15 秒動画** でも **78.85 GB** のメモリから必要です。",
+		"ko": "예. 무료 사용 경로가 있으며 유료는 100만 입력 tokens당 약 0.11달러부터 시작한다. 숨은 비용은 로컬 인프라다. 오픈 30B-A3B BF16 계열은 **15초 비디오** 작업에도 **78.85 GB** 메모리부터 요구한다.",
+		"es": "Sí. Dispone de una vía gratuita y el acceso de pago empieza en torno a 0.11 dólares por 1M input tokens. El coste oculto está en la infraestructura local, ya que la línea open 30B-A3B en BF16 arranca en **78.85 GB** de memoria incluso para cargas con **15 segundos de vídeo**."
+	  }
+	},
+	{
+	  "question": {
+		"en": "How does Qwen3.5-Omni fit into a modern AI stack?",
+		"zh": "Qwen3.5-Omni 如何融入现代 AI 技术栈？",
+		"ja": "Qwen3.5-Omni は現代的な AI スタックにどう組み込めますか。",
+		"ko": "Qwen3.5-Omni는 현대 AI 스택에 어떻게 들어가나요.",
+		"es": "¿Cómo encaja Qwen3.5-Omni dentro de un stack moderno de IA?"
+	  },
+	  "answer": {
+		"en": "It fits best as a multimodal model layer for agents and copilots. It works with DashScope API, <a href=\"https://www.linkstartai.com/en/agents/langchain\" target=\"_blank\">LangChain</a>-style orchestration, Transformers, vLLM, Docker, and ffmpeg-based preprocessing. That makes it useful for voice assistants, video QA, and multimodal support automation.",
+		"zh": "它最适合作为智能体和 Copilot 的多模态模型层。它可接入 DashScope API、<a href=\"https://www.linkstartai.com/zh/agents/langchain\" target=\"_blank\">LangChain</a> 风格编排、Transformers、vLLM、Docker 和 ffmpeg 预处理链路，因此很适合语音助手、视频问答和多模态客服自动化。",
+		"ja": "エージェントやコパイロット向けの多モーダルモデル層として組み込むのが最適です。DashScope API、<a href=\"https://www.linkstartai.com/en/agents/langchain\" target=\"_blank\">LangChain</a> 型オーケストレーション、Transformers、vLLM、Docker、ffmpeg 前処理と組み合わせられるため、音声アシスタント、動画 QA、多モーダルサポート自動化に向きます。",
+		"ko": "에이전트와 코파일럿용 멀티모달 모델 레이어로 넣는 것이 가장 적합하다. DashScope API, <a href=\"https://www.linkstartai.com/en/agents/langchain\" target=\"_blank\">LangChain</a> 스타일 오케스트레이션, Transformers, vLLM, Docker, ffmpeg 기반 전처리와 함께 사용할 수 있어 음성 비서, 비디오 QA, 멀티모달 지원 자동화에 유용하다.",
+		"es": "Encaja mejor como capa de modelo multimodal para agentes y copilots. Funciona con DashScope API, orquestación estilo <a href=\"https://www.linkstartai.com/en/agents/langchain\" target=\"_blank\">LangChain</a>, Transformers, vLLM, Docker y preprocesado con ffmpeg. Por eso resulta útil en asistentes de voz, QA sobre vídeo y automatización de soporte multimodal."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Is Qwen3.5-Omni safe for private data and enterprise workloads?",
+		"zh": "Qwen3.5-Omni 适合私有数据和企业工作负载吗？",
+		"ja": "Qwen3.5-Omni は機密データや企業ワークロードに適していますか。",
+		"ko": "Qwen3.5-Omni는 민감한 데이터와 엔터프라이즈 워크로드에 적합한가요.",
+		"es": "¿Qwen3.5-Omni es adecuado para datos privados y cargas enterprise?"
+	  },
+	  "answer": {
+		"en": "Yes, if you self-host the open line and manage the stack yourself. That gives stronger isolation than public API usage, but cloud deployments still require a separate review of Alibaba Cloud data handling, retention, and regional compliance terms.",
+		"zh": "可以，前提是你自部署开源模型并自行管理整套栈。这样比直接走公网 API 更容易实现隔离，但如果采用云端服务，仍然需要单独审查阿里云的数据处理、留存策略和区域合规条款。",
+		"ja": "はい。オープン版をセルフホストし、スタック全体を自主管理するなら適しています。その場合は公開 API より強い分離性を得やすいですが、クラウド利用時は Alibaba Cloud のデータ処理、保持、地域コンプライアンス条件を別途確認する必要があります。",
+		"ko": "예, 오픈 라인을 셀프호스팅하고 스택을 직접 관리한다면 적합하다. 이 경우 공개 API보다 더 강한 격리를 확보할 수 있지만, 클라우드 사용 시에는 Alibaba Cloud의 데이터 처리, 보존, 지역별 컴플라이언스 조건을 별도로 검토해야 한다.",
+		"es": "Sí, siempre que se autoalojen los modelos abiertos y se gestione la pila de forma propia. Eso aporta más aislamiento que el uso de una API pública, aunque en despliegues cloud sigue siendo obligatorio revisar por separado el tratamiento de datos, la retención y los términos regionales de compliance de Alibaba Cloud."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Can Qwen3.5-Omni handle niche workflows like long meeting audio, video operations, or voice-driven UI control?",
+		"zh": "Qwen3.5-Omni 能否胜任长会议音频、视频运营分析或语音驱动 UI 控制这类长尾场景？",
+		"ja": "Qwen3.5-Omni は長時間会議音声、動画運用分析、音声駆動 UI 制御のようなニッチ用途に対応できますか。",
+		"ko": "Qwen3.5-Omni는 긴 회의 오디오, 비디오 운영 분석, 음성 기반 UI 제어 같은 틈새 워크플로를 처리할 수 있나요.",
+		"es": "¿Puede Qwen3.5-Omni manejar flujos de nicho como audio largo de reuniones, operaciones sobre vídeo o control de UI por voz?"
+	  },
+	  "answer": {
+		"en": "Yes. Its strongest niche is exactly long-context multimodal work such as long meeting audio, video plus audio QA, and voice-driven function calling. The practical limit is not model capability first. It is latency, memory, and pipeline engineering.",
+		"zh": "可以。它最强的长尾能力，恰恰就是长上下文多模态任务，比如长会议音频、视频加音频问答，以及语音驱动函数调用。真正先到来的限制通常不是模型能力，而是延迟、显存和整条流水线的工程实现。",
+		"ja": "はい。最も強いニッチ領域は、長時間会議音声、動画と音声を組み合わせた QA、音声駆動の関数呼び出しのような長文脈多モーダル処理です。実際に先に制約となるのは、モデル能力そのものより遅延、メモリ、パイプライン設計です。",
+		"ko": "예. 가장 강한 틈새 영역은 긴 회의 오디오, 비디오와 오디오를 함께 다루는 QA, 음성 기반 함수 호출처럼 장문 컨텍스트 멀티모달 작업이다. 실제 한계는 모델 능력보다 지연, 메모리, 파이프라인 엔지니어링에서 먼저 온다.",
+		"es": "Sí. Su nicho más fuerte está justamente en trabajo multimodal de contexto largo, como audio extenso de reuniones, QA combinando vídeo y audio, y function calling guiado por voz. El límite práctico no suele llegar primero por el modelo, sino por la latencia, la memoria y la ingeniería del pipeline."
+	  }
+	}
+  ],
+  "comparison_table_jsonb": {
+	"en": {
+	  "reason": "We selected **GPT-4o** and **Gemini** because most buyers evaluating Qwen3.5-Omni are deciding between **lower-cost open-friendly multimodal infrastructure** and **higher-polish closed-model ecosystems**. Qwen3.5-Omni is strongest when price, audio depth, and deployment control matter more than turnkey managed UX.",
+	  "caption": "Qwen3.5-Omni vs GPT-4o vs Gemini for Multimodal Agent Infrastructure",
+	  "columns": [
+		"Dimension",
+		"[Qwen3.5-Omni](https://qwen.ai/blog?id=qwen3.5-omni-)",
+		"[GPT-4o](https://www.linkstartai.com/en/agents/gpt-4o)",
+		"[Gemini](https://www.linkstartai.com/en/agents/gemini)"
+	  ],
+	  "rows": [
+		[
+		  "Core Use Case",
+		  "**Best for cost-sensitive multimodal agents** with voice, video, search, and tool use",
+		  "**Best for polished managed multimodal apps** with strong API ergonomics",
+		  "**Best for Google-centric multimodal workflows** and broad consumer plus developer reach"
+		],
+		[
+		  "Audio and Video Depth",
+		  "**Very strong** for long audio, audio-visual QA, and speech workflows",
+		  "**Strong** for realtime multimodal interaction, but usually at higher cost",
+		  "**Strong** for multimodal reasoning, especially inside Google ecosystem flows"
+		],
+		[
+		  "Deployment Flexibility",
+		  "**Highest flexibility** across cloud, open weights, Transformers, vLLM, Docker",
+		  "**Mostly managed API** with less open self-hosting freedom",
+		  "**Mostly managed cloud** with tighter ecosystem dependence"
+		],
+		[
+		  "Hidden Cost or Limit",
+		  "**Heavy local infra demand** with 78.85 GB BF16 starting point for 15 second video",
+		  "**Higher recurring API cost** for always-on voice agents",
+		  "**Workflow lock-in risk** if your stack is not already Google aligned"
+		],
+		[
+		  "Best ROI Scenario",
+		  "**Large multilingual voice deployments** and budget-aware multimodal products",
+		  "**Fast enterprise shipping** where developer time matters more than token price",
+		  "**Workspace and Google Cloud heavy teams** needing integrated model access"
+		],
+		[
+		  "Buyer Profile",
+		  "**AI infra teams, startups, and privacy-minded builders**",
+		  "**Product teams wanting premium managed UX**",
+		  "**Google-first organizations** optimizing for ecosystem fit"
+		]
+	  ],
+	  "tldr": "**Choose Qwen3.5-Omni** if you want **lower cost, stronger audio specialization, and open deployment options**. **Choose GPT-4o** if you value **managed polish and fast integration**. **Choose Gemini** if your real advantage comes from **deep Google ecosystem alignment**."
+	},
+	"zh": {
+	  "reason": "我们选择 **GPT-4o** 和 **Gemini** 作为核心对比对象，因为真正评估 Qwen3.5-Omni 的买家，通常是在 **低成本且更开放的多模态基础设施** 与 **体验更成熟的闭源生态** 之间做决策。Qwen3.5-Omni 的强项，在于当价格、音频能力和部署控制权比即开即用体验更重要时，它会非常有竞争力。",
+	  "caption": "Qwen3.5-Omni、GPT-4o 与 Gemini 在多模态智能体基础设施上的对比",
+	  "columns": [
+		"对比维度",
+		"[Qwen3.5-Omni](https://qwen.ai/blog?id=qwen3.5-omni-)",
+		"[GPT-4o](https://www.linkstartai.com/zh/agents/gpt-4o)",
+		"[Gemini](https://www.linkstartai.com/zh/agents/gemini)"
+	  ],
+	  "rows": [
+		[
+		  "核心场景",
+		  "**更适合成本敏感型多模态智能体**，覆盖语音、视频、搜索和工具调用",
+		  "**更适合托管式多模态应用**，API 体验和接入流程更成熟",
+		  "**更适合 Google 生态多模态工作流**，兼顾消费者与开发者触达"
+		],
+		[
+		  "音频与视频深度",
+		  "**非常强**，尤其适合长音频、音视频问答和语音工作流",
+		  "**很强**，适合实时多模态交互，但通常成本更高",
+		  "**很强**，在 Google 生态内的多模态推理尤其有优势"
+		],
+		[
+		  "部署灵活性",
+		  "**最高**，可走云端、开源权重、Transformers、vLLM、Docker",
+		  "**偏托管 API**，自部署自由度更低",
+		  "**偏云端托管**，对生态依赖更强"
+		],
+		[
+		  "隐藏成本或限制",
+		  "**本地基础设施压力大**，15 秒视频的 BF16 起步显存需求就达 78.85 GB",
+		  "**持续 API 成本更高**，常驻语音智能体费用压力明显",
+		  "**存在生态锁定风险**，如果你的栈并不以 Google 为核心会更明显"
+		],
+		[
+		  "ROI 最佳场景",
+		  "**大规模多语种语音部署** 和重成本控制的多模态产品",
+		  "**快速上线企业应用**，开发效率比 token 单价更重要",
+		  "**深度使用 Workspace 与 Google Cloud 的团队**"
+		],
+		[
+		  "适合买家",
+		  "**AI 基础设施团队、创业公司和重隐私构建者**",
+		  "**想要高质量托管体验的产品团队**",
+		  "**Google 优先型组织**，更看重生态兼容"
+		]
+	  ],
+	  "tldr": "**选 Qwen3.5-Omni**：如果你更看重 **更低成本、更强音频能力和开放部署路径**。**选 GPT-4o**：如果你更看重 **托管式成熟体验和快速集成**。**选 Gemini**：如果你的真正优势来自 **Google 生态深度协同**。"
+	},
+	"ja": {
+	  "reason": "**GPT-4o** と **Gemini** を主要比較対象に選んだ理由は、Qwen3.5-Omni を評価する購買層の多くが、**低コストでオープン導入しやすい多モーダル基盤** と **完成度の高い閉域モデル基盤** の間で比較しているためです。Qwen3.5-Omni は、価格、音声性能、導入統制を、即時利用できるマネージド UX より重視する場合に最も強みを発揮します。",
+	  "caption": "Qwen3.5-Omni、GPT-4o、Gemini の多モーダルエージェント基盤比較",
+	  "columns": [
+		"比較項目",
+		"[Qwen3.5-Omni](https://qwen.ai/blog?id=qwen3.5-omni-)",
+		"[GPT-4o](https://www.linkstartai.com/en/agents/gpt-4o)",
+		"[Gemini](https://www.linkstartai.com/en/agents/gemini)"
+	  ],
+	  "rows": [
+		[
+		  "主な用途",
+		  "**コスト重視の多モーダルエージェント** に最適で、音声、動画、検索、ツール利用をカバー",
+		  "**完成度の高いマネージド多モーダルアプリ** に最適で、API 体験も洗練",
+		  "**Google 中心の多モーダル運用** に最適で、消費者向けと開発者向け双方に強い"
+		],
+		[
+		  "音声と動画の深さ",
+		  "**非常に強い**。長時間音声、音声映像 QA、音声ワークフローに向く",
+		  "**強い**。リアルタイム多モーダル対話に優れるが、通常は高コスト",
+		  "**強い**。特に Google 連携フローで多モーダル推論が有利"
+		],
+		[
+		  "導入柔軟性",
+		  "**最も高い**。クラウド、オープンウェイト、Transformers、vLLM、Docker に対応",
+		  "**主にマネージド API** で、セルフホスト自由度は低い",
+		  "**主にマネージドクラウド** で、エコシステム依存が強い"
+		],
+		[
+		  "隠れたコストや制約",
+		  "**ローカル基盤負荷が重い**。15 秒動画でも BF16 で 78.85 GB が起点",
+		  "**継続的な API コストが高い**。常時稼働の音声エージェントで負担増",
+		  "**ワークフローのロックイン懸念**。Google 非中心の構成では不利"
+		],
+		[
+		  "ROI が高い場面",
+		  "**大規模な多言語音声配備** とコスト重視の多モーダル製品",
+		  "**迅速な企業導入**。開発時間が token 単価より重要な場合",
+		  "**Workspace と Google Cloud を深く使う組織**"
+		],
+		[
+		  "向いている買い手",
+		  "**AI インフラチーム、スタートアップ、プライバシー重視の構築者**",
+		  "**高品質なマネージド UX を求めるプロダクトチーム**",
+		  "**Google 優先の組織** で、エコシステム整合性を重視する場合"
+		]
+	  ],
+	  "tldr": "**Qwen3.5-Omni を選ぶべきケース** は、**低コスト、強い音声特化、オープン導入** を重視する場合です。**GPT-4o を選ぶべきケース** は、**マネージド品質と迅速な統合** を優先する場合です。**Gemini を選ぶべきケース** は、**Google エコシステムとの深い整合** が競争優位になる場合です。"
+	},
+	"ko": {
+	  "reason": "**GPT-4o**와 **Gemini**를 핵심 비교군으로 고른 이유는 Qwen3.5-Omni를 검토하는 구매자가 대개 **저비용의 개방형 멀티모달 인프라** 와 **완성도 높은 폐쇄형 모델 생태계** 사이에서 판단하기 때문이다. Qwen3.5-Omni는 가격, 오디오 성능, 배포 통제권이 즉시 사용 가능한 관리형 UX보다 더 중요할 때 가장 경쟁력이 높다.",
+	  "caption": "Qwen3.5-Omni, GPT-4o, Gemini 멀티모달 에이전트 인프라 비교",
+	  "columns": [
+		"비교 항목",
+		"[Qwen3.5-Omni](https://qwen.ai/blog?id=qwen3.5-omni-)",
+		"[GPT-4o](https://www.linkstartai.com/en/agents/gpt-4o)",
+		"[Gemini](https://www.linkstartai.com/en/agents/gemini)"
+	  ],
+	  "rows": [
+		[
+		  "핵심 사용 시나리오",
+		  "**비용 민감형 멀티모달 에이전트** 에 최적이며 음성, 비디오, 검색, 도구 사용을 포괄",
+		  "**완성도 높은 관리형 멀티모달 앱** 에 적합하며 API 사용성이 우수",
+		  "**Google 중심 멀티모달 워크플로** 에 적합하며 소비자와 개발자 양쪽 도달력이 넓다"
+		],
+		[
+		  "오디오와 비디오 깊이",
+		  "**매우 강함**. 장시간 오디오, 오디오비주얼 QA, 음성 워크플로에 유리",
+		  "**강함**. 실시간 멀티모달 상호작용에 좋지만 대체로 더 비싸다",
+		  "**강함**. 특히 Google 생태계 안에서 멀티모달 추론이 유리하다"
+		],
+		[
+		  "배포 유연성",
+		  "**가장 높음**. 클라우드, 오픈 웨이트, Transformers, vLLM, Docker 지원",
+		  "**대체로 관리형 API** 로 셀프호스팅 자유도가 낮다",
+		  "**대체로 관리형 클라우드** 로 생태계 의존성이 더 크다"
+		],
+		[
+		  "숨은 비용 또는 제한",
+		  "**로컬 인프라 부담이 큼**. 15초 비디오에도 BF16 기준 78.85 GB가 시작점",
+		  "**지속 API 비용이 높음**. 상시 음성 에이전트에 부담",
+		  "**워크플로 잠금 위험**. Google 중심 스택이 아니면 더 두드러진다"
+		],
+		[
+		  "ROI 최적 시나리오",
+		  "**대규모 다국어 음성 배포** 와 예산 중심 멀티모달 제품",
+		  "**빠른 엔터프라이즈 출시**. 개발 시간이 token 가격보다 중요할 때",
+		  "**Workspace와 Google Cloud 비중이 큰 팀**"
+		],
+		[
+		  "적합한 구매자",
+		  "**AI 인프라 팀, 스타트업, 프라이버시 중시 빌더**",
+		  "**프리미엄 관리형 UX를 원하는 제품 팀**",
+		  "**Google 우선 조직** 으로 생태계 적합성을 중시하는 경우"
+		]
+	  ],
+	  "tldr": "**Qwen3.5-Omni를 선택해야 할 경우** 는 **더 낮은 비용, 강한 오디오 특화, 개방형 배포 옵션** 을 원할 때다. **GPT-4o를 선택해야 할 경우** 는 **관리형 완성도와 빠른 통합** 을 중시할 때다. **Gemini를 선택해야 할 경우** 는 **Google 생태계 정렬** 이 실제 경쟁력이 될 때다."
+	},
+	"es": {
+	  "reason": "Hemos seleccionado **GPT-4o** y **Gemini** porque la mayoría de compradores que evalúan Qwen3.5-Omni están decidiendo entre **infraestructura multimodal más abierta y de menor coste** y **ecosistemas cerrados con mayor pulido operativo**. Qwen3.5-Omni brilla especialmente cuando precio, profundidad en audio y control de despliegue pesan más que una UX gestionada y lista para usar.",
+	  "caption": "Qwen3.5-Omni vs GPT-4o vs Gemini para infraestructura de agentes multimodales",
+	  "columns": [
+		"Dimensión",
+		"[Qwen3.5-Omni](https://qwen.ai/blog?id=qwen3.5-omni-)",
+		"[GPT-4o](https://www.linkstartai.com/en/agents/gpt-4o)",
+		"[Gemini](https://www.linkstartai.com/en/agents/gemini)"
+	  ],
+	  "rows": [
+		[
+		  "Caso de uso principal",
+		  "**La mejor opción para agentes multimodales sensibles a coste** con voz, vídeo, búsqueda y herramientas",
+		  "**La mejor opción para apps multimodales gestionadas y pulidas** con buena ergonomía API",
+		  "**La mejor opción para workflows multimodales centrados en Google** y amplio alcance para consumo y desarrollo"
+		],
+		[
+		  "Profundidad en audio y vídeo",
+		  "**Muy fuerte** en audio largo, QA audio visual y flujos de voz",
+		  "**Fuerte** en interacción multimodal en tiempo real, aunque normalmente más caro",
+		  "**Fuerte** en razonamiento multimodal, especialmente dentro del ecosistema Google"
+		],
+		[
+		  "Flexibilidad de despliegue",
+		  "**La más alta** entre cloud, open weights, Transformers, vLLM y Docker",
+		  "**Principalmente API gestionada** con menos libertad de autoalojado",
+		  "**Principalmente cloud gestionado** con mayor dependencia del ecosistema"
+		],
+		[
+		  "Coste oculto o límite",
+		  "**Alta demanda de infraestructura local** con punto de partida BF16 de 78.85 GB para 15 segundos de vídeo",
+		  "**Mayor coste recurrente de API** para agentes de voz siempre activos",
+		  "**Riesgo de lock-in** si tu stack no está ya alineado con Google"
+		],
+		[
+		  "Escenario de mejor ROI",
+		  "**Grandes despliegues de voz multilingüe** y productos multimodales con presión de presupuesto",
+		  "**Lanzamiento enterprise rápido** donde el tiempo de desarrollo pesa más que el precio por token",
+		  "**Equipos muy apoyados en Workspace y Google Cloud**"
+		],
+		[
+		  "Perfil de comprador",
+		  "**Equipos de infraestructura de IA, startups y builders sensibles a privacidad**",
+		  "**Equipos de producto que quieren UX gestionada premium**",
+		  "**Organizaciones Google first** que optimizan por encaje ecosistémico"
+		]
+	  ],
+	  "tldr": "**Elige Qwen3.5-Omni** si buscas **menor coste, especialización fuerte en audio y opciones abiertas de despliegue**. **Elige GPT-4o** si valoras **pulido gestionado e integración rápida**. **Elige Gemini** si tu ventaja real proviene de **una alineación profunda con el ecosistema Google**."
+	}
+  },
+  "seo_title_jsonb": {
+	"en": "Qwen3.5-Omni Review 2026: Pricing, Pros & Cons, Alternatives",
+	"zh": "Qwen3.5-Omni 怎么样？2026 最新评测：价格、优缺点与竞品对比",
+	"ja": "【徹底レビュー】Qwen3.5-Omni の評判は？料金・強み弱み・代替候補",
+	"ko": "Qwen3.5-Omni 솔직 후기: 가격, 장단점 및 추천 대안 완벽 정리",
+	"es": "Opiniones de Qwen3.5-Omni: Precio, Ventajas y Alternativas"
+  },
+  "seo_description_jsonb": {
+	"en": "Qwen3.5-Omni Review 2026: see Pricing, Free Tier, audio and video limits, open deployment options, and whether it beats GPT-4o or Gemini for multimodal agents.",
+	"zh": "Qwen3.5-Omni 评测 2026：快速看 Pricing、Free Tier、音视频能力、开源部署成本，以及它与 GPT-4o、Gemini 的真实差异。",
+	"ja": "Qwen3.5-Omni の 2026 年レビュー。Pricing、Free Tier、音声と動画の上限、オープン導入コスト、GPT-4o と Gemini との違いを整理します。",
+	"ko": "Qwen3.5-Omni 2026 리뷰. Pricing, Free Tier, 오디오와 비디오 한계, 오픈 배포 비용, GPT-4o와 Gemini 대비 차이를 빠르게 확인할 수 있다.",
+	"es": "Review de Qwen3.5-Omni en 2026: Pricing, Free Tier, límites de audio y vídeo, coste de despliegue abierto y comparación real frente a GPT-4o y Gemini."
+  }
+}
