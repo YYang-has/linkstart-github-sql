@@ -1,0 +1,581 @@
+{
+  "slug": "jupid",
+  "brand_slug": "jupid",
+  "name_jsonb": {
+	"en": "Jupid",
+	"zh": "Jupid",
+	"ja": "Jupid",
+	"ko": "Jupid",
+	"es": "Jupid"
+  },
+  "tagline_jsonb": {
+	"en": "AI Accountant for Freelancers and LLCs That Automates Bookkeeping, Deductions, and Tax Filing",
+	"zh": "面向自由职业者与 LLC 的 AI 会计助手，自动处理记账、抵扣识别与报税",
+	"ja": "フリーランスと LLC 向けに記帳、控除整理、申告準備を自動化する AI 会計アシスタント",
+	"ko": "프리랜서와 LLC를 위해 장부정리, 공제 식별, 세금 신고를 자동화하는 AI 회계 도우미",
+	"es": "Contable de IA para freelancers y LLC que automatiza contabilidad, deducciones y presentación fiscal"
+  },
+  "description_jsonb": {
+	"en": "> **Executive Summary:** <a href=\"https://jupid.com/\" target=\"_blank\">Jupid</a> is an AI accounting platform for freelancers, solo founders, and small LLCs that want bookkeeping and tax prep without a traditional accountant workflow. Its core value is automating transaction categorization, deduction discovery, and Schedule C preparation through bank sync, persistent memory, and chat-based finance operations.\n\n**Jupid** is not just another finance dashboard. It is built as an automation-first back-office system that connects bank data, classifies expenses, remembers vendors over time, and turns messy transaction feeds into tax-ready records. That makes it more useful for operators who want fewer spreadsheets and fewer manual reconciliation steps, not just prettier reporting.\n\nThe product is especially compelling for US freelancers and single-member LLCs. The homepage promises **five-minute** setup to connect a bank and get tax work moving, offers the first **100 transactions free**, and claims **96% categorization accuracy** out of the box. Its feature pages go further, describing **99.9% accuracy after training**, support for **10,000+ banks** through Plaid, and filing support across **all 50 states**.\n\nJupid also has a strong AI workflow angle that most bookkeeping tools still lack. It works in **Claude Code**, supports chat-style interactions in **WhatsApp** and **iMessage**, and can generate reports or answer finance questions from synced business data. That is a meaningful productivity advantage for founders who already live in chat apps, terminals, or AI coding environments.\n\nJupid offers a **Free** plan, with paid tiers starting at **$50/month**. It is less expensive than average for this category.\n\nIn practical operations, Jupid is strongest when you want bookkeeping automation, tax filing support, and business admin in one lightweight system. Compared with <a href=\"https://quickbooks.intuit.com/live/bookkeeping/\" target=\"_blank\">QuickBooks Live</a>, its biggest advantage is AI-native workflow design for small operators, including persistent vendor memory, deduction guidance, and chat-based actions. The main limitation is scope: it is optimized for freelancers and LLCs, so finance teams needing deep ERP controls, inventory, or complex multi-entity accounting will likely outgrow it.",
+	"zh": "> **核心摘要：** <a href=\"https://jupid.com/\" target=\"_blank\">Jupid</a> 是一款面向自由职业者、个体创业者和小型 LLC 的 AI 财务平台，核心目标是让用户在不依赖传统会计流程的前提下完成记账与报税准备。它的核心价值在于，通过银行同步、持久记忆和聊天式交互，自动完成交易分类、抵扣识别以及 Schedule C 准备。\n\n**Jupid** 不只是一个普通财务看板，它更像一个自动化优先的后台运营系统。它能连接银行数据、自动识别支出类别、持续记住商家和交易上下文，并把凌乱的流水整理成可报税的结构化账务数据。对于想减少表格整理、减少人工对账步骤的操盘者来说，这比传统报表工具更有落地价值。\n\n这款产品尤其适合美国自由职业者和单成员 LLC。官网强调银行接入与启动流程只需 **5 分钟**，前 **100 笔交易免费**，并宣称开箱即可达到 **96% 分类准确率**。其功能页还进一步给出 **训练后 99.9% 准确率**、通过 Plaid 支持 **10,000+ 银行**、以及覆盖 **美国 50 个州** 报税支持等关键信息。\n\nJupid 的另一个差异化优势，是它把 AI 工作流真正嵌进财务操作里。它支持在 **Claude Code** 中查询账本，也支持通过 **WhatsApp** 和 **iMessage** 进行聊天式分类、抵扣确认和报表问答。对于本来就重度使用聊天工具、终端和 AI 开发环境的创业者来说，这种交互方式明显比传统财务软件更高效。\n\nJupid offers a **Free** plan, with paid tiers starting at **$50/month**. It is less expensive than average for this category.\n\n从实际落地看，Jupid 最强的场景是把记账自动化、报税辅助和基础公司行政放进一套轻量系统。和 <a href=\"https://quickbooks.intuit.com/live/bookkeeping/\" target=\"_blank\">QuickBooks Live</a> 相比，它最大的优势是更 AI 原生，尤其体现在商家记忆、抵扣建议和聊天式操作上。它的主要边界也很明确，核心定位仍是自由职业者与 LLC，如果是需要复杂多实体、库存或深度 ERP 控制的团队，很可能很快会超出它的适用范围。",
+	"ja": "> **エグゼクティブサマリー：** <a href=\"https://jupid.com/\" target=\"_blank\">Jupid</a> は、従来型の会計事務所ワークフローに依存せず、記帳と申告準備を進めたいフリーランス、個人創業者、小規模 LLC 向けの AI 会計プラットフォームです。銀行連携、継続的な記憶、チャット型の財務操作を通じて、取引分類、控除発見、Schedule C 準備を自動化できる点が中核価値です。\n\n**Jupid** は単なる財務ダッシュボードではありません。銀行データを接続し、支出を分類し、取引先の文脈を継続的に学習し、煩雑な明細を税務対応可能な記録へ整理する、オートメーション優先のバックオフィス基盤として設計されています。そのため、見栄えの良いレポートよりも、表計算や手動照合作業を減らしたい事業者に向いています。\n\n特に米国のフリーランスや単一メンバー LLC にとって魅力が大きい製品です。公式サイトでは、銀行接続から税務作業の開始まで **5 分**、最初の **100 件の取引が無料**、初期状態で **96% の分類精度** を掲げています。さらに機能ページでは、**学習後 99.9% の精度**、Plaid 経由での **10,000+ 銀行対応**、および **全 50 州** の申告サポートが示されています。\n\nまた、Jupid は多くの記帳ツールに不足しがちな AI ワークフロー面でも差別化されています。**Claude Code** で利用でき、**WhatsApp** や **iMessage** でのチャット型操作にも対応し、同期済みの事業データからレポート生成や財務質問への応答を実行できます。チャットアプリやターミナル、AI 開発環境を日常的に使う創業者にとっては、生産性上の利点が明確です。\n\nJupid offers a **Free** plan, with paid tiers starting at **$50/month**. It is less expensive than average for this category.\n\n実務面では、記帳自動化、申告支援、事業管理を 1 つの軽量システムに集約したい場合に Jupid が最も力を発揮します。<a href=\"https://quickbooks.intuit.com/live/bookkeeping/\" target=\"_blank\">QuickBooks Live</a> と比べると、継続的な取引先記憶、控除提案、チャット型アクションを備えた AI ネイティブ設計が最大の強みです。一方で対象範囲は明確で、主にフリーランスと LLC 向けに最適化されているため、深い ERP 統制、在庫管理、複雑な複数法人会計が必要な組織では上限に達しやすいでしょう。",
+	"ko": "> **핵심 요약:** <a href=\"https://jupid.com/\" target=\"_blank\">Jupid</a>는 전통적인 회계사 중심 워크플로 없이 장부정리와 세금 신고 준비를 끝내고 싶은 프리랜서, 1인 창업자, 소규모 LLC를 위한 AI 회계 플랫폼이다. 은행 연동, 지속 메모리, 채팅형 재무 작업을 통해 거래 분류, 공제 항목 탐색, Schedule C 준비를 자동화하는 것이 핵심 가치다.\n\n**Jupid**는 단순한 재무 대시보드가 아니다. 은행 데이터를 연결하고, 비용을 분류하고, 거래처 패턴을 계속 기억하며, 지저분한 거래 내역을 세금 제출 가능한 기록으로 바꾸는 자동화 우선 백오피스 시스템으로 설계됐다. 그래서 보기 좋은 리포트보다 스프레드시트 작업과 수동 대사 작업을 줄이고 싶은 운영자에게 더 실용적이다.\n\n이 제품은 특히 미국 프리랜서와 1인 LLC에 매력적이다. 공식 사이트는 은행 연결과 시작 설정이 **5분**이면 가능하다고 설명하고, **첫 100건 거래 무료**, 초기 상태에서 **96% 분류 정확도**를 제시한다. 기능 페이지에서는 **학습 후 99.9% 정확도**, Plaid를 통한 **10,000+개 은행 연동**, 그리고 **미국 50개 주 전역**의 신고 지원까지 강조한다.\n\nJupid는 대부분의 장부정리 도구에 부족한 AI 워크플로 측면도 강하다. **Claude Code**에서 동작하고, **WhatsApp**과 **iMessage**에서 채팅형 상호작용을 지원하며, 동기화된 비즈니스 데이터를 바탕으로 리포트를 만들거나 재무 질문에 답할 수 있다. 이미 채팅 앱, 터미널, AI 코딩 환경에 익숙한 창업자에게는 분명한 생산성 이점이다.\n\nJupid offers a **Free** plan, with paid tiers starting at **$50/month**. It is less expensive than average for this category.\n\n실무 기준으로 Jupid는 장부정리 자동화, 세금 신고 지원, 기본 경영 관리 기능을 하나의 가벼운 시스템으로 묶고 싶을 때 가장 강하다. <a href=\"https://quickbooks.intuit.com/live/bookkeeping/\" target=\"_blank\">QuickBooks Live</a>와 비교하면, 거래처 기억, 공제 가이드, 채팅형 액션을 갖춘 AI 네이티브 워크플로 설계가 가장 큰 강점이다. 반면 적용 범위는 분명해서 프리랜서와 LLC에 최적화되어 있으므로, 깊은 ERP 통제, 재고, 복수 법인 회계가 필요한 팀은 빠르게 한계를 느낄 수 있다.",
+	"es": "> **Resumen ejecutivo:** <a href=\"https://jupid.com/\" target=\"_blank\">Jupid</a> es una plataforma de contabilidad con IA para freelancers, fundadores en solitario y pequeñas LLC que quieren gestionar contabilidad y preparación fiscal sin depender del flujo tradicional de un contable. Su valor central está en automatizar la categorización de transacciones, la detección de deducciones y la preparación del Schedule C mediante sincronización bancaria, memoria persistente y operaciones financieras conversacionales.\n\n**Jupid** no es otro panel financiero más. Está construido como un sistema de back-office orientado primero a la automatización, capaz de conectar datos bancarios, clasificar gastos, recordar proveedores con el tiempo y convertir movimientos desordenados en registros listos para impuestos. Por eso resulta más útil para operadores que buscan menos hojas de cálculo y menos conciliación manual, no solo informes más bonitos.\n\nEl producto es especialmente atractivo para freelancers de Estados Unidos y LLC de un solo miembro. La web promete una puesta en marcha de **cinco minutos** para conectar el banco y empezar con el trabajo fiscal, ofrece las **primeras 100 transacciones gratis** y afirma una **precisión de categorización del 96%** desde el inicio. Sus páginas de funciones amplían la propuesta con **99.9% de precisión tras entrenamiento**, soporte para **10,000+ bancos** mediante Plaid y capacidad de presentación en **los 50 estados**.\n\nJupid también aporta un ángulo de workflow con IA que la mayoría de herramientas de bookkeeping todavía no ofrece. Funciona en **Claude Code**, permite interacciones tipo chat en **WhatsApp** e **iMessage**, y puede generar informes o responder preguntas financieras a partir de datos empresariales sincronizados. Para fundadores que ya trabajan dentro de chats, terminales o entornos de desarrollo con IA, esto supone una mejora real de productividad.\n\nJupid offers a **Free** plan, with paid tiers starting at **$50/month**. It is less expensive than average for this category.\n\nEn operaciones reales, Jupid destaca cuando se busca unir automatización contable, apoyo al filing fiscal y administración básica del negocio dentro de un sistema ligero. Frente a <a href=\"https://quickbooks.intuit.com/live/bookkeeping/\" target=\"_blank\">QuickBooks Live</a>, su mayor ventaja es un diseño AI-native para operadores pequeños, con memoria persistente de proveedores, orientación sobre deducciones y acciones basadas en chat. Su principal límite es el alcance, ya que está optimizada para freelancers y LLC, por lo que equipos financieros con necesidades de ERP profundo, inventario o contabilidad multi-entidad pueden superarla pronto."
+  },
+  "category_id": "3b1c8f7a-9e2d-4b6c-8a1f-5d7e9a0b3c4d",
+  "solution_category_id": "c2ff648f-37c0-44fc-a1f4-f163cb7df4fe",
+  "website_url": "https://jupid.com/",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/jupid.jpg",
+  "pricing_model": "freemium",
+  "paid_options_from": "$50",
+  "billing_frequency": "month",
+  "rating": 4.1,
+  "review_count": 0,
+  "supported_languages": [
+	"en",
+	"zh",
+	"ja",
+	"ko",
+	"es"
+  ],
+  "tags_jsonb": {
+	"en": [
+	  "#ExpenseCategorization",
+	  "#ScheduleCPreparation",
+	  "#AIBookkeeping",
+	  "#DeductionTracking",
+	  "#FreelancerTaxes",
+	  "#PlaidBankSync",
+	  "#WhatsAppFinanceOps",
+	  "#ClaudeCodeMCP"
+	],
+	"zh": [
+	  "#费用分类",
+	  "#ScheduleC生成",
+	  "#AI记账",
+	  "#抵扣追踪",
+	  "#自由职业者报税",
+	  "#Plaid银行同步",
+	  "#WhatsApp财务操作",
+	  "#ClaudeCodeMCP"
+	],
+	"ja": [
+	  "#経費分類",
+	  "#ScheduleC準備",
+	  "#AI記帳",
+	  "#控除追跡",
+	  "#フリーランス税務",
+	  "#Plaid銀行連携",
+	  "#WhatsApp財務運用",
+	  "#ClaudeCodeMCP"
+	],
+	"ko": [
+	  "#비용분류",
+	  "#ScheduleC준비",
+	  "#AI장부정리",
+	  "#공제추적",
+	  "#프리랜서세무",
+	  "#Plaid은행연동",
+	  "#WhatsApp재무운영",
+	  "#ClaudeCodeMCP"
+	],
+	"es": [
+	  "#CategorizacionDeGastos",
+	  "#PreparacionScheduleC",
+	  "#ContabilidadConIA",
+	  "#SeguimientoDeDeducciones",
+	  "#ImpuestosFreelancer",
+	  "#SincronizacionBancariaPlaid",
+	  "#OperacionesFinancierasWhatsApp",
+	  "#ClaudeCodeMCP"
+	]
+  },
+  "features_jsonb": {
+	"en": [
+	  "Connect bank accounts to automate bookkeeping without manual imports",
+	  "Categorize transactions to reduce cleanup before tax season",
+	  "Learn vendor behavior to improve accuracy over time",
+	  "Generate Schedule C data to speed up freelancer tax filing",
+	  "Surface smart deductions to capture write-offs automatically",
+	  "Sync with 10,000 plus banks through Plaid for real-time finance ops",
+	  "Answer finance questions in Claude Code, WhatsApp, and iMessage",
+	  "Include CPA review to add human oversight on critical filings"
+	],
+	"zh": [
+	  "连接银行账户，自动完成记账，无需手动导入流水",
+	  "自动分类交易，减少报税季前的清账工作量",
+	  "记住商家与交易模式，持续提升分类准确率",
+	  "生成 Schedule C 数据，加快自由职业者报税流程",
+	  "识别可抵扣项目，自动捕捉更多税务减项",
+	  "通过 Plaid 接入 10000 多家银行，实现实时财务同步",
+	  "在 Claude Code、WhatsApp 和 iMessage 中直接查询财务问题",
+	  "提供 CPA 审核，为关键报税节点增加人工把关"
+	],
+	"ja": [
+	  "銀行口座を接続し、手動インポートなしで記帳を自動化",
+	  "取引を分類して申告前の整理作業を削減",
+	  "取引先の傾向を学習し、時間とともに精度を向上",
+	  "Schedule C データを生成し、フリーランス申告を高速化",
+	  "賢い控除候補を提示し、経費計上漏れを自動で減らす",
+	  "Plaid 経由で 10,000 以上の銀行と同期し、財務運用を即時化",
+	  "Claude Code、WhatsApp、iMessage で財務質問に回答",
+	  "CPA レビューを含め、重要申告に人の確認を追加"
+	],
+	"ko": [
+	  "은행 계좌를 연결해 수동 가져오기 없이 장부정리를 자동화",
+	  "거래를 분류해 세금 시즌 전 정리 작업을 줄임",
+	  "거래처 패턴을 학습해 시간이 지날수록 정확도를 높임",
+	  "Schedule C 데이터를 생성해 프리랜서 신고를 빠르게 지원",
+	  "스마트 공제 항목을 찾아 자동으로 비용처리를 강화",
+	  "Plaid를 통해 10,000개 이상 은행과 연동해 실시간 재무 운영 지원",
+	  "Claude Code, WhatsApp, iMessage에서 재무 질문에 응답",
+	  "CPA 검토를 포함해 중요한 신고에 사람 검수를 더함"
+	],
+	"es": [
+	  "Conecta cuentas bancarias para automatizar la contabilidad sin importaciones manuales",
+	  "Categoriza transacciones para reducir la limpieza antes de impuestos",
+	  "Aprende el comportamiento de proveedores para mejorar la precisión con el tiempo",
+	  "Genera datos de Schedule C para acelerar la presentación fiscal del freelancer",
+	  "Detecta deducciones inteligentes para capturar write-offs automáticamente",
+	  "Sincroniza con más de 10,000 bancos mediante Plaid para operaciones financieras en tiempo real",
+	  "Responde preguntas financieras en Claude Code, WhatsApp e iMessage",
+	  "Incluye revisión de CPA para añadir supervisión humana en filings críticos"
+	]
+  },
+  "videos_jsonb": [
+	{
+	  "type": "youtube",
+	  "videoId": "Z_7FO11AMHY",
+	  "title": "Jupid AI Review: 7 CRUCIAL Things You Need To Know",
+	  "uploadDate": "2025-04-20T00:00:00Z",
+	  "description": "Short review covering Jupid positioning, automation workflow, and core use cases.",
+	  "duration": "PT2M22S"
+	}
+  ],
+  "verdict_jsonb": {
+	"en": {
+	  "summary": "<a href=\"https://jupid.com/\" target=\"_blank\">Jupid</a> is the **most practical choice** for **freelancers and small LLC operators** who need to **automate bookkeeping, find deductions, and prepare taxes without building a full finance stack**. It stands out by combining AI categorization, bank sync, chat-based workflows, and CPA review at a startup-friendly price. The tradeoff is that it is purpose-built for simpler business structures, not full accounting departments.",
+	  "expert_quote": "LinkStart AI Lab: 'Jupid gets the AI accounting story right by focusing on persistent financial memory, bank-linked automation, and tax workflows that remove real admin work. The product is strongest when it replaces cleanup labor, not when it tries to mimic a full ERP.'",
+	  "pros": [
+		"Automates bookkeeping for freelancers with minimal setup",
+		"Strong tax workflow for Schedule C preparation",
+		"Free first 100 transactions lowers adoption risk",
+		"Chat-based finance ops fit mobile and terminal users",
+		"Plaid bank sync cuts manual import work",
+		"CPA review adds trust to AI bookkeeping"
+	  ],
+	  "cons": [
+		"Best suited to US freelancers and LLCs",
+		"Not built for complex multi-entity accounting",
+		"AI categorization still needs edge-case confirmation",
+		"Limited fit for inventory-heavy businesses",
+		"Enterprise finance controls are not the focus",
+		"Advanced accounting teams may outgrow it fast"
+	  ]
+	},
+	"zh": {
+	  "summary": "<a href=\"https://jupid.com/\" target=\"_blank\">Jupid</a> 是 **最务实的选择**，适合 **自由职业者与小型 LLC 经营者** 去 **自动完成记账、识别抵扣并在不搭建完整财务系统的前提下完成报税准备**。它把 AI 分类、银行同步、聊天式工作流和 CPA 审核组合在一起，价格也足够适合早期业务。它的边界同样明显，更适合简单主体，而不是完整财务部门。",
+	  "expert_quote": "LinkStart AI Lab：'Jupid 真正做对的地方，不是把会计软件换个 AI 外壳，而是把持久财务记忆、银行联动自动化和报税工作流打通，直接减少后台行政劳动。它最强的价值，不在于像 ERP 一样面面俱到，而在于替用户拿掉大量清账与整理动作。'",
+	  "pros": [
+		"适合自由职业者快速自动记账",
+		"Schedule C 流程设计很实用",
+		"前 100 笔交易免费，试用门槛低",
+		"聊天式财务操作适合移动端用户",
+		"Plaid 同步减少手工导入工作",
+		"CPA 审核提高 AI 记账可信度"
+	  ],
+	  "cons": [
+		"更适合美国自由职业者与 LLC",
+		"不适合复杂多实体会计结构",
+		"边缘分类场景仍需人工确认",
+		"对库存型业务支持有限",
+		"并非面向企业级财务控制设计",
+		"高级财务团队可能很快用满上限"
+	  ]
+	},
+	"ja": {
+	  "summary": "<a href=\"https://jupid.com/\" target=\"_blank\">Jupid</a> は、**フリーランスと小規模 LLC の運営者** が **本格的な財務システムを構築せずに、記帳自動化、控除発見、申告準備を進めたい場合** に適した **最も実務的な選択肢** です。AI 分類、銀行同期、チャット型ワークフロー、CPA レビューを組み合わせ、導入しやすい価格帯で提供している点が評価できます。一方で、複雑な会計部門向けではなく、シンプルな事業構造に最適化されています。",
+	  "expert_quote": "LinkStart AI Lab: 'Jupid が優れているのは、AI 会計を表面的に見せることではなく、継続的な財務記憶、銀行連携自動化、税務ワークフローを一体化し、実際の事務負荷を減らしている点です。ERP を模倣するより、整理作業そのものを置き換える局面で最も力を発揮します。'",
+	  "pros": [
+		"少ない初期設定でフリーランス記帳を自動化",
+		"Schedule C 準備の税務導線が強い",
+		"最初の 100 取引無料で導入しやすい",
+		"チャット型財務操作がモバイル運用に合う",
+		"Plaid 連携で手動取込を削減",
+		"CPA レビューで AI 記帳の信頼性を補強"
+	  ],
+	  "cons": [
+		"米国のフリーランスと LLC 向けに最適化",
+		"複雑な複数法人会計には不向き",
+		"AI 分類は例外取引で確認が必要",
+		"在庫中心ビジネスには適合が弱い",
+		"企業向け財務統制は主目的ではない",
+		"高度な会計チームには早く上限が来る"
+	  ]
+	},
+	"ko": {
+	  "summary": "<a href=\"https://jupid.com/\" target=\"_blank\">Jupid</a>는 **프리랜서와 소규모 LLC 운영자** 가 **완전한 재무 스택을 따로 구축하지 않고 장부정리 자동화, 공제 탐색, 세금 준비를 진행해야 할 때** 가장 실용적인 **현장형 선택지**다. AI 분류, 은행 연동, 채팅 기반 워크플로, CPA 검토를 스타트업 친화적 가격에 묶어낸 점이 강점이다. 다만 구조가 단순한 사업자에 맞춰져 있어 완전한 회계 부서를 위한 제품은 아니다.",
+	  "expert_quote": "LinkStart AI Lab: 'Jupid가 제대로 짚은 포인트는 AI 회계라는 이름이 아니라, 지속형 재무 메모리, 은행 연동 자동화, 세금 워크플로를 연결해 실제 백오피스 노동을 줄인다는 점이다. 이 제품은 ERP를 흉내 낼 때보다 정리 노동을 대체할 때 가장 강하다.'",
+	  "pros": [
+		"적은 설정으로 프리랜서 장부정리를 자동화",
+		"Schedule C 준비 흐름이 강하다",
+		"첫 100건 무료로 도입 부담이 낮다",
+		"채팅형 재무 운영이 모바일과 터미널에 잘 맞음",
+		"Plaid 연동으로 수동 가져오기 감소",
+		"CPA 검토가 AI 장부정리 신뢰도를 높임"
+	  ],
+	  "cons": [
+		"미국 프리랜서와 LLC에 가장 적합",
+		"복잡한 다중 법인 회계에는 부적합",
+		"예외 거래는 AI 분류 확인이 필요",
+		"재고 중심 비즈니스에는 한계가 있다",
+		"엔터프라이즈 재무 통제가 핵심은 아니다",
+		"고급 회계팀은 빠르게 한계에 도달할 수 있음"
+	  ]
+	},
+	"es": {
+	  "summary": "<a href=\"https://jupid.com/\" target=\"_blank\">Jupid</a> es la **opción más práctica** para **freelancers y operadores de pequeñas LLC** que necesitan **automatizar la contabilidad, detectar deducciones y preparar impuestos sin montar una pila financiera completa**. Sobresale al combinar categorización con IA, sincronización bancaria, workflows conversacionales y revisión de CPA a un precio asumible para negocios tempranos. La contrapartida es clara, ya que está diseñada para estructuras simples y no para departamentos contables completos.",
+	  "expert_quote": "LinkStart AI Lab: 'Jupid acierta en la historia de la contabilidad con IA porque se centra en memoria financiera persistente, automatización ligada al banco y workflows fiscales que eliminan trabajo administrativo real. El producto es más fuerte cuando sustituye tareas de limpieza, no cuando intenta comportarse como un ERP completo.'",
+	  "pros": [
+		"Automatiza la contabilidad freelance con poca configuración",
+		"Buen flujo fiscal para preparar Schedule C",
+		"Las primeras 100 transacciones gratis reducen riesgo",
+		"Las finanzas por chat encajan con móvil y terminal",
+		"La sincronización con Plaid reduce importaciones manuales",
+		"La revisión de CPA añade confianza a la IA"
+	  ],
+	  "cons": [
+		"Encaja mejor con freelancers y LLC de Estados Unidos",
+		"No está pensado para contabilidad multi-entidad compleja",
+		"La categorización con IA requiere validar casos límite",
+		"Tiene ajuste limitado para negocios con inventario",
+		"Los controles financieros enterprise no son el foco",
+		"Los equipos contables avanzados pueden superarlo rápido"
+	  ]
+	}
+  },
+  "faqs_jsonb": [
+	{
+	  "question": {
+		"en": "Jupid vs QuickBooks Live: Which is better for freelancers who want automated bookkeeping?",
+		"zh": "Jupid 和 QuickBooks Live 相比，谁更适合想做自动记账的自由职业者？",
+		"ja": "Jupid と QuickBooks Live では、自動記帳を求めるフリーランスにどちらが適していますか。",
+		"ko": "Jupid와 QuickBooks Live 중 자동 장부정리를 원하는 프리랜서에게 더 적합한 것은 무엇인가요.",
+		"es": "Jupid vs QuickBooks Live: ¿qué opción conviene más a freelancers que buscan contabilidad automatizada?"
+	  },
+	  "answer": {
+		"en": "The core difference is workflow design. While <a href=\"https://quickbooks.intuit.com/live/bookkeeping/\" target=\"_blank\">QuickBooks Live</a> is stronger for traditional bookkeeping support, Jupid has an absolute advantage in AI-native automation with vendor memory, chat-based categorization, first 100 free transactions, and faster Schedule C workflows.",
+		"zh": "核心差异在工作流设计。虽然 <a href=\"https://quickbooks.intuit.com/live/bookkeeping/\" target=\"_blank\">QuickBooks Live</a> 更偏传统记账支持，但 Jupid 在 AI 原生自动化上优势更大，包括商家记忆、聊天式分类、前 100 笔免费交易以及更快的 Schedule C 流程。",
+		"ja": "中核の違いはワークフロー設計です。<a href=\"https://quickbooks.intuit.com/live/bookkeeping/\" target=\"_blank\">QuickBooks Live</a> は従来型の記帳支援に強みがありますが、Jupid は取引先記憶、チャット分類、最初の 100 取引無料、より速い Schedule C 対応により、AI ネイティブ自動化で明確な優位があります。",
+		"ko": "핵심 차이는 워크플로 설계다. <a href=\"https://quickbooks.intuit.com/live/bookkeeping/\" target=\"_blank\">QuickBooks Live</a>가 전통형 장부 지원에 더 강하다면, Jupid는 거래처 메모리, 채팅 분류, 첫 100건 무료, 더 빠른 Schedule C 흐름을 바탕으로 AI 네이티브 자동화에서 확실한 우위를 가진다.",
+		"es": "La diferencia principal está en el diseño del workflow. Mientras <a href=\"https://quickbooks.intuit.com/live/bookkeeping/\" target=\"_blank\">QuickBooks Live</a> rinde mejor en soporte contable tradicional, Jupid tiene una ventaja clara en automatización AI-native con memoria de proveedores, categorización por chat, primeras 100 transacciones gratis y flujos de Schedule C más rápidos."
+	  }
+	},
+	{
+	  "question": {
+		"en": "What are the biggest real-world concerns with Jupid today?",
+		"zh": "Jupid 目前最真实的落地顾虑是什么？",
+		"ja": "現時点での Jupid の実務上の主な懸念点は何ですか。",
+		"ko": "현재 Jupid를 실제 도입할 때 가장 큰 우려는 무엇인가요.",
+		"es": "¿Cuáles son hoy las preocupaciones más reales al usar Jupid en producción?"
+	  },
+	  "answer": {
+		"en": "The biggest concern is trust in AI categorization for edge cases. Jupid claims 96 percent out-of-box accuracy and 99.9 percent after training, but unusual transactions still need human confirmation. The best workaround is to use its CPA review and approve ambiguous items through chat.",
+		"zh": "最大的顾虑是边缘场景下对 AI 分类结果的信任问题。Jupid 宣称开箱 96% 准确率、训练后 99.9% 准确率，但特殊交易仍需要人工确认。最稳妥的做法是结合其 CPA 审核，并通过聊天流程处理不确定项目。",
+		"ja": "最大の懸念は、例外的な取引に対する AI 分類の信頼性です。Jupid は初期 96%、学習後 99.9% の精度を示していますが、特殊な取引はなお人の確認が必要です。最も現実的な対処は、CPA レビューを併用し、曖昧な項目をチャットで承認する運用です。",
+		"ko": "가장 큰 우려는 예외 거래에서 AI 분류를 얼마나 신뢰할 수 있느냐다. Jupid는 초기 96%, 학습 후 99.9% 정확도를 주장하지만 특이 거래는 여전히 사람 확인이 필요하다. 가장 현실적인 보완책은 CPA 검토를 쓰고 애매한 항목은 채팅으로 승인하는 방식이다.",
+		"es": "La mayor preocupación está en la confianza sobre la categorización con IA en casos límite. Jupid habla de 96% de precisión inicial y 99.9% tras entrenamiento, pero las transacciones atípicas siguen requiriendo confirmación humana. La mejor solución práctica es apoyarse en la revisión de CPA y validar por chat los elementos ambiguos."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Does Jupid have a free tier, and what does paid pricing include?",
+		"zh": "Jupid 有免费层吗，付费版本包含什么？",
+		"ja": "Jupid に無料枠はありますか。また有料プランには何が含まれますか。",
+		"ko": "Jupid에 무료 티어가 있나요, 유료 플랜에는 무엇이 포함되나요.",
+		"es": "¿Jupid tiene Free Tier y qué incluye el plan de pago?"
+	  },
+	  "answer": {
+		"en": "Yes. Jupid offers your first 100 transactions free, and paid plans start at $50 per month. The paid tier includes AI bookkeeping, bank integration, financial reports, federal and state tax filing, quarterly estimates, smart deductions, CPA review, and 24 by 7 AI support.",
+		"zh": "有。Jupid 提供前 100 笔交易免费，付费方案从每月 50 美元起。付费版包含 AI 记账、银行同步、财务报表、联邦与州报税、季度税估算、抵扣建议、CPA 审核以及 24 小时 AI 支持。",
+		"ja": "はい。Jupid は最初の 100 取引を無料で提供し、有料は月額 50 ドルからです。有料プランには AI 記帳、銀行連携、財務レポート、連邦および州の申告、四半期見積税額、控除提案、CPA レビュー、24 時間 AI サポートが含まれます。",
+		"ko": "예. Jupid는 첫 100건 거래를 무료로 제공하고 유료 플랜은 월 50달러부터 시작한다. 유료에는 AI 장부정리, 은행 연동, 재무 리포트, 연방 및 주 세금 신고, 분기 추정세, 공제 제안, CPA 검토, 24시간 AI 지원이 포함된다.",
+		"es": "Sí. Jupid ofrece gratis las primeras 100 transacciones y sus planes de pago arrancan en 50 dólares al mes. El plan incluye bookkeeping con IA, integración bancaria, informes financieros, filing federal y estatal, estimaciones trimestrales, deducciones inteligentes, revisión de CPA y soporte de IA 24 por 7."
+	  }
+	},
+	{
+	  "question": {
+		"en": "How does Jupid fit into a modern AI and finance stack?",
+		"zh": "Jupid 如何接入现代 AI 与财务技术栈？",
+		"ja": "Jupid は現代的な AI と財務スタックにどう組み込めますか。",
+		"ko": "Jupid는 현대 AI 및 재무 스택에 어떻게 들어가나요.",
+		"es": "¿Cómo encaja Jupid dentro de un stack moderno de IA y finanzas?"
+	  },
+	  "answer": {
+		"en": "It fits best as an AI finance operations layer for solo operators and small businesses. Jupid connects to Plaid for bank sync, works in Claude Code through MCP style workflows, and supports WhatsApp and iMessage for lightweight finance operations. That makes it easier to embed into daily work than legacy accounting software.",
+		"zh": "它最适合作为个人创业者和小团队的 AI 财务运营层。Jupid 通过 Plaid 同步银行数据，可在 Claude Code 中接入类似 MCP 的工作流，还支持 WhatsApp 和 iMessage 做轻量财务操作。相比传统会计软件，它更容易融入日常工作流。",
+		"ja": "個人事業者や小規模事業者向けの AI 財務運用レイヤーとして組み込むのが最適です。Jupid は Plaid で銀行同期し、Claude Code では MCP 型の運用に近い形で使え、WhatsApp と iMessage でも軽量な財務操作を処理できます。そのため、従来型会計ソフトより日常業務へ組み込みやすい構成です。",
+		"ko": "개인 사업자와 소규모 팀을 위한 AI 재무 운영 레이어로 넣는 것이 가장 적합하다. Jupid는 Plaid로 은행을 동기화하고 Claude Code에서 MCP 스타일 워크플로로 동작하며 WhatsApp과 iMessage도 지원한다. 그래서 레거시 회계 소프트웨어보다 일상 업무에 자연스럽게 녹여 넣기 쉽다.",
+		"es": "Encaja mejor como capa de operaciones financieras con IA para operadores individuales y pequeños negocios. Jupid se conecta a Plaid para la sincronización bancaria, funciona en Claude Code mediante flujos tipo MCP y admite WhatsApp e iMessage para operaciones ligeras. Eso facilita integrarlo en el trabajo diario mejor que el software contable tradicional."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Is Jupid safe enough for private financial data?",
+		"zh": "Jupid 对私密财务数据来说够安全吗？",
+		"ja": "Jupid は機密性の高い財務データでも十分に安全ですか。",
+		"ko": "Jupid는 민감한 재무 데이터에 사용해도 충분히 안전한가요.",
+		"es": "¿Jupid es lo bastante seguro para datos financieros privados?"
+	  },
+	  "answer": {
+		"en": "Yes for many small businesses, but you should still verify compliance requirements. Jupid positions itself around bank-linked accounting, CPA review, and production tax workflows, yet regulated teams should review data handling, retention, and access controls before rollout.",
+		"zh": "对很多小企业来说可以，但仍然要单独核查合规要求。Jupid 的定位是银行联动记账、CPA 审核和真实报税工作流，但如果你所在行业监管更严，仍应在上线前审核其数据处理、留存策略和访问控制。",
+		"ja": "多くの小規模事業には十分有力ですが、コンプライアンス要件の確認は必要です。Jupid は銀行連携会計、CPA レビュー、本番税務ワークフローを軸にしていますが、規制の厳しい組織では導入前にデータ処理、保持方針、アクセス制御を精査すべきです。",
+		"ko": "많은 소규모 사업자에게는 충분할 수 있지만 컴플라이언스 검증은 별도로 필요하다. Jupid는 은행 연동 회계, CPA 검토, 실사용 세금 워크플로를 중심으로 하지만 규제가 엄격한 팀은 도입 전에 데이터 처리, 보존, 접근 통제를 점검해야 한다.",
+		"es": "Sí para muchas pequeñas empresas, pero aun así conviene verificar los requisitos de compliance. Jupid se posiciona alrededor de contabilidad vinculada al banco, revisión de CPA y workflows fiscales reales, aunque los equipos regulados deben revisar tratamiento de datos, retención y controles de acceso antes del despliegue."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Can Jupid handle niche workflows like creator income, contractor expenses, or text-message approvals?",
+		"zh": "Jupid 能处理创作者收入、承包商支出或短信确认这类长尾场景吗？",
+		"ja": "Jupid はクリエイター収入、請負経費、メッセージ承認のようなニッチな業務にも対応できますか。",
+		"ko": "Jupid는 크리에이터 수입, 계약자 비용, 문자 승인 같은 틈새 워크플로도 처리할 수 있나요.",
+		"es": "¿Puede Jupid cubrir flujos de nicho como ingresos de creadores, gastos de contratistas o aprobaciones por mensaje?"
+	  },
+	  "answer": {
+		"en": "Yes. Jupid is especially strong for freelance and contractor workflows because it maps expenses to Schedule C logic, remembers vendors, and lets users confirm uncertain transactions in WhatsApp or iMessage. It is much better at lightweight tax ops than generic chatbots.",
+		"zh": "可以。Jupid 对自由职业者和承包商场景尤其友好，因为它会把支出映射到 Schedule C 逻辑，记住商家上下文，并允许用户在 WhatsApp 或 iMessage 中确认不确定交易。相比通用聊天机器人，它更像真正可落地的轻量税务运营工具。",
+		"ja": "はい。Jupid はフリーランスや請負業務に特に強く、支出を Schedule C の論理に沿って整理し、取引先を記憶し、WhatsApp や iMessage 上で不確定取引を確認できます。汎用チャットボットより、軽量な税務運用ツールとしてはるかに実務的です。",
+		"ko": "예. Jupid는 프리랜서와 계약자 워크플로에 특히 강하다. 비용을 Schedule C 로직에 맞춰 매핑하고 거래처를 기억하며 WhatsApp이나 iMessage에서 애매한 거래를 확인할 수 있기 때문이다. 범용 챗봇보다 경량 세무 운영 도구에 훨씬 가깝다.",
+		"es": "Sí. Jupid destaca precisamente en flujos de freelancers y contratistas porque mapea gastos a la lógica de Schedule C, recuerda proveedores y permite confirmar transacciones dudosas en WhatsApp o iMessage. Para tax ops ligeras es mucho más útil que un chatbot genérico."
+	  }
+	}
+  ],
+  "comparison_table_jsonb": {
+	"en": {
+	  "reason": "We selected **QuickBooks Live** because most buyers evaluating Jupid are deciding between **AI-native bookkeeping automation** and **traditional managed bookkeeping support**. Jupid is strongest when **speed, low admin overhead, and chat-based finance workflows** matter more than broad accounting depth.",
+	  "caption": "Jupid vs QuickBooks Live for Freelancer Bookkeeping Automation",
+	  "columns": [
+		"Dimension",
+		"[Jupid](https://jupid.com/)",
+		"[QuickBooks Live](https://quickbooks.intuit.com/live/bookkeeping/)"
+	  ],
+	  "rows": [
+		[
+		  "Core Use Case",
+		  "**Best for freelancers and LLCs** who want AI bookkeeping and tax prep in one flow",
+		  "**Best for small businesses** that want more traditional bookkeeping assistance"
+		],
+		[
+		  "Automation Depth",
+		  "**Higher AI automation** with vendor memory, chat approvals, and deduction guidance",
+		  "**More service-oriented** workflow with stronger legacy accounting familiarity"
+		],
+		[
+		  "Pricing Entry",
+		  "**Lower entry price** at $50 per month plus first 100 transactions free",
+		  "**Higher effective cost** for users needing ongoing human bookkeeping support"
+		],
+		[
+		  "Workflow Experience",
+		  "**More modern** with Claude Code, WhatsApp, and iMessage interactions",
+		  "**More conventional** inside standard accounting software workflows"
+		],
+		[
+		  "Tax Readiness",
+		  "**Very strong for Schedule C** and freelancer filing preparation",
+		  "**Better for broader bookkeeping continuity** than freelancer-first tax optimization"
+		],
+		[
+		  "Best ROI Buyer",
+		  "**Solo founders, creators, contractors, and side-business operators**",
+		  "**Teams already anchored in QuickBooks** and wanting human-backed bookkeeping"
+		]
+	  ],
+	  "tldr": "**Choose Jupid** if you want **faster setup, lower cost, and AI-first bookkeeping automation**. **Choose QuickBooks Live** if you prefer **a more traditional accounting workflow with stronger legacy software familiarity**."
+	},
+	"zh": {
+	  "reason": "我们选择 **QuickBooks Live** 作为核心竞品，因为大多数在评估 Jupid 的用户，本质上是在 **AI 原生自动记账** 与 **传统托管式记账支持** 之间做选择。Jupid 最强的地方，在于 **更快启动、更低后台负担，以及聊天式财务工作流**。",
+	  "caption": "Jupid 与 QuickBooks Live 在自由职业者记账自动化上的对比",
+	  "columns": [
+		"对比维度",
+		"[Jupid](https://jupid.com/)",
+		"[QuickBooks Live](https://quickbooks.intuit.com/live/bookkeeping/)"
+	  ],
+	  "rows": [
+		[
+		  "核心场景",
+		  "**更适合自由职业者和 LLC**，把 AI 记账与报税准备放进同一流程",
+		  "**更适合小企业**，需要更传统的记账协助模式"
+		],
+		[
+		  "自动化深度",
+		  "**AI 自动化更强**，具备商家记忆、聊天确认和抵扣建议",
+		  "**更偏服务型**，更接近传统会计软件使用习惯"
+		],
+		[
+		  "起步成本",
+		  "**入门更低**，每月 50 美元，且前 100 笔交易免费",
+		  "**总体成本通常更高**，尤其在持续人工服务场景下"
+		],
+		[
+		  "工作流体验",
+		  "**更现代**，支持 Claude Code、WhatsApp 和 iMessage",
+		  "**更传统**，主要围绕标准会计软件流程展开"
+		],
+		[
+		  "报税准备",
+		  "**对 Schedule C 很强**，更适合自由职业者报税准备",
+		  "**更偏持续记账**，而不是专门面向自由职业者税务优化"
+		],
+		[
+		  "ROI 最佳买家",
+		  "**个人创业者、创作者、承包商和副业经营者**",
+		  "**已经深度使用 QuickBooks** 且需要人工支持的团队"
+		]
+	  ],
+	  "tldr": "**选 Jupid**：如果你更看重 **更快上线、更低价格和 AI 优先的记账自动化**。**选 QuickBooks Live**：如果你更偏好 **传统会计工作流和更熟悉的老牌软件路径**。"
+	},
+	"ja": {
+	  "reason": "**QuickBooks Live** を選定した理由は、Jupid を検討する多くの買い手が、**AI ネイティブな記帳自動化** と **従来型のマネージド記帳支援** を比較しているためです。Jupid は、**立ち上がりの速さ、管理負荷の低さ、チャット型財務ワークフロー** を、広範な会計機能より優先する場合に最も強みを発揮します。",
+	  "caption": "フリーランス向け記帳自動化における Jupid と QuickBooks Live の比較",
+	  "columns": [
+		"比較項目",
+		"[Jupid](https://jupid.com/)",
+		"[QuickBooks Live](https://quickbooks.intuit.com/live/bookkeeping/)"
+	  ],
+	  "rows": [
+		[
+		  "主な用途",
+		  "**フリーランスと LLC 向け** で、AI 記帳と申告準備を一体化したい場合に最適",
+		  "**小規模事業者向け** で、より従来型の記帳支援を求める場合に適切"
+		],
+		[
+		  "自動化の深さ",
+		  "**AI 自動化が強い**。取引先記憶、チャット承認、控除提案を備える",
+		  "**よりサービス寄り** で、従来会計ソフトに近い運用感"
+		],
+		[
+		  "価格の入り口",
+		  "**導入しやすい**。月額 50 ドルから、最初の 100 取引は無料",
+		  "**実質コストは高め**。継続的な人的支援が必要な場合に負担増"
+		],
+		[
+		  "ワークフロー体験",
+		  "**より現代的**。Claude Code、WhatsApp、iMessage に対応",
+		  "**より従来的**。標準的な会計ソフト内の運用が中心"
+		],
+		[
+		  "税務準備",
+		  "**Schedule C に非常に強い**。フリーランス申告準備に向く",
+		  "**継続的な記帳に優位**。フリーランス特化の税務最適化ではない"
+		],
+		[
+		  "ROI が高い買い手",
+		  "**個人創業者、クリエイター、請負業者、副業事業者**",
+		  "**QuickBooks を基盤に運用中** で人的支援を求めるチーム"
+		]
+	  ],
+	  "tldr": "**Jupid を選ぶべきなのは**、**導入の速さ、低コスト、AI 優先の記帳自動化** を重視する場合です。**QuickBooks Live を選ぶべきなのは**、**従来型の会計ワークフローと既存ソフトへの慣れ** を重視する場合です。"
+	},
+	"ko": {
+	  "reason": "**QuickBooks Live**를 비교 대상으로 고른 이유는 Jupid를 검토하는 구매자 다수가 **AI 네이티브 장부정리 자동화** 와 **전통적인 관리형 장부 지원** 사이에서 선택하고 있기 때문이다. Jupid는 **빠른 시작, 낮은 백오피스 부담, 채팅형 재무 워크플로** 가 넓은 회계 범위보다 더 중요할 때 가장 강하다.",
+	  "caption": "프리랜서 장부정리 자동화 기준 Jupid와 QuickBooks Live 비교",
+	  "columns": [
+		"비교 항목",
+		"[Jupid](https://jupid.com/)",
+		"[QuickBooks Live](https://quickbooks.intuit.com/live/bookkeeping/)"
+	  ],
+	  "rows": [
+		[
+		  "핵심 사용 시나리오",
+		  "**프리랜서와 LLC에 최적** 이며 AI 장부정리와 세금 준비를 한 흐름으로 처리",
+		  "**소규모 사업자에 적합** 하며 보다 전통적인 장부 지원 제공"
+		],
+		[
+		  "자동화 깊이",
+		  "**더 높은 AI 자동화** 로 거래처 메모리, 채팅 승인, 공제 가이드를 제공",
+		  "**더 서비스 지향적** 이며 레거시 회계 사용 경험에 가깝다"
+		],
+		[
+		  "진입 가격",
+		  "**더 낮은 시작 비용** 으로 월 50달러와 첫 100건 무료 제공",
+		  "**실질 비용이 더 높을 수 있음**. 지속적인 인력 지원이 필요한 경우 특히 그렇다"
+		],
+		[
+		  "워크플로 경험",
+		  "**더 현대적** 이며 Claude Code, WhatsApp, iMessage를 지원",
+		  "**더 전통적** 이며 일반 회계 소프트웨어 흐름 안에서 작동"
+		],
+		[
+		  "세금 준비도",
+		  "**Schedule C에 매우 강함**. 프리랜서 신고 준비에 유리",
+		  "**광범위한 장부 연속성에 더 적합**. 프리랜서 특화 세무 최적화는 아님"
+		],
+		[
+		  "ROI가 높은 구매자",
+		  "**1인 창업자, 크리에이터, 계약자, 부업 운영자**",
+		  "**이미 QuickBooks 중심으로 운영 중** 이고 사람 기반 지원이 필요한 팀"
+		]
+	  ],
+	  "tldr": "**Jupid를 선택해야 하는 경우** 는 **더 빠른 시작, 더 낮은 비용, AI 우선 장부정리 자동화** 를 원할 때다. **QuickBooks Live를 선택해야 하는 경우** 는 **더 전통적인 회계 워크플로와 익숙한 레거시 소프트웨어 경험** 을 선호할 때다."
+	},
+	"es": {
+	  "reason": "Hemos elegido **QuickBooks Live** porque la mayoría de compradores que evalúan Jupid están decidiendo entre **automatización contable AI-native** y **soporte contable gestionado de corte tradicional**. Jupid rinde mejor cuando **la velocidad, la baja carga administrativa y los workflows financieros por chat** pesan más que la amplitud funcional contable.",
+	  "caption": "Jupid vs QuickBooks Live para automatización contable de freelancers",
+	  "columns": [
+		"Dimensión",
+		"[Jupid](https://jupid.com/)",
+		"[QuickBooks Live](https://quickbooks.intuit.com/live/bookkeeping/)"
+	  ],
+	  "rows": [
+		[
+		  "Caso de uso principal",
+		  "**Ideal para freelancers y LLC** que quieren contabilidad con IA y preparación fiscal en un solo flujo",
+		  "**Ideal para pequeñas empresas** que prefieren apoyo contable más tradicional"
+		],
+		[
+		  "Profundidad de automatización",
+		  "**Mayor automatización con IA** gracias a memoria de proveedores, aprobaciones por chat y guía de deducciones",
+		  "**Workflow más orientado al servicio** con mayor familiaridad de software contable clásico"
+		],
+		[
+		  "Entrada de precio",
+		  "**Precio inicial más bajo** con 50 dólares al mes y primeras 100 transacciones gratis",
+		  "**Coste efectivo más alto** para quienes requieren soporte humano continuo"
+		],
+		[
+		  "Experiencia de workflow",
+		  "**Más moderna** con Claude Code, WhatsApp e iMessage",
+		  "**Más convencional** dentro de flujos estándar de software contable"
+		],
+		[
+		  "Preparación fiscal",
+		  "**Muy fuerte para Schedule C** y filing de freelancers",
+		  "**Mejor para continuidad contable amplia** que para optimización fiscal freelance"
+		],
+		[
+		  "Comprador con mejor ROI",
+		  "**Fundadores en solitario, creadores, contratistas y operadores de side business**",
+		  "**Equipos ya anclados en QuickBooks** que quieren soporte humano"
+		]
+	  ],
+	  "tldr": "**Elige Jupid** si buscas **puesta en marcha rápida, menor coste y automatización contable AI-first**. **Elige QuickBooks Live** si prefieres **un workflow contable más tradicional y una experiencia más familiar de software heredado**."
+	}
+  },
+  "seo_title_jsonb": {
+	"en": "Jupid Review 2026: Pricing, Pros & Cons, Alternatives",
+	"zh": "Jupid 怎么样？2026 最新评测：价格、优缺点与竞品对比",
+	"ja": "【徹底レビュー】Jupid の評判は？料金・強み弱み・代替候補",
+	"ko": "Jupid 솔직 후기: 가격, 장단점 및 추천 대안 완벽 정리",
+	"es": "Opiniones de Jupid: Precio, Ventajas y Alternativas"
+  },
+  "seo_description_jsonb": {
+	"en": "Jupid Review 2026: explore Pricing, Free Tier, AI bookkeeping accuracy, tax filing features, and whether it beats QuickBooks Live for freelancers and LLCs.",
+	"zh": "Jupid 评测 2026：快速看 Pricing、Free Tier、AI 记账准确率、报税能力，以及它是否比 QuickBooks Live 更适合自由职业者与 LLC。",
+	"ja": "Jupid の 2026 年レビュー。Pricing、Free Tier、AI 記帳精度、税務申告機能、QuickBooks Live との違いを実務目線で確認できます。",
+	"ko": "Jupid 2026 리뷰. Pricing, Free Tier, AI 장부정리 정확도, 세금 신고 기능, QuickBooks Live 대비 차이를 한 번에 확인할 수 있다.",
+	"es": "Review de Jupid en 2026: Pricing, Free Tier, precisión del bookkeeping con IA, funciones fiscales y si supera a QuickBooks Live para freelancers y LLC."
+  }
+}

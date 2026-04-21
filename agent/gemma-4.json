@@ -1,0 +1,581 @@
+{
+  "slug": "gemma-4",
+  "brand_slug": "google",
+  "name_jsonb": {
+	"en": "Gemma 4",
+	"zh": "Gemma 4",
+	"ja": "Gemma 4",
+	"ko": "Gemma 4",
+	"es": "Gemma 4"
+  },
+  "tagline_jsonb": {
+	"en": "Open multimodal model family for long-context reasoning, local agents, and edge-to-cloud deployment",
+	"zh": "面向长上下文推理、本地智能体与边缘到云部署的开源多模态模型家族",
+	"ja": "長文脈推論、ローカルエージェント、エッジからクラウドまでの展開に対応するオープンなマルチモーダルモデル群",
+	"ko": "장문맥 추론, 로컬 에이전트, 엣지부터 클라우드까지의 배포를 지원하는 오픈 멀티모달 모델 패밀리",
+	"es": "Familia abierta de modelos multimodales para razonamiento de largo contexto, agentes locales y despliegue del edge a la nube"
+  },
+  "description_jsonb": {
+	"en": "> **Executive Summary:** <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/\" target=\"_blank\">Gemma 4</a> is Google DeepMind's open model family for developers and AI teams that need strong reasoning, multimodal input, and deployable agent workflows without locking into a hosted API. Its core value is unusually high intelligence-per-parameter, with local, edge, and cloud deployment options under Apache 2.0.\n\n**Gemma 4** is not just another open LLM drop. It is a full multimodal model family with four sizes, **E2B**, **E4B**, **26B A4B MoE**, and **31B Dense**, built for reasoning, coding, function calling, and long-context tasks. That matters because buyers are not evaluating a single model, but a deployment ladder that runs from phones and laptops to workstations and cloud infrastructure.\n\nThe AI-first value is clear in automation scenarios. Google ships native support for **function calling**, **structured JSON output**, and **system instructions**, which makes Gemma 4 easier to slot into agent pipelines, tool-using copilots, local RAG apps, and offline coding assistants. Day-one ecosystem support is also unusually strong, with compatibility across **Hugging Face Transformers**, **vLLM**, **llama.cpp**, **Ollama**, **MLX**, **NVIDIA NIM**, **Vertex AI**, **Cloud Run**, and **GKE**.\n\nOn raw specs, Gemma 4 is one of the more practical open families released this year. The small models support **128K context**, while the larger **26B A4B** and **31B** models reach **256K context**. Google also says Gemma has been downloaded **400 million+ times** across the family and has spawned **100,000+ variants**, which signals real ecosystem gravity rather than a benchmark-only launch.\n\nThe model architecture is also unusually deployment-aware. The **26B A4B MoE** model exposes **25.2B total parameters** but activates only **3.8B** during inference, which is why it is positioned as the latency-optimized option. At the top end, Google says unquantized **31B bf16** weights fit on a single **80GB NVIDIA H100**, while E2B and E4B are designed for on-device execution and add native audio input.\n\nGemma 4 offers a **Free** plan, with paid tiers starting at **$0**. It is less expensive than average for this category.\n\nIn practice, Gemma 4 is strongest for developers building offline assistants, local multimodal workflows, multilingual apps, and controllable agent systems. The main caveat is that it is still an open model family, not a finished SaaS product, so teams must own inference choices, quantization tradeoffs, safety policy enforcement, and production observability themselves.",
+	"zh": "> **核心摘要：** <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/\" target=\"_blank\">Gemma 4</a> 是 Google DeepMind 推出的开源模型家族，适合需要强推理、多模态输入和可部署智能体工作流的开发者与 AI 团队。它的核心价值在于，用 Apache 2.0 许可提供高智能密度，并同时覆盖本地、边缘和云端部署。\n\n**Gemma 4** 不是普通的开源大模型更新，而是一整套多模态模型家族，包含 **E2B**、**E4B**、**26B A4B MoE** 和 **31B Dense** 四个规格，重点覆盖推理、编程、函数调用和长上下文任务。对采购者来说，真正重要的不是单一模型分数，而是它从手机、笔记本到工作站和云端都能落地的部署阶梯。\n\n它的 AI-First 价值主要体现在自动化上。Google 直接提供 **function calling**、**structured JSON output** 和 **system instructions**，这让 Gemma 4 更容易接入智能体编排、本地 RAG、工具调用助手和离线代码助手。生态兼容性也很强，首发就支持 **Hugging Face Transformers**、**vLLM**、**llama.cpp**、**Ollama**、**MLX**、**NVIDIA NIM**、**Vertex AI**、**Cloud Run** 和 **GKE**。\n\n从硬指标看，Gemma 4 是今年更偏实用派的一组开源模型。小模型支持 **128K 上下文**，较大的 **26B A4B** 和 **31B** 支持 **256K 上下文**。Google 还表示，Gemma 全家族累计下载量已超过 **4 亿次**，衍生变体超过 **10 万个**，这说明它不只是纸面 benchmark 强，而是真正拥有生态势能。\n\n它的架构也很强调部署效率。**26B A4B MoE** 拥有 **25.2B 总参数**，但推理时只激活 **3.8B**，因此更适合追求延迟与吞吐平衡的场景。最高配方面，Google 表示未量化的 **31B bf16** 权重可装进单张 **80GB NVIDIA H100**，而 E2B 和 E4B 则明确面向端侧执行，并支持原生音频输入。\n\nGemma 4 offers a **Free** plan, with paid tiers starting at **$0**. It is less expensive than average for this category.\n\n落地来看，Gemma 4 最适合做离线助手、本地多模态工作流、多语言应用和可控智能体系统。它的主要限制也很明确，它是开源模型家族，不是现成 SaaS，所以推理框架选择、量化策略、安全策略和生产监控仍然需要团队自己负责。",
+	"ja": "> **エグゼクティブサマリー：** <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/\" target=\"_blank\">Gemma 4</a> は、強い推論性能、マルチモーダル入力、そしてホスト型 API に依存しない導入可能なエージェントワークフローを必要とする開発者や AI チーム向けの Google DeepMind のオープンモデル群です。Apache 2.0 のもとで、ローカル、エッジ、クラウドまで展開できる高い知能密度が中核価値です。\n\n**Gemma 4** は単なる新しいオープン LLM ではありません。**E2B**、**E4B**、**26B A4B MoE**、**31B Dense** の 4 サイズで構成される本格的なマルチモーダルモデル群であり、推論、コーディング、function calling、長文脈処理に最適化されています。重要なのは、買い手が 1 つのモデルではなく、スマートフォン、ノート PC、ワークステーション、クラウド基盤へと拡張できる配備の階段を評価している点です。\n\nAI ファーストの価値は、自動化シナリオで明確です。Google は **function calling**、**structured JSON output**、**system instructions** をネイティブ提供しており、Gemma 4 をエージェントパイプライン、ツール利用型コパイロット、ローカル RAG アプリ、オフラインのコーディング支援に組み込みやすくしています。初日からのエコシステム対応も厚く、**Hugging Face Transformers**、**vLLM**、**llama.cpp**、**Ollama**、**MLX**、**NVIDIA NIM**、**Vertex AI**、**Cloud Run**、**GKE** に対応しています。\n\n仕様面でも、Gemma 4 は今年のオープンモデル群の中で実務寄りです。小型モデルは **128K context**、大型の **26B A4B** と **31B** は **256K context** に対応します。さらに Google は、Gemma 系列全体で **4 億回超のダウンロード** と **10 万超の派生バリアント** があると説明しており、単なるベンチマーク訴求ではない実際のエコシステム規模が確認できます。\n\nモデル設計も導入を強く意識しています。**26B A4B MoE** は **25.2B の総パラメータ** を持ちながら、推論時に有効化されるのは **3.8B** のみであり、低遅延志向の選択肢として位置づけられます。上位では、非量子化の **31B bf16** 重みを **80GB NVIDIA H100** 1 枚に収められるとされ、E2B と E4B は端末上実行向けでネイティブ音声入力も備えます。\n\nGemma 4 offers a **Free** plan, with paid tiers starting at **$0**. It is less expensive than average for this category.\n\n実運用では、Gemma 4 はオフラインアシスタント、ローカルマルチモーダルワークフロー、多言語アプリ、制御可能なエージェントシステムの構築に向いています。一方で、完成済み SaaS ではなくオープンモデル群であるため、推論方式、量子化のトレードオフ、安全ポリシー、運用監視は導入側が自ら担う必要があります。",
+	"ko": "> **핵심 요약:** <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/\" target=\"_blank\">Gemma 4</a>는 강한 추론, 멀티모달 입력, 그리고 호스팅 API 종속 없이 배포 가능한 에이전트 워크플로가 필요한 개발자와 AI 팀을 위한 Google DeepMind의 오픈 모델 패밀리다. Apache 2.0 기반으로 로컬, 엣지, 클라우드까지 아우르는 높은 지능 밀도가 핵심 가치다.\n\n**Gemma 4**는 단순한 오픈 LLM 업데이트가 아니다. **E2B**, **E4B**, **26B A4B MoE**, **31B Dense**의 네 가지 크기로 구성된 본격적인 멀티모달 모델군이며, 추론, 코딩, function calling, 장문맥 작업을 겨냥한다. 중요한 점은 사용자가 단일 모델이 아니라 스마트폰, 노트북, 워크스테이션, 클라우드 인프라까지 이어지는 배포 사다리를 평가한다는 것이다.\n\nAI 퍼스트 관점의 가치는 자동화 시나리오에서 분명하다. Google은 **function calling**, **structured JSON output**, **system instructions**를 기본 제공해 Gemma 4를 에이전트 파이프라인, 도구 사용형 코파일럿, 로컬 RAG 앱, 오프라인 코딩 어시스턴트에 쉽게 넣을 수 있게 했다. 출시 시점부터 **Hugging Face Transformers**, **vLLM**, **llama.cpp**, **Ollama**, **MLX**, **NVIDIA NIM**, **Vertex AI**, **Cloud Run**, **GKE**와 호환된다는 점도 강점이다.\n\n스펙만 봐도 Gemma 4는 올해 나온 오픈 모델 중 실전성이 높은 편이다. 소형 모델은 **128K context**를 지원하고, 더 큰 **26B A4B**와 **31B**는 **256K context**까지 올라간다. Google은 Gemma 패밀리 전체가 **4억 회 이상 다운로드** 되었고 **10만 개 이상 변형 모델**이 파생됐다고 밝히며, 이는 단순 벤치마크 출시가 아닌 실제 생태계 영향력을 보여준다.\n\n모델 구조 역시 배포를 강하게 의식했다. **26B A4B MoE**는 **총 25.2B 파라미터**를 가지지만 추론 시 실제 활성화되는 것은 **3.8B**뿐이어서 지연 시간 최적화 옵션으로 포지셔닝된다. 상위 모델 기준으로는 비양자화 **31B bf16** 가중치가 **80GB NVIDIA H100** 한 장에 들어가며, E2B와 E4B는 온디바이스 실행을 염두에 두고 네이티브 오디오 입력도 지원한다.\n\nGemma 4 offers a **Free** plan, with paid tiers starting at **$0**. It is less expensive than average for this category.\n\n실무적으로 Gemma 4는 오프라인 어시스턴트, 로컬 멀티모달 워크플로, 다국어 앱, 제어 가능한 에이전트 시스템을 만드는 개발자에게 가장 적합하다. 다만 완성형 SaaS가 아니라 오픈 모델 패밀리이기 때문에 추론 선택, 양자화 전략, 안전 정책, 운영 가시성은 팀이 직접 책임져야 한다.",
+	"es": "> **Resumen ejecutivo:** <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/\" target=\"_blank\">Gemma 4</a> es la familia de modelos abiertos de Google DeepMind para desarrolladores y equipos de IA que necesitan razonamiento sólido, entrada multimodal y workflows de agentes desplegables sin quedar atados a una API alojada. Su valor central está en una relación inteligencia por parámetro muy alta, con opciones de despliegue local, edge y cloud bajo Apache 2.0.\n\n**Gemma 4** no es solo otro lanzamiento de LLM abierto. Es una familia multimodal completa con cuatro tamaños, **E2B**, **E4B**, **26B A4B MoE** y **31B Dense**, diseñada para razonamiento, programación, function calling y tareas de largo contexto. Esto importa porque los compradores no evalúan un único modelo, sino una escalera de despliegue que va desde teléfonos y portátiles hasta workstations e infraestructura cloud.\n\nEl valor AI-first se ve con claridad en automatización. Google ofrece soporte nativo para **function calling**, **structured JSON output** y **system instructions**, lo que facilita integrar Gemma 4 en pipelines de agentes, copilotos con herramientas, aplicaciones RAG locales y asistentes de código offline. El soporte de ecosistema desde el primer día también es fuerte, con compatibilidad para **Hugging Face Transformers**, **vLLM**, **llama.cpp**, **Ollama**, **MLX**, **NVIDIA NIM**, **Vertex AI**, **Cloud Run** y **GKE**.\n\nEn especificaciones puras, Gemma 4 es una de las familias abiertas más prácticas lanzadas este año. Los modelos pequeños soportan **128K context**, mientras que los modelos grandes **26B A4B** y **31B** alcanzan **256K context**. Google también afirma que la familia Gemma supera las **400 millones de descargas** y ha generado **más de 100.000 variantes**, una señal de tracción real de ecosistema y no solo de marketing de benchmarks.\n\nLa arquitectura también está claramente pensada para despliegue. El modelo **26B A4B MoE** expone **25.2B parámetros totales** pero activa solo **3.8B** durante la inferencia, por eso se presenta como la opción optimizada para latencia. En la gama alta, Google indica que los pesos no cuantizados de **31B bf16** caben en una sola **80GB NVIDIA H100**, mientras que E2B y E4B se orientan a ejecución on-device y añaden entrada de audio nativa.\n\nGemma 4 offers a **Free** plan, with paid tiers starting at **$0**. It is less expensive than average for this category.\n\nEn la práctica, Gemma 4 destaca para desarrolladores que construyen asistentes offline, workflows multimodales locales, aplicaciones multilingües y sistemas de agentes controlables. La principal limitación es clara, porque sigue siendo una familia de modelos abiertos y no un SaaS terminado, así que la elección del motor de inferencia, la cuantización, las políticas de seguridad y la observabilidad en producción quedan del lado del equipo."
+  },
+  "category_id": "fe18c1c0-a4c3-45c0-bb1e-085452fb97e5",
+  "solution_category_id": "0af4fb71-9012-476f-9481-093464fa59b4",
+  "website_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+  "logo_url": "https://assets.linkstartai.com/icon/agents/gemma-4.jpg",
+  "pricing_model": "free",
+  "paid_options_from": "$0",
+  "billing_frequency": "month",
+  "rating": 4.0,
+  "review_count": 0,
+  "supported_languages": [
+	"en",
+	"zh",
+	"ja",
+	"ko",
+	"es"
+  ],
+  "tags_jsonb": {
+	"en": [
+	  "#OpenWeightsLLM",
+	  "#LongContextReasoning",
+	  "#LocalAIAgents",
+	  "#MultimodalInference",
+	  "#FunctionCalling",
+	  "#OfflineCodeAssistant",
+	  "#EdgeAI",
+	  "#Apache2License"
+	],
+	"zh": [
+	  "#开源权重模型",
+	  "#长上下文推理",
+	  "#本地AI智能体",
+	  "#多模态推理",
+	  "#函数调用",
+	  "#离线代码助手",
+	  "#边缘AI",
+	  "#Apache2许可"
+	],
+	"ja": [
+	  "#オープンウェイトLLM",
+	  "#長文脈推論",
+	  "#ローカルAIエージェント",
+	  "#マルチモーダル推論",
+	  "#FunctionCalling",
+	  "#オフラインコード支援",
+	  "#エッジAI",
+	  "#Apache2ライセンス"
+	],
+	"ko": [
+	  "#오픈웨이트LLM",
+	  "#장문맥추론",
+	  "#로컬AI에이전트",
+	  "#멀티모달추론",
+	  "#FunctionCalling",
+	  "#오프라인코드어시스턴트",
+	  "#엣지AI",
+	  "#Apache2라이선스"
+	],
+	"es": [
+	  "#LLMOpenWeights",
+	  "#RazonamientoDeLargoContexto",
+	  "#AgentesIALocales",
+	  "#InferenciaMultimodal",
+	  "#FunctionCalling",
+	  "#AsistenteDeCodigoOffline",
+	  "#EdgeAI",
+	  "#LicenciaApache2"
+	]
+  },
+  "features_jsonb": {
+	"en": [
+	  "Run multimodal reasoning across text, image, video, and small-model audio inputs",
+	  "Process long repositories and documents with up to 256K context",
+	  "Trigger native function calling to automate agent workflows",
+	  "Generate structured JSON outputs for reliable system integration",
+	  "Deploy models locally on phones, laptops, workstations, or cloud stacks",
+	  "Choose dense or MoE variants to balance latency and quality",
+	  "Fine-tune open weights under Apache 2.0 for enterprise control",
+	  "Integrate with vLLM, Ollama, MLX, llama.cpp, and Vertex AI faster"
+	],
+	"zh": [
+	  "在文本、图像、视频和小模型音频输入上运行多模态推理",
+	  "用最高 256K 上下文处理长代码仓库和长文档",
+	  "调用原生 function calling 自动化智能体工作流",
+	  "输出 structured JSON 以便更稳定接入业务系统",
+	  "把模型部署到手机、笔记本、工作站或云环境",
+	  "在 Dense 和 MoE 之间选择延迟与质量平衡方案",
+	  "基于 Apache 2.0 开放权重做企业级定制与微调",
+	  "更快接入 vLLM、Ollama、MLX、llama.cpp 和 Vertex AI"
+	],
+	"ja": [
+	  "テキスト、画像、動画、小型モデルの音声入力でマルチモーダル推論を実行",
+	  "最大 256K context で長いリポジトリや文書を処理",
+	  "ネイティブ function calling でエージェント業務を自動化",
+	  "structured JSON を生成して安定したシステム連携を実現",
+	  "モデルをスマートフォン、ノート PC、ワークステーション、クラウドに展開",
+	  "Dense と MoE を選択して遅延と品質を最適化",
+	  "Apache 2.0 のオープンウェイトを企業管理下で微調整",
+	  "vLLM、Ollama、MLX、llama.cpp、Vertex AI と素早く統合"
+	],
+	"ko": [
+	  "텍스트, 이미지, 영상, 소형 모델 오디오 입력으로 멀티모달 추론 수행",
+	  "최대 256K context로 긴 저장소와 문서를 처리",
+	  "네이티브 function calling으로 에이전트 워크플로를 자동화",
+	  "structured JSON 출력으로 안정적인 시스템 연동 지원",
+	  "모델을 스마트폰, 노트북, 워크스테이션, 클라우드에 배포",
+	  "Dense와 MoE를 선택해 지연 시간과 품질 균형 조정",
+	  "Apache 2.0 오픈 웨이트를 기업 통제 아래 미세조정",
+	  "vLLM, Ollama, MLX, llama.cpp, Vertex AI와 빠르게 통합"
+	],
+	"es": [
+	  "Ejecuta razonamiento multimodal sobre texto, imagen, video y audio en modelos pequeños",
+	  "Procesa repositorios y documentos largos con hasta 256K context",
+	  "Activa function calling nativo para automatizar workflows de agentes",
+	  "Genera structured JSON para integraciones de sistema más fiables",
+	  "Despliega modelos en teléfonos, portátiles, workstations o stacks cloud",
+	  "Elige variantes Dense o MoE para equilibrar latencia y calidad",
+	  "Ajusta open weights bajo Apache 2.0 para mayor control empresarial",
+	  "Integra más rápido con vLLM, Ollama, MLX, llama.cpp y Vertex AI"
+	]
+  },
+  "videos_jsonb": [
+	{
+	  "type": "youtube",
+	  "videoId": "jZVBoFOJK-Q",
+	  "title": "What's new in Gemma 4",
+	  "uploadDate": "2026-04-01T00:00:00Z",
+	  "description": "Official overview of Gemma 4 model sizes, long context, and agentic features.",
+	  "duration": "PT4M00S"
+	}
+  ],
+  "verdict_jsonb": {
+	"en": {
+	  "summary": "<a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/\" target=\"_blank\">Gemma 4</a> is the **most practical choice** for **developers and AI platform teams** who need to **ship open, long-context, multimodal agents across local and cloud environments without API lock-in**. Its biggest advantage is the combination of Apache 2.0 licensing, native agent features, and a real deployment ladder from E2B to 31B. The tradeoff is that production quality still depends on your quantization stack, safety layer, and inference engineering.",
+	  "expert_quote": "LinkStart AI Lab: 'Gemma 4 matters because it is not just benchmark theater. Google packaged long context, function calling, structured output, and broad tooling support into an open family that can actually anchor local-first AI systems.'",
+	  "pros": [
+		"256K context is excellent for repo and document agents",
+		"Apache 2.0 licensing improves enterprise deployment freedom",
+		"Function calling and JSON output help tool automation",
+		"E2B and E4B fit edge and offline scenarios well",
+		"Broad support across Ollama, vLLM, MLX, and Vertex AI",
+		"26B A4B MoE offers strong quality-per-latency economics"
+	  ],
+	  "cons": [
+		"Still requires self-hosting and inference engineering skills",
+		"Community reports show backend quality can vary by runtime",
+		"Open-model safety still needs product-side guardrails",
+		"31B class deployment is not cheap in raw hardware terms",
+		"Audio input works only on smaller E2B and E4B models",
+		"Not a plug-and-play SaaS for nontechnical teams"
+	  ]
+	},
+	"zh": {
+	  "summary": "<a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/\" target=\"_blank\">Gemma 4</a> 是 **最务实的选择**，适合 **开发者和 AI 平台团队** 去 **在不被 API 绑定的前提下，把开源、长上下文、多模态智能体部署到本地和云端环境**。它最强的地方在于 Apache 2.0 许可、原生智能体能力，以及从 E2B 到 31B 的真实部署梯度。它的代价也很清楚，最终效果仍然取决于你的量化方案、安全层和推理工程能力。",
+	  "expert_quote": "LinkStart AI Lab：'Gemma 4 的价值不在于刷榜，而在于 Google 把长上下文、函数调用、结构化输出和广泛工具兼容性，真正打包成了一套能支撑本地优先 AI 系统的开源模型家族。'",
+	  "pros": [
+		"256K 上下文非常适合代码库和文档智能体",
+		"Apache 2.0 许可更利于企业级自主部署",
+		"函数调用和 JSON 输出适合工具自动化",
+		"E2B 和 E4B 很适合端侧和离线场景",
+		"兼容 Ollama、vLLM、MLX 和 Vertex AI",
+		"26B A4B MoE 兼顾质量、延迟与成本"
+	  ],
+	  "cons": [
+		"仍然需要自托管和推理工程能力",
+		"社区反馈显示不同后端质量存在差异",
+		"开源模型安全性仍需产品侧补护栏",
+		"31B 级别部署对硬件仍有明显成本",
+		"音频输入仅支持 E2B 和 E4B",
+		"对非技术团队并不是开箱即用 SaaS"
+	  ]
+	},
+	"ja": {
+	  "summary": "<a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/\" target=\"_blank\">Gemma 4</a> は、**開発者と AI プラットフォームチーム** が **API ロックインなしで、オープンかつ長文脈対応のマルチモーダルエージェントをローカルとクラウドへ展開したい場合** に最も実務的な選択肢です。Apache 2.0 ライセンス、ネイティブなエージェント機能、E2B から 31B までの明確な配備階段を兼ね備える点が強みです。一方で、本番品質は量子化構成、安全レイヤー、推論基盤の設計に左右されます。",
+	  "expert_quote": "LinkStart AI Lab: 'Gemma 4 が重要なのは、単なるベンチマーク競争ではないからです。Google は長文脈、function calling、structured output、広いツール対応を、ローカルファーストの AI システムを支える実用的なオープンモデル群としてまとめ上げました。'",
+	  "pros": [
+		"256K context はリポジトリや文書エージェントに最適",
+		"Apache 2.0 が企業導入の自由度を高める",
+		"Function calling と JSON 出力で自動化しやすい",
+		"E2B と E4B はエッジやオフライン用途に適する",
+		"Ollama、vLLM、MLX、Vertex AI まで幅広く対応",
+		"26B A4B MoE は遅延対品質の効率が高い"
+	  ],
+	  "cons": [
+		"自前運用と推論基盤の知見が必要",
+		"実行環境ごとに品質差が出る可能性がある",
+		"安全対策は製品側で追加実装が必要",
+		"31B 級の導入はハードウェア費用が重い",
+		"音声入力は E2B と E4B のみ対応",
+		"非技術部門向けの即導入 SaaS ではない"
+	  ]
+	},
+	"ko": {
+	  "summary": "<a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/\" target=\"_blank\">Gemma 4</a>는 **개발자와 AI 플랫폼 팀** 이 **API 종속 없이 오픈 장문맥 멀티모달 에이전트를 로컬과 클라우드 전반에 배포해야 할 때** 가장 실용적인 선택지다. Apache 2.0 라이선스, 네이티브 에이전트 기능, E2B부터 31B까지 이어지는 실제 배포 계단이 강점이다. 다만 운영 품질은 양자화 스택, 안전 레이어, 추론 엔지니어링 역량에 여전히 좌우된다.",
+	  "expert_quote": "LinkStart AI Lab: 'Gemma 4가 중요한 이유는 단순한 벤치마크 과시가 아니기 때문이다. Google은 장문맥, function calling, structured output, 폭넓은 도구 지원을 로컬 퍼스트 AI 시스템의 기반이 되는 오픈 모델 패밀리로 묶어냈다.'",
+	  "pros": [
+		"256K context는 저장소와 문서 에이전트에 강하다",
+		"Apache 2.0 라이선스가 기업 배포 자유도를 높인다",
+		"Function calling과 JSON 출력이 자동화에 유리하다",
+		"E2B와 E4B는 엣지와 오프라인 환경에 적합하다",
+		"Ollama, vLLM, MLX, Vertex AI까지 폭넓게 지원",
+		"26B A4B MoE는 지연 대비 품질 효율이 좋다"
+	  ],
+	  "cons": [
+		"셀프호스팅과 추론 엔지니어링 역량이 필요하다",
+		"런타임에 따라 품질 차이가 발생할 수 있다",
+		"오픈 모델 안전성은 제품 측 보강이 필요하다",
+		"31B급 배포는 하드웨어 비용이 가볍지 않다",
+		"오디오 입력은 E2B와 E4B만 지원한다",
+		"비기술 팀용 즉시 사용 SaaS는 아니다"
+	  ]
+	},
+	"es": {
+	  "summary": "<a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/\" target=\"_blank\">Gemma 4</a> es la **opción más práctica** para **desarrolladores y equipos de plataforma de IA** que necesitan **desplegar agentes abiertos, multimodales y de largo contexto entre entornos locales y cloud sin depender de un API lock-in**. Su mayor ventaja combina licencia Apache 2.0, funciones nativas para agentes y una escalera real de despliegue desde E2B hasta 31B. La contrapartida es que la calidad en producción sigue dependiendo de tu estrategia de cuantización, la capa de seguridad y la ingeniería de inferencia.",
+	  "expert_quote": "LinkStart AI Lab: 'Gemma 4 importa porque no es solo teatro de benchmarks. Google empaquetó largo contexto, function calling, structured output y un soporte amplio de herramientas en una familia abierta capaz de sostener sistemas de IA local-first.'",
+	  "pros": [
+		"256K context va muy bien para agentes de repositorios",
+		"Apache 2.0 mejora la libertad de despliegue empresarial",
+		"Function calling y JSON ayudan a automatizar herramientas",
+		"E2B y E4B encajan en edge y escenarios offline",
+		"Amplio soporte en Ollama, vLLM, MLX y Vertex AI",
+		"26B A4B MoE ofrece buena economía calidad latencia"
+	  ],
+	  "cons": [
+		"Exige self-hosting y habilidades de inferencia",
+		"La calidad puede variar según el runtime usado",
+		"La seguridad del modelo abierto requiere guardrails propios",
+		"Desplegar 31B no es barato en hardware real",
+		"La entrada de audio solo funciona en E2B y E4B",
+		"No es un SaaS plug and play para equipos no técnicos"
+	  ]
+	}
+  },
+  "faqs_jsonb": [
+	{
+	  "question": {
+		"en": "Gemma 4 vs Qwen 3.5 27B: which is better for local agent workflows?",
+		"zh": "Gemma 4 和 Qwen 3.5 27B 相比，谁更适合本地智能体工作流？",
+		"ja": "Gemma 4 と Qwen 3.5 27B は、ローカルエージェントのワークフローではどちらが優れていますか。",
+		"ko": "Gemma 4와 Qwen 3.5 27B 중 로컬 에이전트 워크플로에는 무엇이 더 적합한가요.",
+		"es": "Gemma 4 vs Qwen 3.5 27B: ¿cuál es mejor para workflows de agentes locales?"
+	  },
+	  "answer": {
+		"en": "The core difference is control versus raw local speed. While Qwen 3.5 27B is often favored by local inference users for mature runtimes, Gemma 4 has a stronger official agent stack with native function calling, structured JSON output, Apache 2.0 licensing, and up to 256K context.",
+		"zh": "核心差异在于可控性和本地推理速度。虽然 Qwen 3.5 27B 在本地推理社区里常被认为运行更成熟，但 Gemma 4 在官方能力上更偏智能体导向，具备原生 function calling、structured JSON output、Apache 2.0 许可，以及最高 256K 上下文。",
+		"ja": "中核の違いは、統制性と純粋なローカル推論速度です。Qwen 3.5 27B は成熟した実行環境を理由にローカル利用者から評価されやすい一方、Gemma 4 はネイティブ function calling、structured JSON output、Apache 2.0 ライセンス、最大 256K context を備えた公式エージェント基盤が強みです。",
+		"ko": "핵심 차이는 통제력과 순수 로컬 속도다. Qwen 3.5 27B는 성숙한 런타임 때문에 로컬 추론 사용자에게 자주 선호되지만, Gemma 4는 네이티브 function calling, structured JSON output, Apache 2.0 라이선스, 최대 256K context를 갖춘 공식 에이전트 스택이 더 강하다.",
+		"es": "La diferencia central es control frente a velocidad local bruta. Mientras Qwen 3.5 27B suele gustar más a quienes priorizan runtimes maduros en local, Gemma 4 ofrece un stack oficial de agentes más sólido con function calling nativo, structured JSON output, licencia Apache 2.0 y hasta 256K context."
+	  }
+	},
+	{
+	  "question": {
+		"en": "What are the biggest real-world concerns from the community around Gemma 4?",
+		"zh": "社区对 Gemma 4 最真实的落地顾虑是什么？",
+		"ja": "Gemma 4 について、コミュニティが現実的に懸念している点は何ですか。",
+		"ko": "Gemma 4를 둘러싼 커뮤니티의 실제 우려는 무엇인가요.",
+		"es": "¿Cuáles son las preocupaciones más reales de la comunidad sobre Gemma 4?"
+	  },
+	  "answer": {
+		"en": "The biggest concerns are runtime variance and safety hardening. Early community feedback says some **MLX** builds look worse than **GGUF** or other runtimes, and security researchers showed prompt-defense weaknesses quickly after release. The practical workaround is to benchmark your exact stack and add your own safety filters.",
+		"zh": "最大的顾虑是运行时差异和安全加固。早期社区反馈认为，部分 **MLX** 版本的效果不如 **GGUF** 或其他运行时，同时也有人在发布后很快展示了提示防护弱点。最现实的做法，是用你的真实栈做基准测试，并补上自己的安全过滤层。",
+		"ja": "最大の懸念は、ランタイム差による性能変動と安全対策の強化です。初期のコミュニティ報告では、一部の **MLX** 実装が **GGUF** や他の実行環境より見劣りするという指摘があり、公開直後にはプロンプト防御の弱さも示されました。現実的な対策は、自社スタックで検証し、独自の安全フィルタを加えることです。",
+		"ko": "가장 큰 우려는 런타임 편차와 안전성 보강이다. 초기 커뮤니티 피드백에서는 일부 **MLX** 빌드가 **GGUF**나 다른 런타임보다 성능이 떨어진다는 말이 나왔고, 출시 직후 보안 연구자들은 프롬프트 방어 약점도 지적했다. 현실적인 대응은 실제 스택으로 벤치마크하고 자체 안전 필터를 추가하는 것이다.",
+		"es": "Las mayores preocupaciones son la variabilidad entre runtimes y el refuerzo de seguridad. Los primeros comentarios de la comunidad indican que algunos builds de **MLX** rinden peor que **GGUF** u otros runtimes, y además se detectaron debilidades tempranas en defensas de prompts. La respuesta práctica es medir tu stack exacto y añadir filtros de seguridad propios."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Is Gemma 4 really free, and what is the hidden deployment cost?",
+		"zh": "Gemma 4 真的免费吗，隐藏部署成本是什么？",
+		"ja": "Gemma 4 は本当に無料ですか。また隠れた導入コストは何ですか。",
+		"ko": "Gemma 4는 정말 무료인가요, 숨은 배포 비용은 무엇인가요.",
+		"es": "¿Gemma 4 es realmente gratis y cuál es el coste oculto del despliegue?"
+	  },
+	  "answer": {
+		"en": "Yes. Gemma 4 is released under Apache 2.0 with open weights, but hardware is the real cost center. Google says unquantized 31B bf16 can fit on a single 80GB H100, while local users still need to plan around VRAM, quantization, and inference backend tradeoffs.",
+		"zh": "是的。Gemma 4 以 Apache 2.0 开放权重发布，但真正的成本在硬件。Google 明确表示未量化的 31B bf16 可装进单张 80GB H100，而本地部署仍然要认真规划显存、量化方案和推理后端。",
+		"ja": "はい。Gemma 4 は Apache 2.0 のもとでオープンウェイトとして公開されていますが、実際のコスト中心はハードウェアです。Google は非量子化の 31B bf16 が 80GB H100 1 枚に収まると説明しており、ローカル運用では VRAM、量子化、推論バックエンドの設計が重要になります。",
+		"ko": "그렇다. Gemma 4는 Apache 2.0 기반 오픈 웨이트로 공개되지만 실제 비용 중심은 하드웨어다. Google은 비양자화 31B bf16이 단일 80GB H100에 들어간다고 밝혔고, 로컬 사용자는 VRAM, 양자화, 추론 백엔드의 절충을 직접 설계해야 한다.",
+		"es": "Sí. Gemma 4 se publica con open weights bajo Apache 2.0, pero el verdadero centro de coste es el hardware. Google indica que 31B bf16 sin cuantizar cabe en una sola 80GB H100, mientras que en local todavía hay que planificar VRAM, cuantización y backend de inferencia."
+	  }
+	},
+	{
+	  "question": {
+		"en": "How does Gemma 4 fit into a modern AI engineering stack?",
+		"zh": "Gemma 4 如何接入现代 AI 工程技术栈？",
+		"ja": "Gemma 4 は現代的な AI エンジニアリングスタックにどう組み込めますか。",
+		"ko": "Gemma 4는 현대 AI 엔지니어링 스택에 어떻게 들어가나요.",
+		"es": "¿Cómo encaja Gemma 4 en un stack moderno de ingeniería de IA?"
+	  },
+	  "answer": {
+		"en": "It fits very well. Gemma 4 supports **Hugging Face Transformers**, **vLLM**, **llama.cpp**, **Ollama**, **MLX**, **NVIDIA NIM**, **Vertex AI**, **Cloud Run**, and **GKE**, so it can anchor local copilots, RAG systems, agent backends, and hybrid edge-cloud deployments.",
+		"zh": "非常适合。Gemma 4 兼容 **Hugging Face Transformers**、**vLLM**、**llama.cpp**、**Ollama**、**MLX**、**NVIDIA NIM**、**Vertex AI**、**Cloud Run** 和 **GKE**，因此能直接作为本地 copilot、RAG 系统、智能体后端和边云混合部署的核心模型。",
+		"ja": "非常によく適合します。Gemma 4 は **Hugging Face Transformers**、**vLLM**、**llama.cpp**、**Ollama**、**MLX**、**NVIDIA NIM**、**Vertex AI**、**Cloud Run**、**GKE** をサポートしており、ローカルコパイロット、RAG システム、エージェント基盤、エッジとクラウドのハイブリッド展開の中核に置けます。",
+		"ko": "매우 잘 맞는다. Gemma 4는 **Hugging Face Transformers**, **vLLM**, **llama.cpp**, **Ollama**, **MLX**, **NVIDIA NIM**, **Vertex AI**, **Cloud Run**, **GKE**를 지원하므로 로컬 코파일럿, RAG 시스템, 에이전트 백엔드, 하이브리드 엣지 클라우드 배포의 핵심 모델로 쓸 수 있다.",
+		"es": "Encaja muy bien. Gemma 4 soporta **Hugging Face Transformers**, **vLLM**, **llama.cpp**, **Ollama**, **MLX**, **NVIDIA NIM**, **Vertex AI**, **Cloud Run** y **GKE**, por lo que puede actuar como base de copilotos locales, sistemas RAG, backends de agentes y despliegues híbridos edge-cloud."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Will Gemma 4 use my private code or enterprise data for training?",
+		"zh": "Gemma 4 会把我的私有代码或企业数据拿去训练吗？",
+		"ja": "Gemma 4 は私の機密コードや企業データを学習に使いますか。",
+		"ko": "Gemma 4가 내 비공개 코드나 기업 데이터를 학습에 쓰나요.",
+		"es": "¿Gemma 4 usará mi código privado o datos empresariales para entrenamiento?"
+	  },
+	  "answer": {
+		"en": "No, not if you self-host it. Gemma 4 is an open model family, so when you run it on your own infrastructure, data control depends on your stack, not Google's hosted retention policy. That is one of its main enterprise advantages.",
+		"zh": "不会，前提是你自己部署。Gemma 4 是开源模型家族，所以只要运行在你的基础设施里，数据控制权就在你的系统栈，而不是 Google 的托管保留策略。这正是它对企业最重要的优势之一。",
+		"ja": "いいえ。自社でホストする限り、Gemma 4 があなたの機密データを自動的に学習へ再利用することはありません。Gemma 4 はオープンモデル群であり、独自基盤で動かす場合のデータ統制は Google の保持方針ではなく、自社スタック側にあります。これは企業導入上の大きな利点です。",
+		"ko": "아니다. 직접 호스팅한다면 Gemma 4가 비공개 데이터를 자동으로 학습에 재사용하는 구조는 아니다. Gemma 4는 오픈 모델 패밀리이므로 자체 인프라에서 실행할 때 데이터 통제권은 Google의 호스팅 보존 정책이 아니라 당신의 스택에 달려 있다. 이것이 기업 관점의 큰 장점이다.",
+		"es": "No, siempre que lo despliegues por tu cuenta. Gemma 4 es una familia de modelos abiertos, así que cuando corre en tu propia infraestructura el control de datos depende de tu stack y no de una política de retención alojada por Google. Esa es una de sus principales ventajas empresariales."
+	  }
+	},
+	{
+	  "question": {
+		"en": "Can Gemma 4 handle niche multimodal workflows like OCR, document parsing, or speech translation offline?",
+		"zh": "Gemma 4 能否离线处理 OCR、文档解析或语音翻译这类长尾多模态场景？",
+		"ja": "Gemma 4 は OCR、文書解析、音声翻訳のようなニッチなマルチモーダル業務をオフラインで扱えますか。",
+		"ko": "Gemma 4는 OCR, 문서 파싱, 음성 번역 같은 니치 멀티모달 워크플로를 오프라인으로 처리할 수 있나요.",
+		"es": "¿Puede Gemma 4 manejar offline workflows multimodales de nicho como OCR, parsing documental o traducción de voz?"
+	  },
+	  "answer": {
+		"en": "Yes, with model-size caveats. Gemma 4 supports OCR, document and chart understanding, and the small **E2B** and **E4B** models add native audio for ASR and speech translation. Audio tops out at 30 seconds and video at 60 seconds, so longer pipelines still need chunking.",
+		"zh": "可以，但要看模型规格。Gemma 4 支持 OCR、文档和图表理解，而小模型 **E2B** 和 **E4B** 还支持原生音频，可做 ASR 和语音翻译。它的音频上限是 30 秒，视频上限是 60 秒，因此更长流程仍然需要分段处理。",
+		"ja": "はい。ただしモデルサイズによる制約があります。Gemma 4 は OCR、文書、図表理解に対応し、小型の **E2B** と **E4B** は ASR や音声翻訳向けのネイティブ音声入力も扱えます。音声は 30 秒、動画は 60 秒が上限のため、より長い処理では分割設計が必要です。",
+		"ko": "가능하다. 다만 모델 크기 제약은 있다. Gemma 4는 OCR, 문서와 차트 이해를 지원하고 소형 **E2B**와 **E4B**는 ASR과 음성 번역용 네이티브 오디오 입력도 제공한다. 오디오는 30초, 비디오는 60초가 상한이어서 더 긴 파이프라인은 청크 분할이 필요하다.",
+		"es": "Sí, aunque con limitaciones según el tamaño del modelo. Gemma 4 soporta OCR, comprensión documental y de gráficos, y los modelos pequeños **E2B** y **E4B** añaden audio nativo para ASR y traducción de voz. El audio llega a 30 segundos y el video a 60 segundos, así que los flujos más largos requieren particionado."
+	  }
+	}
+  ],
+  "comparison_table_jsonb": {
+	"en": {
+	  "reason": "We selected **Qwen 3.5 27B** because real buyers comparing **Gemma 4** usually care about **open deployment, local inference quality, and agent integration** rather than brand alone. Gemma 4 is strongest when **license flexibility, long context, multimodal support, and official agent features** matter more than squeezing maximum community-tuned throughput from local stacks.",
+	  "caption": "Gemma 4 vs Qwen 3.5 27B for Open Agent Workflows",
+	  "columns": [
+		"Dimension",
+		"[Gemma 4](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/)",
+		"[Qwen 3.5 27B](https://qwenlm.github.io/)"
+	  ],
+	  "rows": [
+		[
+		  "Core Use Case",
+		  "**Best for open multimodal agents** with long context and official function calling",
+		  "**Best for local LLM users** prioritizing mature community inference workflows"
+		],
+		[
+		  "Differentiation",
+		  "**Apache 2.0, JSON output, and system instructions** make orchestration cleaner",
+		  "**Strong local ecosystem mindshare** helps when tuning community-first stacks"
+		],
+		[
+		  "Performance And Limits",
+		  "**Up to 256K context** and **2150 Codeforces ELO** on 31B are standout metrics",
+		  "**Can feel faster in some local runtimes** based on early community comparisons"
+		],
+		[
+		  "Multimodal Scope",
+		  "**Text, image, video, plus audio on E2B and E4B** covers broader edge use cases",
+		  "**Strong text reasoning reputation** but less differentiated here on official multimodal packaging"
+		],
+		[
+		  "Ecosystem And Setup",
+		  "**Hugging Face, vLLM, Ollama, MLX, Vertex AI, Cloud Run, GKE** are all supported",
+		  "**Very popular in self-hosted circles** but integration paths vary more by stack"
+		],
+		[
+		  "ROI For Builders",
+		  "**Best ROI for teams needing controllable open agents** and enterprise deployment freedom",
+		  "**Best ROI for hackers optimizing local tokens-per-second** and community recipes"
+		]
+	  ],
+	  "tldr": "**Choose Gemma 4** if you need **license clarity, 256K context, multimodal breadth, and cleaner agent primitives**. **Choose Qwen 3.5 27B** if you care more about **community-tuned local inference behavior and hands-on performance tweaking**."
+	},
+	"zh": {
+	  "reason": "我们选择 **Qwen 3.5 27B** 作为核心竞品，因为评估 **Gemma 4** 的真实买家，最关心的往往是 **开源部署、本地推理质量和智能体集成能力**，而不只是品牌。Gemma 4 最强的地方，在于 **许可清晰、长上下文、多模态能力和官方级智能体特性**，而不是单纯追求社区调优后的极限本地吞吐。",
+	  "caption": "Gemma 4 与 Qwen 3.5 27B 在开源智能体工作流上的对比",
+	  "columns": [
+		"对比维度",
+		"[Gemma 4](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/)",
+		"[Qwen 3.5 27B](https://qwenlm.github.io/)"
+	  ],
+	  "rows": [
+		[
+		  "核心场景",
+		  "**更适合开源多模态智能体**，强调长上下文和官方函数调用",
+		  "**更适合本地 LLM 玩家**，强调成熟的社区推理工作流"
+		],
+		[
+		  "差异化杀手锏",
+		  "**Apache 2.0、JSON 输出和 system instructions** 让编排更顺手",
+		  "**本地社区生态声量更强**，更适合重度手动调优"
+		],
+		[
+		  "性能表现与限制",
+		  "**最高 256K 上下文**，31B 还有 **2150 Codeforces ELO** 这样的亮点指标",
+		  "**在部分本地运行时可能更快**，这是早期社区对比中的常见结论"
+		],
+		[
+		  "多模态覆盖",
+		  "**文本、图像、视频，小模型还支持音频**，更适合边缘场景",
+		  "**文本推理口碑很强**，但官方多模态包装不如 Gemma 4 明确"
+		],
+		[
+		  "生态与上手门槛",
+		  "**兼容 Hugging Face、vLLM、Ollama、MLX、Vertex AI、Cloud Run、GKE**",
+		  "**在自托管圈很流行**，但具体接入路径更依赖个人栈"
+		],
+		[
+		  "综合 ROI",
+		  "**更适合需要可控开源智能体** 和企业级部署自由度的团队",
+		  "**更适合追求本地 tokens-per-second** 和社区方案的极客用户"
+		]
+	  ],
+	  "tldr": "**选 Gemma 4**：如果你更看重 **许可证清晰、256K 上下文、多模态能力和更干净的智能体原语**。**选 Qwen 3.5 27B**：如果你更在意 **社区调优后的本地推理体验和动手调参空间**。"
+	},
+	"ja": {
+	  "reason": "**Qwen 3.5 27B** を選んだ理由は、**Gemma 4** を比較する実際の導入候補者が、ブランド名以上に **オープン配備、ローカル推論品質、エージェント統合** を重視するためです。Gemma 4 は、**ライセンスの明確さ、長文脈、マルチモーダル性、公式エージェント機能** を重視する場面で特に強みを発揮します。",
+	  "caption": "Gemma 4 と Qwen 3.5 27B のオープンエージェント用途比較",
+	  "columns": [
+		"比較項目",
+		"[Gemma 4](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/)",
+		"[Qwen 3.5 27B](https://qwenlm.github.io/)"
+	  ],
+	  "rows": [
+		[
+		  "主な用途",
+		  "**長文脈と公式 function calling を備えたオープンなマルチモーダルエージェント向け**",
+		  "**成熟したコミュニティ推論フローを重視するローカル LLM 利用者向け**"
+		],
+		[
+		  "差別化要素",
+		  "**Apache 2.0、JSON 出力、system instructions** により編成がしやすい",
+		  "**ローカルコミュニティでの存在感が強く** 調整ノウハウを得やすい"
+		],
+		[
+		  "性能と制約",
+		  "**最大 256K context** と **31B での 2150 Codeforces ELO** が強い指標",
+		  "**一部ローカルランタイムではより高速に感じられる** との比較報告がある"
+		],
+		[
+		  "マルチモーダル範囲",
+		  "**テキスト、画像、動画に加え E2B と E4B で音声対応** と幅が広い",
+		  "**テキスト推論の評価は高い** が公式のマルチモーダル整理はやや控えめ"
+		],
+		[
+		  "エコシステムと導入性",
+		  "**Hugging Face、vLLM、Ollama、MLX、Vertex AI、Cloud Run、GKE** に対応",
+		  "**セルフホスト界隈で人気が高い** が構成手順はスタック依存が強い"
+		],
+		[
+		  "構築者にとっての ROI",
+		  "**制御可能なオープンエージェント** と企業導入の自由度を求めるチーム向け",
+		  "**ローカル tokens-per-second** とコミュニティレシピを重視する開発者向け"
+		]
+	  ],
+	  "tldr": "**Gemma 4 を選ぶべきなのは**、**ライセンスの明確さ、256K context、広いマルチモーダル対応、整理されたエージェント機能** を求める場合です。**Qwen 3.5 27B を選ぶべきなのは**、**コミュニティ調整済みのローカル推論挙動と細かな性能チューニング** を重視する場合です。"
+	},
+	"ko": {
+	  "reason": "**Qwen 3.5 27B**를 비교 대상으로 선택한 이유는 **Gemma 4**를 검토하는 실제 구매자들이 브랜드보다 **오픈 배포, 로컬 추론 품질, 에이전트 통합성** 을 더 중요하게 보기 때문이다. Gemma 4는 **라이선스 명확성, 장문맥, 멀티모달 지원, 공식 에이전트 기능** 이 중요할 때 가장 강하다.",
+	  "caption": "오픈 에이전트 워크플로를 위한 Gemma 4와 Qwen 3.5 27B 비교",
+	  "columns": [
+		"비교 항목",
+		"[Gemma 4](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/)",
+		"[Qwen 3.5 27B](https://qwenlm.github.io/)"
+	  ],
+	  "rows": [
+		[
+		  "핵심 사용 시나리오",
+		  "**장문맥과 공식 function calling을 갖춘 오픈 멀티모달 에이전트** 에 적합",
+		  "**성숙한 커뮤니티 추론 워크플로를 중시하는 로컬 LLM 사용자** 에 적합"
+		],
+		[
+		  "차별화 포인트",
+		  "**Apache 2.0, JSON 출력, system instructions** 로 오케스트레이션이 깔끔하다",
+		  "**강한 로컬 생태계 점유감** 으로 커뮤니티 중심 튜닝에 유리하다"
+		],
+		[
+		  "성능과 한계",
+		  "**최대 256K context** 와 **31B 기준 2150 Codeforces ELO** 가 두드러진다",
+		  "**일부 로컬 런타임에서는 더 빠르게 느껴질 수 있다** 는 초기 비교가 있다"
+		],
+		[
+		  "멀티모달 범위",
+		  "**텍스트, 이미지, 영상, 그리고 E2B와 E4B의 오디오** 까지 폭이 넓다",
+		  "**텍스트 추론 평판은 강하지만** 공식 멀티모달 패키징은 상대적으로 덜 강조된다"
+		],
+		[
+		  "생태계와 도입 난이도",
+		  "**Hugging Face, vLLM, Ollama, MLX, Vertex AI, Cloud Run, GKE** 를 지원한다",
+		  "**셀프호스팅 커뮤니티에서 매우 인기 있지만** 통합 경로는 스택별 편차가 크다"
+		],
+		[
+		  "빌더 관점 ROI",
+		  "**통제 가능한 오픈 에이전트** 와 기업 배포 자유도가 필요한 팀에 적합",
+		  "**로컬 tokens-per-second** 와 커뮤니티 레시피 최적화를 즐기는 사용자에 적합"
+		]
+	  ],
+	  "tldr": "**Gemma 4를 선택해야 하는 경우** 는 **라이선스 명확성, 256K context, 멀티모달 범위, 더 깔끔한 에이전트 프리미티브** 가 중요할 때다. **Qwen 3.5 27B를 선택해야 하는 경우** 는 **커뮤니티 튜닝 기반 로컬 추론 특성과 직접 성능을 만지는 경험** 이 더 중요할 때다."
+	},
+	"es": {
+	  "reason": "Seleccionamos **Qwen 3.5 27B** porque los compradores reales que comparan **Gemma 4** suelen priorizar **despliegue abierto, calidad de inferencia local e integración con agentes** más que la marca. Gemma 4 destaca cuando pesan más **la claridad de licencia, el largo contexto, el soporte multimodal y las funciones oficiales de agentes** que exprimir el máximo rendimiento comunitario en local.",
+	  "caption": "Gemma 4 vs Qwen 3.5 27B para workflows de agentes abiertos",
+	  "columns": [
+		"Dimensión",
+		"[Gemma 4](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/)",
+		"[Qwen 3.5 27B](https://qwenlm.github.io/)"
+	  ],
+	  "rows": [
+		[
+		  "Caso de uso principal",
+		  "**Mejor para agentes multimodales abiertos** con largo contexto y function calling oficial",
+		  "**Mejor para usuarios de LLM local** que priorizan workflows comunitarios maduros"
+		],
+		[
+		  "Diferenciación",
+		  "**Apache 2.0, salida JSON y system instructions** limpian la orquestación",
+		  "**Fuerte presencia en el ecosistema local** para tuning guiado por comunidad"
+		],
+		[
+		  "Rendimiento y límites",
+		  "**Hasta 256K context** y **2150 Codeforces ELO en 31B** son métricas destacadas",
+		  "**Puede sentirse más rápido en algunos runtimes locales** según comparativas tempranas"
+		],
+		[
+		  "Alcance multimodal",
+		  "**Texto, imagen, video y audio en E2B y E4B** cubren más casos edge",
+		  "**Buena reputación en razonamiento textual** pero menor diferenciación en empaquetado multimodal oficial"
+		],
+		[
+		  "Ecosistema y puesta en marcha",
+		  "**Hugging Face, vLLM, Ollama, MLX, Vertex AI, Cloud Run y GKE** están soportados",
+		  "**Muy popular en entornos self-hosted** aunque la integración depende más del stack"
+		],
+		[
+		  "ROI para builders",
+		  "**Mejor ROI para equipos que necesitan agentes abiertos controlables** y libertad empresarial",
+		  "**Mejor ROI para perfiles que optimizan tokens-per-second locales** y recetas de comunidad"
+		]
+	  ],
+	  "tldr": "**Elige Gemma 4** si necesitas **claridad de licencia, 256K context, amplitud multimodal y primitivas de agentes más limpias**. **Elige Qwen 3.5 27B** si valoras más **el comportamiento local afinado por la comunidad y el ajuste manual del rendimiento**."
+	}
+  },
+  "seo_title_jsonb": {
+	"en": "Gemma 4 Review 2026: Pricing, Pros & Cons, Alternatives",
+	"zh": "Gemma 4 怎么样？2026 最新评测：价格、优缺点与竞品对比",
+	"ja": "【徹底レビュー】Gemma 4 の評判は？料金・強み弱み・代替候補",
+	"ko": "Gemma 4 솔직 후기: 가격, 장단점 및 추천 대안 완벽 정리",
+	"es": "Opiniones de Gemma 4: Precio, Ventajas y Alternativas"
+  },
+  "seo_description_jsonb": {
+	"en": "Gemma 4 Review 2026: explore Pricing, Free Tier economics, 256K context, multimodal agents, and whether it beats Qwen 3.5 for open deployment.",
+	"zh": "Gemma 4 评测 2026：快速看 Pricing、Free Tier 成本、256K 上下文、多模态智能体，以及它是否比 Qwen 3.5 更适合开源部署。",
+	"ja": "Gemma 4 の 2026 年レビュー。Pricing、Free Tier、256K context、マルチモーダルエージェント、Qwen 3.5 との違いを実務視点で確認できます。",
+	"ko": "Gemma 4 2026 리뷰. Pricing, Free Tier 비용 구조, 256K context, 멀티모달 에이전트, Qwen 3.5 대비 오픈 배포 적합성을 빠르게 확인할 수 있다.",
+	"es": "Review de Gemma 4 en 2026: Pricing, Free Tier, 256K context, agentes multimodales y si supera a Qwen 3.5 en despliegue abierto."
+  }
+}
